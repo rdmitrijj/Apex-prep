@@ -25,3 +25,18 @@ def test_local_url_untouched_except_driver() -> None:
         "postgresql+asyncpg://apex:apex@localhost:5432/apex",
         {},
     )
+
+
+def test_blank_env_values_mean_unset(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    import pytest
+
+    from app.core.config import DEV_SECRET, Settings
+
+    monkeypatch.setenv("SECRET_KEY", "")
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "")
+    monkeypatch.setenv("RENDER", "false")
+    s = Settings(_env_file=None)  # type: ignore[call-arg]
+    assert s.secret_key == DEV_SECRET and s.anthropic_api_key is None
+    monkeypatch.setenv("RENDER", "true")
+    with pytest.raises(ValueError):
+        Settings(_env_file=None)  # type: ignore[call-arg]

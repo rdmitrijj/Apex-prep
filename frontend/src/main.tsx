@@ -4,6 +4,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { App } from "./App";
 import { ServerGate } from "./components/ServerGate";
+import "katex/dist/katex.min.css";
 import "./index.css";
 
 const queryClient = new QueryClient();

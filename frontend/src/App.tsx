@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useMe } from "./api/auth";
 import { AuthPage } from "./pages/AuthPage";
+import { Drill } from "./pages/Drill";
 import { Home } from "./pages/Home";
 
 function RequireAuth({ children }: { children: ReactNode }) {
@@ -20,6 +21,14 @@ export function App() {
         element={
           <RequireAuth>
             <Home />
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="/drill"
+        element={
+          <RequireAuth>
+            <Drill />
           </RequireAuth>
         }
       />

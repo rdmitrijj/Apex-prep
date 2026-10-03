@@ -3,7 +3,7 @@
 Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 (also eligible: 2026-11-07); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used; Anthropic key arrives before M3, so the R&W pipeline must read it from env and fall back to the seed bank). M1 done; next: M2.
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used; Anthropic key arrives before M3, so the R&W pipeline must read it from env and fall back to the seed bank). M1–M2 done; next: M3.
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
@@ -24,12 +24,14 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 
 ## Commands
 - DB: `docker compose up -d db` (tests create/wipe `apex_test` themselves)
-- Backend: `cd backend && uv run pytest -q`, `uv run ruff check . && uv run ruff format --check .`, `uv run mypy`
+- Backend: `cd backend && uv run pytest -q` (`GEN_SEEDS=20` speeds up the generator suite; CI runs the default 200), `uv run ruff check . && uv run ruff format --check .`, `uv run mypy`
 - New migration: `uv run alembic revision --autogenerate -m <slug>`, then rename the file to `NNNN_<slug>.py` and set `revision = "NNNN"`.
 - Frontend: `cd frontend && yarn lint && yarn typecheck && yarn test`
 - E2E: start the app (compose, or `docker build -t apex-prep . && docker run …`), then `BASE_URL=… yarn e2e`
 
 ## Gotchas
+- Generators: SymPy auto-distributes `3*(x+2)` into `3x+6`, so stems that must show the unexpanded form build their LaTeX by hand. Compare SymPy numbers with `==` only against Rationals (`Integer(2) == 2.0` is False in SymPy ≥1.13).
+- Seed data (`python -m app.seed`) runs on every container start and is idempotent via `questions.content_hash`.
 - Session cookie is always `Secure`. Browsers allow that on http://localhost, but httpx tests must use an `https://` base URL.
 - Neon URLs go through `normalize_db_url` (strips sslmode/channel_binding; `-pooler` host disables statement caches).
 - On Render (`RENDER=true`), startup fails unless `SECRET_KEY` is set to 32+ characters.

@@ -15,7 +15,7 @@ services:
   backend:
     image: ghcr.io/astral-sh/uv:python3.12-bookworm-slim
     working_dir: /app/backend
-    command: sh -c "uv sync --frozen && uv run alembic upgrade head && uv run uvicorn app.main:app --host 0.0.0.0 --reload"
+    command: sh -c "uv sync --frozen && uv run alembic upgrade head && uv run python -m app.seed && uv run uvicorn app.main:app --host 0.0.0.0 --reload"
     environment:
       DATABASE_URL: postgresql://apex:apex@db:5432/apex
       UV_PROJECT_ENVIRONMENT: /venv

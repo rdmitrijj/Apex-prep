@@ -1,6 +1,6 @@
 from functools import lru_cache
 
-from pydantic import model_validator
+from pydantic import field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 DEV_SECRET = "dev-insecure-secret-change-me-0123456789abcdef"
@@ -18,6 +18,14 @@ class Settings(BaseSettings):
     anthropic_api_key: str | None = None
     anthropic_model: str = "claude-opus-5-5"
     render: bool = False  # Render sets RENDER=true on its hosts
+
+    @field_validator("secret_key", "anthropic_api_key", "database_url_direct", mode="before")
+    @classmethod
+    def _blank_is_unset(cls, v: str | None, info: object) -> str | None:
+        # `.env.example` ships `KEY=` lines; an empty value means "not set", not "empty secret".
+        if v == "":
+            return DEV_SECRET if getattr(info, "field_name", "") == "secret_key" else None
+        return v
 
     @model_validator(mode="after")
     def _prod_secret(self) -> "Settings":

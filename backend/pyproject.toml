@@ -13,6 +13,8 @@ dependencies = [
     "argon2-cffi>=23.1",
     "pyjwt>=2.10",
     "httpx>=0.28",
+    "sympy>=1.14.0",
+    "anthropic>=1.11.0",
 ]
 
 [dependency-groups]
@@ -25,10 +27,19 @@ target-version = "py312"
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "SIM"]
 
+[tool.ruff.lint.per-file-ignores]
+# Question templates are prose; wrapping them hurts readability more than long lines do.
+"app/generators/*.py" = ["E501"]
+"app/seed/*.py" = ["E501"]
+
 [tool.mypy]
 python_version = "3.12"
 strict = true
 packages = ["app.engine", "app.generators"]
+
+[[tool.mypy.overrides]]
+module = ["sympy", "sympy.*"]
+ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
