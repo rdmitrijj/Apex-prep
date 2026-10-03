@@ -1,0 +1,1388 @@
+{
+ "version": 1,
+ "difficulty_bands": [
+  "easy",
+  "medium",
+  "hard"
+ ],
+ "math_priority_multiplier": 1.3,
+ "nodes": [
+  {
+   "id": "RW",
+   "name": "Reading and Writing",
+   "level": "section",
+   "parent": null,
+   "section": "RW",
+   "weight": 1.0
+  },
+  {
+   "id": "RW.CAS",
+   "name": "Craft and Structure",
+   "level": "domain",
+   "parent": "RW",
+   "section": "RW",
+   "weight": 0.28
+  },
+  {
+   "id": "RW.CAS.WIC",
+   "name": "Words in Context",
+   "level": "skill",
+   "parent": "RW.CAS",
+   "section": "RW",
+   "weight": 0.16
+  },
+  {
+   "id": "RW.CAS.WIC.FILL",
+   "name": "Most logical and precise word/phrase (blank)",
+   "level": "subskill",
+   "parent": "RW.CAS.WIC",
+   "section": "RW",
+   "weight": 0.08,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.CAS.WIC.MEANING",
+   "name": "Meaning of a word as used in the text",
+   "level": "subskill",
+   "parent": "RW.CAS.WIC",
+   "section": "RW",
+   "weight": 0.08,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.CAS.TSP",
+   "name": "Text Structure and Purpose",
+   "level": "skill",
+   "parent": "RW.CAS",
+   "section": "RW",
+   "weight": 0.08
+  },
+  {
+   "id": "RW.CAS.TSP.PURPOSE",
+   "name": "Main purpose of the text",
+   "level": "subskill",
+   "parent": "RW.CAS.TSP",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.CAS.TSP.STRUCTURE",
+   "name": "Overall structure of the text",
+   "level": "subskill",
+   "parent": "RW.CAS.TSP",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.CAS.TSP.FUNCTION",
+   "name": "Function of an underlined sentence/portion",
+   "level": "subskill",
+   "parent": "RW.CAS.TSP",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.CAS.CTC",
+   "name": "Cross-Text Connections",
+   "level": "skill",
+   "parent": "RW.CAS",
+   "section": "RW",
+   "weight": 0.04
+  },
+  {
+   "id": "RW.CAS.CTC.RESPONSE",
+   "name": "How author of Text 2 would respond to Text 1",
+   "level": "subskill",
+   "parent": "RW.CAS.CTC",
+   "section": "RW",
+   "weight": 0.04,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI",
+   "name": "Information and Ideas",
+   "level": "domain",
+   "parent": "RW",
+   "section": "RW",
+   "weight": 0.26
+  },
+  {
+   "id": "RW.INI.CID",
+   "name": "Central Ideas and Details",
+   "level": "skill",
+   "parent": "RW.INI",
+   "section": "RW",
+   "weight": 0.06
+  },
+  {
+   "id": "RW.INI.CID.MAIN",
+   "name": "Main idea",
+   "level": "subskill",
+   "parent": "RW.INI.CID",
+   "section": "RW",
+   "weight": 0.03,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.CID.DETAIL",
+   "name": "Supporting detail",
+   "level": "subskill",
+   "parent": "RW.INI.CID",
+   "section": "RW",
+   "weight": 0.03,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COET",
+   "name": "Command of Evidence: Textual",
+   "level": "skill",
+   "parent": "RW.INI",
+   "section": "RW",
+   "weight": 0.06
+  },
+  {
+   "id": "RW.INI.COET.SUPPORT",
+   "name": "Finding that supports a claim",
+   "level": "subskill",
+   "parent": "RW.INI.COET",
+   "section": "RW",
+   "weight": 0.02,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COET.WEAKEN",
+   "name": "Finding that weakens a claim",
+   "level": "subskill",
+   "parent": "RW.INI.COET",
+   "section": "RW",
+   "weight": 0.02,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COET.QUOTE",
+   "name": "Quotation that illustrates a claim (literary)",
+   "level": "subskill",
+   "parent": "RW.INI.COET",
+   "section": "RW",
+   "weight": 0.02,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COEQ",
+   "name": "Command of Evidence: Quantitative",
+   "level": "skill",
+   "parent": "RW.INI",
+   "section": "RW",
+   "weight": 0.07
+  },
+  {
+   "id": "RW.INI.COEQ.TABLE",
+   "name": "Data from a table",
+   "level": "subskill",
+   "parent": "RW.INI.COEQ",
+   "section": "RW",
+   "weight": 0.02333,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COEQ.BAR",
+   "name": "Data from a bar graph",
+   "level": "subskill",
+   "parent": "RW.INI.COEQ",
+   "section": "RW",
+   "weight": 0.02333,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.COEQ.LINE",
+   "name": "Data from a line graph",
+   "level": "subskill",
+   "parent": "RW.INI.COEQ",
+   "section": "RW",
+   "weight": 0.02333,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.INI.INF",
+   "name": "Inferences",
+   "level": "skill",
+   "parent": "RW.INI",
+   "section": "RW",
+   "weight": 0.07
+  },
+  {
+   "id": "RW.INI.INF.COMPLETE",
+   "name": "Most logical completion of the text",
+   "level": "subskill",
+   "parent": "RW.INI.INF",
+   "section": "RW",
+   "weight": 0.07,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC",
+   "name": "Standard English Conventions",
+   "level": "domain",
+   "parent": "RW",
+   "section": "RW",
+   "weight": 0.26
+  },
+  {
+   "id": "RW.SEC.BND",
+   "name": "Boundaries",
+   "level": "skill",
+   "parent": "RW.SEC",
+   "section": "RW",
+   "weight": 0.13
+  },
+  {
+   "id": "RW.SEC.BND.END",
+   "name": "End-of-sentence punctuation",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.LINK",
+   "name": "Linking independent clauses (comma splice, run-on, semicolon, conjunction)",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.SUPP",
+   "name": "Supplementary/nonessential elements (comma, dash, parenthesis pairs)",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.COLON",
+   "name": "Colons and dashes before lists/explanations",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.SERIES",
+   "name": "Items in a series",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.INTRO",
+   "name": "Introductory elements",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.COORDADJ",
+   "name": "Coordinate adjectives",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.UNNEC",
+   "name": "Unnecessary punctuation (subject-verb, verb-object, before restrictive clause)",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.BND.FRAG",
+   "name": "Fragments",
+   "level": "subskill",
+   "parent": "RW.SEC.BND",
+   "section": "RW",
+   "weight": 0.01444,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS",
+   "name": "Form, Structure, and Sense",
+   "level": "skill",
+   "parent": "RW.SEC",
+   "section": "RW",
+   "weight": 0.13
+  },
+  {
+   "id": "RW.SEC.FSS.SVA",
+   "name": "Subject-verb agreement (intervening phrases, inverted order, collective/indefinite subjects)",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.PAA",
+   "name": "Pronoun-antecedent agreement",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.PCASE",
+   "name": "Pronoun case",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.TENSE",
+   "name": "Verb tense and aspect",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.FINITE",
+   "name": "Finite vs. nonfinite verb forms",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.POSS",
+   "name": "Plurals and possessives",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.SEC.FSS.MOD",
+   "name": "Modifier placement / dangling modifiers",
+   "level": "subskill",
+   "parent": "RW.SEC.FSS",
+   "section": "RW",
+   "weight": 0.01857,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.EOI",
+   "name": "Expression of Ideas",
+   "level": "domain",
+   "parent": "RW",
+   "section": "RW",
+   "weight": 0.2
+  },
+  {
+   "id": "RW.EOI.RS",
+   "name": "Rhetorical Synthesis",
+   "level": "skill",
+   "parent": "RW.EOI",
+   "section": "RW",
+   "weight": 0.12
+  },
+  {
+   "id": "RW.EOI.RS.GOAL",
+   "name": "Use notes to accomplish a stated goal",
+   "level": "subskill",
+   "parent": "RW.EOI.RS",
+   "section": "RW",
+   "weight": 0.12,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.EOI.TRN",
+   "name": "Transitions",
+   "level": "skill",
+   "parent": "RW.EOI",
+   "section": "RW",
+   "weight": 0.08
+  },
+  {
+   "id": "RW.EOI.TRN.CONTRAST",
+   "name": "Contrast / concession",
+   "level": "subskill",
+   "parent": "RW.EOI.TRN",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.EOI.TRN.CAUSE",
+   "name": "Cause and effect",
+   "level": "subskill",
+   "parent": "RW.EOI.TRN",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "RW.EOI.TRN.CONT",
+   "name": "Continuation (addition, example, restatement, sequence)",
+   "level": "subskill",
+   "parent": "RW.EOI.TRN",
+   "section": "RW",
+   "weight": 0.02667,
+   "formats": [
+    "mc"
+   ]
+  },
+  {
+   "id": "MATH",
+   "name": "Math",
+   "level": "section",
+   "parent": null,
+   "section": "MATH",
+   "weight": 1.0
+  },
+  {
+   "id": "MATH.ALG",
+   "name": "Algebra",
+   "level": "domain",
+   "parent": "MATH",
+   "section": "MATH",
+   "weight": 0.35
+  },
+  {
+   "id": "MATH.ALG.LIN1",
+   "name": "Linear equations in one variable",
+   "level": "skill",
+   "parent": "MATH.ALG",
+   "section": "MATH",
+   "weight": 0.06
+  },
+  {
+   "id": "MATH.ALG.LIN1.SOLVE",
+   "name": "Solve a linear equation",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN1",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LIN1.NSOL",
+   "name": "No / infinitely many solutions",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN1",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LIN1.MODEL",
+   "name": "Create/interpret from context",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN1",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LIN2",
+   "name": "Linear equations in two variables",
+   "level": "skill",
+   "parent": "MATH.ALG",
+   "section": "MATH",
+   "weight": 0.06
+  },
+  {
+   "id": "MATH.ALG.LIN2.INTERP",
+   "name": "Interpret slope/intercept in context",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN2",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LIN2.SOLN",
+   "name": "Solutions satisfying the equation",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN2",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LIN2.MODEL",
+   "name": "Create from context",
+   "level": "subskill",
+   "parent": "MATH.ALG.LIN2",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LINF",
+   "name": "Linear functions",
+   "level": "skill",
+   "parent": "MATH.ALG",
+   "section": "MATH",
+   "weight": 0.1
+  },
+  {
+   "id": "MATH.ALG.LINF.SLOPE",
+   "name": "Slope/intercept from points, table, or graph",
+   "level": "subskill",
+   "parent": "MATH.ALG.LINF",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LINF.NOTATION",
+   "name": "Function notation and evaluation",
+   "level": "subskill",
+   "parent": "MATH.ALG.LINF",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LINF.PARPERP",
+   "name": "Parallel and perpendicular lines",
+   "level": "subskill",
+   "parent": "MATH.ALG.LINF",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.LINF.MODEL",
+   "name": "Interpret/create linear function in context",
+   "level": "subskill",
+   "parent": "MATH.ALG.LINF",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.SYS",
+   "name": "Systems of two linear equations",
+   "level": "skill",
+   "parent": "MATH.ALG",
+   "section": "MATH",
+   "weight": 0.07
+  },
+  {
+   "id": "MATH.ALG.SYS.SOLVE",
+   "name": "Solve (substitution/elimination)",
+   "level": "subskill",
+   "parent": "MATH.ALG.SYS",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.SYS.NSOL",
+   "name": "Number of solutions (none/infinite)",
+   "level": "subskill",
+   "parent": "MATH.ALG.SYS",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.SYS.MODEL",
+   "name": "Create/interpret from context",
+   "level": "subskill",
+   "parent": "MATH.ALG.SYS",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.INEQ",
+   "name": "Linear inequalities in one or two variables",
+   "level": "skill",
+   "parent": "MATH.ALG",
+   "section": "MATH",
+   "weight": 0.06
+  },
+  {
+   "id": "MATH.ALG.INEQ.SOLVE",
+   "name": "Solve a linear inequality",
+   "level": "subskill",
+   "parent": "MATH.ALG.INEQ",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.INEQ.GRAPH",
+   "name": "Solution regions / points satisfying",
+   "level": "subskill",
+   "parent": "MATH.ALG.INEQ",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ALG.INEQ.MODEL",
+   "name": "Create from context",
+   "level": "subskill",
+   "parent": "MATH.ALG.INEQ",
+   "section": "MATH",
+   "weight": 0.02,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV",
+   "name": "Advanced Math",
+   "level": "domain",
+   "parent": "MATH",
+   "section": "MATH",
+   "weight": 0.35
+  },
+  {
+   "id": "MATH.ADV.EQX",
+   "name": "Equivalent expressions",
+   "level": "skill",
+   "parent": "MATH.ADV",
+   "section": "MATH",
+   "weight": 0.1
+  },
+  {
+   "id": "MATH.ADV.EQX.POLY",
+   "name": "Expand/factor polynomials",
+   "level": "subskill",
+   "parent": "MATH.ADV.EQX",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.EQX.EXP",
+   "name": "Exponent and radical rules",
+   "level": "subskill",
+   "parent": "MATH.ADV.EQX",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.EQX.RATIONAL",
+   "name": "Rational expressions",
+   "level": "subskill",
+   "parent": "MATH.ADV.EQX",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.EQX.REARR",
+   "name": "Rearrange formulas (isolate a quantity)",
+   "level": "subskill",
+   "parent": "MATH.ADV.EQX",
+   "section": "MATH",
+   "weight": 0.025,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLEQ",
+   "name": "Nonlinear equations in one variable and systems",
+   "level": "skill",
+   "parent": "MATH.ADV",
+   "section": "MATH",
+   "weight": 0.11
+  },
+  {
+   "id": "MATH.ADV.NLEQ.QUAD",
+   "name": "Solve quadratics (factor, formula, completing square)",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLEQ",
+   "section": "MATH",
+   "weight": 0.022,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLEQ.DISC",
+   "name": "Discriminant / number of solutions",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLEQ",
+   "section": "MATH",
+   "weight": 0.022,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLEQ.RADRAT",
+   "name": "Radical and rational equations (extraneous roots)",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLEQ",
+   "section": "MATH",
+   "weight": 0.022,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLEQ.ABS",
+   "name": "Absolute value equations",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLEQ",
+   "section": "MATH",
+   "weight": 0.022,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLEQ.SYS",
+   "name": "Linear-quadratic systems",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLEQ",
+   "section": "MATH",
+   "weight": 0.022,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF",
+   "name": "Nonlinear functions",
+   "level": "skill",
+   "parent": "MATH.ADV",
+   "section": "MATH",
+   "weight": 0.14
+  },
+  {
+   "id": "MATH.ADV.NLF.VERTEX",
+   "name": "Quadratic forms: vertex, standard, factored",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF.EXPF",
+   "name": "Exponential growth/decay models",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF.POLYZ",
+   "name": "Polynomial zeros, factors, remainder theorem",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF.NOTATION",
+   "name": "Function notation and composition",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF.TRANSF",
+   "name": "Graph transformations",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.ADV.NLF.RATRAD",
+   "name": "Rational/radical function behavior",
+   "level": "subskill",
+   "parent": "MATH.ADV.NLF",
+   "section": "MATH",
+   "weight": 0.02333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD",
+   "name": "Problem-Solving and Data Analysis",
+   "level": "domain",
+   "parent": "MATH",
+   "section": "MATH",
+   "weight": 0.15
+  },
+  {
+   "id": "MATH.PSD.RAT",
+   "name": "Ratios, rates, proportional relationships, and units",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.025
+  },
+  {
+   "id": "MATH.PSD.RAT.PROP",
+   "name": "Ratios and proportions",
+   "level": "subskill",
+   "parent": "MATH.PSD.RAT",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.RAT.UNITS",
+   "name": "Unit rates and conversions",
+   "level": "subskill",
+   "parent": "MATH.PSD.RAT",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.PCT",
+   "name": "Percentages",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.03
+  },
+  {
+   "id": "MATH.PSD.PCT.BASIC",
+   "name": "Percent of / percent change",
+   "level": "subskill",
+   "parent": "MATH.PSD.PCT",
+   "section": "MATH",
+   "weight": 0.015,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.PCT.SUCC",
+   "name": "Successive percent changes, reverse percent",
+   "level": "subskill",
+   "parent": "MATH.PSD.PCT",
+   "section": "MATH",
+   "weight": 0.015,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.ONEVAR",
+   "name": "One-variable data: distributions, center and spread",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.025
+  },
+  {
+   "id": "MATH.PSD.ONEVAR.CENTER",
+   "name": "Mean/median, effect of changes/outliers",
+   "level": "subskill",
+   "parent": "MATH.PSD.ONEVAR",
+   "section": "MATH",
+   "weight": 0.00833,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.ONEVAR.SPREAD",
+   "name": "Range / standard deviation comparison",
+   "level": "subskill",
+   "parent": "MATH.PSD.ONEVAR",
+   "section": "MATH",
+   "weight": 0.00833,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.ONEVAR.DISPLAY",
+   "name": "Histograms, dot plots, box plots",
+   "level": "subskill",
+   "parent": "MATH.PSD.ONEVAR",
+   "section": "MATH",
+   "weight": 0.00833,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.TWOVAR",
+   "name": "Two-variable data: models and scatterplots",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.025
+  },
+  {
+   "id": "MATH.PSD.TWOVAR.FIT",
+   "name": "Line of best fit: predict and interpret",
+   "level": "subskill",
+   "parent": "MATH.PSD.TWOVAR",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.TWOVAR.MODELTYPE",
+   "name": "Linear vs. exponential models",
+   "level": "subskill",
+   "parent": "MATH.PSD.TWOVAR",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.PROB",
+   "name": "Probability and conditional probability",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.025
+  },
+  {
+   "id": "MATH.PSD.PROB.BASIC",
+   "name": "Simple probability",
+   "level": "subskill",
+   "parent": "MATH.PSD.PROB",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.PROB.COND",
+   "name": "Conditional probability from two-way tables",
+   "level": "subskill",
+   "parent": "MATH.PSD.PROB",
+   "section": "MATH",
+   "weight": 0.0125,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.INFER",
+   "name": "Inference from sample statistics and margin of error",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.01
+  },
+  {
+   "id": "MATH.PSD.INFER.MOE",
+   "name": "Margin of error and population inference",
+   "level": "subskill",
+   "parent": "MATH.PSD.INFER",
+   "section": "MATH",
+   "weight": 0.01,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.PSD.CLAIMS",
+   "name": "Evaluating statistical claims: observational studies and experiments",
+   "level": "skill",
+   "parent": "MATH.PSD",
+   "section": "MATH",
+   "weight": 0.01
+  },
+  {
+   "id": "MATH.PSD.CLAIMS.DESIGN",
+   "name": "Random sampling vs. random assignment; generalization and causation",
+   "level": "subskill",
+   "parent": "MATH.PSD.CLAIMS",
+   "section": "MATH",
+   "weight": 0.01,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO",
+   "name": "Geometry and Trigonometry",
+   "level": "domain",
+   "parent": "MATH",
+   "section": "MATH",
+   "weight": 0.15
+  },
+  {
+   "id": "MATH.GEO.AV",
+   "name": "Area and volume",
+   "level": "skill",
+   "parent": "MATH.GEO",
+   "section": "MATH",
+   "weight": 0.04
+  },
+  {
+   "id": "MATH.GEO.AV.AREA",
+   "name": "Area and perimeter of plane figures",
+   "level": "subskill",
+   "parent": "MATH.GEO.AV",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.AV.VOL",
+   "name": "Volume and surface area of solids",
+   "level": "subskill",
+   "parent": "MATH.GEO.AV",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.AV.SCALE",
+   "name": "Effect of scaling on area/volume",
+   "level": "subskill",
+   "parent": "MATH.GEO.AV",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.LAT",
+   "name": "Lines, angles, and triangles",
+   "level": "skill",
+   "parent": "MATH.GEO",
+   "section": "MATH",
+   "weight": 0.04
+  },
+  {
+   "id": "MATH.GEO.LAT.ANGLES",
+   "name": "Parallel lines and angle relationships",
+   "level": "subskill",
+   "parent": "MATH.GEO.LAT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.LAT.TRI",
+   "name": "Triangle angle sums, isosceles/equilateral",
+   "level": "subskill",
+   "parent": "MATH.GEO.LAT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.LAT.SIMCONG",
+   "name": "Similarity and congruence",
+   "level": "subskill",
+   "parent": "MATH.GEO.LAT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.RTT",
+   "name": "Right triangles and trigonometry",
+   "level": "skill",
+   "parent": "MATH.GEO",
+   "section": "MATH",
+   "weight": 0.04
+  },
+  {
+   "id": "MATH.GEO.RTT.PYTH",
+   "name": "Pythagorean theorem and special right triangles",
+   "level": "subskill",
+   "parent": "MATH.GEO.RTT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.RTT.TRIG",
+   "name": "Sine, cosine, tangent",
+   "level": "subskill",
+   "parent": "MATH.GEO.RTT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.RTT.COFUNC",
+   "name": "sin(x) = cos(90° − x) and related identities",
+   "level": "subskill",
+   "parent": "MATH.GEO.RTT",
+   "section": "MATH",
+   "weight": 0.01333,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.CIR",
+   "name": "Circles",
+   "level": "skill",
+   "parent": "MATH.GEO",
+   "section": "MATH",
+   "weight": 0.03
+  },
+  {
+   "id": "MATH.GEO.CIR.ARC",
+   "name": "Arc length, sectors, radians",
+   "level": "subskill",
+   "parent": "MATH.GEO.CIR",
+   "section": "MATH",
+   "weight": 0.01,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.CIR.EQN",
+   "name": "Equation of a circle (incl. completing the square)",
+   "level": "subskill",
+   "parent": "MATH.GEO.CIR",
+   "section": "MATH",
+   "weight": 0.01,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  },
+  {
+   "id": "MATH.GEO.CIR.ANGLE",
+   "name": "Central/inscribed angles, tangents, chords",
+   "level": "subskill",
+   "parent": "MATH.GEO.CIR",
+   "section": "MATH",
+   "weight": 0.01,
+   "formats": [
+    "mc",
+    "spr"
+   ]
+  }
+ ]
+}

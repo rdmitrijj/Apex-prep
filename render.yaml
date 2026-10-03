@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: apex-prep
+    runtime: docker
+    plan: free
+    region: frankfurt # pick the same region as your Neon database
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL # Neon pooled connection string (host contains "-pooler")
+        sync: false
+      - key: DATABASE_URL_DIRECT # Neon direct connection string, used by Alembic migrations
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALLOW_REGISTRATION # set to "false" after creating your account
+        value: "true"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-opus-5-5
+      - key: VITE_DESMOS_API_KEY
+        sync: false
