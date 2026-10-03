@@ -1,0 +1,602 @@
+[
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "easy",
+  "passage": "Biologist Kenji Watanabe has observed that crows in his city scold and dive at certain people while ignoring others. He hypothesizes that urban crows learn to recognize the faces of individual humans who have threatened them.",
+  "stem": "Which finding, if true, would most directly support Watanabe's hypothesis?",
+  "choices": [
+   "Crows have been observed using twigs as tools to reach food.",
+   "Crows scolded people wearing a mask previously worn by a researcher who had trapped them, but ignored people wearing unfamiliar masks.",
+   "Crows are more numerous in cities than in nearby rural areas.",
+   "Crows scolded everyone who approached their nests, regardless of past encounters."
+  ],
+  "answer": "B",
+  "explanation": "If crows react to a specific face associated with a past threat but not to unfamiliar ones, that directly supports facial recognition of individuals.",
+  "rationales": {
+   "A": "Tool use is unrelated to recognizing people.",
+   "B": "Correct. This shows crows responding to a particular face linked to a threat.",
+   "C": "Population size says nothing about recognizing faces.",
+   "D": "Scolding everyone equally would suggest crows don't distinguish individuals, weakening the hypothesis."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "passage": "Some researchers claim that reading literary fiction improves people's ability to understand the thoughts and feelings of others, because fiction invites readers to imagine characters' inner lives.",
+  "stem": "Which finding, if true, would most directly support the researchers' claim?",
+  "choices": [
+   "Participants who read literary fiction reported enjoying it more than participants who read nonfiction.",
+   "People who read literary fiction tend to read more books per year than people who don't.",
+   "Participants who read short literary stories scored higher on a test of identifying others' emotions than participants who read nonfiction articles of the same length.",
+   "Participants' scores on a test of identifying others' emotions did not differ after reading fiction or nonfiction."
+  ],
+  "answer": "C",
+  "explanation": "The claim is about understanding others' feelings; better emotion-identification scores after reading fiction directly support it.",
+  "rationales": {
+   "A": "Enjoyment isn't the same as understanding others.",
+   "B": "Reading volume doesn't show improved understanding.",
+   "C": "Correct. It links reading fiction to better understanding of others' emotions.",
+   "D": "No difference would weaken the claim."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "passage": "Archaeologist Hira Baig argues that a site on the Indus floodplain was a seasonal camp used only during autumn rather than a permanent village.",
+  "stem": "Which finding, if true, would most directly support Baig's argument?",
+  "choices": [
+   "Stone tools at the site were made from rock found nearby.",
+   "The site lies within a few hundred meters of a river.",
+   "The animal bones at the site come almost entirely from species that pass through the area only in autumn.",
+   "The site contains the stone foundations of several large houses."
+  ],
+  "answer": "C",
+  "explanation": "Bones only from autumn-migrating animals indicate people were present only in autumn.",
+  "rationales": {
+   "A": "Local stone tells nothing about how long the site was used.",
+   "B": "Nearness to a river doesn't indicate seasonal use.",
+   "C": "Correct. It points to occupation only during autumn.",
+   "D": "Large permanent houses would suggest a permanent village, weakening the argument."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "passage": "When the city of Ridgeport raised its minimum wage in 2017, some economists predicted restaurant jobs would disappear. Economist Leah Morales hypothesizes that the increase did not reduce restaurant employment in the city.",
+  "stem": "Which finding, if true, would most directly support Morales's hypothesis?",
+  "choices": [
+   "In the two years after the increase, restaurant employment in Ridgeport grew at the same rate as in nearby cities that did not raise their minimum wage.",
+   "Before the increase took effect, many Ridgeport restaurant owners said they were worried about higher labor costs.",
+   "Average menu prices at Ridgeport restaurants rose slightly after the increase.",
+   "Manufacturing employment in Ridgeport declined after the increase."
+  ],
+  "answer": "A",
+  "explanation": "Comparing Ridgeport to similar cities without an increase shows employment wasn't held back, which directly supports the hypothesis.",
+  "rationales": {
+   "A": "Correct. It shows no relative loss of restaurant jobs compared with similar cities.",
+   "B": "Owners' worries before the change don't show what happened to employment.",
+   "C": "Higher prices don't directly show whether employment fell.",
+   "D": "Manufacturing isn't the sector the hypothesis concerns."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "easy",
+  "passage": "Ecologist Tomás Herrera believes that dung beetles in a tropical forest help plants grow by burying seeds in nutrient-rich soil.",
+  "stem": "Which finding, if true, would most directly support Herrera's claim?",
+  "choices": [
+   "Dung beetles in the forest are most active at night.",
+   "Seeds buried by dung beetles sprouted more often than seeds of the same species left on the forest floor.",
+   "Some dung beetles roll balls of dung many times their own weight.",
+   "Dung beetles are found on every continent except Antarctica."
+  ],
+  "answer": "B",
+  "explanation": "Higher sprouting rates for beetle-buried seeds directly support the idea that beetles help plants grow.",
+  "rationales": {
+   "A": "Activity timing doesn't address plant growth.",
+   "B": "Correct. It shows beetle burial improves seed sprouting.",
+   "C": "Strength is irrelevant to the claim.",
+   "D": "Global range is irrelevant to whether beetles help plants grow."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "passage": "Linguist Sofia Petrov hypothesizes that people whose language has separate basic words for light blue and dark blue can tell those shades apart faster than people whose language uses one word for both.",
+  "stem": "Which finding, if true, would most directly support Petrov's hypothesis?",
+  "choices": [
+   "The language with separate words for light and dark blue also has many words for shades of red.",
+   "Speakers of both languages named the color of the sky correctly.",
+   "Speakers of a language with separate words for light and dark blue identified the boundary between the shades faster than speakers of a language with only one word.",
+   "Both groups of speakers were equally fast at telling green shades apart."
+  ],
+  "answer": "C",
+  "explanation": "Faster discrimination by speakers with separate words is exactly what the hypothesis predicts.",
+  "rationales": {
+   "A": "Words for red don't bear on blue discrimination.",
+   "B": "Naming the sky correctly doesn't test speed of telling shades apart.",
+   "C": "Correct. It directly matches the predicted speed advantage.",
+   "D": "Green results don't address the blue shades in question."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "passage": "In 2021, astronomers observed a nearby star dim by nearly 40 percent. Astronomer Ruth Adeyemi hypothesizes that the dimming was caused by a cloud of dust passing between the star and Earth rather than by a change in the star itself.",
+  "stem": "Which finding, if true, would most directly support Adeyemi's hypothesis?",
+  "choices": [
+   "Other stars in the same region of the sky did not dim.",
+   "The star returned to its normal brightness after several months.",
+   "During the dimming, the star's light dropped more at blue wavelengths than at red wavelengths, a pattern characteristic of light passing through dust.",
+   "The star is about twenty times as massive as the Sun."
+  ],
+  "answer": "C",
+  "explanation": "Dust scatters blue light more than red, so stronger dimming at blue wavelengths is a signature of dust in the way.",
+  "rationales": {
+   "A": "Other stars not dimming doesn't distinguish between dust near this star and changes in the star.",
+   "B": "Recovery is consistent with both explanations, so it doesn't favor dust.",
+   "C": "Correct. It shows the specific signature of dust.",
+   "D": "Mass doesn't indicate the cause of the dimming."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "passage": "Historian Malik Osei argues that the letters of the eighteenth-century merchant Thomas Avery were written with publication in mind rather than as private correspondence.",
+  "stem": "Which finding, if true, would most directly support Osei's argument?",
+  "choices": [
+   "The letters describe prices of goods in several port cities.",
+   "Avery wrote most of the letters to his brother, who lived in Lisbon.",
+   "Several of the letters contain notes in Avery's handwriting instructing a printer how they should be arranged.",
+   "Some of the letters are damaged and partly unreadable."
+  ],
+  "answer": "C",
+  "explanation": "Instructions to a printer show Avery intended the letters to be published.",
+  "rationales": {
+   "A": "Content about prices doesn't reveal the intended audience.",
+   "B": "Writing to a brother is consistent with private correspondence.",
+   "C": "Correct. It shows Avery planned for the letters to be printed.",
+   "D": "Damage is irrelevant to Avery's intent."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "passage": "Psychologist Ines Duarte hypothesizes that background music interferes with reading comprehension only when the music contains lyrics.",
+  "stem": "Which finding, if true, would most directly support Duarte's hypothesis?",
+  "choices": [
+   "Participants who read while hearing songs with lyrics scored lower than those who read in silence.",
+   "Participants who read while hearing instrumental music scored lower than those who read in silence.",
+   "Participants who read while hearing instrumental music scored the same as those who read in silence, while those who heard songs with lyrics scored lower.",
+   "Most participants said they preferred instrumental music to music with lyrics."
+  ],
+  "answer": "C",
+  "explanation": "The hypothesis has two parts: lyrics hurt comprehension, and music without lyrics doesn't. Only this choice supports both.",
+  "rationales": {
+   "A": "This supports only half of the hypothesis; it says nothing about instrumental music.",
+   "B": "This would weaken the hypothesis, since instrumental music would also interfere.",
+   "C": "Correct. It supports both parts: lyrics hurt, instrumental music doesn't.",
+   "D": "Preferences don't show effects on comprehension."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "easy",
+  "passage": "Plant biologist Ana Lima hypothesizes that tomato seedlings grow taller when exposed to blue light than when exposed to red light.",
+  "stem": "Which finding, if true, would most directly support Lima's hypothesis?",
+  "choices": [
+   "Seedlings grown under blue light were on average 20 percent taller than identical seedlings grown under red light.",
+   "Seedlings grown under red light produced slightly more leaves.",
+   "Tomato plants need light to perform photosynthesis.",
+   "Tomatoes are among the most widely grown vegetables in the world."
+  ],
+  "answer": "A",
+  "explanation": "Taller seedlings under blue light directly support the hypothesis.",
+  "rationales": {
+   "A": "Correct. It shows the predicted height difference.",
+   "B": "Leaf count isn't height.",
+   "C": "That plants need light doesn't compare blue and red light.",
+   "D": "This finding is unrelated to the claim."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "easy",
+  "passage": "Biologists have recorded a steep decline in the trout population of Lake Moran over the past twenty years. Researcher Paul Ndiaye claims the decline was caused by rising water temperatures.",
+  "stem": "Which finding, if true, would most directly weaken Ndiaye's claim?",
+  "choices": [
+   "Trout populations in nearby lakes that warmed by the same amount have remained stable.",
+   "Trout are known to be sensitive to warm water.",
+   "Water temperatures in Lake Moran have risen by about 2°C over the past twenty years.",
+   "Lake Moran is popular with tourists in the summer."
+  ],
+  "answer": "A",
+  "explanation": "If similar warming didn't reduce trout elsewhere, warming is less likely to be the cause at Lake Moran.",
+  "rationales": {
+   "A": "Correct. It shows warming alone didn't cause declines in similar lakes.",
+   "B": "This supports the claim.",
+   "C": "This supports the claim.",
+   "D": "This finding is unrelated to the claim."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "A farm cooperative claims that its new organic fertilizer increases corn yields.",
+  "stem": "Which finding, if true, would most directly weaken the cooperative's claim?",
+  "choices": [
+   "The fertilizer costs less than most other fertilizers.",
+   "Farmers who used the fertilizer said it was easy to apply.",
+   "Corn yields across the region rose last year because of above-average rainfall.",
+   "Fields treated with the fertilizer produced the same yields as untreated fields with identical soil and weather conditions."
+  ],
+  "answer": "D",
+  "explanation": "If treated and comparable untreated fields yield the same, the fertilizer had no effect.",
+  "rationales": {
+   "A": "Price doesn't bear on yields.",
+   "B": "Ease of use doesn't bear on yields.",
+   "C": "A regional rise affects all fields and doesn't isolate the fertilizer's effect.",
+   "D": "Correct. It shows no difference between treated and untreated fields."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "Art historian Clara Weiss claims that a newly discovered painting was made in the 1650s by the Dutch artist Jan Hals.",
+  "stem": "Which finding, if true, would most directly weaken Weiss's claim?",
+  "choices": [
+   "The painting's subject, a harbor scene, was common in Dutch art of the 1650s.",
+   "Chemical analysis shows that the painting contains a blue pigment that was first manufactured in 1704.",
+   "Jan Hals is known to have painted at least forty harbor scenes.",
+   "The painting's frame was replaced in the nineteenth century."
+  ],
+  "answer": "B",
+  "explanation": "A pigment that didn't exist until 1704 means the painting couldn't have been made in the 1650s.",
+  "rationales": {
+   "A": "This is consistent with the claim.",
+   "B": "Correct. It rules out the 1650s date.",
+   "C": "This is consistent with the claim.",
+   "D": "A replaced frame doesn't date the painting itself."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "passage": "After wolves were reintroduced to a national park in 1995, the park's elk population fell sharply. Ecologist Dmitri Volkov claims that predation by wolves caused the decline.",
+  "stem": "Which finding, if true, would most directly weaken Volkov's claim?",
+  "choices": [
+   "Wolves in the park were frequently observed hunting elk.",
+   "Elk are the most common prey of wolves in the region.",
+   "Elk populations fell by a similar amount over the same period in nearby areas where no wolves were present.",
+   "The elk decline began within two years of the wolves' reintroduction."
+  ],
+  "answer": "C",
+  "explanation": "If elk declined just as much where there were no wolves, something other than wolves likely caused the decline.",
+  "rationales": {
+   "A": "This supports the claim.",
+   "B": "This supports the claim.",
+   "C": "Correct. It suggests a cause other than wolves.",
+   "D": "The timing supports the claim."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "easy",
+  "passage": "The owners of a café claim that their new menu increased the number of customers at their downtown location.",
+  "stem": "Which finding, if true, would most directly weaken the owners' claim?",
+  "choices": [
+   "Customers said they liked the new menu's vegetarian options.",
+   "Customer numbers rose by the same amount at the café's other location, which kept its old menu.",
+   "The downtown location is near a busy train station.",
+   "The new menu has more items than the old one."
+  ],
+  "answer": "B",
+  "explanation": "If the location with the old menu gained as many customers, the menu probably wasn't the cause.",
+  "rationales": {
+   "A": "This supports the claim.",
+   "B": "Correct. It shows the increase happened without the new menu.",
+   "C": "Location near a station existed before the menu change and doesn't explain the change.",
+   "D": "Number of items doesn't show an effect on customers."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "Herpetologist Lucía Fernández hypothesizes that the bright colors of a certain rainforest frog warn predators that the frog is poisonous.",
+  "stem": "Which finding, if true, would most directly weaken Fernández's hypothesis?",
+  "choices": [
+   "The frog is active mainly during the day, when its colors are visible.",
+   "The frog's skin contains toxins that can sicken birds.",
+   "Several other poisonous frog species are also brightly colored.",
+   "Predators in the frog's habitat attack brightly colored frogs as often as dull-colored frogs of similar size."
+  ],
+  "answer": "D",
+  "explanation": "If predators don't avoid bright frogs, the colors aren't working as a warning.",
+  "rationales": {
+   "A": "This is consistent with the hypothesis.",
+   "B": "This supports the hypothesis.",
+   "C": "This supports the hypothesis.",
+   "D": "Correct. It shows predators don't respond to the colors as a warning."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "passage": "Archaeologist Yusuf Kaya claims that the ancient city of Tel Arvan was abandoned around 1200 BCE because of a prolonged drought.",
+  "stem": "Which finding, if true, would most directly weaken Kaya's claim?",
+  "choices": [
+   "Sediment cores from the region show above-average rainfall during the decades when the city was abandoned.",
+   "The city depended heavily on farming.",
+   "Grain storage buildings in the city were found nearly empty.",
+   "Several other cities in the region were abandoned around the same time."
+  ],
+  "answer": "A",
+  "explanation": "Above-average rainfall during the abandonment contradicts the drought explanation.",
+  "rationales": {
+   "A": "Correct. It shows there was no drought when the city was abandoned.",
+   "B": "Dependence on farming makes drought a plausible cause.",
+   "C": "Empty granaries are consistent with a drought.",
+   "D": "Regional abandonment is consistent with a drought."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "Ecologist Grace Mwangi claims that noise from a nearby highway is reducing the variety of bird species in a forest.",
+  "stem": "Which finding, if true, would most directly weaken Mwangi's claim?",
+  "choices": [
+   "The highway carries more traffic than any other road in the region.",
+   "Some bird species avoid areas with loud, low-frequency noise.",
+   "Bird variety in the forest is lower now than it was before the highway was built.",
+   "When the highway was closed for six months for repairs, the variety of bird species in the forest did not increase."
+  ],
+  "answer": "D",
+  "explanation": "If removing the noise didn't bring back bird variety, noise likely isn't the cause.",
+  "rationales": {
+   "A": "This is consistent with the claim.",
+   "B": "This supports the claim.",
+   "C": "This is consistent with the claim.",
+   "D": "Correct. It shows removing the noise had no effect."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "passage": "Literary scholar Hannah Brandt claims that the novelist Iris Vane's later books are more pessimistic than her earlier ones because Vane faced serious personal hardships while writing them.",
+  "stem": "Which finding, if true, would most directly weaken Brandt's claim?",
+  "choices": [
+   "Vane's later novels feature more characters who fail to achieve their goals.",
+   "Vane's letters from the years when she wrote her most pessimistic novels describe her life as unusually happy and secure.",
+   "Vane wrote her later novels more slowly than her earlier ones.",
+   "Critics at the time noted the darker tone of Vane's later books."
+  ],
+  "answer": "B",
+  "explanation": "If Vane described her life as happy while writing the darkest books, hardship is less likely to explain the pessimism.",
+  "rationales": {
+   "A": "This supports the claim that the books are more pessimistic but not the cause.",
+   "B": "Correct. It undercuts the link between hardship and pessimism.",
+   "C": "Writing speed doesn't address hardship.",
+   "D": "This confirms the darker tone but doesn't address the cause."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "easy",
+  "passage": "A gardening guide claims that the plant species Vincia minor grows best in shade.",
+  "stem": "Which finding, if true, would most directly weaken the guide's claim?",
+  "choices": [
+   "Vincia minor needs regular watering during dry periods.",
+   "Vincia minor has dark green leaves.",
+   "Vincia minor plants grown in full sun were taller and produced more leaves than those grown in shade.",
+   "Vincia minor is often planted under trees."
+  ],
+  "answer": "C",
+  "explanation": "Better growth in full sun contradicts the claim that the plant grows best in shade.",
+  "rationales": {
+   "A": "Watering needs don't address sun versus shade.",
+   "B": "Leaf color doesn't address the claim.",
+   "C": "Correct. It shows the plant grows better in sun.",
+   "D": "Where people plant it doesn't show where it grows best."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "easy",
+  "passage": "In Edwin Marsh's short story \"The Lantern Keeper,\" the narrator's grandfather is portrayed as deeply devoted to his work tending a lighthouse.",
+  "stem": "Which quotation from \"The Lantern Keeper\" most effectively illustrates the claim?",
+  "choices": [
+   "\"Through forty winters he climbed the tower each dusk, and not once did the lamp go dark on his watch.\"",
+   "\"The lighthouse stood on a rocky point at the edge of the bay.\"",
+   "\"In the spring, he planted tomatoes in the small garden behind the cottage.\"",
+   "\"My grandfather rarely spoke about his childhood.\""
+  ],
+  "answer": "A",
+  "explanation": "Forty winters without the lamp ever going dark shows devotion to the work.",
+  "rationales": {
+   "A": "Correct. It shows the grandfather's long, faithful devotion to the lighthouse.",
+   "B": "It describes the setting, not the grandfather.",
+   "C": "It describes gardening, not his work at the lighthouse.",
+   "D": "It describes his reticence, not his devotion."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "In the poem \"Departure,\" the speaker expresses mixed feelings about leaving home, feeling both eager and sorrowful.",
+  "stem": "Which quotation from \"Departure\" most effectively illustrates the claim?",
+  "choices": [
+   "\"I pack my bag with eager hands, / yet something in me stays behind.\"",
+   "\"My mother's kitchen smells of bread / on Sunday mornings.\"",
+   "\"I will never forget this place, / I tell myself, weeping.\"",
+   "\"The road ahead is bright with promise, / and I run to meet it.\""
+  ],
+  "answer": "A",
+  "explanation": "Only this quotation shows both eagerness (\"eager hands\") and sorrow (\"something in me stays behind\").",
+  "rationales": {
+   "A": "Correct. It shows both eagerness and sorrow.",
+   "B": "It describes home without showing feelings about leaving.",
+   "C": "It shows only sorrow.",
+   "D": "It shows only eagerness."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "In the novel The Salt Road by Esi Darko, the character Kofi is shown to be resourceful in difficult situations.",
+  "stem": "Which quotation from The Salt Road most effectively illustrates the claim?",
+  "choices": [
+   "\"When the cart's axle snapped, Kofi lashed a branch beneath it with strips of his own shirt and had them moving again before noon.\"",
+   "\"Kofi was the youngest of four brothers.\"",
+   "\"The road stretched for miles under a white, merciless sun.\"",
+   "\"Kofi often dreamed of the sea, though he had never seen it.\""
+  ],
+  "answer": "A",
+  "explanation": "Improvising a repair with a branch and his shirt shows resourcefulness.",
+  "rationales": {
+   "A": "Correct. It shows Kofi solving a problem with what he has.",
+   "B": "Family position doesn't show resourcefulness.",
+   "C": "It describes the setting, not Kofi.",
+   "D": "Dreaming doesn't show resourcefulness."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "passage": "In Maren Holt's novel The Apprentice, the narrator gradually comes to recognize the flaws of her mentor, a celebrated painter she had long idolized.",
+  "stem": "Which quotation from The Apprentice most effectively illustrates the claim?",
+  "choices": [
+   "\"His studio was full of light, and canvases leaned against every wall.\"",
+   "\"I had always taken his silences for depth; only now did I wonder whether there had simply been nothing behind them.\"",
+   "\"From the first day, I knew I wanted to paint the way he did.\"",
+   "\"He was the most gifted painter of his generation, and everyone said so.\""
+  ],
+  "answer": "B",
+  "explanation": "The narrator reinterprets the mentor's silences, a realization that shows her recognizing his flaws.",
+  "rationales": {
+   "A": "It describes the studio, not a realization.",
+   "B": "Correct. It shows the narrator questioning what she once admired.",
+   "C": "It shows idolization, not recognition of flaws.",
+   "D": "It praises the mentor rather than recognizing flaws."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "easy",
+  "passage": "In the short story \"August,\" the author describes the setting as oppressively hot.",
+  "stem": "Which quotation from \"August\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The heat pressed down on the town like a hand, and even the dogs lay panting in the dust.\"",
+   "\"Everyone in town knew everyone else's business.\"",
+   "\"By evening, the sky turned a soft shade of pink.\"",
+   "\"The town had one main street and a single gas station.\""
+  ],
+  "answer": "A",
+  "explanation": "Heat pressing down \"like a hand\" and panting dogs convey oppressive heat.",
+  "rationales": {
+   "A": "Correct. It conveys heavy, oppressive heat.",
+   "B": "It describes the town's social life.",
+   "C": "It describes the sky's color, not heat.",
+   "D": "It describes the town's layout, not the heat."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "In the poem \"Kitchen Table,\" the speaker finds beauty in ordinary household objects.",
+  "stem": "Which quotation from \"Kitchen Table\" most effectively illustrates the claim?",
+  "choices": [
+   "\"We ate in silence, the clock ticking.\"",
+   "\"The table was bought at a yard sale for five dollars.\"",
+   "\"I wish I lived somewhere grander than this.\"",
+   "\"The chipped blue cup holds morning light / the way a chapel holds its prayers.\""
+  ],
+  "answer": "D",
+  "explanation": "Comparing a chipped cup holding light to a chapel holding prayers finds beauty in an ordinary object.",
+  "rationales": {
+   "A": "It describes a scene without finding beauty in objects.",
+   "B": "It gives a fact about the table without appreciation.",
+   "C": "It shows dissatisfaction, not appreciation.",
+   "D": "Correct. It shows the speaker seeing beauty in an everyday cup."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "passage": "In her satirical novel The Garden Party, Lydia Crane uses humor to criticize the social pretensions of the wealthy.",
+  "stem": "Which quotation from The Garden Party most effectively illustrates the claim?",
+  "choices": [
+   "\"The garden was at its finest in June, when the roses bloomed.\"",
+   "\"The guests arrived at four and departed shortly after seven.\"",
+   "\"Mrs. Ashby had been widowed young and lived alone in the great house.\"",
+   "\"Mrs. Ashby pronounced the soup 'divine,' having first made certain that everyone knew she had never tasted anything so common as soup before.\""
+  ],
+  "answer": "D",
+  "explanation": "The irony of Mrs. Ashby advertising her refinement over a bowl of soup mocks wealthy pretension.",
+  "rationales": {
+   "A": "It describes the garden without satire.",
+   "B": "It gives a schedule without humor.",
+   "C": "It gives background without humor or criticism.",
+   "D": "Correct. It uses humor to mock pretension."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "In the play The Inheritance, the character Victor's ambition is shown to outweigh his loyalty to his family.",
+  "stem": "Which quotation from The Inheritance most effectively illustrates the claim?",
+  "choices": [
+   "\"Victor has always been the clever one in our family.\"",
+   "\"The company was founded by our grandfather in 1912.\"",
+   "\"I remember when we were boys, fishing at the lake every summer.\"",
+   "\"I love my brother, of course. But the company will be mine, whatever it costs him.\""
+  ],
+  "answer": "D",
+  "explanation": "Victor admits loving his brother yet putting the company first, showing ambition over loyalty.",
+  "rationales": {
+   "A": "It describes Victor's cleverness, not ambition over loyalty.",
+   "B": "It gives the company's history.",
+   "C": "It shows a fond memory, not ambition.",
+   "D": "Correct. It shows Victor choosing ambition over family."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "passage": "In the poem \"River and Stone,\" the speaker contrasts the endurance of nature with the impermanence of human achievement.",
+  "stem": "Which quotation from \"River and Stone\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The marble towers crumble into sand, / while still the patient river finds the sea.\"",
+   "\"The river runs cold and clear in spring, / swollen with the mountain's snow.\"",
+   "\"We built our towers high to touch the sky, / and stood beneath them, proud.\"",
+   "\"I sat beside the water as the light / slipped westward through the trees.\""
+  ],
+  "answer": "A",
+  "explanation": "Crumbling towers versus the persistent river contrasts human impermanence with natural endurance.",
+  "rationales": {
+   "A": "Correct. It contrasts the decay of human works with nature's persistence.",
+   "B": "It describes nature only.",
+   "C": "It describes human achievement only, without impermanence or contrast.",
+   "D": "It describes a scene without the contrast."
+  }
+ },
+ {
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "easy",
+  "passage": "In Nadia Rahman's story \"Opening Night,\" Leila is nervous before her first performance.",
+  "stem": "Which quotation from \"Opening Night\" most effectively illustrates the claim?",
+  "choices": [
+   "\"After the show, the cast celebrated at a café across the street.\"",
+   "\"The theater had been built in 1924 and seated eight hundred people.\"",
+   "\"Leila's hands trembled as she waited in the wings, and she could hear her own heartbeat over the murmur of the audience.\"",
+   "\"Leila had practiced the role for six months.\""
+  ],
+  "answer": "C",
+  "explanation": "Trembling hands and a pounding heartbeat show nervousness.",
+  "rationales": {
+   "A": "It describes events after the performance.",
+   "B": "It describes the theater.",
+   "C": "Correct. It shows physical signs of nervousness.",
+   "D": "Practice doesn't show nervousness."
+  }
+ }
+]

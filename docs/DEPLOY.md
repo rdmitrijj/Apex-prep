@@ -33,7 +33,7 @@ You'll end up with one web app at `https://<name>.onrender.com`, backed by a fre
    |---|---|
    | `DATABASE_URL` | Neon **pooled** string |
    | `DATABASE_URL_DIRECT` | Neon **direct** string |
-   | `ANTHROPIC_API_KEY` | leave empty for now (milestone 3) |
+   | `ANTHROPIC_API_KEY` | leave empty (generation runs locally or in GitHub Actions, see §5) |
    | `VITE_DESMOS_API_KEY` | leave empty (a built-in calculator is used) |
 
    `SECRET_KEY` is generated automatically. `ALLOW_REGISTRATION` starts as `true`.
@@ -51,7 +51,10 @@ You'll end up with one web app at `https://<name>.onrender.com`, backed by a fre
 ## 5. Later
 
 - **Questions/skills (milestone 2+):** loaded automatically on every start with `python -m app.seed`. It's idempotent, so there's nothing to run by hand.
-- **Anthropic key (milestone 3):** create one in the Claude Console and paste it into `ANTHROPIC_API_KEY` in Render. Question generation is run with a CLI command, documented in milestone 3.
+- **Generating more Reading & Writing questions:** the web app never calls the Anthropic API; it only serves stored questions. Generation is a separate command that writes straight into the database, so the key doesn't need to be on Render.
+  - **Locally:** put `ANTHROPIC_API_KEY` in `.env`, point `DATABASE_URL` at Neon's *direct* URL, then run `cd backend && uv run python -m app.generate rw --skill RW.SEC --n 3` (add `--dry-run` to preview without saving). `--skill` takes a sub-skill or any parent node; `--difficulty` is `easy`, `medium`, `hard`, or `mixed`.
+  - **From GitHub:** add repository secrets `ANTHROPIC_API_KEY` and `DATABASE_URL_DIRECT`, then **Actions → Generate R&W questions → Run workflow**.
+  - Each item is blind-solved by a second model call that never sees the key; items with a mismatched or ambiguous answer, or that nearly duplicate a stored passage, are dropped. The command prints how many were accepted and why others were rejected.
 - **Updating:** `git push` to `main`. CI runs, and Render redeploys on its own.
 
 ## Troubleshooting

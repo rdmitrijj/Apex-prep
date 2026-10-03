@@ -1,0 +1,402 @@
+[
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Marine biologist Ayana Brooks noticed that coral colonies inside a sheltered bay recovered quickly after a 2019 heat wave, while colonies outside the bay stayed bleached for months. She suspected that the bay's cooler, deeper water had ______ the corals inside it from the worst of the heat.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "shielded",
+   "exposed",
+   "reminded",
+   "compared"
+  ],
+  "answer": "A",
+  "explanation": "The corals inside the bay recovered while others stayed bleached, so the cooler water must have protected them from the heat. \"Shielded\" captures that protection.",
+  "rationales": {
+   "A": "Correct. Cooler water protecting the corals \"from the worst of the heat\" is exactly what \"shielded\" means.",
+   "B": "\"Exposed\" means the opposite: the corals inside the bay fared better, not worse.",
+   "C": "\"Reminded ... from the heat\" is illogical; water can't remind corals of anything.",
+   "D": "\"Compared ... from the heat\" doesn't make sense; nothing is being compared."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Although the novelist was famous for sprawling books that often ran to five hundred pages, her final work was surprisingly ______: a slim volume of just ninety pages.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "complicated",
+   "brief",
+   "popular",
+   "lengthy"
+  ],
+  "answer": "B",
+  "explanation": "\"Although\" sets up a contrast with her usual long books, and the colon defines the word as \"a slim volume of just ninety pages.\" \"Brief\" fits.",
+  "rationales": {
+   "A": "The colon explains the word as being about length, not difficulty.",
+   "B": "Correct. A ninety-page book contrasting with five-hundred-page ones is brief.",
+   "C": "Nothing in the text discusses how popular the book was.",
+   "D": "\"Lengthy\" describes her usual books, not the slim final one the text contrasts with them."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Economists once assumed that consumers always make the purchases that best serve their own interests. Research in behavioral economics has ______ that assumption, showing that people often choose options that are merely convenient or familiar rather than optimal.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "originated",
+   "confirmed",
+   "challenged",
+   "predicted"
+  ],
+  "answer": "C",
+  "explanation": "The research shows people often don't choose optimally, which undercuts the old assumption. \"Challenged\" is the logical word.",
+  "rationales": {
+   "A": "The assumption existed before the research (\"once assumed\"), so the research didn't originate it.",
+   "B": "The findings contradict the assumption, so they don't confirm it.",
+   "C": "Correct. Evidence that people choose suboptimal options calls the assumption into question.",
+   "D": "Showing that an assumption is often wrong is not predicting it."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "The architect's designs were notably ______: she rejected ornamental details such as carved moldings and decorative columns, favoring plain surfaces and simple geometric forms.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "austere",
+   "haphazard",
+   "extravagant",
+   "conventional"
+  ],
+  "answer": "A",
+  "explanation": "The colon explains the word: no ornament, plain surfaces, simple forms. That describes austere designs.",
+  "rationales": {
+   "A": "Correct. \"Austere\" means severely simple and unadorned, matching the description.",
+   "B": "\"Simple geometric forms\" chosen deliberately are orderly, not haphazard.",
+   "C": "\"Extravagant\" suggests lavish decoration, the opposite of what she favored.",
+   "D": "Nothing indicates her style was typical; rejecting ornament isn't described as the norm."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Some historians argue that the printing press did not ______ transform European intellectual life; instead, its effects accumulated gradually over more than a century as literacy spread and book prices fell.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "abruptly",
+   "permanently",
+   "eventually",
+   "gradually"
+  ],
+  "answer": "A",
+  "explanation": "\"Instead\" contrasts the blank with effects that \"accumulated gradually,\" so the press did not change things suddenly. \"Abruptly\" fits.",
+  "rationales": {
+   "A": "Correct. The contrast with gradual change calls for a word meaning sudden.",
+   "B": "Nothing in the contrast concerns whether the change was permanent.",
+   "C": "The effects did accumulate over time, so saying the press did not eventually transform intellectual life contradicts the text.",
+   "D": "The text says the change did happen gradually, so it can't say the press did not change things gradually."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "In her study of nineteenth-century family letters, historian Lucia Ferreira found that writers often adopted a deliberately ______ tone when discussing money, using vague phrases such as \"certain arrangements\" rather than naming specific sums.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "candid",
+   "exuberant",
+   "circumspect",
+   "belligerent"
+  ],
+  "answer": "C",
+  "explanation": "Using vague phrases instead of naming sums shows caution and discretion. \"Circumspect\" means cautious and unwilling to be explicit.",
+  "rationales": {
+   "A": "\"Candid\" means frank and open, the opposite of using vague phrases.",
+   "B": "Nothing suggests enthusiasm; the writers were guarded.",
+   "C": "Correct. Avoiding specifics on purpose is the hallmark of a circumspect tone.",
+   "D": "\"Belligerent\" means hostile; vagueness about money isn't aggression."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Critics who dismiss the poet's early work as merely ______ overlook how carefully she reworked conventional forms: poems that seem at first to repeat familiar patterns in fact subtly subvert them.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "obscure",
+   "derivative",
+   "innovative",
+   "sentimental"
+  ],
+  "answer": "B",
+  "explanation": "The critics see poems that \"repeat familiar patterns\" and dismiss them; the word must mean imitative. \"Derivative\" fits, and \"merely\" signals a criticism.",
+  "rationales": {
+   "A": "The issue is that the poems seem familiar, not hard to understand.",
+   "B": "Correct. \"Derivative\" (copied from earlier work) is the criticism that poems repeating familiar patterns would draw.",
+   "C": "Calling work innovative is praise, which doesn't fit \"dismiss ... as merely.\"",
+   "D": "The text says nothing about emotional excess; it's about repeating forms."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "The city built the new bridge to ______ traffic congestion on its main avenue, and within a month of the bridge's opening, average commute times along the avenue had dropped by nearly 15 percent.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "increase",
+   "reduce",
+   "celebrate",
+   "measure"
+  ],
+  "answer": "B",
+  "explanation": "Commute times dropped after the bridge opened, so the bridge's purpose was to lessen congestion.",
+  "rationales": {
+   "A": "Commute times fell, so the goal wasn't more congestion.",
+   "B": "Correct. Shorter commute times show the bridge was meant to reduce congestion.",
+   "C": "Building a bridge to \"celebrate\" congestion makes no sense.",
+   "D": "A bridge doesn't measure traffic, and the outcome described is a decrease."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Because the comet's orbit brings it close to Earth only once every 76 years, astronomers who miss one visit must wait decades for another chance. For this reason, the observations made during each pass are especially ______.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "frequent",
+   "valuable",
+   "routine",
+   "inaccurate"
+  ],
+  "answer": "B",
+  "explanation": "Rare opportunities make each set of observations precious. \"Valuable\" follows logically from \"for this reason.\"",
+  "rationales": {
+   "A": "The passes happen rarely, so the observations can't be frequent.",
+   "B": "Correct. Observations that can only be made every 76 years are especially valuable.",
+   "C": "\"Routine\" suggests something ordinary and common, the opposite of a once-in-76-years event.",
+   "D": "Nothing suggests the observations are flawed."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Ecologist Tamar Klein's survey suggests that the decline of the region's wild bees is not ______ any single cause; pesticide use, habitat loss, and a warming climate each appear to play a part.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "indifferent to",
+   "attributable to",
+   "opposed to",
+   "susceptible to"
+  ],
+  "answer": "B",
+  "explanation": "The semicolon introduces several causes, so the decline can't be traced to just one. \"Attributable to\" means caused by.",
+  "rationales": {
+   "A": "\"Indifferent to\" describes an attitude, which a decline can't have.",
+   "B": "Correct. \"Not attributable to any single cause\" matches the list of several contributing causes.",
+   "C": "\"Opposed to\" makes no sense describing the relationship between a decline and its causes.",
+   "D": "A decline being \"susceptible to\" a cause doesn't express that it was caused by several factors."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "easy",
+  "passage": "When the committee reviewed the proposal, members raised several concerns about its cost. The chair assured them that each issue would be addressed before the final vote.",
+  "stem": "As used in the text, what does the word \"raised\" most nearly mean?",
+  "choices": [
+   "built",
+   "lifted",
+   "increased",
+   "mentioned"
+  ],
+  "answer": "D",
+  "explanation": "Members \"raised\" concerns that the chair promised to address, so they brought them up, or mentioned them.",
+  "rationales": {
+   "A": "\"Built\" (as in raising a barn) doesn't fit voicing concerns.",
+   "B": "\"Lifted\" is the physical sense of \"raised,\" which doesn't apply to concerns.",
+   "C": "The members didn't make the concerns bigger; they voiced them.",
+   "D": "Correct. To raise a concern is to bring it up for discussion."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "easy",
+  "passage": "The museum's new exhibit draws on letters, photographs, and diaries to present a vivid picture of daily life in the 1920s.",
+  "stem": "As used in the text, what does the phrase \"draws on\" most nearly mean?",
+  "choices": [
+   "attracts",
+   "uses",
+   "pulls toward",
+   "sketches"
+  ],
+  "answer": "B",
+  "explanation": "The exhibit uses letters, photographs, and diaries as source material.",
+  "rationales": {
+   "A": "\"Attracts\" fits \"draws crowds,\" not \"draws on letters.\"",
+   "B": "Correct. To draw on sources is to use them as material.",
+   "C": "The exhibit isn't physically pulling the documents.",
+   "D": "\"Sketches\" is a sense of \"draws,\" but an exhibit doesn't sketch letters."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "medium",
+  "passage": "The theory was elegant and explained most planetary motions well, but it could not account for the unusual orbit of Mercury, which astronomers had measured with great precision.",
+  "stem": "As used in the text, what does the phrase \"account for\" most nearly mean?",
+  "choices": [
+   "pay for",
+   "report",
+   "count",
+   "explain"
+  ],
+  "answer": "D",
+  "explanation": "The theory could not \"account for\" Mercury's orbit, meaning it couldn't explain it, despite explaining other motions.",
+  "rationales": {
+   "A": "\"Pay for\" is a financial sense of \"account for\" that doesn't fit a theory.",
+   "B": "The orbit had already been measured; the problem was explaining it, not reporting it.",
+   "C": "Counting has nothing to do with whether a theory fits an orbit.",
+   "D": "Correct. A theory accounts for observations by explaining them."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "medium",
+  "passage": "The scientist's findings were initially met with skepticism, but as other laboratories reproduced her results, scientific opinion gradually shifted in her favor.",
+  "stem": "As used in the text, what does the word \"shifted\" most nearly mean?",
+  "choices": [
+   "relocated",
+   "changed",
+   "exchanged",
+   "transported"
+  ],
+  "answer": "B",
+  "explanation": "Opinion \"shifted in her favor,\" meaning it changed direction to support her.",
+  "rationales": {
+   "A": "Opinion doesn't move to a new physical place.",
+   "B": "Correct. Opinion shifting in someone's favor means it changed toward them.",
+   "C": "Opinion wasn't traded for something else.",
+   "D": "Nothing is being carried anywhere."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "medium",
+  "passage": "The director's spare staging (a bare platform, a single chair, and one hanging lamp) forces the audience to focus entirely on the actors' performances.",
+  "stem": "As used in the text, what does the word \"spare\" most nearly mean?",
+  "choices": [
+   "generous",
+   "minimal",
+   "extra",
+   "free"
+  ],
+  "answer": "B",
+  "explanation": "The parentheses list very few elements, so \"spare\" means minimal.",
+  "rationales": {
+   "A": "\"Generous\" suggests abundance, the opposite of a bare stage.",
+   "B": "Correct. A bare platform, one chair, and one lamp is minimal staging.",
+   "C": "\"Spare\" can mean extra (a spare tire), but the staging isn't additional; it's sparse.",
+   "D": "Nothing concerns cost or availability."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "hard",
+  "passage": "In the essay, Okafor contends that the novel's apparent simplicity is deceptive: beneath its plain sentences lies a highly qualified view of human motives, one that resists easy moral judgments.",
+  "stem": "As used in the text, what does the word \"qualified\" most nearly mean?",
+  "choices": [
+   "nuanced",
+   "certified",
+   "competent",
+   "eligible"
+  ],
+  "answer": "A",
+  "explanation": "A view that \"resists easy moral judgments\" is full of reservations and distinctions; \"qualified\" here means nuanced, not credentialed.",
+  "rationales": {
+   "A": "Correct. A qualified view is hedged with conditions, which makes it nuanced and resistant to easy judgment.",
+   "B": "\"Certified\" is the credential sense of \"qualified,\" which doesn't apply to a view.",
+   "C": "\"Competent\" describes a person's ability, not a view of motives.",
+   "D": "\"Eligible\" (qualified for a prize) doesn't describe a view."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "hard",
+  "passage": "The senator's remarks, though brief, were pointed; few listeners missed their implication that the agency had concealed key data.",
+  "stem": "As used in the text, what does the word \"pointed\" most nearly mean?",
+  "choices": [
+   "carefully measured",
+   "loosely connected",
+   "physically sharp",
+   "sharply critical"
+  ],
+  "answer": "D",
+  "explanation": "Remarks implying that an agency concealed data are cutting and critical; \"pointed\" means sharply critical here.",
+  "rationales": {
+   "A": "Nothing suggests the remarks were cautious; their implication was unmistakable.",
+   "B": "The remarks had a clear, direct implication, not a loose one.",
+   "C": "\"Sharp-tipped\" is the literal sense of \"pointed,\" which remarks can't have.",
+   "D": "Correct. The remarks clearly accused the agency, so they were sharply critical."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "easy",
+  "passage": "After weeks of rehearsals, the orchestra's performance of the symphony was polished, with every entrance precisely timed and every passage played cleanly.",
+  "stem": "As used in the text, what does the word \"polished\" most nearly mean?",
+  "choices": [
+   "rubbed",
+   "refined",
+   "painted",
+   "shined"
+  ],
+  "answer": "B",
+  "explanation": "Precise timing and clean playing describe a refined performance.",
+  "rationales": {
+   "A": "\"Rubbed\" is literal polishing, which doesn't apply to music.",
+   "B": "Correct. A polished performance is refined and free of flaws.",
+   "C": "Nothing was painted.",
+   "D": "\"Shined\" is the literal sense of \"polished\" (for metal or shoes), not a performance."
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "medium",
+  "passage": "The researchers caution that their sample was small, so the results should be treated as suggestive rather than conclusive.",
+  "stem": "As used in the text, what does the word \"suggestive\" most nearly mean?",
+  "choices": [
+   "imaginative",
+   "inappropriate",
+   "indicative",
+   "decisive"
+  ],
+  "answer": "C",
+  "explanation": "Results that are not conclusive but point toward a possibility are suggestive, meaning indicative.",
+  "rationales": {
+   "A": "Nothing suggests the results are fanciful or invented.",
+   "B": "\"Inappropriate\" is an unrelated sense of \"suggestive.\"",
+   "C": "Correct. Suggestive results indicate a possibility without proving it.",
+   "D": "\"Decisive\" is close to \"conclusive,\" which the text contrasts with \"suggestive.\""
+  }
+ },
+ {
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "hard",
+  "passage": "Far from being a neutral record of events, the chronicle reflects its author's loyalties: episodes that flattered his patrons are described in lavish detail, while unflattering ones are passed over in silence.",
+  "stem": "As used in the text, what does the phrase \"passed over\" most nearly mean?",
+  "choices": [
+   "omitted",
+   "handed",
+   "exceeded",
+   "crossed"
+  ],
+  "answer": "A",
+  "explanation": "Unflattering episodes are \"passed over in silence,\" in contrast to lavish description, so they are left out.",
+  "rationales": {
+   "A": "Correct. Passing over something in silence means leaving it out.",
+   "B": "\"Handed\" fits \"passed the salt,\" not episodes in a chronicle.",
+   "C": "\"Exceeded\" fits \"passed the limit,\" which doesn't apply.",
+   "D": "\"Crossed\" fits \"passed over a bridge,\" a physical sense."
+  }
+ }
+]

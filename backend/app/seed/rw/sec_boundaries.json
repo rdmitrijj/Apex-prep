@@ -1,0 +1,1802 @@
+[
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "easy",
+  "passage": "Biologist Rosa Medina began her study with a simple question about the hummingbirds she observed: How do they find nectar in unfamiliar ______ To answer it, she tracked dozens of birds as they explored new gardens.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "gardens;",
+   "gardens,",
+   "gardens?",
+   "gardens."
+  ],
+  "answer": "C",
+  "explanation": "The words after the colon form a direct question (\"How do they find ...\"), so it ends with a question mark.",
+  "rationales": {
+   "A": "A semicolon can't end a direct question, and the next word is capitalized as a new sentence.",
+   "B": "This creates a comma splice: the question and the next sentence joined by only a comma.",
+   "C": "Correct. A direct question ends with a question mark.",
+   "D": "A period doesn't end a direct question."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "easy",
+  "passage": "Many visitors to the gallery wonder how the artist achieved such vivid ______ The answer lies in her use of finely ground mineral pigments.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "colors.",
+   "colors,",
+   "colors",
+   "colors?"
+  ],
+  "answer": "A",
+  "explanation": "\"Many visitors ... wonder how the artist achieved ...\" is a statement that contains an indirect question, so it ends with a period.",
+  "rationales": {
+   "A": "Correct. An indirect question is a statement and ends with a period.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "D": "The sentence reports a question; it doesn't ask one directly, so no question mark."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "medium",
+  "passage": "Philosopher Iris Calloway's essay opens with a question that has puzzled thinkers for centuries: Can one person ever truly know another's ______ Calloway argues that the answer depends on what we mean by \"know.\"",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "mind;",
+   "mind.",
+   "mind?",
+   "mind,"
+  ],
+  "answer": "C",
+  "explanation": "\"Can one person ever truly know another's mind\" is a direct question, so it needs a question mark.",
+  "rationales": {
+   "A": "A semicolon doesn't end a question, and \"Calloway\" begins a new sentence.",
+   "B": "A period would end a direct question incorrectly.",
+   "C": "Correct. The direct question after the colon ends with a question mark.",
+   "D": "This creates a comma splice: two independent clauses joined by only a comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "medium",
+  "passage": "The festival committee has not yet decided whether the event will move to a larger ______ organizers expect to announce a decision by spring.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "venue? Organizers",
+   "venue organizers",
+   "venue, organizers",
+   "venue. Organizers"
+  ],
+  "answer": "D",
+  "explanation": "The first sentence contains an indirect question (\"whether the event will move\") and is a statement, so a period ends it before the new sentence.",
+  "rationales": {
+   "A": "The first sentence is a statement about a decision, not a direct question.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "D": "Correct. A period correctly ends the statement before the next sentence."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "hard",
+  "passage": "In a 1962 lecture, the economist posed a provocative question to his audience: If growth depends on innovation, why do so many inventive societies ______ He devoted the rest of the lecture to possible answers.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "stagnate;",
+   "stagnate,",
+   "stagnate?",
+   "stagnate."
+  ],
+  "answer": "C",
+  "explanation": "\"Why do so many inventive societies stagnate\" is a direct question introduced by the colon, so it takes a question mark.",
+  "rationales": {
+   "A": "A semicolon can't end the question; the next sentence is separate.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "Correct. The quoted-style question after the colon is direct and ends with a question mark.",
+   "D": "Ending a direct question with a period is incorrect."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "easy",
+  "passage": "On the castle tour, the guide explained why the walls were so ______ They had been built to withstand cannon fire.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "thick?",
+   "thick,",
+   "thick.",
+   "thick"
+  ],
+  "answer": "C",
+  "explanation": "\"The guide explained why the walls were so thick\" is a statement with an indirect question, so it ends with a period.",
+  "rationales": {
+   "A": "The guide's explanation is reported, not asked, so no question mark.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "Correct. The sentence is a statement and ends with a period.",
+   "D": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "medium",
+  "passage": "Volunteers in the citizen-science project record which bird species they observe and at what time of ______ The data help ornithologists track seasonal migrations.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "day,",
+   "day",
+   "day?",
+   "day."
+  ],
+  "answer": "D",
+  "explanation": "The first sentence is a statement describing what volunteers record; \"which ... and at what time\" are indirect questions. It ends with a period.",
+  "rationales": {
+   "A": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "The sentence doesn't ask anything directly.",
+   "D": "Correct. A statement containing indirect questions ends with a period."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "hard",
+  "passage": "Engineers testing the prototype kept returning to one concern: Would the lightweight frame hold up in freezing ______ After three winters of field trials, they had their answer.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "temperatures,",
+   "temperatures;",
+   "temperatures.",
+   "temperatures?"
+  ],
+  "answer": "D",
+  "explanation": "\"Would the lightweight frame hold up in freezing temperatures\" is a direct question after the colon, so it ends with a question mark.",
+  "rationales": {
+   "A": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "B": "A semicolon doesn't end the question before the new sentence.",
+   "C": "A period doesn't end a direct question.",
+   "D": "Correct. The direct question takes a question mark."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "hard",
+  "passage": "Historians still debate whether the treaty's vague wording was a diplomatic compromise or a deliberate ______ The surviving correspondence supports both interpretations.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "trap.",
+   "trap?",
+   "trap,",
+   "trap"
+  ],
+  "answer": "A",
+  "explanation": "\"Historians still debate whether ...\" is a statement containing an indirect question, so a period is correct.",
+  "rationales": {
+   "A": "Correct. The sentence states that historians debate; it ends with a period.",
+   "B": "Although it mentions a question, the sentence itself is a statement.",
+   "C": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "D": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.END",
+  "difficulty": "medium",
+  "passage": "The museum label poses a direct question to each visitor: What would you save if your home were ______ Below it, dozens of handwritten answers cover the wall.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "flooding?",
+   "flooding,",
+   "flooding;",
+   "flooding."
+  ],
+  "answer": "A",
+  "explanation": "The label's words after the colon form a direct question (\"What would you save ...\"), so a question mark ends them.",
+  "rationales": {
+   "A": "Correct. The direct question needs a question mark.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "A semicolon can't end the question; \"Below\" starts a new sentence.",
+   "D": "A period doesn't end a direct question."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "easy",
+  "passage": "The Atacama Desert in Chile is one of the driest places on ______ some weather stations there have never recorded measurable rain.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Earth; some",
+   "Earth some",
+   "Earth, some",
+   "Earth and, some"
+  ],
+  "answer": "A",
+  "explanation": "Both parts are independent clauses. A semicolon can join two independent clauses without a conjunction.",
+  "rationales": {
+   "A": "Correct. A semicolon correctly links the two independent clauses.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "D": "The comma is misplaced: it should come before \"and,\" not after it."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "easy",
+  "passage": "Honeybees share the location of food through a movement called the waggle ______ the angle of the dance tells other bees which direction to fly.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "dance, and, the",
+   "dance the",
+   "dance, the",
+   "dance; the"
+  ],
+  "answer": "D",
+  "explanation": "\"Honeybees share ... waggle dance\" and \"the angle ... to fly\" are independent clauses; a semicolon joins them.",
+  "rationales": {
+   "A": "A comma after \"and\" is unnecessary and incorrect.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "D": "Correct. The semicolon correctly joins two independent clauses."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "medium",
+  "passage": "Composer Florence Price wrote more than three hundred works, including four ______ her Symphony in E Minor was the first symphony by a Black woman to be performed by a major American orchestra.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "symphonies",
+   "symphonies, and",
+   "symphonies,",
+   "symphonies; and"
+  ],
+  "answer": "B",
+  "explanation": "Two independent clauses can be joined with a comma plus a coordinating conjunction (\", and\").",
+  "rationales": {
+   "A": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "B": "Correct. A comma followed by \"and\" correctly joins the independent clauses.",
+   "C": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "D": "A semicolon followed by \"and\" is nonstandard here; use a comma before the conjunction or a semicolon alone."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "medium",
+  "passage": "The Inca road system stretched nearly 40,000 kilometers across steep mountain ______ it allowed relay runners to carry messages across the empire within days.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "terrain,",
+   "terrain",
+   "terrain, and",
+   "terrain and,"
+  ],
+  "answer": "C",
+  "explanation": "Both sides are independent clauses; \", and\" joins them correctly.",
+  "rationales": {
+   "A": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "Correct. A comma plus \"and\" correctly links the clauses.",
+   "D": "The comma belongs before \"and,\" not after it."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "medium",
+  "passage": "Researchers expected the glacier to retreat ______ measurements from the past decade show that it has actually advanced slightly.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "slowly, however,",
+   "slowly, however",
+   "slowly; however,",
+   "slowly however"
+  ],
+  "answer": "C",
+  "explanation": "\"However\" is a conjunctive adverb, not a conjunction, so it can't join independent clauses with commas. A semicolon before it, with a comma after, is correct.",
+  "rationales": {
+   "A": "Commas around \"however\" still leave a comma splice.",
+   "B": "A comma before \"however\" creates a comma splice.",
+   "C": "Correct. The semicolon separates the clauses, and the comma sets off \"however.\"",
+   "D": "With no punctuation, this is a run-on."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "passage": "The playwright's early comedies were commercial ______ her later tragedies, which audiences at first found bewildering, are now considered her finest achievements.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "successes, her",
+   "successes, and, her",
+   "successes her",
+   "successes; her"
+  ],
+  "answer": "D",
+  "explanation": "Two independent clauses (\"The playwright's early comedies were commercial successes\" and \"her later tragedies ... are now considered ...\") are joined by a semicolon.",
+  "rationales": {
+   "A": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "B": "A comma shouldn't follow \"and\" here.",
+   "C": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "D": "Correct. A semicolon correctly separates the two independent clauses."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "passage": "Mathematician Maryam Mirzakhani studied the geometry and dynamics of curved ______ in 2014, she became the first woman to receive the Fields Medal.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "surfaces and, in",
+   "surfaces in",
+   "surfaces. In",
+   "surfaces, in"
+  ],
+  "answer": "C",
+  "explanation": "\"In 2014, she became ...\" is a complete sentence, so it must be separated from the first independent clause, here with a period.",
+  "rationales": {
+   "A": "The comma after \"and\" is misplaced.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "Correct. A period correctly separates the two sentences.",
+   "D": "This creates a comma splice: two independent clauses joined by only a comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "easy",
+  "passage": "The library extended its weekend ______ students can now study there until midnight on Saturdays.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "hours,",
+   "hours",
+   "hours, so",
+   "hours; so,"
+  ],
+  "answer": "C",
+  "explanation": "A comma plus the coordinating conjunction \"so\" joins the two independent clauses.",
+  "rationales": {
+   "A": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "Correct. \", so\" correctly links the independent clauses.",
+   "D": "\"So\" here is a conjunction; it shouldn't be followed by a comma, and a semicolon before it is unnecessary."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "medium",
+  "passage": "Lichens are not single ______ they are partnerships between a fungus and an alga or a cyanobacterium.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "organisms rather",
+   "organisms, rather,",
+   "organisms, rather",
+   "organisms; rather,"
+  ],
+  "answer": "D",
+  "explanation": "\"Rather\" is a conjunctive adverb; a semicolon must separate the two independent clauses before it.",
+  "rationales": {
+   "A": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "B": "Commas around \"rather\" leave a comma splice.",
+   "C": "A comma before \"rather\" creates a comma splice.",
+   "D": "Correct. The semicolon separates the clauses and the comma follows \"rather.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "passage": "The sculptor carved the statue from a single block of ______ the result proved remarkably durable, surviving two earthquakes and a fire with only minor damage.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "marble, and",
+   "marble,",
+   "marble, and,",
+   "marble"
+  ],
+  "answer": "A",
+  "explanation": "A comma plus \"and\" joins the two independent clauses.",
+  "rationales": {
+   "A": "Correct. \", and\" correctly links the two independent clauses.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "No comma should follow \"and.\"",
+   "D": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "easy",
+  "passage": "The Great Barrier ______ is visible from low Earth orbit.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Reef, the world's largest coral reef system,",
+   "Reef, the world's largest coral reef system",
+   "Reef—the world's largest coral reef system,",
+   "Reef the world's largest coral reef system,"
+  ],
+  "answer": "A",
+  "explanation": "The phrase \"the world's largest coral reef system\" is nonessential and must be set off by a matching pair of commas.",
+  "rationales": {
+   "A": "Correct. Matching commas set off the nonessential phrase.",
+   "B": "Without the second comma, the phrase isn't closed off before the verb.",
+   "C": "A dash and a comma don't match; use two dashes or two commas.",
+   "D": "Without the first comma, the phrase isn't opened properly."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "easy",
+  "passage": "Jazz pianist Mary Lou Williams—who mentored younger musicians such as Thelonious ______ composed and arranged music for some of the most celebrated big bands of the 1930s.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Monk",
+   "Monk;",
+   "Monk,",
+   "Monk—"
+  ],
+  "answer": "D",
+  "explanation": "The nonessential clause opens with a dash, so it must close with a dash.",
+  "rationales": {
+   "A": "Without closing punctuation, the clause runs into the main verb.",
+   "B": "A semicolon can't close a dash-set interruption.",
+   "C": "A comma doesn't match the opening dash.",
+   "D": "Correct. The closing dash matches the opening dash."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "medium",
+  "passage": "The novel's narrator, a retired ship's ______ recounts his voyages with a mixture of nostalgia and regret.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "captain",
+   "captain;",
+   "captain—",
+   "captain,"
+  ],
+  "answer": "D",
+  "explanation": "The appositive \"a retired ship's captain\" opens with a comma, so it closes with a comma.",
+  "rationales": {
+   "A": "The appositive must be closed before the verb \"recounts.\"",
+   "B": "A semicolon would separate the subject from its verb.",
+   "C": "A dash doesn't match the opening comma.",
+   "D": "Correct. The closing comma matches the opening one."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "medium",
+  "passage": "Kudzu (a climbing vine native to East ______ can grow as much as 30 centimeters in a single day during the summer.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Asia),",
+   "Asia)",
+   "Asia",
+   "Asia,"
+  ],
+  "answer": "B",
+  "explanation": "The parenthetical opens with \"(\" and must close with \")\"; no comma follows, since that would separate the subject from the verb.",
+  "rationales": {
+   "A": "The comma after the parenthesis separates the subject from its verb.",
+   "B": "Correct. The closing parenthesis completes the pair with nothing extra.",
+   "C": "The parenthesis is never closed.",
+   "D": "A comma can't close a parenthesis."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "passage": "Gordon Parks's 1942 photograph of Ella Watson—an image that deliberately echoes Grant Wood's famous ______ shows a government office cleaner standing before an American flag with a broom and mop.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "painting",
+   "painting,",
+   "painting—",
+   "painting;"
+  ],
+  "answer": "C",
+  "explanation": "The interrupting phrase begins with a dash, so it must end with a dash before the verb \"shows.\"",
+  "rationales": {
+   "A": "The interruption must be closed before the verb.",
+   "B": "A comma doesn't match the opening dash.",
+   "C": "Correct. The second dash closes the interruption.",
+   "D": "A semicolon would cut the subject off from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "medium",
+  "passage": "The city's oldest ______ a two-story brick house built in 1784, now serves as a museum of local history.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "building,",
+   "building—",
+   "building",
+   "building;"
+  ],
+  "answer": "A",
+  "explanation": "The appositive \"a two-story brick house built in 1784\" closes with a comma, so it must open with one.",
+  "rationales": {
+   "A": "Correct. The comma opens the appositive that the later comma closes.",
+   "B": "A dash doesn't match the closing comma.",
+   "C": "Without a comma, the appositive isn't set off.",
+   "D": "A semicolon would separate the subject from the rest of the sentence."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "passage": "In 1903, the Wright brothers (Orville and ______ completed the first powered, controlled airplane flight near Kitty Hawk, North Carolina.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Wilbur),",
+   "Wilbur)",
+   "Wilbur,",
+   "Wilbur"
+  ],
+  "answer": "B",
+  "explanation": "The parenthetical must be closed with \")\"; adding a comma would separate the subject from the verb \"completed.\"",
+  "rationales": {
+   "A": "The comma separates the subject from its verb.",
+   "B": "Correct. The closing parenthesis completes the pair.",
+   "C": "A comma doesn't close a parenthesis.",
+   "D": "The parenthesis is left open."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "easy",
+  "passage": "Bioluminescence, the production of light by living ______ is common among animals of the deep sea.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "organisms",
+   "organisms:",
+   "organisms;",
+   "organisms,"
+  ],
+  "answer": "D",
+  "explanation": "The appositive opens with a comma after \"Bioluminescence,\" so it closes with a comma.",
+  "rationales": {
+   "A": "The appositive must be closed before the verb \"is.\"",
+   "B": "A colon can't interrupt a subject and its verb.",
+   "C": "A semicolon separates the subject from its verb.",
+   "D": "Correct. The closing comma matches the opening comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "medium",
+  "passage": "Poet Gwendolyn ______ won the Pulitzer Prize in 1950 for her collection Annie Allen.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Brooks, who grew up in Chicago,",
+   "Brooks, who grew up in Chicago",
+   "Brooks who, grew up in Chicago,",
+   "Brooks, who grew up, in Chicago,"
+  ],
+  "answer": "A",
+  "explanation": "The nonessential clause \"who grew up in Chicago\" is set off by a pair of commas.",
+  "rationales": {
+   "A": "Correct. Paired commas set off the nonessential clause.",
+   "B": "The clause isn't closed before the verb \"won.\"",
+   "C": "The comma is in the wrong place; it belongs before \"who.\"",
+   "D": "The comma after \"up\" wrongly splits the clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "passage": "The economist's central claim—that small changes in interest rates can have outsized effects on housing ______ has been tested in dozens of studies since the paper appeared.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "markets—",
+   "markets,",
+   "markets",
+   "markets;"
+  ],
+  "answer": "A",
+  "explanation": "The interruption opens with a dash and must close with one before the verb \"has been tested.\"",
+  "rationales": {
+   "A": "Correct. The closing dash matches the opening dash.",
+   "B": "A comma doesn't match the opening dash.",
+   "C": "The interruption isn't closed.",
+   "D": "A semicolon would split the subject from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "easy",
+  "passage": "The bread recipe calls for only three ______ flour, water, and salt.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ingredients;",
+   "ingredients",
+   "ingredients:",
+   "ingredients,"
+  ],
+  "answer": "C",
+  "explanation": "A colon after a complete independent clause introduces the list.",
+  "rationales": {
+   "A": "A semicolon must join two independent clauses; a list isn't one.",
+   "B": "Without punctuation, the list runs into the clause.",
+   "C": "Correct. The colon introduces the list after a complete clause.",
+   "D": "A comma makes the list read as a vague series of items rather than an explanation of \"three ingredients.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "medium",
+  "passage": "The expedition faced a serious ______ its supply ship had been delayed by a storm for nearly two weeks.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "problem; that",
+   "problem,",
+   "problem",
+   "problem:"
+  ],
+  "answer": "D",
+  "explanation": "The second part explains what the problem was; a colon after the independent clause introduces that explanation.",
+  "rationales": {
+   "A": "\"That its supply ship had been delayed\" isn't an independent clause, so a semicolon can't introduce it.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "D": "Correct. The colon introduces the explanation of the problem."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "medium",
+  "passage": "Architect Zaha Hadid became known for one feature above all ______ sweeping, curved forms that seemed to defy gravity.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "others, these were",
+   "others:",
+   "others",
+   "others;"
+  ],
+  "answer": "B",
+  "explanation": "A colon after the complete clause introduces the feature it describes.",
+  "rationales": {
+   "A": "\"These were sweeping, curved forms\" is an independent clause, so the comma creates a splice.",
+   "B": "Correct. The colon introduces the specific feature.",
+   "C": "Without punctuation, the sentence runs together confusingly.",
+   "D": "What follows the semicolon isn't an independent clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "hard",
+  "passage": "Scientists exploring the deep ocean have identified a surprising source of ______ chemical reactions near hydrothermal vents, rather than sunlight, sustain entire communities of organisms.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "energy:",
+   "energy",
+   "energy; which is",
+   "energy,"
+  ],
+  "answer": "A",
+  "explanation": "The second part explains the \"surprising source\"; a colon introduces that explanation.",
+  "rationales": {
+   "A": "Correct. The colon introduces the explanation.",
+   "B": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "C": "\"Which is chemical reactions ...\" isn't an independent clause, so the semicolon is wrong.",
+   "D": "This creates a comma splice: two independent clauses joined by only a comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "easy",
+  "passage": "The museum's newest gallery features artifacts from three ancient ______ Egypt, Rome, and Han dynasty China.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "civilizations",
+   "civilizations:",
+   "civilizations, such as:",
+   "civilizations;"
+  ],
+  "answer": "B",
+  "explanation": "A colon after the complete clause introduces the list of civilizations.",
+  "rationales": {
+   "A": "The list needs punctuation to introduce it.",
+   "B": "Correct. The colon introduces the list.",
+   "C": "A colon shouldn't follow \"such as.\"",
+   "D": "A semicolon can't introduce a list."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "medium",
+  "passage": "After months of testing, the engineers reached a clear ______ the bridge's original design could not support modern traffic loads.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "conclusion",
+   "conclusion—",
+   "conclusion; that",
+   "conclusion,"
+  ],
+  "answer": "B",
+  "explanation": "A dash, like a colon, can introduce an explanation after an independent clause.",
+  "rationales": {
+   "A": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "B": "Correct. The dash introduces the conclusion itself.",
+   "C": "\"That the bridge's original design ...\" is not an independent clause, so a semicolon can't precede it.",
+   "D": "This creates a comma splice: two independent clauses joined by only a comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "hard",
+  "passage": "The poet's notebooks reveal a consistent working ______ she drafted each poem in pencil, revised it in ink, and only then typed a clean copy.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "method:",
+   "method,",
+   "method",
+   "method, that"
+  ],
+  "answer": "A",
+  "explanation": "The second clause explains the method; a colon introduces it.",
+  "rationales": {
+   "A": "Correct. The colon introduces the description of the method.",
+   "B": "This creates a comma splice: two independent clauses joined by only a comma.",
+   "C": "This creates a run-on sentence: two independent clauses with no punctuation or conjunction between them.",
+   "D": "\"That\" after a comma makes the sentence ungrammatical."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "medium",
+  "passage": "The study measured two ______ how quickly participants completed the puzzle and how many errors they made.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "outcomes:",
+   "outcomes",
+   "outcomes, which were:",
+   "outcomes;"
+  ],
+  "answer": "A",
+  "explanation": "A colon introduces the two outcomes after the complete clause.",
+  "rationales": {
+   "A": "Correct. The colon introduces the two outcomes.",
+   "B": "The list needs to be introduced with punctuation.",
+   "C": "A colon shouldn't follow \"which were.\"",
+   "D": "A semicolon can't introduce a list of phrases."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "hard",
+  "passage": "The new grant will ______ microscopes, laboratory software, and travel funds for graduate students.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "provide—",
+   "provide",
+   "provide:",
+   "provide;"
+  ],
+  "answer": "B",
+  "explanation": "A colon or dash introducing a list must follow a complete independent clause; \"The new grant will provide\" isn't one, so no punctuation belongs between the verb and its objects.",
+  "rationales": {
+   "A": "A dash can't come between a verb and its object.",
+   "B": "Correct. No punctuation separates the verb from its objects.",
+   "C": "A colon can't come between a verb and its object.",
+   "D": "A semicolon can't come between a verb and its object."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "easy",
+  "passage": "The meadow behind the school is planted with native ______ milkweed, goldenrod, and purple coneflower.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "wildflowers;",
+   "wildflowers, they include",
+   "wildflowers:",
+   "wildflowers"
+  ],
+  "answer": "C",
+  "explanation": "A colon after the independent clause introduces the list of wildflowers.",
+  "rationales": {
+   "A": "A semicolon can't introduce a list.",
+   "B": "\"They include milkweed ...\" is an independent clause, so the comma creates a splice.",
+   "C": "Correct. The colon introduces the list.",
+   "D": "The list needs punctuation to introduce it."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "easy",
+  "passage": "The camping kit contains a tent, a ______ and a water filter.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "stove—",
+   "stove;",
+   "stove,",
+   "stove:"
+  ],
+  "answer": "C",
+  "explanation": "Items in a simple series are separated by commas.",
+  "rationales": {
+   "A": "A single dash doesn't separate items in a series.",
+   "B": "Semicolons separate series items only when the items contain commas.",
+   "C": "Correct. A comma separates the series items.",
+   "D": "A colon doesn't separate items in a series."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "medium",
+  "passage": "The walking tour includes stops in Lisbon, Portugal; Seville, ______ and Marseille, France.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Spain,",
+   "Spain",
+   "Spain:",
+   "Spain;"
+  ],
+  "answer": "D",
+  "explanation": "Because each item contains a comma (city, country), items are separated by semicolons.",
+  "rationales": {
+   "A": "A comma would blur where one item ends and the next begins.",
+   "B": "Items must be separated.",
+   "C": "A colon doesn't separate series items.",
+   "D": "Correct. A semicolon separates items that contain internal commas."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "medium",
+  "passage": "For each bird, the researchers recorded its weight, wing ______ and beak depth.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "length:",
+   "length—",
+   "length;",
+   "length,"
+  ],
+  "answer": "D",
+  "explanation": "A comma separates items in a simple series.",
+  "rationales": {
+   "A": "A colon doesn't separate series items.",
+   "B": "A single dash doesn't separate items in a series.",
+   "C": "The items contain no internal commas, so semicolons aren't needed.",
+   "D": "Correct. The comma separates the series items."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "hard",
+  "passage": "Panelists included Ruth Okoye, a climate scientist; Daniel Ruiz, an urban ______ and Mei Lin, a public health researcher.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "planner;",
+   "planner,",
+   "planner",
+   "planner:"
+  ],
+  "answer": "A",
+  "explanation": "Each item contains a comma (name, description), so semicolons separate the items, as after \"scientist.\"",
+  "rationales": {
+   "A": "Correct. The semicolon matches the separator used earlier in the series.",
+   "B": "A comma would make it unclear where items begin and end.",
+   "C": "The items must be separated.",
+   "D": "A colon doesn't separate series items."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "easy",
+  "passage": "To make the dye, artisans boil the plant roots, strain the ______ and soak the fabric in it overnight.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "liquid,",
+   "liquid;",
+   "liquid—",
+   "liquid:"
+  ],
+  "answer": "A",
+  "explanation": "Commas separate the actions in a series.",
+  "rationales": {
+   "A": "Correct. The comma separates the series items.",
+   "B": "Semicolons aren't needed for simple items.",
+   "C": "A single dash doesn't separate items in a series.",
+   "D": "A colon doesn't separate series items."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "medium",
+  "passage": "The documentary explores how the river shaped the region's ______ economy, and culture.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "agriculture,",
+   "agriculture;",
+   "agriculture:",
+   "agriculture"
+  ],
+  "answer": "A",
+  "explanation": "Commas separate the three nouns in the series.",
+  "rationales": {
+   "A": "Correct. The comma separates the series items.",
+   "B": "A semicolon doesn't match the comma used later in the series.",
+   "C": "A colon doesn't belong in the middle of a series.",
+   "D": "Each item in the series must be separated."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "hard",
+  "passage": "The prize recognizes achievement in three fields: medicine, which includes public health; engineering, which includes computer ______ and literature, which includes translation.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "science",
+   "science:",
+   "science,",
+   "science;"
+  ],
+  "answer": "D",
+  "explanation": "The items contain internal commas, so they're separated by semicolons, matching the one after \"public health.\"",
+  "rationales": {
+   "A": "The items must be separated.",
+   "B": "A colon doesn't separate series items.",
+   "C": "A comma would confuse the boundaries between items.",
+   "D": "Correct. A semicolon matches the separator used earlier."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "easy",
+  "passage": "At the state park, visitors can hike the forest trails, kayak on the ______ or tour the historic lodge.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "lake,",
+   "lake;",
+   "lake—",
+   "lake:"
+  ],
+  "answer": "A",
+  "explanation": "Commas separate items in a series of three actions.",
+  "rationales": {
+   "A": "Correct. The comma separates the series items.",
+   "B": "Semicolons are only for items with internal commas.",
+   "C": "A single dash doesn't separate items in a series.",
+   "D": "A colon doesn't separate series items."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "medium",
+  "passage": "The spice blend combines cumin, coriander, ______ and cardamom.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "turmeric,",
+   "turmeric, and,",
+   "turmeric—",
+   "turmeric;"
+  ],
+  "answer": "A",
+  "explanation": "Commas separate items in the series.",
+  "rationales": {
+   "A": "Correct. The comma separates the series items.",
+   "B": "This repeats \"and\" and adds an extra comma.",
+   "C": "A single dash doesn't separate items in a series.",
+   "D": "A semicolon doesn't match the commas used in the series."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "hard",
+  "passage": "The conference will meet in Accra, Ghana, in March; in Nairobi, Kenya, in ______ and in Lagos, Nigeria, in September.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "June:",
+   "June",
+   "June;",
+   "June,"
+  ],
+  "answer": "C",
+  "explanation": "The items contain internal commas, so semicolons separate them, matching the one after \"March.\"",
+  "rationales": {
+   "A": "A colon doesn't separate series items.",
+   "B": "The items must be separated.",
+   "C": "Correct. The semicolon matches the earlier separator.",
+   "D": "A comma would blur the items together."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "easy",
+  "passage": "After the storm ______ the town spent weeks repairing damaged roofs and power lines.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "passed:",
+   "passed;",
+   "passed",
+   "passed,"
+  ],
+  "answer": "D",
+  "explanation": "An introductory dependent clause (\"After the storm passed\") is followed by a comma.",
+  "rationales": {
+   "A": "A colon can't follow a dependent clause.",
+   "B": "A semicolon can't follow a dependent clause.",
+   "C": "Without the comma, the introductory clause runs into the main clause.",
+   "D": "Correct. The comma sets off the introductory clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "medium",
+  "passage": "Born in a small fishing village on the northern coast of ______ the painter moved to Lisbon at the age of nineteen.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Portugal;",
+   "Portugal,",
+   "Portugal:",
+   "Portugal"
+  ],
+  "answer": "B",
+  "explanation": "The introductory participial phrase is followed by a comma.",
+  "rationales": {
+   "A": "A semicolon can't follow a phrase that isn't an independent clause.",
+   "B": "Correct. The comma sets off the introductory phrase.",
+   "C": "A colon can't follow an introductory phrase.",
+   "D": "The phrase needs a comma before the main clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "medium",
+  "passage": "Unlike most ______ the axolotl keeps its larval features, such as feathery external gills, throughout its adult life.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "salamanders",
+   "salamanders,",
+   "salamanders;",
+   "salamanders:"
+  ],
+  "answer": "B",
+  "explanation": "The introductory phrase \"Unlike most salamanders\" is followed by a comma.",
+  "rationales": {
+   "A": "Without a comma, the introductory phrase runs into the subject.",
+   "B": "Correct. The comma sets off the introductory phrase.",
+   "C": "A semicolon can't follow an introductory phrase.",
+   "D": "A colon can't follow an introductory phrase."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "hard",
+  "passage": "Determined to document every plant species in the ______ the botanist spent eleven years cataloging specimens on foot.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "valley:",
+   "valley,",
+   "valley",
+   "valley;"
+  ],
+  "answer": "B",
+  "explanation": "The introductory phrase is followed by a comma before the subject \"the botanist.\"",
+  "rationales": {
+   "A": "A colon can't follow an introductory phrase.",
+   "B": "Correct. The comma sets off the introductory phrase.",
+   "C": "Without a comma, \"valley the botanist\" runs together.",
+   "D": "A semicolon can't follow an introductory phrase."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "easy",
+  "passage": "While the orchestra ______ the audience waited quietly in the lobby.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "tuned",
+   "tuned,",
+   "tuned:",
+   "tuned;"
+  ],
+  "answer": "B",
+  "explanation": "A comma after the introductory clause prevents misreading (\"the orchestra tuned the audience\").",
+  "rationales": {
+   "A": "Without the comma, the sentence briefly reads as if the orchestra tuned the audience.",
+   "B": "Correct. The comma ends the introductory clause clearly.",
+   "C": "A colon can't follow a dependent clause.",
+   "D": "A semicolon can't follow a dependent clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "medium",
+  "passage": "Having spent decades studying volcanic ______ geologist Inês Pereira can often anticipate eruptions from subtle changes in gas emissions.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "activity,",
+   "activity",
+   "activity:",
+   "activity;"
+  ],
+  "answer": "A",
+  "explanation": "The introductory participial phrase is followed by a comma.",
+  "rationales": {
+   "A": "Correct. The comma sets off the introductory phrase.",
+   "B": "Without the comma, the phrase runs into the subject.",
+   "C": "A colon can't follow an introductory phrase.",
+   "D": "A semicolon can't follow an introductory phrase."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "hard",
+  "passage": "To reduce the risk of contaminating samples in the ______ technicians wear sterile suits and pass through an air shower before entering.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "laboratory",
+   "laboratory;",
+   "laboratory,",
+   "laboratory—"
+  ],
+  "answer": "C",
+  "explanation": "The introductory infinitive phrase is followed by a comma.",
+  "rationales": {
+   "A": "Without the comma, the phrase runs into the subject.",
+   "B": "A semicolon can't follow an introductory phrase.",
+   "C": "Correct. The comma sets off the introductory phrase.",
+   "D": "A single dash doesn't set off an introductory phrase."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "easy",
+  "passage": "When the experiment ______ the students compared their measurements with the predicted values.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "ended;",
+   "ended",
+   "ended:",
+   "ended,"
+  ],
+  "answer": "D",
+  "explanation": "The introductory dependent clause is followed by a comma.",
+  "rationales": {
+   "A": "A semicolon can't follow a dependent clause.",
+   "B": "The introductory clause needs a comma before the main clause.",
+   "C": "A colon can't follow a dependent clause.",
+   "D": "Correct. The comma sets off the introductory clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "medium",
+  "passage": "Although the manuscript was copied in the twelfth ______ its ink remains remarkably vivid.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "century;",
+   "century,",
+   "century",
+   "century:"
+  ],
+  "answer": "B",
+  "explanation": "The introductory clause beginning with \"Although\" is followed by a comma.",
+  "rationales": {
+   "A": "A semicolon can't follow a dependent clause.",
+   "B": "Correct. The comma sets off the introductory clause.",
+   "C": "The introductory clause needs a comma.",
+   "D": "A colon can't follow a dependent clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "hard",
+  "passage": "Because sound travels faster and farther in water than in ______ whales can communicate across hundreds of kilometers of ocean.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "air:",
+   "air",
+   "air;",
+   "air,"
+  ],
+  "answer": "D",
+  "explanation": "The introductory \"Because\" clause is followed by a comma before the main clause.",
+  "rationales": {
+   "A": "A colon can't follow a dependent clause.",
+   "B": "Without the comma, \"air whales\" runs together.",
+   "C": "A semicolon can't follow a dependent clause.",
+   "D": "Correct. The comma sets off the introductory clause."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "easy",
+  "passage": "To reach the waterfall, the hikers crossed a ______ bridge that swayed with every step.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "narrow, rickety",
+   "narrow; rickety",
+   "narrow, rickety,",
+   "narrow rickety"
+  ],
+  "answer": "A",
+  "explanation": "\"Narrow\" and \"rickety\" each describe the bridge independently (you could say \"rickety and narrow\"), so they're coordinate adjectives separated by a comma.",
+  "rationales": {
+   "A": "Correct. A comma separates the coordinate adjectives.",
+   "B": "A semicolon can't separate adjectives.",
+   "C": "No comma goes between the last adjective and the noun.",
+   "D": "Coordinate adjectives need a comma between them."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "medium",
+  "passage": "At the auction, the collector purchased several ______ coins minted during the reign of Augustus.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "large, Roman,",
+   "large, Roman",
+   "large Roman",
+   "large; Roman"
+  ],
+  "answer": "C",
+  "explanation": "\"Large\" modifies \"Roman coins\" as a unit (you wouldn't say \"Roman and large coins\"), so the adjectives are cumulative and take no comma.",
+  "rationales": {
+   "A": "No comma goes between adjectives and their noun.",
+   "B": "A comma treats the adjectives as coordinate, but \"large\" modifies the phrase \"Roman coins.\"",
+   "C": "Correct. Cumulative adjectives take no comma.",
+   "D": "A semicolon can't separate adjectives."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "medium",
+  "passage": "Critics praised the film's ______ dialogue, which kept audiences laughing throughout.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "witty, fast-paced",
+   "witty; fast-paced",
+   "witty fast-paced",
+   "witty, fast-paced,"
+  ],
+  "answer": "A",
+  "explanation": "\"Witty\" and \"fast-paced\" each describe the dialogue independently, so a comma separates them.",
+  "rationales": {
+   "A": "Correct. A comma separates the coordinate adjectives.",
+   "B": "A semicolon can't separate adjectives.",
+   "C": "Coordinate adjectives need a comma.",
+   "D": "No comma goes between the last adjective and the noun."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "hard",
+  "passage": "Researchers recorded the ______ songs of humpback whales, some of which lasted for hours.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "long; complex",
+   "long, complex,",
+   "long complex",
+   "long, complex"
+  ],
+  "answer": "D",
+  "explanation": "\"Long\" and \"complex\" independently describe the songs (\"complex and long\" works), so they are coordinate and need a comma.",
+  "rationales": {
+   "A": "A semicolon can't separate adjectives.",
+   "B": "No comma goes between the adjective and the noun.",
+   "C": "Coordinate adjectives require a comma.",
+   "D": "Correct. A comma separates the coordinate adjectives."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "easy",
+  "passage": "The chef served a ______ soup made from roasted root vegetables.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "thick, hearty",
+   "thick hearty",
+   "thick: hearty",
+   "thick, hearty,"
+  ],
+  "answer": "A",
+  "explanation": "\"Thick\" and \"hearty\" are coordinate adjectives, so a comma separates them.",
+  "rationales": {
+   "A": "Correct. A comma separates the coordinate adjectives.",
+   "B": "The coordinate adjectives need a comma.",
+   "C": "A colon can't separate adjectives.",
+   "D": "No comma goes between the adjective and the noun."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "medium",
+  "passage": "Visitors gathered beneath the ______ cathedral at the center of the square.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "enormous Gothic",
+   "enormous; Gothic",
+   "enormous, Gothic",
+   "enormous, Gothic,"
+  ],
+  "answer": "A",
+  "explanation": "\"Enormous\" modifies \"Gothic cathedral\" as a unit; \"Gothic\" names a style, so the adjectives are cumulative and take no comma.",
+  "rationales": {
+   "A": "Correct. Cumulative adjectives take no comma.",
+   "B": "A semicolon can't separate adjectives.",
+   "C": "The comma wrongly treats the adjectives as coordinate.",
+   "D": "No comma goes before the noun."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "hard",
+  "passage": "As the novel unfolds, its ______ narrator gradually reveals that he has misremembered key events.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "charming, unreliable",
+   "charming, unreliable,",
+   "charming; unreliable",
+   "charming unreliable"
+  ],
+  "answer": "A",
+  "explanation": "\"Charming\" and \"unreliable\" each describe the narrator independently, so they are coordinate and separated by a comma.",
+  "rationales": {
+   "A": "Correct. A comma separates the coordinate adjectives.",
+   "B": "No comma goes between the adjective and the noun.",
+   "C": "A semicolon can't separate adjectives.",
+   "D": "The coordinate adjectives need a comma."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "easy",
+  "passage": "At night, the desert can be a ______ place.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "cold, silent,",
+   "cold silent",
+   "cold; silent",
+   "cold, silent"
+  ],
+  "answer": "D",
+  "explanation": "\"Cold\" and \"silent\" are coordinate adjectives, so a comma separates them.",
+  "rationales": {
+   "A": "No comma goes between the adjective and the noun.",
+   "B": "The coordinate adjectives need a comma.",
+   "C": "A semicolon can't separate adjectives.",
+   "D": "Correct. A comma separates the coordinate adjectives."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "medium",
+  "passage": "Beneath the floor of the old storehouse, the team uncovered two ______ jars still sealed with wax.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "intact clay",
+   "intact; clay",
+   "intact, clay",
+   "intact, clay,"
+  ],
+  "answer": "A",
+  "explanation": "\"Clay\" tells what the jars are made of, and \"intact\" modifies \"clay jars\" as a unit, so the adjectives are cumulative and take no comma.",
+  "rationales": {
+   "A": "Correct. Cumulative adjectives take no comma.",
+   "B": "A semicolon can't separate adjectives.",
+   "C": "The comma wrongly treats the adjectives as coordinate.",
+   "D": "No comma goes before the noun."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.COORDADJ",
+  "difficulty": "hard",
+  "passage": "Engineers have designed a ______ battery that can power a phone for a week on a single charge.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "lightweight—durable",
+   "lightweight, durable",
+   "lightweight durable",
+   "lightweight, durable,"
+  ],
+  "answer": "B",
+  "explanation": "\"Lightweight\" and \"durable\" independently describe the battery, so they're coordinate adjectives separated by a comma.",
+  "rationales": {
+   "A": "A dash doesn't separate coordinate adjectives.",
+   "B": "Correct. A comma separates the coordinate adjectives.",
+   "C": "The coordinate adjectives need a comma.",
+   "D": "No comma goes between the adjective and the noun."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "easy",
+  "passage": "The scientists who analyzed the ______ concluded that the meteorite was billions of years old.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "samples;",
+   "samples,",
+   "samples:",
+   "samples"
+  ],
+  "answer": "D",
+  "explanation": "The subject is \"The scientists who analyzed the samples\"; nothing should separate it from the verb \"concluded.\"",
+  "rationales": {
+   "A": "Punctuation shouldn't separate a subject from its verb.",
+   "B": "Punctuation shouldn't separate a subject from its verb.",
+   "C": "Punctuation shouldn't separate a subject from its verb.",
+   "D": "Correct. No punctuation separates the subject from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "medium",
+  "passage": "The museum's newest ______ features more than two hundred handmade quilts.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "exhibit;",
+   "exhibit,",
+   "exhibit:",
+   "exhibit"
+  ],
+  "answer": "D",
+  "explanation": "\"The museum's newest exhibit\" is the subject of \"features\"; no punctuation belongs between them.",
+  "rationales": {
+   "A": "Punctuation shouldn't separate a subject from its verb.",
+   "B": "Punctuation shouldn't separate a subject from its verb.",
+   "C": "Punctuation shouldn't separate a subject from its verb.",
+   "D": "Correct. No punctuation separates the subject from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "medium",
+  "passage": "The survey asked ______ how many hours they spent outdoors each week.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "participants",
+   "participants,",
+   "participants;",
+   "participants:"
+  ],
+  "answer": "A",
+  "explanation": "\"Participants\" and the clause \"how many hours ...\" are both objects of \"asked\"; no punctuation should interrupt them.",
+  "rationales": {
+   "A": "Correct. No punctuation is needed between the verb's objects.",
+   "B": "A comma wrongly separates the verb's two objects.",
+   "C": "A semicolon can't come between a verb and its object.",
+   "D": "A colon can't come between a verb and its object."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "passage": "The ______ who received the shorter set of instructions completed the task faster than those who received the longer version.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "participants,",
+   "participants",
+   "participants;",
+   "participants—"
+  ],
+  "answer": "B",
+  "explanation": "\"Who received the shorter set of instructions\" is essential: it identifies which participants. Essential clauses are not set off by punctuation.",
+  "rationales": {
+   "A": "A comma treats the essential clause as if it were extra information.",
+   "B": "Correct. No comma before an essential (restrictive) clause.",
+   "C": "A semicolon would separate the subject from the rest of the sentence.",
+   "D": "A dash treats the essential clause as an interruption."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "easy",
+  "passage": "Marine biologists ______ the migration routes of loggerhead turtles using satellite tags.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "track:",
+   "track;",
+   "track,",
+   "track"
+  ],
+  "answer": "D",
+  "explanation": "No punctuation belongs between the verb \"track\" and its object \"the migration routes.\"",
+  "rationales": {
+   "A": "A colon can't separate a verb from its object.",
+   "B": "A semicolon can't separate a verb from its object.",
+   "C": "A comma can't separate a verb from its object.",
+   "D": "Correct. The verb flows directly into its object."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "medium",
+  "passage": "The report focuses ______ the effects of highway noise on songbirds.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "on:",
+   "on",
+   "on,",
+   ", on"
+  ],
+  "answer": "B",
+  "explanation": "The preposition \"on\" leads directly into its object; no punctuation belongs around it.",
+  "rationales": {
+   "A": "A colon can't follow a preposition.",
+   "B": "Correct. No punctuation is needed.",
+   "C": "A comma can't separate a preposition from its object.",
+   "D": "A comma can't separate a verb from the prepositional phrase it requires."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "passage": "One of the most influential books of the ______ was a slim volume of essays on urban design.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "decade—",
+   "decade;",
+   "decade,",
+   "decade"
+  ],
+  "answer": "D",
+  "explanation": "The subject is \"One of the most influential books of the decade\"; nothing should separate it from the verb \"was.\"",
+  "rationales": {
+   "A": "Punctuation shouldn't separate a subject from its verb.",
+   "B": "Punctuation shouldn't separate a subject from its verb.",
+   "C": "Punctuation shouldn't separate a subject from its verb.",
+   "D": "Correct. No punctuation separates the subject from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "medium",
+  "passage": "The volunteers collected water ______ tested them for pollutants.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "samples and",
+   "samples; and",
+   "samples: and",
+   "samples, and"
+  ],
+  "answer": "A",
+  "explanation": "\"Collected\" and \"tested\" share the subject \"the volunteers\"; a compound predicate takes no comma before \"and.\"",
+  "rationales": {
+   "A": "Correct. No comma is needed in a compound predicate.",
+   "B": "A semicolon must join independent clauses; \"tested them\" isn't one.",
+   "C": "A colon doesn't belong here.",
+   "D": "The comma separates two verbs that share one subject."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "passage": "Polynesian navigators read the ______ that ocean swells formed around islands to locate land far beyond the horizon.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "patterns,",
+   "patterns—",
+   "patterns",
+   "patterns;"
+  ],
+  "answer": "C",
+  "explanation": "\"That ocean swells formed around islands\" is an essential clause identifying which patterns; it isn't set off by punctuation.",
+  "rationales": {
+   "A": "A comma wrongly sets off the essential clause.",
+   "B": "A dash wrongly sets off the essential clause.",
+   "C": "Correct. No punctuation before an essential clause.",
+   "D": "A semicolon would split the sentence into a fragment."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "easy",
+  "passage": "The bakery's most popular ______ is a cardamom bun.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "item,",
+   "item",
+   "item;",
+   "item:"
+  ],
+  "answer": "B",
+  "explanation": "\"The bakery's most popular item\" is the subject of \"is\"; no punctuation belongs between them.",
+  "rationales": {
+   "A": "Punctuation shouldn't separate a subject from its verb.",
+   "B": "Correct. No punctuation separates the subject from its verb.",
+   "C": "Punctuation shouldn't separate a subject from its verb.",
+   "D": "Punctuation shouldn't separate a subject from its verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "easy",
+  "passage": "The old lighthouse, which was built in 1871, ______ a museum devoted to the region's maritime history.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "now housing",
+   "now houses",
+   "which now houses",
+   "having now housed"
+  ],
+  "answer": "B",
+  "explanation": "The subject \"The old lighthouse\" needs a main verb; \"now houses\" supplies one.",
+  "rationales": {
+   "A": "\"Housing\" isn't a finite verb, so the sentence becomes a fragment.",
+   "B": "Correct. \"Houses\" is the finite main verb the sentence needs.",
+   "C": "\"Which now houses\" adds another dependent clause and leaves no main verb.",
+   "D": "\"Having now housed\" isn't a finite verb, so the sentence is a fragment."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "medium",
+  "passage": "Scientists exploring the deep sea near the Galápagos Islands ______ hundreds of previously unknown species during the expedition.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "discovering",
+   "having discovered",
+   "who discovered",
+   "discovered"
+  ],
+  "answer": "D",
+  "explanation": "The subject \"Scientists\" needs a finite main verb: \"discovered.\"",
+  "rationales": {
+   "A": "\"Discovering\" leaves the sentence without a main verb.",
+   "B": "\"Having discovered\" isn't a finite verb.",
+   "C": "\"Who discovered\" creates a dependent clause and leaves no main verb.",
+   "D": "Correct. \"Discovered\" gives the sentence a main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "medium",
+  "passage": "The orchestra's conductor, a former violinist who joined the ensemble in 2005, ______ known for her bold interpretations of twentieth-century works.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "being",
+   "who is",
+   "is",
+   "having been"
+  ],
+  "answer": "C",
+  "explanation": "The subject \"The orchestra's conductor\" needs the finite verb \"is.\"",
+  "rationales": {
+   "A": "\"Being\" isn't a finite verb, so the sentence is a fragment.",
+   "B": "\"Who is\" leaves the sentence without a main verb.",
+   "C": "Correct. \"Is\" supplies the main verb.",
+   "D": "\"Having been\" isn't a finite verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "hard",
+  "passage": "Originally developed to help ships navigate in fog, radar technology ______ in fields as varied as meteorology and astronomy.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "now being used",
+   "is now used",
+   "having been used now",
+   "which is now used"
+  ],
+  "answer": "B",
+  "explanation": "The subject \"radar technology\" needs a finite verb phrase: \"is now used.\"",
+  "rationales": {
+   "A": "\"Now being used\" lacks a finite verb.",
+   "B": "Correct. \"Is now used\" supplies the main verb.",
+   "C": "\"Having been used\" isn't a finite verb.",
+   "D": "\"Which is now used\" is a dependent clause, leaving no main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "easy",
+  "passage": "Each spring, thousands of sandhill ______ along Nebraska's Platte River to rest and feed.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "cranes gather",
+   "cranes gathering",
+   "cranes, which gather",
+   "cranes that gather"
+  ],
+  "answer": "A",
+  "explanation": "The sentence needs a main verb for \"thousands of sandhill cranes\": \"gather.\"",
+  "rationales": {
+   "A": "Correct. \"Gather\" is the main verb.",
+   "B": "\"Gathering\" isn't a finite verb.",
+   "C": "\"Which gather\" is a dependent clause; no main verb remains.",
+   "D": "\"That gather\" is a dependent clause; no main verb remains."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "medium",
+  "passage": "The novelist's latest book, a collection of linked stories set in a coastal ______ readers to revisit the same characters at different stages of their lives.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "town, which invites",
+   "town, inviting",
+   "town that invites",
+   "town, invites"
+  ],
+  "answer": "D",
+  "explanation": "The appositive closes with a comma, and the subject \"book\" needs the finite verb \"invites.\"",
+  "rationales": {
+   "A": "\"Which invites\" is a dependent clause, leaving no main verb.",
+   "B": "\"Inviting\" isn't a finite verb.",
+   "C": "\"That invites\" is a dependent clause, and the appositive isn't closed.",
+   "D": "Correct. The comma closes the appositive and \"invites\" is the main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "hard",
+  "passage": "The bridge's designers, recognizing that the region experiences frequent ______ the structure on flexible bearings that absorb seismic shocks.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "earthquakes, placing",
+   "earthquakes and placing",
+   "earthquakes, placed",
+   "earthquakes, who placed"
+  ],
+  "answer": "C",
+  "explanation": "The phrase \"recognizing ... earthquakes\" closes with a comma, and the subject \"designers\" needs the finite verb \"placed.\"",
+  "rationales": {
+   "A": "\"Placing\" isn't a finite verb.",
+   "B": "\"Placing\" still isn't finite, and the interrupting phrase isn't closed.",
+   "C": "Correct. \"Placed\" gives the subject its main verb.",
+   "D": "\"Who placed\" is a dependent clause, leaving no main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "easy",
+  "passage": "My grandmother's recipe for apple ______ a secret ingredient: a pinch of cardamom.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "pie including",
+   "pie, including",
+   "pie that includes",
+   "pie includes"
+  ],
+  "answer": "D",
+  "explanation": "The subject \"recipe\" needs the main verb \"includes.\"",
+  "rationales": {
+   "A": "\"Including\" isn't a finite verb.",
+   "B": "\"Including\" isn't a finite verb.",
+   "C": "\"That includes\" is a dependent clause; no main verb remains.",
+   "D": "Correct. \"Includes\" supplies the main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "medium",
+  "passage": "The data, collected over ten years from more than two hundred weather ______ a steady rise in average nighttime temperatures.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "stations, showing",
+   "stations, which show",
+   "stations that show",
+   "stations, show"
+  ],
+  "answer": "D",
+  "explanation": "The interrupting phrase closes with a comma, and the subject \"data\" needs the main verb \"show.\"",
+  "rationales": {
+   "A": "\"Showing\" isn't a finite verb.",
+   "B": "\"Which show\" is a dependent clause; no main verb remains.",
+   "C": "\"That show\" is a dependent clause, and the interruption isn't closed.",
+   "D": "Correct. \"Show\" is the main verb for \"data.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "hard",
+  "passage": "Among the artifacts recovered from the shipwreck ______ a bronze astrolabe that may be the oldest ever found.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "having been",
+   "being",
+   "was",
+   "were"
+  ],
+  "answer": "C",
+  "explanation": "In this inverted sentence, the subject is \"a bronze astrolabe\" (singular), which needs the finite singular verb \"was.\"",
+  "rationales": {
+   "A": "\"Having been\" isn't a finite verb.",
+   "B": "\"Being\" isn't a finite verb, so the sentence is a fragment.",
+   "C": "Correct. \"Was\" is a finite verb that agrees with the singular subject \"astrolabe.\"",
+   "D": "\"Were\" is plural, but the subject \"astrolabe\" is singular."
+  }
+ }
+]

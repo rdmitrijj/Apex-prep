@@ -3,7 +3,7 @@
 Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 (also eligible: 2026-11-07); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used; Anthropic key arrives before M3, so the R&W pipeline must read it from env and fall back to the seed bank). M1–M2 done; next: M3.
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M3 done; next: M4.
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
@@ -31,6 +31,7 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 
 ## Gotchas
 - Generators: SymPy auto-distributes `3*(x+2)` into `3x+6`, so stems that must show the unexpanded form build their LaTeX by hand. Compare SymPy numbers with `==` only against Rationals (`Integer(2) == 2.0` is False in SymPy ≥1.13).
+- R&W generation (`app/generate.py`): a structured-output field named like `reasoning` trips the reasoning-extraction safeguard (refusal); keep the blind-solve field a short `justification`. Choices are reshuffled after generation because the model favors certain letters.
 - Seed data (`python -m app.seed`) runs on every container start and is idempotent via `questions.content_hash`.
 - Session cookie is always `Secure`. Browsers allow that on http://localhost, but httpx tests must use an `https://` base URL.
 - Neon URLs go through `normalize_db_url` (strips sslmode/channel_binding; `-pooler` host disables statement caches).

@@ -63,6 +63,16 @@ class Line(BaseModel):
 RWFigure = Table | Bars | Line
 
 
+class Rationales(BaseModel):
+    """Why each choice is right or wrong (explicit fields, not a dict, for structured outputs)."""
+
+    model_config = ConfigDict(extra="forbid")
+    A: str = Field(min_length=3)
+    B: str = Field(min_length=3)
+    C: str = Field(min_length=3)
+    D: str = Field(min_length=3)
+
+
 class RWItem(BaseModel):
     """A Reading & Writing item: the on-disk seed format and the LLM pipeline's output schema."""
 
@@ -72,12 +82,12 @@ class RWItem(BaseModel):
     passage: str = Field(min_length=20, max_length=1400)
     passage2: str | None = Field(default=None, max_length=1000)  # cross-text items: "Text 2"
     notes: list[str] | None = Field(default=None, max_length=8)  # rhetorical synthesis bullets
-    figure: RWFigure | None = Field(default=None, discriminator="kind")
+    figure: RWFigure | None = None
     stem: str = Field(min_length=10, max_length=600)
     choices: list[str] = Field(min_length=4, max_length=4)
     answer: Letter
     explanation: str = Field(min_length=20)
-    rationales: dict[Letter, str]
+    rationales: Rationales
 
     @field_validator("choices")
     @classmethod
@@ -88,8 +98,6 @@ class RWItem(BaseModel):
 
     @model_validator(mode="after")
     def _consistent(self) -> "RWItem":
-        if set(self.rationales) != {"A", "B", "C", "D"}:
-            raise ValueError("rationales needs an entry for each of A-D")
         if self.skill.startswith("RW.EOI.RS") and not self.notes:
             raise ValueError("rhetorical synthesis items need notes")
         if self.skill.startswith("RW.CAS.CTC") and not self.passage2:

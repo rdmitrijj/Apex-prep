@@ -1,0 +1,1402 @@
+[
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "easy",
+  "passage": "The collection of rare ______ displayed in the museum's east wing, where it fills an entire gallery.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "books are",
+   "books were",
+   "books have been",
+   "books is"
+  ],
+  "answer": "D",
+  "explanation": "The subject is \"collection\" (singular), not \"books,\" which is part of the phrase \"of rare books.\" A singular subject takes \"is.\"",
+  "rationales": {
+   "A": "\"Are\" agrees with \"books,\" which isn't the subject.",
+   "B": "\"Were\" is plural and also shifts the tense.",
+   "C": "\"Have been\" is plural; the subject is singular.",
+   "D": "Correct. \"Is\" agrees with the singular subject \"collection.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "medium",
+  "passage": "Each of the paintings in the exhibition ______ a different season in the same mountain valley.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "depicts",
+   "are depicting",
+   "have depicted",
+   "depict"
+  ],
+  "answer": "A",
+  "explanation": "\"Each\" is singular, so it takes the singular verb \"depicts.\"",
+  "rationales": {
+   "A": "Correct. \"Depicts\" agrees with the singular subject \"each.\"",
+   "B": "\"Are depicting\" is plural.",
+   "C": "\"Have depicted\" is plural.",
+   "D": "\"Depict\" is plural; \"each\" is singular."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "medium",
+  "passage": "Beneath the ancient city's streets ______ a network of tunnels once used for storing grain.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "lie",
+   "are lying",
+   "have lain",
+   "lies"
+  ],
+  "answer": "D",
+  "explanation": "The sentence is inverted; the subject is \"a network\" (singular), which takes \"lies.\"",
+  "rationales": {
+   "A": "\"Lie\" agrees with \"tunnels,\" which isn't the subject.",
+   "B": "\"Are lying\" is plural.",
+   "C": "\"Have lain\" is plural.",
+   "D": "Correct. \"Lies\" agrees with the singular subject \"a network.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "passage": "The team of researchers, along with several graduate students who assisted with fieldwork, ______ preparing to publish its findings.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "is",
+   "are",
+   "have been"
+  ],
+  "answer": "B",
+  "explanation": "The subject is \"team\" (singular); \"along with several graduate students\" is an interrupting phrase that doesn't change the number. The later \"its\" confirms a singular subject.",
+  "rationales": {
+   "A": "\"Were\" is plural.",
+   "B": "Correct. \"Is\" agrees with the singular subject \"team.\"",
+   "C": "\"Are\" treats the interrupting phrase as part of the subject.",
+   "D": "\"Have been\" is plural."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "easy",
+  "passage": "The sunflowers in Ana's garden ______ to face the sun as it moves across the sky.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "turns",
+   "turn",
+   "is turning",
+   "has turned"
+  ],
+  "answer": "B",
+  "explanation": "The subject \"sunflowers\" is plural and takes \"turn.\"",
+  "rationales": {
+   "A": "This verb is singular, but the subject is plural.",
+   "B": "Correct. \"Turn\" agrees with the plural subject.",
+   "C": "This verb is singular, but the subject is plural.",
+   "D": "This verb is singular, but the subject is plural."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "medium",
+  "passage": "Neither the director nor the actors ______ satisfied with the final scene, so filming continued for another week.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "were",
+   "was",
+   "is",
+   "has been"
+  ],
+  "answer": "A",
+  "explanation": "With \"neither ... nor,\" the verb agrees with the nearer subject, \"actors\" (plural).",
+  "rationales": {
+   "A": "Correct. \"Were\" agrees with the nearer subject, \"actors.\"",
+   "B": "\"Was\" agrees with \"director,\" but the verb should match the nearer subject.",
+   "C": "\"Is\" is singular and present tense.",
+   "D": "\"Has been\" is singular."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "passage": "The number of students enrolled in coding courses at the university ______ tripled since 2015.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has",
+   "have",
+   "are",
+   "were"
+  ],
+  "answer": "A",
+  "explanation": "\"The number\" is singular, so it takes \"has.\"",
+  "rationales": {
+   "A": "Correct. \"Has\" agrees with the singular subject \"the number.\"",
+   "B": "\"Have\" agrees with \"students,\" which isn't the subject.",
+   "C": "\"Are\" is plural and ungrammatical with \"tripled.\"",
+   "D": "\"Were\" is plural and ungrammatical with \"tripled.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "medium",
+  "passage": "Mathematics, along with physics and chemistry, ______ a core requirement for the engineering degree.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have been",
+   "is",
+   "are",
+   "were"
+  ],
+  "answer": "B",
+  "explanation": "\"Mathematics\" is a singular subject; the \"along with\" phrase doesn't make it plural.",
+  "rationales": {
+   "A": "\"Have been\" is plural.",
+   "B": "Correct. \"Is\" agrees with the singular subject \"mathematics.\"",
+   "C": "\"Are\" treats the interrupting phrase as part of the subject.",
+   "D": "\"Were\" is plural."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "passage": "Among the most striking features of the cathedral ______ its stained-glass windows, which date to the thirteenth century.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "is",
+   "was",
+   "are",
+   "has been"
+  ],
+  "answer": "C",
+  "explanation": "The sentence is inverted; the subject is \"its stained-glass windows\" (plural), so the verb is \"are.\"",
+  "rationales": {
+   "A": "This verb is singular, but the subject (\"windows\") is plural.",
+   "B": "\"Was\" is singular.",
+   "C": "Correct. \"Are\" agrees with the plural subject \"windows.\"",
+   "D": "\"Has been\" is singular."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "easy",
+  "passage": "Every one of the volunteers ______ trained in first aid before the festival opened.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "are",
+   "have been",
+   "were"
+  ],
+  "answer": "A",
+  "explanation": "\"Every one\" is singular and takes \"was.\"",
+  "rationales": {
+   "A": "Correct. \"Was\" agrees with the singular subject \"every one.\"",
+   "B": "\"Are\" is plural.",
+   "C": "\"Have been\" is plural.",
+   "D": "\"Were\" agrees with \"volunteers,\" which isn't the subject."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "easy",
+  "passage": "The company announced that ______ would open three new stores in the region next year.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it",
+   "they",
+   "those",
+   "them"
+  ],
+  "answer": "A",
+  "explanation": "The antecedent \"company\" is singular, so the pronoun is \"it.\"",
+  "rationales": {
+   "A": "Correct. \"It\" agrees with the singular \"company.\"",
+   "B": "\"They\" is plural.",
+   "C": "\"Those\" is plural.",
+   "D": "\"Them\" is plural and an object pronoun."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "medium",
+  "passage": "When the researchers analyzed the coral samples, ______ found evidence of recent bleaching.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "one",
+   "they",
+   "it",
+   "he or she"
+  ],
+  "answer": "B",
+  "explanation": "The antecedent \"researchers\" is plural, so the pronoun is \"they.\"",
+  "rationales": {
+   "A": "\"One\" is singular.",
+   "B": "Correct. \"They\" agrees with the plural \"researchers.\"",
+   "C": "\"It\" is singular.",
+   "D": "\"He or she\" is singular."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "medium",
+  "passage": "Each of the bird species in the study adjusted ______ migration timing in response to warmer springs.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it's",
+   "their",
+   "its",
+   "they're"
+  ],
+  "answer": "C",
+  "explanation": "\"Each\" is singular, so the possessive pronoun is \"its.\"",
+  "rationales": {
+   "A": "\"It's\" means \"it is.\"",
+   "B": "\"Their\" is plural.",
+   "C": "Correct. \"Its\" agrees with the singular \"each.\"",
+   "D": "\"They're\" means \"they are.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "hard",
+  "passage": "After two hours of deliberation, the jury delivered ______ verdict to a silent courtroom.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "they're",
+   "it's",
+   "their"
+  ],
+  "answer": "A",
+  "explanation": "\"Jury\" is a collective noun acting as a single unit here, so it takes the singular \"its.\"",
+  "rationales": {
+   "A": "Correct. \"Its\" agrees with the singular collective noun \"jury.\"",
+   "B": "\"They're\" means \"they are.\"",
+   "C": "\"It's\" means \"it is.\"",
+   "D": "\"Their\" is plural."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "easy",
+  "passage": "On Friday, the students handed in ______ final projects for the semester.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "there",
+   "his",
+   "their"
+  ],
+  "answer": "D",
+  "explanation": "\"Students\" is plural, so the possessive pronoun is \"their.\"",
+  "rationales": {
+   "A": "\"Its\" is singular.",
+   "B": "\"There\" isn't a possessive pronoun.",
+   "C": "\"His\" is singular.",
+   "D": "Correct. \"Their\" agrees with the plural \"students.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "medium",
+  "passage": "The orchestra performed ______ final concert of the season to a sold-out hall.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it's",
+   "they're",
+   "their",
+   "its"
+  ],
+  "answer": "D",
+  "explanation": "\"The orchestra\" acts as a single unit, so it takes \"its.\"",
+  "rationales": {
+   "A": "\"It's\" means \"it is.\"",
+   "B": "\"They're\" means \"they are.\"",
+   "C": "\"Their\" is plural.",
+   "D": "Correct. \"Its\" agrees with the singular \"orchestra.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "hard",
+  "passage": "Although the theory of plate tectonics was controversial when first proposed, most geologists accepted ______ once evidence from seafloor mapping accumulated.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "it",
+   "those",
+   "they",
+   "them"
+  ],
+  "answer": "A",
+  "explanation": "The pronoun refers to \"the theory\" (singular), so \"it\" is correct.",
+  "rationales": {
+   "A": "Correct. \"It\" agrees with the singular \"theory.\"",
+   "B": "\"Those\" is plural.",
+   "C": "\"They\" is plural and a subject pronoun.",
+   "D": "\"Them\" is plural."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "easy",
+  "passage": "The town museum lends some of ______ artifacts to local schools for history lessons.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "their",
+   "its",
+   "his",
+   "it's"
+  ],
+  "answer": "B",
+  "explanation": "\"Museum\" is singular, so the possessive is \"its.\"",
+  "rationales": {
+   "A": "\"Their\" is plural.",
+   "B": "Correct. \"Its\" agrees with the singular \"museum.\"",
+   "C": "\"His\" doesn't refer to a museum.",
+   "D": "\"It's\" means \"it is.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "medium",
+  "passage": "Sea otters often wrap ______ in strands of kelp to keep from drifting away while they sleep.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "himself",
+   "itself",
+   "themselves",
+   "theirselves"
+  ],
+  "answer": "C",
+  "explanation": "The plural antecedent \"sea otters\" takes the plural reflexive \"themselves.\"",
+  "rationales": {
+   "A": "\"Himself\" is singular.",
+   "B": "\"Itself\" is singular.",
+   "C": "Correct. \"Themselves\" agrees with the plural \"sea otters.\"",
+   "D": "\"Theirselves\" is not a standard word."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "hard",
+  "passage": "Both of the proposed bridge designs exceeded the city's budget, so the engineers revised ______ before resubmitting.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "its",
+   "them",
+   "itself",
+   "it"
+  ],
+  "answer": "B",
+  "explanation": "The antecedent is \"both of the proposed bridge designs\" (plural), so the pronoun is \"them.\"",
+  "rationales": {
+   "A": "\"Its\" is a singular possessive.",
+   "B": "Correct. \"Them\" agrees with the plural \"designs.\"",
+   "C": "\"Itself\" is singular and reflexive.",
+   "D": "\"It\" is singular."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "easy",
+  "passage": "After the final match, the coach presented the team's sportsmanship award to Maya and ______.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "me",
+   "I",
+   "myself",
+   "mine"
+  ],
+  "answer": "A",
+  "explanation": "The pronoun is an object of the preposition \"to,\" so the object form \"me\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Me\" is the object form needed after \"to.\"",
+   "B": "\"I\" is a subject pronoun.",
+   "C": "\"Myself\" is reflexive and needs an antecedent \"I\" in the sentence.",
+   "D": "\"Mine\" is possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "medium",
+  "passage": "______ and her brother founded the bakery in 1998, using recipes passed down from their grandmother.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "She",
+   "Herself",
+   "Hers",
+   "Her"
+  ],
+  "answer": "A",
+  "explanation": "The pronoun is part of the compound subject, so the subject form \"She\" is correct.",
+  "rationales": {
+   "A": "Correct. \"She\" is the subject form.",
+   "B": "\"Herself\" is reflexive.",
+   "C": "\"Hers\" is possessive.",
+   "D": "\"Her\" is an object or possessive form."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "medium",
+  "passage": "The tour guide asked my sister and ______ to stand near the front of the group.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "mine",
+   "myself",
+   "me",
+   "I"
+  ],
+  "answer": "C",
+  "explanation": "The pronoun is part of the object of \"asked,\" so the object form \"me\" is correct.",
+  "rationales": {
+   "A": "\"Mine\" is possessive.",
+   "B": "\"Myself\" needs \"I\" as an antecedent in the sentence.",
+   "C": "Correct. \"Me\" is the object form.",
+   "D": "\"I\" is a subject pronoun."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "hard",
+  "passage": "The scholarship committee selected two finalists, Ramón and ______, to present their research at the national conference.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "hers",
+   "herself",
+   "she",
+   "her"
+  ],
+  "answer": "D",
+  "explanation": "\"Ramón and ___\" renames \"two finalists,\" the object of \"selected,\" so the object form \"her\" is correct.",
+  "rationales": {
+   "A": "\"Hers\" is possessive.",
+   "B": "\"Herself\" is reflexive.",
+   "C": "\"She\" is a subject form.",
+   "D": "Correct. \"Her\" is the object form, matching \"finalists.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "easy",
+  "passage": "The secret to the recipe, just between you and ______, is a pinch of smoked paprika.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "me",
+   "I",
+   "mine",
+   "myself"
+  ],
+  "answer": "A",
+  "explanation": "\"Between\" is a preposition, so its objects take the object form: \"you and me.\"",
+  "rationales": {
+   "A": "Correct. \"Me\" is the object form after \"between.\"",
+   "B": "\"I\" is a subject pronoun.",
+   "C": "\"Mine\" is possessive.",
+   "D": "\"Myself\" is reflexive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "medium",
+  "passage": "The architects ______ designed the new library also planned the park that surrounds it.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "which",
+   "who",
+   "whom",
+   "whose"
+  ],
+  "answer": "B",
+  "explanation": "The pronoun is the subject of \"designed,\" so \"who\" is correct; it refers to people.",
+  "rationales": {
+   "A": "\"Which\" doesn't refer to people.",
+   "B": "Correct. \"Who\" is the subject form for people.",
+   "C": "\"Whom\" is an object form.",
+   "D": "\"Whose\" is possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "hard",
+  "passage": "In her acceptance speech, the novelist thanked the editor ______ she had worked with for more than a decade.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "whom",
+   "whose",
+   "which",
+   "who"
+  ],
+  "answer": "A",
+  "explanation": "The pronoun is the object of \"with\" (she had worked with him or her), so \"whom\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Whom\" is the object form.",
+   "B": "\"Whose\" is possessive.",
+   "C": "\"Which\" doesn't refer to people.",
+   "D": "\"Who\" is a subject form."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "medium",
+  "passage": "The volunteers ______ the organizers praised at the ceremony had removed more than two tons of trash from the beach.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "which",
+   "who",
+   "whose",
+   "whom"
+  ],
+  "answer": "D",
+  "explanation": "The pronoun is the object of \"praised\" (the organizers praised them), so \"whom\" is correct.",
+  "rationales": {
+   "A": "\"Which\" doesn't refer to people.",
+   "B": "\"Who\" is a subject form.",
+   "C": "\"Whose\" is possessive.",
+   "D": "Correct. \"Whom\" is the object form."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "hard",
+  "passage": "The award will be shared by the project's two lead researchers, Dr. Osei and ______.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "him",
+   "he",
+   "himself",
+   "his"
+  ],
+  "answer": "A",
+  "explanation": "\"Dr. Osei and ___\" renames \"researchers,\" the object of the preposition \"by,\" so the object form \"him\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Him\" is the object form.",
+   "B": "\"He\" is a subject form.",
+   "C": "\"Himself\" is reflexive.",
+   "D": "\"His\" is possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.PCASE",
+  "difficulty": "easy",
+  "passage": "Our cousins invited Leo and ______ to their cabin for the weekend.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "we",
+   "us",
+   "ours",
+   "ourselves"
+  ],
+  "answer": "B",
+  "explanation": "The pronoun is part of the object of \"invited,\" so the object form \"us\" is correct.",
+  "rationales": {
+   "A": "\"We\" is a subject form.",
+   "B": "Correct. \"Us\" is the object form.",
+   "C": "\"Ours\" is possessive.",
+   "D": "\"Ourselves\" is reflexive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "easy",
+  "passage": "In July 1969, astronauts Neil Armstrong and Buzz Aldrin ______ on the Moon while Michael Collins orbited overhead.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "land",
+   "landed",
+   "will land",
+   "have landed"
+  ],
+  "answer": "B",
+  "explanation": "\"In July 1969\" and \"orbited\" set the sentence in the simple past, so \"landed\" is correct.",
+  "rationales": {
+   "A": "\"Land\" is present tense.",
+   "B": "Correct. \"Landed\" matches the past time frame.",
+   "C": "\"Will land\" is future tense.",
+   "D": "\"Have landed\" doesn't fit a specific past date."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "medium",
+  "passage": "By the time the rescue team arrived, the stranded hikers ______ for nearly two days.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "had waited",
+   "are waiting",
+   "will have waited",
+   "wait"
+  ],
+  "answer": "A",
+  "explanation": "The waiting happened before another past event (\"arrived\"), so the past perfect \"had waited\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Had waited\" shows the waiting came before the past arrival.",
+   "B": "\"Are waiting\" is present.",
+   "C": "\"Will have waited\" is future.",
+   "D": "\"Wait\" is present tense."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "medium",
+  "passage": "Since its opening in 2010, the museum ______ more than five million visitors.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "welcomes",
+   "will welcome",
+   "has welcomed",
+   "had welcomed"
+  ],
+  "answer": "C",
+  "explanation": "\"Since 2010\" describes an action continuing from the past to the present, which calls for the present perfect \"has welcomed.\"",
+  "rationales": {
+   "A": "\"Welcomes\" doesn't express the total since 2010.",
+   "B": "\"Will welcome\" is future.",
+   "C": "Correct. The present perfect fits an action continuing up to now.",
+   "D": "\"Had welcomed\" places the action before another past event, but none is mentioned."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "hard",
+  "passage": "Archaeologists believe that the settlement was abandoned around 900 CE, after a series of droughts ______ the region's crops.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are destroying",
+   "destroy",
+   "had destroyed",
+   "will destroy"
+  ],
+  "answer": "C",
+  "explanation": "The droughts occurred before the past abandonment, so the past perfect \"had destroyed\" is correct.",
+  "rationales": {
+   "A": "\"Are destroying\" is present.",
+   "B": "\"Destroy\" is present tense.",
+   "C": "Correct. \"Had destroyed\" places the droughts before the abandonment.",
+   "D": "\"Will destroy\" is future."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "easy",
+  "passage": "Every summer, the coastal town ______ a festival celebrating its fishing heritage, and the event attracts visitors from across the state.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "had held",
+   "held",
+   "will have held",
+   "holds"
+  ],
+  "answer": "D",
+  "explanation": "\"Every summer\" and \"attracts\" describe a regular, current event, so the present tense \"holds\" is correct.",
+  "rationales": {
+   "A": "\"Had held\" is past perfect.",
+   "B": "\"Held\" is past, but the sentence describes a current habit.",
+   "C": "\"Will have held\" is future perfect.",
+   "D": "Correct. \"Holds\" matches the present-tense habitual action."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "medium",
+  "passage": "Next year, the observatory ______ a new telescope that will let astronomers study the faintest galaxies.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "will install",
+   "has installed",
+   "installed",
+   "had installed"
+  ],
+  "answer": "A",
+  "explanation": "\"Next year\" refers to the future, so \"will install\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Will install\" matches \"next year.\"",
+   "B": "\"Has installed\" is present perfect.",
+   "C": "\"Installed\" is past.",
+   "D": "\"Had installed\" is past perfect."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "hard",
+  "passage": "When the novel was first published in 1851, many critics ______ it, but today it is widely regarded as a masterpiece.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "dismissed",
+   "dismiss",
+   "will dismiss",
+   "have dismissed"
+  ],
+  "answer": "A",
+  "explanation": "The critics' reaction happened in 1851, a completed past time, so the simple past \"dismissed\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Dismissed\" matches the past event.",
+   "B": "\"Dismiss\" is present.",
+   "C": "\"Will dismiss\" is future.",
+   "D": "\"Have dismissed\" doesn't fit a specific past date."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "medium",
+  "passage": "The biologist ______ the frogs' calls every night for three months before she noticed a pattern.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has recorded",
+   "records",
+   "had recorded",
+   "will record"
+  ],
+  "answer": "C",
+  "explanation": "The recording happened before the past event \"noticed,\" so the past perfect is correct.",
+  "rationales": {
+   "A": "\"Has recorded\" is present perfect.",
+   "B": "\"Records\" is present.",
+   "C": "Correct. \"Had recorded\" shows the recording preceded the noticing.",
+   "D": "\"Will record\" is future."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "hard",
+  "passage": "Researchers predict that by 2050, sea levels along the coast ______ by at least thirty centimeters.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "will have risen",
+   "rose",
+   "have risen",
+   "had risen"
+  ],
+  "answer": "A",
+  "explanation": "\"By 2050\" describes an action completed before a future time, which calls for the future perfect.",
+  "rationales": {
+   "A": "Correct. \"Will have risen\" expresses completion by a future date.",
+   "B": "\"Rose\" is past.",
+   "C": "\"Have risen\" is present perfect.",
+   "D": "\"Had risen\" is past perfect."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "easy",
+  "passage": "Yesterday, the students ______ their science projects to a panel of judges.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are presenting",
+   "present",
+   "presented",
+   "will present"
+  ],
+  "answer": "C",
+  "explanation": "\"Yesterday\" calls for the past tense.",
+  "rationales": {
+   "A": "\"Are presenting\" is present progressive.",
+   "B": "\"Present\" is present tense.",
+   "C": "Correct. \"Presented\" matches \"yesterday.\"",
+   "D": "\"Will present\" is future."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "easy",
+  "passage": "The museum plans ______ a new wing devoted to contemporary art.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to build",
+   "builds",
+   "building",
+   "built"
+  ],
+  "answer": "A",
+  "explanation": "\"Plans\" is followed by an infinitive: \"plans to build.\"",
+  "rationales": {
+   "A": "Correct. \"Plans to build\" is the standard construction.",
+   "B": "\"Builds\" can't follow \"plans\" directly.",
+   "C": "\"Plans building\" isn't idiomatic.",
+   "D": "\"Built\" doesn't work as the object of \"plans.\""
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "passage": "Hoping ______ the source of the strange signal, the engineers spent weeks testing their equipment.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to identify",
+   "identifies",
+   "identify",
+   "identified"
+  ],
+  "answer": "A",
+  "explanation": "\"Hoping\" is followed by an infinitive: \"hoping to identify.\"",
+  "rationales": {
+   "A": "Correct. \"Hoping to identify\" is correct.",
+   "B": "\"Hoping identifies\" is ungrammatical.",
+   "C": "\"Hoping identify\" is ungrammatical.",
+   "D": "\"Hoping identified\" is ungrammatical."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "passage": "The artist's murals, ______ across the city's subway stations, celebrate the neighborhoods each station serves.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "are painted",
+   "painted",
+   "they are painted",
+   "paint"
+  ],
+  "answer": "B",
+  "explanation": "The phrase between commas modifies \"murals\"; it needs a participle (\"painted\"), not a finite verb.",
+  "rationales": {
+   "A": "\"Are painted\" adds a second main verb without a conjunction.",
+   "B": "Correct. \"Painted\" is a participle that modifies \"murals.\"",
+   "C": "\"They are painted\" inserts an independent clause between commas.",
+   "D": "\"Paint\" is a finite verb and makes the sentence ungrammatical."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "passage": "In her research, ecologist Priya Nair found that wolves returning to the park ______ elk to avoid open river valleys, allowing willow trees to recover.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "causing",
+   "to cause",
+   "having caused",
+   "caused"
+  ],
+  "answer": "D",
+  "explanation": "The clause \"that wolves returning to the park ___ elk ...\" needs a finite verb for the subject \"wolves.\"",
+  "rationales": {
+   "A": "\"Causing\" isn't finite, so the clause lacks a verb.",
+   "B": "\"To cause\" isn't finite.",
+   "C": "\"Having caused\" isn't finite.",
+   "D": "Correct. \"Caused\" gives \"wolves\" a finite verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "easy",
+  "passage": "After a long discussion, the students decided ______ their science fair project on renewable energy.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to focus",
+   "focused",
+   "focusing",
+   "focuses"
+  ],
+  "answer": "A",
+  "explanation": "\"Decided\" is followed by an infinitive: \"decided to focus.\"",
+  "rationales": {
+   "A": "Correct. \"Decided to focus\" is correct.",
+   "B": "\"Decided focused\" is ungrammatical.",
+   "C": "\"Decided focusing\" is ungrammatical.",
+   "D": "\"Decided focuses\" is ungrammatical."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "passage": "______ in 1884, the Washington Monument was briefly the tallest structure in the world.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Completed",
+   "To complete",
+   "Having completed",
+   "Completing"
+  ],
+  "answer": "A",
+  "explanation": "The monument was completed (passive), so the past participle \"Completed\" correctly modifies it.",
+  "rationales": {
+   "A": "Correct. \"Completed\" correctly describes the monument.",
+   "B": "\"To complete\" changes the meaning to a purpose.",
+   "C": "\"Having completed\" suggests the monument completed something.",
+   "D": "\"Completing\" suggests the monument did the completing."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "passage": "The committee's report, ______ months of public hearings, recommends expanding the city's network of protected bike lanes.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "following",
+   "it followed",
+   "which follow",
+   "follows"
+  ],
+  "answer": "A",
+  "explanation": "The phrase between commas modifies \"report\" and must not contain a finite verb; \"following\" works.",
+  "rationales": {
+   "A": "Correct. \"Following\" introduces a modifying phrase.",
+   "B": "\"It followed\" inserts an independent clause.",
+   "C": "\"Which follow\" is plural and doesn't agree with \"report.\"",
+   "D": "\"Follows\" adds a second finite verb without a conjunction."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "passage": "The goal of the summer program is ______ high school students to careers in marine science.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "introduces",
+   "introduced",
+   "introduce",
+   "to introduce"
+  ],
+  "answer": "D",
+  "explanation": "After \"The goal ... is,\" an infinitive names the goal: \"is to introduce.\"",
+  "rationales": {
+   "A": "\"Is introduces\" is ungrammatical.",
+   "B": "\"Is introduced\" changes the meaning (the goal isn't being introduced).",
+   "C": "\"Is introduce\" is ungrammatical.",
+   "D": "Correct. \"Is to introduce\" is correct."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "passage": "Glaciologists drilling deep into the Antarctic ice sheet ______ tiny air bubbles that preserve samples of Earth's atmosphere from hundreds of thousands of years ago.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to recover",
+   "recovering",
+   "having recovered",
+   "have recovered"
+  ],
+  "answer": "D",
+  "explanation": "The subject \"Glaciologists\" needs a finite verb; \"drilling ...\" is only a modifier.",
+  "rationales": {
+   "A": "\"To recover\" isn't finite.",
+   "B": "\"Recovering\" isn't finite.",
+   "C": "\"Having recovered\" isn't finite.",
+   "D": "Correct. \"Have recovered\" supplies the main verb."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "easy",
+  "passage": "The moment it heard the car door, the puppy ______ across the yard to greet its owner.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "having run",
+   "ran",
+   "running",
+   "to run"
+  ],
+  "answer": "B",
+  "explanation": "The main clause needs a finite verb for \"the puppy\": \"ran.\"",
+  "rationales": {
+   "A": "\"Having run\" isn't finite.",
+   "B": "Correct. \"Ran\" is the finite main verb.",
+   "C": "\"Running\" isn't finite.",
+   "D": "\"To run\" isn't finite."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "easy",
+  "passage": "The mother ______ nest was hidden in the tall grass near the pond, where she guarded four eggs.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "duck's",
+   "ducks",
+   "duck",
+   "ducks'"
+  ],
+  "answer": "A",
+  "explanation": "The nest belongs to one duck (\"she\"), so the singular possessive \"duck's\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Duck's\" is the singular possessive.",
+   "B": "\"Ducks\" is plural, not possessive.",
+   "C": "\"Duck\" lacks the possessive.",
+   "D": "\"Ducks'\" is plural possessive, but there's one mother duck."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "passage": "Both ______ owners agreed to share the cost of repairing the fence between their properties.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "houses",
+   "house's",
+   "houses'",
+   "houses's"
+  ],
+  "answer": "C",
+  "explanation": "The owners of two houses are meant (\"Both\"), so the plural possessive \"houses'\" is correct.",
+  "rationales": {
+   "A": "\"Houses\" lacks the possessive.",
+   "B": "\"House's\" refers to one house.",
+   "C": "Correct. \"Houses'\" is the plural possessive.",
+   "D": "\"Houses's\" is not a standard form."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "passage": "The ______ in the sleep study reported higher energy levels after adopting the new schedule.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "participant's",
+   "participants'",
+   "participants",
+   "participants's"
+  ],
+  "answer": "C",
+  "explanation": "The word is the plain plural subject; nothing is possessed.",
+  "rationales": {
+   "A": "\"Participant's\" is possessive, but nothing follows to be possessed.",
+   "B": "\"Participants'\" is possessive, but nothing is possessed.",
+   "C": "Correct. \"Participants\" is the plural subject.",
+   "D": "\"Participants's\" is not standard."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "passage": "The museum's new exhibit displays dozens of ______ letters alongside photographs of the families who received them.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "soldiers'",
+   "soldiers's",
+   "soldier's",
+   "soldiers"
+  ],
+  "answer": "A",
+  "explanation": "The letters were written by many soldiers, so the plural possessive \"soldiers'\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Soldiers'\" is the plural possessive.",
+   "B": "\"Soldiers's\" is not standard.",
+   "C": "\"Soldier's\" suggests a single soldier wrote dozens of letters to many families.",
+   "D": "\"Soldiers\" lacks the possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "easy",
+  "passage": "Several ______ were planted along the riverbank to help prevent erosion.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "trees's",
+   "tree's",
+   "trees",
+   "trees'"
+  ],
+  "answer": "C",
+  "explanation": "The word is a plain plural; nothing is possessed.",
+  "rationales": {
+   "A": "\"Trees's\" is not standard.",
+   "B": "\"Tree's\" is possessive.",
+   "C": "Correct. \"Trees\" is the plural.",
+   "D": "\"Trees'\" is possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "passage": "Conducted over three summers, the ______ main finding was that bees strongly prefer flowers with blue petals.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "study's",
+   "studies'",
+   "study",
+   "studies"
+  ],
+  "answer": "A",
+  "explanation": "One study (\"Conducted over three summers, the ...\") has a main finding, so the singular possessive \"study's\" is correct.",
+  "rationales": {
+   "A": "Correct. \"Study's\" is the singular possessive.",
+   "B": "\"Studies'\" refers to several studies.",
+   "C": "\"Study\" lacks the possessive.",
+   "D": "\"Studies\" lacks the possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "passage": "The survey received responses from four hundred students. Each of the ______ responses was coded by two independent researchers.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "students",
+   "students's",
+   "students'",
+   "student's"
+  ],
+  "answer": "C",
+  "explanation": "The responses belong to the many students, so the plural possessive is correct.",
+  "rationales": {
+   "A": "\"Students\" lacks the possessive.",
+   "B": "\"Students's\" is not standard.",
+   "C": "Correct. \"Students'\" is the plural possessive.",
+   "D": "\"Student's\" implies a single student wrote all the responses."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "easy",
+  "passage": "Squirrels are agile climbers. The ______ long, bushy tails help them balance as they leap between branches.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "squirrel's",
+   "squirrels",
+   "squirrels'",
+   "squirrels's"
+  ],
+  "answer": "C",
+  "explanation": "The tails belong to many squirrels (\"them\"), so the plural possessive is correct.",
+  "rationales": {
+   "A": "\"Squirrel's\" is singular, but \"them\" is plural.",
+   "B": "\"Squirrels\" lacks the possessive.",
+   "C": "Correct. \"Squirrels'\" is the plural possessive.",
+   "D": "\"Squirrels's\" is not standard."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "passage": "The two ______ findings contradicted each other, prompting a third team to repeat the experiment.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "laboratories's",
+   "laboratories",
+   "laboratories'",
+   "laboratory's"
+  ],
+  "answer": "C",
+  "explanation": "The findings belong to two laboratories, so the plural possessive is correct.",
+  "rationales": {
+   "A": "\"Laboratories's\" is not standard.",
+   "B": "\"Laboratories\" lacks the possessive.",
+   "C": "Correct. \"Laboratories'\" is the plural possessive.",
+   "D": "\"Laboratory's\" refers to one laboratory, but there are two."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "passage": "The town council approved the ______ request for additional funding so that the town's only library could stay open later.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "libraries'",
+   "library's",
+   "libraries",
+   "library"
+  ],
+  "answer": "B",
+  "explanation": "The request belongs to the one library, so the singular possessive \"library's\" is correct.",
+  "rationales": {
+   "A": "\"Libraries'\" refers to several libraries, but the town has only one.",
+   "B": "Correct. \"Library's\" is the singular possessive.",
+   "C": "\"Libraries\" lacks the possessive.",
+   "D": "\"Library\" lacks the possessive."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "easy",
+  "passage": "Walking through the forest at dawn, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "a woodpecker could be heard by the hikers tapping on a dead tree.",
+   "a dead tree was being tapped on by a woodpecker that the hikers heard.",
+   "the hikers heard a woodpecker tapping on a dead tree.",
+   "the sound of a woodpecker tapping on a dead tree reached the hikers."
+  ],
+  "answer": "C",
+  "explanation": "The introductory phrase describes who was walking, so \"the hikers\" must come right after it.",
+  "rationales": {
+   "A": "This says the woodpecker was walking through the forest.",
+   "B": "This says the dead tree was walking.",
+   "C": "Correct. \"The hikers\" are the ones walking, so the modifier is placed correctly.",
+   "D": "This says the sound was walking."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "medium",
+  "passage": "Born in a small fishing village, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the work of the painter Lena Ortiz often depicted the sea.",
+   "the painter Lena Ortiz often depicted the sea in her work.",
+   "Lena Ortiz's paintings often depicted the sea.",
+   "the sea was often depicted in the work of the painter Lena Ortiz."
+  ],
+  "answer": "B",
+  "explanation": "The phrase \"Born in a small fishing village\" must describe a person, so \"the painter Lena Ortiz\" must follow it.",
+  "rationales": {
+   "A": "This says the work was born in the village.",
+   "B": "Correct. The painter is the one born in the village.",
+   "C": "This says the paintings were born in the village.",
+   "D": "This says the sea was born in the village."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "medium",
+  "passage": "Having analyzed thousands of satellite images taken over two decades, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the glacier was found to be retreating faster than expected.",
+   "the researchers' conclusion was that the glacier was retreating faster than expected.",
+   "the researchers concluded that the glacier was retreating faster than expected.",
+   "it was concluded that the glacier was retreating faster than expected."
+  ],
+  "answer": "C",
+  "explanation": "The ones who analyzed the images (the researchers) must immediately follow the introductory phrase.",
+  "rationales": {
+   "A": "This says the glacier analyzed the images.",
+   "B": "This says the conclusion analyzed the images.",
+   "C": "Correct. \"The researchers\" did the analyzing.",
+   "D": "\"It\" doesn't name who analyzed the images."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "hard",
+  "passage": "A pioneer of early electronic music, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "composer Mira Tanaka created hundreds of works using tape loops and homemade synthesizers.",
+   "tape loops and homemade synthesizers were used by composer Mira Tanaka to create hundreds of works.",
+   "the hundreds of works by composer Mira Tanaka used tape loops and homemade synthesizers.",
+   "hundreds of works were created by composer Mira Tanaka using tape loops and homemade synthesizers."
+  ],
+  "answer": "A",
+  "explanation": "The appositive \"A pioneer of early electronic music\" must sit next to the person it describes, Mira Tanaka.",
+  "rationales": {
+   "A": "Correct. \"Composer Mira Tanaka\" is the pioneer.",
+   "B": "This calls the tape loops and synthesizers a pioneer.",
+   "C": "This calls the works a pioneer.",
+   "D": "This calls the works a pioneer."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "easy",
+  "passage": "Covered in fresh snow, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "our search for the mountain cabin was difficult.",
+   "the mountain cabin was difficult to find.",
+   "we had difficulty finding the mountain cabin.",
+   "finding the mountain cabin was difficult."
+  ],
+  "answer": "B",
+  "explanation": "The cabin is what was covered in snow, so it must follow the introductory phrase.",
+  "rationales": {
+   "A": "This says our search was covered in snow.",
+   "B": "Correct. The cabin was covered in snow.",
+   "C": "This says we were covered in snow.",
+   "D": "This says the act of finding was covered in snow."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "medium",
+  "passage": "Known for its brilliant blue and yellow skin, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the toxicity of the poison dart frog is signaled to predators.",
+   "predators are warned by the poison dart frog that it is toxic.",
+   "predators learn that the poison dart frog is toxic.",
+   "the poison dart frog warns predators that it is toxic."
+  ],
+  "answer": "D",
+  "explanation": "The frog is what is known for its skin, so it must come right after the phrase.",
+  "rationales": {
+   "A": "This says the toxicity is known for its skin.",
+   "B": "This says predators are known for the frog's skin.",
+   "C": "This says predators are known for the skin.",
+   "D": "Correct. The frog is known for its skin."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "hard",
+  "passage": "Drawing on interviews with more than two hundred former mill workers, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "there is a reconstruction of daily life in the city's textile mills by historian Amara Diallo.",
+   "the city's textile mills come to life in historian Amara Diallo's reconstruction.",
+   "daily life in the city's textile mills is reconstructed by historian Amara Diallo.",
+   "historian Amara Diallo reconstructs daily life in the city's textile mills."
+  ],
+  "answer": "D",
+  "explanation": "The person drawing on interviews, the historian, must follow the introductory phrase.",
+  "rationales": {
+   "A": "\"There is\" leaves no one to do the drawing on interviews.",
+   "B": "This says the mills drew on the interviews.",
+   "C": "This says daily life drew on the interviews.",
+   "D": "Correct. The historian drew on the interviews."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "easy",
+  "passage": "While cooking dinner, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Marcus's hand was burned on the stove.",
+   "the stove burned Marcus's hand.",
+   "Marcus burned his hand on the stove.",
+   "a burn on Marcus's hand came from the stove."
+  ],
+  "answer": "C",
+  "explanation": "Marcus was the one cooking dinner, so his name must follow the introductory phrase.",
+  "rationales": {
+   "A": "This says Marcus's hand was cooking dinner.",
+   "B": "This says the stove was cooking dinner.",
+   "C": "Correct. Marcus was cooking.",
+   "D": "This says the burn was cooking dinner."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "medium",
+  "passage": "Once thought to have gone extinct millions of years ago, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the coast of South Africa was where the coelacanth was rediscovered in 1938.",
+   "the rediscovery of the coelacanth occurred off the coast of South Africa in 1938.",
+   "scientists rediscovered the coelacanth off the coast of South Africa in 1938.",
+   "the coelacanth was rediscovered off the coast of South Africa in 1938."
+  ],
+  "answer": "D",
+  "explanation": "The coelacanth is what was thought to be extinct, so it must follow the phrase.",
+  "rationales": {
+   "A": "This says the coast was thought to be extinct.",
+   "B": "This says the rediscovery was thought to be extinct.",
+   "C": "This says scientists were thought to be extinct.",
+   "D": "Correct. The coelacanth was thought to be extinct."
+  }
+ },
+ {
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "hard",
+  "passage": "Unlike most deserts, which receive rain only rarely and unpredictably, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "the Sonoran Desert's rainfall arrives in two distinct seasons each year.",
+   "the Sonoran Desert has two distinct rainy seasons each year.",
+   "two distinct rainy seasons occur in the Sonoran Desert each year.",
+   "there are two distinct rainy seasons in the Sonoran Desert each year."
+  ],
+  "answer": "B",
+  "explanation": "The comparison is between deserts, so \"the Sonoran Desert\" must follow \"Unlike most deserts.\"",
+  "rationales": {
+   "A": "This compares deserts with rainfall.",
+   "B": "Correct. The Sonoran Desert is compared with other deserts.",
+   "C": "This compares deserts with rainy seasons.",
+   "D": "\"There are\" compares deserts with nothing in particular."
+  }
+ }
+]

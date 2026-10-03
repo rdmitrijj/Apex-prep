@@ -1,0 +1,32 @@
+name: Generate R&W questions
+# Manual run: Actions -> "Generate R&W questions" -> Run workflow.
+# Needs repository secrets DATABASE_URL_DIRECT (Neon direct URL) and ANTHROPIC_API_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      skill:
+        description: "Sub-skill or parent node ID, e.g. RW.SEC or RW.EOI.TRN.CAUSE"
+        required: true
+      n:
+        description: "Items to attempt per sub-skill"
+        default: "3"
+      difficulty:
+        type: choice
+        options: [mixed, easy, medium, hard]
+        default: mixed
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: backend } }
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL_DIRECT }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      SKILL: ${{ inputs.skill }}
+      N: ${{ inputs.n }}
+      DIFFICULTY: ${{ inputs.difficulty }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen --no-dev
+      - run: uv run python -m app.generate rw --skill "$SKILL" --n "$N" --difficulty "$DIFFICULTY"

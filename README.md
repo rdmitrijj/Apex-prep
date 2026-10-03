@@ -16,9 +16,14 @@ Open <http://localhost:5173>.
 Or without Docker for the app processes (Postgres still from compose):
 ```bash
 docker compose up -d db
-cd backend && uv sync && uv run alembic upgrade head && uv run uvicorn app.main:app --reload
+cd backend && uv sync && uv run alembic upgrade head && uv run python -m app.seed && uv run uvicorn app.main:app --reload
 cd frontend && yarn && yarn dev
 ```
+
+## Questions
+
+- **Math:** generated on demand by `backend/app/generators/` (SymPy-computed keys, distractors from named error models).
+- **Reading & Writing:** a hand-written seed bank in `backend/app/seed/rw/*.json` (validated by `RWItem`), loaded by `python -m app.seed`. More items: `uv run python -m app.generate rw --skill RW.SEC --n 3` (needs `ANTHROPIC_API_KEY`; see `docs/DEPLOY.md` §5).
 
 ## Checks
 

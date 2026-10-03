@@ -1,0 +1,870 @@
+[
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "easy",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Svalbard Global Seed Vault is located on the Norwegian island of Spitsbergen.",
+   "It opened in 2008.",
+   "Its purpose is to protect the world's crop diversity by storing backup copies of seeds.",
+   "It holds more than one million seed samples.",
+   "The samples are kept at about −18°C."
+  ],
+  "stem": "The student wants to emphasize the purpose of the Svalbard Global Seed Vault. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Svalbard Global Seed Vault keeps its seed samples at about −18°C.",
+   "More than one million seed samples are stored in the Svalbard Global Seed Vault.",
+   "The Svalbard Global Seed Vault, which opened in 2008, is located on the Norwegian island of Spitsbergen.",
+   "The Svalbard Global Seed Vault stores backup copies of seeds to protect the world's crop diversity."
+  ],
+  "answer": "D",
+  "explanation": "Only this choice states the vault's purpose: protecting crop diversity by storing backup seeds.",
+  "rationales": {
+   "A": "It describes storage conditions, not the purpose.",
+   "B": "It gives the size of the collection, not the purpose.",
+   "C": "It gives the location and opening date, not the purpose.",
+   "D": "Correct. It states the vault's purpose directly."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Ornithologist Dana Reyes studied great tits living in cities and in nearby forests.",
+   "She recorded the birds' songs at both locations.",
+   "City birds sang at a higher pitch than forest birds.",
+   "Low-frequency traffic noise can mask low-pitched songs.",
+   "Reyes concluded that city birds raise their pitch so their songs can be heard over traffic."
+  ],
+  "stem": "The student wants to present the conclusion of Reyes's study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Low-frequency traffic noise can mask the low-pitched songs of birds.",
+   "Great tits living in cities sang at a higher pitch than great tits living in forests.",
+   "Reyes recorded the songs of great tits living in cities and in nearby forests.",
+   "Reyes concluded that great tits in cities sing at a higher pitch so that their songs can be heard over traffic noise."
+  ],
+  "answer": "D",
+  "explanation": "The goal is Reyes's conclusion, which the last note states: city birds raise their pitch to be heard over traffic.",
+  "rationales": {
+   "A": "It gives background information, not Reyes's conclusion.",
+   "B": "It reports a finding but not the conclusion Reyes drew from it.",
+   "C": "It describes the method, not the conclusion.",
+   "D": "Correct. It presents Reyes's conclusion."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Alpine glaciers form in mountain valleys.",
+   "They flow downhill, carving U-shaped valleys.",
+   "Ice sheets are glaciers that cover vast areas of land.",
+   "Today, ice sheets exist only in Greenland and Antarctica.",
+   "Both types of glaciers form where more snow falls each year than melts."
+  ],
+  "stem": "The student wants to emphasize a difference between alpine glaciers and ice sheets. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Alpine glaciers flow downhill and carve U-shaped valleys.",
+   "Today, ice sheets exist only in Greenland and Antarctica.",
+   "Both alpine glaciers and ice sheets form where more snow falls each year than melts.",
+   "Whereas alpine glaciers form in mountain valleys, ice sheets cover vast areas of land, as in Greenland and Antarctica."
+  ],
+  "answer": "D",
+  "explanation": "Only this choice contrasts the two types (mountain valleys versus vast land areas).",
+  "rationales": {
+   "A": "It describes only alpine glaciers.",
+   "B": "It describes only ice sheets.",
+   "C": "It emphasizes a similarity, not a difference.",
+   "D": "Correct. It contrasts where the two kinds of glaciers form."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Novelist Ama Mensah was born in Kumasi, Ghana, in 1961.",
+   "Her first novel, The Weaver's Daughter (1994), follows three generations of kente weavers.",
+   "The novel was translated into eleven languages.",
+   "Mensah writes in English but often includes Twi phrases.",
+   "Critics praise her vivid depictions of family life."
+  ],
+  "stem": "The student wants to introduce The Weaver's Daughter to an audience unfamiliar with Mensah. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Critics praise Mensah's vivid depictions of family life.",
+   "Born in Kumasi in 1961, Mensah writes in English but often includes Twi phrases.",
+   "The Weaver's Daughter was translated into eleven languages.",
+   "The Weaver's Daughter (1994), a novel by Ghanaian author Ama Mensah, follows three generations of kente weavers."
+  ],
+  "answer": "D",
+  "explanation": "An audience unfamiliar with Mensah needs to know who she is and what the novel is about; this choice identifies both.",
+  "rationales": {
+   "A": "It assumes the audience already knows who Mensah is and doesn't introduce the novel.",
+   "B": "It introduces Mensah but not the novel.",
+   "C": "It doesn't identify the author or say what the novel is about.",
+   "D": "Correct. It identifies the author and summarizes the novel."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "easy",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "A haboob is an intense dust storm.",
+   "Haboobs form when the downdraft of a thunderstorm pushes dust and sand ahead of it.",
+   "They can create walls of dust more than 1,000 meters high.",
+   "Haboobs occur in deserts such as the Sahara and in the southwestern United States."
+  ],
+  "stem": "The student wants to explain what a haboob is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Haboobs can create walls of dust more than 1,000 meters high.",
+   "Haboobs are one of many types of weather events that occur in deserts.",
+   "Haboobs occur in the Sahara and in the southwestern United States.",
+   "A haboob is an intense dust storm created when a thunderstorm's downdraft pushes dust and sand ahead of it."
+  ],
+  "answer": "D",
+  "explanation": "This choice defines a haboob and explains how it forms.",
+  "rationales": {
+   "A": "It describes a feature without saying what a haboob is.",
+   "B": "It doesn't explain what a haboob is and adds information not in the notes.",
+   "C": "It gives locations, not a definition.",
+   "D": "Correct. It defines the term and explains its cause."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Chan Chan was the capital of the Chimú Empire.",
+   "It is located in northern Peru, near the modern city of Trujillo.",
+   "It was built around 850 CE.",
+   "At its peak, it was the largest adobe city in the Americas.",
+   "It was designated a UNESCO World Heritage Site in 1986."
+  ],
+  "stem": "The student wants to specify where Chan Chan is located. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Chan Chan, built around 850 CE, became the largest adobe city in the Americas.",
+   "Chan Chan was designated a UNESCO World Heritage Site in 1986.",
+   "Chan Chan was the capital of the Chimú Empire.",
+   "Chan Chan is located in northern Peru, near the modern city of Trujillo."
+  ],
+  "answer": "D",
+  "explanation": "Only this choice gives the city's location.",
+  "rationales": {
+   "A": "It gives the date and size, not the location.",
+   "B": "This is accurate but doesn't address the goal.",
+   "C": "It gives the city's role, not its location.",
+   "D": "Correct. It specifies the location."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Many desert plants have adaptations for conserving water.",
+   "Cacti store water in thick, fleshy stems.",
+   "The creosote bush has small, waxy leaves that reduce water loss.",
+   "Some desert grasses complete their life cycles in a few weeks after rain.",
+   "Mesquite trees grow roots more than 50 meters deep to reach groundwater."
+  ],
+  "stem": "The student wants to make and support a generalization about desert plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Cacti store water in their thick, fleshy stems, and creosote bushes have small, waxy leaves.",
+   "Some desert grasses complete their life cycles within a few weeks after rain.",
+   "Mesquite trees grow roots more than 50 meters deep to reach groundwater.",
+   "Many desert plants have adaptations for conserving or obtaining water; mesquite trees, for example, grow roots more than 50 meters deep."
+  ],
+  "answer": "D",
+  "explanation": "A generalization plus support requires a broad claim and a specific example; only this choice has both.",
+  "rationales": {
+   "A": "It gives two examples without stating the generalization.",
+   "B": "It gives one example without a generalization.",
+   "C": "It gives an example without a generalization.",
+   "D": "Correct. It states a generalization and supports it with an example."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Platypuses and echidnas are both monotremes.",
+   "Monotremes are mammals that lay eggs.",
+   "Platypuses live in rivers in eastern Australia.",
+   "Echidnas live on land in Australia and New Guinea.",
+   "Both animals use electroreceptors to find prey."
+  ],
+  "stem": "The student wants to emphasize a similarity between platypuses and echidnas. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Echidnas live on land in Australia and New Guinea.",
+   "Monotremes are mammals that lay eggs.",
+   "Platypuses live in rivers, while echidnas live on land.",
+   "Platypuses and echidnas are both egg-laying mammals that use electroreceptors to find prey."
+  ],
+  "answer": "D",
+  "explanation": "This choice states two things the animals share.",
+  "rationales": {
+   "A": "It describes only echidnas.",
+   "B": "It defines monotremes without comparing the two animals.",
+   "C": "It emphasizes a difference.",
+   "D": "Correct. It emphasizes shared traits."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Psychologist Lena Varga studied whether handwriting notes improves memory.",
+   "She divided 120 students into two groups.",
+   "One group took notes by hand; the other typed them.",
+   "A week later, both groups took the same quiz on the lecture.",
+   "Students who wrote by hand scored 18% higher on conceptual questions."
+  ],
+  "stem": "The student wants to describe the method of Varga's study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Varga studied whether handwriting notes improves memory.",
+   "Students who wrote notes by hand outperformed those who typed them.",
+   "Varga found that students who took notes by hand scored 18% higher on conceptual questions.",
+   "Varga had one group of students take lecture notes by hand and another type them, then quizzed both groups a week later."
+  ],
+  "answer": "D",
+  "explanation": "The method is how the study was conducted: two groups, two note-taking conditions, a quiz a week later.",
+  "rationales": {
+   "A": "It states the research question, not the method.",
+   "B": "It summarizes a result, not the method.",
+   "C": "It reports the results, not the method.",
+   "D": "Correct. It describes the study's method."
+  }
+ },
+ {
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "easy",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Rosetta Stone was found in Egypt in 1799.",
+   "It contains the same decree in three scripts: hieroglyphic, Demotic, and ancient Greek.",
+   "Scholars used the Greek text to help decipher hieroglyphs.",
+   "Jean-François Champollion announced his decipherment in 1822."
+  ],
+  "stem": "The student wants to explain why the Rosetta Stone was important to scholars. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Jean-François Champollion announced his decipherment in 1822.",
+   "The Rosetta Stone contains a decree written in three scripts.",
+   "The Rosetta Stone was found in Egypt in 1799.",
+   "Because the Rosetta Stone contains the same text in Greek and in hieroglyphs, scholars could use the Greek to help decipher hieroglyphs."
+  ],
+  "answer": "D",
+  "explanation": "The stone's importance lies in letting scholars use the known Greek text to decode hieroglyphs.",
+  "rationales": {
+   "A": "It names a scholar and a date without explaining the stone's importance.",
+   "B": "It describes the stone without explaining why that mattered.",
+   "C": "It gives the date of discovery, not its importance.",
+   "D": "Correct. It explains why the stone mattered to scholars."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "easy",
+  "passage": "Many people assume that bats are blind. ______ most bat species have functional eyes, and some see quite well in dim light.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "As a result,",
+   "Similarly,",
+   "However,"
+  ],
+  "answer": "D",
+  "explanation": "The second sentence contradicts the common assumption, so a contrasting transition is needed.",
+  "rationales": {
+   "A": "The second sentence isn't an example of bats being blind.",
+   "B": "Bats having eyes isn't caused by people's assumption.",
+   "C": "The ideas contrast; they aren't similar.",
+   "D": "Correct. \"However\" signals the contrast with the assumption."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "medium",
+  "passage": "The first steam-powered road vehicles were built in the late eighteenth century. ______ such vehicles did not become practical for everyday travel until more than a century later.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "However,",
+   "Likewise,",
+   "Therefore,",
+   "In addition,"
+  ],
+  "answer": "A",
+  "explanation": "Early invention contrasts with the long delay before practicality.",
+  "rationales": {
+   "A": "Correct. \"However\" signals the contrast between early invention and late practicality.",
+   "B": "The sentences don't describe similar things.",
+   "C": "The delay isn't a consequence of the invention date.",
+   "D": "The second sentence doesn't add a parallel point; it qualifies the first."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "medium",
+  "passage": "Ravens and crows are close relatives and look much alike. ______ ravens are noticeably larger, have wedge-shaped tails, and tend to travel in pairs rather than in large flocks.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Still,",
+   "Similarly,",
+   "That is,",
+   "For this reason,"
+  ],
+  "answer": "A",
+  "explanation": "The second sentence lists differences despite the stated likeness, so a contrasting transition fits.",
+  "rationales": {
+   "A": "Correct. \"Still\" signals that despite their likeness, they differ.",
+   "B": "The second sentence gives differences, not similarities.",
+   "C": "The differences don't restate the similarity.",
+   "D": "Being alike doesn't cause the differences."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "passage": "City planners expected the new toll policy to reduce traffic downtown. ______ congestion actually increased during the first year, as drivers who had once avoided the area took advantage of lower off-peak tolls.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Moreover,",
+   "Instead,",
+   "For instance,",
+   "Consequently,"
+  ],
+  "answer": "B",
+  "explanation": "The outcome was the opposite of what was expected, so \"Instead\" fits.",
+  "rationales": {
+   "A": "The result doesn't add to the expectation; it contradicts it.",
+   "B": "Correct. \"Instead\" signals an outcome contrary to expectation.",
+   "C": "The increase isn't an example of reduced traffic.",
+   "D": "The expectation didn't cause the increase."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "easy",
+  "passage": "Venus is often called Earth's twin because the two planets are similar in size. ______ conditions on Venus are extremely hostile: its surface is hot enough to melt lead.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Therefore,",
+   "Similarly,",
+   "For example,",
+   "However,"
+  ],
+  "answer": "D",
+  "explanation": "Hostile conditions contrast with the label \"Earth's twin.\"",
+  "rationales": {
+   "A": "Similar size doesn't cause hostile conditions.",
+   "B": "Hostile conditions aren't a similarity.",
+   "C": "The conditions aren't an example of similarity.",
+   "D": "Correct. \"However\" signals the contrast."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "medium",
+  "passage": "Some critics dismissed the director's first film as a commercial failure. ______ it has since gained a devoted following and is regularly screened at film festivals.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "As a result,",
+   "Specifically,",
+   "Likewise,",
+   "Nevertheless,"
+  ],
+  "answer": "D",
+  "explanation": "Despite the early dismissal, the film gained a following.",
+  "rationales": {
+   "A": "Dismissal didn't cause the following.",
+   "B": "The following isn't a specific detail of the dismissal.",
+   "C": "The ideas contrast; they aren't similar.",
+   "D": "Correct. \"Nevertheless\" signals that the film succeeded despite the criticism."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "passage": "In most bird species, males are more brightly colored than females. In the red-necked phalarope, ______ the females are more colorful, and it is the males that incubate the eggs.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "by contrast,",
+   "similarly,",
+   "for instance,",
+   "therefore,"
+  ],
+  "answer": "A",
+  "explanation": "The phalarope reverses the usual pattern, so a contrasting transition fits.",
+  "rationales": {
+   "A": "Correct. \"By contrast\" marks the phalarope as an exception.",
+   "B": "The phalarope differs from the usual pattern.",
+   "C": "The phalarope isn't an example of the usual pattern.",
+   "D": "The usual pattern doesn't cause the reversal."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "medium",
+  "passage": "Early maps of the region showed a large inland lake. ______ later surveys revealed that the \"lake\" was actually a seasonal marsh that dried out every summer.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "However,",
+   "In other words,",
+   "Furthermore,",
+   "Thus,"
+  ],
+  "answer": "A",
+  "explanation": "The surveys contradicted the maps.",
+  "rationales": {
+   "A": "Correct. \"However\" signals the correction.",
+   "B": "The second sentence corrects, rather than restates, the first.",
+   "C": "The surveys don't add to the maps; they contradict them.",
+   "D": "The maps didn't cause the discovery."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "passage": "The model predicted that the planet's atmosphere would contain abundant methane. Observations from the space telescope, ______ detected only trace amounts of the gas.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "for example,",
+   "therefore,",
+   "moreover,",
+   "however,"
+  ],
+  "answer": "D",
+  "explanation": "The observations contradicted the prediction.",
+  "rationales": {
+   "A": "Trace amounts aren't an example of abundant methane.",
+   "B": "The prediction didn't cause the result.",
+   "C": "The observations don't add support to the prediction.",
+   "D": "Correct. \"However\" signals the contrast between prediction and observation."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "easy",
+  "passage": "Lemons are known for their sour taste. Oranges, ______ are usually sweet.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "in addition,",
+   "on the other hand,",
+   "for example,",
+   "as a result,"
+  ],
+  "answer": "B",
+  "explanation": "Sweet oranges contrast with sour lemons.",
+  "rationales": {
+   "A": "The sentence contrasts rather than adds a similar fact.",
+   "B": "Correct. \"On the other hand\" signals the contrast.",
+   "C": "Oranges aren't an example of sour fruit.",
+   "D": "Lemons' sourness doesn't cause oranges' sweetness."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "easy",
+  "passage": "Heavy rain fell on the valley for three days without stopping. ______ the river overflowed its banks and flooded nearby fields.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "As a result,",
+   "However,",
+   "Similarly,"
+  ],
+  "answer": "B",
+  "explanation": "The flooding was caused by the rain.",
+  "rationales": {
+   "A": "The flooding isn't an example of rain.",
+   "B": "Correct. \"As a result\" shows that the rain caused the flooding.",
+   "C": "There's no contrast.",
+   "D": "The flooding isn't similar to the rain; it's caused by it."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "medium",
+  "passage": "Octopuses have no internal or external skeleton. ______ even large octopuses can squeeze through openings barely wider than their eyes.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In contrast,",
+   "Meanwhile,",
+   "Consequently,",
+   "Nevertheless,"
+  ],
+  "answer": "C",
+  "explanation": "Lacking a skeleton is the reason octopuses can squeeze through small openings.",
+  "rationales": {
+   "A": "There's no contrast between the ideas.",
+   "B": "The sentences aren't about simultaneous events.",
+   "C": "Correct. \"Consequently\" signals the effect of having no skeleton.",
+   "D": "There's no contrast between the ideas."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "medium",
+  "passage": "The town's textile factory, which employed nearly half of its residents, closed in 1987. ______ many families moved to nearby cities in search of work.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For instance,",
+   "Likewise,",
+   "Thus,",
+   "Still,"
+  ],
+  "answer": "C",
+  "explanation": "The closing caused families to move.",
+  "rationales": {
+   "A": "Families moving isn't an example of the closing.",
+   "B": "Moving isn't similar to the closing; it results from it.",
+   "C": "Correct. \"Thus\" signals cause and effect.",
+   "D": "There's no contrast."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "passage": "Hummingbirds have extremely high metabolic rates and burn through energy quickly. ______ they must feed every few minutes during the day and enter a state of torpor at night to conserve energy.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Even so,",
+   "For this reason,",
+   "In comparison,",
+   "Previously,"
+  ],
+  "answer": "B",
+  "explanation": "The need to feed often follows from their high metabolism.",
+  "rationales": {
+   "A": "There's no contrast; the behavior follows from the metabolism.",
+   "B": "Correct. \"For this reason\" links the behavior to its cause.",
+   "C": "Nothing is being compared.",
+   "D": "The sentence isn't about an earlier time."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "easy",
+  "passage": "The bakery sold out of flour before 9:00 a.m. ______ it had to close early for the day.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "Instead,",
+   "Therefore,",
+   "Likewise,"
+  ],
+  "answer": "C",
+  "explanation": "Running out of flour caused the early closing.",
+  "rationales": {
+   "A": "Closing isn't an example of running out.",
+   "B": "Closing isn't an alternative to running out of flour.",
+   "C": "Correct. \"Therefore\" signals the effect.",
+   "D": "The ideas aren't similar; one causes the other."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "medium",
+  "passage": "Sea turtle hatchlings find the ocean by crawling toward the brightest horizon, so artificial lights can lead them astray. ______ many coastal towns now require beachfront buildings to dim their lights during nesting season.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "On the other hand,",
+   "Accordingly,",
+   "Similarly,",
+   "Nevertheless,"
+  ],
+  "answer": "B",
+  "explanation": "The rules are a response to the problem described.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "Correct. \"Accordingly\" shows the rules respond to the problem.",
+   "C": "The rules aren't similar to the problem.",
+   "D": "There's no contrast; the rules follow from the problem."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "passage": "The novel's first edition was printed on cheap, acidic paper that yellows and crumbles over time. ______ surviving copies in good condition are rare and highly prized by collectors.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Conversely,",
+   "Even so,",
+   "Moreover,",
+   "Hence,"
+  ],
+  "answer": "D",
+  "explanation": "The paper's deterioration explains why good copies are rare.",
+  "rationales": {
+   "A": "There's no reversal.",
+   "B": "There's no contrast.",
+   "C": "The rarity isn't just an additional fact; it follows from the paper.",
+   "D": "Correct. \"Hence\" signals the effect."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "medium",
+  "passage": "Unlike many vaccines, the new one does not need to be refrigerated. ______ it can be shipped to remote regions that lack reliable electricity.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In contrast,",
+   "Regardless,",
+   "For instance,",
+   "As a result,"
+  ],
+  "answer": "D",
+  "explanation": "Not needing refrigeration makes distribution to remote regions possible.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "The second sentence depends on the first, so \"regardless\" is illogical.",
+   "C": "Shipping isn't an example of not needing refrigeration.",
+   "D": "Correct. \"As a result\" signals the effect."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "passage": "Because the island had no native mammal predators, many of its birds evolved without the ability to fly. ______ when ships brought rats and cats to the island in the nineteenth century, these birds were especially vulnerable.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "By comparison,",
+   "Nonetheless,",
+   "In other words,",
+   "Thus,"
+  ],
+  "answer": "D",
+  "explanation": "Flightlessness explains the birds' vulnerability.",
+  "rationales": {
+   "A": "Nothing is compared.",
+   "B": "There's no contrast.",
+   "C": "The second sentence doesn't restate the first.",
+   "D": "Correct. \"Thus\" signals the consequence."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "easy",
+  "passage": "Overnight, a layer of ice covered the mountain trail. ______ park rangers closed it to hikers for the day.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Consequently,",
+   "However,",
+   "For example,",
+   "In addition,"
+  ],
+  "answer": "A",
+  "explanation": "The ice caused the closure.",
+  "rationales": {
+   "A": "Correct. \"Consequently\" signals the effect.",
+   "B": "There's no contrast.",
+   "C": "The closure isn't an example of ice.",
+   "D": "The closure isn't simply an added fact."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "easy",
+  "passage": "Many animals besides humans use tools. ______ chimpanzees strip leaves from twigs and use them to fish termites out of their mounds.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "Instead,",
+   "As a result,",
+   "However,"
+  ],
+  "answer": "A",
+  "explanation": "Chimpanzees illustrate animals using tools.",
+  "rationales": {
+   "A": "Correct. \"For example\" introduces an instance of tool use.",
+   "B": "Nothing is being replaced.",
+   "C": "Chimpanzee behavior isn't caused by the first sentence.",
+   "D": "There's no contrast."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "passage": "The architect designs her buildings to conserve energy. Their thick walls keep interiors cool in summer. ______ their large south-facing windows capture sunlight for warmth in winter.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Nevertheless,",
+   "Additionally,",
+   "Consequently,",
+   "Instead,"
+  ],
+  "answer": "B",
+  "explanation": "The windows are another energy-saving feature.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "Correct. \"Additionally\" adds another feature.",
+   "C": "The windows aren't caused by the walls.",
+   "D": "The windows don't replace the walls."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "passage": "Making paper by hand involves several steps. First, plant fibers are soaked and beaten into a pulp. ______ the pulp is spread onto a fine screen and pressed to remove water.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In contrast,",
+   "Next,",
+   "However,",
+   "For instance,"
+  ],
+  "answer": "B",
+  "explanation": "The sentence describes the next step in a sequence.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "Correct. \"Next\" continues the sequence of steps.",
+   "C": "There's no contrast.",
+   "D": "Spreading the pulp isn't an example of the first step."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "passage": "The paleontologist argued that the fossil belonged not to a new species but to a juvenile of a known one. ______ the features others had considered unique, such as its small size and unfused skull bones, were simply signs of immaturity.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Otherwise,",
+   "Nevertheless,",
+   "In other words,",
+   "Conversely,"
+  ],
+  "answer": "C",
+  "explanation": "The second sentence restates and clarifies the argument.",
+  "rationales": {
+   "A": "\"Otherwise\" implies an alternative, which doesn't fit.",
+   "B": "There's no contrast.",
+   "C": "Correct. \"In other words\" introduces a restatement.",
+   "D": "There's no reversal."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "easy",
+  "passage": "Volunteers at the animal shelter walk the dogs every morning. ______ they clean the kennels and refill the water bowls.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "However,",
+   "In addition,",
+   "As a result,"
+  ],
+  "answer": "C",
+  "explanation": "Cleaning is another task the volunteers do.",
+  "rationales": {
+   "A": "Cleaning isn't an example of walking dogs.",
+   "B": "There's no contrast.",
+   "C": "Correct. \"In addition\" adds another task.",
+   "D": "Cleaning isn't caused by walking the dogs."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "passage": "Some plants defend themselves with chemicals. Milkweed, ______ produces a toxic sap that deters many insects.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "in contrast,",
+   "however,",
+   "therefore,",
+   "for instance,"
+  ],
+  "answer": "D",
+  "explanation": "Milkweed is an example of a plant with chemical defenses.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "There's no contrast.",
+   "C": "Milkweed's sap isn't caused by the first sentence.",
+   "D": "Correct. \"For instance\" introduces an example."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "passage": "The documentary's interviews are revealing, and its archival footage is often stunning. ______ its score, played entirely on restored nineteenth-century instruments, gives the film a haunting atmosphere.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Moreover,",
+   "Thus,",
+   "Instead,",
+   "Nevertheless,"
+  ],
+  "answer": "A",
+  "explanation": "The score is another strength, added to those listed.",
+  "rationales": {
+   "A": "Correct. \"Moreover\" adds another strength.",
+   "B": "The score isn't a result of the interviews or footage.",
+   "C": "The score doesn't replace the other strengths.",
+   "D": "There's no contrast."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "passage": "To make meringue, whisk the egg whites until stiff peaks form. ______ add the sugar slowly, one spoonful at a time.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "For example,",
+   "Regardless,",
+   "Then,",
+   "In contrast,"
+  ],
+  "answer": "C",
+  "explanation": "Adding sugar is the next step.",
+  "rationales": {
+   "A": "Adding sugar isn't an example of whisking.",
+   "B": "The step depends on the previous one.",
+   "C": "Correct. \"Then\" continues the sequence.",
+   "D": "There's no contrast."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "passage": "The city's 1890 census listed an occupation for nearly every adult resident. ______ it recorded not only each person's trade but also the address of their workplace, allowing historians to map the city's economy block by block.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In fact,",
+   "However,",
+   "Otherwise,",
+   "Similarly,"
+  ],
+  "answer": "A",
+  "explanation": "The second sentence emphasizes and extends how detailed the census was.",
+  "rationales": {
+   "A": "Correct. \"In fact\" intensifies the point about the census's detail.",
+   "B": "There's no contrast.",
+   "C": "\"Otherwise\" implies an alternative, which doesn't fit.",
+   "D": "The second sentence isn't about something similar; it adds detail to the same census."
+  }
+ },
+ {
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "easy",
+  "passage": "The museum offers free admission on Sundays. ______ guided tours are free on the first Sunday of every month.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "However,",
+   "Therefore,",
+   "Also,",
+   "For example,"
+  ],
+  "answer": "C",
+  "explanation": "Free tours are an added benefit.",
+  "rationales": {
+   "A": "There's no contrast.",
+   "B": "Free tours aren't caused by free admission.",
+   "C": "Correct. \"Also\" adds another benefit.",
+   "D": "Free tours aren't an example of free admission."
+  }
+ }
+]

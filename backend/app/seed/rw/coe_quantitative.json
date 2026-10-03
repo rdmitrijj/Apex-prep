@@ -1,0 +1,1428 @@
+[
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "easy",
+  "passage": "A researcher studying young people's media habits found that average daily screen time increases with age. For example, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Average Daily Screen Time by Age Group",
+   "header": [
+    "Age group",
+    "Hours per day"
+   ],
+   "rows": [
+    [
+     "8–10",
+     "3.1"
+    ],
+    [
+     "11–13",
+     "4.6"
+    ],
+    [
+     "14–16",
+     "5.8"
+    ],
+    [
+     "17–18",
+     "6.2"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "children aged 11–13 and those aged 14–16 averaged about the same amount of screen time per day.",
+   "children aged 8–10 averaged 3.1 hours of screen time per day, while those aged 17–18 averaged 6.2 hours.",
+   "children aged 8–10 averaged 6.2 hours of screen time per day, while those aged 17–18 averaged 3.1 hours.",
+   "children aged 14–16 averaged more screen time per day than any other age group."
+  ],
+  "answer": "B",
+  "explanation": "The youngest group averaged 3.1 hours and the oldest 6.2 hours, which illustrates screen time increasing with age.",
+  "rationales": {
+   "A": "4.6 and 5.8 hours aren't about the same.",
+   "B": "Correct. It accurately shows more screen time for the older group.",
+   "C": "This reverses the two values.",
+   "D": "The 17–18 group (6.2) averaged more than the 14–16 group (5.8)."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "medium",
+  "passage": "Agricultural scientist Rania Haddad compared three irrigation methods on test farms. She concluded that drip irrigation produced the highest yields for both crops she studied, noting that ______",
+  "figure": {
+   "kind": "table",
+   "title": "Average Yield (tonnes per hectare)",
+   "header": [
+    "Irrigation method",
+    "Wheat",
+    "Maize"
+   ],
+   "rows": [
+    [
+     "Flood",
+     "3.2",
+     "5.1"
+    ],
+    [
+     "Sprinkler",
+     "3.6",
+     "5.8"
+    ],
+    [
+     "Drip",
+     "4.1",
+     "6.4"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "drip-irrigated wheat yielded 4.1 tonnes per hectare, less than sprinkler-irrigated maize did.",
+   "drip-irrigated wheat yielded 4.1 tonnes per hectare and drip-irrigated maize yielded 6.4, more than either crop yielded with the other methods.",
+   "sprinkler-irrigated maize yielded 5.8 tonnes per hectare, more than flood-irrigated maize did.",
+   "flood irrigation produced the lowest wheat yield, 3.6 tonnes per hectare."
+  ],
+  "answer": "B",
+  "explanation": "The conclusion is that drip produced the highest yields for both crops; this choice gives both drip yields and notes they're the highest.",
+  "rationales": {
+   "A": "This compares different crops, which doesn't address the conclusion.",
+   "B": "Correct. It supports the conclusion for both crops.",
+   "C": "This is accurate, but it doesn't support the point the text makes.",
+   "D": "Flood-irrigated wheat yielded 3.2, not 3.6."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "medium",
+  "passage": "Ecologists counted bird species at four wetland sites before and after a restoration project. Every site had more species afterward, but the size of the increase varied widely: ______",
+  "figure": {
+   "kind": "table",
+   "title": "Number of Bird Species Observed",
+   "header": [
+    "Site",
+    "Before restoration",
+    "After restoration"
+   ],
+   "rows": [
+    [
+     "A",
+     "42",
+     "61"
+    ],
+    [
+     "B",
+     "38",
+     "55"
+    ],
+    [
+     "C",
+     "51",
+     "53"
+    ],
+    [
+     "D",
+     "29",
+     "47"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "Site C had the most species both before and after restoration.",
+   "Site A had 61 species after restoration, more than any other site.",
+   "Site D gained 18 species, while Site C gained only 2.",
+   "Site B gained 17 species, about as many as Site D gained."
+  ],
+  "answer": "C",
+  "explanation": "A gain of 18 at one site and 2 at another shows how widely the increases varied.",
+  "rationales": {
+   "A": "After restoration, Site A (61) had more species than Site C (53).",
+   "B": "This is accurate, but it doesn't support the point the text makes.",
+   "C": "Correct. It shows a large and a small increase.",
+   "D": "This shows two similar increases, not wide variation."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "passage": "Researchers compared three vocabulary study methods, each practiced in either 10-minute or 30-minute daily sessions for twelve weeks. They found that the benefit of longer sessions depended on the method and was largest for reading: ______",
+  "figure": {
+   "kind": "table",
+   "title": "Average Vocabulary Test Score",
+   "header": [
+    "Method",
+    "10-minute sessions",
+    "30-minute sessions"
+   ],
+   "rows": [
+    [
+     "Flashcards",
+     "68",
+     "74"
+    ],
+    [
+     "Reading",
+     "61",
+     "79"
+    ],
+    [
+     "Audio",
+     "58",
+     "66"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "reading scores rose from 61 to 79 with longer sessions, an 18-point gain, compared with gains of 6 points for flashcards and 8 points for audio.",
+   "reading produced the highest score with 30-minute sessions, 79.",
+   "audio scores rose from 58 to 66 with longer sessions, the largest gain of the three methods.",
+   "flashcards produced the highest score with 10-minute sessions, 68."
+  ],
+  "answer": "A",
+  "explanation": "The claim concerns the gain from longer sessions; reading's 18-point gain exceeds flashcards' 6 and audio's 8.",
+  "rationales": {
+   "A": "Correct. It compares the gains and shows reading's was largest.",
+   "B": "This gives one score, not the gain from longer sessions.",
+   "C": "Audio's 8-point gain is smaller than reading's 18-point gain.",
+   "D": "This is accurate, but it doesn't support the point the text makes."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "easy",
+  "passage": "A travel writer recommends Dunmere to travelers who dislike summer heat, since of the four towns in the table, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Average July Temperature",
+   "header": [
+    "Town",
+    "Temperature (°C)"
+   ],
+   "rows": [
+    [
+     "Ashford",
+     "18"
+    ],
+    [
+     "Bellmore",
+     "24"
+    ],
+    [
+     "Corvale",
+     "31"
+    ],
+    [
+     "Dunmere",
+     "14"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "Dunmere has the lowest average July temperature, 14°C.",
+   "Corvale has the highest average July temperature, 31°C.",
+   "Dunmere's average July temperature is 24°C.",
+   "Ashford and Bellmore have similar average July temperatures."
+  ],
+  "answer": "A",
+  "explanation": "Dunmere's 14°C is the lowest, which supports recommending it to people who dislike heat.",
+  "rationales": {
+   "A": "Correct. It shows Dunmere is the coolest town.",
+   "B": "This is accurate, but it doesn't support the point the text makes.",
+   "C": "Dunmere's temperature is 14°C; 24°C is Bellmore's.",
+   "D": "This is about other towns, and 18°C and 24°C aren't very similar."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "medium",
+  "passage": "A transportation planner noted that residents of Easton rely on public transit far more than residents of Northport do. According to the survey, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Primary Commuting Mode (% of residents)",
+   "header": [
+    "Mode",
+    "Northport",
+    "Easton"
+   ],
+   "rows": [
+    [
+     "Car",
+     "48",
+     "31"
+    ],
+    [
+     "Public transit",
+     "27",
+     "44"
+    ],
+    [
+     "Bicycle",
+     "15",
+     "9"
+    ],
+    [
+     "Walking",
+     "10",
+     "16"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "27 percent of Easton residents commute mainly by public transit, compared with 44 percent of Northport residents.",
+   "48 percent of Northport residents commute mainly by car, compared with 31 percent of Easton residents.",
+   "44 percent of Easton residents commute mainly by public transit, compared with 27 percent of Northport residents.",
+   "15 percent of Northport residents commute mainly by bicycle, more than in Easton."
+  ],
+  "answer": "C",
+  "explanation": "The point is about public transit; 44 percent versus 27 percent supports it.",
+  "rationales": {
+   "A": "This reverses the two cities' values.",
+   "B": "This is about car use, not public transit.",
+   "C": "Correct. It compares public transit use in the two cities.",
+   "D": "This is about bicycles, not public transit."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "passage": "In a trial of two pain medications, Drug B appeared more effective early on, but by the end of the trial Drug A had clearly overtaken it. For instance, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Patients Reporting Reduced Pain (%)",
+   "header": [
+    "Treatment",
+    "Week 2",
+    "Week 8"
+   ],
+   "rows": [
+    [
+     "Drug A",
+     "35",
+     "62"
+    ],
+    [
+     "Drug B",
+     "51",
+     "54"
+    ],
+    [
+     "Placebo",
+     "22",
+     "25"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "at week 2, 51 percent of patients on Drug B reported reduced pain versus 35 percent on Drug A, but at week 8 the figures were 54 percent and 62 percent, respectively.",
+   "the percentage of patients on Drug B reporting reduced pain rose from 51 to 54 between week 2 and week 8.",
+   "at week 8, 62 percent of patients on Drug A reported reduced pain, compared with 25 percent on placebo.",
+   "at week 2, 35 percent of patients on Drug A reported reduced pain, more than on Drug B."
+  ],
+  "answer": "A",
+  "explanation": "The text describes Drug B leading early and Drug A leading later; only this choice shows both time points for both drugs.",
+  "rationales": {
+   "A": "Correct. It shows Drug B ahead at week 2 and Drug A ahead at week 8.",
+   "B": "This describes only Drug B.",
+   "C": "This compares Drug A with placebo, not with Drug B.",
+   "D": "At week 2, Drug A's 35 percent was lower than Drug B's 51 percent."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "medium",
+  "passage": "A librarian argues that e-books are steadily replacing print books at the town library. The data support this argument: ______",
+  "figure": {
+   "kind": "table",
+   "title": "Library Checkouts (thousands)",
+   "header": [
+    "Year",
+    "Print books",
+    "E-books"
+   ],
+   "rows": [
+    [
+     "2016",
+     "120",
+     "18"
+    ],
+    [
+     "2018",
+     "112",
+     "34"
+    ],
+    [
+     "2020",
+     "95",
+     "61"
+    ],
+    [
+     "2022",
+     "90",
+     "72"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "between 2016 and 2022, print checkouts fell from 120,000 to 90,000 while e-book checkouts rose from 18,000 to 72,000.",
+   "e-book checkouts doubled between 2020 and 2022.",
+   "print checkouts exceeded e-book checkouts in every year shown.",
+   "in 2022, there were 72,000 e-book checkouts, fewer than print checkouts that year."
+  ],
+  "answer": "A",
+  "explanation": "Steady replacement means print falling as e-books rise over time, which this choice shows.",
+  "rationales": {
+   "A": "Correct. It shows print declining as e-books grow.",
+   "B": "E-book checkouts rose from 61,000 to 72,000, which isn't doubling.",
+   "C": "This is accurate but doesn't show replacement.",
+   "D": "This is accurate but emphasizes print's lead rather than replacement."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "passage": "Astronomer Kwame Asante suggests that the radial velocity method is better suited than the transit method to detecting large planets, while the transit method excels at finding smaller ones. As evidence, he points out that ______",
+  "figure": {
+   "kind": "table",
+   "title": "Exoplanets Detected, by Method and Size",
+   "header": [
+    "Planet size",
+    "Transit",
+    "Radial velocity"
+   ],
+   "rows": [
+    [
+     "Earth-sized",
+     "140",
+     "12"
+    ],
+    [
+     "Neptune-sized",
+     "310",
+     "95"
+    ],
+    [
+     "Jupiter-sized",
+     "120",
+     "210"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "the transit method detected more Neptune-sized planets than planets of any other size.",
+   "the radial velocity method detected 95 Neptune-sized planets and only 12 Earth-sized planets.",
+   "the radial velocity method detected more Jupiter-sized planets than the transit method did (210 versus 120), while the transit method detected far more Earth-sized planets (140 versus 12).",
+   "the transit method detected more planets than the radial velocity method in every size category."
+  ],
+  "answer": "C",
+  "explanation": "The claim compares the methods for large and small planets; only this choice compares both methods at both ends.",
+  "rationales": {
+   "A": "This concerns only one method and the middle size.",
+   "B": "This describes only one method.",
+   "C": "Correct. It compares the two methods for both large and small planets.",
+   "D": "Radial velocity detected more Jupiter-sized planets (210 versus 120)."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "easy",
+  "passage": "In the Northern Hemisphere, the farther a place is from the equator, the more hours of daylight it receives in June. For example, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Average Hours of Daylight in June",
+   "header": [
+    "Latitude",
+    "Hours of daylight"
+   ],
+   "rows": [
+    [
+     "0°",
+     "12.1"
+    ],
+    [
+     "30° N",
+     "13.9"
+    ],
+    [
+     "50° N",
+     "16.3"
+    ],
+    [
+     "70° N",
+     "24.0"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the text?",
+  "choices": [
+   "a place at 70° N receives about 12.1 hours of daylight in June.",
+   "places at 30° N and 50° N receive the same amount of daylight in June.",
+   "a place at 0° latitude receives about 12.1 hours of daylight in June, while a place at 50° N receives about 16.3 hours.",
+   "a place at 30° N receives about 13.9 hours of daylight in June, more than at any other latitude shown."
+  ],
+  "answer": "C",
+  "explanation": "Comparing 0° (12.1 hours) with 50° N (16.3 hours) illustrates more daylight farther from the equator.",
+  "rationales": {
+   "A": "70° N receives 24.0 hours, not 12.1.",
+   "B": "30° N and 50° N receive 13.9 and 16.3 hours.",
+   "C": "Correct. It compares two latitudes and matches the pattern.",
+   "D": "70° N receives 24 hours, more than 30° N."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "easy",
+  "passage": "A survey found that pet ownership was most common among respondents aged 30–44. Specifically, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Pet Ownership by Age Group",
+   "labels": [
+    "18–29",
+    "30–44",
+    "45–59",
+    "60+"
+   ],
+   "xlabel": "Age group",
+   "ylabel": "% who own a pet",
+   "values": [
+    54,
+    67,
+    61,
+    48
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "61 percent of respondents aged 45–59 owned a pet, the highest of any age group.",
+   "67 percent of respondents aged 30–44 owned a pet, a higher percentage than in any other age group.",
+   "fewer than half of respondents aged 30–44 owned a pet.",
+   "54 percent of respondents aged 18–29 owned a pet."
+  ],
+  "answer": "B",
+  "explanation": "The 30–44 group's 67 percent is the highest bar.",
+  "rationales": {
+   "A": "The 45–59 group (61%) is lower than the 30–44 group (67%).",
+   "B": "Correct. It shows the 30–44 group had the highest rate.",
+   "C": "67 percent is more than half.",
+   "D": "This is accurate, but it doesn't support the point the text makes."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "passage": "An education researcher found that weekly homework time did not rise for every grade between 2010 and 2020. For example, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Average Weekly Homework Hours",
+   "labels": [
+    "9th",
+    "10th",
+    "11th",
+    "12th"
+   ],
+   "xlabel": "Grade",
+   "ylabel": "Hours per week",
+   "series": [
+    {
+     "name": "2010",
+     "values": [
+      6.1,
+      7.0,
+      8.3,
+      7.8
+     ]
+    },
+    {
+     "name": "2020",
+     "values": [
+      7.4,
+      7.2,
+      9.9,
+      7.5
+     ]
+    }
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "11th graders averaged 9.9 hours per week in 2020, more than any other grade.",
+   "9th graders' average rose from 6.1 hours in 2010 to 7.4 hours in 2020.",
+   "10th graders averaged fewer hours in 2020 than in 2010.",
+   "12th graders averaged 7.8 hours per week in 2010 but only 7.5 hours in 2020."
+  ],
+  "answer": "D",
+  "explanation": "A grade whose homework time fell is an example of time not rising for every grade; 12th grade fell from 7.8 to 7.5.",
+  "rationales": {
+   "A": "This is accurate, but it doesn't support the point the text makes.",
+   "B": "This shows an increase, the opposite of the point.",
+   "C": "10th graders rose slightly, from 7.0 to 7.2.",
+   "D": "Correct. It gives a grade whose homework time fell."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "passage": "Although renewable sources are growing in the region, natural gas remained its largest single source of electricity in 2022, generating ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Electricity Generated in 2022",
+   "labels": [
+    "Solar",
+    "Wind",
+    "Hydro",
+    "Natural gas",
+    "Coal"
+   ],
+   "xlabel": "Source",
+   "ylabel": "Terawatt-hours",
+   "values": [
+    14,
+    22,
+    31,
+    45,
+    9
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "22 terawatt-hours, more than solar power at 14 terawatt-hours.",
+   "45 terawatt-hours, more than hydropower, the next-largest source, at 31 terawatt-hours.",
+   "31 terawatt-hours, less than wind power.",
+   "9 terawatt-hours, the least of any source."
+  ],
+  "answer": "B",
+  "explanation": "Natural gas generated 45 TWh, the most, ahead of hydro's 31 TWh.",
+  "rationales": {
+   "A": "22 TWh is wind's output, not natural gas's.",
+   "B": "Correct. It correctly gives natural gas's output and shows it's the largest.",
+   "C": "31 TWh is hydro's output, and it's more than wind's.",
+   "D": "9 TWh is coal's output."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "passage": "A seed bank technician claims that storage temperature matters far more for long-term storage than for short-term storage. The data support this claim: ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Seed Germination Rate after Storage",
+   "labels": [
+    "4°C",
+    "15°C",
+    "25°C"
+   ],
+   "xlabel": "Storage temperature",
+   "ylabel": "% of seeds germinating",
+   "series": [
+    {
+     "name": "After 1 year",
+     "values": [
+      95,
+      93,
+      90
+     ]
+    },
+    {
+     "name": "After 5 years",
+     "values": [
+      88,
+      61,
+      34
+     ]
+    }
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "seeds stored at 4°C had the highest germination rate after both one year and five years.",
+   "seeds stored at 25°C had a germination rate of 34 percent after five years.",
+   "germination rates fell by about the same amount at every storage temperature.",
+   "after one year, germination rates at 4°C and 25°C differed by only 5 percentage points (95 versus 90), but after five years they differed by 54 points (88 versus 34)."
+  ],
+  "answer": "D",
+  "explanation": "Comparing the temperature gap after one year (5 points) with the gap after five years (54 points) shows temperature matters more over the long term.",
+  "rationales": {
+   "A": "This is accurate, but it doesn't support the point the text makes.",
+   "B": "This gives one value without comparing short- and long-term storage.",
+   "C": "Rates fell 7 points at 4°C but 56 points at 25°C.",
+   "D": "Correct. It compares the effect of temperature at both durations."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "easy",
+  "passage": "The food bank's coordinator noticed that weekends attract the most volunteers. On Saturday, for instance, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Volunteers by Day of the Week",
+   "labels": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "xlabel": "Day",
+   "ylabel": "Number of volunteers",
+   "values": [
+    12,
+    9,
+    14,
+    11,
+    16,
+    25,
+    18
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "16 volunteers came, more than on Friday.",
+   "18 volunteers came, more than on Sunday.",
+   "25 volunteers came, more than on any other day.",
+   "9 volunteers came, the fewest of the week."
+  ],
+  "answer": "C",
+  "explanation": "Saturday's bar, 25, is the tallest.",
+  "rationales": {
+   "A": "16 is Friday's count.",
+   "B": "Saturday had 25 volunteers; Sunday had 18.",
+   "C": "Correct. It gives Saturday's count and shows it's the highest.",
+   "D": "9 is Tuesday's count."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "passage": "When the bakery introduced a cardamom muffin, the owner expected it to sell less than the familiar flavors. Instead, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Average Weekly Muffin Sales",
+   "labels": [
+    "Vanilla",
+    "Chocolate",
+    "Lemon",
+    "Cardamom"
+   ],
+   "xlabel": "Flavor",
+   "ylabel": "Muffins sold",
+   "values": [
+    140,
+    210,
+    95,
+    160
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "cardamom muffins averaged 95 sales per week, fewer than any other flavor.",
+   "cardamom muffins averaged 160 sales per week, more than vanilla (140) or lemon (95).",
+   "lemon and vanilla muffins together averaged 235 sales per week.",
+   "chocolate muffins averaged 210 sales per week, the most of any flavor."
+  ],
+  "answer": "B",
+  "explanation": "\"Instead\" signals the opposite of the expectation: cardamom outsold two familiar flavors.",
+  "rationales": {
+   "A": "95 is lemon's figure; cardamom sold 160.",
+   "B": "Correct. It shows cardamom outselling familiar flavors.",
+   "C": "This is accurate, but it doesn't support the point the text makes.",
+   "D": "This is accurate, but it doesn't support the point the text makes."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "passage": "A media researcher argues that younger and older adults differ most in how much they trust social media as a news source. She notes that ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Adults Who Trust Each Source \"A Great Deal\"",
+   "labels": [
+    "Newspapers",
+    "Television",
+    "Social media"
+   ],
+   "xlabel": "News source",
+   "ylabel": "% of adults",
+   "series": [
+    {
+     "name": "Ages 18–34",
+     "values": [
+      22,
+      18,
+      31
+     ]
+    },
+    {
+     "name": "Ages 55+",
+     "values": [
+      41,
+      37,
+      6
+     ]
+    }
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "the age gap in trust of television is larger than the gap for social media.",
+   "older adults trust newspapers more than any other source, at 41 percent.",
+   "the age gap in trust of social media (31 percent versus 6 percent) is larger than the gaps for newspapers (22 versus 41 percent) or television (18 versus 37 percent).",
+   "younger adults trust social media more than they trust newspapers or television."
+  ],
+  "answer": "C",
+  "explanation": "The argument compares age gaps; social media's 25-point gap exceeds the 19-point gaps for newspapers and television.",
+  "rationales": {
+   "A": "The television gap (19 points) is smaller than the social media gap (25 points).",
+   "B": "This is accurate, but it doesn't support the point the text makes.",
+   "C": "Correct. It compares all three gaps and shows social media's is largest.",
+   "D": "This describes only younger adults and doesn't compare age groups."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "passage": "In the region, most rain falls during the summer monsoon. In July, for example, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Average Monthly Rainfall",
+   "labels": [
+    "January",
+    "April",
+    "July",
+    "October"
+   ],
+   "xlabel": "Month",
+   "ylabel": "Millimeters",
+   "values": [
+    20,
+    35,
+    180,
+    60
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "average rainfall is 60 millimeters.",
+   "average rainfall is 180 millimeters, far more than in January (20 millimeters) or April (35 millimeters).",
+   "average rainfall is lower than in October.",
+   "January has the least rainfall of the months shown, 20 millimeters."
+  ],
+  "answer": "B",
+  "explanation": "July's 180 mm far exceeds the other months shown.",
+  "rationales": {
+   "A": "60 mm is October's figure.",
+   "B": "Correct. It gives July's rainfall and compares it with other months.",
+   "C": "July has more rainfall than October.",
+   "D": "This doesn't describe July, the month the sentence introduces."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "passage": "Forester Ida Lund claims that a tree's position on a slope affected storm damage more than its species did. Supporting this claim, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Trees Damaged in a Storm",
+   "labels": [
+    "Oak",
+    "Pine",
+    "Maple"
+   ],
+   "xlabel": "Species",
+   "ylabel": "% of trees damaged",
+   "series": [
+    {
+     "name": "Ridge",
+     "values": [
+      34,
+      58,
+      41
+     ]
+    },
+    {
+     "name": "Valley",
+     "values": [
+      12,
+      15,
+      13
+     ]
+    }
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "pine trees on ridges had the highest damage rate, 58 percent.",
+   "maple trees in valleys were damaged more often than maple trees on ridges.",
+   "oak trees were damaged less often than pine trees at both slope positions.",
+   "damage rates in valleys were similar across species (12 to 15 percent), while ridge-top trees of every species were damaged at much higher rates (34 to 58 percent)."
+  ],
+  "answer": "D",
+  "explanation": "Every species was damaged far more on ridges than in valleys, showing position mattered most.",
+  "rationales": {
+   "A": "This gives one value without comparing position and species.",
+   "B": "Valley maples (13%) were damaged less than ridge maples (41%).",
+   "C": "This emphasizes a species difference, the opposite of the claim.",
+   "D": "Correct. It shows the slope effect holds across species."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "easy",
+  "passage": "This year, coding was the school's most popular elective: ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Students Choosing Each Elective",
+   "labels": [
+    "Art",
+    "Music",
+    "Coding",
+    "Drama"
+   ],
+   "xlabel": "Elective",
+   "ylabel": "Number of students",
+   "values": [
+    48,
+    36,
+    72,
+    24
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "fewer students chose it than chose art.",
+   "72 students chose it, twice as many as chose music.",
+   "48 students chose it, more than chose music.",
+   "24 students chose it, the fewest of any elective."
+  ],
+  "answer": "B",
+  "explanation": "72 students chose coding, the most, and twice music's 36.",
+  "rationales": {
+   "A": "Coding (72) was chosen by more students than art (48).",
+   "B": "Correct. It gives coding's correct count and shows its popularity.",
+   "C": "48 is art's count.",
+   "D": "24 is drama's count."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "easy",
+  "passage": "The town's population grew steadily over four decades: ______",
+  "figure": {
+   "kind": "line",
+   "title": "Town Population",
+   "x": [
+    1980,
+    1990,
+    2000,
+    2010,
+    2020
+   ],
+   "series": [
+    {
+     "name": "Population (thousands)",
+     "values": [
+      12,
+      15,
+      21,
+      26,
+      33
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Thousands of people"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "it rose from about 12,000 in 1980 to about 33,000 in 2020.",
+   "it peaked at about 21,000 in 2000.",
+   "it remained at about 21,000 from 1980 to 2020.",
+   "it fell from about 33,000 in 1980 to about 12,000 in 2020."
+  ],
+  "answer": "A",
+  "explanation": "The line rises from 12 to 33 thousand, showing steady growth.",
+  "rationales": {
+   "A": "Correct. It shows growth from 1980 to 2020.",
+   "B": "The population kept rising after 2000.",
+   "C": "The population changed substantially.",
+   "D": "This reverses the trend."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "medium",
+  "passage": "A market analyst noted that although gasoline cars outsold electric cars every year from 2018 to 2023, the gap between them narrowed steadily. For instance, ______",
+  "figure": {
+   "kind": "line",
+   "title": "New Car Sales",
+   "x": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "series": [
+    {
+     "name": "Gasoline",
+     "values": [
+      120,
+      115,
+      108,
+      101,
+      95,
+      88
+     ]
+    },
+    {
+     "name": "Electric",
+     "values": [
+      5,
+      8,
+      12,
+      19,
+      28,
+      40
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Thousands of cars"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "in 2023, electric car sales exceeded gasoline car sales.",
+   "in 2018, gasoline car sales exceeded electric car sales by about 115,000, but by 2023 the difference was about 48,000.",
+   "electric car sales rose from about 5,000 in 2018 to about 40,000 in 2023.",
+   "gasoline car sales fell from about 120,000 in 2018 to about 101,000 in 2021."
+  ],
+  "answer": "B",
+  "explanation": "A narrowing gap is shown by comparing the difference at the start (120 − 5) and end (88 − 40).",
+  "rationales": {
+   "A": "Gasoline sales (88,000) still exceeded electric sales (40,000) in 2023.",
+   "B": "Correct. It shows the gap shrinking from about 115,000 to about 48,000.",
+   "C": "This describes only electric sales, not the gap.",
+   "D": "This describes only gasoline sales."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "medium",
+  "passage": "Coral bleaching at the reef becomes likely when water temperatures rise above 29°C. According to the graph, ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average Sea Surface Temperature at the Reef",
+   "x": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "series": [
+    {
+     "name": "Temperature (°C)",
+     "values": [
+      26.1,
+      26.4,
+      26.9,
+      27.5,
+      28.2,
+      28.9,
+      29.4,
+      29.6,
+      29.1,
+      28.3,
+      27.2,
+      26.5
+     ]
+    }
+   ],
+   "xlabel": "Month (1 = January)",
+   "ylabel": "°C"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "temperatures stayed below 27°C from January through March.",
+   "temperatures were above 29°C in July, August, and September.",
+   "temperatures were above 29°C from May through October.",
+   "temperatures were above 29°C only in August."
+  ],
+  "answer": "B",
+  "explanation": "Months 7–9 are above 29°C (29.4, 29.6, 29.1), the bleaching-risk period.",
+  "rationales": {
+   "A": "This is accurate, but it doesn't support the point the text makes.",
+   "B": "Correct. It identifies the months above the bleaching threshold.",
+   "C": "May (28.2), June (28.9), and October (28.3) were below 29°C.",
+   "D": "July and September were also above 29°C."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "passage": "An education analyst claims that math scores in the district were more affected by the disruptions of 2020 than reading scores were. As evidence, the analyst notes that ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average Test Scores in the District",
+   "x": [
+    2015,
+    2017,
+    2019,
+    2021,
+    2023
+   ],
+   "series": [
+    {
+     "name": "Reading",
+     "values": [
+      210,
+      214,
+      219,
+      212,
+      216
+     ]
+    },
+    {
+     "name": "Math",
+     "values": [
+      205,
+      211,
+      218,
+      204,
+      209
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Average score"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "math scores rose from 205 in 2015 to 218 in 2019.",
+   "reading scores were higher than math scores in every year shown.",
+   "between 2019 and 2021, average math scores fell 14 points (from 218 to 204), while reading scores fell 7 points (from 219 to 212).",
+   "both reading and math scores fell by 7 points between 2019 and 2021."
+  ],
+  "answer": "C",
+  "explanation": "Comparing the 2019–2021 drops (14 points for math, 7 for reading) shows math was more affected.",
+  "rationales": {
+   "A": "This describes the period before 2020.",
+   "B": "This is accurate, but it doesn't support the point the text makes.",
+   "C": "Correct. It compares the drops during the disruption.",
+   "D": "Math fell 14 points, not 7."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "easy",
+  "passage": "After a harmful pesticide was banned, the state's bald eagle population recovered: ______",
+  "figure": {
+   "kind": "line",
+   "title": "Bald Eagle Nesting Pairs in the State",
+   "x": [
+    1990,
+    1995,
+    2000,
+    2005,
+    2010
+   ],
+   "series": [
+    {
+     "name": "Nesting pairs",
+     "values": [
+      15,
+      28,
+      44,
+      63,
+      90
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Number of nesting pairs"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "the number of nesting pairs stayed at about 44 throughout the period.",
+   "the number of nesting pairs fell from 90 in 1990 to 15 in 2010.",
+   "the number of nesting pairs rose from 15 in 1990 to 90 in 2010.",
+   "the number of nesting pairs peaked at 63 in 2005."
+  ],
+  "answer": "C",
+  "explanation": "A rise from 15 to 90 pairs shows recovery.",
+  "rationales": {
+   "A": "The number changed a great deal.",
+   "B": "This reverses the trend.",
+   "C": "Correct. It shows the population growing.",
+   "D": "The number kept rising after 2005, to 90."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "medium",
+  "passage": "City officials credit a 2019 conservation campaign with reducing household water use. Supporting this view, ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average Daily Household Water Use",
+   "x": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+   ],
+   "series": [
+    {
+     "name": "Liters per household",
+     "values": [
+      410,
+      405,
+      402,
+      360,
+      345,
+      340
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Liters per day"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "average daily use was 410 liters in 2016.",
+   "average daily use fell by 5 liters between 2016 and 2017.",
+   "average daily use, which had held near 400 liters from 2016 to 2018, dropped to 360 liters in 2019 and kept falling to 340 liters by 2021.",
+   "average daily use rose after 2019."
+  ],
+  "answer": "C",
+  "explanation": "A sharp drop beginning in 2019, after stable use before, supports crediting the campaign.",
+  "rationales": {
+   "A": "This is accurate, but it doesn't support the point the text makes.",
+   "B": "This small change came before the campaign.",
+   "C": "Correct. It shows use dropping when the campaign began.",
+   "D": "Use fell after 2019."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "passage": "Researcher Hugo Lambert argues that the decline in sleep over the past two decades has been concentrated among teenagers. He notes that ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average Hours of Sleep per Night",
+   "x": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+   ],
+   "series": [
+    {
+     "name": "Teenagers",
+     "values": [
+      7.9,
+      7.6,
+      7.2,
+      6.9,
+      6.8
+     ]
+    },
+    {
+     "name": "Adults",
+     "values": [
+      7.1,
+      7.0,
+      7.0,
+      6.9,
+      6.9
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Hours"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "teenagers' average sleep fell from 7.9 to 6.8 hours between 2000 and 2020, while adults' fell only from 7.1 to 6.9 hours.",
+   "adults slept less than teenagers in every year shown.",
+   "teenagers' average sleep fell between 2000 and 2020.",
+   "in 2015, teenagers and adults slept about the same amount."
+  ],
+  "answer": "A",
+  "explanation": "\"Concentrated among teenagers\" requires comparing the declines: 1.1 hours for teens versus 0.2 for adults.",
+  "rationales": {
+   "A": "Correct. It compares the two groups' declines.",
+   "B": "In 2020, teenagers (6.8) slept less than adults (6.9).",
+   "C": "This shows the teen decline but doesn't compare it with adults.",
+   "D": "This is accurate, but it doesn't support the point the text makes."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "medium",
+  "passage": "Attendance at the national park dropped sharply in 2020 before largely recovering the following year: ______",
+  "figure": {
+   "kind": "line",
+   "title": "National Park Visits",
+   "x": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+   ],
+   "series": [
+    {
+     "name": "Visits (millions)",
+     "values": [
+      2.1,
+      2.4,
+      2.6,
+      2.5,
+      2.9,
+      1.2,
+      2.7
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Millions of visits"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "visits fell from 2.6 million in 2017 to 2.5 million in 2018.",
+   "visits rose every year from 2015 to 2021.",
+   "visits fell from 2.9 million in 2019 to 1.2 million in 2020, then rose to 2.7 million in 2021.",
+   "visits in 2021 were higher than in any previous year."
+  ],
+  "answer": "C",
+  "explanation": "This choice shows both the 2020 drop and the 2021 recovery.",
+  "rationales": {
+   "A": "This is accurate, but it doesn't support the point the text makes.",
+   "B": "Visits fell in 2018 and 2020.",
+   "C": "Correct. It shows the drop and recovery.",
+   "D": "2021's 2.7 million was below 2019's 2.9 million."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "passage": "An economist observes that coffee prices were far more volatile than tea prices from 2018 to 2023. For instance, ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average Wholesale Price per Kilogram",
+   "x": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+   ],
+   "series": [
+    {
+     "name": "Coffee",
+     "values": [
+      4.1,
+      3.8,
+      3.5,
+      4.6,
+      6.2,
+      5.9
+     ]
+    },
+    {
+     "name": "Tea",
+     "values": [
+      3.0,
+      3.1,
+      3.1,
+      3.2,
+      3.4,
+      3.5
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Dollars"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "coffee prices rose from $4.10 in 2018 to $5.90 in 2023.",
+   "coffee was more expensive than tea in every year shown.",
+   "coffee prices ranged from $3.50 to $6.20 per kilogram over the period, while tea prices stayed between $3.00 and $3.50.",
+   "tea prices rose every year from 2018 to 2023."
+  ],
+  "answer": "C",
+  "explanation": "Volatility is about how much prices swing; comparing the two ranges shows coffee swung far more.",
+  "rationales": {
+   "A": "Comparing only the endpoints hides coffee's swings and says nothing about tea.",
+   "B": "This is accurate, but it doesn't support the point the text makes.",
+   "C": "Correct. It compares the price ranges.",
+   "D": "Tea prices were flat from 2019 to 2020."
+  }
+ },
+ {
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "easy",
+  "passage": "A student measured a bean plant's height every five days and found that it grew taller throughout the experiment: ______",
+  "figure": {
+   "kind": "line",
+   "title": "Bean Plant Height",
+   "x": [
+    0,
+    5,
+    10,
+    15,
+    20
+   ],
+   "series": [
+    {
+     "name": "Height (cm)",
+     "values": [
+      0,
+      3,
+      9,
+      18,
+      26
+     ]
+    }
+   ],
+   "xlabel": "Day",
+   "ylabel": "Centimeters"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+   "the plant grew from 3 centimeters on day 5 to 26 centimeters on day 20.",
+   "the plant's height stayed the same between day 10 and day 15.",
+   "the plant shrank from 26 centimeters to 3 centimeters.",
+   "the plant was 18 centimeters tall on day 10."
+  ],
+  "answer": "A",
+  "explanation": "Heights rise from 3 cm to 26 cm.",
+  "rationales": {
+   "A": "Correct. It shows the plant growing.",
+   "B": "The height rose from 9 to 18 cm.",
+   "C": "This reverses the trend.",
+   "D": "On day 10 the plant was 9 cm; 18 cm was day 15."
+  }
+ }
+]
