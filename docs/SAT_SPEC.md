@@ -113,7 +113,7 @@ Official examples:
 
 - Section scores range from **200 to 800** in 10-point steps. The total, **400–1600**, is the sum of the two sections. There are no subscores.
 - Raw score: 1 point per correct operational item, no penalty. Section scores come from **IRT-based scoring** that takes into account which items (and which Module 2) the student saw. Two students with the same raw score can get different scaled scores.
-- **College Board publishes no raw-to-scale tables for the digital SAT**, because conversion is per form and proprietary. The app's estimate therefore has to be modeled. Implemented (`backend/app/engine/irt.py`): a Rasch ability estimate over the scored items, mapped linearly to 200–800 (θ 0 → 500, 110 points per logit; capped at 640 on the easier Module 2). Still to do: anchor the curve to **your own official Bluebook practice-test scores**, the only ground truth available. The UI always labels it "Estimate".
+- **College Board publishes no raw-to-scale tables for the digital SAT**, because conversion is per form and proprietary. The app's estimate therefore has to be modeled. Implemented (`backend/app/engine/irt.py`): a Rasch ability estimate over the scored items, mapped linearly to 200–800 (θ 0 → 500, 110 points per logit; capped at 640 on the easier Module 2). The map is then **calibrated to your own official practice-test and real scores**, the only ground truth available: each is paired with the in-app exam closest in time (±14 days), and a Bayesian linear fit (prior: the default map; noise: ±30 official wobble plus the in-app estimate's error) re-maps every exam. Results show a one-SD ± margin. The UI always labels it "Estimate".
 
 ## 7. Your targets and constraints
 

@@ -8,11 +8,14 @@ import { Shell } from "../components/Shell";
 const TARGETS = { total: 1350, MATH: 700 };
 type Filter = "all" | "wrong" | "flagged" | "slow";
 
-function ScoreCard({ label, score, target }: { label: string; score: number; target?: number }) {
+function ScoreCard({ label, score, target, margin }: { label: string; score: number; target?: number; margin?: number }) {
   return (
     <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
       <p className="text-sm text-slate-500">{label}</p>
-      <p className="text-4xl font-bold text-brand-700">{score}</p>
+      <p className="text-4xl font-bold text-brand-700">
+        {score}
+        {margin !== undefined && <span className="ml-2 text-lg font-normal text-slate-500" title="One standard deviation: about 2 in 3 chance the true score is in this range">±{margin}</span>}
+      </p>
       {target && (
         <p className={`text-sm ${score >= target ? "text-emerald-700" : "text-slate-600"}`}>
           {score >= target ? `At or above your ${target} target` : `${target - score} below your ${target} target`}
@@ -124,12 +127,18 @@ export function ExamResults() {
           <span className="text-sm text-slate-500">{fmtDate(r.completed_at ?? r.created_at)} · <span className="capitalize">{r.difficulty}</span></span>
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
-          {both && <ScoreCard label="Total (estimate)" score={r.rw_score! + r.math_score!} target={TARGETS.total} />}
-          {r.rw_score !== null && <ScoreCard label="Reading and Writing" score={r.rw_score} />}
-          {r.math_score !== null && <ScoreCard label="Math" score={r.math_score} target={TARGETS.MATH} />}
+          {both && <ScoreCard label="Total (estimate)" score={r.rw_score! + r.math_score!} target={TARGETS.total} margin={Math.round(Math.hypot(r.margins.RW ?? 0, r.margins.MATH ?? 0) / 10) * 10} />}
+          {r.rw_score !== null && <ScoreCard label="Reading and Writing" score={r.rw_score} margin={r.margins.RW} />}
+          {r.math_score !== null && <ScoreCard label="Math" score={r.math_score} target={TARGETS.MATH} margin={r.margins.MATH} />}
         </div>
         <p className="text-xs text-slate-500">
-          Scores are estimates from a Rasch model over the scored questions (pretest questions don't count). Official tests use proprietary per-form scoring, so treat this as a ±40 guide.
+          Estimates from a Rasch model over the scored questions (pretest questions don't count), mapped to the 200–800 scale{" "}
+          {Object.values(r.calibrated_with).some((n) => n)
+            ? `calibrated to your official scores (${r.sections.map((s) => `${s === "RW" ? "R&W" : "Math"}: ${r.calibrated_with[s] ?? 0}`).join(", ")}).`
+            : "by a default curve."}{" "}
+          ± is one standard deviation.{" "}
+          {!Object.values(r.calibrated_with).some((n) => n) && <Link to="/exam" className="underline">Log an official practice-test score</Link>}
+          {!Object.values(r.calibrated_with).some((n) => n) && " to calibrate."}
         </p>
         <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-brand-50 p-5 ring-1 ring-brand-100">
           <div>

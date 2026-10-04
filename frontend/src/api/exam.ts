@@ -54,6 +54,8 @@ export type ReviewItem = {
 };
 
 export type ExamResults = ExamSummary & {
+  margins: Partial<Record<Section, number>>;
+  calibrated_with: Partial<Record<Section, number>>;
   breakdown: { id: string; name: string; level: string; section: Section; correct: number; total: number }[];
   items: ReviewItem[];
 };
@@ -101,3 +103,24 @@ export function fmtClock(ms: number) {
 }
 
 export const fmtDate = (iso: string) => new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+
+export type OfficialScore = {
+  id: number;
+  taken_on: string;
+  kind: "practice" | "real";
+  label: string;
+  rw: number;
+  math: number;
+  paired_exam: Partial<Record<Section, number>>;
+};
+export type OfficialList = {
+  scores: OfficialScore[];
+  calibration: Record<Section, { pairs: number; intercept: number; slope: number }>;
+  window_days: number;
+};
+
+export const useOfficialScores = () =>
+  useQuery({ queryKey: ["official-scores"], queryFn: () => api<OfficialList>("/official-scores") });
+export const addOfficialScore = (body: { taken_on: string; kind: string; label: string; rw: number; math: number }) =>
+  api<{ id: number }>("/official-scores", { method: "POST", json: body });
+export const deleteOfficialScore = (id: number) => api<void>(`/official-scores/${id}`, { method: "DELETE" });

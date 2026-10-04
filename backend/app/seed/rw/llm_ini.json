@@ -1,0 +1,411 @@
+[
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "easy",
+    "passage": "Linguist Mara Okafor studied the vocabulary of Tavari, an invented name for a language spoken on a small group of tropical islands. She found that Tavari has more than twenty distinct words for different kinds of ocean currents but only one word for snow, which never falls on the islands. Languages often develop detailed vocabulary for things that matter in their speakers' daily lives. Okafor therefore concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "Tavari speakers borrowed their word for snow from a neighboring language.",
+      "Tavari speakers rarely talk about the ocean in everyday conversation.",
+      "ocean currents likely play a much larger role in Tavari speakers' daily lives than snow does.",
+      "Tavari has a smaller total vocabulary than most other languages."
+    ],
+    "answer": "C",
+    "explanation": "The passage says languages tend to develop detailed vocabulary for things that matter in speakers' lives. Tavari has many words for ocean currents but only one for snow, which never falls on the islands, so ocean currents likely matter far more to its speakers.",
+    "rationales": {
+      "A": "The passage gives no information about where the Tavari word for snow came from.",
+      "B": "This reverses the evidence, since having many words for ocean currents suggests speakers discuss the ocean often.",
+      "C": "Correct. It combines the detailed vocabulary for currents with the passage's principle that detailed vocabulary reflects what matters in daily life.",
+      "D": "The passage compares words within Tavari and says nothing about its total vocabulary size compared with other languages."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "passage": "When a computer vision model achieves a record score on a widely used image-recognition benchmark, observers often credit the model's novel architecture. Computer scientist Lena Okafor and her colleagues noted, however, that the benchmark's test images had been freely available online for years, raising the possibility that copies had been swept into the model's enormous training dataset. To investigate, the team assembled a new set of photographs that matched the originals in subject matter, lighting, and difficulty but had never been posted online. The record-setting model's accuracy fell by 14 percentage points on the new set, whereas models trained only on data collected before the benchmark's release lost less than 2 points. These results suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "much of the record-setting model's advantage on the benchmark may have stemmed from prior exposure to the test images rather than from its architecture.",
+      "models trained on older data are generally more accurate than models trained on larger, more recent datasets.",
+      "the new photographs were considerably more difficult to classify than the benchmark's original test images were.",
+      "the record-setting model's architecture is poorly suited to recognizing objects photographed under unfamiliar lighting conditions."
+    ],
+    "answer": "A",
+    "explanation": "The new photographs matched the originals in difficulty, and models that could not have seen the test images barely declined on them. Only the model that might have encountered the test images during training dropped sharply, which indicates that its record score likely reflected familiarity with those specific images rather than a superior architecture.",
+    "rationales": {
+      "A": "Correct. A large drop on matched, never-posted images, alongside little change for models that could not have seen the test set, points to prior exposure as the source of the advantage.",
+      "B": "The passage compares how much each model's score fell, not the models' overall accuracy, so it offers no basis for claiming that older-data models are more accurate.",
+      "C": "The new set was matched for difficulty, and the older models' scores barely changed, so harder images cannot explain the record-setting model's drop.",
+      "D": "The new photographs matched the originals in lighting, so unfamiliar lighting cannot explain the drop, and the passage casts doubt on the architecture as the source of the model's performance rather than identifying a specific weakness."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "passage": "Many critics have treated the abrupt, fragmentary quality of Lúcia Pereira Dantas's final poetry collection, Salt Ledger (1961), as a symptom of the illness that limited her in her last years. Unable to sustain the long, flowing lines that distinguished her earlier books, these critics argue, Dantas produced brief, broken poems that read like unfinished drafts.",
+    "passage2": "Literary scholar Inês Ferraz examined Dantas's notebooks from 1958 to 1960. In them she found complete, fluent versions of many of the poems in Salt Ledger, some running to dozens of lines. Dantas then pared these down over successive drafts, striking out connective phrases and sometimes entire stanzas. Ferraz contends that the collection's fragmentation was not something Dantas was reduced to. It was an effect she achieved through painstaking revision.",
+    "stem": "Based on the texts, how would Ferraz (Text 2) most likely respond to the critics' view in Text 1?",
+    "choices": [
+      "By asserting that the notebooks show Dantas could still compose the sort of sustained verse the critics believe was beyond her, which undercuts their explanation for the poems' brevity",
+      "By arguing that Dantas's illness was far less severe than the critics assume and therefore had no bearing on any of her late writing",
+      "By suggesting that the poems in Salt Ledger are not actually fragmentary once they are read alongside Dantas's earlier, longer works",
+      "By conceding that the poems in Salt Ledger resemble unfinished drafts but proposing that Dantas intended to expand them before her death"
+    ],
+    "answer": "A",
+    "explanation": "Text 1's critics attribute the brevity of Salt Ledger to Dantas's inability, caused by illness, to write long, flowing verse. Text 2 reports that Dantas first wrote full, fluent versions of the poems and then deliberately cut them down. Ferraz would therefore say that the evidence contradicts the critics' premise that Dantas could no longer sustain longer poems, so their explanation fails.",
+    "rationales": {
+      "A": "Correct. Ferraz's notebook evidence shows that Dantas wrote complete, sustained versions before cutting them, which challenges the critics' claim that illness left her unable to write such verse.",
+      "B": "Text 2 says nothing about how severe Dantas's illness was, and claiming it had no influence on any late writing goes beyond Ferraz's narrower point about revision.",
+      "C": "Ferraz accepts that the collection is fragmentary and disputes only the cause of that quality, not its existence.",
+      "D": "This reverses the drafting sequence in Text 2: the longer versions came first and were deliberately shortened, not left awaiting expansion."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Some critics contend that the ending of Chilean novelist Teodora Valdivia's 1962 novel The Salt Orchard is its chief weakness. The book closes without revealing whether Inés, a fisherman's daughter, accepts the marriage her family has arranged or leaves her coastal village. To these critics, the unresolved conclusion suggests that Valdivia lost control of her sprawling plot and could not bring its many threads together.",
+    "passage2": "Literary scholar Hyun-woo Baek examined Valdivia's surviving manuscripts and correspondence. Early drafts of The Salt Orchard end with Inés boarding a ship for the capital, but Valdivia cut that scene in every later revision. In a letter to her editor, she explained that giving Inés a fixed fate would betray a character who spends the entire novel resisting other people's plans for her. Baek concludes that the open ending was a carefully considered decision.",
+    "stem": "Based on the texts, how would Baek (Text 2) most likely respond to the critics' view in Text 1?",
+    "choices": [
+      "By arguing that the ending in Valdivia's early drafts is artistically superior to the published one",
+      "By claiming that the critics have misread the published ending, which actually shows Inés leaving the village",
+      "By arguing that the unresolved ending reflects a deliberate artistic choice rather than a failure to manage the plot",
+      "By agreeing that the novel's plot is too sprawling to be resolved satisfactorily"
+    ],
+    "answer": "C",
+    "explanation": "Text 1's critics see the open ending as evidence that Valdivia lost control of her plot. Baek's evidence—Valdivia repeatedly cutting a definite ending and explaining in a letter that a fixed fate would betray Inés's character—indicates that the ambiguity was intentional, so Baek would reject the critics' interpretation.",
+    "rationales": {
+      "A": "Baek reports the earlier ending but does not judge it better; he defends the published ending as deliberate.",
+      "B": "The scene of Inés leaving appears only in early drafts that Valdivia cut, so the published ending does not show her departure.",
+      "C": "Correct. Baek's draft and letter evidence shows Valdivia chose the open ending on purpose, directly countering the critics' claim.",
+      "D": "Text 2 never concedes that the plot is unmanageable; it attributes the ending to intention, not to sprawl."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Since the 1960s, psychologists have described the \"bystander effect\": the more people who witness an emergency, the less likely any one of them is to help, because each person feels that responsibility is shared with the others. Many researchers have concluded that crowded public spaces are therefore settings in which victims are unlikely to receive aid.",
+    "passage2": "Sociologist Aditi Raman analyzed hundreds of security-camera recordings of real public disputes in three cities. In nearly nine out of ten incidents, at least one bystander intervened, and the likelihood that someone stepped in rose as the number of onlookers grew. Raman acknowledges that any single person may be less inclined to act in a large group, but she stresses that what matters for a victim is whether anyone helps, not whether a particular individual does.",
+    "stem": "Based on the texts, how would Raman (Text 2) most likely respond to the researchers' conclusion in Text 1?",
+    "choices": [
+      "She would claim that the number of onlookers has little influence on whether a victim receives help.",
+      "She would argue that bystanders in large groups do not feel that responsibility is shared with others.",
+      "She would agree that victims in crowded public spaces rarely receive help from bystanders.",
+      "She would argue that even if individuals are less likely to act in groups, victims in crowded settings are actually more likely to be helped."
+    ],
+    "answer": "D",
+    "explanation": "Raman concedes that individuals may be less likely to act in large groups, but her footage shows that the chance of at least one person intervening rises with the number of onlookers. She would therefore reject the conclusion that crowded spaces leave victims without aid.",
+    "rationales": {
+      "A": "Text 2 states that the likelihood of intervention rose with the number of onlookers, so group size clearly mattered.",
+      "B": "Raman explicitly acknowledges that individuals may be less inclined to act in a group, so she does not dispute diffused responsibility.",
+      "C": "Text 2 reports intervention in nearly nine out of ten incidents, contradicting this conclusion.",
+      "D": "Correct. It combines Raman's concession about individual behavior with her finding that larger crowds made intervention by someone more likely."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Uptalk, the habit of ending declarative sentences with a rising pitch, has drawn criticism from many language commentators. Because a rise in pitch typically marks a question in English, these commentators argue that speakers who use uptalk on statements are signaling that they are unsure of what they are saying. They note that the pattern is especially common among younger speakers, whom they regard as less confident communicators.",
+    "passage2": "Linguist Adaeze Okonkwo recorded hundreds of hours of meetings among workplace teams in Sydney, Australia. She found that supervisors ended statements with a rising pitch more often than their junior employees did. Okonkwo proposes that the rise usually serves conversational purposes, such as checking that listeners are following along or signaling that the speaker has more to say, rather than expressing doubt about the content of the statement.",
+    "stem": "Based on the texts, how would Okonkwo (Text 2) most likely respond to the commentators' argument in Text 1?",
+    "choices": [
+      "She would claim that younger speakers use uptalk far less often than the commentators assume.",
+      "She would argue that rising intonation on statements should be discouraged in professional settings.",
+      "She would agree that uptalk expresses uncertainty but argue that it is more common among older speakers than younger ones.",
+      "She would argue that the commentators mistake a pattern that has conversational functions for a sign of insecurity, since it is frequently used by people in positions of authority."
+    ],
+    "answer": "D",
+    "explanation": "Text 1's commentators interpret uptalk as a sign of uncertainty. Okonkwo found that supervisors use uptalk more than junior employees, and she argues that the rise serves functions such as checking comprehension or holding the floor. She would therefore say that the commentators misread uptalk as insecurity.",
+    "rationales": {
+      "A": "Text 2 compares supervisors with junior employees, not age groups, so it does not dispute how often young people use uptalk.",
+      "B": "Text 2 describes how uptalk works and does not recommend discouraging it.",
+      "C": "Okonkwo rejects the idea that uptalk mainly expresses uncertainty, and she says nothing about older versus younger speakers.",
+      "D": "Correct. It matches Okonkwo's finding that authority figures use uptalk often and her claim that it serves conversational purposes rather than signaling doubt."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "easy",
+    "passage": "Today, audiences at operas and concerts are expected to sit in near-total silence, saving their applause for the end. Some music critics argue that this quiet, attentive listening is a long tradition stretching back centuries, one that modern concert halls have faithfully preserved.",
+    "passage2": "Music historian Tomasz Wierzbicki examined letters and diaries written by opera-goers in eighteenth-century Venice and Naples. He found that audiences routinely chatted, ate meals, and played cards in their theater boxes during performances, falling silent only for a favorite singer's best-known arias. According to Wierzbicki, the expectation that audiences remain quiet throughout a performance did not become widespread until the mid-nineteenth century.",
+    "stem": "Based on the texts, how would Wierzbicki (Text 2) most likely respond to the critics' argument in Text 1?",
+    "choices": [
+      "He would argue that modern audiences should be allowed to talk and eat during performances.",
+      "He would claim that eighteenth-century audiences did not enjoy opera.",
+      "He would agree that audiences have listened silently to operas since the 1700s.",
+      "He would argue that silent listening is a relatively recent custom rather than a centuries-old tradition."
+    ],
+    "answer": "D",
+    "explanation": "The critics in Text 1 claim that silent listening is a long tradition. Wierzbicki's evidence in Text 2 shows that eighteenth-century audiences talked, ate, and played cards during operas and that silence became the norm only in the mid-1800s, so he would say the custom is more recent than the critics believe.",
+    "rationales": {
+      "A": "Text 2 describes past audience behavior but doesn't recommend changing how modern audiences behave.",
+      "B": "Text 2 notes that audiences fell silent for favorite arias, which suggests enthusiasm, not dislike.",
+      "C": "This reverses Text 2's findings, which show eighteenth-century audiences were often noisy.",
+      "D": "Correct. Text 2's evidence indicates that silent listening became widespread only in the nineteenth century, challenging the critics' claim of a long tradition."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Many economists predicted that online price-comparison platforms would push prices in markets such as hotel booking toward the lowest level any seller offered. Their reasoning was straightforward: once shoppers can instantly see which seller is cheapest, any seller charging more than its rivals should quickly lose customers and be forced to cut its prices.",
+    "passage2": "Economist Kwabena Asante examined hotel listings before and after comparison platforms became widespread. He found that the nightly rates displayed in search results did decline, but hotels increasingly added resort fees, cleaning charges, and other costs that appeared only at checkout. As a result, the total amount guests paid per night remained roughly unchanged. Asante concludes that because shoppers tend to compare only the first price they see, competition concentrated on that figure alone.",
+    "stem": "Based on the texts, how would Asante (Text 2) most likely respond to the economists' prediction in Text 1?",
+    "choices": [
+      "By arguing that sellers can lower the prices shoppers compare while recovering revenue through less visible charges, so total prices need not fall",
+      "By arguing that most shoppers do not actually use comparison platforms when booking hotels",
+      "By claiming that hotels charging more than their rivals did not lose customers to cheaper competitors",
+      "By agreeing that comparison platforms lowered the total prices guests paid, though by a smaller amount than the economists expected"
+    ],
+    "answer": "A",
+    "explanation": "Text 1 predicts that comparison platforms will drive prices down. Asante's findings show that only the displayed rates fell, while hotels added fees revealed at checkout, leaving total prices roughly unchanged. He would therefore say the prediction overlooks sellers' ability to shift costs away from the price shoppers compare.",
+    "rationales": {
+      "A": "Correct. Asante's evidence that displayed rates fell while checkout fees kept total prices steady directly challenges the prediction that prices would fall.",
+      "B": "Text 2 never suggests that shoppers avoid comparison platforms; it says they compare only the first price they see.",
+      "C": "Text 2 implies hotels did compete on displayed prices, and it doesn't address whether higher-priced hotels lost customers.",
+      "D": "Text 2 reports that total prices remained roughly unchanged, not that they fell by a smaller amount."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "passage": "Critics have often described the late paintings of Argentine artist Inés Corvalán as unfinished. These canvases contain wide stretches of bare linen interrupted by only a few brushstrokes. Corvalán suffered from worsening arthritis in her final decade, so the critics conclude that the sparse compositions reflect physical limitation: she could no longer produce the dense, heavily layered surfaces that defined her earlier career.",
+    "passage2": "Conservator Kwame Asante-Boateng examined Corvalán's late canvases using infrared reflectography, a technique that reveals material beneath the visible surface. He found that many of the now-bare areas had originally held detailed underpainting, which Corvalán had later scraped away, in some cases over several months. Asante-Boateng observes that scraping dried paint from linen demands considerable sustained effort. He contends that the emptiness of these works was produced through removal, not simply left behind.",
+    "stem": "Based on the texts, how would Asante-Boateng (Text 2) most likely respond to the critics' conclusion in Text 1?",
+    "choices": [
+      "By agreeing that arthritis shaped the late works but arguing that it led Corvalán to remove paint because adding paint had become too difficult",
+      "By claiming that an artist's health should play no role in how critics interpret the artist's paintings",
+      "By arguing that the evidence of laborious scraping undermines the idea that the sparseness resulted from an inability to produce more elaborate work",
+      "By arguing that the late canvases are, beneath their surfaces, just as densely layered as the paintings from Corvalán's earlier career"
+    ],
+    "answer": "C",
+    "explanation": "Text 1's critics attribute the bare areas to Corvalán's physical inability to create dense, layered work. Text 2 shows that those areas once held detailed underpainting that she removed through sustained, physically demanding scraping. This suggests she was still able to make elaborate work and chose to take it away, which challenges the critics' explanation.",
+    "rationales": {
+      "A": "This accepts the critics' premise that physical limitation drove the sparseness, but Text 2 stresses that scraping was itself demanding and was deliberate, so it does not support arthritis as the cause.",
+      "B": "This is too broad. Text 2 disputes one specific health-based explanation and does not reject considering an artist's health in general.",
+      "C": "Correct. Text 2's evidence of extensive, effortful removal suggests the sparseness was a deliberate result and not a failure to complete denser work.",
+      "D": "This overstates Text 2's findings: the underpainting was scraped away, so the finished canvases are not densely layered, and Text 2 makes no comparison of layer density with earlier works."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "easy",
+    "passage": "Some historians have claimed that ordinary people in medieval Europe almost never traveled more than a few miles from the villages where they were born. These historians point to the poor condition of medieval roads and argue that long journeys would have been too difficult and too costly for peasants.",
+    "passage2": "Historian Amara Nwosu examined pilgrimage accounts, market tolls, and court records from fourteenth-century England. She found that many peasants regularly traveled dozens of miles to attend fairs, sell goods, visit shrines, and appear in distant courts. Nwosu concludes that the image of the stay-at-home villager rests more on assumptions about roads than on evidence of how people actually lived.",
+    "stem": "Based on the texts, how would Nwosu (Text 2) most likely respond to the historians' claim in Text 1?",
+    "choices": [
+      "She would argue that only wealthy nobles were able to travel in medieval Europe.",
+      "She would agree that poor roads kept most peasants close to their home villages.",
+      "She would claim that medieval roads were in better condition than modern roads.",
+      "She would argue that surviving records show many peasants traveled considerable distances, which contradicts the claim."
+    ],
+    "answer": "D",
+    "explanation": "Text 2 reports that records show peasants frequently traveled dozens of miles for fairs, markets, shrines, and courts, and Nwosu says the stay-at-home image is based on assumptions rather than evidence. She would therefore dispute Text 1's claim using this documentary evidence.",
+    "rationales": {
+      "A": "Text 2 focuses on peasants traveling, not on travel being limited to nobles.",
+      "B": "Nwosu's evidence shows the opposite: peasants often traveled far despite the roads.",
+      "C": "Text 2 never compares medieval roads to modern roads or claims the roads were good.",
+      "D": "Correct. Nwosu's records of frequent peasant travel directly contradict the claim that villagers rarely left home."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "easy",
+    "passage": "Some city officials oppose paying people to return empty bottles and cans for recycling. They argue that a reward of only a few cents per container is too small to change how most people behave, so such programs would waste public money.",
+    "passage2": "Economist Tomás Echeverría compared regions that pay a small refund, usually five or ten cents, for each returned bottle or can with regions that offer no refund. He found that return rates in refund regions were more than twice as high as those in regions without refunds. Echeverría concludes that even very small payments can have a large effect on everyday choices.",
+    "stem": "Based on the texts, how would Echeverría (Text 2) most likely respond to the officials' argument in Text 1?",
+    "choices": [
+      "He would argue that cities should ban bottles and cans rather than pay for their return.",
+      "He would agree that a few cents per container is too little to affect how people behave.",
+      "He would claim that most people recycle only when a law requires them to do so.",
+      "He would disagree, pointing to evidence that small refunds are linked to much higher return rates."
+    ],
+    "answer": "D",
+    "explanation": "Text 1's officials claim small rewards won't change behavior. Text 2 reports that regions offering five- or ten-cent refunds have return rates more than twice as high as regions without them, and Echeverría concludes that small payments can strongly affect choices. He would therefore disagree with the officials.",
+    "rationales": {
+      "A": "Text 2 never discusses banning bottles or cans.",
+      "B": "This reverses Echeverría's view; his findings show that small payments do affect behavior.",
+      "C": "Text 2 focuses on the effect of refunds, not on legal requirements to recycle.",
+      "D": "Correct. Echeverría's data show that small refunds go along with much higher return rates, directly challenging the officials' claim."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "passage": "Because customs revenue collected at the port of Castelmar fell by nearly half between 1620 and 1630, historians have long described the decade as one of commercial collapse for the city. Historian Kaveh Mirzaei, however, turned to a different source: the contracts that merchants routinely had notaries draw up when hiring ships to carry cargo, records that were kept regardless of whether any duties were owed. He found that the number of such shipping contracts registered in Castelmar remained roughly constant throughout the 1620s. He also discovered that in 1621 the city council, seeking to finance a costly war, had exempted from customs duties any merchant who lent money to the war fund, an offer accepted by many of the city's wealthiest traders. These findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "notarial contracts are generally a more dependable source than customs records for measuring the commercial activity of early modern ports.",
+      "the war loans drained so much capital from Castelmar's wealthiest merchants that they were forced to reduce the amount of cargo they shipped.",
+      "Castelmar's commerce expanded considerably during the 1620s, even as customs revenue declined.",
+      "the fall in Castelmar's customs revenue may reflect a shrinking share of trade subject to duties rather than a decline in the city's overall commerce."
+    ],
+    "answer": "D",
+    "explanation": "Shipping contracts, which were recorded whether or not duties were owed, held steady, indicating that the volume of trade did not drop. Meanwhile, many major merchants had been exempted from duties after 1621, so less of the city's trade generated customs revenue. Together, these facts suggest that falling revenue reflects the exemptions rather than a commercial collapse.",
+    "rationales": {
+      "A": "The passage shows notarial records were useful in this one case, but it offers no basis for a general claim about their reliability across early modern ports.",
+      "B": "The steady number of shipping contracts contradicts the claim that the wealthiest merchants shipped less cargo.",
+      "C": "The contracts remained roughly constant, which supports stability, not considerable expansion, so this overstates the evidence.",
+      "D": "Correct. Constant shipping contracts combined with duty exemptions for many large traders point to less taxable trade, not less trade overall."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "easy",
+    "passage": "Historian Amaru Quispe studied payroll records from a nineteenth-century textile mill in a small town in the Andes. Before 1871, the records list only workers who lived within a few kilometers of the town. In 1871, a new railway line reached the town. In the years that followed, the mill's payroll began to include many workers whose home villages were more than fifty kilometers away. Quispe therefore concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the railway likely made it easier for people from distant villages to travel to the mill for work.",
+      "the railway was built mainly to carry the mill's textiles to distant markets.",
+      "the mill closed for several years before the railway reached the town.",
+      "workers who lived in the town refused to work at the mill after 1871."
+    ],
+    "answer": "A",
+    "explanation": "Before the railway arrived, the mill employed only nearby residents. After the railway reached the town, the mill began employing many people from villages far away. This suggests the railway made travel from those villages practical, allowing distant workers to take jobs at the mill.",
+    "rationales": {
+      "A": "Correct. It connects the railway's arrival with the new appearance of workers from distant villages on the payroll.",
+      "B": "The passage says nothing about why the railway was built or whether it carried the mill's products.",
+      "C": "The passage gives no indication that the mill ever closed, and the payroll records suggest it kept operating.",
+      "D": "Nothing in the passage suggests local workers stopped working at the mill; it says only that distant workers were added."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "For decades, critics treated the poems in Graciela Montenegro's 1962 collection Salt Ledger as autobiographical records of a childhood spent in a fishing village. The poems' vivid details, such as the smell of drying nets and the sound of boats scraping the shore, seemed to confirm this reading. However, literary scholar Tomasz Wierzbicki recently examined Montenegro's letters and found that she grew up in an inland mining town and first saw the sea in her late twenties. Her manuscript drafts also show that she repeatedly replaced the names of real places with invented ones. Taken together, this evidence suggests that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "critics who praised Salt Ledger were mistaken about the poems' literary quality.",
+      "the coastal world of Salt Ledger is better understood as a deliberate artistic creation than as a direct account of Montenegro's early life.",
+      "Montenegro wrote about the sea mainly because she disliked her childhood in the mining town.",
+      "Montenegro never visited the coast she describes in Salt Ledger."
+    ],
+    "answer": "B",
+    "explanation": "The letters show Montenegro did not grow up by the sea, which undercuts the autobiographical reading, and her drafts show her deliberately swapping real place names for invented ones. Together, these facts suggest the coastal setting was something she consciously constructed rather than a record of her childhood.",
+    "rationales": {
+      "A": "The evidence challenges critics' biographical interpretation, not their judgment of the poems' quality.",
+      "B": "Correct. It combines the evidence that she did not grow up on the coast with the evidence that she consciously invented place names.",
+      "C": "The passage gives no information about how Montenegro felt about her childhood in the mining town.",
+      "D": "The passage says she first saw the sea in her late twenties, so she did visit the coast."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "In most frog species, males attract mates mainly by calling. Herpetologist Priya Raghunathan studied a small frog species that lives beside mountain streams. She observed that males of this species also stretch out and wave their hind feet while calling, a behavior known as foot-flagging. Males perched near roaring waterfalls foot-flagged far more often than males along quieter stretches of the same streams, even though both groups called at similar rates. Because the noise of rushing water can drown out frog calls, Raghunathan concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "foot-flagging developed in this species before the ability to call did.",
+      "foot-flagging likely serves as a visual signal that helps males communicate when noise makes their calls hard to hear.",
+      "males near waterfalls rely less on calling than males along quieter stretches of stream do.",
+      "calls play little role in how males of this species attract mates."
+    ],
+    "answer": "B",
+    "explanation": "Foot-flagging is most common where waterfall noise can drown out calls. Calling rates stayed similar across locations, so the frogs did not simply swap one behavior for the other. The most logical conclusion is that foot-flagging adds a visual signal that helps males communicate when sound alone is unreliable.",
+    "rationales": {
+      "A": "The passage provides no information about the evolutionary order in which foot-flagging and calling appeared.",
+      "B": "Correct. It links the higher rate of foot-flagging in noisy areas to the fact that rushing water can drown out calls.",
+      "C": "The passage states that both groups called at similar rates, so nothing shows that males near waterfalls rely less on calling.",
+      "D": "This is too extreme, since males in both locations kept calling at similar rates, which suggests calls still matter."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "Art historian Kofi Mensah-Boateng used X-ray imaging to examine twelve landscape paintings by the nineteenth-century Norwegian painter Sigrun Halvorsen. Beneath the visible surface of nine of the paintings, he found earlier compositions, such as sketched figures, interiors, and a still life, that Halvorsen later covered with fields and sky. Some scholars have argued that these hidden images are early drafts of the landscapes and reveal how Halvorsen developed each scene. Mensah-Boateng notes, however, that none of the hidden compositions resembles the landscape painted over it, and several were abandoned after only a few brushstrokes. He also points to letters in which Halvorsen repeatedly complained about the high price of canvas. These findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the three paintings without hidden compositions were probably created by an artist other than Halvorsen.",
+      "Halvorsen considered figure painting and still life to be less serious art forms than landscape painting.",
+      "the hidden compositions show how Halvorsen gradually refined the layout of each landscape before completing it.",
+      "Halvorsen likely reused canvases from unfinished, unrelated works, possibly to save money, rather than painting over drafts of the same scenes."
+    ],
+    "answer": "D",
+    "explanation": "The hidden images don't resemble the landscapes painted over them, so they are unlikely to be drafts of those scenes. Several were barely started, indicating abandoned projects, and Halvorsen's complaints about the cost of canvas give a plausible practical reason for painting new works over old ones. Together, these details support the conclusion that she reused canvases from unrelated, unfinished works.",
+    "rationales": {
+      "A": "Nothing in the passage questions who painted the three paintings, and lacking a hidden layer doesn't suggest a different artist.",
+      "B": "The passage gives no evidence about how Halvorsen ranked different genres, and her letters point to cost, not artistic judgment, as a reason for reusing canvases.",
+      "C": "This restates the scholars' view that Mensah-Boateng's evidence challenges, since the hidden images don't resemble the final landscapes.",
+      "D": "Correct. It combines the unrelated, unfinished hidden images with Halvorsen's complaints about canvas prices to explain why she painted over earlier works."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "passage": "In 2011 regulators in the province of Halvorna began requiring ready-mix concrete producers to publish the prices they charged each month. Officials expected the rule to lower prices by making it easier for buyers to compare offers. Economist Ilse Varga found that within a year, average prices had instead risen by about 15 percent. The largest increases were in local markets served by only two or three producers. Varga also notes that most concrete buyers are large construction firms that already negotiated with several producers before every project. These firms therefore gained little information from the published figures that they did not already have. Taken together, these findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the published figures were more useful to producers, which could monitor and match rivals' prices, than to buyers.",
+      "requiring sellers to publish their prices will raise prices in any market, regardless of how well informed buyers already are.",
+      "the published figures allowed buyers to identify the cheapest producers, pushing less efficient producers out of business.",
+      "the price increase most likely reflected rising costs for raw materials that happened to coincide with the new rule."
+    ],
+    "answer": "A",
+    "explanation": "Buyers were already well informed, so the published prices gave them little new information. Yet prices rose, and they rose most where only a few producers competed. In such markets it is easiest for firms to watch and follow one another's pricing. The most logical conclusion is that the rule mainly helped producers track rivals' prices and weaken competition, not that it helped buyers.",
+    "rationales": {
+      "A": "Correct. It accounts for both findings: buyers learned almost nothing new, and prices rose most where a few producers could easily track and match one another.",
+      "B": "This overgeneralizes from one industry, and it ignores the text's point that buyers' existing knowledge was central to the outcome.",
+      "C": "This contradicts the evidence, since prices rose rather than fell and buyers gained little new information from the figures.",
+      "D": "Nothing in the text mentions input costs, and a general cost increase would not explain why prices rose most in markets with the fewest producers."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "passage": "Critics have long read Teodora Ibarguren's 1931 poem sequence Salt Ledger as a record of the two years she spent in the fishing town of Puerto Celeste, citing its precise depictions of harbor life: nets drying on seawalls, gulls trailing the returning boats. Literary historian Joaquín Arrieta, however, examined the poet's notebooks. He found that drafts of nine of the sequence's twelve poems are dated 1926, three years before Ibarguren first saw the coast. In those early versions, the speaker watches grain barges drifting down an inland river rather than fishing boats entering a harbor. The maritime imagery appears only in revisions Ibarguren made after settling in Puerto Celeste. Arrieta's findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "Ibarguren came to regard the inland river as a more fitting subject for poetry than the harbor at Puerto Celeste.",
+      "much of Salt Ledger originated in experiences that predate Ibarguren's time on the coast, with its harbor details layered onto poems she had already largely written.",
+      "the three poems for which no early drafts survive were the only poems in the sequence that Ibarguren composed while living in Puerto Celeste.",
+      "Ibarguren's time in Puerto Celeste had little influence on the final form of Salt Ledger."
+    ],
+    "answer": "B",
+    "explanation": "Most of the poems were drafted years before Ibarguren reached the coast, and those drafts centered on an inland river. The harbor imagery appeared only in later revisions. So the sequence's origins lie largely outside her coastal years, and its maritime details were added to poems that already existed, which complicates the critics' reading of Salt Ledger as a record of her life in Puerto Celeste.",
+    "rationales": {
+      "A": "This reverses the evidence, since Ibarguren replaced the river imagery with harbor imagery, which suggests no preference for the river as a subject.",
+      "B": "Correct. The 1926 drafts, the inland river imagery, and the later harbor revisions together show that the poems began before her coastal years and gained their maritime details afterward.",
+      "C": "The lack of surviving early drafts does not show when those three poems were written, so the passage gives no basis for this claim.",
+      "D": "This overstates the case, because the harbor imagery in the final poems came from revisions made after her move, so her time in Puerto Celeste clearly shaped the finished sequence."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "In 2019, the town of Velmore imposed a tax on sugary drinks, and economist Kiran Bhattacharya tracked beverage sales there and in Ashdale, a neighboring town with no such tax. Over the following year, sugary-drink sales in Velmore fell by 18 percent. In Ashdale, stores located within a few kilometers of the Velmore border saw their sugary-drink sales rise by nearly that same volume. Sales at Ashdale stores farther from the border remained essentially unchanged. These findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "much of the decline in Velmore's sales reflected shoppers buying sugary drinks across the border rather than drinking fewer of them.",
+      "the tax reduced sugary-drink consumption in Velmore more than its supporters had predicted.",
+      "stores far from the border in Ashdale lowered their prices to compete with stores in Velmore.",
+      "the tax led residents of both Velmore and Ashdale to reduce their overall consumption of sugary drinks."
+    ],
+    "answer": "A",
+    "explanation": "Velmore's sales dropped, while sales rose by a similar volume only at Ashdale stores near the border, the stores Velmore residents could most easily reach. Stores far from the border saw no change. This pattern indicates that many Velmore shoppers likely shifted their purchases across the border rather than cutting back on sugary drinks.",
+    "rationales": {
+      "A": "Correct. The matching rise only at nearby Ashdale stores points to cross-border shopping as the main explanation for Velmore's decline.",
+      "B": "The passage says nothing about supporters' predictions, and the offsetting rise in Ashdale suggests actual consumption may not have fallen much at all.",
+      "C": "The passage gives no information about prices at any Ashdale stores, and sales at the distant stores were unchanged.",
+      "D": "This contradicts the evidence, since sales near the border in Ashdale rose and sales elsewhere in Ashdale did not fall."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "Computer scientist Ingrid Solberg tested a speech-recognition program on recordings of English speakers from several regions. The program misidentified about 4 percent of the words spoken by people from the region where most of its training recordings had been collected. However, it misidentified about 15 percent of the words spoken by people from regions that were barely represented in those training recordings. Because all participants read the same script into the same model of microphone in similarly quiet rooms, Solberg's findings suggest that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the microphone model used in the study is poorly suited to recording human speech.",
+      "the program's accuracy for a group of speakers likely depends on how well that group is represented in its training recordings.",
+      "speakers from the underrepresented regions read the script more quickly than other participants did.",
+      "speech-recognition programs can never be made to identify words accurately across regional accents."
+    ],
+    "answer": "B",
+    "explanation": "The error rate was low for speakers from the region that supplied most of the training recordings and much higher for speakers from barely represented regions. The script, microphone, and room conditions were kept the same, so these factors can't explain the gap. The most logical conclusion is that the program's accuracy depends on how well a group is represented in its training data.",
+    "rationales": {
+      "A": "Every participant used the same microphone model, so the microphone cannot explain why error rates differed between groups.",
+      "B": "Correct. With the other conditions held constant, the only stated difference between the groups is how well they were represented in the training recordings.",
+      "C": "The passage gives no information about how quickly any participants read the script.",
+      "D": "This is too broad, because the study shows only a link between accuracy and training data, not that the problem can never be fixed."
+    }
+  }
+]

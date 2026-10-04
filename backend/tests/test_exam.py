@@ -166,3 +166,40 @@ async def test_weakness_training_targets_exam_misses(user: AsyncClient) -> None:
         assert (await db.scalar(select(Response.mode).where(Response.time_ms == 5000))) == "training"
     math = (await user.post("/api/training/next", json={"section": "MATH"})).json()
     assert math["question"]["skill_id"].startswith("MATH.")
+
+
+async def test_official_scores_calibrate_exam_estimates(user: AsyncClient) -> None:
+    exam_id = (await user.post("/api/exams", json={"sections": ["MATH"]})).json()["id"]
+    s = (await user.post(f"/api/exams/{exam_id}/start")).json()
+    await _answer_all(user, exam_id, s, right=True)
+    await user.post(f"/api/exams/{exam_id}/submit-module")
+    await user.post(f"/api/exams/{exam_id}/start")
+    await user.post(f"/api/exams/{exam_id}/submit-module")
+    before = (await user.get(f"/api/exams/{exam_id}/results")).json()
+    assert before["calibrated_with"] == {"MATH": 0} and before["margins"]["MATH"] > 0
+
+    today = now().date().isoformat()
+    bad = {"taken_on": today, "rw": 555, "math": 600}
+    assert (await user.post("/api/official-scores", json=bad)).status_code == 422
+    future = {"taken_on": "2999-01-01", "rw": 550, "math": 600}
+    assert (await user.post("/api/official-scores", json=future)).status_code == 422
+    # Too far from any in-app exam: stored, but not used for calibration.
+    old = {"taken_on": (now() - timedelta(days=40)).date().isoformat(), "rw": 500, "math": 800}
+    assert (await user.post("/api/official-scores", json=old)).status_code == 201
+    assert (await user.get(f"/api/exams/{exam_id}/results")).json()["math_score"] == before["math_score"]
+
+    target = 300  # far below the uncalibrated estimate, so the shift is unmistakable
+    r = await user.post("/api/official-scores", json={"taken_on": today, "rw": 500, "math": target})
+    new_id = r.json()["id"]
+    after = (await user.get(f"/api/exams/{exam_id}/results")).json()
+    assert after["calibrated_with"] == {"MATH": 1}
+    assert target <= after["math_score"] < before["math_score"]
+    assert after["margins"]["MATH"] < before["margins"]["MATH"]
+    listed = (await user.get("/api/official-scores")).json()
+    assert listed["calibration"]["MATH"]["pairs"] == 1 and listed["calibration"]["RW"]["pairs"] == 0
+    assert listed["scores"][0]["paired_exam"] == {"MATH": exam_id}
+    assert listed["scores"][1]["paired_exam"] == {}
+    assert (await user.get("/api/exams")).json()[0]["math_score"] == after["math_score"]
+
+    assert (await user.delete(f"/api/official-scores/{new_id}")).status_code == 204
+    assert (await user.get(f"/api/exams/{exam_id}/results")).json()["math_score"] == before["math_score"]

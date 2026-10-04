@@ -1,0 +1,242 @@
+[
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "passage": "Scenic painting is often dismissed as a lesser craft than easel painting, but art historian Lucía Ferreyra argues that the backdrop painters of nineteenth-century opera houses made deliberate technical choices suited to the unusual conditions they faced. Although many of these artists worked in oil when painting in their own studios, for the stage they favored distemper, a mixture of pigment and animal glue. Ferreyra acknowledges that distemper was inexpensive and dried quickly, both welcome qualities when an enormous canvas had to be finished before opening night. But she emphasizes a different advantage: its chalky, matte surface scattered the light of the stage's gas lamps rather than reflecting it back as glare, so that a painted forest or palace remained legible even to audience members seated at sharp angles to the stage.",
+    "stem": "According to the text, what advantage of distemper does Ferreyra emphasize?",
+    "choices": [
+      "It was cheap and dried quickly, allowing very large backdrops to be completed before a production opened.",
+      "It was the same medium the painters used in their studio work, so they could apply familiar techniques to the stage.",
+      "It absorbed most of the gaslight on stage, giving painted scenes a darker and more atmospheric appearance.",
+      "Its matte surface diffused the stage lighting instead of producing glare, keeping the scenery readable from seats at steep angles."
+    ],
+    "answer": "D",
+    "explanation": "The text says Ferreyra acknowledges distemper's low cost and quick drying but emphasizes a different advantage: its matte surface scattered gaslight rather than reflecting glare, so painted scenes stayed legible to viewers seated at sharp angles.",
+    "rationales": {
+      "A": "These qualities are mentioned, but the text says Ferreyra merely acknowledges them and emphasizes a different advantage.",
+      "B": "The text says the painters used oil, not distemper, in their studios.",
+      "C": "The text says the surface scattered light, not that it absorbed it to darken the scene.",
+      "D": "Correct. This restates the advantage Ferreyra is said to emphasize."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "passage": "Many languages, including Turkish and Quechua, require speakers to mark grammatically whether they witnessed an event directly or learned of it secondhand, a feature known as evidentiality. Psycholinguist Nilufar Rashidova wanted to know whether children acquiring such languages grasp the concept of an information source before they master the markers. She found that Turkish-speaking four-year-olds produced the evidential suffixes correctly in their own speech well before they could reliably answer questions about how another person had come to know a fact. Rashidova argues that the grammatical system does not rest on an earlier conceptual understanding. Instead, she suggests, routine use of the suffixes may give children a scaffold that later helps them reason explicitly about where knowledge comes from.",
+    "stem": "According to the text, what did Rashidova find about Turkish-speaking four-year-olds?",
+    "choices": [
+      "They used evidential suffixes correctly in their own speech before they could reliably say how someone else had learned a fact.",
+      "They understood the concept of an information source before they could use evidential suffixes correctly in their own speech.",
+      "They reasoned about how other people acquire knowledge more accurately than children learning languages without evidential markers did.",
+      "They relied on evidential suffixes to work out explicitly how another person had come to know a fact."
+    ],
+    "answer": "A",
+    "explanation": "The text states that the four-year-olds produced evidential suffixes correctly in their own speech well before they could reliably answer questions about how another person had come to know a fact. Choice D restates this finding.",
+    "rationales": {
+      "A": "Correct. This accurately restates what Rashidova found about the four-year-olds.",
+      "B": "This reverses the finding; the possibility that conceptual understanding comes first is what Rashidova tested, and her results point the other way.",
+      "C": "The text makes no comparison with children learning languages that lack evidential markers.",
+      "D": "This blends the finding with Rashidova's speculation that the suffixes may later help children reason about knowledge; the four-year-olds could not yet reliably answer such questions."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "easy",
+    "passage": "Chilean sculptor Teodora Valdivia creates large hanging installations from old fishing nets that she collects along the coast near her studio. Before using the nets, she washes them and dyes them in bright colors. Valdivia says she works with nets because they are very lightweight, which lets her hang huge forms from gallery ceilings without heavy metal supports. Her most recent piece, a ten-meter-long wave shape, is on display at a museum in Valparaíso.",
+    "stem": "According to the text, why does Valdivia work with fishing nets?",
+    "choices": [
+      "Because the nets are easy to find in museums",
+      "Because she wants to raise awareness of ocean pollution",
+      "Because the nets already come in bright colors",
+      "Because the nets are lightweight enough to hang huge forms without heavy supports"
+    ],
+    "answer": "D",
+    "explanation": "The text states that Valdivia works with nets because they are very lightweight, which lets her hang huge forms from gallery ceilings without heavy metal supports.",
+    "rationales": {
+      "A": "The text says she collects the nets along the coast, not in museums.",
+      "B": "Ocean pollution is a plausible guess, but the text never gives it as her reason.",
+      "C": "The text says Valdivia dyes the nets in bright colors, so the color is added by her, not already there.",
+      "D": "Correct. The text directly states that the nets' light weight lets her suspend large forms without heavy supports."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "medium",
+    "passage": "In the early eleventh century, the Chinese region of Sichuan relied on iron coins rather than the bronze coins used in most of the Song Empire. Because iron was worth far less than bronze, even modest purchases there required heavy loads of coins. Historian Wei Jiaming argues that this burden explains why Sichuan became the birthplace of government-issued paper money. Merchants in the region began issuing paper certificates, called jiaozi, that customers could exchange for coins deposited with them. After some merchants failed to honor their certificates, the state took over issuing the notes in 1023, making them official currency.",
+    "stem": "According to the text, why does Wei Jiaming believe paper money first developed in Sichuan?",
+    "choices": [
+      "Merchants in Sichuan had failed to honor the certificates they issued.",
+      "The Song government wanted to replace the bronze coins used in most of the empire.",
+      "Bronze coins were too valuable to be used for modest purchases in Sichuan.",
+      "The low value of Sichuan's iron coins meant that even small purchases required heavy loads of coins."
+    ],
+    "answer": "D",
+    "explanation": "The text states that iron coins were worth far less than bronze, so even modest purchases required heavy loads of coins, and Wei argues that this burden explains why paper money originated in Sichuan.",
+    "rationales": {
+      "A": "Merchants' failure to honor certificates explains why the state took over issuing notes, not why paper money arose in Sichuan in the first place.",
+      "B": "The text never says the government sought to replace bronze coins elsewhere in the empire.",
+      "C": "This distorts the text, which says Sichuan used iron coins and that the problem was iron's low value, not bronze's high value.",
+      "D": "Correct. The text identifies the heavy burden of low-value iron coins as the reason Wei gives for paper money's origin in Sichuan."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "medium",
+    "passage": "When wholesale costs for tomatoes rise, vendors in the open-air markets of Kumasi, Ghana, rarely raise their prices. Economist Kwabena Mensah found that they instead make the piles of tomatoes they sell slightly smaller. Interviews with more than two hundred vendors revealed why. Low-denomination coins are scarce in the markets, so vendors who charged odd amounts would often be unable to give customers their change. Keeping prices at round figures avoids this problem, and shrinking the piles still lets vendors pass rising costs on to buyers. Mensah adds that the practice is so widespread that regular shoppers often judge market conditions by the size of the piles rather than by the prices.",
+    "stem": "According to the text, why do vendors in Kumasi's markets avoid charging odd amounts for their tomatoes?",
+    "choices": [
+      "Wholesale costs for tomatoes rise too often for vendors to keep track of exact prices.",
+      "Regular shoppers judge market conditions by the size of the tomato piles.",
+      "Vendors worry that customers will buy from competitors who charge round prices.",
+      "Low-denomination coins are scarce, so vendors often could not make change."
+    ],
+    "answer": "D",
+    "explanation": "The text says that because low-denomination coins are scarce in the markets, vendors who charged odd amounts would often be unable to give customers their change. Keeping prices at round figures avoids this problem.",
+    "rationales": {
+      "A": "Rising wholesale costs explain why vendors adjust pile sizes, but the text never says vendors struggle to keep track of exact prices.",
+      "B": "This detail appears in the text, but it describes how shoppers respond to the practice, not why vendors avoid odd prices.",
+      "C": "The text does not mention competition among vendors as a reason for round prices.",
+      "D": "Correct. The text directly links the avoidance of odd amounts to the scarcity of small coins for making change."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "easy",
+    "passage": "Kangaroo rats are small rodents that live in the deserts of the southwestern United States, where rain is scarce. Remarkably, many kangaroo rats can survive without ever drinking water. Instead, they get the moisture they need from the dry seeds they eat. As their bodies break down the seeds for energy, water is produced as a by-product. Their highly efficient kidneys also help them conserve this water by producing very concentrated urine.",
+    "stem": "According to the text, how do many kangaroo rats get the water they need?",
+    "choices": [
+      "By storing large amounts of water in their kidneys for later use",
+      "By eating juicy desert plants such as cacti",
+      "By drinking from small pools that form after rare desert rains",
+      "By producing it as their bodies break down the dry seeds they eat"
+    ],
+    "answer": "D",
+    "explanation": "The text states that kangaroo rats get moisture from the dry seeds they eat, because water is produced as a by-product when their bodies break down the seeds for energy.",
+    "rationales": {
+      "A": "The text says the kidneys help conserve water, not that they store it for later use.",
+      "B": "The text mentions only dry seeds as their food, not juicy plants or cacti.",
+      "C": "The text says many kangaroo rats can survive without ever drinking water, so drinking from pools is not their water source.",
+      "D": "Correct. The text directly says water is produced as their bodies break down the seeds they eat."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "hard",
+    "passage": "For decades, urban planners in many cities have treated attendance at public neighborhood meetings as a reliable gauge of civic engagement, and sparse turnout in lower-income districts has often been read as evidence of residents' indifference to local affairs. Sociologist Thandiwe Mokoena questions this inference. Interviewing residents of three districts in Durban, South Africa, she found that many who never attended meetings were deeply involved in informal efforts: organizing street cleanups, coordinating shared childcare, and pressing councillors for repairs through neighborhood messaging groups. Most of these residents cited the scheduling of meetings on weekday evenings, when shift workers could not leave their jobs, as the reason for their absence. Mokoena concludes that low turnout may reveal more about how participation is structured than about residents' willingness to participate.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Urban planners should replace public neighborhood meetings with messaging groups in order to increase civic participation.",
+      "Low attendance at public neighborhood meetings may reflect obstacles created by how the meetings are organized rather than residents' lack of interest in local affairs.",
+      "Shift work prevents many residents of lower-income districts from attending neighborhood meetings held on weekday evenings.",
+      "Residents of lower-income districts in Durban are more civically engaged than residents of wealthier districts are."
+    ],
+    "answer": "B",
+    "explanation": "The text presents a common assumption (low turnout signals indifference), then describes Mokoena's findings that absent residents were actively engaged informally and were kept away by meeting schedules. Her conclusion, that low turnout reflects the structure of participation rather than unwillingness, is the central point, which choice C captures.",
+    "rationales": {
+      "A": "Mokoena makes no recommendation; messaging groups are mentioned only as one informal channel residents already use.",
+      "B": "Correct. It states Mokoena's central challenge to the assumption that sparse turnout signals indifference.",
+      "C": "This is a supporting detail that helps explain Mokoena's conclusion, not the main idea of the text as a whole.",
+      "D": "The text never compares lower-income districts with wealthier ones, so this claim is unsupported."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "For much of the twentieth century, linguists often described code-switching, or alternating between two languages within a single conversation, as a sign that speakers had not fully mastered either language. Linguist Priya Venkataraman challenged this view by recording hundreds of hours of conversation among Tamil-English bilinguals in Singapore. She found that switches rarely occurred at random points in a sentence; instead, speakers consistently avoided switching at certain grammatical boundaries, such as between an auxiliary verb and the main verb that follows it. Such regularity, Venkataraman argues, suggests that code-switching draws on detailed knowledge of both languages' grammars rather than reflecting gaps in that knowledge.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Tamil-English bilinguals in Singapore switch between languages more often than other bilingual speakers do.",
+      "Venkataraman's research indicates that code-switching follows systematic patterns reflecting bilinguals' knowledge of both languages, not a lack of mastery.",
+      "Bilingual speakers usually avoid switching languages between an auxiliary verb and a main verb.",
+      "Code-switching occurs mainly because bilingual speakers have not fully learned either of their languages."
+    ],
+    "answer": "B",
+    "explanation": "The text presents an older view of code-switching as a sign of incomplete mastery, then describes Venkataraman's finding that switches follow consistent grammatical patterns, which she argues shows detailed knowledge of both grammars. Choice C captures this central argument.",
+    "rationales": {
+      "A": "The text never compares how often these speakers switch languages with other bilingual groups.",
+      "B": "Correct. It states Venkataraman's central claim that the regularity of code-switching reflects grammatical knowledge rather than deficiency.",
+      "C": "This is a supporting detail used as evidence, not the text's main idea.",
+      "D": "This reverses the text's point; it restates the older view that Venkataraman's research challenges."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "Japanese ukiyo-e woodblock prints from the eighteenth and nineteenth centuries are usually catalogued under the name of the artist who designed them. Yet producing a print also required a carver, who cut the design into wooden blocks, and a printer, who inked the blocks and pressed paper onto them. Art historian Mariko Tanabe compared dozens of surviving impressions of the same designs and found striking differences in how smoothly colors faded into one another, differences that depended on the printer's handling of ink and pressure. Tanabe concludes that such prints are best understood not as the vision of a single designer but as collaborative works shaped by several skilled hands.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Because designers' names appear on ukiyo-e prints, museums should remove those names from their catalogues.",
+      "Surviving impressions of the same ukiyo-e design often differ in how smoothly their colors blend.",
+      "Tanabe's research indicates that ukiyo-e prints reflect the artistry of several contributors, not only the designers credited with them.",
+      "Printers of ukiyo-e were generally more talented than the designers whose names appear on the prints."
+    ],
+    "answer": "C",
+    "explanation": "The text contrasts the usual practice of crediting only the designer with Tanabe's evidence that printers' choices visibly shaped the prints, leading to her conclusion that the prints are collaborative works. Choice B captures this central claim.",
+    "rationales": {
+      "A": "This goes beyond the text, which argues for a fuller understanding of the prints but never recommends removing designers' names.",
+      "B": "This is a supporting detail from Tanabe's evidence, not the main idea it is used to support.",
+      "C": "Correct. It states Tanabe's central conclusion that the prints are collaborative works rather than products of the designer alone.",
+      "D": "The text never ranks printers above designers; it argues that multiple contributors shaped the prints, not that one was more talented."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "easy",
+    "passage": "Rechargeable batteries in smartphones gradually lose their ability to hold a charge, partly because sitting at a full 100 percent charge for hours strains the battery's chemistry. To reduce this strain, engineer Priya Raman and her team designed charging software that learns a user's daily routine. If a phone is usually unplugged at 7:00 a.m., the software keeps the battery at 80 percent overnight and finishes charging shortly before that time. In tests, phones using the software kept more of their original battery capacity after two years than phones that were charged normally.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Smartphone batteries can be recharged only a few hundred times before they stop working.",
+      "Raman's team created software that helps smartphone batteries last longer by changing when they finish charging.",
+      "Most smartphone users unplug their phones at 7:00 a.m. each morning.",
+      "People should stop charging their smartphones to 100 percent."
+    ],
+    "answer": "B",
+    "explanation": "The text describes a problem (full charges strain batteries), the software Raman's team designed to address it by timing when charging finishes, and test results showing the software helped batteries keep more capacity. Choice C captures this central point.",
+    "rationales": {
+      "A": "The text says batteries gradually lose capacity, not that they stop working after a set number of charges, and this is background rather than the main idea.",
+      "B": "Correct. It summarizes the software Raman's team developed and its purpose of extending battery life.",
+      "C": "The 7:00 a.m. time is only an example of a user's routine, not a claim about most users.",
+      "D": "The text doesn't give this advice; the software still charges phones fully, just closer to when they are unplugged."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "Solar farms in deserts receive abundant sunlight, but they also collect dust that can reduce their panels' output by more than 30 percent within a month. Operators typically wash the panels with water, a costly practice in regions where water is scarce. Engineer Leila Haddad and her colleagues have developed an alternative: a transparent, electrically conductive coating that, when briefly charged, pushes dust particles off the panel surface. In field trials in southern Morocco, coated panels retained nearly all of their output without any washing. This suggests that the method could make desert solar power both cheaper and less dependent on scarce water.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Washing panels with water remains the most reliable way to keep desert solar farms productive.",
+      "Dust can lower the output of desert solar panels by more than 30 percent in a single month.",
+      "Haddad's team developed a coating that keeps dust off solar panels without water, which could benefit desert solar power.",
+      "Because of dust and water shortages, deserts are poorly suited to large-scale solar power."
+    ],
+    "answer": "C",
+    "explanation": "The text introduces the problem of dust on desert solar panels and the drawbacks of water washing, then focuses on Haddad's team's waterless coating and its promising trial results. Choice C captures both the innovation and its significance.",
+    "rationales": {
+      "A": "The text presents water washing as a costly practice that the new coating could replace, not as the most reliable method.",
+      "B": "This is a supporting detail that establishes the problem, not the central point of the text.",
+      "C": "Correct. It summarizes the team's waterless dust-removal coating and its potential to improve desert solar power.",
+      "D": "The text presents a solution to these challenges rather than arguing that deserts are unsuitable for solar power."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "The following text is from Leila Mansour-Okafor's 1974 novel The Cardamom Gate. Mireille has returned to her grandmother's house after many years away.\n\nAfter eleven years abroad, Mireille stood at the gate of her grandmother's house and frowned. The courtyard she remembered as vast, big enough for footraces and for hiding games that lasted whole afternoons, could be crossed in a dozen steps. The lemon tree that had once towered over her stood barely taller than the roof. Even the blue door seemed narrower, as though someone had quietly rebuilt it in her absence. Yet when she stepped inside and breathed in the familiar cardamom and woodsmoke, she understood that nothing had shrunk. The house was exactly as it had always been; it was she who had grown, and the enormous house of her childhood now existed only in her memory.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The lemon tree in the courtyard is not as tall as Mireille had believed it to be.",
+      "On returning to her grandmother's house, Mireille realizes that it seems smaller because she has changed, not because the house has.",
+      "Mireille is disappointed to find that her grandmother's house has been rebuilt and made smaller.",
+      "Mireille regrets having spent eleven years away from her grandmother's house."
+    ],
+    "answer": "B",
+    "explanation": "The text first describes how small the house now appears to Mireille and then turns on her realization that the house is unchanged; her own growth explains the difference, and the larger house survives only in memory. Choice C captures both the observation and the realization that resolves it.",
+    "rationales": {
+      "A": "This is one supporting detail about the house's apparent size, not the central point of the text.",
+      "B": "Correct. It captures the text's movement from noticing the house's smallness to understanding that her own growth, not any change to the house, explains it.",
+      "C": "Mireille only briefly imagines the door was rebuilt; she then concludes that the house is exactly as it always was.",
+      "D": "The text never indicates that Mireille regrets her time away; this reads an emotion into the passage that it does not state."
+    }
+  }
+]

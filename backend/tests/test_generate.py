@@ -1,11 +1,13 @@
+import json
 import random
+from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
 
 from sqlalchemy import select
 
 from app.core.db import SessionLocal
-from app.generate import BlindSolve, Pipeline, jaccard, ngrams, run, shuffle
+from app.generate import BlindSolve, Pipeline, Stats, jaccard, ngrams, run, shuffle, strip_labels
 from app.models import Question
 from app.schemas.question import RWItem
 from app.services.questions import seed
@@ -42,7 +44,8 @@ class FakeClient:
             return SimpleNamespace(
                 stop_reason="refusal", stop_details=SimpleNamespace(category="cyber"), parsed_output=None
             )
-        return SimpleNamespace(stop_reason="end_turn", parsed_output=out)
+        usage = SimpleNamespace(input_tokens=2_000, output_tokens=4_000)  # $0.088 per call at Opus 5.5 prices
+        return SimpleNamespace(stop_reason="end_turn", parsed_output=out, usage=usage)
 
 
 def solve(answer: str, *, ambiguous: bool = False, confident: bool = True) -> BlindSolve:
@@ -121,3 +124,44 @@ async def test_pipeline_accepts_verified_and_rejects_bad_items() -> None:
     gen_call, solve_call = fake.calls[0], fake.calls[1]
     assert "fallbacks" in gen_call and "server-side-fallback-2026-07-01" in gen_call["betas"]
     assert "Correct." not in solve_call["messages"][0]["content"]
+
+
+async def test_budget_cap_and_seed_file_export(tmp_path: Path) -> None:
+    async with SessionLocal() as db:
+        await seed(db)
+    good = RWItem.model_validate(ITEM)
+    fake = FakeClient([good, "RIGHT"] * 5)
+    pipe = Pipeline(fake, "claude-opus-5-5")
+    orig_generate = pipe.generate
+
+    def generate(*a: Any) -> RWItem | None:
+        item = orig_generate(*a)
+        if item is not None:
+            fake.outputs[0] = solve(item.answer)
+        return item
+
+    pipe.generate = generate  # type: ignore[method-assign]
+    out = tmp_path / "llm.json"
+    # Each item costs 2 calls = $0.176; a $0.10 budget allows one item, then stops before starting another.
+    stats = await run(pipe, ["RW.SEC.BND.LINK"], 5, "medium", True, [good], budget_usd=0.10, out=out)
+    assert stats.inserted == 1 and len(fake.calls) == 2
+    assert round(pipe.cost, 3) == 0.176
+    saved = [RWItem.model_validate(x) for x in json.loads(out.read_text())]
+    assert len(saved) == 1 and saved[0].skill == "RW.SEC.BND.LINK"
+
+
+def test_overlong_items_are_rejected_before_the_blind_solve() -> None:
+    long = RWItem.model_validate({**ITEM, "passage": "word " * 120, "passage2": "word " * 60})
+    fake = FakeClient([])
+    stats = Stats()
+    assert not Pipeline(fake, "m").check(long, [], stats)
+    assert stats.rejected == {"too long": 1} and fake.calls == []
+
+
+def test_strip_text_labels() -> None:
+    item = RWItem.model_validate(
+        {**ITEM, "passage": "Text 1: Some critics say a thing.", "passage2": "Text 2\nOthers disagree."}
+    )
+    s = strip_labels(item)
+    assert s.passage == "Some critics say a thing." and s.passage2 == "Others disagree."
+    assert strip_labels(RWItem.model_validate(ITEM)).passage == ITEM["passage"]

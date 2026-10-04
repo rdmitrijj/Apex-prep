@@ -99,3 +99,24 @@ def test_official_ordering() -> None:
     ]
     math = [("MATH.GEO.CIR.A", 1.0), ("MATH.ALG.LIN1.A", 0.0), ("MATH.PSD.PCT.A", -1.0)]
     assert [math[i][1] for i in bp.order("MATH", math, rng)] == [-1.0, 0.0, 1.0]
+
+
+def test_calibration_shrinks_toward_prior_and_learns_from_data() -> None:
+    assert irt.calibrate([]) == irt.DEFAULT_SCALE
+    # One official 700 where the default map says 610: moves most of the way, not all.
+    one = irt.calibrate([(1.0, 0.3, 700.0)])
+    pred = one.intercept + one.slope * 1.0
+    assert 640 < pred < 700 and one.n == 1
+    assert irt.margin(1.0, 0.3, one) < irt.margin(1.0, 0.3, irt.DEFAULT_SCALE)
+    # Many consistent pairs from a different true line are recovered closely.
+    truth = [(t / 4, 0.25, 450.0 + 130.0 * t / 4) for t in range(-4, 9)]
+    fit = irt.calibrate(truth * 3)
+    assert abs(fit.intercept - 450) < 15 and abs(fit.slope - 130) < 12
+    assert irt.margin(1.0, 0.25, fit) <= 40  # a well-calibrated scale is ±40 or better
+
+
+def test_to_score_uses_scale_and_keeps_easier_route_cap() -> None:
+    hi = irt.Scale(600.0, 120.0, irt.DEFAULT_SCALE.cov)
+    assert irt.to_score(1.0, "harder", hi) == 720
+    assert irt.to_score(1.0, "easier", hi) == irt.EASIER_ROUTE_CAP
+    assert irt.to_score(-9.0, None, hi) == 200 and irt.to_score(9.0, None, hi) == 800

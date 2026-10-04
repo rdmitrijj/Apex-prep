@@ -2,6 +2,7 @@
 
 import random
 import secrets
+from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 
 from sqlalchemy import select
@@ -9,11 +10,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.engine import exam as bp
 from app.engine import irt
-from app.models import ExamItem, ExamModule, ExamSession, Question, Response, Skill
+from app.models import ExamItem, ExamModule, ExamSession, OfficialScore, Question, Response, Skill
 from app.services import questions as qs
 
 # Autosaves that race the deadline by a network round-trip are still accepted.
 GRACE = timedelta(seconds=3)
+# An official score calibrates against the in-app exam closest in time, if within this many days.
+PAIR_WINDOW_DAYS = 14
 
 
 def now() -> datetime:
@@ -118,23 +121,77 @@ async def close_module(db: AsyncSession, sess: ExamSession, mod: ExamModule, mod
 
 
 async def _finish(db: AsyncSession, sess: ExamSession, mods: list[ExamModule]) -> None:
-    for section in {m.section for m in mods}:
-        scored: list[tuple[float, bool]] = []
-        for m in mods:
-            if m.section == section:
-                scored += [
-                    (q.difficulty_rating, bool(r and r.correct))
-                    for item, q, r in await items_of(db, m.id)
-                    if not item.pretest
-                ]
-        route = next(m.route for m in mods if m.section == section and m.stage == 2)
-        score = irt.section_score(scored, route)
-        if section == "RW":
-            sess.rw_score = score
-        else:
-            sess.math_score = score
     sess.status = "completed"
     sess.completed_at = now()
+    await db.flush()
+    await rescore(db, sess.user_id)
+
+
+async def section_abilities(db: AsyncSession, session_id: int) -> dict[str, tuple[float, float, str | None]]:
+    """Per section: (ability, its standard error, Module 2 route) from the scored items."""
+    mods = await modules_of(db, session_id)
+    out = {}
+    for section in {m.section for m in mods}:
+        obs = [
+            (q.difficulty_rating, bool(r and r.correct))
+            for m in mods
+            if m.section == section
+            for item, q, r in await items_of(db, m.id)
+            if not item.pretest
+        ]
+        theta = irt.ability([(b, c, 1.0) for b, c in obs])
+        route = next(m.route for m in mods if m.section == section and m.stage == 2)
+        out[section] = (theta, irt.ability_se(theta, [b for b, _ in obs]), route)
+    return out
+
+
+@dataclass
+class Calibration:
+    scales: dict[str, irt.Scale]
+    abilities: dict[int, dict[str, tuple[float, float, str | None]]]  # exam id -> section -> ...
+    matches: dict[int, dict[str, int]]  # official score id -> section -> paired exam id
+
+
+async def calibration(db: AsyncSession, user_id: int) -> Calibration:
+    """Pair each official score with the in-app exam closest in time (within PAIR_WINDOW_DAYS) per
+    section, and fit the score scale to those pairs."""
+    exams = (
+        await db.scalars(
+            select(ExamSession).where(ExamSession.user_id == user_id, ExamSession.status == "completed")
+        )
+    ).all()
+    abilities = {e.id: await section_abilities(db, e.id) for e in exams}
+    official = (await db.scalars(select(OfficialScore).where(OfficialScore.user_id == user_id))).all()
+    pairs: dict[str, list[tuple[float, float, float]]] = {"RW": [], "MATH": []}
+    matches: dict[int, dict[str, int]] = {}
+    for o in official:
+        matches[o.id] = {}
+        for section, score in (("RW", o.rw), ("MATH", o.math)):
+            gaps = [
+                (abs(((e.completed_at or e.created_at).date() - o.taken_on).days), e.id)
+                for e in exams
+                if section in abilities[e.id]
+            ]
+            gap, exam_id = min(gaps, default=(PAIR_WINDOW_DAYS + 1, 0))
+            if gap <= PAIR_WINDOW_DAYS:
+                theta, se, _ = abilities[exam_id][section]
+                pairs[section].append((theta, se, float(score)))
+                matches[o.id][section] = exam_id
+    return Calibration({s: irt.calibrate(p) for s, p in pairs.items()}, abilities, matches)
+
+
+async def rescore(db: AsyncSession, user_id: int) -> None:
+    """Re-map every finished exam onto the current calibration (call after official scores change)."""
+    cal = await calibration(db, user_id)
+    for exam_id, by_section in cal.abilities.items():
+        sess = await db.get(ExamSession, exam_id)
+        assert sess is not None
+        for section, (theta, _, route) in by_section.items():
+            score = irt.to_score(theta, route, cal.scales[section])
+            if section == "RW":
+                sess.rw_score = score
+            else:
+                sess.math_score = score
 
 
 async def tick(db: AsyncSession, sess: ExamSession) -> list[ExamModule]:

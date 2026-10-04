@@ -1,0 +1,362 @@
+[
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "easy",
+    "passage": "Refreshable braille displays allow blind people to read digital text by touch. Small pins rise and fall beneath the reader's fingertips to form braille characters. <u>However, most of these devices cost several thousand dollars, which puts them out of reach for many potential users.</u> To address this issue, engineer Nalani Kahale and her team built a display that moves inexpensive plastic pins with tiny magnets, bringing the price of their device below $500.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It argues that braille displays are less useful than other reading tools.",
+      "It describes how braille displays form characters for readers.",
+      "It identifies a problem that Kahale's team designed their device to solve.",
+      "It explains how magnets move the pins in Kahale's display."
+    ],
+    "answer": "C",
+    "explanation": "The underlined sentence points out that braille displays are too expensive for many users. The next sentence then describes how Kahale's team built a much cheaper display \"to address this issue,\" so the underlined sentence presents the problem their work solves.",
+    "rationales": {
+      "A": "The text never compares braille displays to other reading tools or questions their usefulness.",
+      "B": "How the pins form characters is described in the second sentence, not the underlined one.",
+      "C": "Correct. It presents the high cost of the devices, which Kahale's team then reduces with their design.",
+      "D": "The use of magnets is described in the last sentence, not the underlined one."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "easy",
+    "passage": "In many rural areas, vaccines spoil because clinics lack reliable electricity to keep them cold. Engineer Wanjiru Kamau and her team designed a refrigerator that runs on solar panels and stores energy by freezing a block of ice rather than by charging batteries. <u>Because batteries are expensive and wear out quickly in hot climates, using ice makes the device cheaper and longer lasting.</u> The refrigerator is now being tested at clinics in several villages.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It describes the problem of vaccines spoiling in rural clinics.",
+      "It explains an advantage of a design choice mentioned in the previous sentence.",
+      "It argues that solar panels are too costly for most rural clinics.",
+      "It reports where the refrigerator is currently being tested."
+    ],
+    "answer": "B",
+    "explanation": "The previous sentence says the refrigerator stores energy in ice instead of batteries. The underlined sentence explains why that choice is beneficial: batteries are costly and wear out in heat, so ice makes the device cheaper and more durable.",
+    "rationales": {
+      "A": "The problem of spoiling vaccines is described in the first sentence, not the underlined one.",
+      "B": "Correct. It explains why storing energy in ice instead of batteries benefits the design.",
+      "C": "The underlined sentence discusses the cost of batteries, not solar panels, and it doesn't argue that the panels are too costly.",
+      "D": "The testing at village clinics is mentioned in the last sentence, not the underlined one."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "medium",
+    "passage": "Art historians have long treated the woodblock prints of Ines Takahara-Lund as minor decorative pieces, citing their small size and their frequent use as book covers. A recent study by curator Kwabena Asante-Mills, however, suggests that this view overlooks how the prints were actually made. <u>Examining Takahara-Lund's surviving blocks, Asante-Mills found that she sometimes carved as many as fourteen separate blocks for a single image, each used to print one thin, translucent layer of ink.</u> Such layering, he argues, demanded a technical precision comparable to that of the most celebrated large-scale printmakers of her era.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It acknowledges a limitation of Asante-Mills's study that the final sentence attempts to resolve.",
+      "It presents a finding that Asante-Mills uses to challenge a prevailing assessment of Takahara-Lund's prints.",
+      "It explains why art historians initially regarded Takahara-Lund's prints as merely decorative.",
+      "It compares Takahara-Lund's printing methods with those of better-known large-scale printmakers."
+    ],
+    "answer": "B",
+    "explanation": "The second sentence claims that the traditional view of Takahara-Lund's prints overlooks how they were made. The underlined sentence supplies the evidence for that claim—Asante-Mills's discovery that she used up to fourteen blocks per image—which the final sentence then interprets as proof of great technical skill. Thus the underlined sentence presents a finding used to challenge the prevailing assessment.",
+    "rationales": {
+      "A": "The underlined sentence supports Asante-Mills's argument rather than pointing out a weakness in his study.",
+      "B": "Correct. The underlined sentence reports the discovery about her many carved blocks, which serves as evidence against the view that the prints are minor.",
+      "C": "The reasons for the dismissive view (small size, use as book covers) appear in the first sentence, not the underlined one.",
+      "D": "The comparison with large-scale printmakers is made in the final sentence, not the underlined one."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "passage": "Many historical linguists hold that sound change is regular: a shift that alters one word alters every word containing the same sound in the same position. This principle underlies the comparative method, which allows researchers to reconstruct ancestral languages by systematically comparing their descendants. <u>Yet in a study of fishing communities along the Basque coast, linguist Itziar Goikoetxea found that a vowel shift had reached frequently used words decades before it appeared in rarer ones.</u> Goikoetxea does not conclude that sound change is haphazard. Instead, she proposes that the regularity linguists observe may be the end state of a process that spreads word by word. If so, reconstructions built on the comparative method remain sound, even if the mechanism once assumed to produce that regularity was misunderstood.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It offers an example of how linguists compare related dialects to reconstruct an ancestral language.",
+      "It presents evidence that leads Goikoetxea to reject the principle that sound changes eventually affect all relevant words.",
+      "It explains why frequently used words tend to undergo sound changes before less common words do.",
+      "It introduces a finding that appears to conflict with a widely held principle, setting up an interpretation that reconciles the finding with that principle's continued usefulness."
+    ],
+    "answer": "D",
+    "explanation": "The underlined sentence, introduced by \"Yet,\" reports a finding (a vowel shift spreading word by word) that seems to contradict the principle of regular sound change described earlier. The rest of the text then argues that the finding is compatible with that regularity as an end state, so the comparative method remains valid. The sentence therefore sets up an apparent challenge that the text goes on to resolve.",
+    "rationales": {
+      "A": "The sentence describes the timing of a sound change in one set of dialects, not an application of the comparative method to reconstruct an ancestral language.",
+      "B": "The text explicitly says Goikoetxea does not conclude that sound change is haphazard; she reinterprets the principle rather than rejecting it.",
+      "C": "The sentence reports that frequent words changed first but offers no explanation of why this happens.",
+      "D": "Correct. The sentence presents a seemingly contradictory finding that the following sentences reconcile with the principle and the comparative method."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "passage": "Many languages require speakers to mark grammatically how they know what they assert: whether they witnessed an event, inferred it, or heard about it from someone else. Some researchers have proposed that habitually marking information sources in this way sharpens speakers' memory for where their knowledge came from. In a study conducted in the Peruvian Andes, linguist Mariela Quispe found that Quechua-speaking six-year-olds outperformed their Spanish-speaking peers on tasks requiring them to recall whether they had seen an event or merely been told about it. <u>Yet the Quechua-speaking children in her sample also tended to live in rural communities where oral storytelling, a practice that often emphasizes who first told a tale, is especially common.</u> Quispe therefore cautions that her findings, while consistent with the proposal, cannot by themselves establish that grammar is responsible for the difference.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It offers an additional finding that strengthens the link between evidential grammar and memory for information sources.",
+      "It introduces a possible alternative explanation for the children's performance that accounts for the researcher's reluctance to draw a firm conclusion.",
+      "It explains why the Quechua language developed grammatical markers for indicating how speakers know what they assert.",
+      "It presents evidence that contradicts the proposal that marking information sources improves memory for those sources."
+    ],
+    "answer": "B",
+    "explanation": "After reporting that Quechua-speaking children outperformed Spanish-speaking children, the text notes in the underlined sentence that those children also differed in another way: they were more often raised amid oral storytelling that emphasizes a tale's source. This identifies a competing factor that could explain the result, which is why Quispe cautions in the final sentence that the findings cannot by themselves show that grammar caused the difference.",
+    "rationales": {
+      "A": "This reverses the sentence's role; introduced by 'Yet,' it complicates rather than strengthens the link between grammar and memory.",
+      "B": "Correct. It points to storytelling practices as another possible cause of the children's performance, setting up Quispe's caution about attributing the difference to grammar.",
+      "C": "The sentence describes the children's communities, not the historical origins of Quechua's evidential markers.",
+      "D": "This overstates the sentence's role; it raises a confounding factor but doesn't contradict the proposal, which the text says the findings remain consistent with."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "medium",
+    "passage": "Many alpine flowers close their petals at dusk, and botanists have generally assumed that this behavior protects pollen from nighttime cold and dew. Ecologist Sunniva Aaberg wondered whether closing might serve another purpose as well. In a mountain meadow in Norway, she propped open the flowers of one gentian species overnight. By morning, those flowers held far fewer pollen grains than flowers left to close naturally. <u>Her overnight video recordings revealed that moths and beetles active after dark had been feeding on the exposed pollen.</u> Aaberg concludes that nightly closing may defend flowers against pollen-eating insects, not just against harsh weather.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It indicates that cold and dew do not actually damage the pollen of alpine flowers.",
+      "It describes the procedure Aaberg used to keep the gentian flowers open overnight.",
+      "It presents the conventional explanation that Aaberg's study was designed to test.",
+      "It identifies the cause of the pollen loss Aaberg observed, which supports the conclusion stated in the final sentence."
+    ],
+    "answer": "D",
+    "explanation": "The previous sentence reports that propped-open flowers lost much of their pollen overnight. The underlined sentence explains why: nocturnal insects ate the exposed pollen. This finding is what allows Aaberg to conclude in the final sentence that closing may protect flowers from pollen-eating insects.",
+    "rationales": {
+      "A": "The text never claims cold and dew are harmless; Aaberg's conclusion says closing protects against insects as well as weather.",
+      "B": "The procedure of propping flowers open is described in an earlier sentence; the underlined sentence reports what recordings revealed.",
+      "C": "The conventional explanation about cold and dew appears in the first sentence, not the underlined one.",
+      "D": "Correct. It explains the pollen loss and provides the evidence behind Aaberg's conclusion."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "medium",
+    "passage": "Economists have often assumed that small farmers who decline crop insurance do so mainly because premiums are too expensive. If cost were the main obstacle, subsidizing premiums should sharply raise enrollment. Yet when economist Adaeze Okonkwo studied a program in northern Ghana that cut premiums in half, enrollment rose only slightly. Interviews revealed a different barrier: many farmers doubted that insurers would actually pay after a drought, having heard of neighbors whose claims were delayed or denied. In villages where an insurer had promptly paid claims the previous season, enrollment was nearly twice as high, suggesting that trust, not price, was limiting demand.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To present research indicating that something other than cost largely explains farmers' reluctance to buy crop insurance",
+      "To describe how droughts in northern Ghana affect farmers' annual harvests",
+      "To compare the reliability of the different insurers operating in northern Ghana",
+      "To argue that crop insurance premiums in northern Ghana should be reduced even further"
+    ],
+    "answer": "A",
+    "explanation": "The text introduces a common assumption (that high premiums keep farmers from buying crop insurance), then presents Okonkwo's findings that halving premiums barely raised enrollment and that farmers' distrust of insurers was the key barrier. Its main purpose is to present research pointing to trust, rather than cost, as the explanation.",
+    "rationales": {
+      "A": "Correct. The text uses Okonkwo's study to challenge the cost assumption and identify trust as the main barrier.",
+      "B": "Droughts are mentioned only as the occasion for insurance claims, not as the text's focus.",
+      "C": "Insurers' payment records are mentioned only as evidence about trust; the text does not compare specific insurers.",
+      "D": "The text suggests that cutting premiums had little effect, so it does not argue for further reductions."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "easy",
+    "passage": "The Inca Empire, which stretched along the Andes Mountains in South America during the 1400s and early 1500s, had no horses and no written alphabet. Even so, its rulers could send messages across great distances with remarkable speed. They relied on chasquis, trained runners stationed at small posts along the empire's roads. Each runner carried a message to the next post and passed it to a fresh runner, so that news could travel more than a hundred miles in a single day.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To describe the geography of the Andes Mountains",
+      "To compare the Inca system of writing with other ancient writing systems",
+      "To explain how the Inca Empire sent messages quickly over long distances",
+      "To argue that the Inca road system was better built than other ancient roads"
+    ],
+    "answer": "C",
+    "explanation": "The text notes that the Inca lacked horses and an alphabet, then explains how relay runners called chasquis passed messages from post to post so news could travel quickly across the empire. Its main purpose is therefore to explain how the Inca communicated rapidly over long distances.",
+    "rationales": {
+      "A": "The Andes are mentioned only to locate the empire; their geography is not described.",
+      "B": "The text says the Inca had no written alphabet and does not compare writing systems.",
+      "C": "Correct. The text focuses on how chasqui relay runners carried messages swiftly across the empire.",
+      "D": "The text mentions the roads but never compares them with other ancient roads or claims they were better built."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "easy",
+    "passage": "Grocery stores sometimes sell popular items, such as milk or eggs, for less than the stores paid for them. At first, this practice may seem like a poor business decision, since the store loses money on every one of those items it sells. Economists call such products \"loss leaders.\" The low prices draw shoppers into the store, and once inside, most customers also buy other goods that are priced normally. The profits from those additional purchases usually more than make up for the money lost on the discounted items.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To argue that grocery stores should stop selling items for less than they cost",
+      "To describe how grocery stores decide which products to place on their shelves",
+      "To explain why some stores sell certain products at a loss",
+      "To compare the prices of milk and eggs at different grocery stores"
+    ],
+    "answer": "C",
+    "explanation": "The text introduces a practice that seems unwise, selling items below cost, and then explains why it actually benefits stores: the low prices attract shoppers who buy other, profitable goods.",
+    "rationales": {
+      "A": "The text presents loss leaders as a sensible strategy rather than arguing that stores should abandon it.",
+      "B": "The text does not discuss how stores choose which products to stock.",
+      "C": "Correct. The text explains that stores accept losses on some items because those items attract customers who make other profitable purchases.",
+      "D": "Milk and eggs are mentioned only as examples, and no prices at different stores are compared."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "easy",
+    "passage": "QR codes, the square patterns of black and white modules that phones scan to open websites, can often be read even when part of the code is scratched, smudged, or covered by a small logo. This works because each code stores extra information along with the message itself. Using a mathematical method called error correction, a scanner can use this extra data to rebuild the missing pieces. At the highest setting, a code can still be read even if roughly 30 percent of it is damaged.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To trace the history of how QR codes were invented",
+      "To explain how QR codes can still be scanned when part of the code is damaged",
+      "To compare QR codes with the traditional barcodes used on store products",
+      "To argue that QR codes should replace printed menus in restaurants"
+    ],
+    "answer": "B",
+    "explanation": "The text begins by noting that damaged QR codes can often still be read. It then explains why: the codes store extra data, and error correction uses that data to rebuild missing parts. Its main purpose is therefore to explain how QR codes stay readable despite damage.",
+    "rationales": {
+      "A": "The text never discusses who invented QR codes or when.",
+      "B": "Correct. The text explains how extra stored data and error correction let damaged codes be read.",
+      "C": "Traditional barcodes are never mentioned, so no comparison is made.",
+      "D": "The text makes no argument about restaurants or printed menus."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "medium",
+    "passage": "Many plants that grow high in the Andes are covered in dense, silvery hairs. Botanists long assumed that these hairs primarily help the plants conserve water by trapping a layer of humid air against the leaf surface. To test this idea, plant physiologist Tomás Quispe carefully removed the hairs from the leaves of several Andean shrubs. The hairless leaves lost water at nearly the same rate as untreated leaves, but they developed significantly more cell damage from ultraviolet radiation, which is intense at high elevations. Quispe concluded that the hairs' main role is likely to shield the leaves from ultraviolet light rather than to reduce water loss.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To present research suggesting that a plant feature serves a different function than had long been assumed",
+      "To explain how the silvery hairs of Andean plants trap a layer of humid air against the leaf",
+      "To describe the methods botanists have traditionally used to measure water loss in plants",
+      "To argue that high-altitude plants are more vulnerable to ultraviolet radiation than lowland plants are"
+    ],
+    "answer": "A",
+    "explanation": "The text introduces a long-held assumption about the silvery hairs (that they conserve water), describes Quispe's experiment testing it, and reports his conclusion that the hairs mainly protect against ultraviolet light. Its main purpose is therefore to present research suggesting the hairs serve a different function than previously assumed.",
+    "rationales": {
+      "A": "Correct. The text presents Quispe's findings, which challenge the assumption that the hairs mainly conserve water.",
+      "B": "The humid-air mechanism is mentioned only as the earlier assumption that Quispe's research calls into question, not explained as the text's focus.",
+      "C": "Water loss is measured only as part of one experiment; the text doesn't survey traditional measurement methods.",
+      "D": "The text never compares high-altitude plants with lowland plants."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "hard",
+    "passage": "Critics have often described the rough, unfinished-looking surfaces of sculptor Itzel Ocampo's late works as a sign of her declining health. In their view, she simply lacked the stamina to complete the carving. Art historian Rhys Kaltenbach does not dismiss this account entirely, since Ocampo's letters from the period do mention persistent fatigue. He points out, however, that her studio notebooks from the same years contain detailed sketches marking which areas of each block were to be left untouched. For Kaltenbach, the unfinished quality is therefore better understood as a planned feature of the sculptures, even if her circumstances may have informed that plan.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To present a scholar's case that a feature of an artist's late works, commonly attributed to physical limitation, reflects deliberate design",
+      "To suggest that Ocampo's letters are a less trustworthy source of information than her studio notebooks",
+      "To argue that Ocampo's health had no bearing on the appearance of her late sculptures",
+      "To trace how Ocampo's carving methods changed over the course of her career"
+    ],
+    "answer": "A",
+    "explanation": "The text opens with the critics' explanation that Ocampo's rough surfaces resulted from her declining health. It then presents Kaltenbach's counterargument, which uses her notebooks as evidence that the unfinished areas were planned. His concession that her circumstances may have shaped the plan qualifies his argument but does not change its central claim. The text's main purpose is therefore to present his case that the feature was intentional.",
+    "rationales": {
+      "A": "Correct. The text sets out the common health-based explanation and then presents Kaltenbach's notebook-based argument that the rough surfaces were intentional.",
+      "B": "The text uses the notebooks as evidence but never judges the letters unreliable; in fact Kaltenbach accepts what the letters say about her fatigue.",
+      "C": "This overstates Kaltenbach's position, since he concedes that her fatigue was real and may have influenced her plan.",
+      "D": "The text deals only with Ocampo's late works, not with changes in her methods across her whole career."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "easy",
+    "passage": "Early robotic vacuum cleaners had a troublesome habit: they often tumbled down staircases, damaging both themselves and the steps. Engineers addressed this problem by adding small infrared sensors to the underside of the robots. These sensors constantly send beams of light toward the floor and measure how quickly the light bounces back. If the light takes too long to return, the robot detects a drop ahead and turns away. Today, such sensors are standard on nearly all models.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It compares two types of robotic vacuum cleaners and argues that one is better.",
+      "It traces the history of household cleaning devices from the earliest to the most recent.",
+      "It describes a popular belief about robots and then shows that the belief is false.",
+      "It identifies a problem with a technology and then explains how engineers solved it."
+    ],
+    "answer": "D",
+    "explanation": "The text first presents a problem (early robotic vacuums falling down stairs), then explains the engineers' solution (infrared sensors) and how it works, and notes that the solution is now standard.",
+    "rationales": {
+      "A": "The text doesn't compare two types of vacuums or argue that one is superior.",
+      "B": "Although the text mentions early and current models, it focuses on one problem and its fix, not the history of cleaning devices in general.",
+      "C": "No popular belief is described or disproved; the falling problem was real.",
+      "D": "Correct. The text moves from a problem with robotic vacuums to the sensor-based solution engineers developed."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "medium",
+    "passage": "By the mid-fifteenth century, Great Zimbabwe, a stone-walled city in southern Africa that had once housed thousands of people, had been largely abandoned. Some scholars have attributed this decline to environmental strain, arguing that generations of farming, grazing, and wood gathering exhausted the surrounding land. Historian Rutendo Chikore, however, points to evidence of a different cause. Imported glass beads and Chinese porcelain are plentiful in the site's earlier layers but scarce in its later ones. Meanwhile, similar goods appear in growing quantities at settlements farther north. To Chikore, this pattern suggests that a shift in trade routes drew wealth, and eventually people, away from the city.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It traces the rise of a city, describes its trade networks, and then argues that environmental damage caused its collapse.",
+      "It describes a historical development, presents one proposed explanation for it, and then discusses evidence that a historian uses to support a different explanation.",
+      "It presents a historian's explanation for a city's decline and then describes evidence that undermines that explanation.",
+      "It compares two settlements and explains why one became more prosperous than the other."
+    ],
+    "answer": "B",
+    "explanation": "The text first notes that Great Zimbabwe was abandoned, then gives the environmental-strain explanation offered by some scholars, and finally presents Chikore's archaeological evidence (the declining imported goods at the site and their increase farther north) supporting a trade-route explanation.",
+    "rationales": {
+      "A": "The text doesn't trace the city's rise, and it presents environmental damage as one contested explanation rather than arguing for it.",
+      "B": "Correct. This matches the text's movement from an event to one explanation to a historian's evidence for an alternative explanation.",
+      "C": "The evidence described supports Chikore's explanation rather than undermining it, and the first explanation is attributed to other scholars, not to a single historian.",
+      "D": "The northern settlements are mentioned only as evidence for shifting trade, not as the subject of a sustained comparison."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "Admirers of Peruvian composer Esperanza Quilla's 1958 string quartet often single out its abrupt silences, bars in which all four instruments stop mid-phrase, as evidence of her preoccupation with fragmentation and unease. Musicologist Tomasz Wierzba has complicated that reading. Examining Quilla's manuscripts, he found that the silences first appeared in a version she prepared for a radio broadcast, where they marked points at which an engineer could cut the piece to fit the allotted time slot. Yet Wierzba does not conclude that the silences are merely practical. Quilla retained them in the later concert version, he notes, and even lengthened several of them. This suggests that a technical expedient became, in her hands, an expressive resource.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents a widely held view of a composition, offers evidence that disproves that view, and concludes that the feature in question has no artistic significance.",
+      "It contrasts two musicologists' competing interpretations of a quartet's silences and then explains why one of those interpretations is more persuasive than the other.",
+      "It describes a prevailing interpretation of a musical feature, presents archival evidence about the feature's origin that complicates that interpretation, and then explains how a researcher reconciles that evidence with an expressive reading of the feature.",
+      "It describes a researcher's discovery about a composition, outlines a common objection to that discovery, and then defends the discovery against the objection."
+    ],
+    "answer": "C",
+    "explanation": "The text opens with the admirers' interpretation of the silences as expressive of unease, then reports Wierzba's manuscript finding that the silences began as practical cut points for a radio broadcast, which complicates that view. Finally, it explains that Wierzba, noting that Quilla kept and lengthened the silences, concludes they became expressive anyway, reconciling the practical origin with an expressive reading.",
+    "rationales": {
+      "A": "The evidence complicates rather than disproves the common view, and the text ends by affirming that the silences did gain expressive significance, the opposite of this conclusion.",
+      "B": "Only one musicologist is named; the admirers' reading is not presented as a rival scholar's argument, and Wierzba qualifies rather than defeats it.",
+      "C": "Correct. This accurately traces the movement from prevailing interpretation to complicating archival evidence to Wierzba's reconciling conclusion.",
+      "D": "This reverses the order of ideas: the text begins with a common interpretation, not with the researcher's discovery, and no objection to Wierzba's finding is raised."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "easy",
+    "passage": "Linguists use the term \"code-switching\" to describe the practice of alternating between two or more languages within a single conversation. Bilingual speakers may switch languages for several reasons. A speaker may need to express an idea that has no exact equivalent in the other language, signal closeness with a listener who shares both languages, or quote someone's exact words. For example, a speaker in Nairobi might begin a sentence in English and finish it in Swahili to give the remark a warmer, friendlier tone.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It defines a language practice, identifies reasons people engage in it, and then offers an example.",
+      "It describes a common belief about bilingual speakers and then shows that the belief is mistaken.",
+      "It presents a debate among linguists and then explains which side is correct.",
+      "It describes how a language changed over time and then predicts how it will change in the future."
+    ],
+    "answer": "A",
+    "explanation": "The text first defines code-switching, then lists reasons bilingual speakers switch languages, and ends with an example of a speaker in Nairobi switching from English to Swahili.",
+    "rationales": {
+      "A": "Correct. It matches the text's definition-reasons-example progression.",
+      "B": "The text never presents a belief and then refutes it.",
+      "C": "The text presents no disagreement among linguists.",
+      "D": "The text does not trace a language's history or make predictions about it."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "The following text is from Teodora Vasquez-Lind's 2004 novel The Weight of Harbors. Marisol has returned to her late grandfather's house.\n\nFor years Marisol had regarded her grandfather's workshop as a monument to his stubbornness: half-finished chairs, a lathe he refused to replace, shelves of jars holding screws sorted by no system she could detect. Now, alone among them, she opened the nearest jar and found, curled around the screws, a strip of paper bearing her own name and a date from her seventh summer. The next jar held another, and the next. Each date, she slowly understood, marked a visit: the afternoon she had dropped his level, the morning he had first let her sand a chair leg. The workshop had never been disordered at all. It had been arranged, jar by jar, around the hours she had spent in it.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It contrasts a character's view of a place with her grandfather's view of it and then shows how the two views are reconciled.",
+      "It presents a character's memories of childhood visits to a place and then reveals that those memories were inaccurate.",
+      "It describes a series of objects that a character finds increasingly puzzling until she gives up trying to explain them.",
+      "It establishes a character's long-held judgment about a place, recounts a discovery she makes there, and then presents her revised understanding of the place."
+    ],
+    "answer": "D",
+    "explanation": "The text opens with Marisol's longstanding view of the workshop as a disorderly monument to stubbornness, then describes her finding dated slips of paper in the jars, and ends with her realization that the workshop was carefully arranged around her visits. This judgment-discovery-reinterpretation sequence is what choice B describes.",
+    "rationales": {
+      "A": "The grandfather's own view is never directly presented; the text shows only Marisol's view and how it changes.",
+      "B": "What changes is Marisol's interpretation of the workshop's order, not the accuracy of her memories, which the notes actually confirm.",
+      "C": "This reverses the text's movement: the jars become clearer to Marisol, and she reaches a firm understanding rather than giving up.",
+      "D": "Correct. The text moves from Marisol's initial judgment to her discovery of the notes to her new understanding of the workshop."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "Critics have long read the bare staging of choreographer Inés Valcárcel's 1968 work Tierra Baldía as a deliberate protest against the ornate ballets that then dominated Madrid's stages. Archival research by dance historian Tomasz Wierzbicki complicates this view. Rehearsal notes show that Valcárcel originally planned elaborate sets and costumes and abandoned them only weeks before the premiere, when the theater's budget was cut. Wierzbicki does not conclude that the work's austerity was merely accidental, however. He points out that Valcárcel kept the bare staging in every later revival of Tierra Baldía, even when funding was plentiful. This suggests that what began as a constraint she was forced to accept became an aesthetic choice she came to embrace.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents two competing explanations for a feature of a dance work and then argues that the documentary evidence decisively favors the second explanation over the first.",
+      "It describes how financial pressures shaped the premiere of a dance work and then traces how those pressures continued to influence the choreographer's later productions.",
+      "It describes a historian's archival discovery and then explains why critics have resisted the conclusions the historian drew from it.",
+      "It presents a long-standing interpretation of a feature of a dance work, introduces evidence that seems to undermine that interpretation, and then explains how a historian argues that the feature nonetheless became intentional."
+    ],
+    "answer": "D",
+    "explanation": "The text opens with critics' view that the bare staging was a deliberate protest, then presents rehearsal notes showing the staging resulted from a budget cut, and finally explains Wierzbicki's argument that Valcárcel's retention of the staging in later, well-funded revivals shows the constraint became a deliberate aesthetic choice.",
+    "rationales": {
+      "A": "This is partly right but misses the final move: Wierzbicki explicitly declines to treat the budget explanation as decisive and instead argues that the staging ultimately became intentional.",
+      "B": "The later revivals had plentiful funding, so financial pressures did not influence them; the text stresses that Valcárcel kept the staging despite the absence of such pressure.",
+      "C": "The order is wrong and critics are never said to resist Wierzbicki's conclusions; the critics' view comes first and is the one Wierzbicki complicates.",
+      "D": "Correct. It captures the progression from the critics' interpretation to the complicating budget evidence to Wierzbicki's view that the austerity ultimately became an embraced choice."
+    }
+  }
+]

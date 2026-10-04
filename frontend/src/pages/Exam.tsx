@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { createExam, fmtDate, SECTION_NAME, useExams, type Section, type Setting } from "../api/exam";
+import { OfficialScores } from "../components/OfficialScores";
 import { Shell } from "../components/Shell";
 
 const SETTINGS: { id: Setting; name: string; desc: string }[] = [
@@ -81,7 +82,7 @@ export function ExamHome() {
           <h2 className="text-lg font-semibold">Past exams</h2>
           {exams.isPending && <p className="text-slate-500">Loading…</p>}
           {exams.data?.filter((e) => e.status === "completed").length === 0 && <p className="text-slate-500">No finished exams yet.</p>}
-          <ul className="divide-y divide-slate-200 rounded-xl bg-white shadow-sm ring-1 ring-slate-200">
+          <ul className="divide-y divide-slate-200 rounded-xl bg-white shadow-sm ring-1 ring-slate-200 empty:hidden">
             {exams.data
               ?.filter((e) => e.status === "completed")
               .map((e) => (
@@ -100,6 +101,7 @@ export function ExamHome() {
               ))}
           </ul>
         </section>
+        <OfficialScores />
       </div>
     </Shell>
   );

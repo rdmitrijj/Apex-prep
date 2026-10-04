@@ -92,5 +92,7 @@ class BreakdownRow(BaseModel):
 
 
 class ExamResults(ExamSummary):
+    margins: dict[str, int]  # section -> one-SD uncertainty of its score
+    calibrated_with: dict[str, int]  # section -> official scores the scale is fitted to
     breakdown: list[BreakdownRow]
     items: list[ReviewItem]

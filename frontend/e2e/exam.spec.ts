@@ -79,6 +79,18 @@ test("math exam: tools, resume after refresh, adaptive module 2, results, weakne
   await page.getByRole("button", { name: /Omitted/ }).first().click();
   await expect(page.getByText(/Math · Module \d.*Question \d+/).first()).toBeVisible();
   await page.screenshot({ path: "test-results/exam-results.png", fullPage: true });
+  await expect(page.getByText("by a default curve.")).toBeVisible();
+
+  // Log an official practice score: the exam is re-fitted to it.
+  const resultsUrl = page.url();
+  await page.goto("/exam");
+  await page.getByLabel("R&W").fill("620");
+  await page.getByLabel("Math", { exact: true }).fill("650");
+  await page.getByRole("button", { name: "Add score" }).click();
+  await expect(page.getByText("calibrated from 1 official score")).toBeVisible();
+  await expect(page.getByText("Calibrating Math")).toBeVisible();
+  await page.goto(resultsUrl);
+  await expect(page.getByText(/calibrated to your official scores \(Math: 1\)/)).toBeVisible();
 
   await page.getByRole("link", { name: "Train my weak spots" }).click();
   await expect(page.getByRole("heading", { name: "Weakness Training" })).toBeVisible();

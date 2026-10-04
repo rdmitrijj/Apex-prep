@@ -1,0 +1,339 @@
+[
+  {
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "easy",
+    "passage": "Sociologist Amara Okonkwo-Lindqvist studied a small island community before and after a new bridge connected it to the mainland. She found that the number of residents who traveled to jobs off the island rose ______ in the bridge's first year, more than tripling from about 200 people to over 650.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "slightly",
+      "temporarily",
+      "dramatically",
+      "unpredictably"
+    ],
+    "answer": "C",
+    "explanation": "The text says the number of commuters \"more than tripl[ed]\" in a single year, from about 200 to over 650. An increase that large and fast is best described as rising \"dramatically.\"",
+    "rationales": {
+      "A": "\"Slightly\" means by a small amount, but more than tripling is a very large increase.",
+      "B": "Nothing in the text suggests the increase later reversed, so \"temporarily\" is unsupported.",
+      "C": "Correct. Growing from about 200 to over 650 in one year is a dramatic rise.",
+      "D": "The text says nothing about the change being hard to predict; it only describes its size."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "passage": "Art historians have long described the Filipino painter Lorenzo Dacanay as a strict realist whose canvases recorded Manila's markets and harbors in meticulous detail. A recent exhibition of his private sketchbooks, however, complicates that view. Alongside careful studies of fishmongers and dockworkers, the notebooks contain dozens of dreamlike drawings of floating figures and impossible staircases. This suggests that Dacanay's commitment to realism was less ______ than scholars had assumed.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "absolute",
+      "temporary",
+      "celebrated",
+      "documented"
+    ],
+    "answer": "A",
+    "explanation": "The sketchbooks show that Dacanay also made fantastical, nonrealistic drawings. His realism therefore had exceptions and was not as total as historians believed. \"Absolute\" captures that idea of a complete, unqualified commitment.",
+    "rationales": {
+      "A": "Correct. Fantastical drawings show that his realism had exceptions, so it was less absolute than scholars assumed.",
+      "B": "Saying his realism was \"less temporary\" would mean it was more lasting, which doesn't follow from the discovery of fantastical drawings.",
+      "C": "The sketchbooks reveal what Dacanay drew, not how much praise his realism received, so \"celebrated\" doesn't follow from the evidence.",
+      "D": "The sketchbooks add to the record of Dacanay's work, so it is illogical to conclude that his realism was less documented."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "easy",
+    "passage": "Early smartphone batteries often lost much of their capacity after only a year or two of daily charging. Engineer Priya Nandakumar and her team developed a new electrode coating that keeps the battery working well for much longer. In laboratory tests, batteries with the coating remained ______ even after 3,000 charging cycles, holding nearly 90 percent of their original capacity.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "reliable",
+      "fragile",
+      "outdated",
+      "expensive"
+    ],
+    "answer": "A",
+    "explanation": "The passage says the coating keeps batteries working well for much longer and that they still held nearly 90 percent of their capacity after 3,000 cycles. \"Reliable\" means dependable and performing consistently, which fits this evidence of lasting performance.",
+    "rationales": {
+      "A": "Correct. Batteries that keep nearly 90 percent of their capacity after 3,000 cycles are dependable, or reliable.",
+      "B": "\"Fragile\" suggests the batteries were easily damaged, which contradicts the evidence that they held nearly 90 percent of their capacity.",
+      "C": "\"Outdated\" refers to being old-fashioned, but the passage describes the batteries' performance, not their style or age as a design.",
+      "D": "\"Expensive\" concerns cost, which the passage never discusses, so it doesn't follow from the test results."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "passage": "Seeds of a desert annual studied by botanist Rafael Okonjo-Medina can lie dormant in the soil for a decade or more. In greenhouse trials, seeds given less than 25 millimeters of simulated rain almost never sprouted, whereas seeds given more than that amount germinated readily. This suggests that germination in this species is ______ a substantial rainfall event. Okonjo-Medina argues that this trait is an adaptation that keeps seedlings from emerging after a brief shower, when they would soon wither in the dry soil.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "unaffected by",
+      "accelerated by",
+      "contingent on",
+      "detrimental to"
+    ],
+    "answer": "C",
+    "explanation": "Seeds given little water almost never sprouted, while those given ample water sprouted readily. Germination therefore depends on a substantial rainfall event. \"Contingent on\" precisely expresses this dependence. It also fits the adaptation the passage describes: seeds that need heavy rain will not sprout after a brief shower.",
+    "rationales": {
+      "A": "\"Unaffected by\" contradicts the results, since the amount of rain clearly determined whether seeds germinated.",
+      "B": "The trials show whether seeds sprout at all, not how quickly they sprout, so \"accelerated by\" misdescribes the finding.",
+      "C": "Correct. Germination occurred only after ample water, so it is \"contingent on\" (dependent on) substantial rainfall.",
+      "D": "\"Detrimental to\" reverses the relationship: germination does not harm rainfall, and heavy rain promotes germination rather than being harmed by it."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "easy",
+    "passage": "Political scientist Ingrid Solberg examined voter turnout in a midsize city's local elections and found that participation was remarkably ______: across six elections held over twenty years, turnout never rose above 34 percent or fell below 31 percent.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "declining",
+      "enthusiastic",
+      "volatile",
+      "stable"
+    ],
+    "answer": "D",
+    "explanation": "The colon introduces an explanation of the missing word. Over twenty years, turnout stayed within a narrow range of 31 to 34 percent. That means it barely changed, so \"stable\" is the right word.",
+    "rationales": {
+      "A": "\"Declining\" implies a steady drop, but the text says turnout stayed between the same two limits throughout and never fell below 31 percent.",
+      "B": "\"Enthusiastic\" suggests eager, high participation, but turnout of about one-third of voters doesn't indicate enthusiasm, and the colon's explanation is about consistency.",
+      "C": "\"Volatile\" means changing sharply and unpredictably, which is the opposite of turnout staying within a three-point range.",
+      "D": "Correct. Turnout that stayed between 31 and 34 percent across twenty years was stable."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.MEANING",
+    "difficulty": "medium",
+    "passage": "Economist Thandiwe Mokoena has studied why handwoven cloth from small cooperatives in Ghana's Volta Region continues to command high prices in export markets, even though machine-printed imitations sell for a fraction of the cost. Her surveys suggest that overseas buyers willingly pay more because they value the documented origin of each piece, treating the cloth less as an ordinary commodity than as certified craftsmanship.",
+    "stem": "As used in the text, what does the word \"command\" most nearly mean?",
+    "choices": [
+      "instruct",
+      "draw",
+      "overlook",
+      "control"
+    ],
+    "answer": "B",
+    "explanation": "The cloth continues to \"command high prices\" because buyers willingly pay more for it. In this context, \"command\" means to draw or attract a high price from buyers. It does not mean to give orders or to exert control.",
+    "rationales": {
+      "A": "\"Instruct\" fits giving an order (\"command troops\"), but cloth cannot order anyone to pay.",
+      "B": "Correct. The cloth draws high prices because buyers willingly pay more for it.",
+      "C": "\"Overlook\" fits a physical sense (\"the hill commands a view of the valley\"), which doesn't apply to prices.",
+      "D": "\"Control\" suggests the cooperatives set or dictate prices, but the text says buyers choose to pay more, not that sellers control the market."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.MEANING",
+    "difficulty": "hard",
+    "passage": "Lexicographers have long debated when a new coinage deserves a dictionary entry. In her study of emerging English vocabulary, linguist Ingrid Halvorsen argues that raw frequency is a misleading guide: a word may appear thousands of times within a single online community yet remain virtually unknown outside it. Only when a term achieves wide currency, circulating among speakers of different ages, regions, and social groups, does it, in Halvorsen's view, merit inclusion.",
+    "stem": "As used in the text, what does the word \"currency\" most nearly mean?",
+    "choices": [
+      "circulation",
+      "money",
+      "relevance",
+      "worth"
+    ],
+    "answer": "A",
+    "explanation": "The text glosses \"wide currency\" immediately as \"circulating among speakers of different ages, regions, and social groups,\" contrasting it with a word confined to one community. In this context, \"currency\" means the state of being in general use, or circulation.",
+    "rationales": {
+      "A": "Correct. A term with wide currency is one that circulates broadly, which the passage spells out as use among varied speakers.",
+      "B": "\"Money\" is the most common literal sense of \"currency,\" but it makes no sense when applied to the use of a word.",
+      "C": "\"Relevance\" plays on the association of \"currency\" with being current or up to date, but the passage defines the word by its spread across groups, not its timeliness.",
+      "D": "\"Worth\" draws on the monetary-value sense of \"currency\" and echoes \"merit,\" but the passage is about how widely a term spreads, not how valuable it is."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.MEANING",
+    "difficulty": "hard",
+    "passage": "In her study of rural credit cooperatives in northern Ghana, economist Abena Owusu-Ansah found that cooperative members repaid small loans at notably higher rates than borrowers who relied on commercial lenders. Yet her endorsement of the cooperative model was qualified. She observed that the repayment advantage largely disappeared in villages where cooperative leaders also held local political office. This pattern suggests that the model's success may depend on a separation between financial and political authority, a separation that not every community maintains.",
+    "stem": "As used in the text, what does the word \"qualified\" most nearly mean?",
+    "choices": [
+      "eligible",
+      "limited",
+      "accredited",
+      "competent"
+    ],
+    "answer": "B",
+    "explanation": "Owusu-Ansah supports the cooperative model, but she adds a significant reservation: the model's advantage disappears where cooperative leaders also hold political office. An endorsement accompanied by such a reservation is limited, so \"qualified\" means limited here.",
+    "rationales": {
+      "A": "\"Eligible\" means meeting the requirements for something, which does not describe an endorsement restricted by an exception.",
+      "B": "Correct. Her support comes with a reservation about villages where leaders hold political office, so it is limited.",
+      "C": "\"Accredited\" reflects the sense of \"qualified\" as officially certified, which describes people or institutions, not the restricted scope of an endorsement.",
+      "D": "\"Competent\" is the sense of \"qualified\" that could describe the economist herself, but the word modifies her endorsement, which the text shows was restricted, not skillful."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.MEANING",
+    "difficulty": "medium",
+    "passage": "At first glance, Ines Valdivieso's 1958 portrait of her brother appears serene: soft gray tones, a relaxed pose, an untroubled expression. Yet close inspection of the canvas betrays the painter's uncertainty. Infrared imaging shows that Valdivieso repainted the sitter's hands at least four times, and faint ridges of dried paint beneath the surface trace the outline of an earlier, far more anxious version of his face.",
+    "stem": "As used in the text, what does the word \"betrays\" most nearly mean?",
+    "choices": [
+      "deceives",
+      "abandons",
+      "weakens",
+      "reveals"
+    ],
+    "answer": "D",
+    "explanation": "The text contrasts the portrait's calm appearance with evidence of repeated repainting that exposes Valdivieso's doubts. Close inspection therefore makes the painter's uncertainty visible, so \"betrays\" means \"reveals.\"",
+    "rationales": {
+      "A": "\"Deceives\" reflects the sense of betraying someone's trust, but close inspection uncovers the truth rather than misleading anyone.",
+      "B": "\"Abandons\" suggests deserting someone, which makes no sense for inspecting a canvas; the inspection discloses the uncertainty instead.",
+      "C": "Nothing in the text suggests that inspection lessens the painter's uncertainty; it brings that uncertainty to light.",
+      "D": "Correct. Close inspection exposes the painter's hidden uncertainty, as the evidence of repeated repainting shows."
+    }
+  },
+  {
+    "skill": "RW.CAS.WIC.MEANING",
+    "difficulty": "easy",
+    "passage": "The following text is from Lucía Ferrante's 1931 novel The Salt Road. Inés is returning to her village after years away. Nothing had changed, Inés thought as she stepped down from the cart. The bakery still stood at the corner, the church bell still rang at noon, and old Señor Barros still sat on his bench, watching the square. Yet the familiar scene seemed strangely small to her, as if the village had shrunk while she was gone.",
+    "stem": "As used in the text, what does the word \"stood\" most nearly mean?",
+    "choices": [
+      "remained",
+      "rose",
+      "tolerated",
+      "represented"
+    ],
+    "answer": "A",
+    "explanation": "Inés notes that nothing in the village had changed: the bakery \"still stood at the corner,\" meaning it remained in the same place it had always been.",
+    "rationales": {
+      "A": "Correct. Paired with \"still,\" \"stood\" means the bakery remained where it had been.",
+      "B": "\"Rose\" fits a person standing up from a seat, but a bakery doesn't get up.",
+      "C": "\"Tolerated\" fits \"couldn't stand the noise,\" not a building at a corner.",
+      "D": "\"Represented\" fits \"stood for,\" which doesn't describe a building's location."
+    }
+  },
+  {
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Erie Canal is a human-made waterway in New York State.",
+      "It opened in 1825.",
+      "It connected the Hudson River to Lake Erie.",
+      "The original canal was about 363 miles long.",
+      "The canal made it cheaper to ship goods between the Atlantic coast and the Great Lakes region."
+    ],
+    "stem": "The student wants to explain why the Erie Canal was economically important. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Erie Canal connected the Hudson River to Lake Erie.",
+      "By connecting the Hudson River to Lake Erie, the Erie Canal made it cheaper to ship goods between the Atlantic coast and the Great Lakes region.",
+      "The Erie Canal is a human-made waterway in New York State that opened in 1825.",
+      "The Erie Canal, which opened in 1825, was originally about 363 miles long."
+    ],
+    "answer": "B",
+    "explanation": "The canal's economic importance lies in its effect on trade. Choice B explains that effect: by linking the Hudson River and Lake Erie, the canal lowered the cost of shipping goods between the Atlantic coast and the Great Lakes region.",
+    "rationales": {
+      "A": "It describes the canal's route but leaves out the economic benefit that route created.",
+      "B": "Correct. It explains how the canal lowered shipping costs, which shows why it was economically important.",
+      "C": "It identifies where the canal is and when it opened but doesn't explain its economic importance.",
+      "D": "It gives the canal's opening date and length but says nothing about its economic effect."
+    }
+  },
+  {
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Norwegian painter Ingrid Solberg produced two major series of landscape paintings.",
+      "Her Fjord Studies (1958–1962) depicted the rocky coastlines of western Norway.",
+      "For the Fjord Studies, Solberg applied thick layers of oil paint with a palette knife.",
+      "Her Salt Flats series (1971–1975) depicted the deserts of Utah.",
+      "For the Salt Flats series, Solberg brushed on thin washes of diluted acrylic paint.",
+      "The two series were exhibited together for the first time in Oslo in 2019."
+    ],
+    "stem": "The student wants to contrast the painting techniques Solberg used in her two series. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "In her Fjord Studies, created between 1958 and 1962, Solberg applied thick layers of oil paint with a palette knife.",
+      "Solberg's Fjord Studies depicted the rocky coastlines of western Norway, while her Salt Flats series depicted the deserts of Utah.",
+      "Solberg's Fjord Studies and Salt Flats series were exhibited together for the first time in Oslo in 2019.",
+      "Whereas Solberg applied thick layers of oil paint with a palette knife for her Fjord Studies, she brushed on thin washes of diluted acrylic for her Salt Flats series."
+    ],
+    "answer": "D",
+    "explanation": "The goal is to contrast techniques across both series. Choice B describes the method used in each series (thick oil applied with a palette knife versus thin acrylic washes) and uses \"Whereas\" to signal the contrast.",
+    "rationales": {
+      "A": "It describes the technique of only one series, so it offers no contrast.",
+      "B": "It contrasts the subjects of the two series, not the techniques Solberg used to paint them.",
+      "C": "It notes a shared exhibition rather than contrasting the painting techniques.",
+      "D": "Correct. It contrasts the thick, knife-applied oil of the Fjord Studies with the thin acrylic washes of the Salt Flats series."
+    }
+  },
+  {
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Most rechargeable batteries in phones and electric cars are lithium-ion batteries.",
+      "Lithium is relatively scarce and expensive to mine.",
+      "Engineer Ingrid Solberg and her team built a prototype rechargeable battery that uses sodium instead of lithium.",
+      "Sodium is abundant and can be extracted from seawater.",
+      "Solberg's prototype stores about 80% as much energy per kilogram as a comparable lithium-ion battery.",
+      "The prototype kept 90% of its storage capacity after 2,000 charging cycles."
+    ],
+    "stem": "The student wants to present a potential advantage of Solberg's prototype battery while also acknowledging a drawback. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Lithium, which is used in most phone and electric car batteries, is relatively scarce and expensive to mine, whereas sodium is abundant and can be extracted from seawater.",
+      "Because it uses abundant sodium instead of scarce lithium, Solberg's prototype battery kept 90% of its storage capacity after 2,000 charging cycles.",
+      "Solberg's prototype battery, which uses sodium instead of lithium, stores about 80% as much energy per kilogram as a comparable lithium-ion battery.",
+      "Solberg's prototype battery relies on sodium, an abundant element that can be extracted from seawater, but it stores only about 80% as much energy per kilogram as a comparable lithium-ion battery."
+    ],
+    "answer": "D",
+    "explanation": "Choice C presents an advantage of the prototype (it relies on sodium, which is abundant and obtainable from seawater) and then, with \"but,\" acknowledges a drawback (it stores only about 80% as much energy per kilogram as a comparable lithium-ion battery), accomplishing both parts of the goal.",
+    "rationales": {
+      "A": "It compares the two elements without mentioning Solberg's prototype or any drawback of it.",
+      "B": "It presents only advantages, acknowledges no drawback, and wrongly claims that using sodium causes the battery's durability.",
+      "C": "It states the drawback but does not present any advantage of the prototype.",
+      "D": "Correct. It pairs an advantage of the prototype (abundant sodium) with a drawback (lower energy storage per kilogram)."
+    }
+  },
+  {
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Evidentiality is a grammatical system that marks how a speaker knows the information being reported.",
+      "Tuyuca is a language spoken in the Amazon region of Colombia and Brazil.",
+      "In Tuyuca, verbs take one of five evidential suffixes, indicating, for example, whether the speaker saw an event, heard it secondhand, or inferred it.",
+      "In Turkish, the verb suffix -miş can signal that information was learned secondhand or inferred.",
+      "English has no grammatical evidentials; speakers instead use separate words or phrases such as \"apparently\" or \"I heard.\""
+    ],
+    "stem": "The student wants to contrast the way Tuyuca and English indicate a speaker's source of information. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Evidentiality, a grammatical system that marks how a speaker knows the information being reported, is found in languages such as Tuyuca.",
+      "English speakers who want to indicate that information is secondhand can use phrases such as \"I heard.\"",
+      "Both Turkish and Tuyuca use verb suffixes to indicate how a speaker learned the information being reported.",
+      "Whereas Tuyuca speakers mark their source of information with evidential suffixes on verbs, English speakers rely on separate words or phrases such as \"apparently.\""
+    ],
+    "answer": "D",
+    "explanation": "The goal requires a contrast between Tuyuca and English. Choice B sets the two side by side with \"whereas,\" noting that Tuyuca uses verb suffixes while English uses separate words or phrases, accurately reflecting the notes.",
+    "rationales": {
+      "A": "It defines evidentiality and mentions Tuyuca but says nothing about English, so it makes no contrast.",
+      "B": "It describes only English, without contrasting it with Tuyuca.",
+      "C": "It presents a similarity, and between Turkish and Tuyuca rather than between Tuyuca and English.",
+      "D": "Correct. It directly contrasts Tuyuca's evidential verb suffixes with English's use of separate words or phrases."
+    }
+  },
+  {
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Large data centers use substantial amounts of water to keep their servers from overheating.",
+      "Conventional evaporative cooling systems lose much of that water to the air as vapor.",
+      "In 2023, a team led by engineer Tomás Echeverría tested a closed-loop cooling system that circulates a sealed refrigerant fluid instead of evaporating water.",
+      "At the test facility, the closed-loop system reduced water use by 91% compared with evaporative cooling.",
+      "The closed-loop system also increased the facility's electricity consumption by about 6%."
+    ],
+    "stem": "The student wants to acknowledge a drawback of Echeverría's closed-loop system while emphasizing its main advantage. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Conventional evaporative cooling systems lose water to the air as vapor, whereas Echeverría's closed-loop system circulates a sealed refrigerant fluid.",
+      "Although Echeverría's closed-loop system increased the facility's electricity consumption by about 6%, it cut water use by 91% compared with conventional evaporative cooling.",
+      "Even though it cut water use, Echeverría's closed-loop system increased the facility's electricity consumption by about 6% relative to evaporative cooling.",
+      "Echeverría's closed-loop system reduced water use by 91% compared with evaporative cooling, which loses much of its water to the air as vapor."
+    ],
+    "answer": "B",
+    "explanation": "Choice B mentions the drawback (a roughly 6% rise in electricity use) in a subordinate 'although' clause, conceding it, and then places the main advantage (a 91% cut in water use) in the main clause with its specific figure. This structure acknowledges the drawback while emphasizing the advantage.",
+    "rationales": {
+      "A": "It contrasts how the two systems work but mentions neither the drawback nor the water savings.",
+      "B": "Correct. It concedes the 6% electricity increase in a subordinate clause and emphasizes the 91% water savings in the main clause.",
+      "C": "It reverses the emphasis: it subordinates the advantage and leaves out its 91% figure, while making the electricity drawback the main point.",
+      "D": "It presents the advantage but never acknowledges the system's drawback of higher electricity use."
+    }
+  }
+]

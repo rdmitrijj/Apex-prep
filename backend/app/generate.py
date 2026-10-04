@@ -13,6 +13,7 @@ import random
 import re
 import sys
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any, Literal
 
 import anthropic
@@ -26,6 +27,10 @@ from app.schemas.question import RWItem
 from app.services.questions import insert_question, leaves_under, load_rw_seed, load_taxonomy, rw_content
 
 DUP_THRESHOLD = 0.5
+MAX_WORDS = 170  # both texts together; the official stimulus is 25-150 words (tests enforce the same cap)
+# USD per million (input, output) tokens; unknown models are priced at the top tier to stay safe.
+PRICES = {"claude-opus-5-5": (4.0, 20.0), "claude-sonnet-5-5": (2.0, 10.0)}
+TOP_PRICE = (10.0, 50.0)
 FALLBACK_BETA = "server-side-fallback-2026-07-01"
 TOPICS = [
     "natural science",
@@ -61,6 +66,7 @@ SYSTEM = """You write original practice items for the Reading and Writing sectio
 
 Rules:
 - Every passage is original. You may invent researchers, studies, and literary works, but keep facts plausible and don't misstate real well-known facts. Never mention the SAT, College Board, or any test maker.
+- Vary invented names (across cultures and regions), places, and settings; don't reuse names from the style examples.
 - One short passage (25-150 words) per item, academic register, on the requested topic area. Cross-text items have two texts. Rhetorical synthesis items put 4-6 factual bullet notes in `notes` and use `passage` for a one-sentence framing of the student's research.
 - Exactly one choice is defensibly correct; a careful expert would agree without hesitation. Each distractor is tempting for a specific reason (e.g. true but irrelevant, too broad, reverses the relationship, wrong punctuation rule) and clearly wrong on inspection.
 - Use "______" for a blank in the passage and <u>...</u> to underline a sentence or phrase. Use plain text; no Markdown.
@@ -99,6 +105,15 @@ def stem_hint(skill: str) -> str:
         if skill.startswith(prefix):
             return STEMS[prefix]
     return ""
+
+
+def strip_labels(item: RWItem) -> RWItem:
+    """The renderer prints "Text 1"/"Text 2" headings itself; drop labels the model put in the text."""
+
+    def clean(t: str | None) -> str | None:
+        return re.sub(r"^\s*Text [12]\s*[:.\-]?\s*", "", t) if t else t
+
+    return item.model_copy(update={"passage": clean(item.passage), "passage2": clean(item.passage2)})
 
 
 def shuffle(item: RWItem, rng: random.Random) -> RWItem:
@@ -161,6 +176,13 @@ class Pipeline:
         self.client = client
         self.model = model
         self.last_stop = ""
+        self.input_tokens = 0
+        self.output_tokens = 0
+
+    @property
+    def cost(self) -> float:
+        pin, pout = PRICES.get(self.model, TOP_PRICE)
+        return (self.input_tokens * pin + self.output_tokens * pout) / 1e6
 
     def _call(self, system: str, prompt: str, schema: type[BaseModel]) -> Any:
         resp = self.client.beta.messages.parse(
@@ -174,6 +196,10 @@ class Pipeline:
             output_format=schema,
         )
         self.last_stop = resp.stop_reason
+        usage = getattr(resp, "usage", None)
+        if usage is not None:
+            self.input_tokens += usage.input_tokens or 0
+            self.output_tokens += usage.output_tokens or 0
         if resp.stop_reason == "refusal":
             details = getattr(resp, "stop_details", None)
             self.last_stop = f"refusal ({getattr(details, 'category', None)})"
@@ -188,12 +214,16 @@ class Pipeline:
         item = self._call(SYSTEM, gen_prompt(skill, name, difficulty, examples, topic), RWItem)
         if item is None:
             return None
-        return shuffle(item.model_copy(update={"skill": skill, "difficulty": difficulty}), random.Random())
+        item = strip_labels(item.model_copy(update={"skill": skill, "difficulty": difficulty}))
+        return shuffle(item, random.Random())
 
     def blind_solve(self, item: RWItem) -> BlindSolve | None:
         return self._call("You are a careful, expert test taker.", solve_prompt(item), BlindSolve)  # type: ignore[no-any-return]
 
     def check(self, item: RWItem, existing: list[set[str]], stats: Stats) -> bool:
+        if len(item.passage.split()) + len((item.passage2 or "").split()) > MAX_WORDS:
+            stats.reject("too long")
+            return False
         solved = self.blind_solve(item)
         if solved is None:
             stats.reject(f"blind solve failed: {self.last_stop}")
@@ -213,7 +243,14 @@ class Pipeline:
 
 
 async def run(
-    pipe: Pipeline, skill_ids: list[str], n: int, difficulty: str, dry_run: bool, seed_items: list[RWItem]
+    pipe: Pipeline,
+    skill_ids: list[str],
+    n: int,
+    difficulty: str,
+    dry_run: bool,
+    seed_items: list[RWItem],
+    budget_usd: float | None = None,
+    out: Path | None = None,
 ) -> Stats:
     names = {node["id"]: node["name"] for node in load_taxonomy()}
     stats = Stats()
@@ -227,6 +264,9 @@ async def run(
             existing = [ngrams(item_text(c)) for c in rows]
             pool = [s for s in seed_items if s.skill == leaf]
             for _ in range(n):
+                if budget_usd is not None and pipe.cost >= budget_usd:
+                    print(f"budget of ${budget_usd:.2f} reached; stopping", file=sys.stderr)
+                    return stats
                 diff = rng.choice(["easy", "medium", "hard"]) if difficulty == "mixed" else difficulty
                 examples = rng.sample(pool, min(3, len(pool)))
                 try:
@@ -244,6 +284,10 @@ async def run(
                     continue
                 if not ok:
                     continue
+                if out is not None:
+                    saved = json.loads(out.read_text()) if out.exists() else []
+                    saved.append(item.model_dump(mode="json", exclude_none=True))
+                    out.write_text(json.dumps(saved, indent=2, ensure_ascii=False) + "\n")
                 if dry_run:
                     print(item.model_dump_json(indent=2, exclude_none=True))
                 else:
@@ -252,7 +296,10 @@ async def run(
                     )
                     await db.commit()
                 stats.inserted += 1
-                print(f"{leaf} [{diff}]: accepted ({stats.inserted} so far)", file=sys.stderr)
+                print(
+                    f"{leaf} [{diff}]: accepted ({stats.inserted} so far, ${pipe.cost:.2f} spent)",
+                    file=sys.stderr,
+                )
     return stats
 
 
@@ -269,6 +316,10 @@ def main(argv: list[str] | None = None) -> None:
     rw.add_argument("--n", type=int, default=3, help="items to attempt per sub-skill")
     rw.add_argument("--difficulty", choices=["easy", "medium", "hard", "mixed"], default="mixed")
     rw.add_argument("--dry-run", action="store_true", help="print accepted items instead of inserting them")
+    rw.add_argument(
+        "--budget-usd", type=float, help="stop starting new items once estimated spend reaches this"
+    )
+    rw.add_argument("--out", type=Path, help="also append accepted items to this seed-bank JSON file")
     args = ap.parse_args(argv)
 
     s = get_settings()
@@ -278,12 +329,26 @@ def main(argv: list[str] | None = None) -> None:
 
     async def go() -> Stats:
         try:
-            return await run(pipe, args.skill, args.n, args.difficulty, args.dry_run, load_rw_seed())
+            return await run(
+                pipe,
+                args.skill,
+                args.n,
+                args.difficulty,
+                args.dry_run,
+                load_rw_seed(),
+                args.budget_usd,
+                args.out,
+            )
         finally:
             await engine.dispose()
 
     stats = asyncio.run(go())
-    print(json.dumps({"accepted": stats.inserted, "rejected": stats.rejected}))
+    usage = {"input_tokens": pipe.input_tokens, "output_tokens": pipe.output_tokens}
+    print(
+        json.dumps(
+            {"accepted": stats.inserted, "rejected": stats.rejected, **usage, "usd": round(pipe.cost, 2)}
+        )
+    )
 
 
 if __name__ == "__main__":

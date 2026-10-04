@@ -5,6 +5,7 @@ from sqlalchemy import select
 
 from app.api.deps import DB, CurrentUser
 from app.engine.exam import BREAK_SECONDS, domain_of
+from app.engine.irt import margin
 from app.generators.spr import is_valid_entry
 from app.models import ExamItem, ExamModule, ExamSession, Question, Response, Skill
 from app.schemas.exam import (
@@ -212,4 +213,11 @@ async def results(exam_id: int, db: DB, user: CurrentUser) -> ExamResults:
         )
         for node, (c, n) in sorted(tally.items())
     ]
-    return ExamResults(**_summary(sess, mods).model_dump(), breakdown=breakdown, items=items)
+    cal = await ex.calibration(db, user.id)
+    return ExamResults(
+        **_summary(sess, mods).model_dump(),
+        margins={s: margin(theta, se, cal.scales[s]) for s, (theta, se, _) in cal.abilities[sess.id].items()},
+        calibrated_with={s: cal.scales[s].n for s in cal.abilities[sess.id]},
+        breakdown=breakdown,
+        items=items,
+    )

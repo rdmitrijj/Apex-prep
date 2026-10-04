@@ -16,7 +16,7 @@ def test_coverage_targets() -> None:
     leaves = [n["id"] for n in load_taxonomy() if n["level"] == "subskill" and n["section"] == "RW"]
     assert set(counts) <= set(leaves), set(counts) - set(leaves)
     for leaf in leaves:
-        need = 10 if leaf.startswith(HIGH_WEIGHT) else 3
+        need = 10 if leaf.startswith(HIGH_WEIGHT) else 9
         assert counts[leaf] >= need, (leaf, counts[leaf])
 
 
