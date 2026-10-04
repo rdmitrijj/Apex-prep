@@ -881,6 +881,14 @@ def linf_parperp(rng: random.Random, d: Difficulty) -> Generated:
     line_slope = -sympy.solve(sympy.Eq(a * x + b * y, c), y)[0].coeff(x) * -1
     perp = -1 / line_slope
     eq = f"{lin(a, 0)} + {b}y = {c}".replace("+ -", "- ")
+    solve_y = (
+        f"Solve for $y$: ${b}y = {lin(-a, c)}$, so $y = {lin(line_slope, R(c, b))}$. "
+        f"The slope of $\\ell$ is the coefficient of $x$: ${tex(line_slope)}$."
+    )
+    neg_recip = (
+        f"Perpendicular slopes multiply to $-1$, so the slope of $p$ is the negative reciprocal "
+        f"of ${tex(line_slope)}$: ${tex(perp)}$."
+    )
     if d == "medium":
         key = perp
         stem = f"Line $\\ell$ is defined by ${eq}$. Line $p$ is perpendicular to line $\\ell$. What is the slope of line $p$?"
@@ -894,10 +902,7 @@ def linf_parperp(rng: random.Random, d: Difficulty) -> Generated:
             (lambda: -line_slope, "partial_solution", "Changed the sign but forgot to take the reciprocal."),
             (lambda: R(a, b), "sign_flip", "Read the slope off as $a/b$; solving for $y$ gives $-a/b$."),
         )
-        steps = [
-            f"Solve for $y$: slope of $\\ell$ is ${tex(line_slope)}$.",
-            f"Perpendicular slope is the negative reciprocal: ${tex(perp)}$.",
-        ]
+        steps = [solve_y, neg_recip]
         return build(
             rng,
             skill=skill,
@@ -925,8 +930,10 @@ def linf_parperp(rng: random.Random, d: Difficulty) -> Generated:
         (lambda: R(c, b), "misread", "That's the $y$-intercept of line $\\ell$."),
     )
     steps = [
-        f"Slope of $\\ell$: ${tex(line_slope)}$; slope of $p$: ${tex(perp)}$.",
-        f"$b = {q_} - ({tex(perp)})({p_}) = {tex(key)}$.",
+        solve_y,
+        neg_recip,
+        f"Write $p$ as $y = {tex(perp)}x + b$ and plug in {pt(p_, q_)}: ${q_} = ({tex(perp)})({p_}) + b$.",
+        f"$b = {q_} - ({tex(perp)})({p_}) = {tex(key)}$, so the $y$-intercept is ${tex(key)}$.",
     ]
     return build(
         rng,
