@@ -38,6 +38,8 @@ export type ExamSummary = {
 };
 
 export type ReviewItem = {
+  response_id: number | null;
+  miss_reason: string | null;
   module: string;
   section: Section;
   position: number;

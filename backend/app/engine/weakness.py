@@ -1,11 +1,15 @@
 """Weakness score per sub-skill: how much practising it is likely to move the score.
 
-score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay) · sqrt(weight / mean leaf weight) · 1.3 for Math
+score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · sqrt(weight / mean leaf weight)
+        · 1.3 for Math
 
 - need: chance of missing a medium-hard item (b = 0.5) at the skill's recency-weighted ability
 - errors: recency-weighted error rate, smoothed toward 50%
 - pace: how far the median answer time is over the test's per-question budget (capped at 2x)
 - decay: days since last practice, saturating at 21
+- due: 1 when the skill's spaced-repetition review is due (engine/srs.py)
+Ability uses partial credit: a correct answer that took over twice the test's time budget earns 0.75,
+and one reached after eliminating two or more choices loses another 0.15 (a likely 50/50 guess).
 Responses decay with a 14-day half-life; exam responses (timed, realistic) count 1.5x.
 """
 
@@ -29,6 +33,18 @@ class Attempt:
     time_ms: int
     age_days: float
     exam: bool
+    eliminated: int = 0
+
+
+def credit(a: Attempt, target_seconds: float) -> float:
+    if not a.correct:
+        return 0.0
+    c = 1.0
+    if a.time_ms > 2 * target_seconds * 1000:
+        c -= 0.25
+    if a.eliminated >= 2:
+        c -= 0.15
+    return c
 
 
 @dataclass(frozen=True)
@@ -40,15 +56,21 @@ class Weakness:
     correct: int
     avg_seconds: float | None
     target_seconds: float
+    mastery: float  # expected chance of getting a medium question right
     reasons: list[str] = field(default_factory=list)
 
 
 def weakness(
-    skill_id: str, section: str, weight: float, mean_weight: float, attempts: Sequence[Attempt]
+    skill_id: str,
+    section: str,
+    weight: float,
+    mean_weight: float,
+    attempts: Sequence[Attempt],
+    due: bool = False,
 ) -> Weakness:
     target = TARGET_SECONDS[section]
     ws = [0.5 ** (a.age_days / HALF_LIFE_DAYS) * (EXAM_WEIGHT if a.exam else 1.0) for a in attempts]
-    theta = ability([(a.b, a.correct, w) for a, w in zip(attempts, ws, strict=True)])
+    theta = ability([(a.b, credit(a, target), w) for a, w in zip(attempts, ws, strict=True)])
     need = 1.0 - p_correct(theta, 0.5)
     missed_w = sum(w for a, w in zip(attempts, ws, strict=True) if not a.correct)
     errors = (missed_w + 0.5) / (sum(ws) + 1.0)
@@ -58,7 +80,7 @@ def weakness(
     last = min((a.age_days for a in attempts), default=None)
     decay = 0.0 if last is None else min(1.0, last / 21.0)
 
-    base = 0.45 * need + 0.30 * errors + 0.15 * pace + 0.10 * decay
+    base = 0.45 * need + 0.30 * errors + 0.15 * pace + 0.10 * decay + (0.15 if due else 0.0)
     score = base * (weight / mean_weight) ** 0.5 * (MATH_BOOST if section == "MATH" else 1.0)
 
     n_correct = sum(a.correct for a in attempts)
@@ -72,7 +94,9 @@ def weakness(
             reasons.append(f"Missed {missed} of the last {len(recent)}")
         if median is not None and median > target * 1.2:
             reasons.append(f"{median / target:.1f}× slower than test pace")
-        if last is not None and last >= 14:
+        if due:
+            reasons.append("Due for review")
+        elif last is not None and last >= 14:
             reasons.append(f"Not practised in {int(last)} days")
     return Weakness(
         skill_id=skill_id,
@@ -82,5 +106,6 @@ def weakness(
         correct=n_correct,
         avg_seconds=sum(times) / len(times) if times else None,
         target_seconds=target,
+        mastery=p_correct(theta, 0.0),
         reasons=reasons,
     )

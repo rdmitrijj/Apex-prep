@@ -276,6 +276,12 @@ async def run(
                     ok = item is not None and await asyncio.to_thread(pipe.check, item, existing, stats)
                 except anthropic.AuthenticationError:
                     raise SystemExit("ANTHROPIC_API_KEY was rejected") from None
+                except anthropic.BadRequestError as e:
+                    if "credit balance" in str(e):
+                        print("Anthropic credit balance is too low; stopping", file=sys.stderr)
+                        return stats
+                    stats.reject(f"error: {type(e).__name__}")
+                    continue
                 except (anthropic.APIStatusError, anthropic.APIConnectionError, ValueError) as e:
                     stats.reject(f"error: {type(e).__name__}")
                     continue

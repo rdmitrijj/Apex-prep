@@ -5,6 +5,7 @@ import json
 import random
 import re
 import secrets
+from datetime import UTC, datetime, time
 from fractions import Fraction
 from pathlib import Path
 from typing import Any
@@ -13,10 +14,11 @@ from sqlalchemy import exists, func, select
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.engine import srs
 from app.generators import REGISTRY, generate
 from app.generators.core import DIFFICULTY_RATING
 from app.generators.spr import canonical_entry, is_correct
-from app.models import Question, Response, Skill
+from app.models import Question, Response, ReviewSchedule, Skill
 from app.schemas.question import QuestionOut, RWItem
 
 SEED_DIR = Path(__file__).resolve().parents[1] / "seed"
@@ -130,6 +132,20 @@ async def pick(
         if q is not None:
             return q
     return None
+
+
+async def record_review(db: AsyncSession, user_id: int, skill_id: str, correct: bool) -> None:
+    """Advance or reset the skill's spaced-repetition schedule after a graded answer."""
+    today = datetime.now(UTC).date()
+    row = await db.get(ReviewSchedule, (user_id, skill_id))
+    interval, due = srs.next_review(
+        row.interval_days if row else None, row.due_at.date() if row else None, today, correct
+    )
+    due_at = datetime.combine(due, time(), tzinfo=UTC)
+    if row is None:
+        db.add(ReviewSchedule(user_id=user_id, skill_id=skill_id, interval_days=interval, due_at=due_at))
+    else:
+        row.interval_days, row.due_at = interval, due_at
 
 
 async def skill_names(db: AsyncSession) -> dict[str, str]:

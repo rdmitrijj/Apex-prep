@@ -1,6 +1,7 @@
 """Generator framework: build a question from a SymPy-computed key and error-model distractors."""
 
 import random
+import re
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from fractions import Fraction
@@ -195,6 +196,7 @@ def _render(v: Value) -> str:
 
 
 LETTERS = "ABCD"
+CHOICE_WORDING = re.compile(r"\bwhich (of the following|choice|option)\b", re.IGNORECASE)
 
 
 def build(
@@ -214,6 +216,8 @@ def build(
 ) -> Generated:
     """Assemble MC or SPR. SPR (~30%) only for rational keys when the stem allows it."""
     key_s = sympy.sympify(key) if not isinstance(key, str) else key
+    # A stem that refers to answer choices can't become a free-response item without its own wording.
+    spr = spr and (spr_stem is not None or not CHOICE_WORDING.search(stem))
     if fr_ok := (spr and not isinstance(key_s, str) and key_s.is_Rational and rng.random() < 0.3):
         fr = [to_fraction(key_s)]
         fr_ok = is_correct(canonical_entry(fr[0]), fr)

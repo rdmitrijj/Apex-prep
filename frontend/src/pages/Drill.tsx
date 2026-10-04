@@ -1,7 +1,9 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { nextQuestion, submitAnswer, useSkills, type Difficulty, type Feedback, type Question, type SkillNode } from "../api/drill";
+import { MissReason } from "../components/MissReason";
 import { QuestionView } from "../components/QuestionView";
 import { Shell } from "../components/Shell";
 
@@ -170,6 +172,7 @@ export function Session({
         {next.isError && <p role="alert" className="text-red-700">{errMsg(next.error)}</p>}
         {next.isPending && <p className="text-slate-500">Loading question…</p>}
         {q && !next.isPending && <QuestionView key={q.id} q={q} feedback={fb} busy={answer.isPending} error={errMsg(answer.error)} onSubmit={(a) => answer.mutate(a)} />}
+        {fb && !fb.correct && fb.response_id && <div className="mt-4 border-t border-slate-100 pt-3"><MissReason key={fb.response_id} responseId={fb.response_id} /></div>}
       </div>
       <div className="flex justify-between">
         <button onClick={onDone} className="text-sm text-slate-600 hover:underline">{mode === "drill" ? "End drill" : "End session"}</button>
@@ -197,8 +200,24 @@ export function Session({
   );
 }
 
+function fromUrl(params: URLSearchParams): Setup | null {
+  const skills = params.get("skills");
+  if (!skills) return null;
+  const d = params.get("difficulty");
+  return {
+    skill_ids: skills.split(","),
+    difficulty: d === "easy" || d === "medium" || d === "hard" ? d : "mixed",
+    count: Math.min(30, Math.max(1, Number(params.get("count")) || 5)),
+  };
+}
+
 export function Drill() {
-  const [setup, setSetup] = useState<Setup | null>(null);
+  const [params, setParams] = useSearchParams();
+  const [setup, setSetupState] = useState<Setup | null>(() => fromUrl(params));
+  const setSetup = (s: Setup | null) => {
+    setSetupState(s);
+    if (!s && params.has("skills")) setParams({}, { replace: true });
+  };
   return (
     <Shell>
       {setup ? (

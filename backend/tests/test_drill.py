@@ -85,3 +85,30 @@ async def test_empty_rw_skill_and_report(user: AsyncClient) -> None:
         await user.post(f"/api/questions/{q['id']}/report", json={"reason": "figure is wrong"})
     ).status_code == 204
     assert (await _key(q["id"])).status == "quarantined"
+
+
+async def test_mistakes_notebook_srs_and_tags(user: AsyncClient) -> None:
+    from app.models import ReviewSchedule
+
+    q = (await user.post("/api/drill/next", json={"skill_ids": ["MATH.ALG.LIN1.SOLVE"]})).json()
+    stored = await _key(q["id"])
+    wrong = "9999" if q["format"] == "spr" else next(c for c in "ABCD" if c != stored.content["answer"])
+    body = {"question_id": q["id"], "answer": wrong, "time_ms": 10}
+    fb = (await user.post("/api/drill/answer", json=body)).json()
+    assert fb["correct"] is False and fb["response_id"]
+    async with SessionLocal() as db:
+        user_id = await db.scalar(select(Response.user_id))
+        sched = await db.get(ReviewSchedule, (user_id, q["skill_id"]))
+        assert sched is not None and sched.interval_days == 1
+
+    notebook = (await user.get("/api/mistakes")).json()
+    assert [m["response_id"] for m in notebook] == [fb["response_id"]]
+    assert notebook[0]["key"] and notebook[0]["explanation"] and notebook[0]["answer"] == wrong
+    tag = await user.put(f"/api/responses/{fb['response_id']}/reason", json={"miss_reason": "careless"})
+    assert tag.status_code == 204
+    assert (await user.get("/api/mistakes?reason=careless")).json()[0]["miss_reason"] == "careless"
+    assert (await user.get("/api/mistakes?reason=untagged")).json() == []
+    assert (await user.get("/api/mistakes?section=RW")).json() == []
+    assert len((await user.get("/api/mistakes?skill=MATH.ALG")).json()) == 1
+    bad = await user.put(f"/api/responses/{fb['response_id']}/reason", json={"miss_reason": "aliens"})
+    assert bad.status_code == 422

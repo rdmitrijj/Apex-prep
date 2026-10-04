@@ -165,3 +165,21 @@ def test_strip_text_labels() -> None:
     s = strip_labels(item)
     assert s.passage == "Some critics say a thing." and s.passage2 == "Others disagree."
     assert strip_labels(RWItem.model_validate(ITEM)).passage == ITEM["passage"]
+
+
+async def test_out_of_credits_stops_the_run() -> None:
+    import anthropic
+    import httpx
+
+    async with SessionLocal() as db:
+        await seed(db)
+
+    class Broke(FakeClient):
+        def parse(self, **kw: Any) -> Any:
+            self.calls.append(kw)
+            resp = httpx.Response(400, request=httpx.Request("POST", "https://api.anthropic.com/v1/messages"))
+            raise anthropic.BadRequestError("Your credit balance is too low", response=resp, body=None)
+
+    fake = Broke([])
+    stats = await run(Pipeline(fake, "claude-opus-5-5"), ["RW.SEC.BND"], 5, "medium", True, [])
+    assert stats.inserted == 0 and len(fake.calls) == 1  # stopped at the first refusal, no retries per item

@@ -120,3 +120,39 @@ def test_to_score_uses_scale_and_keeps_easier_route_cap() -> None:
     assert irt.to_score(1.0, "harder", hi) == 720
     assert irt.to_score(1.0, "easier", hi) == irt.EASIER_ROUTE_CAP
     assert irt.to_score(-9.0, None, hi) == 200 and irt.to_score(9.0, None, hi) == 800
+
+
+def test_srs_intervals() -> None:
+    from datetime import date, timedelta
+
+    from app.engine.srs import next_review
+
+    d0 = date(2026, 10, 1)
+    assert next_review(None, None, d0, True) == (1, d0 + timedelta(days=1))
+    assert next_review(None, None, d0, False) == (1, d0 + timedelta(days=1))
+    assert next_review(1, d0 + timedelta(days=1), d0, True) == (
+        1,
+        d0 + timedelta(days=1),
+    )  # early: no extension
+    due = d0 + timedelta(days=1)
+    chain = []
+    interval: int | None = 1
+    for _ in range(5):
+        interval, due = next_review(interval, due, due, True)
+        chain.append(interval)
+    assert chain == [3, 7, 14, 14, 14]
+    assert next_review(14, due, due - timedelta(days=5), False)[0] == 1  # a miss resets at any time
+
+
+def test_partial_credit_for_slow_or_eliminated_answers() -> None:
+    from app.engine.weakness import credit
+
+    fast = Attempt(correct=True, b=0.0, time_ms=30_000, age_days=0, exam=False)
+    assert credit(fast, 71) == 1.0
+    assert credit(Attempt(True, 0.0, 200_000, 0, False), 71) == 0.75
+    assert credit(Attempt(True, 0.0, 200_000, 0, False, eliminated=2), 71) == 0.6
+    assert credit(Attempt(False, 0.0, 1, 0, False), 71) == 0.0
+    w = weakness("X", "RW", 0.03, 0.03, [fast] * 3)
+    assert w.reasons == [] and 0.5 < w.mastery < 1
+    assert "Due for review" in weakness("X", "RW", 0.03, 0.03, [fast], due=True).reasons
+    assert weakness("X", "RW", 0.03, 0.03, [fast], due=True).score > w.score

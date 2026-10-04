@@ -133,6 +133,7 @@ class AnswerIn(BaseModel):
 
 
 class Feedback(BaseModel):
+    response_id: int
     correct: bool
     answer: str  # MC letter, or an accepted SPR entry
     explanation: list[str]

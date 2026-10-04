@@ -1,425 +1,465 @@
 [
- {
-  "skill": "RW.CAS.TSP.PURPOSE",
-  "difficulty": "easy",
-  "passage": "Each spring, millions of monarch butterflies leave their wintering grounds in central Mexico and fly north. No single butterfly completes the round trip, however. The journey north spans several generations, with each new generation continuing where the last one stopped, so the butterflies that return to Mexico in the fall are the great-grandchildren of those that left.",
-  "stem": "Which choice best describes the main purpose of the text?",
-  "choices": [
-   "To compare monarch butterflies with other migrating insects",
-   "To argue that monarch butterflies should be protected in Mexico",
-   "To describe the physical appearance of monarch butterflies",
-   "To explain that the monarchs' migration is completed over several generations"
-  ],
-  "answer": "D",
-  "explanation": "The text describes how the migration works and emphasizes that it spans generations.",
-  "rationales": {
-   "A": "No other insects are mentioned.",
-   "B": "The text doesn't argue for protection.",
-   "C": "Appearance isn't described.",
-   "D": "Correct. The text's focus is how several generations complete the journey."
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "easy",
+    "passage": "Each spring, millions of monarch butterflies leave their wintering grounds in central Mexico and fly north. No single butterfly completes the round trip, however. The journey north spans several generations, with each new generation continuing where the last one stopped, so the butterflies that return to Mexico in the fall are the great-grandchildren of those that left.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To compare monarch butterflies with other migrating insects",
+      "To argue that monarch butterflies should be protected in Mexico",
+      "To describe the physical appearance of monarch butterflies",
+      "To explain that the monarchs' migration is completed over several generations"
+    ],
+    "answer": "D",
+    "explanation": "The text describes how the migration works and emphasizes that it spans generations.",
+    "rationales": {
+      "A": "No other insects are mentioned.",
+      "B": "The text doesn't argue for protection.",
+      "C": "Appearance isn't described.",
+      "D": "Correct. The text's focus is how several generations complete the journey."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "medium",
+    "passage": "Many people picture glass as a solid, but a persistent myth claims it is actually a very slow-moving liquid, citing old church windows that are thicker at the bottom. Researchers have shown, however, that at room temperature glass would take far longer than the age of the universe to flow noticeably. The uneven windows are better explained by medieval glassmaking techniques, which couldn't produce panes of uniform thickness.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To argue that glass should be classified as a liquid",
+      "To correct a common misconception about glass and offer a better explanation for the evidence cited in support of it",
+      "To compare the properties of glass with those of other solids",
+      "To describe how medieval glassmakers produced church windows"
+    ],
+    "answer": "B",
+    "explanation": "The text presents a myth, refutes it, and explains the windows differently.",
+    "rationales": {
+      "A": "The text argues the opposite.",
+      "B": "Correct. The text debunks the myth and reinterprets the evidence.",
+      "C": "No other solids are discussed.",
+      "D": "Glassmaking is mentioned only to explain the windows."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "hard",
+    "passage": "In her 1937 novel, Zora Neale Hurston rendered her characters' dialogue in the rural Black Southern English of the time, a choice some contemporary reviewers criticized as unrefined. Later scholars have reread the choice as deliberate: by writing the characters' speech as they would have spoken it, Hurston treated their language as a fit medium for serious literature rather than as something to be corrected.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To describe the history of dialect writing in American fiction",
+      "To present a later interpretation of a stylistic choice that some early readers criticized",
+      "To argue that early reviewers of Hurston's novel were correct",
+      "To summarize the plot of Hurston's 1937 novel"
+    ],
+    "answer": "B",
+    "explanation": "The text contrasts early criticism with scholars' later reading of Hurston's choice as deliberate.",
+    "rationales": {
+      "A": "The text focuses on one novel, not a history.",
+      "B": "Correct. It presents the scholars' reinterpretation of criticized dialogue.",
+      "C": "The text sides with the later scholars.",
+      "D": "The plot isn't summarized."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "easy",
+    "passage": "Some animals survive winter by hibernating, lowering their body temperature and heart rate to save energy. Others, like many songbirds, avoid winter altogether by migrating to warmer regions. A third group, which includes deer and foxes, stays active all winter, growing thicker coats and changing their diets to cope with the cold.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents a problem and then proposes a solution.",
+      "It presents a claim and then offers evidence that contradicts it.",
+      "It describes three different strategies animals use to survive winter.",
+      "It describes an animal behavior and then explains its evolutionary origin."
+    ],
+    "answer": "C",
+    "explanation": "The text lists hibernation, migration, and staying active as three strategies.",
+    "rationales": {
+      "A": "No problem-and-solution structure appears.",
+      "B": "Nothing contradicts a claim.",
+      "C": "Correct. It accurately describes the three-part structure.",
+      "D": "No evolutionary origin is discussed."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "medium",
+    "passage": "For decades, astronomers assumed that planets form only around single stars, since the gravity of two stars would disrupt the disks of gas and dust from which planets grow. In 2011, however, a space telescope detected a planet orbiting a pair of stars. Since then, dozens of such planets have been found, prompting astronomers to revise their models of planet formation.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It compares two theories of planet formation and argues for one of them.",
+      "It describes an assumption, presents a discovery that challenged it, and notes how scientists responded.",
+      "It explains a scientific method and then describes its limitations.",
+      "It describes a planet and then explains how it was named."
+    ],
+    "answer": "B",
+    "explanation": "The text moves from an assumption to a contradicting discovery to revised models.",
+    "rationales": {
+      "A": "Two theories aren't compared.",
+      "B": "Correct. This matches the text's progression.",
+      "C": "No method or limitations are described.",
+      "D": "Naming isn't discussed."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "Historian Peter Lindqvist argues that the spread of household clocks in the nineteenth century changed how people experienced time, encouraging them to divide the day into precise units. Critics have objected that factory schedules and railway timetables, not household clocks, drove this change. Lindqvist acknowledges these influences but notes that diaries from the period show people organizing even their leisure hours by the clock.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a source and then questions its reliability.",
+      "It summarizes two competing arguments and concludes that neither is persuasive.",
+      "It describes a historical change and then lists its consequences in order of importance.",
+      "It presents an argument, describes an objection to it, and then gives the arguer's response."
+    ],
+    "answer": "D",
+    "explanation": "The text moves from Lindqvist's argument to the critics' objection to his reply.",
+    "rationales": {
+      "A": "The diaries are evidence, not a source whose reliability is questioned.",
+      "B": "The text doesn't reject both arguments.",
+      "C": "Consequences aren't listed.",
+      "D": "Correct. This matches the argument-objection-response structure."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "easy",
+    "passage": "The axolotl, a salamander native to lakes near Mexico City, can regrow lost limbs, parts of its heart, and even portions of its brain. <u>Scientists study the axolotl in hopes of learning how to help human tissues heal.</u> Unfortunately, wild axolotls are critically endangered because of pollution and habitat loss.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It lists the body parts that axolotls can regrow.",
+      "It explains why axolotls are endangered.",
+      "It describes where axolotls live in the wild.",
+      "It explains why the axolotl's regenerative abilities interest researchers."
+    ],
+    "answer": "D",
+    "explanation": "The underlined sentence connects the regrowth ability to scientists' interest in human healing.",
+    "rationales": {
+      "A": "The body parts are listed in the first sentence.",
+      "B": "Endangerment is explained in the last sentence.",
+      "C": "The habitat is described in the first sentence.",
+      "D": "Correct. It gives the reason scientists study the animal."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "medium",
+    "passage": "The painter Agnes Pelton spent years in the California desert making abstract works filled with glowing orbs and veils of color. <u>Although she exhibited regularly, her paintings attracted little attention during her lifetime.</u> Only decades after her death, when a 2019 retrospective toured several museums, did critics begin to describe her as a major figure of American modernism.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It establishes a lack of recognition that the following sentence shows was later reversed.",
+      "It explains why Pelton chose to live in the desert.",
+      "It argues that critics in Pelton's lifetime were right to overlook her work.",
+      "It describes the subject matter of Pelton's paintings."
+    ],
+    "answer": "A",
+    "explanation": "The underlined sentence sets up the contrast with later acclaim.",
+    "rationales": {
+      "A": "Correct. It sets up the contrast with posthumous recognition.",
+      "B": "The text doesn't explain her move to the desert.",
+      "C": "The text doesn't defend earlier critics.",
+      "D": "Subject matter is described in the first sentence."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "passage": "Engineers designing tall buildings in earthquake zones once focused on making structures as rigid as possible. <u>Rigid buildings, however, absorb the full force of seismic waves and can crack under the strain.</u> Modern designs instead allow buildings to sway, using flexible joints and heavy pendulum-like dampers that counteract motion.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It argues that tall buildings should not be built in earthquake zones.",
+      "It describes how modern dampers counteract a building's motion.",
+      "It identifies a weakness in an older approach that helps explain the shift to the modern approach described next.",
+      "It provides an example of a building that collapsed during an earthquake."
+    ],
+    "answer": "C",
+    "explanation": "The underlined sentence explains why rigidity was a problem, motivating flexible designs.",
+    "rationales": {
+      "A": "The text doesn't argue against tall buildings.",
+      "B": "Dampers are described in the last sentence.",
+      "C": "Correct. It explains the flaw that led to the modern approach.",
+      "D": "No specific building is mentioned."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Many economists have argued that remote work reduces productivity because employees lose the informal conversations that spark new ideas. They point to surveys in which managers report fewer innovative proposals from remote teams.",
+    "passage2": "Economist Rosa Lindgren compared patent filings and project completion rates at firms before and after they adopted remote work. She found no decline in either measure. Lindgren notes that managers may perceive less innovation simply because they observe less of their employees' daily work.",
+    "stem": "Based on the texts, how would Lindgren (Text 2) most likely respond to the economists' argument in Text 1?",
+    "choices": [
+      "She would argue that the surveys reflect managers' perceptions rather than measured differences in productivity.",
+      "She would agree that remote work reduces productivity for most employees.",
+      "She would claim that managers are generally unreliable sources of information about their teams.",
+      "She would argue that informal conversations are unimportant for innovation."
+    ],
+    "answer": "A",
+    "explanation": "Text 2's author relies on output measures and notes that managers' impressions may not match them, so she would question survey-based conclusions.",
+    "rationales": {
+      "A": "Correct. It matches Text 2's distinction between perception and measured output.",
+      "B": "Text 2's data show no decline in measured output.",
+      "C": "Text 2 makes a narrower point about perception versus measurement.",
+      "D": "Text 2 doesn't dismiss informal conversations."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "passage": "Scholars long assumed that the Norse settlements in Greenland collapsed in the fifteenth century because the settlers refused to adopt Inuit hunting techniques, clinging instead to European-style farming that failed as the climate cooled.",
+    "passage2": "Analyses of bones from Norse graves in Greenland reveal that the settlers' diets changed markedly over time: by the final decades of settlement, seal meat made up as much as 80 percent of what they ate. Archaeologist Jette Arneborg argues that the Norse adapted to local conditions and that other factors, such as declining trade with Europe, must have contributed to the settlements' end.",
+    "stem": "Based on the texts, how would Arneborg (Text 2) most likely respond to the assumption described in Text 1?",
+    "choices": [
+      "By agreeing that the settlers clung to European-style farming until the end",
+      "By claiming that the Inuit and the Norse never came into contact",
+      "By arguing that the climate did not cool in the fifteenth century",
+      "By arguing that the settlers did adapt their diet, which suggests that a refusal to adapt is not a sufficient explanation for the collapse"
+    ],
+    "answer": "D",
+    "explanation": "Text 2's evidence that the settlers ate more seal over time undercuts the claim that they refused to adapt.",
+    "rationales": {
+      "A": "Text 2 indicates the opposite: the settlers' diet shifted.",
+      "B": "Text 2 doesn't address contact between the groups.",
+      "C": "Text 2 doesn't dispute the cooling climate.",
+      "D": "Correct. Text 2 shows the settlers changed their diet, challenging the assumption."
+    }
+  },
+  {
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "passage": "Some urban planners claim that adding lanes to congested highways relieves traffic, since more lanes allow more cars to move at once.",
+    "passage2": "Transportation researcher Mei Zhang studied highways in dozens of cities and found that traffic volumes rose in proportion to new lane capacity within about five years. She explains that wider roads make driving more convenient, encouraging people to take trips they would otherwise have skipped, so congestion returns.",
+    "stem": "Based on the texts, how would Zhang (Text 2) most likely respond to the planners' claim in Text 1?",
+    "choices": [
+      "She would argue that the relief is temporary because added lanes attract more driving.",
+      "She would agree that adding lanes is the most effective way to reduce congestion.",
+      "She would argue that highways should have fewer lanes than they do now.",
+      "She would claim that congestion has no effect on how much people drive."
+    ],
+    "answer": "A",
+    "explanation": "Text 2 reports that new lanes fill with new traffic within a few years, so the relief doesn't last.",
+    "rationales": {
+      "A": "Correct. It matches Text 2's point about induced demand.",
+      "B": "Text 2 disputes that adding lanes works.",
+      "C": "Text 2 doesn't propose removing lanes.",
+      "D": "Text 2 implies the opposite: road capacity affects how much people drive."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "easy",
+    "passage": "Octopuses have a remarkable ability to change color. Special skin cells called chromatophores contain sacs of pigment that the octopus can expand or shrink in a fraction of a second. By controlling thousands of these cells, an octopus can blend into rocks, flash warning patterns at predators, or signal to other octopuses.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Octopuses mainly change color to communicate with one another.",
+      "Chromatophores contain sacs of pigment.",
+      "Octopuses are the only animals that can change color.",
+      "Octopuses use specialized skin cells to change color rapidly for several purposes."
+    ],
+    "answer": "D",
+    "explanation": "The text explains how octopuses change color and lists several uses.",
+    "rationales": {
+      "A": "Communication is only one of several uses.",
+      "B": "This is a supporting detail, not the main idea.",
+      "C": "The text doesn't say octopuses are the only such animals.",
+      "D": "Correct. It captures both the mechanism and the purposes."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "When the city of Medellín, Colombia, built cable cars connecting hillside neighborhoods to its metro system in 2004, planners hoped mainly to shorten commutes. The cable cars did that, cutting some trips from two hours to twenty minutes. But researchers have since found broader effects: violence declined in the connected neighborhoods, and new libraries and businesses opened near the stations.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Medellín built its cable cars mainly to reduce violence.",
+      "Medellín's cable cars produced benefits beyond the shorter commutes planners had hoped for.",
+      "Cable cars are the most efficient form of public transit.",
+      "Some commutes in Medellín once took two hours."
+    ],
+    "answer": "B",
+    "explanation": "The text contrasts the intended benefit with broader effects found later.",
+    "rationales": {
+      "A": "Shorter commutes were the main goal.",
+      "B": "Correct. It captures the contrast between intended and broader effects.",
+      "C": "The text makes no general claim about efficiency.",
+      "D": "This is a detail."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "hard",
+    "passage": "In his studies of medieval manuscripts, historian Erik Dahl noticed that scribes often wrote small complaints in the margins: about cold rooms, bad ink, or aching hands. Earlier scholars had dismissed these notes as trivial. Dahl argues that they offer rare evidence of scribes' working conditions and show that copying books was demanding physical labor, not merely a quiet devotional task.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Medieval scribes frequently complained about bad ink.",
+      "Copying manuscripts was primarily a devotional activity.",
+      "Earlier scholars studied medieval manuscripts more carefully than Dahl did.",
+      "Marginal notes once considered trivial reveal that copying manuscripts was physically demanding work."
+    ],
+    "answer": "D",
+    "explanation": "Dahl reinterprets dismissed notes as evidence of hard working conditions.",
+    "rationales": {
+      "A": "This is one example, not the main idea.",
+      "B": "Dahl argues against this view.",
+      "C": "The text doesn't compare care.",
+      "D": "Correct. It states Dahl's central claim about the notes."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "easy",
+    "passage": "Tardigrades are tiny animals, usually less than a millimeter long, that live in moss, soil, and ocean sediment. They are famous for their toughness: when their surroundings dry out, they curl into a dormant state called a tun, in which they can survive for years without water.",
+    "stem": "According to the text, what do tardigrades do when their surroundings dry out?",
+    "choices": [
+      "They lay eggs that hatch when water returns.",
+      "They move to the ocean to find water.",
+      "They curl into a dormant state called a tun.",
+      "They grow larger to store more water."
+    ],
+    "answer": "C",
+    "explanation": "The text says tardigrades curl into a tun when their surroundings dry out.",
+    "rationales": {
+      "A": "Eggs aren't mentioned.",
+      "B": "The text doesn't say they move.",
+      "C": "Correct. The text states this directly.",
+      "D": "The text doesn't mention growth."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "medium",
+    "passage": "Before the invention of refrigeration, people in cold regions harvested ice from frozen lakes in winter and stored it in insulated icehouses. Packed in sawdust, the ice could last well into the summer. In the nineteenth century, merchant Frederic Tudor built a profitable business shipping New England ice to the Caribbean and India.",
+    "stem": "According to the text, how was harvested ice kept from melting until summer?",
+    "choices": [
+      "Shipping it to the Caribbean and India",
+      "Freezing it in refrigerators",
+      "Packing it in sawdust in insulated icehouses",
+      "Harvesting it only during the summer"
+    ],
+    "answer": "C",
+    "explanation": "The text says ice was stored in insulated icehouses and packed in sawdust.",
+    "rationales": {
+      "A": "Shipping was Tudor's business, not how ice lasted.",
+      "B": "This predates refrigeration.",
+      "C": "Correct. The text describes this storage method.",
+      "D": "Ice was harvested in winter."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "passage": "Linguist Amara Okonkwo studies whistled languages, in which speakers convey words by whistling the pitch and rhythm of their spoken language. She notes that whistled speech developed mostly in mountainous or densely forested areas, where a whistle can carry several kilometers, far farther than a shout, allowing people to communicate across valleys.",
+    "stem": "According to the text, why did whistled languages develop mostly in mountainous or forested areas?",
+    "choices": [
+      "Because whistling is easier to learn than spoken language",
+      "Because these areas had no written languages",
+      "Because whistles carry much farther than shouts, which is useful where people are separated by difficult terrain",
+      "Because whistled languages use pitch and rhythm"
+    ],
+    "answer": "C",
+    "explanation": "Okonkwo links whistled speech to terrain where whistles travel farther than shouts.",
+    "rationales": {
+      "A": "Ease of learning isn't mentioned.",
+      "B": "Writing isn't mentioned.",
+      "C": "Correct. The text gives this reason.",
+      "D": "This describes how whistled languages work, not why they arose in these areas."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "easy",
+    "passage": "Biologists studying a population of lizards on a small island found that, after a hurricane, the surviving lizards had larger toe pads than the population had before the storm. Larger toe pads help lizards cling to branches in strong winds. This suggests that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "toe pad size has no effect on lizards' survival.",
+      "the hurricane caused the lizards' toe pads to grow larger.",
+      "lizards with larger toe pads were more likely to survive the hurricane.",
+      "lizards with smaller toe pads moved to other islands."
+    ],
+    "answer": "C",
+    "explanation": "If larger toe pads help lizards cling in wind and survivors had larger pads, lizards with larger pads likely survived more often.",
+    "rationales": {
+      "A": "This contradicts the evidence.",
+      "B": "Nothing suggests the storm changed individual lizards' pads.",
+      "C": "Correct. It follows from the survivors' larger pads and the pads' function.",
+      "D": "Nothing mentions lizards moving away."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "passage": "In a study of two neighboring towns, researchers found that the town with more street trees had summer afternoon temperatures about 3°C lower than the other town. The towns were similar in size, elevation, and distance from the coast. The researchers therefore concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the street trees likely contributed to the cooler temperatures.",
+      "elevation is the main factor affecting summer temperatures.",
+      "the towns had identical temperatures in winter.",
+      "distance from the coast explains the temperature difference."
+    ],
+    "answer": "A",
+    "explanation": "Because other factors were similar, the trees are the likely explanation for the difference.",
+    "rationales": {
+      "A": "Correct. It follows because the main other factors were held similar.",
+      "B": "Elevation was similar, so it can't explain the difference.",
+      "C": "Winter temperatures aren't discussed.",
+      "D": "The towns were similar in distance from the coast."
+    }
+  },
+  {
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "passage": "Many manuscripts of a medieval poem survive, and most contain the same 600 lines. One manuscript, however, includes 40 additional lines in a different style. Because the extra lines appear in no other copy, and because they refer to an event that occurred about a century after the poem is believed to have been written, scholars have concluded that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the extra lines were likely added by a later writer rather than by the poem's original author.",
+      "the poem was originally 640 lines long.",
+      "the other manuscripts were copied carelessly.",
+      "the poem was written a century later than scholars believe."
+    ],
+    "answer": "A",
+    "explanation": "Lines found in only one copy, in a different style, describing a later event, were most likely added later.",
+    "rationales": {
+      "A": "Correct. It follows from all three pieces of evidence.",
+      "B": "Most copies have 600 lines, so the extra lines were likely not original.",
+      "C": "Nothing suggests the other copies are careless.",
+      "D": "Scholars more plausibly conclude that the lines were added than that the dating is wrong."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.MAIN",
+    "difficulty": "medium",
+    "passage": "For decades, historians assumed that medieval European farmers rarely traveled beyond their home villages. Archaeologist Sigrún Hallsdóttir tested that assumption by analyzing strontium isotopes in the teeth of people buried in rural cemeteries in what is now Denmark. Because strontium ratios in tooth enamel reflect the local geology where a person grew up, they reveal whether someone was buried far from their childhood home. Hallsdóttir found that nearly a third of the individuals had spent their early years more than 100 kilometers away, suggesting that movement between rural communities was far more common than historians had believed.",
+    "stem": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Strontium ratios in tooth enamel vary with the local geology of the place where a person grew up.",
+      "Isotope evidence indicates that medieval rural people moved between communities much more than historians had assumed.",
+      "Medieval Danish farmers traveled more often than farmers in other parts of Europe.",
+      "Historians have relied too heavily on written records when studying medieval village life."
+    ],
+    "answer": "B",
+    "explanation": "The text sets up a long-held assumption (farmers rarely traveled), describes a test of it, and ends with a finding that overturns it: movement between rural communities was far more common than believed.",
+    "rationales": {
+      "A": "This is a supporting detail explaining the method, not the main point.",
+      "B": "Correct. It captures both the assumption being tested and the finding that overturns it.",
+      "C": "The text never compares Danish farmers with farmers elsewhere in Europe.",
+      "D": "Written records aren't mentioned; this goes beyond the text."
+    }
+  },
+  {
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "passage": "Many desert plants open their stomata, the pores through which they take in carbon dioxide, only at night, when cooler air means less water escapes. Botanist Tomás Ibarra noticed that a species of agave in the Sonoran Desert sometimes kept its stomata open well into the morning. Measuring the plants across a full year, he found that this happened only in the weeks after heavy rain, when the soil held enough moisture to offset the water lost during daytime gas exchange. In drier months, the agave reverted to strictly nighttime opening.",
+    "stem": "According to the text, under what condition did the agave keep its stomata open into the morning?",
+    "choices": [
+      "When the soil still held moisture from recent heavy rain",
+      "When nighttime temperatures were unusually low",
+      "When the plants needed more carbon dioxide than usual to grow",
+      "When daytime air was cooler than at night"
+    ],
+    "answer": "A",
+    "explanation": "Ibarra found the morning opening happened only in the weeks after heavy rain, when soil moisture offset daytime water loss.",
+    "rationales": {
+      "A": "Correct. The text ties the morning opening to soil moisture after heavy rain.",
+      "B": "Nighttime temperatures aren't linked to the morning behavior.",
+      "C": "The text never says the plants' carbon dioxide needs changed.",
+      "D": "The text says nights are cooler, not days; this reverses the passage."
+    }
   }
- },
- {
-  "skill": "RW.CAS.TSP.PURPOSE",
-  "difficulty": "medium",
-  "passage": "Many people picture glass as a solid, but a persistent myth claims it is actually a very slow-moving liquid, citing old church windows that are thicker at the bottom. Researchers have shown, however, that at room temperature glass would take far longer than the age of the universe to flow noticeably. The uneven windows are better explained by medieval glassmaking techniques, which couldn't produce panes of uniform thickness.",
-  "stem": "Which choice best describes the main purpose of the text?",
-  "choices": [
-   "To argue that glass should be classified as a liquid",
-   "To correct a common misconception about glass and offer a better explanation for the evidence cited in support of it",
-   "To compare the properties of glass with those of other solids",
-   "To describe how medieval glassmakers produced church windows"
-  ],
-  "answer": "B",
-  "explanation": "The text presents a myth, refutes it, and explains the windows differently.",
-  "rationales": {
-   "A": "The text argues the opposite.",
-   "B": "Correct. The text debunks the myth and reinterprets the evidence.",
-   "C": "No other solids are discussed.",
-   "D": "Glassmaking is mentioned only to explain the windows."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.PURPOSE",
-  "difficulty": "hard",
-  "passage": "In her 1937 novel, Zora Neale Hurston rendered her characters' dialogue in the rural Black Southern English of the time, a choice some contemporary reviewers criticized as unrefined. Later scholars have reread the choice as deliberate: by writing the characters' speech as they would have spoken it, Hurston treated their language as a fit medium for serious literature rather than as something to be corrected.",
-  "stem": "Which choice best describes the main purpose of the text?",
-  "choices": [
-   "To describe the history of dialect writing in American fiction",
-   "To present a later interpretation of a stylistic choice that some early readers criticized",
-   "To argue that early reviewers of Hurston's novel were correct",
-   "To summarize the plot of Hurston's 1937 novel"
-  ],
-  "answer": "B",
-  "explanation": "The text contrasts early criticism with scholars' later reading of Hurston's choice as deliberate.",
-  "rationales": {
-   "A": "The text focuses on one novel, not a history.",
-   "B": "Correct. It presents the scholars' reinterpretation of criticized dialogue.",
-   "C": "The text sides with the later scholars.",
-   "D": "The plot isn't summarized."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.STRUCTURE",
-  "difficulty": "easy",
-  "passage": "Some animals survive winter by hibernating, lowering their body temperature and heart rate to save energy. Others, like many songbirds, avoid winter altogether by migrating to warmer regions. A third group, which includes deer and foxes, stays active all winter, growing thicker coats and changing their diets to cope with the cold.",
-  "stem": "Which choice best describes the overall structure of the text?",
-  "choices": [
-   "It presents a problem and then proposes a solution.",
-   "It presents a claim and then offers evidence that contradicts it.",
-   "It describes three different strategies animals use to survive winter.",
-   "It describes an animal behavior and then explains its evolutionary origin."
-  ],
-  "answer": "C",
-  "explanation": "The text lists hibernation, migration, and staying active as three strategies.",
-  "rationales": {
-   "A": "No problem-and-solution structure appears.",
-   "B": "Nothing contradicts a claim.",
-   "C": "Correct. It accurately describes the three-part structure.",
-   "D": "No evolutionary origin is discussed."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.STRUCTURE",
-  "difficulty": "medium",
-  "passage": "For decades, astronomers assumed that planets form only around single stars, since the gravity of two stars would disrupt the disks of gas and dust from which planets grow. In 2011, however, a space telescope detected a planet orbiting a pair of stars. Since then, dozens of such planets have been found, prompting astronomers to revise their models of planet formation.",
-  "stem": "Which choice best describes the overall structure of the text?",
-  "choices": [
-   "It compares two theories of planet formation and argues for one of them.",
-   "It describes an assumption, presents a discovery that challenged it, and notes how scientists responded.",
-   "It explains a scientific method and then describes its limitations.",
-   "It describes a planet and then explains how it was named."
-  ],
-  "answer": "B",
-  "explanation": "The text moves from an assumption to a contradicting discovery to revised models.",
-  "rationales": {
-   "A": "Two theories aren't compared.",
-   "B": "Correct. This matches the text's progression.",
-   "C": "No method or limitations are described.",
-   "D": "Naming isn't discussed."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.STRUCTURE",
-  "difficulty": "hard",
-  "passage": "Historian Peter Lindqvist argues that the spread of household clocks in the nineteenth century changed how people experienced time, encouraging them to divide the day into precise units. Critics have objected that factory schedules and railway timetables, not household clocks, drove this change. Lindqvist acknowledges these influences but notes that diaries from the period show people organizing even their leisure hours by the clock.",
-  "stem": "Which choice best describes the overall structure of the text?",
-  "choices": [
-   "It describes a source and then questions its reliability.",
-   "It summarizes two competing arguments and concludes that neither is persuasive.",
-   "It describes a historical change and then lists its consequences in order of importance.",
-   "It presents an argument, describes an objection to it, and then gives the arguer's response."
-  ],
-  "answer": "D",
-  "explanation": "The text moves from Lindqvist's argument to the critics' objection to his reply.",
-  "rationales": {
-   "A": "The diaries are evidence, not a source whose reliability is questioned.",
-   "B": "The text doesn't reject both arguments.",
-   "C": "Consequences aren't listed.",
-   "D": "Correct. This matches the argument-objection-response structure."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.FUNCTION",
-  "difficulty": "easy",
-  "passage": "The axolotl, a salamander native to lakes near Mexico City, can regrow lost limbs, parts of its heart, and even portions of its brain. <u>Scientists study the axolotl in hopes of learning how to help human tissues heal.</u> Unfortunately, wild axolotls are critically endangered because of pollution and habitat loss.",
-  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
-  "choices": [
-   "It lists the body parts that axolotls can regrow.",
-   "It explains why axolotls are endangered.",
-   "It describes where axolotls live in the wild.",
-   "It explains why the axolotl's regenerative abilities interest researchers."
-  ],
-  "answer": "D",
-  "explanation": "The underlined sentence connects the regrowth ability to scientists' interest in human healing.",
-  "rationales": {
-   "A": "The body parts are listed in the first sentence.",
-   "B": "Endangerment is explained in the last sentence.",
-   "C": "The habitat is described in the first sentence.",
-   "D": "Correct. It gives the reason scientists study the animal."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.FUNCTION",
-  "difficulty": "medium",
-  "passage": "The painter Agnes Pelton spent years in the California desert making abstract works filled with glowing orbs and veils of color. <u>Although she exhibited regularly, her paintings attracted little attention during her lifetime.</u> Only decades after her death, when a 2019 retrospective toured several museums, did critics begin to describe her as a major figure of American modernism.",
-  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
-  "choices": [
-   "It establishes a lack of recognition that the following sentence shows was later reversed.",
-   "It explains why Pelton chose to live in the desert.",
-   "It argues that critics in Pelton's lifetime were right to overlook her work.",
-   "It describes the subject matter of Pelton's paintings."
-  ],
-  "answer": "A",
-  "explanation": "The underlined sentence sets up the contrast with later acclaim.",
-  "rationales": {
-   "A": "Correct. It sets up the contrast with posthumous recognition.",
-   "B": "The text doesn't explain her move to the desert.",
-   "C": "The text doesn't defend earlier critics.",
-   "D": "Subject matter is described in the first sentence."
-  }
- },
- {
-  "skill": "RW.CAS.TSP.FUNCTION",
-  "difficulty": "hard",
-  "passage": "Engineers designing tall buildings in earthquake zones once focused on making structures as rigid as possible. <u>Rigid buildings, however, absorb the full force of seismic waves and can crack under the strain.</u> Modern designs instead allow buildings to sway, using flexible joints and heavy pendulum-like dampers that counteract motion.",
-  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
-  "choices": [
-   "It argues that tall buildings should not be built in earthquake zones.",
-   "It describes how modern dampers counteract a building's motion.",
-   "It identifies a weakness in an older approach that helps explain the shift to the modern approach described next.",
-   "It provides an example of a building that collapsed during an earthquake."
-  ],
-  "answer": "C",
-  "explanation": "The underlined sentence explains why rigidity was a problem, motivating flexible designs.",
-  "rationales": {
-   "A": "The text doesn't argue against tall buildings.",
-   "B": "Dampers are described in the last sentence.",
-   "C": "Correct. It explains the flaw that led to the modern approach.",
-   "D": "No specific building is mentioned."
-  }
- },
- {
-  "skill": "RW.CAS.CTC.RESPONSE",
-  "difficulty": "medium",
-  "passage": "Many economists have argued that remote work reduces productivity because employees lose the informal conversations that spark new ideas. They point to surveys in which managers report fewer innovative proposals from remote teams.",
-  "passage2": "Economist Rosa Lindgren compared patent filings and project completion rates at firms before and after they adopted remote work. She found no decline in either measure. Lindgren notes that managers may perceive less innovation simply because they observe less of their employees' daily work.",
-  "stem": "Based on the texts, how would Lindgren (Text 2) most likely respond to the economists' argument in Text 1?",
-  "choices": [
-   "She would argue that the surveys reflect managers' perceptions rather than measured differences in productivity.",
-   "She would agree that remote work reduces productivity for most employees.",
-   "She would claim that managers are generally unreliable sources of information about their teams.",
-   "She would argue that informal conversations are unimportant for innovation."
-  ],
-  "answer": "A",
-  "explanation": "Text 2's author relies on output measures and notes that managers' impressions may not match them, so she would question survey-based conclusions.",
-  "rationales": {
-   "A": "Correct. It matches Text 2's distinction between perception and measured output.",
-   "B": "Text 2's data show no decline in measured output.",
-   "C": "Text 2 makes a narrower point about perception versus measurement.",
-   "D": "Text 2 doesn't dismiss informal conversations."
-  }
- },
- {
-  "skill": "RW.CAS.CTC.RESPONSE",
-  "difficulty": "hard",
-  "passage": "Scholars long assumed that the Norse settlements in Greenland collapsed in the fifteenth century because the settlers refused to adopt Inuit hunting techniques, clinging instead to European-style farming that failed as the climate cooled.",
-  "passage2": "Analyses of bones from Norse graves in Greenland reveal that the settlers' diets changed markedly over time: by the final decades of settlement, seal meat made up as much as 80 percent of what they ate. Archaeologist Jette Arneborg argues that the Norse adapted to local conditions and that other factors, such as declining trade with Europe, must have contributed to the settlements' end.",
-  "stem": "Based on the texts, how would Arneborg (Text 2) most likely respond to the assumption described in Text 1?",
-  "choices": [
-   "By agreeing that the settlers clung to European-style farming until the end",
-   "By claiming that the Inuit and the Norse never came into contact",
-   "By arguing that the climate did not cool in the fifteenth century",
-   "By arguing that the settlers did adapt their diet, which suggests that a refusal to adapt is not a sufficient explanation for the collapse"
-  ],
-  "answer": "D",
-  "explanation": "Text 2's evidence that the settlers ate more seal over time undercuts the claim that they refused to adapt.",
-  "rationales": {
-   "A": "Text 2 indicates the opposite: the settlers' diet shifted.",
-   "B": "Text 2 doesn't address contact between the groups.",
-   "C": "Text 2 doesn't dispute the cooling climate.",
-   "D": "Correct. Text 2 shows the settlers changed their diet, challenging the assumption."
-  }
- },
- {
-  "skill": "RW.CAS.CTC.RESPONSE",
-  "difficulty": "medium",
-  "passage": "Some urban planners claim that adding lanes to congested highways relieves traffic, since more lanes allow more cars to move at once.",
-  "passage2": "Transportation researcher Mei Zhang studied highways in dozens of cities and found that traffic volumes rose in proportion to new lane capacity within about five years. She explains that wider roads make driving more convenient, encouraging people to take trips they would otherwise have skipped, so congestion returns.",
-  "stem": "Based on the texts, how would Zhang (Text 2) most likely respond to the planners' claim in Text 1?",
-  "choices": [
-   "She would argue that the relief is temporary because added lanes attract more driving.",
-   "She would agree that adding lanes is the most effective way to reduce congestion.",
-   "She would argue that highways should have fewer lanes than they do now.",
-   "She would claim that congestion has no effect on how much people drive."
-  ],
-  "answer": "A",
-  "explanation": "Text 2 reports that new lanes fill with new traffic within a few years, so the relief doesn't last.",
-  "rationales": {
-   "A": "Correct. It matches Text 2's point about induced demand.",
-   "B": "Text 2 disputes that adding lanes works.",
-   "C": "Text 2 doesn't propose removing lanes.",
-   "D": "Text 2 implies the opposite: road capacity affects how much people drive."
-  }
- },
- {
-  "skill": "RW.INI.CID.MAIN",
-  "difficulty": "easy",
-  "passage": "Octopuses have a remarkable ability to change color. Special skin cells called chromatophores contain sacs of pigment that the octopus can expand or shrink in a fraction of a second. By controlling thousands of these cells, an octopus can blend into rocks, flash warning patterns at predators, or signal to other octopuses.",
-  "stem": "Which choice best states the main idea of the text?",
-  "choices": [
-   "Octopuses mainly change color to communicate with one another.",
-   "Chromatophores contain sacs of pigment.",
-   "Octopuses are the only animals that can change color.",
-   "Octopuses use specialized skin cells to change color rapidly for several purposes."
-  ],
-  "answer": "D",
-  "explanation": "The text explains how octopuses change color and lists several uses.",
-  "rationales": {
-   "A": "Communication is only one of several uses.",
-   "B": "This is a supporting detail, not the main idea.",
-   "C": "The text doesn't say octopuses are the only such animals.",
-   "D": "Correct. It captures both the mechanism and the purposes."
-  }
- },
- {
-  "skill": "RW.INI.CID.MAIN",
-  "difficulty": "medium",
-  "passage": "When the city of Medellín, Colombia, built cable cars connecting hillside neighborhoods to its metro system in 2004, planners hoped mainly to shorten commutes. The cable cars did that, cutting some trips from two hours to twenty minutes. But researchers have since found broader effects: violence declined in the connected neighborhoods, and new libraries and businesses opened near the stations.",
-  "stem": "Which choice best states the main idea of the text?",
-  "choices": [
-   "Medellín built its cable cars mainly to reduce violence.",
-   "Medellín's cable cars produced benefits beyond the shorter commutes planners had hoped for.",
-   "Cable cars are the most efficient form of public transit.",
-   "Some commutes in Medellín once took two hours."
-  ],
-  "answer": "B",
-  "explanation": "The text contrasts the intended benefit with broader effects found later.",
-  "rationales": {
-   "A": "Shorter commutes were the main goal.",
-   "B": "Correct. It captures the contrast between intended and broader effects.",
-   "C": "The text makes no general claim about efficiency.",
-   "D": "This is a detail."
-  }
- },
- {
-  "skill": "RW.INI.CID.MAIN",
-  "difficulty": "hard",
-  "passage": "In his studies of medieval manuscripts, historian Erik Dahl noticed that scribes often wrote small complaints in the margins: about cold rooms, bad ink, or aching hands. Earlier scholars had dismissed these notes as trivial. Dahl argues that they offer rare evidence of scribes' working conditions and show that copying books was demanding physical labor, not merely a quiet devotional task.",
-  "stem": "Which choice best states the main idea of the text?",
-  "choices": [
-   "Medieval scribes frequently complained about bad ink.",
-   "Copying manuscripts was primarily a devotional activity.",
-   "Earlier scholars studied medieval manuscripts more carefully than Dahl did.",
-   "Marginal notes once considered trivial reveal that copying manuscripts was physically demanding work."
-  ],
-  "answer": "D",
-  "explanation": "Dahl reinterprets dismissed notes as evidence of hard working conditions.",
-  "rationales": {
-   "A": "This is one example, not the main idea.",
-   "B": "Dahl argues against this view.",
-   "C": "The text doesn't compare care.",
-   "D": "Correct. It states Dahl's central claim about the notes."
-  }
- },
- {
-  "skill": "RW.INI.CID.DETAIL",
-  "difficulty": "easy",
-  "passage": "Tardigrades are tiny animals, usually less than a millimeter long, that live in moss, soil, and ocean sediment. They are famous for their toughness: when their surroundings dry out, they curl into a dormant state called a tun, in which they can survive for years without water.",
-  "stem": "According to the text, what do tardigrades do when their surroundings dry out?",
-  "choices": [
-   "They lay eggs that hatch when water returns.",
-   "They move to the ocean to find water.",
-   "They curl into a dormant state called a tun.",
-   "They grow larger to store more water."
-  ],
-  "answer": "C",
-  "explanation": "The text says tardigrades curl into a tun when their surroundings dry out.",
-  "rationales": {
-   "A": "Eggs aren't mentioned.",
-   "B": "The text doesn't say they move.",
-   "C": "Correct. The text states this directly.",
-   "D": "The text doesn't mention growth."
-  }
- },
- {
-  "skill": "RW.INI.CID.DETAIL",
-  "difficulty": "medium",
-  "passage": "Before the invention of refrigeration, people in cold regions harvested ice from frozen lakes in winter and stored it in insulated icehouses. Packed in sawdust, the ice could last well into the summer. In the nineteenth century, merchant Frederic Tudor built a profitable business shipping New England ice to the Caribbean and India.",
-  "stem": "According to the text, how was harvested ice kept from melting until summer?",
-  "choices": [
-   "Shipping it to the Caribbean and India",
-   "Freezing it in refrigerators",
-   "Packing it in sawdust in insulated icehouses",
-   "Harvesting it only during the summer"
-  ],
-  "answer": "C",
-  "explanation": "The text says ice was stored in insulated icehouses and packed in sawdust.",
-  "rationales": {
-   "A": "Shipping was Tudor's business, not how ice lasted.",
-   "B": "This predates refrigeration.",
-   "C": "Correct. The text describes this storage method.",
-   "D": "Ice was harvested in winter."
-  }
- },
- {
-  "skill": "RW.INI.CID.DETAIL",
-  "difficulty": "hard",
-  "passage": "Linguist Amara Okonkwo studies whistled languages, in which speakers convey words by whistling the pitch and rhythm of their spoken language. She notes that whistled speech developed mostly in mountainous or densely forested areas, where a whistle can carry several kilometers, far farther than a shout, allowing people to communicate across valleys.",
-  "stem": "According to the text, why did whistled languages develop mostly in mountainous or forested areas?",
-  "choices": [
-   "Because whistling is easier to learn than spoken language",
-   "Because these areas had no written languages",
-   "Because whistles carry much farther than shouts, which is useful where people are separated by difficult terrain",
-   "Because whistled languages use pitch and rhythm"
-  ],
-  "answer": "C",
-  "explanation": "Okonkwo links whistled speech to terrain where whistles travel farther than shouts.",
-  "rationales": {
-   "A": "Ease of learning isn't mentioned.",
-   "B": "Writing isn't mentioned.",
-   "C": "Correct. The text gives this reason.",
-   "D": "This describes how whistled languages work, not why they arose in these areas."
-  }
- },
- {
-  "skill": "RW.INI.INF.COMPLETE",
-  "difficulty": "easy",
-  "passage": "Biologists studying a population of lizards on a small island found that, after a hurricane, the surviving lizards had larger toe pads than the population had before the storm. Larger toe pads help lizards cling to branches in strong winds. This suggests that ______",
-  "stem": "Which choice most logically completes the text?",
-  "choices": [
-   "toe pad size has no effect on lizards' survival.",
-   "the hurricane caused the lizards' toe pads to grow larger.",
-   "lizards with larger toe pads were more likely to survive the hurricane.",
-   "lizards with smaller toe pads moved to other islands."
-  ],
-  "answer": "C",
-  "explanation": "If larger toe pads help lizards cling in wind and survivors had larger pads, lizards with larger pads likely survived more often.",
-  "rationales": {
-   "A": "This contradicts the evidence.",
-   "B": "Nothing suggests the storm changed individual lizards' pads.",
-   "C": "Correct. It follows from the survivors' larger pads and the pads' function.",
-   "D": "Nothing mentions lizards moving away."
-  }
- },
- {
-  "skill": "RW.INI.INF.COMPLETE",
-  "difficulty": "medium",
-  "passage": "In a study of two neighboring towns, researchers found that the town with more street trees had summer afternoon temperatures about 3°C lower than the other town. The towns were similar in size, elevation, and distance from the coast. The researchers therefore concluded that ______",
-  "stem": "Which choice most logically completes the text?",
-  "choices": [
-   "the street trees likely contributed to the cooler temperatures.",
-   "elevation is the main factor affecting summer temperatures.",
-   "the towns had identical temperatures in winter.",
-   "distance from the coast explains the temperature difference."
-  ],
-  "answer": "A",
-  "explanation": "Because other factors were similar, the trees are the likely explanation for the difference.",
-  "rationales": {
-   "A": "Correct. It follows because the main other factors were held similar.",
-   "B": "Elevation was similar, so it can't explain the difference.",
-   "C": "Winter temperatures aren't discussed.",
-   "D": "The towns were similar in distance from the coast."
-  }
- },
- {
-  "skill": "RW.INI.INF.COMPLETE",
-  "difficulty": "hard",
-  "passage": "Many manuscripts of a medieval poem survive, and most contain the same 600 lines. One manuscript, however, includes 40 additional lines in a different style. Because the extra lines appear in no other copy, and because they refer to an event that occurred about a century after the poem is believed to have been written, scholars have concluded that ______",
-  "stem": "Which choice most logically completes the text?",
-  "choices": [
-   "the extra lines were likely added by a later writer rather than by the poem's original author.",
-   "the poem was originally 640 lines long.",
-   "the other manuscripts were copied carelessly.",
-   "the poem was written a century later than scholars believe."
-  ],
-  "answer": "A",
-  "explanation": "Lines found in only one copy, in a different style, describing a later event, were most likely added later.",
-  "rationales": {
-   "A": "Correct. It follows from all three pieces of evidence.",
-   "B": "Most copies have 600 lines, so the extra lines were likely not original.",
-   "C": "Nothing suggests the other copies are careless.",
-   "D": "Scholars more plausibly conclude that the lines were added than that the dating is wrong."
-  }
- }
 ]

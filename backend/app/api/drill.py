@@ -80,18 +80,19 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
             422, "Enter a number, fraction (like 7/2), or decimal; at most 5 characters (6 if negative)"
         )
     correct, key = qs.grade(q, body.answer)
-    db.add(
-        Response(
-            user_id=user.id,
-            question_id=q.id,
-            mode=body.mode,
-            answer=body.answer.strip(),
-            correct=correct,
-            time_ms=body.time_ms,
-        )
+    r = Response(
+        user_id=user.id,
+        question_id=q.id,
+        mode=body.mode,
+        answer=body.answer.strip(),
+        correct=correct,
+        time_ms=body.time_ms,
     )
+    db.add(r)
+    await qs.record_review(db, user.id, q.skill_id, correct)
     await db.commit()
     return Feedback(
+        response_id=r.id,
         correct=correct,
         answer=key,
         explanation=q.content["explanation"],

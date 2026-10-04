@@ -7,6 +7,7 @@ import { ExamHome } from "./pages/Exam";
 import { ExamResults } from "./pages/ExamResults";
 import { ExamRunner } from "./pages/ExamRunner";
 import { Home } from "./pages/Home";
+import { Mistakes } from "./pages/Mistakes";
 import { Training } from "./pages/Training";
 
 function RequireAuth({ children }: { children: ReactNode }) {
@@ -34,6 +35,7 @@ export function App() {
         ["/exam/:id", <ExamRunner />],
         ["/exam/:id/results", <ExamResults />],
         ["/training", <Training />],
+        ["/mistakes", <Mistakes />],
       ].map(([path, page]) => (
         <Route key={path as string} path={path as string} element={<RequireAuth>{page}</RequireAuth>} />
       ))}

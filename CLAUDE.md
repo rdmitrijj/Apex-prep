@@ -1,9 +1,9 @@
 # CLAUDE.md
 
-Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 (also eligible: 2026-11-07); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
+Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 only (no November sitting); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M5 done (M4 exam + M5 weakness training; SRS/mistake notebook/miss-reason tags skipped); M6 partly done (dashboard, score estimate calibrated to logged official scores; no study plan yet). R&W bank: 301 hand-written + 65 LLM items in `seed/rw/llm_*.json` (ship via seed).
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M5 done (exam, weakness training, SRS, Mistake Notebook with miss-reason tags); M6 partly done (dashboard, score estimate calibrated to logged official scores; no study plan yet). R&W bank: ≥10 items per sub-skill (303 hand-written + 71 LLM items in `seed/rw/llm_*.json`, shipped via seed). The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.

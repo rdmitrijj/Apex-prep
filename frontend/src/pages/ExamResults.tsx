@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { fmtDate, SECTION_NAME, TARGET_SECONDS, useExamResults, type ExamResults as Results, type ReviewItem, type Section } from "../api/exam";
+import { MissReason } from "../components/MissReason";
 import { QuestionView } from "../components/QuestionView";
 import { Shell } from "../components/Shell";
 
@@ -95,6 +96,7 @@ function Row({ item, n }: { item: ReviewItem; n: number }) {
             onSubmit={() => {}}
             feedback={{ correct: item.correct, answer: item.key, explanation: item.explanation, rationales: item.rationales }}
           />
+          {!item.correct && item.response_id && <div className="mt-3"><MissReason responseId={item.response_id} initial={item.miss_reason} /></div>}
         </div>
       )}
     </li>

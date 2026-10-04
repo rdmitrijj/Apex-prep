@@ -1,0 +1,122 @@
+[
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "passage": "The following text is from Ilse Marrakchi's 2011 novel The Winter Inventory. Amara has returned to the village shop that her late grandfather kept for forty years.\n\nEverything was where she remembered it. The brass scales still stood on the counter, their pans polished to a dull gold; the jars of barley sugar still crowded the shelf behind the till, labeled in his cramped, slanting hand. Even the bell above the door gave the same cracked note when she pushed it open. <u>It was only when she reached to straighten a jar that she saw the labels had been written over, each old price struck through and a lower one inked beside it, the numbers growing shakier from one shelf to the next.</u> She stood for a long while with the jar in her hands, understanding at last what his letters, so cheerful and so brief, had never said.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It reveals that Amara's memory of the shop's arrangement was less accurate than she had initially believed.",
+      "It introduces a detail that complicates the earlier impression of an unchanged shop and leads to the realization described in the final sentence.",
+      "It explains why the grandfather chose to keep his letters to Amara cheerful and brief.",
+      "It offers further evidence of the grandfather's meticulous care for the shop, reinforcing the impression created by the preceding sentences."
+    ],
+    "answer": "B",
+    "explanation": "The first three sentences stress continuity: the scales, jars, and bell are all just as Amara remembered. The underlined sentence, signaled by \"It was only when,\" reveals altered labels showing repeatedly lowered prices and increasingly unsteady handwriting, which hint at the shop's decline and the grandfather's failing health. This detail undercuts the sense of permanence and prompts Amara's realization in the final sentence about what his letters had concealed.",
+    "rationales": {
+      "A": "The underlined sentence does not suggest Amara misremembered the layout; the text says everything was where she remembered it, and the change concerns the labels' prices and handwriting.",
+      "B": "Correct. The sentence presents a detail that disrupts the earlier picture of unchanged continuity and triggers Amara's understanding in the final sentence.",
+      "C": "The letters are mentioned only in the final sentence, and the underlined sentence offers no account of why the grandfather wrote them as he did; it merely reveals what they left unsaid.",
+      "D": "Although the labels are in the grandfather's hand, the struck-through prices and shaky numbers suggest decline and struggle, contradicting rather than reinforcing the impression of a well-kept, unchanged shop."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "passage": "Data center operators have increasingly raised the temperature of the air used to cool their servers. Their reasoning is that each additional degree of warmth reduces the energy that large chillers must spend. Engineer Tomasz Wierzbicki questioned whether the savings were as large as assumed. After monitoring a facility in Gdansk for a year, he found that above roughly 27 degrees Celsius, the servers' internal fans accelerated sharply. The fans drew enough additional power to cancel most of the chiller savings. <u>Wierzbicki notes, however, that every server in the facility came from a single, now-discontinued product line, and that fan behavior is known to vary considerably across models.</u> He therefore cautions against treating his temperature threshold as universal. Instead, he argues that operators should measure how their own equipment responds before deciding how warm to run it.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It presents evidence challenging the assumption that warmer cooling air reduces the energy chillers use.",
+      "It suggests that operators using newer server models can safely raise temperatures without losing energy savings.",
+      "It acknowledges a characteristic of the study's equipment that limits how broadly the finding can be applied, setting up the recommendation that follows.",
+      "It identifies the mechanism by which warmer air increased the servers' overall power consumption."
+    ],
+    "answer": "C",
+    "explanation": "The underlined sentence, signaled by \"however,\" qualifies Wierzbicki's own result: because all the servers came from one discontinued product line and fan behavior differs across models, the 27-degree threshold may not hold elsewhere. The following sentences build directly on this limitation. Wierzbicki cautions against treating the threshold as universal and recommends that operators test their own equipment.",
+    "rationales": {
+      "A": "The challenge to the conventional assumption comes from the fan-power finding reported earlier; the underlined sentence qualifies that finding rather than adding evidence against the assumption.",
+      "B": "The sentence says only that fan behavior varies across models, not that newer servers avoid the problem; the text recommends testing equipment rather than assuming safety.",
+      "C": "Correct. It notes that the servers studied were all one model, which restricts generalization and leads to the caution and recommendation in the final sentences.",
+      "D": "The mechanism, fans accelerating and drawing extra power, is described in the preceding sentences; the underlined sentence concerns the study's equipment, not how the power increase occurred."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "easy",
+    "passage": "The following text is adapted from Halvard Rønning's 1931 novel The Winter Ferry. Kristin has just arrived in a small coastal town to work as a schoolteacher.\n\nKristin stepped off the ferry and stood on the dock with her single suitcase. The wind off the fjord was colder than she had expected, and it pushed at her coat as though trying to send her back aboard. Along the shore, a few wooden houses huddled together, their windows dark. No one had come to meet her. She told herself that the school board's letter must have arrived late and that someone would surely appear soon. Still, as the sound of the ferry's engine faded behind her, she gripped the handle of her suitcase more tightly and wondered whether she had made a terrible mistake.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To contrast Kristin's excitement with the unfriendly behavior of the townspeople",
+      "To explain why Kristin chose to become a schoolteacher",
+      "To describe the history of the coastal town where Kristin arrives",
+      "To portray a character's growing doubt as she arrives alone in an unfamiliar place"
+    ],
+    "answer": "D",
+    "explanation": "The text shows Kristin arriving at a cold, quiet town where no one has come to meet her. Although she tries to reassure herself, she ends by gripping her suitcase and wondering whether she has made a terrible mistake. The main purpose is therefore to portray her uncertainty and doubt upon arriving somewhere new.",
+    "rationales": {
+      "A": "No townspeople appear in the text, and Kristin seems uneasy rather than excited.",
+      "B": "The text never explains Kristin's reasons for becoming a teacher; it focuses only on her arrival.",
+      "C": "The town is described only briefly as it appears to Kristin, and nothing is said about its history.",
+      "D": "Correct. The cold wind, dark houses, and absence of anyone to meet her lead Kristin to doubt her decision, which is the focus of the text."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.PURPOSE",
+    "difficulty": "medium",
+    "passage": "In several fishing towns along the northern coast of Portugal, older residents attach a distinctive diminutive suffix, -elho, to nouns, a form not found in standard Portuguese. Because recordings of spoken conversation show younger residents using the suffix far less often, dialectologists have generally listed it among regional features likely to vanish within a generation. Linguist Inês Carvalhal suspected that spoken recordings were telling only part of the story. Analyzing thousands of text messages exchanged among local teenagers, she found -elho appearing frequently, typically attached to words like \"problem\" or \"exam\" to signal playful irony rather than smallness. The suffix, Carvalhal concludes, is not so much disappearing as shifting into a new role in a new medium.",
+    "stem": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To present research suggesting that a dialect feature widely expected to disappear has instead taken on a new function",
+      "To argue that text messaging is accelerating the loss of traditional regional dialects in Portugal",
+      "To explain why older residents of the fishing towns use the suffix -elho more often in conversation than younger residents do",
+      "To compare the diminutive suffix -elho with the diminutive forms used in standard Portuguese"
+    ],
+    "answer": "A",
+    "explanation": "The text begins with dialectologists' expectation that the suffix -elho will soon vanish, based on its declining use in younger residents' speech. It then presents Carvalhal's analysis of teenagers' text messages, which shows the suffix being used often to signal playful irony. Her conclusion that the suffix is shifting into a new role rather than disappearing is the point the text builds toward, so its main purpose is to present research challenging the expectation of the feature's loss.",
+    "rationales": {
+      "A": "Correct. The text sets up the expectation that -elho will vanish and then presents Carvalhal's evidence that it is being repurposed to signal irony in text messages.",
+      "B": "This reverses the text's point: Carvalhal's findings show text messaging helping the suffix survive in a new form, not hastening its loss.",
+      "C": "The text notes that younger residents use the suffix less in speech but never explains why older residents use it more.",
+      "D": "Standard Portuguese is mentioned only to note that it lacks -elho; the text does not compare diminutive forms."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "Through much of the twentieth century, conservators treating the landscapes of Filipino painter Remedios Alcaraz (1891-1958) regarded their murky, olive-brown skies as a flaw. They assumed the color was the result of varnish that had yellowed with age. Several canvases were cleaned accordingly, and the luminous blue skies that emerged were celebrated as a recovery of the artist's original vision. Recent analysis by conservation scientist Ingrid Halvorsen undermines that assumption. Examining cross sections of paint from uncleaned works, she found that the brown layer consists of umber pigment bound in oil rather than degraded varnish. It is evidently a glaze that Alcaraz applied herself over the blue. Halvorsen's finding thus raises an uncomfortable possibility. The cleaned canvases, long admired for their restored brilliance, may now be less faithful to Alcaraz's intentions than the darkened ones that were left untouched.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It explains how a scientist developed a new method for analyzing paint, describes what the method revealed about a painter's materials, and argues that the method should replace earlier techniques.",
+      "It presents two competing approaches to conserving an artist's paintings, weighs the evidence for each, and recommends that museums adopt the approach favored by a scientist.",
+      "It reports that conservators altered a group of paintings, presents evidence that the alterations physically damaged those canvases, and then proposes a way to reverse the damage.",
+      "It describes a conservation practice and the assumption on which it rested, presents analysis that undercuts that assumption, and then considers what that analysis implies about works that had already been treated."
+    ],
+    "answer": "D",
+    "explanation": "The text first describes how conservators cleaned Alcaraz's brown skies on the assumption that the color came from yellowed varnish. It then reports Halvorsen's analysis showing that the brown layer is a deliberate oil glaze, which undercuts that assumption. It closes by drawing out an implication for the canvases that had already been cleaned: they may now misrepresent Alcaraz's intentions. This sequence of practice and assumption, contrary evidence, and implication for treated works matches choice B.",
+    "rationales": {
+      "A": "The text does not say Halvorsen developed a new method or argue that any technique should replace another; its focus is on what her finding means for the paintings.",
+      "B": "The text does not set out two competing conservation approaches or weigh evidence for each, and it makes no recommendation to museums; it only raises a possibility.",
+      "C": "The text says the cleaning may have made the works less faithful to the artist's intentions, not that it caused physical damage, and no remedy is proposed.",
+      "D": "Correct. This traces the text's movement from the conservators' practice and its underlying assumption, to Halvorsen's analysis undermining it, to the implication for the already-cleaned canvases."
+    }
+  },
+  {
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "passage": "Software engineers commonly explain why banks and government agencies still run decades-old code by pointing to cost: rewriting millions of lines is expensive, and the old programs still work. Computer scientist Ines Valdivia argues that cost alone cannot account for the pattern. She interviewed developers at fourteen institutions that had budgeted for replacement projects. Most of those projects, she found, were abandoned not for lack of funds but because no one could fully document what the original code did. Years of undocumented patches had made the programs the only reliable record of the institutions' own rules. Valdivia concedes that her sample is small and drawn entirely from organizations that had already chosen to attempt a rewrite. Still, she maintains that her findings suggest old code endures partly because it has become a form of institutional memory.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It reports a researcher's finding, raises an objection concerning the size of her sample, and concludes that the objection seriously undermines her finding.",
+      "It contrasts two explanations for a technological phenomenon and then argues that the more widely accepted explanation should be discarded in favor of a newer one.",
+      "It identifies a problem facing large institutions, evaluates several proposed solutions to that problem, and recommends the solution best supported by interview evidence.",
+      "It presents a conventional explanation for a phenomenon, describes research suggesting that this explanation is incomplete, acknowledges a limitation of that research, and then offers a qualified version of the researcher's conclusion."
+    ],
+    "answer": "D",
+    "explanation": "The text opens with the common cost-based explanation for the persistence of old code. It then presents Valdivia's claim that cost alone is insufficient and supports it with her interview findings about undocumented code. Next, it notes her acknowledgment that her sample is small and unrepresentative. It closes with her hedged conclusion that old code persists 'partly' because it serves as institutional memory. Choice B traces this sequence exactly.",
+    "rationales": {
+      "A": "The sample-size limitation is conceded by Valdivia herself, and the text ends by affirming her finding in qualified form rather than concluding that the finding is undermined.",
+      "B": "Valdivia says cost 'alone' cannot explain the pattern and that old code persists 'partly' for another reason, so she supplements the conventional explanation rather than discarding it.",
+      "C": "The text explains why replacement projects fail; it does not evaluate competing solutions or recommend one.",
+      "D": "Correct. It accurately traces the movement from the conventional explanation to complicating research, then to the acknowledged limitation, and finally to the hedged conclusion."
+    }
+  }
+]

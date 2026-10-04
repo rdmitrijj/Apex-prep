@@ -11,7 +11,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.deps import DB, CurrentUser
 from app.engine import irt
 from app.engine.weakness import Attempt, Weakness, weakness
-from app.models import Question, Response, Skill
+from app.models import Question, Response, ReviewSchedule, Skill
 from app.schemas.question import QuestionOut
 from app.services import questions as qs
 
@@ -28,6 +28,7 @@ class WeaknessOut(BaseModel):
     correct: int
     avg_seconds: float | None
     target_seconds: float
+    mastery: float
     reasons: list[str]
 
 
@@ -61,11 +62,22 @@ async def compute(db: AsyncSession, user_id: int) -> list[tuple[Weakness, Skill]
                 time_ms=r.time_ms,
                 age_days=(now - r.created_at).total_seconds() / 86400,
                 exam=r.mode == "exam",
+                eliminated=len(r.eliminated or []),
             )
         )
     n = Counter(s.section for s in leaves)
     mean = {sec: sum(s.weight for s in leaves if s.section == sec) / n[sec] for sec in n}
-    out = [(weakness(s.id, s.section, s.weight, mean[s.section], by_skill.get(s.id, [])), s) for s in leaves]
+    due = set(
+        await db.scalars(
+            select(ReviewSchedule.skill_id).where(
+                ReviewSchedule.user_id == user_id, ReviewSchedule.due_at <= now
+            )
+        )
+    )
+    out = [
+        (weakness(s.id, s.section, s.weight, mean[s.section], by_skill.get(s.id, []), s.id in due), s)
+        for s in leaves
+    ]
     return sorted(out, key=lambda p: p[0].score, reverse=True)
 
 
@@ -81,6 +93,7 @@ async def weaknesses(db: DB, user: CurrentUser, limit: int = 10) -> list[Weaknes
             correct=w.correct,
             avg_seconds=w.avg_seconds,
             target_seconds=w.target_seconds,
+            mastery=round(w.mastery, 3),
             reasons=w.reasons,
         )
         for w, s in (await compute(db, user.id))[: max(1, min(limit, 100))]

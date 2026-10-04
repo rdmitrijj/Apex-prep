@@ -7,8 +7,8 @@ import math
 from collections.abc import Sequence
 from dataclasses import dataclass
 
-# (b, correct, weight)
-Obs = tuple[float, bool, float]
+# (b, credit in [0, 1] (a bool works: True = full credit), weight)
+Obs = tuple[float, float, float]
 
 # Route to the harder Module 2 at >= ~60% expected correct on a medium item: ln(0.6/0.4).
 ROUTE_THRESHOLD = math.log(0.6 / 0.4)
@@ -35,9 +35,9 @@ def ability(obs: Sequence[Obs], prior_sd: float = 1.0) -> float:
     for _ in range(50):
         grad = -theta * inv_var
         hess = -inv_var
-        for b, correct, w in obs:
+        for b, credit, w in obs:
             p = p_correct(theta, b)
-            grad += w * ((1.0 if correct else 0.0) - p)
+            grad += w * (float(credit) - p)
             hess -= w * p * (1.0 - p)
         step = grad / hess
         theta = max(-4.0, min(4.0, theta - step))

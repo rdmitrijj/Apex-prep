@@ -187,6 +187,8 @@ async def results(exam_id: int, db: DB, user: CurrentUser) -> ExamResults:
                     t[1] += 1
             items.append(
                 ReviewItem(
+                    response_id=r.id if r else None,
+                    miss_reason=r.miss_reason if r else None,
                     module=label,
                     section=m.section,  # type: ignore[arg-type]
                     position=item.position,

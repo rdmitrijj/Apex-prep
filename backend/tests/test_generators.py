@@ -8,7 +8,7 @@ import pytest
 import sympy
 
 from app.generators import DIFFICULTIES, REGISTRY, generate
-from app.generators.core import ERROR_MODELS
+from app.generators.core import CHOICE_WORDING, ERROR_MODELS
 from app.generators.spr import canonical_entry, is_correct, is_valid_entry
 
 SEEDS = int(os.environ.get("GEN_SEEDS", "200"))
@@ -53,6 +53,10 @@ def test_generator(skill: str, difficulty: str) -> None:
                     assert dv != g.key_value, ctx
         else:
             assert g.spr_answers, ctx
+            assert not CHOICE_WORDING.search(g.stem), (
+                ctx,
+                g.stem,
+            )  # no "which of the following" without choices
             entry = canonical_entry(g.spr_answers[0])
             assert is_valid_entry(entry) and is_correct(entry, g.spr_answers), (ctx, entry)
         # fixed-seed reproducibility

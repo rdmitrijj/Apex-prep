@@ -67,6 +67,8 @@ class ExamSummary(BaseModel):
 
 
 class ReviewItem(BaseModel):
+    response_id: int | None
+    miss_reason: str | None
     module: str  # e.g. "Math · Module 2 (harder)"
     section: Section
     position: int

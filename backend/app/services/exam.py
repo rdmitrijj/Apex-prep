@@ -108,6 +108,7 @@ async def close_module(db: AsyncSession, sess: ExamSession, mod: ExamModule, mod
             r.time_ms, r.flagged, r.eliminated = 0, False, []
             db.add(r)
         r.correct = r.answer is not None and qs.grade(q, r.answer)[0]
+        await qs.record_review(db, sess.user_id, q.skill_id, r.correct)
         if not item.pretest:
             scored.append((q.difficulty_rating, r.correct))
     if mod.stage == 1:

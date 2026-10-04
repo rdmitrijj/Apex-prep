@@ -55,7 +55,7 @@ export type Question = {
   figure?: FigureSpec | null;
 };
 
-export type Feedback = { correct: boolean; answer: string; explanation: string[]; rationales: Record<string, string> };
+export type Feedback = { response_id?: number; correct: boolean; answer: string; explanation: string[]; rationales: Record<string, string> };
 
 export function useSkills() {
   return useQuery({ queryKey: ["skills"], queryFn: () => api<SkillNode[]>("/skills") });

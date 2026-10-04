@@ -69,7 +69,7 @@ Each milestone ends with: all tests green, app run and clicked through (Playwrig
 - Weakness Training mode (untimed, stopwatch, miss-reason tags).
 - Mistake Notebook with filters and "retry similar" (fresh generator variant or unseen same-sub-skill item).
 - Seed bank completed to ≥10 per R&W sub-skill.
-- *Shipped 2026-10-04:* weakness score (`engine/weakness.py`), adaptive Weakness Training. Skipped: SRS, Mistake Notebook, miss-reason tags (the exam review page covers mistakes). Mastery is computed from responses on demand, so `skill_mastery`/`mastery_history`/`review_schedule` are unused. R&W seed bank not yet expanded (CAS has only 32 items, so exams repeat CAS passages quickly).
+- *Shipped 2026-10-04:* everything above. Mastery is computed from responses on demand (Rasch with recency weights and partial credit), so `skill_mastery`/`mastery_history` stay unused; `review_schedule` holds the SRS state. Seed bank: ≥10 per R&W sub-skill.
 
 ### M6: Dashboard, score estimate, 9-week plan
 - `docs/SCORING.md` + estimator calibrated to logged Bluebook results.

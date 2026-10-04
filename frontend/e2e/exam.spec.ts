@@ -11,6 +11,7 @@ async function register(page: Page, tag: string) {
 
 async function answerCurrent(page: Page) {
   const spr = page.getByLabel("Your answer");
+  await expect(spr.or(page.getByRole("radio").first())).toBeVisible(); // wait for the question to render
   if (await spr.isVisible()) await spr.fill("1");
   else await page.getByRole("radio").first().click();
 }

@@ -30,6 +30,9 @@ export function Shell({ children }: { children: ReactNode }) {
           <NavLink to="/training" className={link}>
             Weakness Training
           </NavLink>
+          <NavLink to="/mistakes" className={link}>
+            Mistakes
+          </NavLink>
         </nav>
         <div className="flex items-center gap-4 text-sm">
           <span className="hidden text-slate-600 sm:inline">{me.data?.email}</span>
