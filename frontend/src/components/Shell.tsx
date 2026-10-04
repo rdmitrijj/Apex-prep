@@ -12,7 +12,10 @@ export function Shell({ children }: { children: ReactNode }) {
   const qc = useQueryClient();
   const logout = useMutation({
     mutationFn: () => api<void>("/auth/logout", { method: "POST" }),
-    onSuccess: () => qc.setQueryData(["me"], null),
+    onSuccess: () => {
+      qc.setQueryData(["me"], null); // redirects to /login
+      qc.removeQueries({ predicate: (q) => q.queryKey[0] !== "me" }); // drop this account's cached data
+    },
   });
   return (
     <div className="min-h-screen">

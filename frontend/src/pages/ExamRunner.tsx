@@ -16,6 +16,7 @@ import {
   type ExamState,
   type ItemState,
 } from "../api/exam";
+import { AnnotationList, annotationsSupported, useAnnotations } from "../components/Annotations";
 import { Calculator } from "../components/Calculator";
 import { Figure } from "../components/Figure";
 import { Logo } from "../components/Logo";
@@ -181,14 +182,28 @@ function QuestionPane({
   const q = item.question;
   const isRW = q.skill_id.startsWith("RW");
   const [entry, setEntry] = useState(state.answer ?? "");
+  const root = useRef<HTMLDivElement>(null);
+  const notes = useAnnotations(`apex-annotations-${item.id}`, root);
+  const [hint, setHint] = useState(false);
   const header = (
     <div className="flex items-center gap-3 border-b-2 border-dashed border-slate-300 bg-slate-100 px-2 py-1.5">
       <span className="flex h-7 w-7 items-center justify-center bg-slate-900 text-sm font-bold text-white">{n}</span>
       <button type="button" aria-pressed={state.flagged} onClick={() => onChange({ flagged: !state.flagged })} className={`text-sm ${state.flagged ? "font-semibold text-red-700" : "text-slate-700"}`}>
         {state.flagged ? "⚑ Marked for review" : "⚐ Mark for review"}
       </button>
+      {annotationsSupported && (
+        <button
+          type="button"
+          onMouseDown={(e) => e.preventDefault() /* keep the text selection */}
+          onClick={() => setHint(!notes.addFromSelection())}
+          title="Select text in the passage or question, then click to highlight it"
+          className="ml-auto rounded border border-slate-400 px-2 text-sm"
+        >
+          <span className="bg-amber-200 px-0.5">Highlight</span>
+        </button>
+      )}
       {q.format === "mc" && (
-        <button type="button" aria-pressed={strike} onClick={onToggleStrike} title="Option eliminator" className={`ml-auto rounded border px-2 text-sm line-through ${strike ? "border-brand-700 bg-brand-700 text-white" : "border-slate-400"}`}>
+        <button type="button" aria-pressed={strike} onClick={onToggleStrike} title="Option eliminator" className={`rounded border px-2 text-sm line-through ${strike ? "border-brand-700 bg-brand-700 text-white" : "border-slate-400"}`}>
           ABC
         </button>
       )}
@@ -248,7 +263,7 @@ function QuestionPane({
         className="mt-1 block w-40 rounded-md border border-slate-300 px-3 py-2 font-mono text-lg"
       />
       <span className="mt-1 block text-sm">
-        Answer preview: {entry && validSpr(entry) ? <MathText text={sprTex(entry)} /> : <span className="text-slate-400">{entry ? "not a valid entry yet" : "—"}</span>}
+        Answer preview: {entry && validSpr(entry) ? <MathText text={sprTex(entry)} /> : <span className="text-slate-500">{entry ? "not a valid entry yet" : "—"}</span>}
       </span>
       <span className="text-xs text-slate-500">Fraction (7/2) or decimal (3.5). Up to 5 characters, 6 if negative.</span>
     </label>
@@ -256,14 +271,16 @@ function QuestionPane({
   const question = (
     <div className="space-y-4">
       {header}
+      {hint && <p role="status" className="text-xs text-slate-600">Select some text in the passage or question first, then click Highlight.</p>}
       {!isRW && q.figure && <Figure spec={q.figure} />}
       <p className="leading-relaxed"><MathText text={q.stem} /></p>
       {choices}
+      <AnnotationList {...notes} />
     </div>
   );
-  if (!isRW) return <div className="mx-auto max-w-3xl">{question}</div>;
+  if (!isRW) return <div ref={root} className="mx-auto max-w-3xl">{question}</div>;
   return (
-    <div className="grid gap-6 md:grid-cols-2 md:divide-x-4 md:divide-slate-200">
+    <div ref={root} className="grid gap-6 md:grid-cols-2 md:divide-x-4 md:divide-slate-200">
       <div className="max-h-[calc(100vh-10rem)] overflow-auto pr-2"><Passage q={q} /></div>
       <div className="md:pl-6">{question}</div>
     </div>

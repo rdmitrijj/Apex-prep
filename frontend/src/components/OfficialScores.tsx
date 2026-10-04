@@ -77,7 +77,7 @@ export function OfficialScores() {
                 </span>
                 <span className="flex items-center gap-3">
                   <span className="font-mono">R&W {o.rw} · Math {o.math} = <strong>{o.rw + o.math}</strong></span>
-                  <button type="button" onClick={() => remove(o.id)} aria-label={`Delete score from ${fmtDate(o.taken_on)}`} className="text-slate-400 hover:text-red-700">✕</button>
+                  <button type="button" onClick={() => remove(o.id)} aria-label={`Delete score from ${fmtDate(o.taken_on)}`} className="text-slate-500 hover:text-red-700">✕</button>
                 </span>
               </li>
             );

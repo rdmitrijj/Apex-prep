@@ -6,13 +6,14 @@ import { MasteryHeatmap } from "../components/MasteryHeatmap";
 import { ScoreTrend, type TrendPoint } from "../components/ScoreTrend";
 import { Shell } from "../components/Shell";
 import { TaskItem } from "./PlanPage";
-import { WeaknessList } from "./Training";
+import { WeaknessList } from "../components/WeaknessList";
 
 const TEST_DAY = new Date("2026-12-05T08:00:00");
 const GOALS = [
-  { label: "Total", target: 1350, max: 1600 },
-  { label: "Math", target: 700, max: 800 },
-];
+  { label: "Total", key: "Total", target: 1350, max: 1600 },
+  { label: "Math", key: "Math", target: 700, max: 800 },
+  { label: "Stretch total", key: "Total", target: 1550, max: 1600 },
+] as const;
 
 const card = "rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-200";
 
@@ -45,9 +46,9 @@ export function Home() {
             <p className="mt-1 text-4xl font-bold text-brand-700">{days} days left</p>
           </section>
           <section className={`${card} md:col-span-2`}>
-            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest estimate vs. Aalto bar</p>
+            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest estimate vs. Aalto bar (and 1550 stretch)</p>
             {GOALS.map((g) => {
-              const v = now[g.label as keyof typeof now];
+              const v = now[g.key];
               return (
                 <div key={g.label} className="mb-2">
                   <div className="flex justify-between text-sm">

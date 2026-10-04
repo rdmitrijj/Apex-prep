@@ -3,7 +3,7 @@
 Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 only (no November sitting); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M5 done (exam, weakness training, SRS, Mistake Notebook with miss-reason tags); M6 done (dashboard with plan/trend/heatmap, calibration, weekly plan, diagnostic offer). R&W bank: ≥10 items per sub-skill (303 hand-written + 71 LLM items in `seed/rw/llm_*.json`, shipped via seed). The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. All milestones M1–M7 are done (see PLAN.md). R&W bank: ≥10 items per sub-skill (303 hand-written + 71 LLM items in `seed/rw/llm_*.json`, shipped via seed). The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
@@ -29,7 +29,8 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 - Backend: `cd backend && uv run pytest -q` (`GEN_SEEDS=20` speeds up the generator suite; CI runs the default 200), `uv run ruff check . && uv run ruff format --check .`, `uv run mypy`
 - New migration: `uv run alembic revision --autogenerate -m <slug>`, then rename the file to `NNNN_<slug>.py` and set `revision = "NNNN"`.
 - Frontend: `cd frontend && yarn lint && yarn typecheck && yarn test`
-- E2E: start the app (compose, or `docker build -t apex-prep . && docker run …`), then `BASE_URL=… yarn e2e`
+- Run the API with `--reload` during development; a stale uvicorn returns 404 for new routes and confuses E2E runs.
+- E2E: start the app (compose, or `docker build -t apex-prep . && docker run …`), then `BASE_URL=… yarn e2e` (includes an axe-core accessibility scan; serious/critical WCAG AA violations fail it).
 
 ## Gotchas
 - Generators: SymPy auto-distributes `3*(x+2)` into `3x+6`, so stems that must show the unexpanded form build their LaTeX by hand. Compare SymPy numbers with `==` only against Rationals (`Integer(2) == 2.0` is False in SymPy ≥1.13).

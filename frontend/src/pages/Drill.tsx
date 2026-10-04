@@ -12,10 +12,10 @@ type Setup = { skill_ids: string[]; difficulty: Difficulty | "mixed"; count: num
 const errMsg = (e: unknown) => (e instanceof ApiError ? e.message : e ? "Network error, try again." : null);
 
 function accuracy(n: SkillNode) {
-  if (!n.attempts) return <span className="text-slate-400">—</span>;
+  if (!n.attempts) return <span className="text-slate-500">—</span>;
   const pct = Math.round((100 * n.correct) / n.attempts);
   const tone = pct >= 80 ? "text-emerald-700" : pct >= 60 ? "text-amber-700" : "text-red-700";
-  return <span className={tone} title={`${n.correct} of ${n.attempts} correct`}>{pct}% <span className="text-slate-400">({n.attempts})</span></span>;
+  return <span className={tone} title={`${n.correct} of ${n.attempts} correct`}>{pct}% <span className="text-slate-500">({n.attempts})</span></span>;
 }
 
 function Tree({ nodes, selected, toggle }: { nodes: SkillNode[]; selected: Set<string>; toggle: (id: string) => void }) {
@@ -25,30 +25,41 @@ function Tree({ nodes, selected, toggle }: { nodes: SkillNode[]; selected: Set<s
     return m;
   }, [nodes]);
   const covered = (id: string) => [...selected].some((s) => id === s || id.startsWith(s + "."));
+  // Sections and domains start expanded.
+  const [open, setOpen] = useState<Set<string>>(() => new Set(nodes.filter((n) => n.level === "section" || n.level === "domain").map((n) => n.id)));
+  const flip = (id: string) =>
+    setOpen((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
 
   const render = (n: SkillNode, depth: number) => {
     const inherited = covered(n.id) && !selected.has(n.id);
     const empty = !n.generated && n.available === 0;
+    const children = kids.get(n.id);
+    const isOpen = open.has(n.id);
     return (
       <li key={n.id}>
-        <details open={depth < 2}>
-          <summary className="flex cursor-pointer items-center gap-2 py-1 hover:bg-slate-50" style={{ paddingLeft: depth * 16 }}>
-            <input
-              type="checkbox"
-              aria-label={n.name}
-              checked={covered(n.id)}
-              disabled={inherited || empty}
-              onChange={() => toggle(n.id)}
-              onClick={(e) => e.stopPropagation()}
-            />
-            <span className={`flex-1 ${n.level === "subskill" ? "text-sm" : "font-medium"} ${empty ? "text-slate-400" : ""}`}>{n.name}</span>
-            <span className="w-16 text-right text-xs text-slate-500" title={n.generated ? "Unlimited generated questions" : "Stored questions"}>
-              {n.generated ? "∞" : n.available}
-            </span>
-            <span className="w-24 text-right text-xs">{accuracy(n)}</span>
-          </summary>
-          {kids.get(n.id) && <ul>{kids.get(n.id)!.map((c) => render(c, depth + 1))}</ul>}
-        </details>
+        <div className="flex items-center gap-2 py-1 hover:bg-slate-50" style={{ paddingLeft: depth * 16 }}>
+          {children ? (
+            <button type="button" aria-expanded={isOpen} aria-label={`${isOpen ? "Collapse" : "Expand"} ${n.name}`} onClick={() => flip(n.id)} className="w-4 text-xs text-slate-500">
+              {isOpen ? "▾" : "▸"}
+            </button>
+          ) : (
+            <span className="w-4" />
+          )}
+          <label className={`flex flex-1 cursor-pointer items-center gap-2 ${n.level === "subskill" ? "text-sm" : "font-medium"} ${empty ? "text-slate-500" : ""}`}>
+            <input type="checkbox" checked={covered(n.id)} disabled={inherited || empty} onChange={() => toggle(n.id)} />
+            {n.name}
+          </label>
+          <span className="w-16 text-right text-xs text-slate-500" title={n.generated ? "Unlimited generated questions" : "Stored questions"}>
+            {n.generated ? "∞" : n.available}
+          </span>
+          <span className="w-24 text-right text-xs">{accuracy(n)}</span>
+        </div>
+        {children && isOpen && <ul>{children.map((c) => render(c, depth + 1))}</ul>}
       </li>
     );
   };

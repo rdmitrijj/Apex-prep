@@ -13,9 +13,10 @@ const PHASE: Record<Plan["phase"], string> = {
 export function TaskItem({ t }: { t: PlanTask }) {
   return (
     <li className="flex items-start gap-3">
-      <span aria-label={t.done ? "Done" : t.done === false ? "Not done yet" : undefined} className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border text-xs ${t.done ? "border-emerald-600 bg-emerald-600 text-white" : "border-slate-300"}`}>
+      <span aria-hidden className={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border text-xs ${t.done ? "border-emerald-600 bg-emerald-600 text-white" : "border-slate-300"}`}>
         {t.done ? "✓" : ""}
       </span>
+      {t.done !== null && <span className="sr-only">{t.done ? "Done:" : "To do:"}</span>}
       <span className="flex-1">
         <Link to={t.link} className="font-medium text-brand-700 hover:underline">{t.title}</Link>
         {t.minutes > 0 && <span className="text-sm text-slate-500"> · {t.minutes} min</span>}

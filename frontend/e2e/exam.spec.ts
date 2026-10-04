@@ -120,6 +120,24 @@ test("full exam: R&W split pane, eliminator, break before Math", async ({ page }
   await page.keyboard.press("b"); // keyboard shortcut picks B
   await expect(page.getByRole("radio", { name: /^B/ })).toHaveAttribute("aria-checked", "true");
 
+  // Highlight part of the passage, attach a note, and keep both across a refresh.
+  await page.evaluate(() => {
+    const p = document.querySelector("main p.whitespace-pre-line")!;
+    const text = document.createTreeWalker(p, NodeFilter.SHOW_TEXT).nextNode()!;
+    const r = document.createRange();
+    r.setStart(text, 0);
+    r.setEnd(text, Math.min(12, text.textContent!.length));
+    getSelection()!.removeAllRanges();
+    getSelection()!.addRange(r);
+  });
+  await page.getByRole("button", { name: "Highlight" }).click();
+  await expect(page.getByRole("region", { name: "Your annotations" })).toBeVisible();
+  await page.getByPlaceholder("Add a note").fill("key claim");
+  await page.reload();
+  await expect(page.getByPlaceholder("Add a note")).toHaveValue("key claim");
+  await page.getByRole("button", { name: "Remove" }).click();
+  await expect(page.getByRole("region", { name: "Your annotations" })).toBeHidden();
+
   await submitViaReview(page, "Submit module");
   await page.getByRole("button", { name: "Start module 2" }).click();
   await submitViaReview(page, "Submit module");
@@ -128,4 +146,21 @@ test("full exam: R&W split pane, eliminator, break before Math", async ({ page }
   await page.getByRole("button", { name: "Resume testing" }).click();
   await expect(page.getByText("Section 2, Module 1: Math")).toBeVisible();
   await page.screenshot({ path: "test-results/exam-math.png" });
+});
+
+test("timer: 5-minute alert, then the module submits itself at 0:00", async ({ page }) => {
+  await register(page, "timer");
+  await page.clock.install();
+  await page.goto("/exam");
+  await page.getByRole("radio", { name: /^Math only/ }).check();
+  await page.getByRole("button", { name: "Start exam" }).click();
+  await page.getByRole("button", { name: "Start module 1" }).click();
+  await page.getByRole("button", { name: "Hide" }).click();
+  await expect(page.getByRole("timer")).toBeHidden();
+
+  await page.clock.fastForward("30:30");
+  await expect(page.getByRole("alert")).toHaveText(/5 minutes remaining/);
+  await expect(page.getByRole("timer")).toBeVisible(); // can't stay hidden in the last 5 minutes
+  await page.clock.fastForward("05:00");
+  await expect(page.getByRole("heading", { name: "Math: Module 2" })).toBeVisible();
 });

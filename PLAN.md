@@ -1,6 +1,6 @@
 # PLAN: Personal Digital SAT Prep Platform
 
-Status: approved 2026-10-03. M1–M5 shipped 2026-10-04 (see notes under M4/M5); M6 partly. Specs: `docs/SAT_SPEC.md`, `docs/TAXONOMY.md`, `backend/app/seed/taxonomy.json`.
+Status: approved 2026-10-03. **All milestones (M1–M7) shipped 2026-10-04.** Test date is 5 Dec 2026 only (the 7 Nov sitting was dropped). Specs: `docs/SAT_SPEC.md`, `docs/TAXONOMY.md`, `backend/app/seed/taxonomy.json`.
 
 ## 0. Before any code: what actually raises your score
 
@@ -76,9 +76,11 @@ Each milestone ends with: all tests green, app run and clicked through (Playwrig
 - Dashboard: countdown, score-estimate trend, mastery heatmap, top-5 weaknesses, progress bars to 1350 / Math 700 / 1550.
 - Plan generator (rules-based from weakness scores and days remaining; weekly recompute; full exam weekly, twice weekly in final 3 weeks).
 - Diagnostic offer on first login (Bluebook result entry *or* in-app exam).
+- *Shipped 2026-10-04.* Model details in `docs/SCORING.md`. Calibration is a Bayesian linear fit of official scores on in-app ability (nearest exam within ±14 days).
 
 ### M7: Polish
 - Network-loss queueing for autosave, edge cases (double-submit, expired module on resume), accessibility pass (focus order, ARIA on tools, contrast), performance, final docs.
+- *Shipped 2026-10-04.* Also: highlighter + notes in exams (CSS Custom Highlight API; stored per browser), axe-core WCAG 2.1 AA scan of every page in E2E, route code-splitting (main bundle 552 → 227 kB), timer-expiry E2E via Playwright's clock, cache cleared on sign-out.
 
 ## 4. Decisions I need from you
 

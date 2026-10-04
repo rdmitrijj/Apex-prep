@@ -1,9 +1,16 @@
 # Apex Prep
 
-Personal Digital SAT practice platform: realistic adaptive practice exams (full or one section; Official-level / Hard / Brutal), weakness training driven by your misses and pace, topic drills, and a dashboard with your score estimate against the Aalto bar.
+Personal Digital SAT prep app, built around one goal: 1350+ total and 700+ Math on **5 December 2026**.
 
-- Spec and plan: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`PLAN.md`](PLAN.md)
-- Deploying: [`docs/DEPLOY.md`](docs/DEPLOY.md)
+- **Practice Exam:** full test or one section, at Official-level, Hard, or Brutal difficulty. Adaptive Module 2, server-run timer, break, autosave and resume. Exam tools: highlighter and notes, eliminator, mark for review, navigator, calculator, reference sheet.
+- **Results:** score estimates with ± margins, calibrated to the official scores you log. Breakdown by domain and skill, pace against test timing, and a full question review.
+- **Weekly plan:** a day-by-day schedule to test day. Exams step up in the final three weeks and taper at the end. Tasks tick themselves off as you practise.
+- **Weakness Training:** adaptive questions on the skills costing you the most points (misses, slow answers, overdue reviews), with Math weighted 1.3×.
+- **Topic Drill:** pick any skill and difficulty, with instant worked solutions. Math questions are generated without limit.
+- **Mistake Notebook:** every miss, tagged by why you missed it, with "retry similar".
+- **Dashboard:** countdown, estimate against the Aalto bar, today's tasks, top weaknesses, score trend, mastery heatmap.
+
+Docs: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md) (test spec), [`docs/SCORING.md`](docs/SCORING.md) (every model), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`docs/DEPLOY.md`](docs/DEPLOY.md), [`PLAN.md`](PLAN.md).
 
 ## Local development
 
