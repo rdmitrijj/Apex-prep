@@ -20,7 +20,7 @@ Docs: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md) (test spec), [`docs/SCORING.md`](do
 cp .env.example .env          # defaults work for local dev
 docker compose up             # Postgres :5432, API :8000, web :5173
 ```
-Open <http://localhost:5173>.
+Open <https://apex-prep.onrender.com>
 
 Or without Docker for the app processes (Postgres still from compose):
 ```bash
