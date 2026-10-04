@@ -21,8 +21,14 @@ export function Shell({ children }: { children: ReactNode }) {
           <NavLink to="/" className="flex items-center gap-2 text-base font-semibold text-brand-900">
             <Logo className="h-7 w-7" /> Apex Prep
           </NavLink>
+          <NavLink to="/exam" className={link}>
+            Practice Exam
+          </NavLink>
           <NavLink to="/drill" className={link}>
             Topic Drill
+          </NavLink>
+          <NavLink to="/training" className={link}>
+            Weakness Training
           </NavLink>
         </nav>
         <div className="flex items-center gap-4 text-sm">

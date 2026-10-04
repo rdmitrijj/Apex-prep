@@ -3,7 +3,11 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { useMe } from "./api/auth";
 import { AuthPage } from "./pages/AuthPage";
 import { Drill } from "./pages/Drill";
+import { ExamHome } from "./pages/Exam";
+import { ExamResults } from "./pages/ExamResults";
+import { ExamRunner } from "./pages/ExamRunner";
 import { Home } from "./pages/Home";
+import { Training } from "./pages/Training";
 
 function RequireAuth({ children }: { children: ReactNode }) {
   const me = useMe();
@@ -24,14 +28,15 @@ export function App() {
           </RequireAuth>
         }
       />
-      <Route
-        path="/drill"
-        element={
-          <RequireAuth>
-            <Drill />
-          </RequireAuth>
-        }
-      />
+      {[
+        ["/drill", <Drill />],
+        ["/exam", <ExamHome />],
+        ["/exam/:id", <ExamRunner />],
+        ["/exam/:id/results", <ExamResults />],
+        ["/training", <Training />],
+      ].map(([path, page]) => (
+        <Route key={path as string} path={path as string} element={<RequireAuth>{page}</RequireAuth>} />
+      ))}
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

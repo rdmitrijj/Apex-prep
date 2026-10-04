@@ -106,8 +106,21 @@ function Picker({ onStart }: { onStart: (s: Setup) => void }) {
   );
 }
 
-function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
+export type Next = { question: Question; reasons?: string[] };
+
+export function Session({
+  count,
+  fetchNext,
+  mode,
+  onDone,
+}: {
+  count: number;
+  fetchNext: (exclude: number[]) => Promise<Next>;
+  mode: "drill" | "training";
+  onDone: () => void;
+}) {
   const qc = useQueryClient();
+  const [reasons, setReasons] = useState<string[]>([]);
   const [n, setN] = useState(0);
   const [q, setQ] = useState<Question | null>(null);
   const [fb, setFb] = useState<Feedback | null>(null);
@@ -116,20 +129,22 @@ function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
   const shownAt = useRef(0);
 
   const next = useMutation({
-    mutationFn: () => nextQuestion({ skill_ids: setup.skill_ids, difficulty: setup.difficulty, exclude_ids: seen.current }),
-    onSuccess: (question) => {
+    mutationFn: () => fetchNext(seen.current),
+    onSuccess: ({ question, reasons }) => {
       seen.current.push(question.id);
       setQ(question);
+      setReasons(reasons ?? []);
       setFb(null);
       shownAt.current = performance.now();
     },
   });
   const answer = useMutation({
-    mutationFn: (a: string) => submitAnswer({ question_id: q!.id, answer: a, time_ms: Math.round(performance.now() - shownAt.current) }),
+    mutationFn: (a: string) => submitAnswer({ question_id: q!.id, answer: a, time_ms: Math.round(performance.now() - shownAt.current), mode }),
     onSuccess: (f) => {
       setFb(f);
       if (f.correct) setScore((s) => s + 1);
       qc.invalidateQueries({ queryKey: ["skills"] });
+      qc.invalidateQueries({ queryKey: ["weaknesses"] });
     },
   });
 
@@ -139,14 +154,15 @@ function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
     started.current = true;
     next.mutate();
   }, [next]);
-  const finished = fb && n + 1 >= setup.count;
+  const finished = fb && n + 1 >= count;
 
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between text-sm text-slate-600">
         <span>
-          Question {n + 1} of {setup.count}
+          Question {n + 1} of {count}
           {q && <> · {q.skill_name} · <span className="capitalize">{q.difficulty}</span></>}
+          {reasons.length > 0 && <span className="text-amber-700"> · {reasons.join(", ")}</span>}
         </span>
         <span>Score {score}/{n + (fb ? 1 : 0)}</span>
       </div>
@@ -156,7 +172,7 @@ function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
         {q && !next.isPending && <QuestionView key={q.id} q={q} feedback={fb} busy={answer.isPending} error={errMsg(answer.error)} onSubmit={(a) => answer.mutate(a)} />}
       </div>
       <div className="flex justify-between">
-        <button onClick={onDone} className="text-sm text-slate-600 hover:underline">End drill</button>
+        <button onClick={onDone} className="text-sm text-slate-600 hover:underline">{mode === "drill" ? "End drill" : "End session"}</button>
         {fb && !finished && (
           <button
             autoFocus
@@ -172,8 +188,8 @@ function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
         )}
         {finished && (
           <div className="flex items-center gap-4">
-            <span className="font-semibold">Done: {score} of {setup.count} correct.</span>
-            <button autoFocus onClick={onDone} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">Back to skills</button>
+            <span className="font-semibold">Done: {score} of {count} correct.</span>
+            <button autoFocus onClick={onDone} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">{mode === "drill" ? "Back to skills" : "Back to weaknesses"}</button>
           </div>
         )}
       </div>
@@ -183,5 +199,18 @@ function Session({ setup, onDone }: { setup: Setup; onDone: () => void }) {
 
 export function Drill() {
   const [setup, setSetup] = useState<Setup | null>(null);
-  return <Shell>{setup ? <Session setup={setup} onDone={() => setSetup(null)} /> : <Picker onStart={setSetup} />}</Shell>;
+  return (
+    <Shell>
+      {setup ? (
+        <Session
+          count={setup.count}
+          mode="drill"
+          fetchNext={async (exclude) => ({ question: await nextQuestion({ skill_ids: setup.skill_ids, difficulty: setup.difficulty, exclude_ids: exclude }) })}
+          onDone={() => setSetup(null)}
+        />
+      ) : (
+        <Picker onStart={setSetup} />
+      )}
+    </Shell>
+  );
 }

@@ -29,7 +29,7 @@ async def skills(db: DB, user: CurrentUser) -> list[SkillNode]:
             await db.execute(
                 select(Question.skill_id, func.count(), func.sum(case((Response.correct, 1), else_=0)))
                 .join(Response, Response.question_id == Question.id)
-                .where(Response.user_id == user.id)
+                .where(Response.user_id == user.id, Response.correct.is_not(None))
                 .group_by(Question.skill_id)
             )
         ).all()
@@ -66,9 +66,8 @@ async def next_question(body: NextIn, db: DB, user: CurrentUser) -> QuestionOut:
     q = await qs.pick(db, user.id, leaves, body.difficulty, body.exclude_ids)
     if q is None:
         raise HTTPException(404, "No questions are available for this selection yet")
-    skill = await db.get(Skill, q.skill_id)
-    assert skill is not None
-    return qs.public(q, skill.name)
+    await db.commit()  # keeps a freshly generated item
+    return qs.public(q, (await qs.skill_names(db))[q.skill_id])
 
 
 @router.post("/drill/answer", response_model=Feedback)
@@ -85,7 +84,7 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
         Response(
             user_id=user.id,
             question_id=q.id,
-            mode="drill",
+            mode=body.mode,
             answer=body.answer.strip(),
             correct=correct,
             time_ms=body.time_ms,

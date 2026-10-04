@@ -1,6 +1,6 @@
 # Apex Prep
 
-Personal Digital SAT practice platform: realistic adaptive practice exams, weakness training, topic drills.
+Personal Digital SAT practice platform: realistic adaptive practice exams (full or one section; Official-level / Hard / Brutal), weakness training driven by your misses and pace, topic drills, and a dashboard with your score estimate against the Aalto bar.
 
 - Spec and plan: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`PLAN.md`](PLAN.md)
 - Deploying: [`docs/DEPLOY.md`](docs/DEPLOY.md)

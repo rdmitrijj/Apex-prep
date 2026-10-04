@@ -3,7 +3,7 @@
 Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 (also eligible: 2026-11-07); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M3 done; next: M4.
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. M1–M5 done (M4 exam + M5 weakness training; SRS/mistake notebook/miss-reason tags skipped); M6 partly done (dashboard, score estimate; no Bluebook calibration or study plan yet).
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
@@ -14,7 +14,8 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 - No College Board / Bluebook names, logos, or verbatim official questions in the app.
 - `backend/app/engine/` and `backend/app/generators/` are pure Python (no FastAPI/SQLAlchemy imports), mypy-strict, heavily unit-tested.
 - Math answer keys are computed with SymPy, never hard-coded; distractors come from named error models and must never equal the key.
-- Server is authoritative for exam timing.
+- Server is authoritative for exam timing: `services/exam.tick` closes an expired module on the next request; autosaves are accepted until deadline + 3 s.
+- Responses are graded when a module closes; in-progress exam responses have `correct = NULL` and are excluded from stats and weaknesses.
 - Never commit secrets; every env var goes in `.env.example`.
 
 ## Layout

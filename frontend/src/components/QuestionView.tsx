@@ -5,7 +5,7 @@ import { MathText } from "./MathText";
 
 const LETTERS = ["A", "B", "C", "D"];
 
-function Passage({ q }: { q: Question }) {
+export function Passage({ q }: { q: Question }) {
   return (
     <div className="space-y-3 leading-relaxed">
       {q.passage2 && <p className="text-sm font-semibold">Text 1</p>}
@@ -58,15 +58,17 @@ export function QuestionView({
   busy,
   error,
   onSubmit,
+  given = null,
 }: {
   q: Question;
   feedback: Feedback | null;
   busy: boolean;
   error: string | null;
   onSubmit: (answer: string) => void;
+  given?: string | null; // review mode: the answer given earlier
 }) {
-  const [choice, setChoice] = useState<string | null>(null);
-  const [entry, setEntry] = useState("");
+  const [choice, setChoice] = useState<string | null>(q.format === "mc" ? given : null);
+  const [entry, setEntry] = useState(q.format === "spr" ? (given ?? "") : "");
   const isRW = q.skill_id.startsWith("RW");
   const sprOk = validSpr(entry.trim());
   const canSubmit = !feedback && !busy && (q.format === "mc" ? choice !== null : sprOk);

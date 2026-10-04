@@ -1,6 +1,6 @@
 # PLAN: Personal Digital SAT Prep Platform
 
-Status: **awaiting approval** (2026-10-03). Specs: `docs/SAT_SPEC.md`, `docs/TAXONOMY.md`, `backend/app/seed/taxonomy.json`.
+Status: approved 2026-10-03. M1–M5 shipped 2026-10-04 (see notes under M4/M5); M6 partly. Specs: `docs/SAT_SPEC.md`, `docs/TAXONOMY.md`, `backend/app/seed/taxonomy.json`.
 
 ## 0. Before any code: what actually raises your score
 
@@ -62,12 +62,14 @@ Each milestone ends with: all tests green, app run and clicked through (Playwrig
 - Results: section/total estimate (provisional mapping until M6), per-skill breakdown, time per question, full review.
 - Playwright E2E: full exam flow including refresh mid-module and timer expiry.
 - Dark mode is disabled here.
+- *Shipped 2026-10-04.* Also: section choice (full / R&W only / Math only). Skipped: highlighter + notes. Weights/profiles/routing live in `backend/app/engine/exam.py` and `irt.py`.
 
 ### M5: Engine + Weakness Training + SRS + Mistake Notebook
 - `engine/`: Elo/IRT-lite rating updates (ability per sub-skill, difficulty per item; time and eliminator-use adjustments), history; weakness score = f(mastery, exam weight, recent error rate, pace, decay) × 1.3 for Math; SRS intervals 1/3/7/14 days (correct extends, miss resets); selector targeting 60–70 % expected success.
 - Weakness Training mode (untimed, stopwatch, miss-reason tags).
 - Mistake Notebook with filters and "retry similar" (fresh generator variant or unseen same-sub-skill item).
 - Seed bank completed to ≥10 per R&W sub-skill.
+- *Shipped 2026-10-04:* weakness score (`engine/weakness.py`), adaptive Weakness Training. Skipped: SRS, Mistake Notebook, miss-reason tags (the exam review page covers mistakes). Mastery is computed from responses on demand, so `skill_mastery`/`mastery_history`/`review_schedule` are unused. R&W seed bank not yet expanded (CAS has only 32 items, so exams repeat CAS passages quickly).
 
 ### M6: Dashboard, score estimate, 9-week plan
 - `docs/SCORING.md` + estimator calibrated to logged Bluebook results.

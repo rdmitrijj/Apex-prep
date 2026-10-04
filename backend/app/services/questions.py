@@ -1,4 +1,4 @@
-"""Question storage, selection, and grading (shared by drill now and exams/training later)."""
+"""Question storage, selection, and grading (shared by drill, exams, and training)."""
 
 import hashlib
 import json
@@ -119,7 +119,6 @@ async def pick(
             qid = await insert_question(
                 db, skill_id=leaf, fmt=g.format, difficulty=diff, content=g.content(), source="generator"
             )
-            await db.commit()
             return await db.get(Question, qid)
         seen = exists().where(Response.user_id == user_id, Response.question_id == Question.id)
         q = await db.scalar(
@@ -131,6 +130,10 @@ async def pick(
         if q is not None:
             return q
     return None
+
+
+async def skill_names(db: AsyncSession) -> dict[str, str]:
+    return dict((await db.execute(select(Skill.id, Skill.name))).all())
 
 
 def public(q: Question, skill_name: str) -> QuestionOut:
