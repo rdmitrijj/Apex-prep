@@ -1,6 +1,6 @@
 # Apex Prep
 
-Personal Digital SAT prep app, built around one goal: 1350+ total and 700+ Math on **5 December 2026**.
+Personal Digital SAT prep app, built around one goal: 1450+ total and 700+ Math on **5 December 2026**.
 
 - **Practice Exam:** full test or one section, at Official-level, Hard, or Brutal difficulty. Adaptive Module 2, server-run timer, break, autosave and resume. Exam tools: highlighter and notes, eliminator, mark for review, navigator, calculator, reference sheet.
 - **Results:** score estimates with ± margins, calibrated to the official scores you log. Breakdown by domain and skill, pace against test timing, and a full question review.
