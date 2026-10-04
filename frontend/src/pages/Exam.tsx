@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { createExam, fmtDate, SECTION_NAME, useExams, type Section, type Setting } from "../api/exam";
 import { OfficialScores } from "../components/OfficialScores";
@@ -19,6 +19,10 @@ const SCOPES: { id: string; name: string; sections: Section[]; time: string }[] 
 export function ExamHome() {
   const exams = useExams();
   const navigate = useNavigate();
+  const { hash } = useLocation();
+  useEffect(() => {
+    if (hash) document.getElementById(hash.slice(1))?.scrollIntoView();
+  }, [hash]);
   const [setting, setSetting] = useState<Setting>("official");
   const [scope, setScope] = useState("full");
   const [busy, setBusy] = useState(false);

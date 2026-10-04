@@ -203,3 +203,27 @@ async def test_official_scores_calibrate_exam_estimates(user: AsyncClient) -> No
 
     assert (await user.delete(f"/api/official-scores/{new_id}")).status_code == 204
     assert (await user.get(f"/api/exams/{exam_id}/results")).json()["math_score"] == before["math_score"]
+
+
+async def test_study_plan_is_stored_weekly_and_tracks_activity(user: AsyncClient) -> None:
+    from app.models import StudyPlan
+
+    plan = (await user.get("/api/plan?tz=Europe/Helsinki")).json()
+    assert plan["test_date"] == "2026-12-05" and plan["days"]
+    today = next(d for d in plan["days"] if d["date"] == plan["today"])
+    assert today["tasks"][0]["kind"] == "exam" and today["tasks"][0]["title"].startswith("Diagnostic")
+    assert today["tasks"][0]["done"] is False
+    assert {f["section"] for f in plan["focus"]} == {"MATH", "RW"} and len(plan["focus"]) == 6
+    assert (await user.get("/api/plan?tz=Not/AZone")).status_code == 200  # bad zone falls back to UTC
+    async with SessionLocal() as db:
+        assert len((await db.scalars(select(StudyPlan))).all()) == 1  # reused, not rebuilt
+
+    exam_id = (await user.post("/api/exams", json={"sections": ["MATH"]})).json()["id"]
+    for _ in range(2):
+        await user.post(f"/api/exams/{exam_id}/start")
+        await user.post(f"/api/exams/{exam_id}/submit-module")
+    plan = (await user.get("/api/plan?tz=Europe/Helsinki")).json()
+    today = next(d for d in plan["days"] if d["date"] == plan["today"])
+    assert today["tasks"][0]["done"] is True
+    rebuilt = (await user.get("/api/plan?tz=Europe/Helsinki&rebuild=true")).json()
+    assert not any(t["title"].startswith("Diagnostic") for d in rebuilt["days"] for t in d["tasks"])

@@ -17,9 +17,12 @@ export function Shell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen">
       <header className="flex items-center justify-between gap-4 border-b border-slate-200 bg-white px-6 py-3">
-        <nav className="flex items-center gap-6 text-sm">
+        <nav className="flex flex-wrap items-center gap-x-5 gap-y-1 text-sm">
           <NavLink to="/" className="flex items-center gap-2 text-base font-semibold text-brand-900">
             <Logo className="h-7 w-7" /> Apex Prep
+          </NavLink>
+          <NavLink to="/plan" className={link}>
+            Plan
           </NavLink>
           <NavLink to="/exam" className={link}>
             Practice Exam

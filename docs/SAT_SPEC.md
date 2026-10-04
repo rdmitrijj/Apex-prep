@@ -31,7 +31,7 @@ Sources:
 
 - **Module 1** has a broad mix of easy, medium, and hard questions.
 - **Module 2** is either harder or easier on average, depending on how you did in Module 1. Routing happens separately per section.
-- College Board does **not** publish the routing rule or the score ceiling of the easier path. Students commonly report that the easier Module 2 caps a section score at around 600–650. **App assumption (configurable):** route to the harder Module 2 when the ability estimate after Module 1 is at least the threshold equivalent to about 60% expected correct on a medium item. The threshold and the easier-route cap (640) live in `backend/app/engine/irt.py`.
+- College Board does **not** publish the routing rule or the score ceiling of the easier path. Students commonly report that the easier Module 2 caps a section score at around 600–650. **App assumption (configurable):** route to the harder Module 2 when the ability estimate after Module 1 is at least the threshold equivalent to about 60% expected correct on a medium item. Details: `docs/SCORING.md` §3–4.
 - **Within-module ordering (official):**
   - **R&W:** domains always appear in the order Craft and Structure → Information and Ideas → Standard English Conventions → Expression of Ideas. In CAS, INI, and EOI, questions on the same skill are grouped and ordered easiest to hardest. SEC questions are ordered easiest to hardest regardless of which convention they test.
   - **Math:** all four domains appear in every module, ordered easiest to hardest across the module.
@@ -113,7 +113,7 @@ Official examples:
 
 - Section scores range from **200 to 800** in 10-point steps. The total, **400–1600**, is the sum of the two sections. There are no subscores.
 - Raw score: 1 point per correct operational item, no penalty. Section scores come from **IRT-based scoring** that takes into account which items (and which Module 2) the student saw. Two students with the same raw score can get different scaled scores.
-- **College Board publishes no raw-to-scale tables for the digital SAT**, because conversion is per form and proprietary. The app's estimate therefore has to be modeled. Implemented (`backend/app/engine/irt.py`): a Rasch ability estimate over the scored items, mapped linearly to 200–800 (θ 0 → 500, 110 points per logit; capped at 640 on the easier Module 2). The map is then **calibrated to your own official practice-test and real scores**, the only ground truth available: each is paired with the in-app exam closest in time (±14 days), and a Bayesian linear fit (prior: the default map; noise: ±30 official wobble plus the in-app estimate's error) re-maps every exam. Results show a one-SD ± margin. The UI always labels it "Estimate".
+- **College Board publishes no raw-to-scale tables for the digital SAT**, because conversion is per form and proprietary. The app's estimate therefore has to be modeled. Implemented (`backend/app/engine/irt.py`): a Rasch ability estimate over the scored items, mapped linearly to 200–800 (θ 0 → 500, 110 points per logit; capped at 640 on the easier Module 2). The map is then **calibrated to your own official practice-test and real scores**, the only ground truth available: each is paired with the in-app exam closest in time (±14 days), and a Bayesian linear fit (prior: the default map; noise: ±30 official wobble plus the in-app estimate's error) re-maps every exam. Results show a one-SD ± margin. Full description: `docs/SCORING.md`. The UI always labels it "Estimate".
 
 ## 7. Your targets and constraints
 

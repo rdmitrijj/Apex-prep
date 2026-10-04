@@ -156,3 +156,42 @@ def test_partial_credit_for_slow_or_eliminated_answers() -> None:
     assert w.reasons == [] and 0.5 < w.mastery < 1
     assert "Due for review" in weakness("X", "RW", 0.03, 0.03, [fast], due=True).reasons
     assert weakness("X", "RW", 0.03, 0.03, [fast], due=True).score > w.score
+
+
+def test_week_plan_rules() -> None:
+    from datetime import date, timedelta
+
+    from app.engine.plan import TEST_DATE, Focus, monday, week_plan
+
+    focus = [
+        Focus("MATH.ALG.LINF.SLOPE", "Slope", "MATH", "medium"),
+        Focus("RW.CAS.WIC.FILL", "Words", "RW", "easy"),
+    ]
+
+    def kinds(week: date, today: date, has_exam: bool = True) -> dict[str, list[str]]:
+        plan = week_plan(week, today, focus, has_exam)
+        return {d["date"]: [t["kind"] for t in d["tasks"]] for d in plan["days"]}
+
+    # Build phase (October): one exam, on Saturday; drills link to the focus skill.
+    wk = monday(date(2026, 10, 12))
+    k = kinds(wk, wk)
+    exams = [d for d, ks in k.items() if "exam" in ks]
+    assert exams == [str(wk + timedelta(days=5))]
+    assert k[str(wk)] == ["training", "drill"] and k[str(wk + timedelta(days=6))] == ["notebook", "training"]
+    plan = week_plan(wk, wk, focus, True)
+    assert plan["phase"] == "build" and "MATH.ALG.LINF.SLOPE" in plan["days"][0]["tasks"][1]["link"]
+    # No exam yet: a diagnostic on the first open day.
+    assert "exam" in kinds(wk, wk + timedelta(days=2), has_exam=False)[str(wk + timedelta(days=2))]
+    # Sharpen phase: Wednesday + Saturday exams.
+    wk = monday(TEST_DATE - timedelta(days=14))
+    k = kinds(wk, wk)
+    assert sorted(d for d, ks in k.items() if "exam" in ks) == [
+        str(wk + timedelta(days=2)),
+        str(wk + timedelta(days=5)),
+    ]
+    # Final week: no exams in the last 3 days, rest the day before, test on Saturday, nothing after.
+    wk = monday(TEST_DATE)
+    k = kinds(wk, wk)
+    assert k[str(TEST_DATE)] == ["test"] and k[str(TEST_DATE - timedelta(days=1))] == ["rest"]
+    assert not any("exam" in k[str(TEST_DATE - timedelta(days=n))] for n in (2, 3))
+    assert max(k) == str(TEST_DATE)

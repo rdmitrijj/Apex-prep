@@ -90,6 +90,7 @@ export type WeaknessRow = {
   correct: number;
   avg_seconds: number | null;
   target_seconds: number;
+  mastery: number;
   reasons: string[];
 };
 
@@ -126,3 +127,16 @@ export const useOfficialScores = () =>
 export const addOfficialScore = (body: { taken_on: string; kind: string; label: string; rw: number; math: number }) =>
   api<{ id: number }>("/official-scores", { method: "POST", json: body });
 export const deleteOfficialScore = (id: number) => api<void>(`/official-scores/${id}`, { method: "DELETE" });
+
+export type PlanTask = { id: string; kind: "exam" | "training" | "drill" | "notebook" | "rest" | "test"; title: string; detail: string; minutes: number; link: string; done: boolean | null };
+export type Plan = {
+  week_start: string;
+  phase: "build" | "sharpen" | "taper";
+  today: string;
+  test_date: string;
+  focus: { skill_id: string; name: string; section: Section; difficulty: string }[];
+  days: { date: string; days_left: number; tasks: PlanTask[] }[];
+};
+const TZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+export const usePlan = () => useQuery({ queryKey: ["plan"], queryFn: () => api<Plan>(`/plan?tz=${encodeURIComponent(TZ)}`) });
+export const rebuildPlan = () => api<Plan>(`/plan?tz=${encodeURIComponent(TZ)}&rebuild=true`);

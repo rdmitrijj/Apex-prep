@@ -6,7 +6,7 @@ Every question, response, and mastery row references a **leaf** (`subskill`) ID.
 
 - **ID format:** `SECTION.DOMAIN.SKILL.SUBSKILL`, e.g. `MATH.ADV.NLF.VERTEX`.
 - **weight** = estimated share of that section's operational questions. Domain weights are official (College Board spec). Skill weights are *our estimates* from official practice-test frequency and are meant to be refined with real data. Sub-skill weights split their skill evenly.
-- **Difficulty bands:** every leaf is targeted at `easy`, `medium`, and `hard`. On the Rasch scale they sit at b = −1, 0, 1 (`backend/app/engine/irt.py`).
+- **Difficulty bands:** every leaf is targeted at `easy`, `medium`, and `hard`. On the Rasch scale they sit at b = −1, 0, 1 (`docs/SCORING.md` §1).
 - **Formats:** R&W leaves are 4-option MC only. Math leaves allow MC and SPR (target mix about 75/25).
 - **Math priority:** the engine multiplies Math weakness scores by `math_priority_multiplier` (default 1.3).
 

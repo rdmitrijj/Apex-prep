@@ -33,7 +33,7 @@ export function OfficialScores() {
   const input = "rounded border border-slate-300 px-2 py-1";
 
   return (
-    <section className="space-y-3 rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
+    <section id="official" className="scroll-mt-4 space-y-3 rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
       <div>
         <h2 className="text-lg font-semibold">Official scores and calibration</h2>
         <p className="text-sm text-slate-600">
