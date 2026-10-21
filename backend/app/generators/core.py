@@ -213,8 +213,13 @@ def build(
     spr: bool = True,
     spr_stem: str | None = None,
     fmt: Callable[[Value], str] = _render,
+    correct: Callable[[Value], bool] | None = None,
 ) -> Generated:
-    """Assemble MC or SPR. SPR (~30%) only for rational keys when the stem allows it."""
+    """Assemble MC or SPR. SPR (~30%) only for rational keys when the stem allows it.
+
+    Pass `correct` when the stem admits several right answers ("a zero of f"): any distractor it
+    accepts is dropped, including the generic fallbacks below, so exactly one choice is right.
+    """
     key_s = sympy.sympify(key) if not isinstance(key, str) else key
     # A stem that refers to answer choices can't become a free-response item without its own wording.
     spr = spr and (spr_stem is not None or not CHOICE_WORDING.search(stem))
@@ -237,6 +242,8 @@ def build(
     for dist in distractors:
         assert dist.model in ERROR_MODELS, dist.model
         if _same(dist.value, key) or fmt(dist.value) == fmt(key):
+            continue
+        if correct is not None and correct(dist.value):
             continue
         if any(_same(dist.value, c.value) or fmt(dist.value) == fmt(c.value) for c in chosen):
             continue

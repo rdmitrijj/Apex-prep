@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import re
 from fractions import Fraction
 from pathlib import Path
 
@@ -80,3 +81,15 @@ def test_spr_official_examples() -> None:
     assert canonical_entry(Fraction(2, 3)) == "2/3" and canonical_entry(Fraction(-1, 3)) == "-1/3"
     assert canonical_entry(Fraction(1234, 777)) == "1.588"
     assert canonical_entry(Fraction(-9876, 70)) == "-141.1"
+
+
+def test_polyz_easy_has_exactly_one_zero_among_choices() -> None:
+    # Regression: the generic -key fallback once added a second zero, e.g. 8 and -8 for (x+8)(x+2)(x-8).
+    for seed in range(SEEDS * 5):
+        g = generate("MATH.ADV.NLF.POLYZ", "easy", random.Random(seed))
+        if g.format != "mc":
+            continue
+        zeros = {-int(sign + n) for sign, n in re.findall(r"\(x ([+-]) (\d+)\)", g.stem)}
+        assert len(zeros) == 3, g.stem
+        hits = [c for c in g.choices or [] if int(c.strip("$")) in zeros]
+        assert len(hits) == 1, (seed, g.stem, g.choices)

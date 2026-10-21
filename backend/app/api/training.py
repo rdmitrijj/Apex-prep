@@ -11,12 +11,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.deps import DB, CurrentUser
 from app.engine import irt
 from app.engine.weakness import Attempt, Weakness, weakness
-from app.models import Question, Response, ReviewSchedule, Skill
+from app.models import ExamItem, ExamModule, ExamSession, Question, Response, ReviewSchedule, Skill
 from app.schemas.question import QuestionOut
 from app.services import questions as qs
 
 router = APIRouter(tags=["training"])
 POOL = 8  # training samples among the top-N weaknesses so one session covers several
+CLEAR_STREAK = 15  # correct answers in a row (after the exam) that clear a last-exam mistake
 
 
 class WeaknessOut(BaseModel):
@@ -35,6 +36,23 @@ class WeaknessOut(BaseModel):
 class TrainingNextIn(BaseModel):
     exclude_ids: list[int] = Field(default_factory=list, max_length=200)
     section: str | None = Field(default=None, pattern="^(RW|MATH)$")
+    last_exam: bool = False  # only sub-skills missed in the latest completed exam and not yet cleared
+
+
+class ExamMiss(BaseModel):
+    skill_id: str
+    name: str
+    section: str
+    missed: int
+    streak: int
+
+
+class ExamMisses(BaseModel):
+    exam_id: int | None
+    completed_at: datetime | None
+    clear_streak: int = CLEAR_STREAK
+    open: list[ExamMiss]
+    cleared: list[ExamMiss]
 
 
 class TrainingQuestion(BaseModel):
@@ -81,6 +99,67 @@ async def compute(db: AsyncSession, user_id: int) -> list[tuple[Weakness, Skill]
     return sorted(out, key=lambda p: p[0].score, reverse=True)
 
 
+async def exam_misses(db: AsyncSession, user_id: int) -> ExamMisses:
+    """Sub-skills missed in the latest completed exam, split by whether they've since been cleared."""
+    sess = await db.scalar(
+        select(ExamSession)
+        .where(ExamSession.user_id == user_id, ExamSession.status == "completed")
+        .order_by(ExamSession.completed_at.desc())
+        .limit(1)
+    )
+    if sess is None or sess.completed_at is None:
+        return ExamMisses(exam_id=None, completed_at=None, open=[], cleared=[])
+    missed = Counter(
+        await db.scalars(
+            select(Question.skill_id)
+            .join(Response, Response.question_id == Question.id)
+            .join(ExamItem, ExamItem.id == Response.exam_item_id)
+            .join(ExamModule, ExamModule.id == ExamItem.module_id)
+            .where(ExamModule.session_id == sess.id, Response.correct.is_(False))
+        )
+    )
+    later = await db.execute(
+        select(Question.skill_id, Response.correct)
+        .join(Response, Response.question_id == Question.id)
+        .where(
+            Response.user_id == user_id,
+            Response.created_at > sess.completed_at,
+            Response.mode != "exam",
+            Response.correct.is_not(None),
+            Question.skill_id.in_(list(missed)),
+        )
+        .order_by(Response.created_at, Response.id)
+    )
+    run: Counter[str] = Counter()
+    cleared: set[str] = set()
+    for skill_id, ok in later:  # oldest first; once cleared, a skill stays cleared until the next exam
+        run[skill_id] = run[skill_id] + 1 if ok else 0
+        if run[skill_id] >= CLEAR_STREAK:
+            cleared.add(skill_id)
+    skills = {s.id: s for s in await db.scalars(select(Skill).where(Skill.id.in_(list(missed))))}
+    rows = [
+        ExamMiss(
+            skill_id=sid,
+            name=skills[sid].name,
+            section=skills[sid].section,
+            missed=n,
+            streak=CLEAR_STREAK if sid in cleared else run[sid],
+        )
+        for sid, n in missed.most_common()
+    ]
+    return ExamMisses(
+        exam_id=sess.id,
+        completed_at=sess.completed_at,
+        open=[r for r in rows if r.skill_id not in cleared],
+        cleared=[r for r in rows if r.skill_id in cleared],
+    )
+
+
+@router.get("/training/exam-misses", response_model=ExamMisses)
+async def last_exam_misses(db: DB, user: CurrentUser) -> ExamMisses:
+    return await exam_misses(db, user.id)
+
+
 @router.get("/weaknesses", response_model=list[WeaknessOut])
 async def weaknesses(db: DB, user: CurrentUser, limit: int = 10) -> list[WeaknessOut]:
     return [
@@ -103,6 +182,11 @@ async def weaknesses(db: DB, user: CurrentUser, limit: int = 10) -> list[Weaknes
 @router.post("/training/next", response_model=TrainingQuestion)
 async def next_question(body: TrainingNextIn, db: DB, user: CurrentUser) -> TrainingQuestion:
     ranked = [p for p in await compute(db, user.id) if body.section in (None, p[1].section)]
+    if body.last_exam:
+        todo = {m.skill_id for m in (await exam_misses(db, user.id)).open}
+        ranked = [p for p in ranked if p[1].id in todo]
+        if not ranked:
+            raise HTTPException(404, "No open mistakes from your last exam")
     pool = ranked[:POOL]
     rng = random.Random(secrets.randbits(64))
     # Weighted by score², so the biggest weaknesses come up most but not exclusively.

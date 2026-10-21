@@ -1128,12 +1128,16 @@ def nlf_polyz(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "NLF.POLYZ"
     if d == "easy":
         zs = rng.sample([v for v in range(-8, 9) if v], 3)
+        while any(-z in zs for z in zs):  # keeps every sign-flip distractor a non-zero
+            zs = rng.sample([v for v in range(-8, 9) if v], 3)
         f = (x - zs[0]) * (x - zs[1]) * (x - zs[2])
-        zeros = set(sympy.solve(f, x))
         key = R(rng.choice(zs))
-        cands = [(R(-z), "sign_flip", f"Sign error: the factor $(x - ({z}))$ gives $x = {z}$.") for z in zs]
+        cands = [
+            (R(-z), "sign_flip", f"Sign error: the factor $({lin(1, -z)})$ is zero at $x = {z}$, not ${-z}$.")
+            for z in zs
+        ]
         cands.append((f.subs(x, 0), "concept", "That's $f(0)$, the $y$-intercept."))
-        dist = [D(v, mo, why) for v, mo, why in cands if v not in zeros]
+        dist = [D(v, mo, why) for v, mo, why in cands]
         factors = "".join(f"({lin(1, -z)})" for z in zs)
         stem = f"The function $f$ is defined by $f(x) = {factors}$. Which of the following is a zero of $f$?"
         steps = [
@@ -1149,6 +1153,7 @@ def nlf_polyz(rng: random.Random, d: Difficulty) -> Generated:
             distractors=dist,
             steps=steps,
             verify=lambda: f.subs(x, key) == 0,
+            correct=lambda v: f.subs(x, v) == 0,
         )
     c3, c2, c1, c0 = 1, ri(rng, -6, 6), ri(rng, -9, 9), ri(rng, -9, 9)
     a = ri(rng, -4, 4, (0,))

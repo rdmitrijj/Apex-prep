@@ -97,7 +97,14 @@ export type WeaknessRow = {
 export const useWeaknesses = (limit = 10) =>
   useQuery({ queryKey: ["weaknesses", limit], queryFn: () => api<WeaknessRow[]>(`/weaknesses?limit=${limit}`) });
 
-export const trainingNext = (body: { exclude_ids: number[]; section: Section | null }) =>
+export type ExamMiss = { skill_id: string; name: string; section: Section; missed: number; streak: number };
+export type ExamMisses = { exam_id: number | null; completed_at: string | null; clear_streak: number; open: ExamMiss[]; cleared: ExamMiss[] };
+
+// Keyed under "weaknesses" so answering in a session refreshes it too.
+export const useExamMisses = () =>
+  useQuery({ queryKey: ["weaknesses", "exam-misses"], queryFn: () => api<ExamMisses>("/training/exam-misses") });
+
+export const trainingNext = (body: { exclude_ids: number[]; section: Section | null; last_exam: boolean }) =>
   api<{ question: Question; reasons: string[] }>("/training/next", { method: "POST", json: body });
 
 export function fmtClock(ms: number) {

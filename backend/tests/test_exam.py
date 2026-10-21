@@ -168,6 +168,57 @@ async def test_weakness_training_targets_exam_misses(user: AsyncClient) -> None:
     assert math["question"]["skill_id"].startswith("MATH.")
 
 
+async def test_last_exam_training_clears_after_15_in_a_row(user: AsyncClient) -> None:
+    empty = (await user.get("/api/training/exam-misses")).json()
+    assert empty["exam_id"] is None and empty["open"] == []
+    no_exam = await user.post("/api/training/next", json={"last_exam": True})
+    assert no_exam.status_code == 404
+
+    exam_id = (await user.post("/api/exams", json={"sections": ["RW"]})).json()["id"]
+    s = (await user.post(f"/api/exams/{exam_id}/start")).json()
+    await _answer_all(user, exam_id, s, right=False)
+    await user.post(f"/api/exams/{exam_id}/submit-module")
+    await user.post(f"/api/exams/{exam_id}/start")
+    await user.post(f"/api/exams/{exam_id}/submit-module")
+
+    misses = (await user.get("/api/training/exam-misses")).json()
+    assert misses["exam_id"] == exam_id and misses["clear_streak"] == 15 and not misses["cleared"]
+    open_ids = {m["skill_id"] for m in misses["open"]}
+    assert open_ids and all(m["missed"] > 0 and m["streak"] == 0 for m in misses["open"])
+    for _ in range(5):
+        got = (await user.post("/api/training/next", json={"last_exam": True})).json()
+        assert got["question"]["skill_id"] in open_ids
+
+    target = misses["open"][0]["skill_id"]
+    async with SessionLocal() as db:
+        qid = await db.scalar(select(Question.id).where(Question.skill_id == target).limit(1))
+    assert qid is not None
+
+    async def answer(right: bool) -> None:
+        ans = await _key(qid) if right else await _wrong(qid)
+        r = await user.post("/api/drill/answer", json={"question_id": qid, "answer": ans, "time_ms": 1000})
+        assert r.status_code == 200
+
+    for _ in range(10):
+        await answer(True)
+    await answer(False)  # a miss restarts the streak
+    for _ in range(14):
+        await answer(True)
+    row = next(
+        m for m in (await user.get("/api/training/exam-misses")).json()["open"] if m["skill_id"] == target
+    )
+    assert row["streak"] == 14
+    await answer(True)
+    misses = (await user.get("/api/training/exam-misses")).json()
+    assert target in {m["skill_id"] for m in misses["cleared"]}
+    assert target not in {m["skill_id"] for m in misses["open"]}
+    await answer(False)  # cleared stays cleared until the next exam
+    assert target in {m["skill_id"] for m in (await user.get("/api/training/exam-misses")).json()["cleared"]}
+    for _ in range(10):
+        got = (await user.post("/api/training/next", json={"last_exam": True})).json()
+        assert got["question"]["skill_id"] != target
+
+
 async def test_official_scores_calibrate_exam_estimates(user: AsyncClient) -> None:
     exam_id = (await user.post("/api/exams", json={"sections": ["MATH"]})).json()["id"]
     s = (await user.post(f"/api/exams/{exam_id}/start")).json()
