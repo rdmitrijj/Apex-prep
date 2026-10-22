@@ -12,6 +12,8 @@ const TEST_DAY = new Date("2026-12-05T08:00:00");
 const GOALS = [
   { label: "Total", key: "Total", target: 1350, max: 1600 },
   { label: "Math", key: "Math", target: 700, max: 800 },
+  // 650 = the 1350 total bar minus the 700 Math bar.
+  { label: "English (R&W)", key: "RW", target: 650, max: 800 },
   { label: "Stretch total", key: "Total", target: 1550, max: 1600 },
 ] as const;
 
@@ -29,7 +31,7 @@ export function Home() {
   // Latest estimate per section, from any finished exam (section-only exams count too).
   const rw = done.find((e) => e.rw_score !== null)?.rw_score ?? null;
   const math = done.find((e) => e.math_score !== null)?.math_score ?? null;
-  const now = { Total: rw !== null && math !== null ? rw + math : null, Math: math };
+  const now = { Total: rw !== null && math !== null ? rw + math : null, Math: math, RW: rw };
   const fresh = exams.isSuccess && official.isSuccess && done.length === 0 && official.data.scores.length === 0;
   const today = plan.data?.days.find((d) => d.date === plan.data.today);
   const trend: TrendPoint[] = [
