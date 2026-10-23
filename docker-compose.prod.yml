@@ -33,6 +33,7 @@ services:
     environment:
       TZ: 'Europe/Riga'
     volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
       - ./letsencrypt:/etc/letsencrypt
     depends_on: 
       - app
