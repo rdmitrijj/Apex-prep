@@ -261,7 +261,7 @@ async def test_study_plan_is_stored_weekly_and_tracks_activity(user: AsyncClient
     from app.models import StudyPlan
 
     plan = (await user.get("/api/plan?tz=Europe/Helsinki")).json()
-    assert plan["test_date"] == "2026-12-05" and plan["days"]
+    assert plan["test_date"] == GOALS["test_date"] and plan["days"]
     today = next(d for d in plan["days"] if d["date"] == plan["today"])
     assert today["tasks"][0]["kind"] == "exam" and today["tasks"][0]["title"].startswith("Diagnostic")
     assert today["tasks"][0]["done"] is False
