@@ -2,13 +2,13 @@ services:
   db:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: apex
-      POSTGRES_PASSWORD: apex
-      POSTGRES_DB: apex
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports: ["5432:5432"]
     volumes: [pgdata:/var/lib/postgresql/data]
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U apex"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
       interval: 2s
       retries: 20
 
@@ -17,7 +17,7 @@ services:
     working_dir: /app/backend
     command: sh -c "uv sync --frozen && uv run alembic upgrade head && uv run python -m app.seed && uv run uvicorn app.main:app --host 0.0.0.0 --reload"
     environment:
-      DATABASE_URL: postgresql://apex:apex@db:5432/apex
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
       UV_PROJECT_ENVIRONMENT: /venv
     env_file: [{ path: .env, required: false }]
     volumes: [".:/app", "venv:/venv"]

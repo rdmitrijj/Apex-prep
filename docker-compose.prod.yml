@@ -1,0 +1,42 @@
+name: apex-prep-prod
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql
+    
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER}"]
+      interval: 2s
+      retries: 20
+
+  app:
+    build: . 
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    depends_on:
+      db: {condition: service_healthy}
+  nginx:
+    image: nginx:stable-trixie-perl
+    restart: unless-stopped
+    ports:
+    - '80:80'
+    - '443:443'
+    environment:
+      TZ: 'Europe/Riga'
+    volumes:
+      - ./letsencrypt:/etc/letsencrypt
+    depends_on: 
+      - app
+
+volumes:
+  pgdata:
+    name: "prod_pg"
