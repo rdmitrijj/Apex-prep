@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import { useMe } from "../api/auth";
 import { ApiError } from "../api/client";
 import { fmtDate, SECTION_NAME, TARGET_SECONDS, useExamResults, type ExamResults as Results, type ReviewItem, type Section } from "../api/exam";
 import { MissReason } from "../components/MissReason";
 import { QuestionView } from "../components/QuestionView";
 import { Shell } from "../components/Shell";
 
-const TARGETS = { total: 1350, MATH: 700 };
 type Filter = "all" | "wrong" | "flagged" | "slow";
 
 function ScoreCard({ label, score, target, margin }: { label: string; score: number; target?: number; margin?: number }) {
@@ -106,6 +106,7 @@ function Row({ item, n }: { item: ReviewItem; n: number }) {
 export function ExamResults() {
   const id = Number(useParams().id);
   const res = useExamResults(id);
+  const me = useMe().data!;
   const [filter, setFilter] = useState<Filter>("all");
   if (res.isPending) return <Shell><p className="text-slate-500">Loading results…</p></Shell>;
   if (res.isError)
@@ -129,9 +130,9 @@ export function ExamResults() {
           <span className="text-sm text-slate-500">{fmtDate(r.completed_at ?? r.created_at)} · <span className="capitalize">{r.difficulty}</span></span>
         </div>
         <div className="grid gap-4 sm:grid-cols-3">
-          {both && <ScoreCard label="Total (estimate)" score={r.rw_score! + r.math_score!} target={TARGETS.total} margin={Math.round(Math.hypot(r.margins.RW ?? 0, r.margins.MATH ?? 0) / 10) * 10} />}
-          {r.rw_score !== null && <ScoreCard label="Reading and Writing" score={r.rw_score} margin={r.margins.RW} />}
-          {r.math_score !== null && <ScoreCard label="Math" score={r.math_score} target={TARGETS.MATH} margin={r.margins.MATH} />}
+          {both && <ScoreCard label="Total (estimate)" score={r.rw_score! + r.math_score!} target={me.target_total!} margin={Math.round(Math.hypot(r.margins.RW ?? 0, r.margins.MATH ?? 0) / 10) * 10} />}
+          {r.rw_score !== null && <ScoreCard label="Reading and Writing" score={r.rw_score} target={me.section_targets!.RW} margin={r.margins.RW} />}
+          {r.math_score !== null && <ScoreCard label="Math" score={r.math_score} target={me.section_targets!.MATH} margin={r.margins.MATH} />}
         </div>
         <p className="text-xs text-slate-500">
           Estimates from a Rasch model over the scored questions (pretest questions don't count), mapped to the 200–800 scale{" "}

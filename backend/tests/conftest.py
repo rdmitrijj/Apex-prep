@@ -6,13 +6,19 @@ os.environ["DATABASE_URL"] = os.environ.get(
 )
 os.environ["SECRET_KEY"] = "test-secret-" + "x" * 32
 
+from datetime import date, timedelta  # noqa: E402
+
 import asyncpg  # noqa: E402
 import pytest  # noqa: E402
 from httpx import ASGITransport, AsyncClient  # noqa: E402
 
+from app.core import security  # noqa: E402
 from app.core.db import engine  # noqa: E402
 from app.main import app  # noqa: E402
 from app.models import Base  # noqa: E402
+
+# Registration goals for test accounts.
+GOALS = {"test_date": str(date.today() + timedelta(days=60)), "target_total": 1400, "target_math": 720}
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -30,6 +36,7 @@ async def _schema() -> None:
 
 @pytest.fixture(autouse=True)
 async def _clean() -> None:
+    security._attempts.clear()
     async with engine.begin() as c:
         for table in reversed(Base.metadata.sorted_tables):
             await c.execute(table.delete())

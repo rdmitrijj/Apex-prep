@@ -9,8 +9,9 @@ from app.engine.exam import RW_DOMAIN_ORDER, domain_of
 from app.models import ExamModule, Question, Response
 from app.services.exam import now
 from app.services.questions import seed
+from tests.conftest import GOALS
 
-CREDS = {"email": "exam@example.com", "password": "correct horse battery"}
+CREDS = {"email": "exam@example.com", "password": "correct horse battery", **GOALS}
 
 
 @pytest.fixture

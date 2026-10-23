@@ -22,6 +22,8 @@ from sqlalchemy import (
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
+from app.engine.goals import section_targets
+
 Json = JSON().with_variant(JSONB(), "postgresql")
 
 
@@ -47,7 +49,16 @@ class User(Base):
     email: Mapped[str] = mapped_column(String(320), unique=True)
     password_hash: Mapped[str] = mapped_column(String(255))
     test_date: Mapped[date | None] = mapped_column(Date)
+    target_total: Mapped[int | None] = mapped_column(SmallInteger)
+    target_math: Mapped[int | None] = mapped_column(SmallInteger)  # optional section minimums
+    target_rw: Mapped[int | None] = mapped_column(SmallInteger)
     created_at: Mapped[datetime] = _now()
+
+    @property
+    def section_targets(self) -> dict[str, int] | None:
+        if self.target_total is None:
+            return None
+        return section_targets(self.target_total, self.target_math, self.target_rw)
 
 
 class Skill(Base):

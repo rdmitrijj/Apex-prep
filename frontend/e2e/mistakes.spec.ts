@@ -5,6 +5,8 @@ test("mistake notebook: tag a miss, filter, retry similar", async ({ page }) => 
   await page.getByRole("button", { name: "No account yet? Register" }).click();
   await page.getByLabel("Email").fill(`notebook-${Date.now()}@example.com`);
   await page.getByLabel("Password").fill("a-long-enough-password");
+  await page.getByLabel("Test date").fill(new Date(Date.now() + 60 * 86_400_000).toISOString().slice(0, 10));
+  await page.getByLabel("Target total score").fill("1400");
   await page.getByRole("button", { name: "Create account" }).click();
   await expect(page.getByText("days left")).toBeVisible();
 

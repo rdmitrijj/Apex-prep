@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useMe } from "../api/auth";
 import { useSkills } from "../api/drill";
 import { SECTION_NAME, fmtDate, useExams, useOfficialScores, usePlan, useWeaknesses } from "../api/exam";
 import { MasteryHeatmap } from "../components/MasteryHeatmap";
@@ -8,19 +9,19 @@ import { Shell } from "../components/Shell";
 import { TaskItem } from "./PlanPage";
 import { WeaknessList } from "../components/WeaknessList";
 
-const TEST_DAY = new Date("2026-12-05T08:00:00");
-const GOALS = [
-  { label: "Total", key: "Total", target: 1350, max: 1600 },
-  { label: "Math", key: "Math", target: 700, max: 800 },
-  // 650 = the 1350 total bar minus the 700 Math bar.
-  { label: "English (R&W)", key: "RW", target: 650, max: 800 },
-  { label: "Stretch total", key: "Total", target: 1550, max: 1600 },
-] as const;
-
 const card = "rounded-xl bg-white p-6 shadow-sm ring-1 ring-slate-200";
 
 export function Home() {
-  const [days] = useState(() => Math.max(0, Math.ceil((TEST_DAY.getTime() - Date.now()) / 86_400_000)));
+  const me = useMe().data!; // RequireAuth guarantees an account with goals
+  const testDay = me.test_date! + "T08:00:00";
+  const [days] = useState(() => Math.max(0, Math.ceil((new Date(testDay).getTime() - Date.now()) / 86_400_000)));
+  const stretch = Math.min(1600, me.target_total! + 200);
+  const goals = [
+    { label: "Total", key: "Total", target: me.target_total!, max: 1600 },
+    { label: "Math", key: "Math", target: me.section_targets!.MATH, max: 800 },
+    { label: "English (R&W)", key: "RW", target: me.section_targets!.RW, max: 800 },
+    ...(stretch > me.target_total! ? [{ label: "Stretch total", key: "Total", target: stretch, max: 1600 } as const] : []),
+  ] as const;
   const exams = useExams();
   const official = useOfficialScores();
   const weak = useWeaknesses(100);
@@ -44,12 +45,13 @@ export function Home() {
       <div className="space-y-6">
         <div className="grid gap-4 md:grid-cols-3">
           <section className={card}>
-            <p className="text-sm uppercase tracking-wide text-slate-500">Test day · 5 Dec 2026</p>
+            <p className="text-sm uppercase tracking-wide text-slate-500">Test day · {fmtDate(testDay)}</p>
             <p className="mt-1 text-4xl font-bold text-brand-700">{days} days left</p>
+            <Link to="/goals" className="mt-2 inline-block text-sm text-brand-700 hover:underline">Change goals →</Link>
           </section>
           <section className={`${card} md:col-span-2`}>
-            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest estimate vs. Aalto bar (and 1550 stretch)</p>
-            {GOALS.map((g) => {
+            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest estimate vs. your goal{stretch > me.target_total! && ` (and ${stretch} stretch)`}</p>
+            {goals.map((g) => {
               const v = now[g.key];
               return (
                 <div key={g.label} className="mb-2">
@@ -107,7 +109,7 @@ export function Home() {
 
         <section className={card}>
           <h2 className="mb-2 font-semibold">Score trend</h2>
-          {trend.length ? <ScoreTrend points={trend} /> : <p className="text-sm text-slate-500">Your exam estimates and official scores will appear here.</p>}
+          {trend.length ? <ScoreTrend points={trend} target={me.section_targets!.MATH} /> : <p className="text-sm text-slate-500">Your exam estimates and official scores will appear here.</p>}
           {done.length > 0 && (
             <details className="mt-2 text-sm">
               <summary className="cursor-pointer text-slate-600">Show as table</summary>

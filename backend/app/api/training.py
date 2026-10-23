@@ -10,8 +10,9 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api.deps import DB, CurrentUser
 from app.engine import irt
+from app.engine.goals import section_boost
 from app.engine.weakness import Attempt, Weakness, weakness
-from app.models import ExamItem, ExamModule, ExamSession, Question, Response, ReviewSchedule, Skill
+from app.models import ExamItem, ExamModule, ExamSession, Question, Response, ReviewSchedule, Skill, User
 from app.schemas.question import QuestionOut
 from app.services import questions as qs
 
@@ -60,8 +61,10 @@ class TrainingQuestion(BaseModel):
     reasons: list[str]
 
 
-async def compute(db: AsyncSession, user_id: int) -> list[tuple[Weakness, Skill]]:
+async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
     """Every sub-skill with its weakness score, highest first. Uses all graded responses."""
+    user_id = user.id
+    boost = section_boost(user.section_targets)
     leaves = (await db.scalars(select(Skill).where(Skill.level == "subskill"))).all()
     rows = (
         await db.execute(
@@ -93,7 +96,18 @@ async def compute(db: AsyncSession, user_id: int) -> list[tuple[Weakness, Skill]
         )
     )
     out = [
-        (weakness(s.id, s.section, s.weight, mean[s.section], by_skill.get(s.id, []), s.id in due), s)
+        (
+            weakness(
+                s.id,
+                s.section,
+                s.weight,
+                mean[s.section],
+                by_skill.get(s.id, []),
+                s.id in due,
+                boost[s.section],
+            ),
+            s,
+        )
         for s in leaves
     ]
     return sorted(out, key=lambda p: p[0].score, reverse=True)
@@ -175,13 +189,13 @@ async def weaknesses(db: DB, user: CurrentUser, limit: int = 10) -> list[Weaknes
             mastery=round(w.mastery, 3),
             reasons=w.reasons,
         )
-        for w, s in (await compute(db, user.id))[: max(1, min(limit, 100))]
+        for w, s in (await compute(db, user))[: max(1, min(limit, 100))]
     ]
 
 
 @router.post("/training/next", response_model=TrainingQuestion)
 async def next_question(body: TrainingNextIn, db: DB, user: CurrentUser) -> TrainingQuestion:
-    ranked = [p for p in await compute(db, user.id) if body.section in (None, p[1].section)]
+    ranked = [p for p in await compute(db, user) if body.section in (None, p[1].section)]
     if body.last_exam:
         todo = {m.skill_id for m in (await exam_misses(db, user.id)).open}
         ranked = [p for p in ranked if p[1].id in todo]

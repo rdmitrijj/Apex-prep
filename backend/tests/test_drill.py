@@ -5,8 +5,9 @@ from sqlalchemy import select
 from app.core.db import SessionLocal
 from app.models import Question, Response
 from app.services.questions import seed
+from tests.conftest import GOALS
 
-CREDS = {"email": "drill@example.com", "password": "correct horse battery"}
+CREDS = {"email": "drill@example.com", "password": "correct horse battery", **GOALS}
 
 
 @pytest.fixture

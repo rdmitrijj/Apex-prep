@@ -5,6 +5,8 @@ test("topic drill: pick a math skill, answer, see worked solution, finish", asyn
   await page.getByRole("button", { name: "No account yet? Register" }).click();
   await page.getByLabel("Email").fill(`drill-${Date.now()}@example.com`);
   await page.getByLabel("Password").fill("a-long-enough-password");
+  await page.getByLabel("Test date").fill(new Date(Date.now() + 60 * 86_400_000).toISOString().slice(0, 10));
+  await page.getByLabel("Target total score").fill("1400");
   await page.getByRole("button", { name: "Create account" }).click();
 
   await page.getByRole("link", { name: "Topic Drill" }).first().click();

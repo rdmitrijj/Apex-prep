@@ -1,7 +1,7 @@
 """Weakness score per sub-skill: how much practising it is likely to move the score.
 
 score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · sqrt(weight / mean leaf weight)
-        · 1.3 for Math
+        · section boost (engine/goals.py: up to 1.3 for the section the user's goals lean on)
 
 - need: chance of missing a medium-hard item (b = 0.5) at the skill's recency-weighted ability
 - errors: recency-weighted error rate, smoothed toward 50%
@@ -21,7 +21,6 @@ from app.engine.irt import ability, p_correct
 
 HALF_LIFE_DAYS = 14.0
 EXAM_WEIGHT = 1.5
-MATH_BOOST = 1.3  # Aalto: Math >= 700 and ties broken by Math
 # Per-question time budget on the real test: 32 min / 27 (R&W), 35 min / 22 (Math).
 TARGET_SECONDS = {"RW": 32 * 60 / 27, "MATH": 35 * 60 / 22}
 
@@ -67,6 +66,7 @@ def weakness(
     mean_weight: float,
     attempts: Sequence[Attempt],
     due: bool = False,
+    boost: float = 1.0,
 ) -> Weakness:
     target = TARGET_SECONDS[section]
     ws = [0.5 ** (a.age_days / HALF_LIFE_DAYS) * (EXAM_WEIGHT if a.exam else 1.0) for a in attempts]
@@ -81,7 +81,7 @@ def weakness(
     decay = 0.0 if last is None else min(1.0, last / 21.0)
 
     base = 0.45 * need + 0.30 * errors + 0.15 * pace + 0.10 * decay + (0.15 if due else 0.0)
-    score = base * (weight / mean_weight) ** 0.5 * (MATH_BOOST if section == "MATH" else 1.0)
+    score = base * (weight / mean_weight) ** 0.5 * boost
 
     n_correct = sum(a.correct for a in attempts)
     reasons: list[str] = []

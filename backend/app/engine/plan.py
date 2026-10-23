@@ -1,11 +1,12 @@
 """Rules-based weekly study plan counting down to test day.
 
 - More than 3 weeks out ("build"): one full practice exam a week, on Saturday at test time.
-- Final 3 weeks ("sharpen"): two exams a week: Math-only on Hard (Wednesday) + full exam (Saturday).
+- Final 3 weeks ("sharpen"): two exams a week: the priority section alone on Hard (Wednesday) + full
+  exam (Saturday). The priority section is the one the user's goals lean on (engine/goals.py).
 - No exams in the last 3 days ("taper"); the day before the test is a rest day.
 - No exam taken yet: the first open day is a diagnostic full exam.
 - Other days: weakness training plus a topic drill on one focus skill, rotating through the top
-  weaknesses (already Math-weighted); Sundays review the Mistake Notebook and due SRS skills.
+  weaknesses (already goal-weighted); Sundays review the Mistake Notebook and due SRS skills.
 """
 
 from dataclasses import asdict, dataclass
@@ -13,9 +14,9 @@ from datetime import date, timedelta
 from typing import Any
 from urllib.parse import quote
 
-TEST_DATE = date(2026, 12, 5)
 FULL_EXAM_MINUTES = 134 + 10
 WED, SAT, SUN = 2, 5, 6
+SECTION_NAME = {"MATH": "Math", "RW": "Reading and Writing"}
 
 
 @dataclass(frozen=True)
@@ -44,7 +45,7 @@ def monday(d: date) -> date:
     return d - timedelta(days=d.weekday())
 
 
-def _exam(d: date, days_left: int, diagnostic: bool) -> Task | None:
+def _exam(d: date, days_left: int, diagnostic: bool, priority: str) -> Task | None:
     if diagnostic:
         return Task(
             f"{d}-exam",
@@ -69,29 +70,31 @@ def _exam(d: date, days_left: int, diagnostic: bool) -> Task | None:
         return Task(
             f"{d}-exam",
             "exam",
-            "Math-only exam on Hard",
-            "Two timed Math modules; Hard keeps the 700 target in reach.",
-            70,
+            f"{SECTION_NAME[priority]}-only exam on Hard",
+            f"Two timed {SECTION_NAME[priority]} modules; Hard keeps your target in reach.",
+            70 if priority == "MATH" else 64,
             "/exam",
         )
     return None
 
 
-def week_plan(week_start: date, today: date, focus: list[Focus], has_exam: bool) -> dict[str, Any]:
+def week_plan(
+    week_start: date, today: date, focus: list[Focus], has_exam: bool, test_date: date, priority: str = "MATH"
+) -> dict[str, Any]:
     days: list[dict[str, Any]] = []
     diagnostic_day = None
     if not has_exam:
         first = max(today, week_start)
-        if (TEST_DATE - first).days >= 2 and first < week_start + timedelta(days=7):
+        if (test_date - first).days >= 2 and first < week_start + timedelta(days=7):
             diagnostic_day = first
     for i in range(7):
         d = week_start + timedelta(days=i)
-        left = (TEST_DATE - d).days
+        left = (test_date - d).days
         if left < 0:
             break
         tasks: list[Task] = []
         f = focus[i % len(focus)] if focus else None
-        exam = _exam(d, left, d == diagnostic_day)
+        exam = _exam(d, left, d == diagnostic_day, priority)
         if left == 0:
             tasks.append(
                 Task(
@@ -173,7 +176,7 @@ def week_plan(week_start: date, today: date, focus: list[Focus], has_exam: bool)
         days.append({"date": d.isoformat(), "days_left": left, "tasks": [asdict(t) for t in tasks]})
     return {
         "week_start": week_start.isoformat(),
-        "phase": phase((TEST_DATE - max(today, week_start)).days),
+        "phase": phase((test_date - max(today, week_start)).days),
         "focus": [asdict(f) for f in focus],
         "days": days,
     }

@@ -14,7 +14,7 @@ services:
         sync: false
       - key: SECRET_KEY
         generateValue: true
-      - key: ALLOW_REGISTRATION # set to "false" after creating your account
+      - key: ALLOW_REGISTRATION # public sign-up; "false" closes it
         value: "true"
       - key: ANTHROPIC_API_KEY
         sync: false

@@ -3,14 +3,15 @@ from datetime import UTC, datetime, time, timedelta
 from typing import Any
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from sqlalchemy import select
 
 from app.api.deps import DB, CurrentUser
 from app.api.training import compute
 from app.engine import irt
-from app.engine.plan import TEST_DATE, Focus, monday, week_plan
-from app.models import ExamSession, Response, StudyPlan
+from app.engine.goals import priority
+from app.engine.plan import Focus, monday, week_plan
+from app.models import ExamSession, Response, StudyPlan, User
 
 router = APIRouter(tags=["plan"])
 FOCUS_SIZE, MIN_PER_SECTION = 6, 2
@@ -25,8 +26,9 @@ def _zone(tz: str) -> ZoneInfo:
         return ZoneInfo("UTC")
 
 
-async def _build(db: DB, user_id: int, week_start: Any, today: Any) -> dict[str, Any]:
-    ranked = await compute(db, user_id)
+async def _build(db: DB, user: User, week_start: Any, today: Any) -> dict[str, Any]:
+    assert user.test_date is not None
+    ranked = await compute(db, user)
     focus = ranked[:FOCUS_SIZE]
     for section in ("MATH", "RW"):
         have = [p for p in focus if p[1].section == section]
@@ -40,7 +42,7 @@ async def _build(db: DB, user_id: int, week_start: Any, today: Any) -> dict[str,
     has_exam = (
         await db.scalar(
             select(ExamSession.id)
-            .where(ExamSession.user_id == user_id, ExamSession.status == "completed")
+            .where(ExamSession.user_id == user.id, ExamSession.status == "completed")
             .limit(1)
         )
     ) is not None
@@ -49,20 +51,24 @@ async def _build(db: DB, user_id: int, week_start: Any, today: Any) -> dict[str,
         today,
         [Focus(s.id, s.name, s.section, irt.target_difficulty(w.theta)) for w, s in focus],
         has_exam,
+        user.test_date,
+        priority(user.section_targets),
     )
 
 
 @router.get("/plan")
 async def get_plan(db: DB, user: CurrentUser, tz: str = "UTC", rebuild: bool = False) -> dict[str, Any]:
     """This week's plan (built once per week, or on request), with tasks marked done from activity."""
+    if user.test_date is None:
+        raise HTTPException(409, "Set your test date and goals first")
     zone = _zone(tz)
     today = datetime.now(zone).date()
-    week_start = monday(min(today, TEST_DATE))
+    week_start = monday(min(today, user.test_date))
     row = await db.scalar(
         select(StudyPlan).where(StudyPlan.user_id == user.id, StudyPlan.week_start == week_start)
     )
     if row is None or rebuild:
-        plan = await _build(db, user.id, week_start, today)
+        plan = await _build(db, user, week_start, today)
         if row is None:
             row = StudyPlan(user_id=user.id, week_start=week_start, plan=plan)
             db.add(row)
@@ -101,7 +107,7 @@ async def get_plan(db: DB, user: CurrentUser, tz: str = "UTC", rebuild: bool = F
     }
     plan = dict(row.plan)
     plan["today"] = today.isoformat()
-    plan["test_date"] = TEST_DATE.isoformat()
+    plan["test_date"] = user.test_date.isoformat()
     plan["days"] = [
         {
             **day,

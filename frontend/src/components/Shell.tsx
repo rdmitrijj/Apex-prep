@@ -42,6 +42,9 @@ export function Shell({ children }: { children: ReactNode }) {
         </nav>
         <div className="flex items-center gap-4 text-sm">
           <span className="hidden text-slate-600 sm:inline">{me.data?.email}</span>
+          <NavLink to="/goals" className={link}>
+            Goals
+          </NavLink>
           <button onClick={() => logout.mutate()} className="text-brand-700 hover:underline">
             Sign out
           </button>

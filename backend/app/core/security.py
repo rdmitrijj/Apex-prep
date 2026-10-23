@@ -16,9 +16,13 @@ def hash_password(password: str) -> str:
     return _hasher.hash(password)
 
 
-def verify_password(password_hash: str, password: str) -> bool:
+# Checked when the account doesn't exist, so response time doesn't reveal which emails are registered.
+_DUMMY_HASH = _hasher.hash("no-such-account")
+
+
+def verify_password(password_hash: str | None, password: str) -> bool:
     try:
-        return _hasher.verify(password_hash, password)
+        return _hasher.verify(password_hash or _DUMMY_HASH, password) and password_hash is not None
     except VerificationError:
         return False
 
@@ -36,22 +40,23 @@ def decode_token(token: str) -> int | None:
         return None
 
 
-# ponytail: in-process login throttle; fine for one Render instance, move to DB/Redis if scaled out.
-_FAIL_WINDOW_S = 15 * 60
-_MAX_FAILS = 5
-_failures: dict[str, deque[float]] = defaultdict(deque)
+# ponytail: in-process throttle (failed logins per email, sign-ups per IP); fine for one Render instance,
+# move to DB/Redis if scaled out.
+_WINDOW_S = 15 * 60
+_MAX_ATTEMPTS = 5
+_attempts: dict[str, deque[float]] = defaultdict(deque)
 
 
-def login_blocked(email: str) -> bool:
-    q = _failures[email]
-    while q and q[0] < time.monotonic() - _FAIL_WINDOW_S:
+def throttled(key: str) -> bool:
+    q = _attempts[key]
+    while q and q[0] < time.monotonic() - _WINDOW_S:
         q.popleft()
-    return len(q) >= _MAX_FAILS
+    return len(q) >= _MAX_ATTEMPTS
 
 
-def record_login_failure(email: str) -> None:
-    _failures[email].append(time.monotonic())
+def record_attempt(key: str) -> None:
+    _attempts[key].append(time.monotonic())
 
 
-def clear_login_failures(email: str) -> None:
-    _failures.pop(email, None)
+def clear_attempts(key: str) -> None:
+    _attempts.pop(key, None)

@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Personal Digital SAT prep app (FastAPI + React + PostgreSQL). Owner tests on 2026-12-05 only (no November sitting); Aalto bar is 1350 total / 700 Math, ties broken by Math, so Math is weighted 1.3× in the engine.
+Digital SAT prep app (FastAPI + React + PostgreSQL), open registration. Each user sets goals at sign-up (`users.test_date`, `target_total`, optional `target_math`/`target_rw` minimums; editable at /goals). `engine/goals.py` turns them into section targets and a weakness boost (up to 1.3× for the section with the higher target); the weekly plan counts down to the user's test date. The owner's account was migrated with 2026-12-05 / 1350 / Math 700 (Aalto bar).
 
 ## Status
 Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. All milestones M1–M7 are done (see PLAN.md). R&W bank: ≥10 items per sub-skill (303 hand-written + 71 LLM items in `seed/rw/llm_*.json`, shipped via seed). The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.

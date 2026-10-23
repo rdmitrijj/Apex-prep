@@ -9,10 +9,19 @@ test("register, see countdown, sign out, sign back in", async ({ page }) => {
   await page.getByRole("button", { name: "No account yet? Register" }).click();
   await page.getByLabel("Email").fill(email);
   await page.getByLabel("Password").fill(password);
+  await page.getByLabel("Test date").fill(new Date(Date.now() + 60 * 86_400_000).toISOString().slice(0, 10));
+  await page.getByLabel("Target total score").fill("1400");
   await page.getByRole("button", { name: "Create account" }).click();
 
   await expect(page.getByText(/days left/)).toBeVisible();
   await expect(page.getByText(email)).toBeVisible();
+
+  // Goals are per account and editable.
+  await page.getByRole("link", { name: "Goals" }).click();
+  await expect(page.getByLabel("Target total score")).toHaveValue("1400");
+  await page.getByLabel("Math minimum").fill("720");
+  await page.getByRole("button", { name: "Save goals" }).click();
+  await expect(page.getByText("— / 720")).toBeVisible();
 
   await page.reload(); // session survives reload (httpOnly cookie)
   await expect(page.getByText(email)).toBeVisible();

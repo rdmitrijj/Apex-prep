@@ -50,7 +50,7 @@ How it behaves: one pair moves the scale most of the way toward the official sco
 Per sub-skill (`weakness.py`):
 
 ```
-score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · √(weight / mean leaf weight) · (1.3 if Math)
+score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · √(weight / mean leaf weight) · boost[section]
 ```
 
 | Term | Meaning |
@@ -61,7 +61,7 @@ score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · �
 | decay | days since last practice, saturating at 21 |
 | due | spaced-repetition review is due (section 7) |
 | weight | the sub-skill's share of the test (`taxonomy.json`) |
-| 1.3× Math | Aalto requires Math ≥ 700 and breaks ties on Math |
+| boost | from the user's goals (`goals.py`): section targets are the optional section minimums, else what the total leaves (half each by default). The section with the higher target gets 1 + 0.006 per point of lead, capped at 1.3× (a 50-point lead, e.g. 700 Math in a 1350 total) |
 
 Untried skills score in the middle: they rank below skills you've been missing and above skills you've mastered. **Mastery** in the heatmap is `p(correct)` on a medium item at θ.
 
@@ -78,7 +78,7 @@ Untried skills score in the middle: they rank below skills you've been missing a
 | Phase | When | Exams |
 |---|---|---|
 | Build | more than 21 days out | full exam every Saturday (test-time morning) |
-| Sharpen | 21–4 days out | Math-only on Hard (Wednesday) + full exam (Saturday) |
+| Sharpen | 21–4 days out | priority section (the boosted one, Math on a tie) alone on Hard (Wednesday) + full exam (Saturday) |
 | Taper | last 3 days | none; day −1 is rest, day 0 is the test |
 
 - **No exam yet:** the first open day is a diagnostic full exam.

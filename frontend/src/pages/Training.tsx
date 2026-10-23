@@ -31,7 +31,7 @@ export function Training() {
         <p className="text-slate-600">
           {scope === "exam"
             ? `Only the skills you missed in your last practice exam. A skill is cleared once you answer ${misses.data?.clear_streak ?? 15} of its questions correctly in a row; a miss restarts the count.`
-            : "Questions come from the skills where you lose the most points: misses, slow answers, and skills you haven't practised lately, weighted by how often they appear on the test (Math counts 1.3× for your 700 target)."}{" "}
+            : "Questions come from the skills where you lose the most points: misses, slow answers, and skills you haven't practised lately, weighted by how often they appear on the test (the section your goals need more from counts up to 1.3×)."}{" "}
           Difficulty adapts so you get about two in three right.
           {weak.data?.every((w) => w.attempts === 0) && <> Take a <Link to="/exam" className="text-brand-700 underline">practice exam</Link> first so this knows where you stand.</>}
         </p>

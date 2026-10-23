@@ -1,7 +1,8 @@
 import { lazy, Suspense, type ReactNode } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { useMe } from "./api/auth";
 import { AuthPage } from "./pages/AuthPage";
+import { Goals } from "./pages/Goals";
 import { Home } from "./pages/Home";
 import { PlanPage } from "./pages/PlanPage";
 
@@ -15,9 +16,11 @@ const Training = lazy(() => import("./pages/Training").then((m) => ({ default: m
 
 function RequireAuth({ children }: { children: ReactNode }) {
   const me = useMe();
+  const path = useLocation().pathname;
   if (me.isPending) return null;
   if (me.isError) return <p className="p-6 text-red-700">Couldn't load your session. Reload the page.</p>;
   if (!me.data) return <Navigate to="/login" replace />;
+  if (!me.data.target_total && path !== "/goals") return <Navigate to="/goals" replace />;
   return <Suspense fallback={<p className="p-6 text-slate-500">Loading…</p>}>{children}</Suspense>;
 }
 
@@ -41,6 +44,7 @@ export function App() {
         ["/training", <Training />],
         ["/mistakes", <Mistakes />],
         ["/plan", <PlanPage />],
+        ["/goals", <Goals />],
       ].map(([path, page]) => (
         <Route key={path as string} path={path as string} element={<RequireAuth>{page}</RequireAuth>} />
       ))}

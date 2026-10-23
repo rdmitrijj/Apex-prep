@@ -40,15 +40,15 @@ def test_target_difficulty_aims_for_two_thirds_success() -> None:
 
 
 def test_weakness_ranks_misses_and_slowness_above_unseen_above_mastered() -> None:
-    def w(attempts: list[Attempt], section: str = "RW") -> float:
-        return weakness("X", section, 0.03, 0.03, attempts).score
+    def w(attempts: list[Attempt], boost: float = 1.0) -> float:
+        return weakness("X", "RW", 0.03, 0.03, attempts, boost=boost).score
 
     miss = Attempt(correct=False, b=0.0, time_ms=60_000, age_days=0, exam=True)
     hit = Attempt(correct=True, b=0.0, time_ms=60_000, age_days=0, exam=True)
     slow_hit = Attempt(correct=True, b=0.0, time_ms=200_000, age_days=0, exam=True)
     assert w([miss, miss]) > w([]) > w([hit, hit, hit])
     assert w([slow_hit] * 3) > w([hit] * 3)
-    assert w([miss], "MATH") > w([miss], "RW")  # Math boost
+    assert w([miss], 1.3) > w([miss])  # goal boost
     stale = Attempt(correct=True, b=0.0, time_ms=60_000, age_days=40, exam=False)
     assert w([stale] * 3) > w([hit] * 3)
     r = weakness("X", "RW", 0.03, 0.03, [miss, slow_hit]).reasons
@@ -161,7 +161,9 @@ def test_partial_credit_for_slow_or_eliminated_answers() -> None:
 def test_week_plan_rules() -> None:
     from datetime import date, timedelta
 
-    from app.engine.plan import TEST_DATE, Focus, monday, week_plan
+    from app.engine.plan import Focus, monday, week_plan
+
+    TEST_DATE = date(2026, 12, 5)
 
     focus = [
         Focus("MATH.ALG.LINF.SLOPE", "Slope", "MATH", "medium"),
@@ -169,7 +171,7 @@ def test_week_plan_rules() -> None:
     ]
 
     def kinds(week: date, today: date, has_exam: bool = True) -> dict[str, list[str]]:
-        plan = week_plan(week, today, focus, has_exam)
+        plan = week_plan(week, today, focus, has_exam, TEST_DATE)
         return {d["date"]: [t["kind"] for t in d["tasks"]] for d in plan["days"]}
 
     # Build phase (October): one exam, on Saturday; drills link to the focus skill.
@@ -178,7 +180,7 @@ def test_week_plan_rules() -> None:
     exams = [d for d, ks in k.items() if "exam" in ks]
     assert exams == [str(wk + timedelta(days=5))]
     assert k[str(wk)] == ["training", "drill"] and k[str(wk + timedelta(days=6))] == ["notebook", "training"]
-    plan = week_plan(wk, wk, focus, True)
+    plan = week_plan(wk, wk, focus, True, TEST_DATE)
     assert plan["phase"] == "build" and "MATH.ALG.LINF.SLOPE" in plan["days"][0]["tasks"][1]["link"]
     # No exam yet: a diagnostic on the first open day.
     assert "exam" in kinds(wk, wk + timedelta(days=2), has_exam=False)[str(wk + timedelta(days=2))]
@@ -195,3 +197,16 @@ def test_week_plan_rules() -> None:
     assert k[str(TEST_DATE)] == ["test"] and k[str(TEST_DATE - timedelta(days=1))] == ["rest"]
     assert not any("exam" in k[str(TEST_DATE - timedelta(days=n))] for n in (2, 3))
     assert max(k) == str(TEST_DATE)
+
+
+def test_goals_set_section_targets_and_boost() -> None:
+    from app.engine.goals import priority, section_boost, section_targets
+
+    # The original setup: 1350 total with a 700 Math bar leaves 650 for R&W and earns the full Math boost.
+    t = section_targets(1350, 700, None)
+    assert t == {"MATH": 700, "RW": 650} and section_boost(t) == {"MATH": 1.3, "RW": 1.0}
+    assert section_targets(1200, None, None) == {"MATH": 600, "RW": 600}
+    assert section_targets(1350, None, None) == {"MATH": 680, "RW": 670}
+    assert section_targets(1600, 700, None)["RW"] == 800  # clamped to the scale
+    assert priority(section_targets(1400, None, 750)) == "RW"
+    assert section_boost(None) == {"MATH": 1.0, "RW": 1.0} and priority(None) == "MATH"

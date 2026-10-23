@@ -42,11 +42,11 @@ You'll end up with one web app at `https://<name>.onrender.com`, backed by a fre
 
 > **Free-tier sleep:** after 15 minutes without traffic, Render stops the service. The next visit shows "Waking up the server…" for 30–60 seconds. That's expected, not an error.
 
-## 4. Create your account, then lock registration
+## 4. Accounts
 
-1. Open `https://<name>.onrender.com`, click **No account yet? Register**, and sign up. Use a password of at least 10 characters.
-2. In Render: **apex-prep → Environment**, set `ALLOW_REGISTRATION` to `false`, and save. Render redeploys automatically.
-3. Check: signing out and trying to register again should say "Registration is closed".
+Registration is open: anyone can open `https://<name>.onrender.com`, click **No account yet? Register**, and sign up with an email, a password of at least 10 characters, a test date, and a target score. Passwords are hashed with Argon2; sign-ups are limited to 5 per IP per 15 minutes, failed logins to 5 per email per 15 minutes.
+
+To close sign-ups, set `ALLOW_REGISTRATION` to `false` in **apex-prep → Environment**; existing accounts can still sign in.
 
 ## 5. Later
 

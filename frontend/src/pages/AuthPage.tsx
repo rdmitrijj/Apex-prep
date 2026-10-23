@@ -1,8 +1,9 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState, type FormEvent } from "react";
 import { Navigate } from "react-router-dom";
-import { useMe, type User } from "../api/auth";
+import { goalsBody, goalsForm, useMe, type User } from "../api/auth";
 import { api, ApiError } from "../api/client";
+import { GoalFields } from "../components/GoalFields";
 import { Logo } from "../components/Logo";
 
 export function AuthPage() {
@@ -11,8 +12,9 @@ export function AuthPage() {
   const [mode, setMode] = useState<"login" | "register">("login");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [goals, setGoals] = useState(goalsForm);
   const submit = useMutation({
-    mutationFn: () => api<User>(`/auth/${mode}`, { method: "POST", json: { email, password } }),
+    mutationFn: () => api<User>(`/auth/${mode}`, { method: "POST", json: mode === "register" ? { email, password, ...goalsBody(goals) } : { email, password } }),
     onSuccess: (user) => qc.setQueryData(["me"], user),
   });
 
@@ -55,6 +57,7 @@ export function AuthPage() {
           />
           {mode === "register" && <span className="text-xs text-slate-500">At least 10 characters.</span>}
         </label>
+        {mode === "register" && <GoalFields value={goals} onChange={setGoals} />}
         {error && (
           <p role="alert" className="text-sm text-red-700">
             {error}
