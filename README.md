@@ -4,7 +4,7 @@ https://apex-prep.onrender.com
 
 Digital SAT prep app. Anyone can register; each account sets its own test date, total target, and optional section minimums, and the plan, training weights, and dashboard adapt to them.
 
-the main goal is to get into the best universities of Europe
+**the main goal is to get into the best universities of Europe by getting a higher mark on SAT exam**
 
 - **Practice Exam:** full test or one section, at Official-level, Hard, or Brutal difficulty. Adaptive Module 2, server-run timer, break, autosave and resume. Exam tools: highlighter and notes, eliminator, mark for review, navigator, calculator, reference sheet.
 - **Results:** score estimates with ± margins, calibrated to the official scores you log. Breakdown by domain and skill, pace against test timing, and a full question review.
