@@ -14,5 +14,11 @@ Digital SAT prep app. Anyone can register; each account sets its own test date, 
 - **Mistake Notebook:** every miss, tagged by why you missed it, with "retry similar".
 - **Dashboard:** countdown, estimate against your goals, today's tasks, top weaknesses, score trend, mastery heatmap.
 
+## Techncal Stack
+
+I've made this brilliant app on FastAPI + React (python + typescript/javascript), and most importatly deployed it on AWS server, using NGINX
+
+
+
 Docs: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md) (test spec), [`docs/SCORING.md`](docs/SCORING.md) (every model), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`docs/DEPLOY.md`](docs/DEPLOY.md), [`PLAN.md`](PLAN.md).
 
