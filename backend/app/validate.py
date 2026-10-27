@@ -28,8 +28,8 @@ from app.generators.spr import canonical_entry, is_correct, is_valid_entry
 from app.schemas.question import MathItem, RWItem
 from app.services.questions import SEED_DIR, load_taxonomy
 
-ROOT = SEED_DIR.parents[2]
-IMPORTS = ROOT / "content" / "bluebook_pt4.json"
+IMPORTS = SEED_DIR / "imports" / "bluebook_pt4.json"
+REFERENCES = SEED_DIR / "imports" / "reference_examples.json"
 MIN_WORDS, MAX_WORDS = 25, 150
 BANNED = re.compile(r"\b(SAT|College Board|Bluebook)\b")
 X, Y, V = sympy.symbols("X Y v")
@@ -215,7 +215,9 @@ def check_imports(known: set[str], leaves: set[str]) -> tuple[list[Failure], int
             out.append(("import", eid, f"linked twins not in the seed: {missing}"))
     dup = [e for e, c in Counter(r["external_id"] for r in rows).items() if c > 1]
     out += [("import", e, "duplicate external_id") for e in dup]
-    return out, len(rows)
+    refs = json.loads(REFERENCES.read_text())["examples"] if REFERENCES.exists() else []
+    out += [("import", r["ref_id"], f"unknown skill {r['skill']}") for r in refs if r["skill"] not in leaves]
+    return out, len(rows) + len(refs)
 
 
 def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter[str]]:

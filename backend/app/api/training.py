@@ -1,7 +1,7 @@
 import random
 import secrets
 from collections import Counter
-from datetime import UTC, datetime
+from datetime import UTC, datetime, time
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
@@ -12,7 +12,19 @@ from app.api.deps import DB, CurrentUser
 from app.engine import irt
 from app.engine.goals import section_boost
 from app.engine.weakness import Attempt, Weakness, weakness
-from app.models import ExamItem, ExamModule, ExamSession, Question, Response, ReviewSchedule, Skill, User
+from app.generators.core import DIFFICULTY_RATING
+from app.models import (
+    ExamItem,
+    ExamModule,
+    ExamSession,
+    ImportedMistake,
+    OfficialScore,
+    Question,
+    Response,
+    ReviewSchedule,
+    Skill,
+    User,
+)
 from app.schemas.question import QuestionOut
 from app.services import questions as qs
 
@@ -61,10 +73,21 @@ class TrainingQuestion(BaseModel):
     reasons: list[str]
 
 
+async def latest_official(db: AsyncSession, user_id: int) -> dict[str, int] | None:
+    """Section scores of the most recent official test, the 'current' level for goal gaps."""
+    o = await db.scalar(
+        select(OfficialScore)
+        .where(OfficialScore.user_id == user_id)
+        .order_by(OfficialScore.taken_on.desc(), OfficialScore.id.desc())
+        .limit(1)
+    )
+    return {"RW": o.rw, "MATH": o.math} if o else None
+
+
 async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
     """Every sub-skill with its weakness score, highest first. Uses all graded responses."""
     user_id = user.id
-    boost = section_boost(user.section_targets)
+    boost = section_boost(user.section_targets, await latest_official(db, user_id))
     leaves = (await db.scalars(select(Skill).where(Skill.level == "subskill"))).all()
     rows = (
         await db.execute(
@@ -86,12 +109,32 @@ async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
                 eliminated=len(r.eliminated or []),
             )
         )
+    # Misses imported from official practice tests count as exam misses on the test day.
+    for m in await db.scalars(select(ImportedMistake).where(ImportedMistake.user_id == user_id)):
+        taken = datetime.combine(m.taken_on, time(), tzinfo=UTC)
+        by_skill.setdefault(m.skill_id, []).append(
+            Attempt(
+                correct=False,
+                b=DIFFICULTY_RATING[m.difficulty],
+                time_ms=0,
+                age_days=(now - taken).total_seconds() / 86400,
+                exam=True,
+            )
+        )
     n = Counter(s.section for s in leaves)
     mean = {sec: sum(s.weight for s in leaves if s.section == sec) / n[sec] for sec in n}
     due = set(
         await db.scalars(
             select(ReviewSchedule.skill_id).where(
                 ReviewSchedule.user_id == user_id, ReviewSchedule.due_at <= now
+            )
+        )
+    ) | set(
+        await db.scalars(
+            select(ImportedMistake.skill_id).where(
+                ImportedMistake.user_id == user_id,
+                ImportedMistake.retired_at.is_(None),
+                ImportedMistake.due_at <= now,
             )
         )
     )

@@ -210,3 +210,7 @@ def test_goals_set_section_targets_and_boost() -> None:
     assert section_targets(1600, 700, None)["RW"] == 800  # clamped to the scale
     assert priority(section_targets(1400, None, 750)) == "RW"
     assert section_boost(None) == {"MATH": 1.0, "RW": 1.0} and priority(None) == "MATH"
+    # With an official score, the bigger gap to target wins: 480 -> 600 R&W vs 650 -> 700 Math.
+    lut = section_targets(1300, 700, 600)
+    assert section_boost(lut, {"RW": 480, "MATH": 650}) == {"MATH": 1.0, "RW": 1.3}
+    assert section_boost(lut, {"RW": 480, "MATH": 580}) == {"MATH": 1.0, "RW": 1.0}

@@ -6,6 +6,7 @@ from app.generators import REGISTRY
 from app.generators.spr import is_valid_entry
 from app.models import Question, QuestionReport, Response, Skill
 from app.schemas.question import AnswerIn, Feedback, NextIn, QuestionOut, ReportIn, SkillNode
+from app.services import imported
 from app.services import questions as qs
 
 router = APIRouter(tags=["drill"])
@@ -90,6 +91,7 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
     )
     db.add(r)
     await qs.record_review(db, user.id, q.skill_id, correct)
+    await imported.on_answer(db, user.id, q, correct)
     await db.commit()
     return Feedback(
         response_id=r.id,

@@ -7,7 +7,7 @@ from fastapi import APIRouter, HTTPException
 from sqlalchemy import select
 
 from app.api.deps import DB, CurrentUser
-from app.api.training import compute
+from app.api.training import compute, latest_official
 from app.engine import irt
 from app.engine.goals import priority
 from app.engine.plan import Focus, monday, week_plan
@@ -52,7 +52,7 @@ async def _build(db: DB, user: User, week_start: Any, today: Any) -> dict[str, A
         [Focus(s.id, s.name, s.section, irt.target_difficulty(w.theta)) for w, s in focus],
         has_exam,
         user.test_date,
-        priority(user.section_targets),
+        priority(user.section_targets, await latest_official(db, user.id)),
     )
 
 

@@ -1,0 +1,672 @@
+{
+ "source": "Bluebook SAT Practice Test 4, 2026-10-01",
+ "taken_on": "2026-10-01",
+ "label": "Bluebook Practice Test 4",
+ "scores": {
+  "rw": 480,
+  "math": 580
+ },
+ "note": "Paraphrases only: never store official question text, passages, or answer choices here.",
+ "mistakes": [
+  {
+   "external_id": "bb-pt4-rw-m1-q01",
+   "section": "RW",
+   "module": 1,
+   "question_number": 1,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "easy",
+   "result": "incorrect",
+   "my_answer": "misrepresent",
+   "correct_answer": "hinder",
+   "summary": "Blank after \"critics' concerns didn't ___ an advocate's efforts\"; the effort succeeded anyway.",
+   "lesson": "Use the negation + outcome clue; predict \"hold back\" before reading options.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q01-e",
+    "rw-tw-m1q01-m",
+    "rw-tw-m1q01-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q1"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q02",
+   "section": "RW",
+   "module": 1,
+   "question_number": 2,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "easy",
+   "result": "incorrect",
+   "my_answer": "improve on",
+   "correct_answer": "adhere to",
+   "summary": "Artisans typically ___ inherited techniques \"but don't strictly observe every tradition\".",
+   "lesson": "\"But not strictly every\" means the blank is the opposite: follow closely.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q02-e",
+    "rw-tw-m1q02-m",
+    "rw-tw-m1q02-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q2"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q05",
+   "section": "RW",
+   "module": 1,
+   "question_number": 5,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "contrived",
+   "correct_answer": "surmised",
+   "summary": "Historians ___ something based on an assumption that later data disproved.",
+   "lesson": "Vocabulary: surmise = guess with little evidence; contrive = create by trickery.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q05-e",
+    "rw-tw-m1q05-m",
+    "rw-tw-m1q05-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q5"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q12",
+   "section": "RW",
+   "module": 1,
+   "question_number": 12,
+   "skill": "RW.INI.INF.COMPLETE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "B",
+   "summary": "Scholars who see a writer's wife only as his inspiration ___ (answer: risk misrepresenting her own literary contributions).",
+   "lesson": "The completion must follow the passage's focus; reject options about things the text never discusses.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q12-e",
+    "rw-tw-m1q12-m",
+    "rw-tw-m1q12-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q12"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q14",
+   "section": "RW",
+   "module": 1,
+   "question_number": 14,
+   "skill": "RW.SEC.BND.UNNEC",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "\"Rawles,\"",
+   "correct_answer": "\"Rawles\" (no punctuation)",
+   "summary": "A long introductory phrase, then subject (a full name), then verb.",
+   "lesson": "Never put a single punctuation mark between subject and verb.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q14-e",
+    "rw-tw-m1q14-m",
+    "rw-tw-m1q14-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q14"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q16",
+   "section": "RW",
+   "module": 1,
+   "question_number": 16,
+   "skill": "RW.SEC.FSS.POSS",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "grains physical properties",
+   "correct_answer": "grains' physical properties",
+   "summary": "Plural possessive + plural noun about many snow grains.",
+   "lesson": "Plural owner = s'; the owned noun takes no apostrophe.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q16-e",
+    "rw-tw-m1q16-m",
+    "rw-tw-m1q16-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q16"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q20",
+   "section": "RW",
+   "module": 1,
+   "question_number": 20,
+   "skill": "RW.SEC.FSS.FINITE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "being",
+   "correct_answer": "will be",
+   "summary": "A \"that\" clause about a model's prediction needs a main verb.",
+   "lesson": "A clause needs a finite verb; -ing / to-infinitive can't be the main verb.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q20-e",
+    "rw-tw-m1q20-m",
+    "rw-tw-m1q20-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q20"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q21",
+   "section": "RW",
+   "module": 1,
+   "question_number": 21,
+   "skill": "RW.EOI.TRN.CONT",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "Likewise",
+   "correct_answer": "In fact",
+   "summary": "Sentence 2 intensifies sentence 1 (research is \"its own reward\" → \"as fascinating as travel\").",
+   "lesson": "Likewise = separate similar point; In fact = stronger support of the same point.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q21-e",
+    "rw-tw-m1q21-m",
+    "rw-tw-m1q21-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q21"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q23",
+   "section": "RW",
+   "module": 1,
+   "question_number": 23,
+   "skill": "RW.EOI.RS.GOAL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "D",
+   "summary": "Goal: \"present the study and its findings\". I chose an option with the researcher's initial uncertainty but no findings.",
+   "lesson": "Read the goal first; cross out options missing a required element (findings).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q23-e",
+    "rw-tw-m1q23-m",
+    "rw-tw-m1q23-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q23"
+  },
+  {
+   "external_id": "bb-pt4-rw-m1-q26",
+   "section": "RW",
+   "module": 1,
+   "question_number": 26,
+   "skill": "RW.EOI.RS.GOAL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "D",
+   "summary": "Goal: \"summarize the study\". I chose the study's aim only.",
+   "lesson": "A summary = who/when + what was studied + result.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m1q26-e",
+    "rw-tw-m1q26-m",
+    "rw-tw-m1q26-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 1 Q26"
+  },
+  {
+   "external_id": "bb-pt4-rw-m2-q02",
+   "section": "RW",
+   "module": 2,
+   "question_number": 2,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "easy",
+   "result": "incorrect",
+   "my_answer": "simple",
+   "correct_answer": "healthy",
+   "summary": "\"On the other hand\" contrasts damaged plants with ___ plants.",
+   "lesson": "Contrast signal → antonym of the first description.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m2q02-e",
+    "rw-tw-m2q02-m",
+    "rw-tw-m2q02-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 2 Q2"
+  },
+  {
+   "external_id": "bb-pt4-rw-m2-q03",
+   "section": "RW",
+   "module": 2,
+   "question_number": 3,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "easy",
+   "result": "incorrect",
+   "my_answer": "ensured",
+   "correct_answer": "acknowledged",
+   "summary": "Other researchers readily ___ a paper as groundbreaking (\"this recognition…\").",
+   "lesson": "Vocabulary: ensure = make certain; acknowledge = recognize.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m2q03-e",
+    "rw-tw-m2q03-m",
+    "rw-tw-m2q03-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 2 Q3"
+  },
+  {
+   "external_id": "bb-pt4-rw-m2-q04",
+   "section": "RW",
+   "module": 2,
+   "question_number": 4,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "easy",
+   "result": "incorrect",
+   "my_answer": "improvise",
+   "correct_answer": "implement",
+   "summary": "A council makes laws; officials ___ them by devising policies in accordance with them.",
+   "lesson": "Implement = put into effect; improvise = do without preparation.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m2q04-e",
+    "rw-tw-m2q04-m",
+    "rw-tw-m2q04-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 2 Q4"
+  },
+  {
+   "external_id": "bb-pt4-rw-m2-q11",
+   "section": "RW",
+   "module": 2,
+   "question_number": 11,
+   "skill": "RW.INI.COET.QUOTE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "C",
+   "summary": "Pick the quote showing a character as hard-working and dedicated; I picked a quote about him being happy after payment.",
+   "lesson": "Split the claim into parts; the quote must show every part.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m2q11-e",
+    "rw-tw-m2q11-m",
+    "rw-tw-m2q11-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 2 Q11"
+  },
+  {
+   "external_id": "bb-pt4-rw-m2-q12",
+   "section": "RW",
+   "module": 2,
+   "question_number": 12,
+   "skill": "RW.INI.COET.QUOTE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "D",
+   "correct_answer": "A",
+   "summary": "Poem quote showing nature as an active participant in a nighttime water scene; I picked a static-moon line with no water.",
+   "lesson": "Checklist the claim: element of nature + active + night + water.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "rw-tw-m2q12-e",
+    "rw-tw-m2q12-m",
+    "rw-tw-m2q12-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Reading and Writing Module 2 Q12"
+  },
+  {
+   "external_id": "bb-pt4-m-m1-q15",
+   "section": "MATH",
+   "module": 1,
+   "question_number": 15,
+   "skill": "MATH.PSD.TWOVAR.MODELTYPE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "D",
+   "summary": "Interpret the y-intercept of a decay graph where y is in thousands of catalogs, x = years since end of 1992. Answer: 9,000 catalogs at end of 1992.",
+   "lesson": "y-intercept = value at x = 0; apply units (\"in thousands\"); it's a single-year value, not a total.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m1q15-e",
+    "m-tw-m1q15-m",
+    "m-tw-m1q15-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 1 Q15"
+  },
+  {
+   "external_id": "bb-pt4-m-m1-q20",
+   "section": "MATH",
+   "module": 1,
+   "question_number": 20,
+   "skill": "MATH.ALG.INEQ.MODEL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "x ≤ 6n − 12",
+   "correct_answer": "x ≥ 6n − 12",
+   "summary": "\"Minimum value of x is 12 less than 6 times n\".",
+   "lesson": "Minimum → ≥; maximum → ≤.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m1q20-e",
+    "m-tw-m1q20-m",
+    "m-tw-m1q20-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 1 Q20"
+  },
+  {
+   "external_id": "bb-pt4-m-m1-q22",
+   "section": "MATH",
+   "module": 1,
+   "question_number": 22,
+   "skill": "MATH.ALG.LIN2.SOLN",
+   "difficulty": "hard",
+   "result": "incorrect",
+   "my_answer": "6.111",
+   "correct_answer": "59/9",
+   "summary": "Line 9x − 10y = 19 shifted down 4; find the new x-intercept.",
+   "lesson": "Down k: replace y with (y + k): 9x − 10(y+4) = 19 → 9x − 10y = 59 → x = 59/9.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m1q22-e",
+    "m-tw-m1q22-m",
+    "m-tw-m1q22-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 1 Q22"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q05",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 5,
+   "skill": "MATH.ADV.NLF.VERTEX",
+   "difficulty": "easy",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "f(x) = x² + 5x + 14",
+   "summary": "Table of 3 points (−1, 10), (0, 14), (1, 20); choose the equation.",
+   "lesson": "Plug the table points into options (or Desmos regression). Easy item: I omitted it, a timing issue.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q05-e",
+    "m-tw-m2q05-m",
+    "m-tw-m2q05-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q5"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q07",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 7,
+   "skill": "MATH.GEO.LAT.ANGLES",
+   "difficulty": "medium",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "41",
+   "summary": "Parallel lines + transversal; vertical angles x = 6k+13 and y = 8k−29; z is same-side interior with y.",
+   "lesson": "Vertical angles are equal → k = 21; same-side interior angles sum to 180 → z = 41. Trap options: k (21), x (139).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q07-e",
+    "m-tw-m2q07-m",
+    "m-tw-m2q07-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q7"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q08",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 8,
+   "skill": "MATH.ALG.LINF.PARPERP",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "−1/9",
+   "correct_answer": "1/9",
+   "summary": "Slope of a line perpendicular to 2y + 18x = 9.",
+   "lesson": "Perpendicular = negative reciprocal (flip AND change sign).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q08-e",
+    "m-tw-m2q08-m",
+    "m-tw-m2q08-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q8"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q10",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 10,
+   "skill": "MATH.ADV.NLF.EXPF",
+   "difficulty": "hard",
+   "result": "incorrect",
+   "my_answer": "1.04",
+   "correct_answer": "4",
+   "summary": "P(t) = 290(1.04)^((4/6)t); percent increase every 18 months.",
+   "lesson": "Convert the time unit; the multiplier 1.04 means +4%.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q10-e",
+    "m-tw-m2q10-m",
+    "m-tw-m2q10-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q10"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q11",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 11,
+   "skill": "MATH.ALG.LIN1.NSOL",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "−14/15",
+   "summary": "2(kx − n) = −(28/15)x − 36/19 with n > 1 has no solution; find k.",
+   "lesson": "No solution: equal x-coefficients, different constants.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q11-e",
+    "m-tw-m2q11-m",
+    "m-tw-m2q11-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q11"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q12",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 12,
+   "skill": "MATH.PSD.PCT.SUCC",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "5.46",
+   "correct_answer": "4.06",
+   "summary": "Wholesale $7, retail 290% of wholesale, then 80% off retail.",
+   "lesson": "290% → ×2.9; \"80% off\" → ×0.20.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q12-e",
+    "m-tw-m2q12-m",
+    "m-tw-m2q12-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q12"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q13",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 13,
+   "skill": "MATH.ADV.NLEQ.DISC",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "289",
+   "summary": "x² − 34x + c = 0 has no real solutions if c > n; least n.",
+   "lesson": "b² − 4ac < 0 → 1156 − 4c < 0 → c > 289.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q13-e",
+    "m-tw-m2q13-m",
+    "m-tw-m2q13-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q13"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q14",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 14,
+   "skill": "MATH.PSD.ONEVAR.CENTER",
+   "difficulty": "hard",
+   "result": "incorrect",
+   "my_answer": "47",
+   "correct_answer": "44",
+   "summary": "Combine means of two data sets with different sizes (75 at 32, 50 at 62).",
+   "lesson": "Weighted mean = total sum ÷ total count, not the average of averages.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q14-e",
+    "m-tw-m2q14-m",
+    "m-tw-m2q14-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q14"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q15",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 15,
+   "skill": "MATH.ADV.EQX.POLY",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "45/k",
+   "summary": "4x² + bx − 45 = (hx + k)(x + j), integers; which must be an integer.",
+   "lesson": "Expand and match: kj = −45 → j = −45/k. Test options with real values.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q15-e",
+    "m-tw-m2q15-m",
+    "m-tw-m2q15-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q15"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q17",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 17,
+   "skill": "MATH.PSD.ONEVAR.SPREAD",
+   "difficulty": "hard",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "C",
+   "summary": "Add 56 to each value of a dot-plot data set: compare medians and ranges.",
+   "lesson": "Adding a constant shifts center (median up), spread (range) unchanged.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q17-e",
+    "m-tw-m2q17-m",
+    "m-tw-m2q17-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q17"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q18",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 18,
+   "skill": "MATH.ADV.NLF.TRANSF",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "g(x) = 6/(x+8)",
+   "summary": "f(x) = a/(x+b) from a partial graph through (−7, −2) and (−5, −6); g(x) = f(x+4).",
+   "lesson": "Two points → two equations → a = 6, b = 4; then replace x by (x+4).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q18-e",
+    "m-tw-m2q18-m",
+    "m-tw-m2q18-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q18"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q19",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 19,
+   "skill": "MATH.ADV.NLEQ.QUAD",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "1/57",
+   "summary": "57x² + (57b + a)x + ab = 0; product of solutions = kab.",
+   "lesson": "Product of roots = c/a = ab/57.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q19-e",
+    "m-tw-m2q19-m",
+    "m-tw-m2q19-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q19"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q20",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 20,
+   "skill": "MATH.GEO.CIR.EQN",
+   "difficulty": "hard",
+   "result": "incorrect",
+   "my_answer": "9.975",
+   "correct_answer": "10",
+   "summary": "x² + x + y² + y = 199/2; radius.",
+   "lesson": "Complete the square and add 1/4 + 1/4 to the right side too.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q20-e",
+    "m-tw-m2q20-m",
+    "m-tw-m2q20-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q20"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q21",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 21,
+   "skill": "MATH.GEO.AV.VOL",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "8",
+   "summary": "Two identical square-base prisms (height 90) glued along a base; new surface area = (92/47)K; base side.",
+   "lesson": "New SA = 2K − 2x²; K = 2x² + 360x → x = 8.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q21-e",
+    "m-tw-m2q21-m",
+    "m-tw-m2q21-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q21"
+  },
+  {
+   "external_id": "bb-pt4-m-m2-q22",
+   "section": "MATH",
+   "module": 2,
+   "question_number": 22,
+   "skill": "MATH.ADV.NLF.VERTEX",
+   "difficulty": "hard",
+   "result": "omitted",
+   "my_answer": null,
+   "correct_answer": "−12",
+   "summary": "Parabola vertex (9, −14) with two x-intercepts; which could be a + b + c.",
+   "lesson": "a + b + c = y(1) = 64a − 14; opens up (a > 0) → only −12 works.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "m-tw-m2q22-e",
+    "m-tw-m2q22-m",
+    "m-tw-m2q22-h"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 4 → Math Module 2 Q22"
+  }
+ ]
+}

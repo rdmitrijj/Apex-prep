@@ -10,17 +10,18 @@ export const REASONS = [
 ] as const;
 export type Reason = (typeof REASONS)[number][0];
 
-export const tagReason = (responseId: number, reason: Reason | null) =>
-  api<void>(`/responses/${responseId}/reason`, { method: "PUT", json: { miss_reason: reason } });
+export const tagReason = (path: string, reason: Reason | null) =>
+  api<void>(path, { method: "PUT", json: { miss_reason: reason } });
 
 // "Why did you miss it?" chips: the tag feeds the Mistake Notebook filters.
-export function MissReason({ responseId, initial = null }: { responseId: number; initial?: string | null }) {
+// `path` overrides the endpoint (imported official-test mistakes have their own).
+export function MissReason({ responseId, initial = null, path }: { responseId: number; initial?: string | null; path?: string }) {
   const [reason, setReason] = useState<string | null>(initial);
   const [err, setErr] = useState(false);
   const pick = (r: Reason) => {
     const next = reason === r ? null : r;
     setReason(next);
-    tagReason(responseId, next).then(() => setErr(false), () => setErr(true));
+    tagReason(path ?? `/responses/${responseId}/reason`, next).then(() => setErr(false), () => setErr(true));
   };
   return (
     <div className="flex flex-wrap items-center gap-2 text-sm" role="group" aria-label="Why did you miss it?">

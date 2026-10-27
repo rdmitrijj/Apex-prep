@@ -1,0 +1,230 @@
+{
+ "source": "Saved official practice questions (no result data); models for original questions only.",
+ "note": "Metadata and paraphrases only: no official text is stored.",
+ "examples": [
+  {
+   "ref_id": "ref-01",
+   "skill": "MATH.PSD.RAT.PROP",
+   "difficulty": "easy",
+   "summary": "Earns p dollars per w hours; earnings for 39w hours.",
+   "answer": "39p"
+  },
+  {
+   "ref_id": "ref-02",
+   "skill": "MATH.ALG.LINF.MODEL",
+   "difficulty": "easy",
+   "summary": "5.7 minutes per mile; function for minutes for x miles.",
+   "answer": "m(x) = 5.7x"
+  },
+  {
+   "ref_id": "ref-03",
+   "skill": "MATH.ALG.SYS.SOLVE",
+   "difficulty": "easy",
+   "summary": "3x = 12 and −3x + y = −6; find y.",
+   "answer": "6"
+  },
+  {
+   "ref_id": "ref-04",
+   "skill": "MATH.ALG.LINF.NOTATION",
+   "difficulty": "easy",
+   "summary": "Speed s = 40 + 3t; value at t = 5.",
+   "answer": "55"
+  },
+  {
+   "ref_id": "ref-05",
+   "skill": "MATH.ALG.LINF.SLOPE",
+   "difficulty": "easy",
+   "summary": "y-intercept of f(x) = (1/10)x − 2.",
+   "answer": "(0, −2)"
+  },
+  {
+   "ref_id": "ref-06",
+   "skill": "MATH.ADV.NLF.TRANSF",
+   "difficulty": "easy",
+   "summary": "f(x) = 7x³ shifted down 2.",
+   "answer": "7x³ − 2"
+  },
+  {
+   "ref_id": "ref-07",
+   "skill": "MATH.ADV.NLEQ.SYS",
+   "difficulty": "easy",
+   "summary": "x + 7 = 10 and (x + 7)² = y.",
+   "answer": "(3, 100)"
+  },
+  {
+   "ref_id": "ref-08",
+   "skill": "MATH.ADV.EQX.POLY",
+   "difficulty": "easy",
+   "summary": "(7x³ + 7x) − (6x³ − 3x).",
+   "answer": "x³ + 10x (distribute the minus!)"
+  },
+  {
+   "ref_id": "ref-09",
+   "skill": "MATH.ADV.NLEQ.QUAD",
+   "difficulty": "easy",
+   "summary": "7n³ = 56.",
+   "answer": "n = 2"
+  },
+  {
+   "ref_id": "ref-10",
+   "skill": "MATH.ADV.NLF.EXPF",
+   "difficulty": "easy",
+   "summary": "E(t) = 5(1.8)^t employees; meaning of 5.",
+   "answer": "Initial value when opened"
+  },
+  {
+   "ref_id": "ref-11",
+   "skill": "MATH.GEO.LAT.ANGLES",
+   "difficulty": "easy",
+   "summary": "Transversal across parallel lines, one angle 110°; find x (adjacent position).",
+   "answer": "70"
+  },
+  {
+   "ref_id": "ref-12",
+   "skill": "MATH.PSD.ONEVAR.CENTER",
+   "difficulty": "easy",
+   "summary": "Mean of 10 listed values.",
+   "answer": "10"
+  },
+  {
+   "ref_id": "ref-13",
+   "skill": "MATH.ADV.NLF.EXPF",
+   "difficulty": "medium",
+   "summary": "300,000 cells, doubling every 3 h; after 15 h.",
+   "answer": "300,000 · 2⁵ = 9,600,000"
+  },
+  {
+   "ref_id": "ref-14",
+   "skill": "MATH.ADV.EQX.POLY",
+   "difficulty": "medium",
+   "summary": "6x⁸y² + 12x²y² factored.",
+   "answer": "6x²y²(x⁶ + 2)"
+  },
+  {
+   "ref_id": "ref-15",
+   "skill": "MATH.ALG.INEQ.MODEL",
+   "difficulty": "medium",
+   "summary": "$35 fee + $10.25/attendee ≤ $200; max attendees.",
+   "answer": "16 (round down)"
+  },
+  {
+   "ref_id": "ref-16",
+   "skill": "MATH.ADV.NLEQ.ABS",
+   "difficulty": "medium",
+   "summary": "|4x − 4| = 112; positive value of x − 1.",
+   "answer": "28 (factor out 4 first)"
+  },
+  {
+   "ref_id": "ref-17",
+   "skill": "MATH.ADV.NLF.EXPF",
+   "difficulty": "medium",
+   "summary": "Value grows 0.49% of previous year's value each year.",
+   "answer": "Increasing exponential"
+  },
+  {
+   "ref_id": "ref-18",
+   "skill": "MATH.PSD.PCT.BASIC",
+   "difficulty": "medium",
+   "summary": "Population +7%; 2016 = k·2015.",
+   "answer": "1.07"
+  },
+  {
+   "ref_id": "ref-19",
+   "skill": "MATH.ADV.EQX.EXP",
+   "difficulty": "medium",
+   "summary": "a^(11/12) as a radical among several equivalent-looking forms.",
+   "answer": "¹⁴⁴√(a¹³²), check 132/144 = 11/12"
+  },
+  {
+   "ref_id": "ref-20",
+   "skill": "MATH.ALG.LIN2.MODEL",
+   "difficulty": "medium",
+   "summary": "Line with intercepts (60, 0) and (0, 40) about shares of two stocks.",
+   "answer": "8x + 12y = 480"
+  },
+  {
+   "ref_id": "ref-21",
+   "skill": "MATH.GEO.RTT.PYTH",
+   "difficulty": "easy",
+   "summary": "Legs 4 and 5; expression for hypotenuse.",
+   "answer": "√(4² + 5²)"
+  },
+  {
+   "ref_id": "ref-22",
+   "skill": "MATH.ALG.LIN2.INTERP",
+   "difficulty": "medium",
+   "summary": "2x + 35y = 3,934 trees, 2-ha park + 35-ha residential area; meaning of x.",
+   "answer": "Average trees per hectare in the park"
+  },
+  {
+   "ref_id": "ref-23",
+   "skill": "MATH.PSD.ONEVAR.DISPLAY",
+   "difficulty": "medium",
+   "summary": "Frequency table with a 0 frequency at 13; maximum data value.",
+   "answer": "14 (ignore values with frequency 0 for 13; max is the largest value present)"
+  },
+  {
+   "ref_id": "ref-24",
+   "skill": "MATH.GEO.CIR.EQN",
+   "difficulty": "medium",
+   "summary": "Diameter endpoints (2, 4) and (2, 14); r.",
+   "answer": "5"
+  },
+  {
+   "ref_id": "ref-25",
+   "skill": "MATH.GEO.CIR.ARC",
+   "difficulty": "medium",
+   "summary": "Angle R = 2π/3, T is 5π/12 greater; T in degrees.",
+   "answer": "195"
+  },
+  {
+   "ref_id": "ref-26",
+   "skill": "MATH.GEO.AV.SCALE",
+   "difficulty": "medium",
+   "summary": "Radii 3n and 129n; area ratio.",
+   "answer": "43² = 1,849 (square the scale factor)"
+  },
+  {
+   "ref_id": "ref-27",
+   "skill": "MATH.PSD.RAT.UNITS",
+   "difficulty": "hard",
+   "summary": "4.36 sq miles to sq yards, 1 mile = 1,760 yd.",
+   "answer": "×1,760² → 13,505,536 (square the conversion)"
+  },
+  {
+   "ref_id": "ref-28",
+   "skill": "MATH.GEO.LAT.TRI",
+   "difficulty": "hard",
+   "summary": "Perimeter 624 → height k√3; k.",
+   "answer": "side 208, height 104√3 → 104"
+  },
+  {
+   "ref_id": "ref-29",
+   "skill": "MATH.GEO.AV.VOL",
+   "difficulty": "hard",
+   "summary": "Cube edge 68 with inscribed sphere r = 34; volume outside sphere.",
+   "answer": "68³ − (4/3)π·34³ ≈ 149,796"
+  },
+  {
+   "ref_id": "ref-30",
+   "skill": "MATH.ALG.LINF.SLOPE",
+   "difficulty": "hard",
+   "summary": "Line through table points (18,130), (23,160), (26,178), shifted down 5; x-intercept.",
+   "answer": "slope 6, y = 6x + 17 → −17/6"
+  },
+  {
+   "ref_id": "ref-31",
+   "skill": "MATH.ADV.NLEQ.SYS",
+   "difficulty": "hard",
+   "summary": "y = −x² + 9x − 100 meets y = c at exactly one point; c.",
+   "answer": "c = vertex y = −319/4"
+  },
+  {
+   "ref_id": "ref-32",
+   "skill": "MATH.ALG.SYS.NSOL",
+   "difficulty": "hard",
+   "summary": "Two equations that are multiples of each other; which parametric point lies on both for every r.",
+   "answer": "Solve one equation for x in terms of y = r: ((−3r/2) + 7/2, r)"
+  }
+ ]
+}
