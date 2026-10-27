@@ -39,7 +39,7 @@ async def mistakes(
     user: CurrentUser,
     section: Literal["RW", "MATH"] | None = None,
     skill: str | None = None,
-    mode: Literal["exam", "drill", "training"] | None = None,
+    mode: Literal["exam", "drill", "training", "triage"] | None = None,
     reason: MissReason | Literal["untagged"] | None = None,
     limit: int = 100,
 ) -> list[Mistake]:

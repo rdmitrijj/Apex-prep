@@ -13,3 +13,10 @@ test("plain text is escaped, not injected as HTML", () => {
   const { container } = render(<MathText text={'<img src=x onerror="alert(1)">'} />);
   expect(container.querySelector("img")).toBeNull();
 });
+
+test("a dollar sign inside math doesn't end the math", () => {
+  const { container } = render(<MathText text={"Sale price: $\\$12.60$, not $\\$5.40$."} />);
+  expect(container.querySelectorAll(".katex").length).toBe(2);
+  expect(container.querySelector(".katex-error")).toBeNull();
+  expect(container.textContent).not.toContain("$.");
+});

@@ -167,7 +167,7 @@ class AnswerIn(BaseModel):
     question_id: int
     answer: str = Field(min_length=1, max_length=16)
     time_ms: int = Field(ge=0, le=3_600_000)
-    mode: Literal["drill", "training"] = "drill"
+    mode: Literal["drill", "training", "triage"] = "drill"
 
 
 class Feedback(BaseModel):

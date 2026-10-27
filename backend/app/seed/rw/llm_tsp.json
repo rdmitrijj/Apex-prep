@@ -3,7 +3,7 @@
     "id": "rw-llm-tsp-001",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "easy",
-    "passage": "Refreshable braille displays allow blind people to read digital text by touch. Small pins rise and fall beneath the reader's fingertips to form braille characters. <u>However, most of these devices cost several thousand dollars, which puts them out of reach for many potential users.</u> To address this issue, engineer Nalani Kahale and her team built a display that moves inexpensive plastic pins with tiny magnets, bringing the price of their device below $500.",
+    "passage": "Refreshable braille displays allow blind people to read digital text by touch. Small pins rise and fall beneath the reader's fingertips to form braille characters. <u>However, most of these devices cost several thousand dollars, which puts them out of reach for many potential users.</u> To address this issue, engineer Nalani Kahale and her team built a display that moves inexpensive plastic pins with tiny magnets, bringing the price of their device below \\$500.",
     "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
     "choices": [
       "It argues that braille displays are less useful than other reading tools.",

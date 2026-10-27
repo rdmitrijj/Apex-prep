@@ -79,7 +79,8 @@ async def get_plan(db: DB, user: CurrentUser, tz: str = "UTC", rebuild: bool = F
     start = datetime.combine(week_start, time(), tzinfo=zone).astimezone(UTC)
     end = start + timedelta(days=7)
     answers = Counter(
-        (r.created_at.astimezone(zone).date().isoformat(), r.mode)
+        # Triage rounds count toward the day's drill task.
+        (r.created_at.astimezone(zone).date().isoformat(), "drill" if r.mode == "triage" else r.mode)
         for r in (
             await db.scalars(
                 select(Response).where(

@@ -2,7 +2,8 @@ import katex from "katex";
 import { Fragment, type ReactNode } from "react";
 
 // \$ = literal dollar sign, $$..$$ = display math, $..$ = inline math, <u>..</u> = underlined span.
-const TOKEN = /\\\$|\$\$([\s\S]+?)\$\$|\$([^$]+?)\$|<u>([\s\S]*?)<\/u>/g;
+// Math may itself contain \$ (a dollar sign typeset in math, e.g. $\$12.60$), so \$ doesn't end it.
+const TOKEN = /\\\$|\$\$((?:\\\$|[^$])+?)\$\$|\$((?:\\\$|[^$])+?)\$|<u>([\s\S]*?)<\/u>/g;
 
 function tex(src: string, displayMode: boolean) {
   return katex.renderToString(src, { throwOnError: false, displayMode });

@@ -113,3 +113,16 @@ async def test_mistakes_notebook_srs_and_tags(user: AsyncClient) -> None:
     assert len((await user.get("/api/mistakes?skill=MATH.ALG")).json()) == 1
     bad = await user.put(f"/api/responses/{fb['response_id']}/reason", json={"miss_reason": "aliens"})
     assert bad.status_code == 422
+
+
+async def test_triage_answers_are_tagged_in_the_mistake_notebook(user: AsyncClient) -> None:
+    q = (await user.post("/api/drill/next", json={"skill_ids": ["MATH.ALG.LIN1.SOLVE"]})).json()
+    key = await _key(q["id"])
+    wrong = next(c for c in "ABCD" if c != key.content["answer"]) if key.format == "mc" else "9999"
+    r = await user.post(
+        "/api/drill/answer", json={"question_id": q["id"], "answer": wrong, "time_ms": 1000, "mode": "triage"}
+    )
+    assert r.status_code == 200 and not r.json()["correct"]
+    rows = (await user.get("/api/mistakes?mode=triage")).json()
+    assert [m["mode"] for m in rows] == ["triage"]
+    assert (await user.get("/api/mistakes?mode=drill")).json() == []

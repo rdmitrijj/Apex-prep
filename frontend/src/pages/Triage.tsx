@@ -89,7 +89,7 @@ function Run({ onDone }: { onDone: (slots: Slot[]) => void }) {
     if (finishing.current) return;
     finishing.current = true;
     const graded = await Promise.all(
-      s.map(async (x) => (x.answer ? { ...x, fb: await submitAnswer({ question_id: x.q.id, answer: x.answer, time_ms: Math.round(x.ms), mode: "drill" }) } : x)),
+      s.map(async (x) => (x.answer ? { ...x, fb: await submitAnswer({ question_id: x.q.id, answer: x.answer, time_ms: Math.round(x.ms), mode: "triage" }) } : x)),
     );
     onDone(graded);
   };

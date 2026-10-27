@@ -11,7 +11,7 @@ import { Session } from "./Drill";
 
 type Mistake = {
   response_id: number;
-  mode: "exam" | "drill" | "training";
+  mode: Source;
   created_at: string;
   question: Question;
   answer: string | null;
@@ -45,7 +45,28 @@ type Imported = {
 };
 type Filters = { section: Section | ""; mode: string; reason: string };
 
-const MODE_NAME: Record<Mistake["mode"], string> = { exam: "Exam", drill: "Drill", training: "Training" };
+type Source = "exam" | "drill" | "training" | "triage";
+
+// Where a mistake came from: label, color, and a small line icon (24×24 stroke paths).
+const SOURCES: Record<Source | "official", { label: string; tone: string; icon: string }> = {
+  exam: { label: "Practice exam", tone: "bg-indigo-50 text-indigo-800 ring-indigo-200", icon: "M8 4h8v3H8zM6 5H5v16h14V5h-1M9 11h6M9 15h6M9 19h3" },
+  drill: { label: "Topic drill", tone: "bg-sky-50 text-sky-800 ring-sky-200", icon: "M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18M12 8a4 4 0 1 0 0 8a4 4 0 1 0 0-8M12 11.5v1" },
+  training: { label: "Weakness training", tone: "bg-amber-50 text-amber-900 ring-amber-200", icon: "M6 7v10M18 7v10M3 10v4M21 10v4M6 12h12" },
+  triage: { label: "Triage", tone: "bg-rose-50 text-rose-800 ring-rose-200", icon: "M12 5a8 8 0 1 0 0 16a8 8 0 1 0 0-16M12 9v4l2.5 2M9 2h6" },
+  official: { label: "Official test", tone: "bg-emerald-50 text-emerald-800 ring-emerald-200", icon: "M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3zM5 17a3 3 0 0 1 3-3h11M9 8h6" },
+};
+
+function SourceBadge({ source, label }: { source: keyof typeof SOURCES; label?: string }) {
+  const s = SOURCES[source];
+  return (
+    <span className={`inline-flex w-40 shrink-0 items-center gap-1.5 rounded-full px-2 py-0.5 text-xs font-medium ring-1 ${s.tone}`}>
+      <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d={s.icon} />
+      </svg>
+      {label ?? s.label}
+    </span>
+  );
+}
 const REASON_NAME = Object.fromEntries(REASONS) as Record<string, string>;
 
 function Row({ m }: { m: Mistake }) {
@@ -56,7 +77,7 @@ function Row({ m }: { m: Mistake }) {
     <li className="py-2">
       <button type="button" aria-expanded={open} onClick={() => setOpen((o) => !o)} className="flex w-full flex-wrap items-center gap-x-3 text-left text-sm hover:bg-slate-50">
         <span className="w-24 text-slate-500">{new Date(m.created_at).toLocaleDateString(undefined, { day: "numeric", month: "short" })}</span>
-        <span className="w-16 text-slate-600">{MODE_NAME[m.mode]}</span>
+        <SourceBadge source={m.mode} />
         <span className="flex-1">{q.skill_name} <span className="capitalize text-slate-500">· {q.difficulty}</span></span>
         <span className="text-xs text-amber-800">{m.miss_reason ? REASON_NAME[m.miss_reason] : ""}</span>
       </button>
@@ -89,7 +110,7 @@ function ImportedRow({ m }: { m: Imported }) {
   return (
     <li className="py-2">
       <button type="button" aria-expanded={open} onClick={() => setOpen((o) => !o)} className="flex w-full flex-wrap items-center gap-x-3 text-left text-sm hover:bg-slate-50">
-        <span className="rounded bg-brand-50 px-2 text-xs font-medium text-brand-900 ring-1 ring-brand-100">{m.badge}</span>
+        <SourceBadge source="official" label={m.badge} />
         <span className="w-28 text-slate-600">{m.section === "RW" ? "R&W" : "Math"} M{m.module} Q{m.question_number}</span>
         <span className="flex-1">{m.skill_name} <span className="text-slate-500">· {m.result === "omitted" ? "left blank" : "incorrect"}</span></span>
         {status(m)}
@@ -128,7 +149,7 @@ function ImportedRow({ m }: { m: Imported }) {
 
 export function Mistakes() {
   const [f, setF] = useState<Filters>({ section: "", mode: "", reason: "" });
-  const qs = new URLSearchParams(Object.entries(f).filter(([, v]) => v));
+  const qs = new URLSearchParams(Object.entries(f).filter(([k, v]) => v && !(k === "mode" && v === "official")));
   const list = useQuery({ queryKey: ["mistakes", f], queryFn: () => api<Mistake[]>(`/mistakes?limit=200&${qs}`) });
   const imported = useQuery({ queryKey: ["imported"], queryFn: () => api<Imported[]>("/imported-mistakes") });
   const shown = imported.data?.filter((m) => (!f.section || m.section === f.section) && (!f.reason || m.miss_reason === f.reason || (f.reason === "untagged" && !m.miss_reason)));
@@ -154,6 +175,8 @@ export function Mistakes() {
               <option value="exam">Exams</option>
               <option value="drill">Topic drills</option>
               <option value="training">Weakness training</option>
+              <option value="triage">Triage</option>
+              <option value="official">Official tests</option>
             </select>
           </label>
           <label>Reason
@@ -170,7 +193,7 @@ export function Mistakes() {
             {reasons.untagged ? `${REASONS.some(([id]) => reasons[id]) ? " · " : ""}Not tagged: ${reasons.untagged}` : ""}
           </p>
         )}
-        {shown && shown.length > 0 && !f.mode && (
+        {shown && shown.length > 0 && (!f.mode || f.mode === "official") && (
           <section aria-labelledby="official-h" className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h2 id="official-h" className="text-lg font-semibold">Official practice tests</h2>
@@ -183,12 +206,12 @@ export function Mistakes() {
             <ul className="mt-2 divide-y divide-slate-100">{shown.filter((m) => showRetired || !m.retired).map((m) => <ImportedRow key={m.id} m={m} />)}</ul>
           </section>
         )}
-        <section className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
+        {f.mode !== "official" && <section className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
           {list.isPending && <p className="text-slate-500">Loading…</p>}
           {list.isError && <p role="alert" className="text-red-700">Couldn't load your mistakes.</p>}
           {list.data?.length === 0 && <p className="text-slate-500">No mistakes here. Nice.</p>}
           <ul className="divide-y divide-slate-100">{list.data?.map((m) => <Row key={m.response_id} m={m} />)}</ul>
-        </section>
+        </section>}
       </div>
     </Shell>
   );

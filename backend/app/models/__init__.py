@@ -137,7 +137,7 @@ class ExamItem(Base):
 class Response(Base):
     __tablename__ = "responses"
     __table_args__ = (
-        CheckConstraint("mode IN ('exam','drill','training')", name="mode"),
+        CheckConstraint("mode IN ('exam','drill','training','triage')", name="mode"),
         Index("ix_responses_user_time", "user_id", "created_at"),
     )
     id: Mapped[int] = mapped_column(BigInteger, primary_key=True)

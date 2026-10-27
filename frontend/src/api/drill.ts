@@ -64,7 +64,7 @@ export function useSkills() {
 export const nextQuestion = (body: { skill_ids: string[]; difficulty: Difficulty | "mixed"; exclude_ids: number[] }) =>
   api<Question>("/drill/next", { method: "POST", json: body });
 
-export const submitAnswer = (body: { question_id: number; answer: string; time_ms: number; mode?: "drill" | "training" }) =>
+export const submitAnswer = (body: { question_id: number; answer: string; time_ms: number; mode?: "drill" | "training" | "triage" }) =>
   api<Feedback>("/drill/answer", { method: "POST", json: body });
 
 export const reportQuestion = (id: number, reason: string) =>
