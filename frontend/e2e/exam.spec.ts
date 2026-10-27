@@ -79,7 +79,7 @@ test("math exam: tools, resume after refresh, adaptive module 2, results, weakne
   await expect(page.getByText(/below your 700 target|At or above your 700 target/)).toBeVisible();
   await expect(page.getByRole("heading", { name: "Math", exact: true })).toBeVisible();
   await page.getByRole("button", { name: "Incorrect", exact: true }).click();
-  await page.getByRole("button", { name: /Omitted/ }).first().click();
+  await page.getByRole("list").getByRole("button", { name: /Omitted/ }).first().click();
   await expect(page.getByText(/Math · Module \d.*Question \d+/).first()).toBeVisible();
   await page.screenshot({ path: "test-results/exam-results.png", fullPage: true });
   await expect(page.getByText("by a default curve.")).toBeVisible();
@@ -97,6 +97,7 @@ test("math exam: tools, resume after refresh, adaptive module 2, results, weakne
 
   await page.getByRole("link", { name: "Train my weak spots" }).click();
   await expect(page.getByRole("heading", { name: "Weakness Training" })).toBeVisible();
+  await page.getByLabel("Train").selectOption("all"); // defaults to last-exam mistakes when there are any
   await expect(page.getByText(/Missed \d+ of the last \d+/).first()).toBeVisible();
   await page.getByLabel("Questions").selectOption("10");
   await page.getByRole("button", { name: "Start training" }).click();

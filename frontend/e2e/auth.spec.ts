@@ -17,7 +17,7 @@ test("register, see countdown, sign out, sign back in", async ({ page }) => {
   await expect(page.getByText(email)).toBeVisible();
 
   // Goals are per account and editable.
-  await page.getByRole("link", { name: "Goals" }).click();
+  await page.getByRole("link", { name: "Goals", exact: true }).click();
   await expect(page.getByLabel("Target total score")).toHaveValue("1400");
   await page.getByLabel("Math minimum").fill("720");
   await page.getByRole("button", { name: "Save goals" }).click();

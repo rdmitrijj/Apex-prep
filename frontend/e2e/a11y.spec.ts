@@ -24,6 +24,8 @@ test("main pages have no serious accessibility violations", async ({ page }) => 
     ["/drill", "Topic Drill"],
     ["/training", "Weakness Training"],
     ["/mistakes", "Mistake Notebook"],
+    ["/triage", "Triage drill"],
+    ["/goals", "Your goals"],
     ["/exam", "Practice Exam"],
   ]) {
     await page.goto(path);
