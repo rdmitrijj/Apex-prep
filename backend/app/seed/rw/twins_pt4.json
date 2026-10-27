@@ -1,0 +1,1030 @@
+[
+ {
+  "id": "rw-tw-m1q01-e",
+  "modeled_on": "bb-pt4-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Although several neighbors complained about the noise, their objections did not ______ the construction of the new community library, which opened on schedule in March and quickly became one of the busiest buildings in town.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "delay",
+   "require",
+   "describe",
+   "celebrate"
+  ],
+  "answer": "A",
+  "explanation": "Predict before reading the choices: the complaints did not ___ it, and it opened on time, so the blank means 'slow down' or 'hold back.'",
+  "rationales": {
+   "A": "Correct. The library opened on schedule, so the complaints did not slow it down.",
+   "B": "'Did not require' doesn't connect the complaints to the on-time opening.",
+   "C": "Whether objections describe construction has nothing to do with its opening on time.",
+   "D": "Complaints wouldn't be expected to celebrate anything; the sentence needs a word for slowing."
+  }
+ },
+ {
+  "id": "rw-tw-m1q01-m",
+  "modeled_on": "bb-pt4-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Early reviewers dismissed the documentary as too long and too quiet to hold an audience's attention. Their criticism, however, did little to ______ the film's success: within a year it had been screened at more than forty festivals and had won two major awards.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "impede",
+   "predict",
+   "document",
+   "enhance"
+  ],
+  "answer": "A",
+  "explanation": "'However' and 'did little to' tell you the criticism tried, and failed, to stop the film's success. 'Impede' means 'hold back.'",
+  "rationales": {
+   "A": "Correct. 'Impede' means to hold back; the criticism failed to hold the film back.",
+   "B": "The reviews didn't foresee success; they expected the opposite.",
+   "C": "Reviews don't record a later success, and this ignores the 'however' contrast.",
+   "D": "Negative criticism wouldn't be expected to boost success, and 'did little to' signals it failed to block it."
+  }
+ },
+ {
+  "id": "rw-tw-m1q01-h",
+  "modeled_on": "bb-pt4-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Historian Lena Fischer notes that the 1890s rail strikes are often remembered as failures, since the workers' main demands were rejected. Yet the strikes did not entirely ______ the organizers' broader aims: within a decade, several states had passed the safety laws the organizers had campaigned for.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "advance",
+   "mirror",
+   "thwart",
+   "conceal"
+  ],
+  "answer": "C",
+  "explanation": "The strikes looked like failures, yet the aims were achieved later. So the strikes did not fully 'thwart' (prevent) those aims.",
+  "rationales": {
+   "A": "This fits the topic but reverses the logic: 'Yet ... did not entirely' needs a word meaning 'block.'",
+   "B": "'Mirror' (reflect) doesn't connect the failed strike to the later laws.",
+   "C": "Correct. 'Thwart' means to prevent; the broader aims were later achieved, so the strikes didn't fully prevent them.",
+   "D": "Nothing in the text concerns hiding the organizers' aims."
+  }
+ },
+ {
+  "id": "rw-tw-m1q02-e",
+  "modeled_on": "bb-pt4-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Most of the bakery's recipes ______ methods passed down from the owner's grandmother, but she occasionally changes an ingredient or a baking time so that the bread suits the tastes of her younger customers.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "invent",
+   "follow",
+   "forget",
+   "reject"
+  ],
+  "answer": "B",
+  "explanation": "'But she occasionally changes' shows the usual pattern is the opposite of changing: following the old methods.",
+  "rationales": {
+   "A": "The methods were passed down; they weren't invented by the recipes.",
+   "B": "Correct. She mostly keeps to the old methods and only occasionally changes something.",
+   "C": "Recipes can't forget methods, and this contradicts the occasional changes.",
+   "D": "If the recipes rejected the methods, 'occasionally changes' would make no sense."
+  }
+ },
+ {
+  "id": "rw-tw-m1q02-m",
+  "modeled_on": "bb-pt4-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Members of the folk ensemble Riverstone generally ______ the traditional arrangements of the songs they perform, though they don't hesitate to add a modern instrument, such as an electric bass, when a piece seems to call for it.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "compete with",
+   "comment on",
+   "depart from",
+   "conform to"
+  ],
+  "answer": "D",
+  "explanation": "'Though they don't hesitate to add a modern instrument' marks the exception. The general rule must be the opposite: they 'conform to' (follow) tradition.",
+  "rationales": {
+   "A": "Musicians don't compete with arrangements; the word ignores the contrast.",
+   "B": "Performing songs isn't commenting on their arrangements.",
+   "C": "This reverses the logic: 'though' introduces the exceptions, so the general rule is keeping tradition.",
+   "D": "Correct. They mostly keep the traditional arrangements, with occasional exceptions."
+  }
+ },
+ {
+  "id": "rw-tw-m1q02-h",
+  "modeled_on": "bb-pt4-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Architect Sun-hee Park describes her houses as rooted in the Korean hanok tradition. While she rarely ______ the proportions and materials of historical hanok houses, she deliberately breaks from tradition in her use of floor-to-ceiling glass walls, which the older style never featured.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "documents",
+   "adheres to",
+   "replicates",
+   "deviates from"
+  ],
+  "answer": "D",
+  "explanation": "Read the negation: 'rarely ___' must still fit houses rooted in tradition. So the blank means 'leaves' or 'departs from,' and the glass walls are the exception.",
+  "rationales": {
+   "A": "Designing houses isn't documenting older ones.",
+   "B": "The topic is tradition, but 'rarely adheres to' contradicts houses 'rooted in' that tradition.",
+   "C": "'Rarely replicates' would mean she seldom copies the tradition, which contradicts 'rooted in.'",
+   "D": "Correct. She rarely leaves the traditional proportions and materials; the glass is her deliberate exception."
+  }
+ },
+ {
+  "id": "rw-tw-m1q05-e",
+  "modeled_on": "bb-pt4-rw-m1-q05",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Without any written records or precise instruments, early astronomers could only ______ how far away the stars were. Much later, careful measurements showed that most of their estimates had been far too small.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "measure",
+   "ignore",
+   "guess",
+   "prove"
+  ],
+  "answer": "C",
+  "explanation": "No records + no instruments + wrong estimates = a guess.",
+  "rationales": {
+   "A": "They had no precise instruments; measuring came 'much later.'",
+   "B": "They made estimates, so they didn't ignore the question.",
+   "C": "Correct. With no records or instruments, they could only estimate roughly, and the estimates were wrong.",
+   "D": "You can't prove something with no evidence, and their estimates turned out wrong."
+  }
+ },
+ {
+  "id": "rw-tw-m1q05-m",
+  "modeled_on": "bb-pt4-rw-m1-q05",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Because the ship's logbook had been lost in a fire, researchers ______ its route from a few scattered references in letters written by the crew, a reconstruction that newly discovered port records have since partly confirmed.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "inferred",
+   "fabricated",
+   "contrived",
+   "declared"
+  ],
+  "answer": "A",
+  "explanation": "The route came from 'scattered references,' so the researchers worked it out from evidence: they inferred it.",
+  "rationales": {
+   "A": "Correct. 'Infer' means to work out from evidence; the researchers used clues in the letters.",
+   "B": "'Fabricate' means to invent falsely, but the route was based on real letters and later confirmed.",
+   "C": "'Contrive' means to create artificially or by trickery; the researchers honestly reasoned from evidence.",
+   "D": "'Declare' means to state officially; it misses the idea of working from clues."
+  }
+ },
+ {
+  "id": "rw-tw-m1q05-h",
+  "modeled_on": "bb-pt4-rw-m1-q05",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "For decades, ornithologists ______ that the mountain thrush migrated south each winter, a conclusion based mainly on the fact that the bird vanished from northern forests every November. Tracking devices later revealed that most individuals simply moved to lower elevations nearby.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "verified",
+   "disputed",
+   "presumed",
+   "contrived"
+  ],
+  "answer": "C",
+  "explanation": "A conclusion 'based mainly on' one observation, later disproved, was assumed, not proved: 'presumed.'",
+  "rationales": {
+   "A": "The belief was later shown to be wrong, so it was never verified.",
+   "B": "The scientists held the belief; they didn't argue against it.",
+   "C": "Correct. 'Presume' means to assume without proof; the belief rested on thin evidence and proved wrong.",
+   "D": "'Contrive' means to create by trickery; nothing suggests the scientists were deceptive."
+  }
+ },
+ {
+  "id": "rw-tw-m1q12-e",
+  "modeled_on": "bb-pt4-rw-m1-q12",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "easy",
+  "passage": "The painter Clara Voss is often mentioned only as the teacher of her famous student, Anton Reich. But Voss also exhibited more than two hundred of her own paintings, many of which critics at the time praised for their bold use of color. Discussions that treat Voss merely as Reich's teacher therefore ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "prove that Voss influenced every painter of her era.",
+   "show that Voss's paintings were less popular than Reich's.",
+   "overlook her significance as an artist in her own right.",
+   "explain why Reich's paintings also used bold color."
+  ],
+  "answer": "C",
+  "explanation": "The passage contrasts 'only a teacher' with her own praised paintings. The completion must say what that view misses: her importance as an artist.",
+  "rationales": {
+   "A": "That goes far beyond the passage's evidence.",
+   "B": "The text never compares their popularity.",
+   "C": "Correct. It follows from the evidence that Voss had her own praised body of work.",
+   "D": "The text says nothing about Reich's use of color."
+  }
+ },
+ {
+  "id": "rw-tw-m1q12-m",
+  "modeled_on": "bb-pt4-rw-m1-q12",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "passage": "Accounts of the 1910 polar expedition usually credit its leader with all of its scientific results. Yet the expedition's photographer, Ida Lund, also kept detailed daily weather logs, and climatologists relied on those logs for decades to study the region's past climate. Historians who describe Lund solely as a photographer therefore ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "have overlooked errors in her weather logs.",
+   "should reconsider the leader's role in planning the route.",
+   "may be underestimating her contribution to climate science.",
+   "are right that her photographs were the expedition's main achievement."
+  ],
+  "answer": "C",
+  "explanation": "Stay with the passage's focus: Lund's logs mattered to science, so calling her only a photographer underrates her.",
+  "rationales": {
+   "A": "The text gives no evidence of errors; climatologists relied on the logs.",
+   "B": "Route planning is never discussed.",
+   "C": "Correct. Her weather logs were scientifically valuable, which the 'photographer only' view misses.",
+   "D": "This contradicts the passage's point about her logs."
+  }
+ },
+ {
+  "id": "rw-tw-m1q12-h",
+  "modeled_on": "bb-pt4-rw-m1-q12",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "passage": "In letters, the composer Paul Arden often thanked his sister Marthe for \"keeping his house in order,\" and many biographers took this as evidence that her role in his life was purely domestic. Recently discovered manuscripts, however, show Marthe's handwriting in the margins of several of Arden's scores, including revisions to melodies. These manuscripts suggest that biographers who rely only on Arden's letters ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "may have misjudged the nature of Marthe's involvement in his work.",
+   "were correct that Arden revised his scores alone.",
+   "have overstated how often Arden wrote letters.",
+   "should conclude that Marthe composed all of Arden's music."
+  ],
+  "answer": "A",
+  "explanation": "The letters suggested a domestic role; the manuscripts show musical work. So the letters-only view may misjudge her role. Reject choices that go beyond the evidence ('all of his music').",
+  "rationales": {
+   "A": "Correct. The manuscripts show musical revisions, which the letters alone hid.",
+   "B": "Her handwriting in the scores contradicts this.",
+   "C": "How often he wrote letters isn't the passage's focus.",
+   "D": "Revisions to some melodies don't show she wrote everything: too strong."
+  }
+ },
+ {
+  "id": "rw-tw-m1q14-e",
+  "modeled_on": "bb-pt4-rw-m1-q14",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "easy",
+  "passage": "Born in a small fishing village in northern Norway, the painter Astrid ______ captured the shifting colors of the Arctic sky in more than three hundred canvases over a career that lasted six decades.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Holm;",
+   "Holm,",
+   "Holm",
+   "Holm:"
+  ],
+  "answer": "C",
+  "explanation": "The introductory phrase ends at 'Norway,'. After that, 'the painter Astrid Holm' is the subject and 'captured' the verb. No punctuation belongs between the subject and its verb.",
+  "rationales": {
+   "A": "A semicolon joins two independent clauses; 'captured the shifting colors...' isn't one on its own.",
+   "B": "A single comma can't separate the subject from its verb.",
+   "C": "Correct. 'The painter Astrid Holm' is the subject and 'captured' is its verb; nothing separates them.",
+   "D": "A colon must follow a complete clause; 'the painter Astrid Holm' isn't one."
+  }
+ },
+ {
+  "id": "rw-tw-m1q14-m",
+  "modeled_on": "bb-pt4-rw-m1-q14",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "medium",
+  "passage": "After analyzing thousands of hours of recorded whale songs from three different oceans, marine biologist Kenji ______ concluded that humpback songs spread from one population to another, much as popular music spreads between human cities.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Watanabe—",
+   "Watanabe:",
+   "Watanabe",
+   "Watanabe,"
+  ],
+  "answer": "C",
+  "explanation": "A long opening phrase tempts you to add punctuation, but it already ended at 'oceans,'. No punctuation belongs between the subject and its verb.",
+  "rationales": {
+   "A": "A single dash can't separate the subject from its verb.",
+   "B": "A colon can't come between a subject and its verb.",
+   "C": "Correct. 'Marine biologist Kenji Watanabe' is the subject of 'concluded'; no punctuation goes between them.",
+   "D": "The long introductory phrase already ended with a comma; another comma would split subject and verb."
+  }
+ },
+ {
+  "id": "rw-tw-m1q14-h",
+  "modeled_on": "bb-pt4-rw-m1-q14",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "passage": "In a 2019 study of songbirds living in large cities, ecologist Maria Santos and her colleagues at the University of ______ found that urban birds sing at higher pitches than their rural relatives, likely so their songs can be heard over traffic noise.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Lisbon",
+   "Lisbon;",
+   "Lisbon,",
+   "Lisbon—"
+  ],
+  "answer": "A",
+  "explanation": "Find the verb ('found') and trace back to its subject. Even a long compound subject takes no punctuation before its verb.",
+  "rationales": {
+   "A": "Correct. The whole compound subject 'Maria Santos and her colleagues at the University of Lisbon' leads straight into 'found.'",
+   "B": "A semicolon would leave 'found that...' as a fragment.",
+   "C": "A comma after a long subject feels natural but splits the subject from 'found.'",
+   "D": "A single dash separates the subject from its verb."
+  }
+ },
+ {
+  "id": "rw-tw-m1q16-e",
+  "modeled_on": "bb-pt4-rw-m1-q16",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "easy",
+  "passage": "On the coastal cliffs, researchers studied the cliff ______, which the small birds build from mud and saliva each spring and then reuse, with repairs, for as many as ten years in a row.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "swallows' nest's",
+   "swallows' nests",
+   "swallows nests",
+   "swallow's nests"
+  ],
+  "answer": "B",
+  "explanation": "Plural owner = s'. The thing owned is a plain plural with no apostrophe.",
+  "rationales": {
+   "A": "'Nests' is a plain plural; it owns nothing, so no apostrophe.",
+   "B": "Correct. Many swallows own many nests: plural owner 'swallows',' plural noun 'nests.'",
+   "C": "The owner needs an apostrophe to show possession.",
+   "D": "'Swallow's' means one bird, but the text describes many birds."
+  }
+ },
+ {
+  "id": "rw-tw-m1q16-m",
+  "modeled_on": "bb-pt4-rw-m1-q16",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "passage": "In the greenhouse study, volunteers measured the ______ every week for a full growing season, recording how quickly the young bean vines climbed the wooden supports placed beside each pot.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "plants' stem's",
+   "plant's stems",
+   "plants' stems",
+   "plants stem's"
+  ],
+  "answer": "C",
+  "explanation": "Ask who owns what: the plants (plural, s') own the stems (plain plural).",
+  "rationales": {
+   "A": "'Stems' owns nothing; it takes no apostrophe.",
+   "B": "'Plant's' refers to a single plant, but there are many pots.",
+   "C": "Correct. Many plants, many stems: plural possessive 'plants',' plain plural 'stems.'",
+   "D": "The owner 'plants' needs the apostrophe, not 'stem.'"
+  }
+ },
+ {
+  "id": "rw-tw-m1q16-h",
+  "modeled_on": "bb-pt4-rw-m1-q16",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "passage": "The city's transportation survey recorded the ______ to questions about how they travel to school, and planners used the results to decide where to add bike lanes and crossing guards near elementary schools.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "childrens answers",
+   "children's answers",
+   "children's answer's",
+   "childrens' answers"
+  ],
+  "answer": "B",
+  "explanation": "For a plural that doesn't end in s (children, people, women), add 's. The owned noun is a plain plural.",
+  "rationales": {
+   "A": "Possession needs an apostrophe, and 'childrens' isn't a word.",
+   "B": "Correct. 'Children' is already plural (no s), so its possessive is 'children's'; 'answers' is a plain plural.",
+   "C": "'Answers' owns nothing, so it takes no apostrophe.",
+   "D": "'Childrens' isn't a word; the plural of child is 'children.'"
+  }
+ },
+ {
+  "id": "rw-tw-m1q20-e",
+  "modeled_on": "bb-pt4-rw-m1-q20",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "easy",
+  "passage": "Scientists who studied Lake Chala, a crater lake on the border between Kenya and Tanzania, ______ that its water level had dropped by nearly two meters since 1990, mainly because of lower rainfall.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "reported",
+   "having reported",
+   "to report",
+   "reporting"
+  ],
+  "answer": "A",
+  "explanation": "Strip the extras ('who studied...', the appositive): 'Scientists ___ that...' needs a finite verb.",
+  "rationales": {
+   "A": "Correct. The subject 'Scientists' needs a main verb; 'reported' is a finite (complete) verb.",
+   "B": "A participle phrase can't serve as the main verb.",
+   "C": "An infinitive can't be the main verb.",
+   "D": "An -ing form can't be a main verb on its own; the sentence would be a fragment."
+  }
+ },
+ {
+  "id": "rw-tw-m1q20-m",
+  "modeled_on": "bb-pt4-rw-m1-q20",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "passage": "The engineers who designed the Øresund Bridge, which spans nearly eight kilometers of open water between Denmark and Sweden, ______ special joints that allow the road deck to expand safely in summer heat.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to include",
+   "included",
+   "including",
+   "having included"
+  ],
+  "answer": "B",
+  "explanation": "The relative clauses ('who designed...', 'which spans...') don't count. The subject 'engineers' still needs its own finite verb.",
+  "rationales": {
+   "A": "An infinitive can't be the main verb.",
+   "B": "Correct. 'The engineers' needs a main verb; 'included' provides one.",
+   "C": "With 'including,' the subject never gets a main verb: a fragment.",
+   "D": "A participle can't be the main verb."
+  }
+ },
+ {
+  "id": "rw-tw-m1q20-h",
+  "modeled_on": "bb-pt4-rw-m1-q20",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "passage": "Archaeologists now believe that the stone circles found across the Senegambian plateau, many of them aligned with the rising sun at the solstice, ______ as calendars for early farming communities in the region.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "to serve",
+   "serving",
+   "having served",
+   "served"
+  ],
+  "answer": "D",
+  "explanation": "A 'that' clause is a full clause: it needs a subject (the stone circles) and a finite verb (served).",
+  "rationales": {
+   "A": "An infinitive can't be the verb of the clause.",
+   "B": "An -ing form leaves the 'that' clause without a verb.",
+   "C": "A participle can't be the verb of the clause.",
+   "D": "Correct. The 'that' clause has the subject 'stone circles' and needs its own finite verb: 'served.'"
+  }
+ },
+ {
+  "id": "rw-tw-m1q21-e",
+  "modeled_on": "bb-pt4-rw-m1-q21",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "easy",
+  "passage": "The city's new express bus line has been very popular with commuters since it opened last spring. ______ ridership in its first month was twice what transportation planners had predicted when they proposed the route.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Instead,",
+   "However,",
+   "Likewise,",
+   "In fact,"
+  ],
+  "answer": "D",
+  "explanation": "Sentence 2 makes sentence 1's point stronger with evidence. That's 'In fact,' not 'Likewise.'",
+  "rationales": {
+   "A": "Nothing is being replaced.",
+   "B": "There's no contrast; both sentences say the line is popular.",
+   "C": "'Likewise' adds a separate, similar point; this sentence intensifies the same point.",
+   "D": "Correct. The second sentence strengthens the first: not just popular, but twice the forecast."
+  }
+ },
+ {
+  "id": "rw-tw-m1q21-m",
+  "modeled_on": "bb-pt4-rw-m1-q21",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "passage": "For the poet Rosa Mendes, revision was never a chore; it was one of the pleasures of writing. ______ she once told an interviewer that she enjoyed rewriting a poem far more than producing its first draft.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Nevertheless,",
+   "As a result,",
+   "Likewise,",
+   "In fact,"
+  ],
+  "answer": "D",
+  "explanation": "The interview quote is a stronger version of the same point, so 'In fact.'",
+  "rationales": {
+   "A": "There's no contrast: the interview supports the first sentence.",
+   "B": "Her statement isn't caused by her view; it expresses it.",
+   "C": "'Likewise' would introduce a different but similar idea; this is the same idea, made stronger.",
+   "D": "Correct. Her statement intensifies the claim that revision was a pleasure."
+  }
+ },
+ {
+  "id": "rw-tw-m1q21-h",
+  "modeled_on": "bb-pt4-rw-m1-q21",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "passage": "Honeybees navigate in part by tracking the position of the sun, adjusting their flight paths as it moves across the sky during the day. ______ several species of migrating songbirds orient themselves using the sun's position, correcting for its movement with an internal clock.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Likewise,",
+   "In fact,",
+   "Therefore,",
+   "In contrast,"
+  ],
+  "answer": "A",
+  "explanation": "Bees and songbirds are two separate examples of the same behavior: 'Likewise.' Use 'In fact' only when the second sentence strengthens the first sentence's own point.",
+  "rationales": {
+   "A": "Correct. The second sentence describes a separate group (songbirds) doing something similar.",
+   "B": "'In fact' would mean the songbird sentence intensifies the claim about bees, but it's about different animals.",
+   "C": "Songbird navigation isn't a consequence of bee navigation.",
+   "D": "The two behaviors are similar, not opposed."
+  }
+ },
+ {
+  "id": "rw-tw-m1q23-e",
+  "modeled_on": "bb-pt4-rw-m1-q23",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "easy",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Ecologist Nadia Osei studied city parks in Accra, Ghana, in 2022.",
+   "She wanted to know whether parks with more tree cover attract more bird species.",
+   "She counted bird species in 30 parks over six months.",
+   "Parks with the most tree cover had about twice as many bird species as parks with the least."
+  ],
+  "stem": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In a 2022 study of 30 parks in Accra, Ghana, ecologist Nadia Osei found that the parks with the most tree cover had about twice as many bird species as those with the least.",
+   "City parks in Accra, Ghana, have different amounts of tree cover.",
+   "Over six months, ecologist Nadia Osei counted bird species in city parks in Accra, Ghana.",
+   "Nadia Osei wanted to know whether parks with more tree cover attract more bird species, so she counted species in 30 parks."
+  ],
+  "answer": "A",
+  "explanation": "Read the goal first: 'the study and its findings.' Cross out any choice without a result.",
+  "rationales": {
+   "A": "Correct. It names the study (who, where, when) and gives the finding.",
+   "B": "It's background, with neither the study nor its findings.",
+   "C": "It describes the study but leaves out what it found.",
+   "D": "It gives the question and method but no findings."
+  }
+ },
+ {
+  "id": "rw-tw-m1q23-m",
+  "modeled_on": "bb-pt4-rw-m1-q23",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Agricultural scientist Emi Kato studies vineyards in Japan's Yamanashi region.",
+   "She was unsure at first whether rainfall or temperature mattered more for harvest timing.",
+   "Method: she compared 40 years of rainfall and temperature records with the harvest dates of 12 vineyards.",
+   "Finding: grapes are now picked an average of 11 days earlier than in 1980.",
+   "Rising temperatures, not rainfall, explained most of the change."
+  ],
+  "stem": "The student wants to describe the method and the findings of Kato's study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Kato was unsure at first whether rainfall or temperature mattered more, so she compared 40 years of records from 12 vineyards.",
+   "Grapes at 12 vineyards in Japan's Yamanashi region are now picked an average of 11 days earlier than in 1980.",
+   "Agricultural scientist Emi Kato studies how climate affects vineyards in Japan's Yamanashi region.",
+   "By comparing 40 years of rainfall records with the harvest dates of 12 vineyards, Kato found that grapes are now picked an average of 11 days earlier than in 1980."
+  ],
+  "answer": "D",
+  "explanation": "The goal names two parts, method and findings. Only one choice has both.",
+  "rationales": {
+   "A": "It gives her uncertainty and method but no findings.",
+   "B": "It gives the finding but not the method.",
+   "C": "It introduces Kato but gives neither method nor findings.",
+   "D": "Correct. It gives both the method (comparing records) and the finding (11 days earlier)."
+  }
+ },
+ {
+  "id": "rw-tw-m1q23-h",
+  "modeled_on": "bb-pt4-rw-m1-q23",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Farah Aziz is a marine biologist.",
+   "She surveyed 124 coral reefs in Indonesia.",
+   "Reefs near seagrass meadows had 35% less disease than reefs far from seagrass.",
+   "Seagrass may filter disease-causing bacteria from seawater."
+  ],
+  "stem": "The student wants to present Aziz's findings to an audience unfamiliar with Aziz. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Seagrass meadows may filter disease-causing bacteria from seawater.",
+   "Marine biologist Farah Aziz found that coral reefs near seagrass meadows had 35% less disease than reefs far from seagrass.",
+   "Farah Aziz, a marine biologist, surveyed 124 coral reefs in Indonesia.",
+   "Aziz found that coral reefs near seagrass meadows had 35% less disease than reefs far from seagrass."
+  ],
+  "answer": "B",
+  "explanation": "Two requirements: the findings, plus who Aziz is for readers who don't know her. Choices that drop either fail.",
+  "rationales": {
+   "A": "It's a possible explanation, not Aziz's finding, and Aziz isn't introduced.",
+   "B": "Correct. It introduces who Aziz is (a marine biologist) and states the finding.",
+   "C": "It introduces Aziz and the survey but gives no findings.",
+   "D": "It gives the finding, but an audience unfamiliar with Aziz isn't told who she is."
+  }
+ },
+ {
+  "id": "rw-tw-m1q26-e",
+  "modeled_on": "bb-pt4-rw-m1-q26",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "easy",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "In 2020, psychologist Leo Brandt studied sleep and memory.",
+   "He wanted to learn whether sleep helps people remember new words.",
+   "Students learned a list of 40 words in the evening.",
+   "Students who slept before being tested remembered 20% more words than students who stayed awake."
+  ],
+  "stem": "The student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Sleep is important for health in many ways.",
+   "In a 2020 study, psychologist Leo Brandt found that students who slept after learning a word list remembered 20% more words than students who stayed awake.",
+   "Psychologist Leo Brandt wanted to learn whether sleep helps people remember new words.",
+   "Students learned a list of 40 words in the evening."
+  ],
+  "answer": "B",
+  "explanation": "A summary needs who/when, what was studied, and what was found.",
+  "rationales": {
+   "A": "It's general background, not the study.",
+   "B": "Correct. A summary gives who and when, what was studied, and the result; this has all three.",
+   "C": "It gives only the study's aim, not its result.",
+   "D": "It's one detail of the method, not a summary."
+  }
+ },
+ {
+  "id": "rw-tw-m1q26-m",
+  "modeled_on": "bb-pt4-rw-m1-q26",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Indoor farms use LED lights of many colors.",
+   "In 2018, Ana Lima's team at a Brazilian university tested how light color affects tomato plants.",
+   "They grew 60 plants under red light and 60 under blue light.",
+   "The plants under blue light produced 15% more fruit."
+  ],
+  "stem": "The student wants to summarize the experiment. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Ana Lima's team wanted to know whether the color of light affects how much fruit tomato plants produce.",
+   "The plants under blue light produced 15% more fruit than the plants under red light.",
+   "Indoor farms use LED lights of many colors.",
+   "In a 2018 experiment, Ana Lima's team grew tomatoes under red and blue light and found that the plants under blue light produced 15% more fruit."
+  ],
+  "answer": "D",
+  "explanation": "Check each choice for all three parts of a summary: who/when, what was tested, the result.",
+  "rationales": {
+   "A": "It states the aim only; a summary needs the result.",
+   "B": "It gives the result without saying who did the experiment or what it tested.",
+   "C": "It's background, not the experiment.",
+   "D": "Correct. It gives who/when, what was tested, and the result."
+  }
+ },
+ {
+  "id": "rw-tw-m1q26-h",
+  "modeled_on": "bb-pt4-rw-m1-q26",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "In 2023, researchers studied 2,000 households in Denmark.",
+   "They wondered whether seeing real-time electricity use would change people's habits.",
+   "Half the homes had smart meters showing real-time use; half did not.",
+   "Homes with smart meters used 8% less electricity.",
+   "The researchers concluded that real-time feedback helps people save energy."
+  ],
+  "stem": "The student wants to summarize the study, including its conclusion. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Researchers wondered whether seeing real-time electricity use would change people's habits.",
+   "A 2023 study of 2,000 Danish households proved that smart meters will end high energy use across Europe.",
+   "A 2023 study of 2,000 Danish households found that homes with smart meters used 8% less electricity, suggesting that real-time feedback helps people save energy.",
+   "Homes with smart meters used 8% less electricity than homes without them."
+  ],
+  "answer": "C",
+  "explanation": "A summary with a conclusion needs the study, the result, and the conclusion as stated. Watch for choices that go beyond it.",
+  "rationales": {
+   "A": "It gives only the research question.",
+   "B": "It overstates the conclusion: one Danish study can't prove that.",
+   "C": "Correct. It gives the study, the result, and the researchers' actual conclusion.",
+   "D": "It gives the result but neither the study nor its conclusion."
+  }
+ },
+ {
+  "id": "rw-tw-m2q02-e",
+  "modeled_on": "bb-pt4-rw-m2-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Some sections of the river are badly polluted by fertilizer that washes off nearby farms after heavy rain. Other sections, on the other hand, remain ______, with water clear enough for trout and freshwater mussels to thrive.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "ancient",
+   "clean",
+   "popular",
+   "shallow"
+  ],
+  "answer": "B",
+  "explanation": "Contrast signal ('on the other hand') means the blank is the opposite of 'polluted.'",
+  "rationales": {
+   "A": "Age isn't the contrast being drawn.",
+   "B": "Correct. 'On the other hand' contrasts polluted sections with unpolluted ones.",
+   "C": "Popularity has nothing to do with pollution.",
+   "D": "Depth isn't the contrast; the first sentence is about pollution."
+  }
+ },
+ {
+  "id": "rw-tw-m2q02-m",
+  "modeled_on": "bb-pt4-rw-m2-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "In the first trial, seedlings grown in salty soil were stunted and pale, and many lost their leaves within weeks. Seedlings grown in ordinary soil, by contrast, were ______, reaching nearly twice the height of the others by the end of the trial.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "dormant",
+   "fragile",
+   "uniform",
+   "vigorous"
+  ],
+  "answer": "D",
+  "explanation": "'By contrast' plus 'twice the height' means the blank describes strong, healthy growth.",
+  "rationales": {
+   "A": "'Dormant' means not growing, which contradicts 'twice the height.'",
+   "B": "This describes the salty-soil seedlings, ignoring 'by contrast.'",
+   "C": "Being alike in size isn't the opposite of being stunted.",
+   "D": "Correct. 'Vigorous' (strong, growing well) is the opposite of 'stunted and pale.'"
+  }
+ },
+ {
+  "id": "rw-tw-m2q02-h",
+  "modeled_on": "bb-pt4-rw-m2-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Critics have described the novelist's early books as cluttered, packed with subplots and minor characters who appear once and vanish. Her later work, however, is notably ______: each chapter follows a single character, and few scenes stray from the central plot.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "ornate",
+   "sentimental",
+   "obscure",
+   "spare"
+  ],
+  "answer": "D",
+  "explanation": "'However' signals the opposite of 'cluttered,' and the colon explains it: one character per chapter, few side scenes. That's 'spare.'",
+  "rationales": {
+   "A": "'Ornate' (heavily decorated) is close to 'cluttered,' not its opposite.",
+   "B": "Emotion isn't the contrast; structure is.",
+   "C": "'Obscure' (hard to understand) doesn't match a simple, focused structure.",
+   "D": "Correct. 'Spare' means plain and without extra parts, the opposite of 'cluttered.'"
+  }
+ },
+ {
+  "id": "rw-tw-m2q03-e",
+  "modeled_on": "bb-pt4-rw-m2-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Although the engineering team at first doubted the intern's suggestion, they later ______ that it was the best solution to the cooling problem and used it in the final design of the device.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "ensured",
+   "admitted",
+   "prevented",
+   "demanded"
+  ],
+  "answer": "B",
+  "explanation": "From doubt to using the idea: they 'admitted' it was best.",
+  "rationales": {
+   "A": "'Ensure' means to make certain something happens; it doesn't fit accepting an idea.",
+   "B": "Correct. 'Admit' means to accept as true after doubting, which matches the change of mind.",
+   "C": "They used the idea, so they didn't prevent anything.",
+   "D": "Demanding doesn't fit a change from doubt to acceptance."
+  }
+ },
+ {
+  "id": "rw-tw-m2q03-m",
+  "modeled_on": "bb-pt4-rw-m2-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Within months of its publication, mathematician Ewa Nowak's proof was widely ______ as correct by other experts in the field, and this acceptance contributed to her election to the national academy of sciences.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "questioned",
+   "ensured",
+   "imitated",
+   "recognized"
+  ],
+  "answer": "D",
+  "explanation": "'This acceptance' refers back to the blank, so the blank means 'accepted' or 'recognized.'",
+  "rationales": {
+   "A": "This contradicts 'this acceptance.'",
+   "B": "'Ensure' means to make certain something happens; experts don't 'ensure' a proof as correct.",
+   "C": "Copying a proof isn't accepting it as correct.",
+   "D": "Correct. 'Recognized as correct' matches 'this acceptance.'"
+  }
+ },
+ {
+  "id": "rw-tw-m2q03-h",
+  "modeled_on": "bb-pt4-rw-m2-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "The water board initially dismissed the activist's warnings about cracks in the old dam. Only after a minor flood in 1978 did officials publicly ______ the merit of her concerns, a reversal that local newspapers reported with some surprise.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "inflate",
+   "concede",
+   "conceal",
+   "ensure"
+  ],
+  "answer": "B",
+  "explanation": "Dismissed, then a 'reversal': the officials admitted she was right. 'Concede' fits.",
+  "rationales": {
+   "A": "Exaggerating doesn't fit a shift from dismissing to accepting.",
+   "B": "Correct. 'Concede' means to admit something is true, often reluctantly, which matches the 'reversal.'",
+   "C": "Hiding the merit isn't a reversal that newspapers would report.",
+   "D": "'Ensure' means to make certain; you can't 'ensure the merit' of a past warning."
+  }
+ },
+ {
+  "id": "rw-tw-m2q04-e",
+  "modeled_on": "bb-pt4-rw-m2-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "The school board approved a detailed recycling plan in May, and teachers began to ______ it in their classrooms at the start of the fall term by setting up sorting bins and weekly collection days.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "criticize",
+   "carry out",
+   "improvise",
+   "postpone"
+  ],
+  "answer": "B",
+  "explanation": "An approved plan + concrete actions (bins, collection days) = putting it into effect.",
+  "rationales": {
+   "A": "Setting up bins is acting on the plan, not criticizing it.",
+   "B": "Correct. Teachers put the approved plan into action.",
+   "C": "'Improvise' means to act without a plan, but this plan was detailed and approved.",
+   "D": "They 'began to' act on it, so they didn't postpone it."
+  }
+ },
+ {
+  "id": "rw-tw-m2q04-m",
+  "modeled_on": "bb-pt4-rw-m2-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "After the city council passed a law limiting car traffic in the historic center, the transportation department became responsible for ______ the law, designing new bus routes and installing signs that matched its requirements.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "repealing",
+   "executing",
+   "improvising",
+   "drafting"
+  ],
+  "answer": "B",
+  "explanation": "The council makes the law; the department puts it into effect, here 'executing' it.",
+  "rationales": {
+   "A": "Repealing would cancel the law, the opposite of designing routes to match it.",
+   "B": "Correct. 'Execute' (put into effect) matches the department's concrete work.",
+   "C": "'Improvise' means to act without preparation; the department followed the law's requirements.",
+   "D": "The council already passed the law; the department didn't write it."
+  }
+ },
+ {
+  "id": "rw-tw-m2q04-h",
+  "modeled_on": "bb-pt4-rw-m2-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Trade agreements are negotiated and signed by national governments, but much of the day-to-day work of ______ them falls to customs officers, who must translate broad commitments into specific procedures at each border crossing.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "administering",
+   "improvising",
+   "publicizing",
+   "ratifying"
+  ],
+  "answer": "A",
+  "explanation": "Governments make the agreements; officers turn them into daily procedures. That's 'administering' them.",
+  "rationales": {
+   "A": "Correct. 'Administer' means to manage the carrying out of rules, which is what customs officers do.",
+   "B": "Translating commitments into procedures is following them, not acting without preparation.",
+   "C": "Announcing the agreements isn't the work described.",
+   "D": "Governments ratify (formally approve) agreements; customs officers don't."
+  }
+ },
+ {
+  "id": "rw-tw-m2q11-e",
+  "modeled_on": "bb-pt4-rw-m2-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "easy",
+  "passage": "\"The Orchard Year\" is a 2015 novel by Hanna Vale about a family that runs an apple orchard in a cold northern valley. In the novel, Vale portrays the farmhand Tomas as hard-working and dedicated to the orchard.",
+  "stem": "Which quotation from \"The Orchard Year\" most effectively illustrates the claim?",
+  "choices": [
+   "\"Tomas was in the orchard before the sun rose and still pruning when the lanterns were lit, and he never once asked for a day of rest.\"",
+   "\"Tomas had grown up in a village two days' walk from the farm.\"",
+   "\"The orchard's apples were the sweetest in the valley.\"",
+   "\"Tomas smiled broadly when the farmer handed him his wages at the end of the week.\""
+  ],
+  "answer": "A",
+  "explanation": "Split the claim: hard-working + dedicated. The quotation must show both.",
+  "rationales": {
+   "A": "Correct. Long hours (hard-working) and never resting (dedicated): both parts of the claim.",
+   "B": "It's background, not his work.",
+   "C": "It's about the apples, not Tomas.",
+   "D": "It shows he's happy to be paid, not that he works hard or is dedicated."
+  }
+ },
+ {
+  "id": "rw-tw-m2q11-m",
+  "modeled_on": "bb-pt4-rw-m2-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "\"The Clockmaker's Daughter\" is a play by Ama Boateng set in a repair shop in 1950s Accra. Throughout the play, Boateng portrays the main character, Efua, as both patient and inventive when she faces difficult problems.",
+  "stem": "Which quotation from \"The Clockmaker's Daughter\" most effectively illustrates the claim?",
+  "choices": [
+   "\"Efua waited calmly for hours while the customer searched his pockets for the receipt.\"",
+   "\"For three weeks Efua worked on the broken clock, and when no spare gear could be found, she carved a new one from the brass of an old lamp.\"",
+   "\"Efua sketched a strange new kind of alarm clock on a napkin.\"",
+   "\"The shop smelled of oil and old wood.\""
+  ],
+  "answer": "B",
+  "explanation": "Two qualities, two checks. Reject quotations that show only one of them.",
+  "rationales": {
+   "A": "It shows patience only, not inventiveness.",
+   "B": "Correct. Three weeks of work (patient) and carving a new gear (inventive): both parts.",
+   "C": "It shows inventiveness only, not patience.",
+   "D": "It describes the setting, not Efua."
+  }
+ },
+ {
+  "id": "rw-tw-m2q11-h",
+  "modeled_on": "bb-pt4-rw-m2-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "passage": "In Mira Kolar's novel \"The Long Winter Road,\" the narrator's aunt lives alone in a mountain village. The narrator portrays her aunt as generous toward strangers even when she herself has very little to give.",
+  "stem": "Which quotation from \"The Long Winter Road\" most effectively illustrates the claim?",
+  "choices": [
+   "\"After the harvest brought her a small fortune, Aunt Mira gave freely to anyone who asked.\"",
+   "\"Though her own cupboard held only bread and a few potatoes, Aunt Mira set a full plate before every traveler who knocked at her door.\"",
+   "\"Aunt Mira always saved the best apples for her nieces and nephews.\"",
+   "\"That winter, Aunt Mira's cupboard held only bread and a few potatoes.\""
+  ],
+  "answer": "B",
+  "explanation": "Checklist the claim: generous + toward strangers + even when poor. Only one quotation has all three.",
+  "rationales": {
+   "A": "Generous, but she had plenty, so it misses 'even when she has little.'",
+   "B": "Correct. Strangers (travelers), generosity (a full plate), and having little (bread and potatoes): every part.",
+   "C": "Generous to family, not to strangers.",
+   "D": "It shows she had little but not her generosity."
+  }
+ },
+ {
+  "id": "rw-tw-m2q12-e",
+  "modeled_on": "bb-pt4-rw-m2-q12",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "easy",
+  "passage": "\"Summer Shore\" is a poem by Lucia Marr about a family's afternoon at the beach. In the poem, Marr portrays the sea as playful, as if it were joining in the children's games.",
+  "stem": "Which quotation from \"Summer Shore\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The sea lies flat and gray beneath the clouds.\"",
+   "\"The children dig a moat and shout with joy.\"",
+   "\"At dawn the water rests, too calm to stir.\"",
+   "\"The sea runs up to tag the children's heels, / then, laughing, races back to hide.\""
+  ],
+  "answer": "D",
+  "explanation": "The claim is about the sea being playful. Check that the sea, not the children, is the one playing.",
+  "rationales": {
+   "A": "A still, gray sea isn't playful.",
+   "B": "The children are playful, not the sea.",
+   "C": "A calm sea at dawn, not a playful one.",
+   "D": "Correct. The sea itself plays tag and hides: playful, joining the game."
+  }
+ },
+ {
+  "id": "rw-tw-m2q12-m",
+  "modeled_on": "bb-pt4-rw-m2-q12",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "passage": "\"Night Road\" is a poem by Tomasz Ruda about travelers walking home late at night. In the poem, Ruda depicts the moon as actively guiding the travelers along the dark road.",
+  "stem": "Which quotation from \"Night Road\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The moon hangs still above the hill, / a pale coin no one will spend.\"",
+   "\"The walkers sing to pass the hours / and count the miles that still remain.\"",
+   "\"At noon the road burns white with dust.\"",
+   "\"The moon leans low and lights each stone / to lead the weary walkers home.\""
+  ],
+  "answer": "D",
+  "explanation": "Checklist: moon + active + guiding + travelers + night. A still moon fails 'active.'",
+  "rationales": {
+   "A": "The moon is still, not guiding anyone.",
+   "B": "No moon at all.",
+   "C": "It's noon, not night, and there's no moon.",
+   "D": "Correct. Moon + active ('leans,' 'lights,' 'lead') + guiding the travelers at night."
+  }
+ },
+ {
+  "id": "rw-tw-m2q12-h",
+  "modeled_on": "bb-pt4-rw-m2-q12",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "passage": "In Selin Aydın's poem \"The Valley at Night,\" the speaker watches a river during a long spring night. Aydın portrays the river as an active force that reshapes the land while the valley sleeps.",
+  "stem": "Which quotation from \"The Valley at Night\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The river sleeps beneath the stars, / its silver surface smooth as glass.\"",
+   "\"All night the river gnaws the bank / and carries off the meadow, grain by grain.\"",
+   "\"By day the river carves the canyon deeper.\"",
+   "\"The farmers watch the river rise / and build their walls by lantern light.\""
+  ],
+  "answer": "B",
+  "explanation": "Four checks: the river, acting, reshaping land, at night. Each wrong choice fails exactly one.",
+  "rationales": {
+   "A": "Night, but the river is still, not active.",
+   "B": "Correct. River + active ('gnaws,' 'carries off') + reshaping the land + at night.",
+   "C": "Active and reshaping, but by day, not at night.",
+   "D": "The farmers act, not the river."
+  }
+ }
+]
