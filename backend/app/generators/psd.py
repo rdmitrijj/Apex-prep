@@ -419,6 +419,80 @@ def _median(v: list[int]) -> sympy.Rational:
     return R(s[n // 2]) if n % 2 else R(s[n // 2 - 1] + s[n // 2], 2)
 
 
+def _combined_mean(rng: random.Random, d: Difficulty) -> Generated:
+    """Weighted mean of two groups (medium) or the unknown size of one group (hard)."""
+    skill = S + "ONEVAR.CENTER"
+    while True:
+        n1, n2, m1, m2 = ri(rng, 5, 40), ri(rng, 5, 40), ri(rng, 20, 80), ri(rng, 20, 80)
+        if n1 != n2 and m1 != m2 and (n1 * m1 + n2 * m2) % (n1 + n2) == 0:
+            break
+    mean = R(n1 * m1 + n2 * m2, n1 + n2)
+    if d == "medium":
+        key = mean
+        stem = (
+            f"Data set A has {n1} values with a mean of {m1}. Data set B has {n2} values with a mean of {m2}. "
+            f"What is the mean of the {n1 + n2} values in the two data sets combined?"
+        )
+        dist = ds(
+            (
+                lambda: R(m1 + m2, 2),
+                "concept",
+                "That's the average of the two means; the sets have different sizes.",
+            ),
+            (
+                lambda: R(n1 * m2 + n2 * m1, n1 + n2),
+                "misread",
+                "Matched each set's size with the other set's mean.",
+            ),
+            (
+                lambda: R(n1 * m1 + n2 * m2),
+                "partial_solution",
+                "That's the total; divide by the number of values.",
+            ),
+            (lambda: R(m1 + m2), "wrong_formula", "Added the means."),
+        )
+        steps = [
+            f"Total: ${n1}({m1}) + {n2}({m2}) = {n1 * m1 + n2 * m2}$.",
+            f"Mean: ${n1 * m1 + n2 * m2} \\div {n1 + n2} = {tex(key)}$ (not the average of the means).",
+        ]
+        return build(
+            rng,
+            skill=skill,
+            d=d,
+            stem=stem,
+            key=key,
+            distractors=dist,
+            steps=steps,
+            verify=lambda: holds(key * (n1 + n2), n1 * m1 + n2 * m2, {}),
+        )
+    nn = sympy.Symbol("n")
+    key = sympy.solve(sympy.Eq(nn * m1 + n2 * m2, mean * (nn + n2)), nn)[0]
+    stem = (
+        f"Group X has $n$ people with a mean age of {m1} years. Group Y has {n2} people with a mean age of {m2} "
+        f"years. The mean age of the two groups combined is ${tex(mean)}$ years. What is the value of $n$?"
+    )
+    dist = ds(
+        (lambda: R(n2), "misread", "That's the size of group Y."),
+        (lambda: R(n1 + n2), "partial_solution", "That's the total number of people."),
+        (lambda: n2 * (mean - m1) / (m2 - mean), "reciprocal", "Set up the balance upside down."),
+        (lambda: R(m1 + m2, 2), "concept", "That's the unweighted average of the means."),
+    )
+    steps = [
+        f"Total age two ways: ${m1}n + {n2}({m2}) = {tex(mean)}(n + {n2})$.",
+        f"Solve: $n = {tex(key)}$.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: holds(key * m1 + n2 * m2, mean * (key + n2), {}) and key == n1,
+    )
+
+
 @register(S + "ONEVAR.CENTER")
 def onevar_center(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "ONEVAR.CENTER"
@@ -448,6 +522,8 @@ def onevar_center(rng: random.Random, d: Difficulty) -> Generated:
             fmt=dec_fmt,
             verify=lambda: holds(key, R(statistics.fmean(vals)).limit_denominator(1000), {}),
         )
+    if rng.random() < 0.5:  # easy returned above
+        return _combined_mean(rng, d)
     if d == "medium":
         n, m1 = ri(rng, 4, 12), ri(rng, 60, 90)
         new = ri(rng, 40, 100)

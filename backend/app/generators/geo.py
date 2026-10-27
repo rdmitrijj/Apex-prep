@@ -141,6 +141,40 @@ def av_area(rng: random.Random, d: Difficulty) -> Generated:
     )
 
 
+def _glued_prisms(rng: random.Random, d: Difficulty) -> Generated:
+    """Two square-based prisms glued base to base: the hidden bases leave the surface area."""
+    skill = S + "AV.VOL"
+    s_, h_ = ri(rng, 2, 9), ri(rng, 3, 15)
+    one = 2 * s_**2 + 4 * s_ * h_
+    key = R(2 * one - 2 * s_**2)
+    stem = (
+        f"Two identical rectangular prisms each have a square base with side length {s_} centimeters and a "
+        f"height of {h_} centimeters. They are glued together so that a base of one exactly covers a base of the "
+        "other. What is the surface area, in square centimeters, of the resulting solid?"
+    )
+    dist = ds(
+        (lambda: R(2 * one), "partial_solution", "Didn't subtract the two hidden bases."),
+        (lambda: R(2 * one - s_**2), "off_by_one", "Subtracted only one hidden base; each prism hides one."),
+        (lambda: R(2 * s_**2 * h_), "wrong_formula", "That's the volume of the new solid."),
+        (lambda: R(one), "partial_solution", "That's the surface area of one prism."),
+    )
+    steps = [
+        f"One prism: $2({s_})^2 + 4({s_})({h_}) = {one}$. Two prisms: ${2 * one}$.",
+        f"Gluing hides one base of each prism: subtract $2({s_})^2 = {2 * s_**2}$.",
+        f"Surface area: ${tex(key)}$.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: key == 2 * s_**2 + 8 * s_ * h_,
+    )
+
+
 @register(S + "AV.VOL")
 def av_vol(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "AV.VOL"
@@ -187,6 +221,8 @@ def av_vol(rng: random.Random, d: Difficulty) -> Generated:
             spr=False,
             verify=lambda: abs(float(key) - math.pi * (dia / 2) ** 2 * h_) < 1e-9,
         )
+    if rng.random() < 0.5:
+        return _glued_prisms(rng, d)
     r_ = 3 * ri(rng, 1, 6)
     h_ = sympy.Symbol("h", positive=True)
     key = sympy.solve(sympy.Eq(pi * r_**2 * h_, R(4, 3) * pi * r_**3), h_)[0]
@@ -981,6 +1017,53 @@ def cir_arc(rng: random.Random, d: Difficulty) -> Generated:
     )
 
 
+def _circle_scaled(rng: random.Random, d: Difficulty) -> Generated:
+    """Circle with a leading coefficient: divide through first, then complete the square."""
+    skill = S + "CIR.EQN"
+    a, h, kk, r_ = rng.choice([2, 3, 4]), ri(rng, -6, 6), ri(rng, -6, 6), ri(rng, 2, 9)
+    rhs = a * (r_**2 - h**2 - kk**2)
+
+    def term(c: int, var: str) -> str:
+        return f" {'+' if c > 0 else '-'} {abs(c)}{var}"
+
+    eq = f"{a}x^2 + {a}y^2{term(-2 * a * h, 'x')}{term(-2 * a * kk, 'y')} = {rhs}"
+    key = sympy.sqrt(R(rhs, a) + h**2 + kk**2)
+    stem = f"In the $xy$-plane, the graph of ${eq}$ is a circle. What is the radius of the circle?"
+    dist = ds(
+        (
+            lambda: sympy.sqrt(rhs + a * (h**2 + kk**2)),
+            "partial_solution",
+            f"Didn't divide every term by ${a}$ first.",
+        ),
+        (lambda: key**2, "partial_solution", "That's $r^2$."),
+        (
+            lambda: sympy.sqrt(R(rhs, a)) if rhs > 0 else None,
+            "partial_solution",
+            "Forgot to add the completed-square terms to the right side.",
+        ),
+        (
+            lambda: sympy.sqrt(rhs + h**2 + kk**2) if rhs + h**2 + kk**2 > 0 else None,
+            "partial_solution",
+            f"Divided the $x$ and $y$ terms by ${a}$ but not the right side.",
+        ),
+    )
+    steps = [
+        f"Divide by ${a}$: $x^2 + y^2{term(-2 * h, 'x')}{term(-2 * kk, 'y')} = {tex(R(rhs, a))}$.",
+        f"Complete the square, adding ${h * h}$ and ${kk * kk}$ to both sides: $r^2 = {tex(key**2)}$.",
+        f"$r = {tex(key)}$.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: key == r_,
+    )
+
+
 @register(S + "CIR.EQN")
 def cir_eqn(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "CIR.EQN"
@@ -1029,6 +1112,8 @@ def cir_eqn(rng: random.Random, d: Difficulty) -> Generated:
         return build(
             rng, skill=skill, d=d, stem=stem, key=key, distractors=dist, steps=steps, verify=lambda: key == h
         )
+    if rng.random() < 0.5:
+        return _circle_scaled(rng, d)
     key = sympy.sqrt(R(D_**2 + E_**2, 4) - F_)
     stem = f"In the $xy$-plane, the graph of ${eq}$ is a circle. What is the radius of the circle?"
     dist = ds(

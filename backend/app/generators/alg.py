@@ -451,6 +451,62 @@ def lin2_interp(rng: random.Random, d: Difficulty) -> Generated:
     )
 
 
+def _std(a: int, b: int, c: Value) -> str:
+    """'ax + by = c' with clean signs."""
+    return f"{lin(a, 0)} {'+' if b > 0 else '-'} {abs(b) if abs(b) != 1 else ''}y = {tex(c)}"
+
+
+def _lin2_shift(rng: random.Random, d: Difficulty) -> Generated:
+    """Translate a line, then find the new x-intercept (replace y with y + down, x with x - right)."""
+    skill = S + "LIN2.SOLN"
+    a, b, c = ri(rng, 2, 9), ri(rng, -9, 9), ri(rng, -20, 20)
+    down, right = ri(rng, 2, 6), ri(rng, 0, 4)
+    key = sympy.solve(sympy.Eq(a * (x - right) + b * (0 + down), c), x)[0]
+    move = f"{down} units down" + (f" and {right} units to the right" if right else "")
+    stem = (
+        f"In the $xy$-plane, line $\\ell$ has equation ${_std(a, b, c)}$. Line $m$ is the result of translating "
+        f"line $\\ell$ {move}. What is the $x$-coordinate of the $x$-intercept of line $m$?"
+    )
+    dist = ds(
+        (
+            lambda: R(c + b * down, a) + right,
+            "sign_flip",
+            "Shifted up instead of down: moving down replaces $y$ with $y + k$.",
+        ),
+        (
+            lambda: R(c, a),
+            "partial_solution",
+            "That's the $x$-intercept of the original line; the translation wasn't applied.",
+        ),
+        (
+            lambda: R(c - b * down, a) - right,
+            "sign_flip",
+            "Moved left instead of right: moving right replaces $x$ with $x - h$.",
+        ),
+        (
+            lambda: R(c - b * down, a) if right else None,
+            "partial_solution",
+            "Applied the vertical shift but not the horizontal one.",
+        ),
+    )
+    steps = [
+        f"Down {down}: replace $y$ with $y + {down}$."
+        + (f" Right {right}: replace $x$ with $x - {right}$." if right else ""),
+        f"Set $y = 0$ and solve: $x = {tex(key)}$.",
+        "Desmos: graph the translated equation and click its $x$-intercept.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: holds(a * (key - right) + b * down, c, {}),
+    )
+
+
 @register(S + "LIN2.SOLN")
 def lin2_soln(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "LIN2.SOLN"
@@ -509,6 +565,8 @@ def lin2_soln(rng: random.Random, d: Difficulty) -> Generated:
             steps=steps,
             verify=lambda: a * key + b * y0 == c,
         )
+    if rng.random() < 0.5:
+        return _lin2_shift(rng, d)
     h = ri(rng, 2, 9)
     t = sympy.Symbol("t")
     p_, q_ = sympy.symbols("p q")
@@ -1175,6 +1233,52 @@ def sys_solve(rng: random.Random, d: Difficulty) -> Generated:
     )
 
 
+def _sys_param(rng: random.Random, d: Difficulty) -> Generated:
+    """Infinitely many solutions: which parametric point solves the system for every r."""
+    skill = S + "SYS.NSOL"
+    a, b, c, t = ri(rng, 2, 7), ri(rng, -7, 7), ri(rng, -12, 12), ri(rng, 2, 4)
+    r_ = sympy.Symbol("r")
+    table: dict[str, tuple[Value, Value]] = {}
+
+    def pair(px: Value, py: Value) -> str:
+        s_ = f"$\\left({tex(px)}, {tex(py)}\\right)$"
+        table[s_] = (px, py)
+        return s_
+
+    def on(v: Value) -> bool:
+        px, py = table[v]
+        return bool(sympy.simplify(a * px + b * py - c) == 0)
+
+    kx = (c - b * r_) / a
+    key = pair(kx, r_)
+    dist = [
+        D(pair((c + b * r_) / a, r_), "sign_flip", "Sign error moving the $y$-term; substitute to check."),
+        D(pair(c - b * r_, r_), "partial_solution", f"Forgot to divide by ${a}$."),
+        D(pair(r_, (c - b * r_) / a), "misread", "Swapped the roles of $x$ and $y$."),
+        D(pair((b * r_ - c) / a, r_), "sign_flip", "Both signs are flipped."),
+        D(pair(kx + 1, r_), "off_by_one", "Arithmetic slip: substituting doesn't give the constant."),
+    ]
+    stem = (
+        f"$${_std(a, b, c)}$$ $${_std(t * a, t * b, t * c)}$$ The system of equations above has infinitely many "
+        "solutions. Which of the following is a solution to the system for every value of $r$?"
+    )
+    steps = [
+        f"The second equation is ${t}$ times the first, so any solution of the first works.",
+        f"Let $y = r$: ${a}x {'+' if b > 0 else '-'} {abs(b)}r = {c}$, so $x = {tex(kx)}$.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: on(key),
+        correct=on,
+    )
+
+
 @register(S + "SYS.NSOL")
 def sys_nsol(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "SYS.NSOL"
@@ -1252,6 +1356,8 @@ def sys_nsol(rng: random.Random, d: Difficulty) -> Generated:
             steps=steps,
             verify=lambda: holds(key * b, a * dv, {}) and not holds(c * t, e, {}),
         )
+    if rng.random() < 0.5:
+        return _sys_param(rng, d)
     kv, rv = a * t, c * t
     r_ = sympy.Symbol("r")
     sol = sympy.solve([sympy.Eq(k * b, a * t * b), sympy.Eq(r_ * b, c * t * b)], [k, r_])

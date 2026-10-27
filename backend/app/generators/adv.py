@@ -37,6 +37,48 @@ def _eq_fmt(lhs: str) -> Callable[[Value], str]:
 # ---------- EQX: equivalent expressions ----------
 
 
+def _greatest_k(rng: random.Random, d: Difficulty) -> Generated:
+    """ax^2 + kx + N = (ax + p)(x + q) with positive integers p, q: the greatest possible k."""
+    skill = S + "EQX.POLY"
+    a, n = rng.choice([2, 3, 4, 5]), rng.choice([12, 18, 20, 24, 28, 30, 36, 40])
+    ks = {p: a * (n // p) + p for p in sympy.divisors(n)}  # k = aq + p with pq = n
+    key = R(max(ks.values()))
+    stem = (
+        f"The expression ${a}x^2 + kx + {n}$, where $k$ is a constant, can be rewritten as $({a}x + p)(x + q)$, "
+        "where $p$ and $q$ are positive integers. What is the greatest possible value of $k$?"
+    )
+    dist = ds(
+        (lambda: R(min(ks.values())), "misread", "That's the least possible value of $k$."),
+        (lambda: R(a + n), "concept", f"That's $k$ for $p = {n}$, $q = 1$: possible, but not the greatest."),
+        (
+            lambda: R(n + 1),
+            "partial_solution",
+            f"Ignored the leading coefficient: the $q$ term is multiplied by ${a}$.",
+        ),
+        (lambda: R(a * n), "misread", f"That's the product ${a} \\cdot {n}$, not a value of $k$."),
+    )
+    steps = [
+        f"Expand: ${a}x^2 + ({a}q + p)x + pq$, so $pq = {n}$ and $k = {a}q + p$.",
+        "Try each factor pair $(p, q)$: "
+        + ", ".join(f"$({p}, {n // p}) \\to {v}$" for p, v in ks.items())
+        + ".",
+        f"Greatest: ${tex(key)}$. $p$ and $q$ aren't interchangeable, because $q$ is multiplied by ${a}$.",
+    ]
+    return build(
+        rng,
+        skill=skill,
+        d=d,
+        stem=stem,
+        key=key,
+        distractors=dist,
+        steps=steps,
+        verify=lambda: (
+            any(sympy.expand((a * x + p) * (x + n // p)).coeff(x, 1) == key for p in ks)
+            and all(sympy.expand((a * x + p) * (x + n // p)).coeff(x, 1) <= key for p in ks)
+        ),
+    )
+
+
 @register(S + "EQX.POLY")
 def eqx_poly(rng: random.Random, d: Difficulty) -> Generated:
     skill = S + "EQX.POLY"
@@ -113,6 +155,8 @@ def eqx_poly(rng: random.Random, d: Difficulty) -> Generated:
             verify=lambda: sympy.rem(poly, key, x) == 0,
             correct=lambda v: sympy.rem(poly, v, x) == 0,
         )
+    if rng.random() < 0.5:
+        return _greatest_k(rng, d)
     b_ = sympy.Symbol("b")
     while b == 0 or e == 0:
         b, e = ri(rng, -9, 9), ri(rng, -9, 9)
