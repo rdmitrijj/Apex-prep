@@ -60,6 +60,8 @@ class Generated:
     verify: Callable[[], bool] = field(repr=False, compare=False)
     key_value: Value = field(repr=False, compare=False, default="")
     distractor_values: list[Value] = field(repr=False, compare=False, default_factory=list)
+    # Independent "is this choice right?" check for stems that admit several right answers.
+    accepts: Callable[[Value], bool] | None = field(repr=False, compare=False, default=None)
 
     def content(self) -> dict[str, Any]:
         return {
@@ -197,6 +199,15 @@ def _render(v: Value) -> str:
 
 LETTERS = "ABCD"
 CHOICE_WORDING = re.compile(r"\bwhich (of the following|choice|option)\b", re.IGNORECASE)
+# "Which is a zero/solution/factor", "which point", "could be": more than one value can be right, so
+# build() refuses such a stem unless it gets a `correct` predicate to screen every choice with.
+MULTI_ANSWER = re.compile(r"\bWhich\b[^.?]*\bis an?\b|\bcould be\b")
+
+
+def coords(v: Value) -> tuple[Value, Value]:
+    """(x, y) from a rendered point like '$(3, -2)$'."""
+    a, b = str(v).strip("$() ").split(",")
+    return sympy.sympify(a), sympy.sympify(b)
 
 
 def build(
@@ -220,6 +231,10 @@ def build(
     Pass `correct` when the stem admits several right answers ("a zero of f"): any distractor it
     accepts is dropped, including the generic fallbacks below, so exactly one choice is right.
     """
+    if MULTI_ANSWER.search(stem) and correct is None:
+        raise ValueError(f"{skill}/{d}: stem admits several answers, so build() needs `correct`")
+    if correct is not None and not correct(key):
+        raise ValueError(f"{skill}/{d}: the key fails its own `correct` check")
     key_s = sympy.sympify(key) if not isinstance(key, str) else key
     # A stem that refers to answer choices can't become a free-response item without its own wording.
     spr = spr and (spr_stem is not None or not CHOICE_WORDING.search(stem))
@@ -280,6 +295,7 @@ def build(
         verify,
         key,
         [c.value for c in chosen],
+        correct,
     )
 
 

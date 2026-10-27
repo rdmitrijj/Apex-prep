@@ -1,5 +1,6 @@
 [
  {
+  "id": "rw-coeq-001",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
   "passage": "A researcher studying young people's media habits found that average daily screen time increases with age. For example, ______",
@@ -46,6 +47,7 @@
   }
  },
  {
+  "id": "rw-coeq-002",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
   "passage": "Agricultural scientist Rania Haddad compared three irrigation methods on test farms. She concluded that drip irrigation produced the highest yields for both crops she studied, noting that ______",
@@ -92,6 +94,7 @@
   }
  },
  {
+  "id": "rw-coeq-003",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
   "passage": "Ecologists counted bird species at four wetland sites before and after a restoration project. Every site had more species afterward, but the size of the increase varied widely: ______",
@@ -143,6 +146,7 @@
   }
  },
  {
+  "id": "rw-coeq-004",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "hard",
   "passage": "Researchers compared three vocabulary study methods, each practiced in either 10-minute or 30-minute daily sessions for twelve weeks. They found that the benefit of longer sessions depended on the method and was largest for reading: ______",
@@ -189,6 +193,7 @@
   }
  },
  {
+  "id": "rw-coeq-005",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
   "passage": "A travel writer recommends Dunmere to travelers who dislike summer heat, since of the four towns in the table, ______",
@@ -235,6 +240,7 @@
   }
  },
  {
+  "id": "rw-coeq-006",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
   "passage": "A transportation planner noted that residents of Easton rely on public transit far more than residents of Northport do. According to the survey, ______",
@@ -286,6 +292,7 @@
   }
  },
  {
+  "id": "rw-coeq-007",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "hard",
   "passage": "In a trial of two pain medications, Drug B appeared more effective early on, but by the end of the trial Drug A had clearly overtaken it. For instance, ______",
@@ -332,6 +339,7 @@
   }
  },
  {
+  "id": "rw-coeq-008",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
   "passage": "A librarian argues that e-books are steadily replacing print books at the town library. The data support this argument: ______",
@@ -383,6 +391,7 @@
   }
  },
  {
+  "id": "rw-coeq-009",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "hard",
   "passage": "Astronomer Kwame Asante suggests that the radial velocity method is better suited than the transit method to detecting large planets, while the transit method excels at finding smaller ones. As evidence, he points out that ______",
@@ -429,6 +438,7 @@
   }
  },
  {
+  "id": "rw-coeq-010",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
   "passage": "In the Northern Hemisphere, the farther a place is from the equator, the more hours of daylight it receives in June. For example, ______",
@@ -475,6 +485,7 @@
   }
  },
  {
+  "id": "rw-coeq-011",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
   "passage": "A survey found that pet ownership was most common among respondents aged 30–44. Specifically, ______",
@@ -513,6 +524,7 @@
   }
  },
  {
+  "id": "rw-coeq-012",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
   "passage": "An education researcher found that weekly homework time did not rise for every grade between 2010 and 2020. For example, ______",
@@ -565,6 +577,7 @@
   }
  },
  {
+  "id": "rw-coeq-013",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
   "passage": "Although renewable sources are growing in the region, natural gas remained its largest single source of electricity in 2022, generating ______",
@@ -605,6 +618,7 @@
   }
  },
  {
+  "id": "rw-coeq-014",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "hard",
   "passage": "A seed bank technician claims that storage temperature matters far more for long-term storage than for short-term storage. The data support this claim: ______",
@@ -654,6 +668,7 @@
   }
  },
  {
+  "id": "rw-coeq-015",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
   "passage": "The food bank's coordinator noticed that weekends attract the most volunteers. On Saturday, for instance, ______",
@@ -698,6 +713,7 @@
   }
  },
  {
+  "id": "rw-coeq-016",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
   "passage": "When the bakery introduced a cardamom muffin, the owner expected it to sell less than the familiar flavors. Instead, ______",
@@ -736,6 +752,7 @@
   }
  },
  {
+  "id": "rw-coeq-017",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "hard",
   "passage": "A media researcher argues that younger and older adults differ most in how much they trust social media as a news source. She notes that ______",
@@ -785,6 +802,7 @@
   }
  },
  {
+  "id": "rw-coeq-018",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
   "passage": "In the region, most rain falls during the summer monsoon. In July, for example, ______",
@@ -823,6 +841,7 @@
   }
  },
  {
+  "id": "rw-coeq-019",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "hard",
   "passage": "Forester Ida Lund claims that a tree's position on a slope affected storm damage more than its species did. Supporting this claim, ______",
@@ -872,6 +891,7 @@
   }
  },
  {
+  "id": "rw-coeq-020",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
   "passage": "This year, coding was the school's most popular elective: ______",
@@ -910,6 +930,7 @@
   }
  },
  {
+  "id": "rw-coeq-021",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
   "passage": "The town's population grew steadily over four decades: ______",
@@ -955,6 +976,7 @@
   }
  },
  {
+  "id": "rw-coeq-022",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
   "passage": "A market analyst noted that although gasoline cars outsold electric cars every year from 2018 to 2023, the gap between them narrowed steadily. For instance, ______",
@@ -1013,6 +1035,7 @@
   }
  },
  {
+  "id": "rw-coeq-023",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
   "passage": "Coral bleaching at the reef becomes likely when water temperatures rise above 29°C. According to the graph, ______",
@@ -1072,6 +1095,7 @@
   }
  },
  {
+  "id": "rw-coeq-024",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "hard",
   "passage": "An education analyst claims that math scores in the district were more affected by the disruptions of 2020 than reading scores were. As evidence, the analyst notes that ______",
@@ -1127,6 +1151,7 @@
   }
  },
  {
+  "id": "rw-coeq-025",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
   "passage": "After a harmful pesticide was banned, the state's bald eagle population recovered: ______",
@@ -1172,6 +1197,7 @@
   }
  },
  {
+  "id": "rw-coeq-026",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
   "passage": "City officials credit a 2019 conservation campaign with reducing household water use. Supporting this view, ______",
@@ -1219,6 +1245,7 @@
   }
  },
  {
+  "id": "rw-coeq-027",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "hard",
   "passage": "Researcher Hugo Lambert argues that the decline in sleep over the past two decades has been concentrated among teenagers. He notes that ______",
@@ -1274,6 +1301,7 @@
   }
  },
  {
+  "id": "rw-coeq-028",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
   "passage": "Attendance at the national park dropped sharply in 2020 before largely recovering the following year: ______",
@@ -1323,6 +1351,7 @@
   }
  },
  {
+  "id": "rw-coeq-029",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "hard",
   "passage": "An economist observes that coffee prices were far more volatile than tea prices from 2018 to 2023. For instance, ______",
@@ -1381,6 +1410,7 @@
   }
  },
  {
+  "id": "rw-coeq-030",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
   "passage": "A student measured a bean plant's height every five days and found that it grew taller throughout the experiment: ______",

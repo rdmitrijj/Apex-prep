@@ -1,5 +1,6 @@
 [
  {
+  "id": "rw-fss-001",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "easy",
   "passage": "The collection of rare ______ displayed in the museum's east wing, where it fills an entire gallery.",
@@ -20,6 +21,7 @@
   }
  },
  {
+  "id": "rw-fss-002",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "medium",
   "passage": "Each of the paintings in the exhibition ______ a different season in the same mountain valley.",
@@ -40,6 +42,7 @@
   }
  },
  {
+  "id": "rw-fss-003",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "medium",
   "passage": "Beneath the ancient city's streets ______ a network of tunnels once used for storing grain.",
@@ -60,6 +63,7 @@
   }
  },
  {
+  "id": "rw-fss-004",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "hard",
   "passage": "The team of researchers, along with several graduate students who assisted with fieldwork, ______ preparing to publish its findings.",
@@ -80,6 +84,7 @@
   }
  },
  {
+  "id": "rw-fss-005",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "easy",
   "passage": "The sunflowers in Ana's garden ______ to face the sun as it moves across the sky.",
@@ -100,6 +105,7 @@
   }
  },
  {
+  "id": "rw-fss-006",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "medium",
   "passage": "Neither the director nor the actors ______ satisfied with the final scene, so filming continued for another week.",
@@ -120,6 +126,7 @@
   }
  },
  {
+  "id": "rw-fss-007",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "hard",
   "passage": "The number of students enrolled in coding courses at the university ______ tripled since 2015.",
@@ -140,6 +147,7 @@
   }
  },
  {
+  "id": "rw-fss-008",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "medium",
   "passage": "Mathematics, along with physics and chemistry, ______ a core requirement for the engineering degree.",
@@ -160,6 +168,7 @@
   }
  },
  {
+  "id": "rw-fss-009",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "hard",
   "passage": "Among the most striking features of the cathedral ______ its stained-glass windows, which date to the thirteenth century.",
@@ -180,6 +189,7 @@
   }
  },
  {
+  "id": "rw-fss-010",
   "skill": "RW.SEC.FSS.SVA",
   "difficulty": "easy",
   "passage": "Every one of the volunteers ______ trained in first aid before the festival opened.",
@@ -200,6 +210,7 @@
   }
  },
  {
+  "id": "rw-fss-011",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "easy",
   "passage": "The company announced that ______ would open three new stores in the region next year.",
@@ -220,6 +231,7 @@
   }
  },
  {
+  "id": "rw-fss-012",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "medium",
   "passage": "When the researchers analyzed the coral samples, ______ found evidence of recent bleaching.",
@@ -240,6 +252,7 @@
   }
  },
  {
+  "id": "rw-fss-013",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "medium",
   "passage": "Each of the bird species in the study adjusted ______ migration timing in response to warmer springs.",
@@ -260,6 +273,7 @@
   }
  },
  {
+  "id": "rw-fss-014",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "hard",
   "passage": "After two hours of deliberation, the jury delivered ______ verdict to a silent courtroom.",
@@ -280,6 +294,7 @@
   }
  },
  {
+  "id": "rw-fss-015",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "easy",
   "passage": "On Friday, the students handed in ______ final projects for the semester.",
@@ -300,6 +315,7 @@
   }
  },
  {
+  "id": "rw-fss-016",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "medium",
   "passage": "The orchestra performed ______ final concert of the season to a sold-out hall.",
@@ -320,6 +336,7 @@
   }
  },
  {
+  "id": "rw-fss-017",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "hard",
   "passage": "Although the theory of plate tectonics was controversial when first proposed, most geologists accepted ______ once evidence from seafloor mapping accumulated.",
@@ -340,6 +357,7 @@
   }
  },
  {
+  "id": "rw-fss-018",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "easy",
   "passage": "The town museum lends some of ______ artifacts to local schools for history lessons.",
@@ -360,6 +378,7 @@
   }
  },
  {
+  "id": "rw-fss-019",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "medium",
   "passage": "Sea otters often wrap ______ in strands of kelp to keep from drifting away while they sleep.",
@@ -380,6 +399,7 @@
   }
  },
  {
+  "id": "rw-fss-020",
   "skill": "RW.SEC.FSS.PAA",
   "difficulty": "hard",
   "passage": "Both of the proposed bridge designs exceeded the city's budget, so the engineers revised ______ before resubmitting.",
@@ -400,6 +420,7 @@
   }
  },
  {
+  "id": "rw-fss-021",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "easy",
   "passage": "After the final match, the coach presented the team's sportsmanship award to Maya and ______.",
@@ -420,6 +441,7 @@
   }
  },
  {
+  "id": "rw-fss-022",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "medium",
   "passage": "______ and her brother founded the bakery in 1998, using recipes passed down from their grandmother.",
@@ -440,6 +462,7 @@
   }
  },
  {
+  "id": "rw-fss-023",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "medium",
   "passage": "The tour guide asked my sister and ______ to stand near the front of the group.",
@@ -460,6 +483,7 @@
   }
  },
  {
+  "id": "rw-fss-024",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "hard",
   "passage": "The scholarship committee selected two finalists, Ramón and ______, to present their research at the national conference.",
@@ -480,6 +504,7 @@
   }
  },
  {
+  "id": "rw-fss-025",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "easy",
   "passage": "The secret to the recipe, just between you and ______, is a pinch of smoked paprika.",
@@ -500,6 +525,7 @@
   }
  },
  {
+  "id": "rw-fss-026",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "medium",
   "passage": "The architects ______ designed the new library also planned the park that surrounds it.",
@@ -520,6 +546,7 @@
   }
  },
  {
+  "id": "rw-fss-027",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "hard",
   "passage": "In her acceptance speech, the novelist thanked the editor ______ she had worked with for more than a decade.",
@@ -540,6 +567,7 @@
   }
  },
  {
+  "id": "rw-fss-028",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "medium",
   "passage": "The volunteers ______ the organizers praised at the ceremony had removed more than two tons of trash from the beach.",
@@ -560,6 +588,7 @@
   }
  },
  {
+  "id": "rw-fss-029",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "hard",
   "passage": "The award will be shared by the project's two lead researchers, Dr. Osei and ______.",
@@ -580,6 +609,7 @@
   }
  },
  {
+  "id": "rw-fss-030",
   "skill": "RW.SEC.FSS.PCASE",
   "difficulty": "easy",
   "passage": "Our cousins invited Leo and ______ to their cabin for the weekend.",
@@ -600,6 +630,7 @@
   }
  },
  {
+  "id": "rw-fss-031",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "easy",
   "passage": "In July 1969, astronauts Neil Armstrong and Buzz Aldrin ______ on the Moon while Michael Collins orbited overhead.",
@@ -620,6 +651,7 @@
   }
  },
  {
+  "id": "rw-fss-032",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "medium",
   "passage": "By the time the rescue team arrived, the stranded hikers ______ for nearly two days.",
@@ -640,6 +672,7 @@
   }
  },
  {
+  "id": "rw-fss-033",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "medium",
   "passage": "Since its opening in 2010, the museum ______ more than five million visitors.",
@@ -660,6 +693,7 @@
   }
  },
  {
+  "id": "rw-fss-034",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "hard",
   "passage": "Archaeologists believe that the settlement was abandoned around 900 CE, after a series of droughts ______ the region's crops.",
@@ -680,6 +714,7 @@
   }
  },
  {
+  "id": "rw-fss-035",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "easy",
   "passage": "Every summer, the coastal town ______ a festival celebrating its fishing heritage, and the event attracts visitors from across the state.",
@@ -700,6 +735,7 @@
   }
  },
  {
+  "id": "rw-fss-036",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "medium",
   "passage": "Next year, the observatory ______ a new telescope that will let astronomers study the faintest galaxies.",
@@ -720,6 +756,7 @@
   }
  },
  {
+  "id": "rw-fss-037",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "hard",
   "passage": "When the novel was first published in 1851, many critics ______ it, but today it is widely regarded as a masterpiece.",
@@ -740,6 +777,7 @@
   }
  },
  {
+  "id": "rw-fss-038",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "medium",
   "passage": "The biologist ______ the frogs' calls every night for three months before she noticed a pattern.",
@@ -760,6 +798,7 @@
   }
  },
  {
+  "id": "rw-fss-039",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "hard",
   "passage": "Researchers predict that by 2050, sea levels along the coast ______ by at least thirty centimeters.",
@@ -780,6 +819,7 @@
   }
  },
  {
+  "id": "rw-fss-040",
   "skill": "RW.SEC.FSS.TENSE",
   "difficulty": "easy",
   "passage": "Yesterday, the students ______ their science projects to a panel of judges.",
@@ -800,6 +840,7 @@
   }
  },
  {
+  "id": "rw-fss-041",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "easy",
   "passage": "The museum plans ______ a new wing devoted to contemporary art.",
@@ -820,6 +861,7 @@
   }
  },
  {
+  "id": "rw-fss-042",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "medium",
   "passage": "Hoping ______ the source of the strange signal, the engineers spent weeks testing their equipment.",
@@ -840,6 +882,7 @@
   }
  },
  {
+  "id": "rw-fss-043",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "medium",
   "passage": "The artist's murals, ______ across the city's subway stations, celebrate the neighborhoods each station serves.",
@@ -860,6 +903,7 @@
   }
  },
  {
+  "id": "rw-fss-044",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "hard",
   "passage": "In her research, ecologist Priya Nair found that wolves returning to the park ______ elk to avoid open river valleys, allowing willow trees to recover.",
@@ -880,6 +924,7 @@
   }
  },
  {
+  "id": "rw-fss-045",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "easy",
   "passage": "After a long discussion, the students decided ______ their science fair project on renewable energy.",
@@ -900,6 +945,7 @@
   }
  },
  {
+  "id": "rw-fss-046",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "medium",
   "passage": "______ in 1884, the Washington Monument was briefly the tallest structure in the world.",
@@ -920,6 +966,7 @@
   }
  },
  {
+  "id": "rw-fss-047",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "hard",
   "passage": "The committee's report, ______ months of public hearings, recommends expanding the city's network of protected bike lanes.",
@@ -940,6 +987,7 @@
   }
  },
  {
+  "id": "rw-fss-048",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "medium",
   "passage": "The goal of the summer program is ______ high school students to careers in marine science.",
@@ -960,6 +1008,7 @@
   }
  },
  {
+  "id": "rw-fss-049",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "hard",
   "passage": "Glaciologists drilling deep into the Antarctic ice sheet ______ tiny air bubbles that preserve samples of Earth's atmosphere from hundreds of thousands of years ago.",
@@ -980,6 +1029,7 @@
   }
  },
  {
+  "id": "rw-fss-050",
   "skill": "RW.SEC.FSS.FINITE",
   "difficulty": "easy",
   "passage": "The moment it heard the car door, the puppy ______ across the yard to greet its owner.",
@@ -1000,6 +1050,7 @@
   }
  },
  {
+  "id": "rw-fss-051",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "easy",
   "passage": "The mother ______ nest was hidden in the tall grass near the pond, where she guarded four eggs.",
@@ -1020,6 +1071,7 @@
   }
  },
  {
+  "id": "rw-fss-052",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "medium",
   "passage": "Both ______ owners agreed to share the cost of repairing the fence between their properties.",
@@ -1040,6 +1092,7 @@
   }
  },
  {
+  "id": "rw-fss-053",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "medium",
   "passage": "The ______ in the sleep study reported higher energy levels after adopting the new schedule.",
@@ -1060,6 +1113,7 @@
   }
  },
  {
+  "id": "rw-fss-054",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "hard",
   "passage": "The museum's new exhibit displays dozens of ______ letters alongside photographs of the families who received them.",
@@ -1080,6 +1134,7 @@
   }
  },
  {
+  "id": "rw-fss-055",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "easy",
   "passage": "Several ______ were planted along the riverbank to help prevent erosion.",
@@ -1100,6 +1155,7 @@
   }
  },
  {
+  "id": "rw-fss-056",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "medium",
   "passage": "Conducted over three summers, the ______ main finding was that bees strongly prefer flowers with blue petals.",
@@ -1120,6 +1176,7 @@
   }
  },
  {
+  "id": "rw-fss-057",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "hard",
   "passage": "The survey received responses from four hundred students. Each of the ______ responses was coded by two independent researchers.",
@@ -1140,6 +1197,7 @@
   }
  },
  {
+  "id": "rw-fss-058",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "easy",
   "passage": "Squirrels are agile climbers. The ______ long, bushy tails help them balance as they leap between branches.",
@@ -1160,6 +1218,7 @@
   }
  },
  {
+  "id": "rw-fss-059",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "medium",
   "passage": "The two ______ findings contradicted each other, prompting a third team to repeat the experiment.",
@@ -1180,6 +1239,7 @@
   }
  },
  {
+  "id": "rw-fss-060",
   "skill": "RW.SEC.FSS.POSS",
   "difficulty": "hard",
   "passage": "The town council approved the ______ request for additional funding so that the town's only library could stay open later.",
@@ -1200,6 +1260,7 @@
   }
  },
  {
+  "id": "rw-fss-061",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "easy",
   "passage": "Walking through the forest at dawn, ______",
@@ -1220,6 +1281,7 @@
   }
  },
  {
+  "id": "rw-fss-062",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "medium",
   "passage": "Born in a small fishing village, ______",
@@ -1240,6 +1302,7 @@
   }
  },
  {
+  "id": "rw-fss-063",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "medium",
   "passage": "Having analyzed thousands of satellite images taken over two decades, ______",
@@ -1260,6 +1323,7 @@
   }
  },
  {
+  "id": "rw-fss-064",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "hard",
   "passage": "A pioneer of early electronic music, ______",
@@ -1280,6 +1344,7 @@
   }
  },
  {
+  "id": "rw-fss-065",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "easy",
   "passage": "Covered in fresh snow, ______",
@@ -1300,6 +1365,7 @@
   }
  },
  {
+  "id": "rw-fss-066",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "medium",
   "passage": "Known for its brilliant blue and yellow skin, ______",
@@ -1320,6 +1386,7 @@
   }
  },
  {
+  "id": "rw-fss-067",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "hard",
   "passage": "Drawing on interviews with more than two hundred former mill workers, ______",
@@ -1340,6 +1407,7 @@
   }
  },
  {
+  "id": "rw-fss-068",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "easy",
   "passage": "While cooking dinner, ______",
@@ -1360,6 +1428,7 @@
   }
  },
  {
+  "id": "rw-fss-069",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "medium",
   "passage": "Once thought to have gone extinct millions of years ago, ______",
@@ -1380,6 +1449,7 @@
   }
  },
  {
+  "id": "rw-fss-070",
   "skill": "RW.SEC.FSS.MOD",
   "difficulty": "hard",
   "passage": "Unlike most deserts, which receive rain only rarely and unpredictably, ______",

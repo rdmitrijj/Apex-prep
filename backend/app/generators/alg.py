@@ -12,6 +12,7 @@ from app.generators.core import (
     R,
     Value,
     build,
+    coords,
     ds,
     holds,
     k,
@@ -483,6 +484,7 @@ def lin2_soln(rng: random.Random, d: Difficulty) -> Generated:
             distractors=dist,
             steps=steps,
             verify=lambda: on(x0, y0),
+            correct=lambda v: on(*coords(v)),
         )
     if d == "medium":
         key = sympy.solve(sympy.Eq(a * x + b * y0, c), x)[0]
@@ -1574,6 +1576,7 @@ def ineq_graph(rng: random.Random, d: Difficulty) -> Generated:
         distractors=cands,
         steps=steps,
         verify=lambda: all(ok(r, kx, ky) for r in rels),
+        correct=lambda v: all(ok(r, *coords(v)) for r in rels),
     )
 
 

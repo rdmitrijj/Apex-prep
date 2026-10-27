@@ -19,7 +19,7 @@ from app.generators import REGISTRY, generate
 from app.generators.core import DIFFICULTY_RATING
 from app.generators.spr import canonical_entry, is_correct
 from app.models import Question, Response, ReviewSchedule, Skill
-from app.schemas.question import QuestionOut, RWItem
+from app.schemas.question import MathItem, QuestionOut, RWItem
 
 SEED_DIR = Path(__file__).resolve().parents[1] / "seed"
 PUBLIC_KEYS = ("passage", "passage2", "notes", "figure")
@@ -32,9 +32,21 @@ def content_hash(content: dict[str, Any]) -> str:
 
 
 def rw_content(item: RWItem) -> dict[str, Any]:
-    c = item.model_dump(exclude={"skill", "difficulty"}, exclude_none=True)
+    c = item.model_dump(exclude={"id", "modeled_on", "skill", "difficulty"}, exclude_none=True)
     c["explanation"] = [item.explanation]
     return c
+
+
+def math_content(item: MathItem) -> dict[str, Any]:
+    return {
+        "stem": item.stem,
+        "choices": item.choices,
+        "answer": item.answer,
+        "spr_answers": item.spr_answers,
+        "explanation": item.explanation,
+        "rationales": item.rationales.model_dump() if item.rationales else {},
+        "figure": item.figure,
+    }
 
 
 def load_taxonomy() -> list[dict[str, Any]]:
@@ -46,6 +58,13 @@ def load_rw_seed() -> list[RWItem]:
     items: list[RWItem] = []
     for path in sorted((SEED_DIR / "rw").glob("*.json")):
         items += [RWItem.model_validate(raw) for raw in json.loads(path.read_text())]
+    return items
+
+
+def load_math_seed() -> list[MathItem]:
+    items: list[MathItem] = []
+    for path in sorted((SEED_DIR / "math").glob("*.json")):
+        items += [MathItem.model_validate(raw) for raw in json.loads(path.read_text())]
     return items
 
 

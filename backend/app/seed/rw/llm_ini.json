@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-llm-ini-001",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "easy",
     "passage": "Linguist Mara Okafor studied the vocabulary of Tavari, an invented name for a language spoken on a small group of tropical islands. She found that Tavari has more than twenty distinct words for different kinds of ocean currents but only one word for snow, which never falls on the islands. Languages often develop detailed vocabulary for things that matter in their speakers' daily lives. Okafor therefore concluded that ______",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-002",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "hard",
     "passage": "When a computer vision model achieves a record score on a widely used image-recognition benchmark, observers often credit the model's novel architecture. Computer scientist Lena Okafor and her colleagues noted, however, that the benchmark's test images had been freely available online for years, raising the possibility that copies had been swept into the model's enormous training dataset. To investigate, the team assembled a new set of photographs that matched the originals in subject matter, lighting, and difficulty but had never been posted online. The record-setting model's accuracy fell by 14 percentage points on the new set, whereas models trained only on data collected before the benchmark's release lost less than 2 points. These results suggest that ______",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-003",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "hard",
     "passage": "Many critics have treated the abrupt, fragmentary quality of Lúcia Pereira Dantas's final poetry collection, Salt Ledger (1961), as a symptom of the illness that limited her in her last years. Unable to sustain the long, flowing lines that distinguished her earlier books, these critics argue, Dantas produced brief, broken poems that read like unfinished drafts.",
@@ -61,6 +64,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-004",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Some critics contend that the ending of Chilean novelist Teodora Valdivia's 1962 novel The Salt Orchard is its chief weakness. The book closes without revealing whether Inés, a fisherman's daughter, accepts the marriage her family has arranged or leaves her coastal village. To these critics, the unresolved conclusion suggests that Valdivia lost control of her sprawling plot and could not bring its many threads together.",
@@ -82,6 +86,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-005",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Since the 1960s, psychologists have described the \"bystander effect\": the more people who witness an emergency, the less likely any one of them is to help, because each person feels that responsibility is shared with the others. Many researchers have concluded that crowded public spaces are therefore settings in which victims are unlikely to receive aid.",
@@ -103,6 +108,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-006",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Uptalk, the habit of ending declarative sentences with a rising pitch, has drawn criticism from many language commentators. Because a rise in pitch typically marks a question in English, these commentators argue that speakers who use uptalk on statements are signaling that they are unsure of what they are saying. They note that the pattern is especially common among younger speakers, whom they regard as less confident communicators.",
@@ -124,6 +130,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-007",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "easy",
     "passage": "Today, audiences at operas and concerts are expected to sit in near-total silence, saving their applause for the end. Some music critics argue that this quiet, attentive listening is a long tradition stretching back centuries, one that modern concert halls have faithfully preserved.",
@@ -145,6 +152,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-008",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Many economists predicted that online price-comparison platforms would push prices in markets such as hotel booking toward the lowest level any seller offered. Their reasoning was straightforward: once shoppers can instantly see which seller is cheapest, any seller charging more than its rivals should quickly lose customers and be forced to cut its prices.",
@@ -166,6 +174,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-009",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "hard",
     "passage": "Critics have often described the late paintings of Argentine artist Inés Corvalán as unfinished. These canvases contain wide stretches of bare linen interrupted by only a few brushstrokes. Corvalán suffered from worsening arthritis in her final decade, so the critics conclude that the sparse compositions reflect physical limitation: she could no longer produce the dense, heavily layered surfaces that defined her earlier career.",
@@ -187,6 +196,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-010",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "easy",
     "passage": "Some historians have claimed that ordinary people in medieval Europe almost never traveled more than a few miles from the villages where they were born. These historians point to the poor condition of medieval roads and argue that long journeys would have been too difficult and too costly for peasants.",
@@ -208,6 +218,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-011",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "easy",
     "passage": "Some city officials oppose paying people to return empty bottles and cans for recycling. They argue that a reward of only a few cents per container is too small to change how most people behave, so such programs would waste public money.",
@@ -229,6 +240,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-012",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "hard",
     "passage": "Because customs revenue collected at the port of Castelmar fell by nearly half between 1620 and 1630, historians have long described the decade as one of commercial collapse for the city. Historian Kaveh Mirzaei, however, turned to a different source: the contracts that merchants routinely had notaries draw up when hiring ships to carry cargo, records that were kept regardless of whether any duties were owed. He found that the number of such shipping contracts registered in Castelmar remained roughly constant throughout the 1620s. He also discovered that in 1621 the city council, seeking to finance a costly war, had exempted from customs duties any merchant who lent money to the war fund, an offer accepted by many of the city's wealthiest traders. These findings suggest that ______",
@@ -249,6 +261,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-013",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "easy",
     "passage": "Historian Amaru Quispe studied payroll records from a nineteenth-century textile mill in a small town in the Andes. Before 1871, the records list only workers who lived within a few kilometers of the town. In 1871, a new railway line reached the town. In the years that followed, the mill's payroll began to include many workers whose home villages were more than fifty kilometers away. Quispe therefore concluded that ______",
@@ -269,6 +282,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-014",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "For decades, critics treated the poems in Graciela Montenegro's 1962 collection Salt Ledger as autobiographical records of a childhood spent in a fishing village. The poems' vivid details, such as the smell of drying nets and the sound of boats scraping the shore, seemed to confirm this reading. However, literary scholar Tomasz Wierzbicki recently examined Montenegro's letters and found that she grew up in an inland mining town and first saw the sea in her late twenties. Her manuscript drafts also show that she repeatedly replaced the names of real places with invented ones. Taken together, this evidence suggests that ______",
@@ -289,6 +303,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-015",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "In most frog species, males attract mates mainly by calling. Herpetologist Priya Raghunathan studied a small frog species that lives beside mountain streams. She observed that males of this species also stretch out and wave their hind feet while calling, a behavior known as foot-flagging. Males perched near roaring waterfalls foot-flagged far more often than males along quieter stretches of the same streams, even though both groups called at similar rates. Because the noise of rushing water can drown out frog calls, Raghunathan concluded that ______",
@@ -309,6 +324,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-016",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "Art historian Kofi Mensah-Boateng used X-ray imaging to examine twelve landscape paintings by the nineteenth-century Norwegian painter Sigrun Halvorsen. Beneath the visible surface of nine of the paintings, he found earlier compositions, such as sketched figures, interiors, and a still life, that Halvorsen later covered with fields and sky. Some scholars have argued that these hidden images are early drafts of the landscapes and reveal how Halvorsen developed each scene. Mensah-Boateng notes, however, that none of the hidden compositions resembles the landscape painted over it, and several were abandoned after only a few brushstrokes. He also points to letters in which Halvorsen repeatedly complained about the high price of canvas. These findings suggest that ______",
@@ -329,6 +345,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-017",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "hard",
     "passage": "In 2011 regulators in the province of Halvorna began requiring ready-mix concrete producers to publish the prices they charged each month. Officials expected the rule to lower prices by making it easier for buyers to compare offers. Economist Ilse Varga found that within a year, average prices had instead risen by about 15 percent. The largest increases were in local markets served by only two or three producers. Varga also notes that most concrete buyers are large construction firms that already negotiated with several producers before every project. These firms therefore gained little information from the published figures that they did not already have. Taken together, these findings suggest that ______",
@@ -349,6 +366,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-018",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "hard",
     "passage": "Critics have long read Teodora Ibarguren's 1931 poem sequence Salt Ledger as a record of the two years she spent in the fishing town of Puerto Celeste, citing its precise depictions of harbor life: nets drying on seawalls, gulls trailing the returning boats. Literary historian Joaquín Arrieta, however, examined the poet's notebooks. He found that drafts of nine of the sequence's twelve poems are dated 1926, three years before Ibarguren first saw the coast. In those early versions, the speaker watches grain barges drifting down an inland river rather than fishing boats entering a harbor. The maritime imagery appears only in revisions Ibarguren made after settling in Puerto Celeste. Arrieta's findings suggest that ______",
@@ -369,6 +387,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-019",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "In 2019, the town of Velmore imposed a tax on sugary drinks, and economist Kiran Bhattacharya tracked beverage sales there and in Ashdale, a neighboring town with no such tax. Over the following year, sugary-drink sales in Velmore fell by 18 percent. In Ashdale, stores located within a few kilometers of the Velmore border saw their sugary-drink sales rise by nearly that same volume. Sales at Ashdale stores farther from the border remained essentially unchanged. These findings suggest that ______",
@@ -389,6 +408,7 @@
     }
   },
   {
+    "id": "rw-llm-ini-020",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "Computer scientist Ingrid Solberg tested a speech-recognition program on recordings of English speakers from several regions. The program misidentified about 4 percent of the words spoken by people from the region where most of its training recordings had been collected. However, it misidentified about 15 percent of the words spoken by people from regions that were barely represented in those training recordings. Because all participants read the same script into the same model of microphone in similarly quiet rooms, Solberg's findings suggest that ______",

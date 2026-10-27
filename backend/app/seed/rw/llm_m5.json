@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-llm-m5-001",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "hard",
     "passage": "The following text is from Ilse Marrakchi's 2011 novel The Winter Inventory. Amara has returned to the village shop that her late grandfather kept for forty years.\n\nEverything was where she remembered it. The brass scales still stood on the counter, their pans polished to a dull gold; the jars of barley sugar still crowded the shelf behind the till, labeled in his cramped, slanting hand. Even the bell above the door gave the same cracked note when she pushed it open. <u>It was only when she reached to straighten a jar that she saw the labels had been written over, each old price struck through and a lower one inked beside it, the numbers growing shakier from one shelf to the next.</u> She stood for a long while with the jar in her hands, understanding at last what his letters, so cheerful and so brief, had never said.",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-llm-m5-002",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "hard",
     "passage": "Data center operators have increasingly raised the temperature of the air used to cool their servers. Their reasoning is that each additional degree of warmth reduces the energy that large chillers must spend. Engineer Tomasz Wierzbicki questioned whether the savings were as large as assumed. After monitoring a facility in Gdansk for a year, he found that above roughly 27 degrees Celsius, the servers' internal fans accelerated sharply. The fans drew enough additional power to cancel most of the chiller savings. <u>Wierzbicki notes, however, that every server in the facility came from a single, now-discontinued product line, and that fan behavior is known to vary considerably across models.</u> He therefore cautions against treating his temperature threshold as universal. Instead, he argues that operators should measure how their own equipment responds before deciding how warm to run it.",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-llm-m5-003",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "easy",
     "passage": "The following text is adapted from Halvard Rønning's 1931 novel The Winter Ferry. Kristin has just arrived in a small coastal town to work as a schoolteacher.\n\nKristin stepped off the ferry and stood on the dock with her single suitcase. The wind off the fjord was colder than she had expected, and it pushed at her coat as though trying to send her back aboard. Along the shore, a few wooden houses huddled together, their windows dark. No one had come to meet her. She told herself that the school board's letter must have arrived late and that someone would surely appear soon. Still, as the sound of the ferry's engine faded behind her, she gripped the handle of her suitcase more tightly and wondered whether she had made a terrible mistake.",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "id": "rw-llm-m5-004",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "medium",
     "passage": "In several fishing towns along the northern coast of Portugal, older residents attach a distinctive diminutive suffix, -elho, to nouns, a form not found in standard Portuguese. Because recordings of spoken conversation show younger residents using the suffix far less often, dialectologists have generally listed it among regional features likely to vanish within a generation. Linguist Inês Carvalhal suspected that spoken recordings were telling only part of the story. Analyzing thousands of text messages exchanged among local teenagers, she found -elho appearing frequently, typically attached to words like \"problem\" or \"exam\" to signal playful irony rather than smallness. The suffix, Carvalhal concludes, is not so much disappearing as shifting into a new role in a new medium.",
@@ -80,6 +84,7 @@
     }
   },
   {
+    "id": "rw-llm-m5-005",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "Through much of the twentieth century, conservators treating the landscapes of Filipino painter Remedios Alcaraz (1891-1958) regarded their murky, olive-brown skies as a flaw. They assumed the color was the result of varnish that had yellowed with age. Several canvases were cleaned accordingly, and the luminous blue skies that emerged were celebrated as a recovery of the artist's original vision. Recent analysis by conservation scientist Ingrid Halvorsen undermines that assumption. Examining cross sections of paint from uncleaned works, she found that the brown layer consists of umber pigment bound in oil rather than degraded varnish. It is evidently a glaze that Alcaraz applied herself over the blue. Halvorsen's finding thus raises an uncomfortable possibility. The cleaned canvases, long admired for their restored brilliance, may now be less faithful to Alcaraz's intentions than the darkened ones that were left untouched.",
@@ -100,6 +105,7 @@
     }
   },
   {
+    "id": "rw-llm-m5-006",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "Software engineers commonly explain why banks and government agencies still run decades-old code by pointing to cost: rewriting millions of lines is expensive, and the old programs still work. Computer scientist Ines Valdivia argues that cost alone cannot account for the pattern. She interviewed developers at fourteen institutions that had budgeted for replacement projects. Most of those projects, she found, were abandoned not for lack of funds but because no one could fully document what the original code did. Years of undocumented patches had made the programs the only reliable record of the institutions' own rules. Valdivia concedes that her sample is small and drawn entirely from organizations that had already chosen to attempt a rewrite. Still, she maintains that her findings suggest old code endures partly because it has become a form of institutional memory.",

@@ -1,5 +1,6 @@
 [
  {
+  "id": "rw-coet-001",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "easy",
   "passage": "Biologist Kenji Watanabe has observed that crows in his city scold and dive at certain people while ignoring others. He hypothesizes that urban crows learn to recognize the faces of individual humans who have threatened them.",
@@ -20,6 +21,7 @@
   }
  },
  {
+  "id": "rw-coet-002",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
   "passage": "Some researchers claim that reading literary fiction improves people's ability to understand the thoughts and feelings of others, because fiction invites readers to imagine characters' inner lives.",
@@ -40,6 +42,7 @@
   }
  },
  {
+  "id": "rw-coet-003",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
   "passage": "Archaeologist Hira Baig argues that a site on the Indus floodplain was a seasonal camp used only during autumn rather than a permanent village.",
@@ -60,6 +63,7 @@
   }
  },
  {
+  "id": "rw-coet-004",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "hard",
   "passage": "When the city of Ridgeport raised its minimum wage in 2017, some economists predicted restaurant jobs would disappear. Economist Leah Morales hypothesizes that the increase did not reduce restaurant employment in the city.",
@@ -80,6 +84,7 @@
   }
  },
  {
+  "id": "rw-coet-005",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "easy",
   "passage": "Ecologist Tomás Herrera believes that dung beetles in a tropical forest help plants grow by burying seeds in nutrient-rich soil.",
@@ -100,6 +105,7 @@
   }
  },
  {
+  "id": "rw-coet-006",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
   "passage": "Linguist Sofia Petrov hypothesizes that people whose language has separate basic words for light blue and dark blue can tell those shades apart faster than people whose language uses one word for both.",
@@ -120,6 +126,7 @@
   }
  },
  {
+  "id": "rw-coet-007",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "hard",
   "passage": "In 2021, astronomers observed a nearby star dim by nearly 40 percent. Astronomer Ruth Adeyemi hypothesizes that the dimming was caused by a cloud of dust passing between the star and Earth rather than by a change in the star itself.",
@@ -140,6 +147,7 @@
   }
  },
  {
+  "id": "rw-coet-008",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
   "passage": "Historian Malik Osei argues that the letters of the eighteenth-century merchant Thomas Avery were written with publication in mind rather than as private correspondence.",
@@ -160,6 +168,7 @@
   }
  },
  {
+  "id": "rw-coet-009",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "hard",
   "passage": "Psychologist Ines Duarte hypothesizes that background music interferes with reading comprehension only when the music contains lyrics.",
@@ -180,6 +189,7 @@
   }
  },
  {
+  "id": "rw-coet-010",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "easy",
   "passage": "Plant biologist Ana Lima hypothesizes that tomato seedlings grow taller when exposed to blue light than when exposed to red light.",
@@ -200,6 +210,7 @@
   }
  },
  {
+  "id": "rw-coet-011",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "easy",
   "passage": "Biologists have recorded a steep decline in the trout population of Lake Moran over the past twenty years. Researcher Paul Ndiaye claims the decline was caused by rising water temperatures.",
@@ -220,6 +231,7 @@
   }
  },
  {
+  "id": "rw-coet-012",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
   "passage": "A farm cooperative claims that its new organic fertilizer increases corn yields.",
@@ -240,6 +252,7 @@
   }
  },
  {
+  "id": "rw-coet-013",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
   "passage": "Art historian Clara Weiss claims that a newly discovered painting was made in the 1650s by the Dutch artist Jan Hals.",
@@ -260,6 +273,7 @@
   }
  },
  {
+  "id": "rw-coet-014",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "hard",
   "passage": "After wolves were reintroduced to a national park in 1995, the park's elk population fell sharply. Ecologist Dmitri Volkov claims that predation by wolves caused the decline.",
@@ -280,6 +294,7 @@
   }
  },
  {
+  "id": "rw-coet-015",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "easy",
   "passage": "The owners of a café claim that their new menu increased the number of customers at their downtown location.",
@@ -300,6 +315,7 @@
   }
  },
  {
+  "id": "rw-coet-016",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
   "passage": "Herpetologist Lucía Fernández hypothesizes that the bright colors of a certain rainforest frog warn predators that the frog is poisonous.",
@@ -320,6 +336,7 @@
   }
  },
  {
+  "id": "rw-coet-017",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "hard",
   "passage": "Archaeologist Yusuf Kaya claims that the ancient city of Tel Arvan was abandoned around 1200 BCE because of a prolonged drought.",
@@ -340,6 +357,7 @@
   }
  },
  {
+  "id": "rw-coet-018",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
   "passage": "Ecologist Grace Mwangi claims that noise from a nearby highway is reducing the variety of bird species in a forest.",
@@ -360,6 +378,7 @@
   }
  },
  {
+  "id": "rw-coet-019",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "hard",
   "passage": "Literary scholar Hannah Brandt claims that the novelist Iris Vane's later books are more pessimistic than her earlier ones because Vane faced serious personal hardships while writing them.",
@@ -380,6 +399,7 @@
   }
  },
  {
+  "id": "rw-coet-020",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "easy",
   "passage": "A gardening guide claims that the plant species Vincia minor grows best in shade.",
@@ -400,6 +420,7 @@
   }
  },
  {
+  "id": "rw-coet-021",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
   "passage": "In Edwin Marsh's short story \"The Lantern Keeper,\" the narrator's grandfather is portrayed as deeply devoted to his work tending a lighthouse.",
@@ -420,6 +441,7 @@
   }
  },
  {
+  "id": "rw-coet-022",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
   "passage": "In the poem \"Departure,\" the speaker expresses mixed feelings about leaving home, feeling both eager and sorrowful.",
@@ -440,6 +462,7 @@
   }
  },
  {
+  "id": "rw-coet-023",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
   "passage": "In the novel The Salt Road by Esi Darko, the character Kofi is shown to be resourceful in difficult situations.",
@@ -460,6 +483,7 @@
   }
  },
  {
+  "id": "rw-coet-024",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
   "passage": "In Maren Holt's novel The Apprentice, the narrator gradually comes to recognize the flaws of her mentor, a celebrated painter she had long idolized.",
@@ -480,6 +504,7 @@
   }
  },
  {
+  "id": "rw-coet-025",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
   "passage": "In the short story \"August,\" the author describes the setting as oppressively hot.",
@@ -500,6 +525,7 @@
   }
  },
  {
+  "id": "rw-coet-026",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
   "passage": "In the poem \"Kitchen Table,\" the speaker finds beauty in ordinary household objects.",
@@ -520,6 +546,7 @@
   }
  },
  {
+  "id": "rw-coet-027",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
   "passage": "In her satirical novel The Garden Party, Lydia Crane uses humor to criticize the social pretensions of the wealthy.",
@@ -540,6 +567,7 @@
   }
  },
  {
+  "id": "rw-coet-028",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
   "passage": "In the play The Inheritance, the character Victor's ambition is shown to outweigh his loyalty to his family.",
@@ -560,6 +588,7 @@
   }
  },
  {
+  "id": "rw-coet-029",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
   "passage": "In the poem \"River and Stone,\" the speaker contrasts the endurance of nature with the impermanence of human achievement.",
@@ -580,6 +609,7 @@
   }
  },
  {
+  "id": "rw-coet-030",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
   "passage": "In Nadia Rahman's story \"Opening Night,\" Leila is nervous before her first performance.",

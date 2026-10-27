@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-llm-tsp-001",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "easy",
     "passage": "Refreshable braille displays allow blind people to read digital text by touch. Small pins rise and fall beneath the reader's fingertips to form braille characters. <u>However, most of these devices cost several thousand dollars, which puts them out of reach for many potential users.</u> To address this issue, engineer Nalani Kahale and her team built a display that moves inexpensive plastic pins with tiny magnets, bringing the price of their device below $500.",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-002",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "easy",
     "passage": "In many rural areas, vaccines spoil because clinics lack reliable electricity to keep them cold. Engineer Wanjiru Kamau and her team designed a refrigerator that runs on solar panels and stores energy by freezing a block of ice rather than by charging batteries. <u>Because batteries are expensive and wear out quickly in hot climates, using ice makes the device cheaper and longer lasting.</u> The refrigerator is now being tested at clinics in several villages.",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-003",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "medium",
     "passage": "Art historians have long treated the woodblock prints of Ines Takahara-Lund as minor decorative pieces, citing their small size and their frequent use as book covers. A recent study by curator Kwabena Asante-Mills, however, suggests that this view overlooks how the prints were actually made. <u>Examining Takahara-Lund's surviving blocks, Asante-Mills found that she sometimes carved as many as fourteen separate blocks for a single image, each used to print one thin, translucent layer of ink.</u> Such layering, he argues, demanded a technical precision comparable to that of the most celebrated large-scale printmakers of her era.",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-004",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "hard",
     "passage": "Many historical linguists hold that sound change is regular: a shift that alters one word alters every word containing the same sound in the same position. This principle underlies the comparative method, which allows researchers to reconstruct ancestral languages by systematically comparing their descendants. <u>Yet in a study of fishing communities along the Basque coast, linguist Itziar Goikoetxea found that a vowel shift had reached frequently used words decades before it appeared in rarer ones.</u> Goikoetxea does not conclude that sound change is haphazard. Instead, she proposes that the regularity linguists observe may be the end state of a process that spreads word by word. If so, reconstructions built on the comparative method remain sound, even if the mechanism once assumed to produce that regularity was misunderstood.",
@@ -80,6 +84,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-005",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "hard",
     "passage": "Many languages require speakers to mark grammatically how they know what they assert: whether they witnessed an event, inferred it, or heard about it from someone else. Some researchers have proposed that habitually marking information sources in this way sharpens speakers' memory for where their knowledge came from. In a study conducted in the Peruvian Andes, linguist Mariela Quispe found that Quechua-speaking six-year-olds outperformed their Spanish-speaking peers on tasks requiring them to recall whether they had seen an event or merely been told about it. <u>Yet the Quechua-speaking children in her sample also tended to live in rural communities where oral storytelling, a practice that often emphasizes who first told a tale, is especially common.</u> Quispe therefore cautions that her findings, while consistent with the proposal, cannot by themselves establish that grammar is responsible for the difference.",
@@ -100,6 +105,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-006",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "medium",
     "passage": "Many alpine flowers close their petals at dusk, and botanists have generally assumed that this behavior protects pollen from nighttime cold and dew. Ecologist Sunniva Aaberg wondered whether closing might serve another purpose as well. In a mountain meadow in Norway, she propped open the flowers of one gentian species overnight. By morning, those flowers held far fewer pollen grains than flowers left to close naturally. <u>Her overnight video recordings revealed that moths and beetles active after dark had been feeding on the exposed pollen.</u> Aaberg concludes that nightly closing may defend flowers against pollen-eating insects, not just against harsh weather.",
@@ -120,6 +126,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-007",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "medium",
     "passage": "Economists have often assumed that small farmers who decline crop insurance do so mainly because premiums are too expensive. If cost were the main obstacle, subsidizing premiums should sharply raise enrollment. Yet when economist Adaeze Okonkwo studied a program in northern Ghana that cut premiums in half, enrollment rose only slightly. Interviews revealed a different barrier: many farmers doubted that insurers would actually pay after a drought, having heard of neighbors whose claims were delayed or denied. In villages where an insurer had promptly paid claims the previous season, enrollment was nearly twice as high, suggesting that trust, not price, was limiting demand.",
@@ -140,6 +147,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-008",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "easy",
     "passage": "The Inca Empire, which stretched along the Andes Mountains in South America during the 1400s and early 1500s, had no horses and no written alphabet. Even so, its rulers could send messages across great distances with remarkable speed. They relied on chasquis, trained runners stationed at small posts along the empire's roads. Each runner carried a message to the next post and passed it to a fresh runner, so that news could travel more than a hundred miles in a single day.",
@@ -160,6 +168,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-009",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "easy",
     "passage": "Grocery stores sometimes sell popular items, such as milk or eggs, for less than the stores paid for them. At first, this practice may seem like a poor business decision, since the store loses money on every one of those items it sells. Economists call such products \"loss leaders.\" The low prices draw shoppers into the store, and once inside, most customers also buy other goods that are priced normally. The profits from those additional purchases usually more than make up for the money lost on the discounted items.",
@@ -180,6 +189,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-010",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "easy",
     "passage": "QR codes, the square patterns of black and white modules that phones scan to open websites, can often be read even when part of the code is scratched, smudged, or covered by a small logo. This works because each code stores extra information along with the message itself. Using a mathematical method called error correction, a scanner can use this extra data to rebuild the missing pieces. At the highest setting, a code can still be read even if roughly 30 percent of it is damaged.",
@@ -200,6 +210,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-011",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "medium",
     "passage": "Many plants that grow high in the Andes are covered in dense, silvery hairs. Botanists long assumed that these hairs primarily help the plants conserve water by trapping a layer of humid air against the leaf surface. To test this idea, plant physiologist Tomás Quispe carefully removed the hairs from the leaves of several Andean shrubs. The hairless leaves lost water at nearly the same rate as untreated leaves, but they developed significantly more cell damage from ultraviolet radiation, which is intense at high elevations. Quispe concluded that the hairs' main role is likely to shield the leaves from ultraviolet light rather than to reduce water loss.",
@@ -220,6 +231,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-012",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "hard",
     "passage": "Critics have often described the rough, unfinished-looking surfaces of sculptor Itzel Ocampo's late works as a sign of her declining health. In their view, she simply lacked the stamina to complete the carving. Art historian Rhys Kaltenbach does not dismiss this account entirely, since Ocampo's letters from the period do mention persistent fatigue. He points out, however, that her studio notebooks from the same years contain detailed sketches marking which areas of each block were to be left untouched. For Kaltenbach, the unfinished quality is therefore better understood as a planned feature of the sculptures, even if her circumstances may have informed that plan.",
@@ -240,6 +252,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-013",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "easy",
     "passage": "Early robotic vacuum cleaners had a troublesome habit: they often tumbled down staircases, damaging both themselves and the steps. Engineers addressed this problem by adding small infrared sensors to the underside of the robots. These sensors constantly send beams of light toward the floor and measure how quickly the light bounces back. If the light takes too long to return, the robot detects a drop ahead and turns away. Today, such sensors are standard on nearly all models.",
@@ -260,6 +273,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-014",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "medium",
     "passage": "By the mid-fifteenth century, Great Zimbabwe, a stone-walled city in southern Africa that had once housed thousands of people, had been largely abandoned. Some scholars have attributed this decline to environmental strain, arguing that generations of farming, grazing, and wood gathering exhausted the surrounding land. Historian Rutendo Chikore, however, points to evidence of a different cause. Imported glass beads and Chinese porcelain are plentiful in the site's earlier layers but scarce in its later ones. Meanwhile, similar goods appear in growing quantities at settlements farther north. To Chikore, this pattern suggests that a shift in trade routes drew wealth, and eventually people, away from the city.",
@@ -280,6 +294,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-015",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "Admirers of Peruvian composer Esperanza Quilla's 1958 string quartet often single out its abrupt silences, bars in which all four instruments stop mid-phrase, as evidence of her preoccupation with fragmentation and unease. Musicologist Tomasz Wierzba has complicated that reading. Examining Quilla's manuscripts, he found that the silences first appeared in a version she prepared for a radio broadcast, where they marked points at which an engineer could cut the piece to fit the allotted time slot. Yet Wierzba does not conclude that the silences are merely practical. Quilla retained them in the later concert version, he notes, and even lengthened several of them. This suggests that a technical expedient became, in her hands, an expressive resource.",
@@ -300,6 +315,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-016",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "easy",
     "passage": "Linguists use the term \"code-switching\" to describe the practice of alternating between two or more languages within a single conversation. Bilingual speakers may switch languages for several reasons. A speaker may need to express an idea that has no exact equivalent in the other language, signal closeness with a listener who shares both languages, or quote someone's exact words. For example, a speaker in Nairobi might begin a sentence in English and finish it in Swahili to give the remark a warmer, friendlier tone.",
@@ -320,6 +336,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-017",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "The following text is from Teodora Vasquez-Lind's 2004 novel The Weight of Harbors. Marisol has returned to her late grandfather's house.\n\nFor years Marisol had regarded her grandfather's workshop as a monument to his stubbornness: half-finished chairs, a lathe he refused to replace, shelves of jars holding screws sorted by no system she could detect. Now, alone among them, she opened the nearest jar and found, curled around the screws, a strip of paper bearing her own name and a date from her seventh summer. The next jar held another, and the next. Each date, she slowly understood, marked a visit: the afternoon she had dropped his level, the morning he had first let her sand a chair leg. The workshop had never been disordered at all. It had been arranged, jar by jar, around the hours she had spent in it.",
@@ -340,6 +357,7 @@
     }
   },
   {
+    "id": "rw-llm-tsp-018",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "Critics have long read the bare staging of choreographer Inés Valcárcel's 1968 work Tierra Baldía as a deliberate protest against the ornate ballets that then dominated Madrid's stages. Archival research by dance historian Tomasz Wierzbicki complicates this view. Rehearsal notes show that Valcárcel originally planned elaborate sets and costumes and abandoned them only weeks before the premiere, when the theater's budget was cut. Wierzbicki does not conclude that the work's austerity was merely accidental, however. He points out that Valcárcel kept the bare staging in every later revival of Tierra Baldía, even when funding was plentiful. This suggests that what began as a constraint she was forced to accept became an aesthetic choice she came to embrace.",

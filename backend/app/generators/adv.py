@@ -111,6 +111,7 @@ def eqx_poly(rng: random.Random, d: Difficulty) -> Generated:
             distractors=dist,
             steps=steps,
             verify=lambda: sympy.rem(poly, key, x) == 0,
+            correct=lambda v: sympy.rem(poly, v, x) == 0,
         )
     b_ = sympy.Symbol("b")
     while b == 0 or e == 0:

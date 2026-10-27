@@ -1,5 +1,6 @@
 [
  {
+  "id": "rw-wic-001",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "easy",
   "passage": "Marine biologist Ayana Brooks noticed that coral colonies inside a sheltered bay recovered quickly after a 2019 heat wave, while colonies outside the bay stayed bleached for months. She suspected that the bay's cooler, deeper water had ______ the corals inside it from the worst of the heat.",
@@ -20,6 +21,7 @@
   }
  },
  {
+  "id": "rw-wic-002",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "easy",
   "passage": "Although the novelist was famous for sprawling books that often ran to five hundred pages, her final work was surprisingly ______: a slim volume of just ninety pages.",
@@ -40,6 +42,7 @@
   }
  },
  {
+  "id": "rw-wic-003",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "medium",
   "passage": "Economists once assumed that consumers always make the purchases that best serve their own interests. Research in behavioral economics has ______ that assumption, showing that people often choose options that are merely convenient or familiar rather than optimal.",
@@ -60,6 +63,7 @@
   }
  },
  {
+  "id": "rw-wic-004",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "medium",
   "passage": "The architect's designs were notably ______: she rejected ornamental details such as carved moldings and decorative columns, favoring plain surfaces and simple geometric forms.",
@@ -80,6 +84,7 @@
   }
  },
  {
+  "id": "rw-wic-005",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "medium",
   "passage": "Some historians argue that the printing press did not ______ transform European intellectual life; instead, its effects accumulated gradually over more than a century as literacy spread and book prices fell.",
@@ -100,6 +105,7 @@
   }
  },
  {
+  "id": "rw-wic-006",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "hard",
   "passage": "In her study of nineteenth-century family letters, historian Lucia Ferreira found that writers often adopted a deliberately ______ tone when discussing money, using vague phrases such as \"certain arrangements\" rather than naming specific sums.",
@@ -120,6 +126,7 @@
   }
  },
  {
+  "id": "rw-wic-007",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "hard",
   "passage": "Critics who dismiss the poet's early work as merely ______ overlook how carefully she reworked conventional forms: poems that seem at first to repeat familiar patterns in fact subtly subvert them.",
@@ -140,6 +147,7 @@
   }
  },
  {
+  "id": "rw-wic-008",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "easy",
   "passage": "The city built the new bridge to ______ traffic congestion on its main avenue, and within a month of the bridge's opening, average commute times along the avenue had dropped by nearly 15 percent.",
@@ -160,6 +168,7 @@
   }
  },
  {
+  "id": "rw-wic-009",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "medium",
   "passage": "Because the comet's orbit brings it close to Earth only once every 76 years, astronomers who miss one visit must wait decades for another chance. For this reason, the observations made during each pass are especially ______.",
@@ -180,6 +189,7 @@
   }
  },
  {
+  "id": "rw-wic-010",
   "skill": "RW.CAS.WIC.FILL",
   "difficulty": "hard",
   "passage": "Ecologist Tamar Klein's survey suggests that the decline of the region's wild bees is not ______ any single cause; pesticide use, habitat loss, and a warming climate each appear to play a part.",
@@ -200,6 +210,7 @@
   }
  },
  {
+  "id": "rw-wic-011",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "easy",
   "passage": "When the committee reviewed the proposal, members raised several concerns about its cost. The chair assured them that each issue would be addressed before the final vote.",
@@ -220,6 +231,7 @@
   }
  },
  {
+  "id": "rw-wic-012",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "easy",
   "passage": "The museum's new exhibit draws on letters, photographs, and diaries to present a vivid picture of daily life in the 1920s.",
@@ -240,6 +252,7 @@
   }
  },
  {
+  "id": "rw-wic-013",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "medium",
   "passage": "The theory was elegant and explained most planetary motions well, but it could not account for the unusual orbit of Mercury, which astronomers had measured with great precision.",
@@ -260,6 +273,7 @@
   }
  },
  {
+  "id": "rw-wic-014",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "medium",
   "passage": "The scientist's findings were initially met with skepticism, but as other laboratories reproduced her results, scientific opinion gradually shifted in her favor.",
@@ -280,6 +294,7 @@
   }
  },
  {
+  "id": "rw-wic-015",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "medium",
   "passage": "The director's spare staging (a bare platform, a single chair, and one hanging lamp) forces the audience to focus entirely on the actors' performances.",
@@ -300,6 +315,7 @@
   }
  },
  {
+  "id": "rw-wic-016",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "hard",
   "passage": "In the essay, Okafor contends that the novel's apparent simplicity is deceptive: beneath its plain sentences lies a highly qualified view of human motives, one that resists easy moral judgments.",
@@ -320,6 +336,7 @@
   }
  },
  {
+  "id": "rw-wic-017",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "hard",
   "passage": "The senator's remarks, though brief, were pointed; few listeners missed their implication that the agency had concealed key data.",
@@ -340,6 +357,7 @@
   }
  },
  {
+  "id": "rw-wic-018",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "easy",
   "passage": "After weeks of rehearsals, the orchestra's performance of the symphony was polished, with every entrance precisely timed and every passage played cleanly.",
@@ -360,6 +378,7 @@
   }
  },
  {
+  "id": "rw-wic-019",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "medium",
   "passage": "The researchers caution that their sample was small, so the results should be treated as suggestive rather than conclusive.",
@@ -380,6 +399,7 @@
   }
  },
  {
+  "id": "rw-wic-020",
   "skill": "RW.CAS.WIC.MEANING",
   "difficulty": "hard",
   "passage": "Far from being a neutral record of events, the chronicle reflects its author's loyalties: episodes that flattered his patrons are described in lavish detail, while unflattering ones are passed over in silence.",

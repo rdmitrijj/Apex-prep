@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-llm-cid-001",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "hard",
     "passage": "Scenic painting is often dismissed as a lesser craft than easel painting, but art historian Lucía Ferreyra argues that the backdrop painters of nineteenth-century opera houses made deliberate technical choices suited to the unusual conditions they faced. Although many of these artists worked in oil when painting in their own studios, for the stage they favored distemper, a mixture of pigment and animal glue. Ferreyra acknowledges that distemper was inexpensive and dried quickly, both welcome qualities when an enormous canvas had to be finished before opening night. But she emphasizes a different advantage: its chalky, matte surface scattered the light of the stage's gas lamps rather than reflecting it back as glare, so that a painted forest or palace remained legible even to audience members seated at sharp angles to the stage.",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-002",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "hard",
     "passage": "Many languages, including Turkish and Quechua, require speakers to mark grammatically whether they witnessed an event directly or learned of it secondhand, a feature known as evidentiality. Psycholinguist Nilufar Rashidova wanted to know whether children acquiring such languages grasp the concept of an information source before they master the markers. She found that Turkish-speaking four-year-olds produced the evidential suffixes correctly in their own speech well before they could reliably answer questions about how another person had come to know a fact. Rashidova argues that the grammatical system does not rest on an earlier conceptual understanding. Instead, she suggests, routine use of the suffixes may give children a scaffold that later helps them reason explicitly about where knowledge comes from.",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-003",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "easy",
     "passage": "Chilean sculptor Teodora Valdivia creates large hanging installations from old fishing nets that she collects along the coast near her studio. Before using the nets, she washes them and dyes them in bright colors. Valdivia says she works with nets because they are very lightweight, which lets her hang huge forms from gallery ceilings without heavy metal supports. Her most recent piece, a ten-meter-long wave shape, is on display at a museum in Valparaíso.",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-004",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "medium",
     "passage": "In the early eleventh century, the Chinese region of Sichuan relied on iron coins rather than the bronze coins used in most of the Song Empire. Because iron was worth far less than bronze, even modest purchases there required heavy loads of coins. Historian Wei Jiaming argues that this burden explains why Sichuan became the birthplace of government-issued paper money. Merchants in the region began issuing paper certificates, called jiaozi, that customers could exchange for coins deposited with them. After some merchants failed to honor their certificates, the state took over issuing the notes in 1023, making them official currency.",
@@ -80,6 +84,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-005",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "medium",
     "passage": "When wholesale costs for tomatoes rise, vendors in the open-air markets of Kumasi, Ghana, rarely raise their prices. Economist Kwabena Mensah found that they instead make the piles of tomatoes they sell slightly smaller. Interviews with more than two hundred vendors revealed why. Low-denomination coins are scarce in the markets, so vendors who charged odd amounts would often be unable to give customers their change. Keeping prices at round figures avoids this problem, and shrinking the piles still lets vendors pass rising costs on to buyers. Mensah adds that the practice is so widespread that regular shoppers often judge market conditions by the size of the piles rather than by the prices.",
@@ -100,6 +105,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-006",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "easy",
     "passage": "Kangaroo rats are small rodents that live in the deserts of the southwestern United States, where rain is scarce. Remarkably, many kangaroo rats can survive without ever drinking water. Instead, they get the moisture they need from the dry seeds they eat. As their bodies break down the seeds for energy, water is produced as a by-product. Their highly efficient kidneys also help them conserve this water by producing very concentrated urine.",
@@ -120,6 +126,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-007",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "hard",
     "passage": "For decades, urban planners in many cities have treated attendance at public neighborhood meetings as a reliable gauge of civic engagement, and sparse turnout in lower-income districts has often been read as evidence of residents' indifference to local affairs. Sociologist Thandiwe Mokoena questions this inference. Interviewing residents of three districts in Durban, South Africa, she found that many who never attended meetings were deeply involved in informal efforts: organizing street cleanups, coordinating shared childcare, and pressing councillors for repairs through neighborhood messaging groups. Most of these residents cited the scheduling of meetings on weekday evenings, when shift workers could not leave their jobs, as the reason for their absence. Mokoena concludes that low turnout may reveal more about how participation is structured than about residents' willingness to participate.",
@@ -140,6 +147,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-008",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "For much of the twentieth century, linguists often described code-switching, or alternating between two languages within a single conversation, as a sign that speakers had not fully mastered either language. Linguist Priya Venkataraman challenged this view by recording hundreds of hours of conversation among Tamil-English bilinguals in Singapore. She found that switches rarely occurred at random points in a sentence; instead, speakers consistently avoided switching at certain grammatical boundaries, such as between an auxiliary verb and the main verb that follows it. Such regularity, Venkataraman argues, suggests that code-switching draws on detailed knowledge of both languages' grammars rather than reflecting gaps in that knowledge.",
@@ -160,6 +168,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-009",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "Japanese ukiyo-e woodblock prints from the eighteenth and nineteenth centuries are usually catalogued under the name of the artist who designed them. Yet producing a print also required a carver, who cut the design into wooden blocks, and a printer, who inked the blocks and pressed paper onto them. Art historian Mariko Tanabe compared dozens of surviving impressions of the same designs and found striking differences in how smoothly colors faded into one another, differences that depended on the printer's handling of ink and pressure. Tanabe concludes that such prints are best understood not as the vision of a single designer but as collaborative works shaped by several skilled hands.",
@@ -180,6 +189,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-010",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "easy",
     "passage": "Rechargeable batteries in smartphones gradually lose their ability to hold a charge, partly because sitting at a full 100 percent charge for hours strains the battery's chemistry. To reduce this strain, engineer Priya Raman and her team designed charging software that learns a user's daily routine. If a phone is usually unplugged at 7:00 a.m., the software keeps the battery at 80 percent overnight and finishes charging shortly before that time. In tests, phones using the software kept more of their original battery capacity after two years than phones that were charged normally.",
@@ -200,6 +210,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-011",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "Solar farms in deserts receive abundant sunlight, but they also collect dust that can reduce their panels' output by more than 30 percent within a month. Operators typically wash the panels with water, a costly practice in regions where water is scarce. Engineer Leila Haddad and her colleagues have developed an alternative: a transparent, electrically conductive coating that, when briefly charged, pushes dust particles off the panel surface. In field trials in southern Morocco, coated panels retained nearly all of their output without any washing. This suggests that the method could make desert solar power both cheaper and less dependent on scarce water.",
@@ -220,6 +231,7 @@
     }
   },
   {
+    "id": "rw-llm-cid-012",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "The following text is from Leila Mansour-Okafor's 1974 novel The Cardamom Gate. Mireille has returned to her grandmother's house after many years away.\n\nAfter eleven years abroad, Mireille stood at the gate of her grandmother's house and frowned. The courtyard she remembered as vast, big enough for footraces and for hiding games that lasted whole afternoons, could be crossed in a dozen steps. The lemon tree that had once towered over her stood barely taller than the roof. Even the blue door seemed narrower, as though someone had quietly rebuilt it in her absence. Yet when she stepped inside and breathed in the familiar cardamom and woodsmoke, she understood that nothing had shrunk. The house was exactly as it had always been; it was she who had grown, and the enormous house of her childhood now existed only in her memory.",

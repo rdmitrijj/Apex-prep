@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-llm-wic-rs-001",
     "skill": "RW.CAS.WIC.FILL",
     "difficulty": "easy",
     "passage": "Sociologist Amara Okonkwo-Lindqvist studied a small island community before and after a new bridge connected it to the mainland. She found that the number of residents who traveled to jobs off the island rose ______ in the bridge's first year, more than tripling from about 200 people to over 650.",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-002",
     "skill": "RW.CAS.WIC.FILL",
     "difficulty": "medium",
     "passage": "Art historians have long described the Filipino painter Lorenzo Dacanay as a strict realist whose canvases recorded Manila's markets and harbors in meticulous detail. A recent exhibition of his private sketchbooks, however, complicates that view. Alongside careful studies of fishmongers and dockworkers, the notebooks contain dozens of dreamlike drawings of floating figures and impossible staircases. This suggests that Dacanay's commitment to realism was less ______ than scholars had assumed.",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-003",
     "skill": "RW.CAS.WIC.FILL",
     "difficulty": "easy",
     "passage": "Early smartphone batteries often lost much of their capacity after only a year or two of daily charging. Engineer Priya Nandakumar and her team developed a new electrode coating that keeps the battery working well for much longer. In laboratory tests, batteries with the coating remained ______ even after 3,000 charging cycles, holding nearly 90 percent of their original capacity.",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-004",
     "skill": "RW.CAS.WIC.FILL",
     "difficulty": "medium",
     "passage": "Seeds of a desert annual studied by botanist Rafael Okonjo-Medina can lie dormant in the soil for a decade or more. In greenhouse trials, seeds given less than 25 millimeters of simulated rain almost never sprouted, whereas seeds given more than that amount germinated readily. This suggests that germination in this species is ______ a substantial rainfall event. Okonjo-Medina argues that this trait is an adaptation that keeps seedlings from emerging after a brief shower, when they would soon wither in the dry soil.",
@@ -80,6 +84,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-005",
     "skill": "RW.CAS.WIC.FILL",
     "difficulty": "easy",
     "passage": "Political scientist Ingrid Solberg examined voter turnout in a midsize city's local elections and found that participation was remarkably ______: across six elections held over twenty years, turnout never rose above 34 percent or fell below 31 percent.",
@@ -100,6 +105,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-006",
     "skill": "RW.CAS.WIC.MEANING",
     "difficulty": "medium",
     "passage": "Economist Thandiwe Mokoena has studied why handwoven cloth from small cooperatives in Ghana's Volta Region continues to command high prices in export markets, even though machine-printed imitations sell for a fraction of the cost. Her surveys suggest that overseas buyers willingly pay more because they value the documented origin of each piece, treating the cloth less as an ordinary commodity than as certified craftsmanship.",
@@ -120,6 +126,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-007",
     "skill": "RW.CAS.WIC.MEANING",
     "difficulty": "hard",
     "passage": "Lexicographers have long debated when a new coinage deserves a dictionary entry. In her study of emerging English vocabulary, linguist Ingrid Halvorsen argues that raw frequency is a misleading guide: a word may appear thousands of times within a single online community yet remain virtually unknown outside it. Only when a term achieves wide currency, circulating among speakers of different ages, regions, and social groups, does it, in Halvorsen's view, merit inclusion.",
@@ -140,6 +147,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-008",
     "skill": "RW.CAS.WIC.MEANING",
     "difficulty": "hard",
     "passage": "In her study of rural credit cooperatives in northern Ghana, economist Abena Owusu-Ansah found that cooperative members repaid small loans at notably higher rates than borrowers who relied on commercial lenders. Yet her endorsement of the cooperative model was qualified. She observed that the repayment advantage largely disappeared in villages where cooperative leaders also held local political office. This pattern suggests that the model's success may depend on a separation between financial and political authority, a separation that not every community maintains.",
@@ -160,6 +168,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-009",
     "skill": "RW.CAS.WIC.MEANING",
     "difficulty": "medium",
     "passage": "At first glance, Ines Valdivieso's 1958 portrait of her brother appears serene: soft gray tones, a relaxed pose, an untroubled expression. Yet close inspection of the canvas betrays the painter's uncertainty. Infrared imaging shows that Valdivieso repainted the sitter's hands at least four times, and faint ridges of dried paint beneath the surface trace the outline of an earlier, far more anxious version of his face.",
@@ -180,6 +189,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-010",
     "skill": "RW.CAS.WIC.MEANING",
     "difficulty": "easy",
     "passage": "The following text is from Lucía Ferrante's 1931 novel The Salt Road. Inés is returning to her village after years away. Nothing had changed, Inés thought as she stepped down from the cart. The bakery still stood at the corner, the church bell still rang at noon, and old Señor Barros still sat on his bench, watching the square. Yet the familiar scene seemed strangely small to her, as if the village had shrunk while she was gone.",
@@ -200,6 +210,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-011",
     "skill": "RW.EOI.RS.GOAL",
     "difficulty": "easy",
     "passage": "While researching a topic, a student has taken the following notes:",
@@ -227,6 +238,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-012",
     "skill": "RW.EOI.RS.GOAL",
     "difficulty": "medium",
     "passage": "While researching a topic, a student has taken the following notes:",
@@ -255,6 +267,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-013",
     "skill": "RW.EOI.RS.GOAL",
     "difficulty": "medium",
     "passage": "While researching a topic, a student has taken the following notes:",
@@ -283,6 +296,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-014",
     "skill": "RW.EOI.RS.GOAL",
     "difficulty": "medium",
     "passage": "While researching a topic, a student has taken the following notes:",
@@ -310,6 +324,7 @@
     }
   },
   {
+    "id": "rw-llm-wic-rs-015",
     "skill": "RW.EOI.RS.GOAL",
     "difficulty": "hard",
     "passage": "While researching a topic, a student has taken the following notes:",

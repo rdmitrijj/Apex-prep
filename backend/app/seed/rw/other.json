@@ -1,5 +1,6 @@
 [
   {
+    "id": "rw-other-001",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "easy",
     "passage": "Each spring, millions of monarch butterflies leave their wintering grounds in central Mexico and fly north. No single butterfly completes the round trip, however. The journey north spans several generations, with each new generation continuing where the last one stopped, so the butterflies that return to Mexico in the fall are the great-grandchildren of those that left.",
@@ -20,6 +21,7 @@
     }
   },
   {
+    "id": "rw-other-002",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "medium",
     "passage": "Many people picture glass as a solid, but a persistent myth claims it is actually a very slow-moving liquid, citing old church windows that are thicker at the bottom. Researchers have shown, however, that at room temperature glass would take far longer than the age of the universe to flow noticeably. The uneven windows are better explained by medieval glassmaking techniques, which couldn't produce panes of uniform thickness.",
@@ -40,6 +42,7 @@
     }
   },
   {
+    "id": "rw-other-003",
     "skill": "RW.CAS.TSP.PURPOSE",
     "difficulty": "hard",
     "passage": "In her 1937 novel, Zora Neale Hurston rendered her characters' dialogue in the rural Black Southern English of the time, a choice some contemporary reviewers criticized as unrefined. Later scholars have reread the choice as deliberate: by writing the characters' speech as they would have spoken it, Hurston treated their language as a fit medium for serious literature rather than as something to be corrected.",
@@ -60,6 +63,7 @@
     }
   },
   {
+    "id": "rw-other-004",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "easy",
     "passage": "Some animals survive winter by hibernating, lowering their body temperature and heart rate to save energy. Others, like many songbirds, avoid winter altogether by migrating to warmer regions. A third group, which includes deer and foxes, stays active all winter, growing thicker coats and changing their diets to cope with the cold.",
@@ -80,6 +84,7 @@
     }
   },
   {
+    "id": "rw-other-005",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "medium",
     "passage": "For decades, astronomers assumed that planets form only around single stars, since the gravity of two stars would disrupt the disks of gas and dust from which planets grow. In 2011, however, a space telescope detected a planet orbiting a pair of stars. Since then, dozens of such planets have been found, prompting astronomers to revise their models of planet formation.",
@@ -100,6 +105,7 @@
     }
   },
   {
+    "id": "rw-other-006",
     "skill": "RW.CAS.TSP.STRUCTURE",
     "difficulty": "hard",
     "passage": "Historian Peter Lindqvist argues that the spread of household clocks in the nineteenth century changed how people experienced time, encouraging them to divide the day into precise units. Critics have objected that factory schedules and railway timetables, not household clocks, drove this change. Lindqvist acknowledges these influences but notes that diaries from the period show people organizing even their leisure hours by the clock.",
@@ -120,6 +126,7 @@
     }
   },
   {
+    "id": "rw-other-007",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "easy",
     "passage": "The axolotl, a salamander native to lakes near Mexico City, can regrow lost limbs, parts of its heart, and even portions of its brain. <u>Scientists study the axolotl in hopes of learning how to help human tissues heal.</u> Unfortunately, wild axolotls are critically endangered because of pollution and habitat loss.",
@@ -140,6 +147,7 @@
     }
   },
   {
+    "id": "rw-other-008",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "medium",
     "passage": "The painter Agnes Pelton spent years in the California desert making abstract works filled with glowing orbs and veils of color. <u>Although she exhibited regularly, her paintings attracted little attention during her lifetime.</u> Only decades after her death, when a 2019 retrospective toured several museums, did critics begin to describe her as a major figure of American modernism.",
@@ -160,6 +168,7 @@
     }
   },
   {
+    "id": "rw-other-009",
     "skill": "RW.CAS.TSP.FUNCTION",
     "difficulty": "hard",
     "passage": "Engineers designing tall buildings in earthquake zones once focused on making structures as rigid as possible. <u>Rigid buildings, however, absorb the full force of seismic waves and can crack under the strain.</u> Modern designs instead allow buildings to sway, using flexible joints and heavy pendulum-like dampers that counteract motion.",
@@ -180,6 +189,7 @@
     }
   },
   {
+    "id": "rw-other-010",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Many economists have argued that remote work reduces productivity because employees lose the informal conversations that spark new ideas. They point to surveys in which managers report fewer innovative proposals from remote teams.",
@@ -201,6 +211,7 @@
     }
   },
   {
+    "id": "rw-other-011",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "hard",
     "passage": "Scholars long assumed that the Norse settlements in Greenland collapsed in the fifteenth century because the settlers refused to adopt Inuit hunting techniques, clinging instead to European-style farming that failed as the climate cooled.",
@@ -222,6 +233,7 @@
     }
   },
   {
+    "id": "rw-other-012",
     "skill": "RW.CAS.CTC.RESPONSE",
     "difficulty": "medium",
     "passage": "Some urban planners claim that adding lanes to congested highways relieves traffic, since more lanes allow more cars to move at once.",
@@ -243,6 +255,7 @@
     }
   },
   {
+    "id": "rw-other-013",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "easy",
     "passage": "Octopuses have a remarkable ability to change color. Special skin cells called chromatophores contain sacs of pigment that the octopus can expand or shrink in a fraction of a second. By controlling thousands of these cells, an octopus can blend into rocks, flash warning patterns at predators, or signal to other octopuses.",
@@ -263,6 +276,7 @@
     }
   },
   {
+    "id": "rw-other-014",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "When the city of Medellín, Colombia, built cable cars connecting hillside neighborhoods to its metro system in 2004, planners hoped mainly to shorten commutes. The cable cars did that, cutting some trips from two hours to twenty minutes. But researchers have since found broader effects: violence declined in the connected neighborhoods, and new libraries and businesses opened near the stations.",
@@ -283,6 +297,7 @@
     }
   },
   {
+    "id": "rw-other-015",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "hard",
     "passage": "In his studies of medieval manuscripts, historian Erik Dahl noticed that scribes often wrote small complaints in the margins: about cold rooms, bad ink, or aching hands. Earlier scholars had dismissed these notes as trivial. Dahl argues that they offer rare evidence of scribes' working conditions and show that copying books was demanding physical labor, not merely a quiet devotional task.",
@@ -303,6 +318,7 @@
     }
   },
   {
+    "id": "rw-other-016",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "easy",
     "passage": "Tardigrades are tiny animals, usually less than a millimeter long, that live in moss, soil, and ocean sediment. They are famous for their toughness: when their surroundings dry out, they curl into a dormant state called a tun, in which they can survive for years without water.",
@@ -323,6 +339,7 @@
     }
   },
   {
+    "id": "rw-other-017",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "medium",
     "passage": "Before the invention of refrigeration, people in cold regions harvested ice from frozen lakes in winter and stored it in insulated icehouses. Packed in sawdust, the ice could last well into the summer. In the nineteenth century, merchant Frederic Tudor built a profitable business shipping New England ice to the Caribbean and India.",
@@ -343,6 +360,7 @@
     }
   },
   {
+    "id": "rw-other-018",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "hard",
     "passage": "Linguist Amara Okonkwo studies whistled languages, in which speakers convey words by whistling the pitch and rhythm of their spoken language. She notes that whistled speech developed mostly in mountainous or densely forested areas, where a whistle can carry several kilometers, far farther than a shout, allowing people to communicate across valleys.",
@@ -363,6 +381,7 @@
     }
   },
   {
+    "id": "rw-other-019",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "easy",
     "passage": "Biologists studying a population of lizards on a small island found that, after a hurricane, the surviving lizards had larger toe pads than the population had before the storm. Larger toe pads help lizards cling to branches in strong winds. This suggests that ______",
@@ -383,6 +402,7 @@
     }
   },
   {
+    "id": "rw-other-020",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "medium",
     "passage": "In a study of two neighboring towns, researchers found that the town with more street trees had summer afternoon temperatures about 3°C lower than the other town. The towns were similar in size, elevation, and distance from the coast. The researchers therefore concluded that ______",
@@ -403,6 +423,7 @@
     }
   },
   {
+    "id": "rw-other-021",
     "skill": "RW.INI.INF.COMPLETE",
     "difficulty": "hard",
     "passage": "Many manuscripts of a medieval poem survive, and most contain the same 600 lines. One manuscript, however, includes 40 additional lines in a different style. Because the extra lines appear in no other copy, and because they refer to an event that occurred about a century after the poem is believed to have been written, scholars have concluded that ______",
@@ -423,6 +444,7 @@
     }
   },
   {
+    "id": "rw-other-022",
     "skill": "RW.INI.CID.MAIN",
     "difficulty": "medium",
     "passage": "For decades, historians assumed that medieval European farmers rarely traveled beyond their home villages. Archaeologist Sigrún Hallsdóttir tested that assumption by analyzing strontium isotopes in the teeth of people buried in rural cemeteries in what is now Denmark. Because strontium ratios in tooth enamel reflect the local geology where a person grew up, they reveal whether someone was buried far from their childhood home. Hallsdóttir found that nearly a third of the individuals had spent their early years more than 100 kilometers away, suggesting that movement between rural communities was far more common than historians had believed.",
@@ -443,6 +465,7 @@
     }
   },
   {
+    "id": "rw-other-023",
     "skill": "RW.INI.CID.DETAIL",
     "difficulty": "hard",
     "passage": "Many desert plants open their stomata, the pores through which they take in carbon dioxide, only at night, when cooler air means less water escapes. Botanist Tomás Ibarra noticed that a species of agave in the Sonoran Desert sometimes kept its stomata open well into the morning. Measuring the plants across a full year, he found that this happened only in the weeks after heavy rain, when the soil held enough moisture to offset the water lost during daytime gas exchange. In drier months, the agave reverted to strictly nighttime opening.",

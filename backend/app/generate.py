@@ -134,7 +134,8 @@ def shuffle(item: RWItem, rng: random.Random) -> RWItem:
 
 
 def gen_prompt(skill: str, name: str, difficulty: str, examples: list[RWItem], topic: str) -> str:
-    ex = "\n".join(e.model_dump_json(exclude_none=True) for e in examples) or "(none yet)"
+    ex = "\n".join(e.model_dump_json(exclude_none=True, exclude={"id", "modeled_on"}) for e in examples)
+    ex = ex or "(none yet)"
     return (
         f"Write one new {difficulty} item for sub-skill {skill}: {name}.\n"
         f"Topic area: {topic}.\nTypical question wording: {stem_hint(skill)}\n"
@@ -214,7 +215,7 @@ class Pipeline:
         item = self._call(SYSTEM, gen_prompt(skill, name, difficulty, examples, topic), RWItem)
         if item is None:
             return None
-        item = strip_labels(item.model_copy(update={"skill": skill, "difficulty": difficulty}))
+        item = strip_labels(item.model_copy(update={"skill": skill, "difficulty": difficulty, "id": None}))
         return shuffle(item, random.Random())
 
     def blind_solve(self, item: RWItem) -> BlindSolve | None:
@@ -292,7 +293,8 @@ async def run(
                     continue
                 if out is not None:
                     saved = json.loads(out.read_text()) if out.exists() else []
-                    saved.append(item.model_dump(mode="json", exclude_none=True))
+                    eid = f"rw-{out.stem.replace('_', '-')}-{len(saved) + 1:03d}"
+                    saved.append({"id": eid, **item.model_dump(mode="json", exclude_none=True)})
                     out.write_text(json.dumps(saved, indent=2, ensure_ascii=False) + "\n")
                 if dry_run:
                     print(item.model_dump_json(indent=2, exclude_none=True))

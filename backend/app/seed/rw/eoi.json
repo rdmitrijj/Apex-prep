@@ -1,5 +1,6 @@
 [
  {
+  "id": "rw-eoi-001",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "easy",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -27,6 +28,7 @@
   }
  },
  {
+  "id": "rw-eoi-002",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "medium",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -54,6 +56,7 @@
   }
  },
  {
+  "id": "rw-eoi-003",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "medium",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -81,6 +84,7 @@
   }
  },
  {
+  "id": "rw-eoi-004",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "hard",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -108,6 +112,7 @@
   }
  },
  {
+  "id": "rw-eoi-005",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "easy",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -134,6 +139,7 @@
   }
  },
  {
+  "id": "rw-eoi-006",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "medium",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -161,6 +167,7 @@
   }
  },
  {
+  "id": "rw-eoi-007",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "hard",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -188,6 +195,7 @@
   }
  },
  {
+  "id": "rw-eoi-008",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "medium",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -215,6 +223,7 @@
   }
  },
  {
+  "id": "rw-eoi-009",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "hard",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -242,6 +251,7 @@
   }
  },
  {
+  "id": "rw-eoi-010",
   "skill": "RW.EOI.RS.GOAL",
   "difficulty": "easy",
   "passage": "While researching a topic, a student has taken the following notes:",
@@ -268,6 +278,7 @@
   }
  },
  {
+  "id": "rw-eoi-011",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "easy",
   "passage": "Many people assume that bats are blind. ______ most bat species have functional eyes, and some see quite well in dim light.",
@@ -288,6 +299,7 @@
   }
  },
  {
+  "id": "rw-eoi-012",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "medium",
   "passage": "The first steam-powered road vehicles were built in the late eighteenth century. ______ such vehicles did not become practical for everyday travel until more than a century later.",
@@ -308,6 +320,7 @@
   }
  },
  {
+  "id": "rw-eoi-013",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "medium",
   "passage": "Ravens and crows are close relatives and look much alike. ______ ravens are noticeably larger, have wedge-shaped tails, and tend to travel in pairs rather than in large flocks.",
@@ -328,6 +341,7 @@
   }
  },
  {
+  "id": "rw-eoi-014",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "hard",
   "passage": "City planners expected the new toll policy to reduce traffic downtown. ______ congestion actually increased during the first year, as drivers who had once avoided the area took advantage of lower off-peak tolls.",
@@ -348,6 +362,7 @@
   }
  },
  {
+  "id": "rw-eoi-015",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "easy",
   "passage": "Venus is often called Earth's twin because the two planets are similar in size. ______ conditions on Venus are extremely hostile: its surface is hot enough to melt lead.",
@@ -368,6 +383,7 @@
   }
  },
  {
+  "id": "rw-eoi-016",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "medium",
   "passage": "Some critics dismissed the director's first film as a commercial failure. ______ it has since gained a devoted following and is regularly screened at film festivals.",
@@ -388,6 +404,7 @@
   }
  },
  {
+  "id": "rw-eoi-017",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "hard",
   "passage": "In most bird species, males are more brightly colored than females. In the red-necked phalarope, ______ the females are more colorful, and it is the males that incubate the eggs.",
@@ -408,6 +425,7 @@
   }
  },
  {
+  "id": "rw-eoi-018",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "medium",
   "passage": "Early maps of the region showed a large inland lake. ______ later surveys revealed that the \"lake\" was actually a seasonal marsh that dried out every summer.",
@@ -428,6 +446,7 @@
   }
  },
  {
+  "id": "rw-eoi-019",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "hard",
   "passage": "The model predicted that the planet's atmosphere would contain abundant methane. Observations from the space telescope, ______ detected only trace amounts of the gas.",
@@ -448,6 +467,7 @@
   }
  },
  {
+  "id": "rw-eoi-020",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "easy",
   "passage": "Lemons are known for their sour taste. Oranges, ______ are usually sweet.",
@@ -468,6 +488,7 @@
   }
  },
  {
+  "id": "rw-eoi-021",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
   "passage": "Heavy rain fell on the valley for three days without stopping. ______ the river overflowed its banks and flooded nearby fields.",
@@ -488,6 +509,7 @@
   }
  },
  {
+  "id": "rw-eoi-022",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
   "passage": "Octopuses have no internal or external skeleton. ______ even large octopuses can squeeze through openings barely wider than their eyes.",
@@ -508,6 +530,7 @@
   }
  },
  {
+  "id": "rw-eoi-023",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
   "passage": "The town's textile factory, which employed nearly half of its residents, closed in 1987. ______ many families moved to nearby cities in search of work.",
@@ -528,6 +551,7 @@
   }
  },
  {
+  "id": "rw-eoi-024",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "hard",
   "passage": "Hummingbirds have extremely high metabolic rates and burn through energy quickly. ______ they must feed every few minutes during the day and enter a state of torpor at night to conserve energy.",
@@ -548,6 +572,7 @@
   }
  },
  {
+  "id": "rw-eoi-025",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
   "passage": "The bakery sold out of flour before 9:00 a.m. ______ it had to close early for the day.",
@@ -568,6 +593,7 @@
   }
  },
  {
+  "id": "rw-eoi-026",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
   "passage": "Sea turtle hatchlings find the ocean by crawling toward the brightest horizon, so artificial lights can lead them astray. ______ many coastal towns now require beachfront buildings to dim their lights during nesting season.",
@@ -588,6 +614,7 @@
   }
  },
  {
+  "id": "rw-eoi-027",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "hard",
   "passage": "The novel's first edition was printed on cheap, acidic paper that yellows and crumbles over time. ______ surviving copies in good condition are rare and highly prized by collectors.",
@@ -608,6 +635,7 @@
   }
  },
  {
+  "id": "rw-eoi-028",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
   "passage": "Unlike many vaccines, the new one does not need to be refrigerated. ______ it can be shipped to remote regions that lack reliable electricity.",
@@ -628,6 +656,7 @@
   }
  },
  {
+  "id": "rw-eoi-029",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "hard",
   "passage": "Because the island had no native mammal predators, many of its birds evolved without the ability to fly. ______ when ships brought rats and cats to the island in the nineteenth century, these birds were especially vulnerable.",
@@ -648,6 +677,7 @@
   }
  },
  {
+  "id": "rw-eoi-030",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
   "passage": "Overnight, a layer of ice covered the mountain trail. ______ park rangers closed it to hikers for the day.",
@@ -668,6 +698,7 @@
   }
  },
  {
+  "id": "rw-eoi-031",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
   "passage": "Many animals besides humans use tools. ______ chimpanzees strip leaves from twigs and use them to fish termites out of their mounds.",
@@ -688,6 +719,7 @@
   }
  },
  {
+  "id": "rw-eoi-032",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
   "passage": "The architect designs her buildings to conserve energy. Their thick walls keep interiors cool in summer. ______ their large south-facing windows capture sunlight for warmth in winter.",
@@ -708,6 +740,7 @@
   }
  },
  {
+  "id": "rw-eoi-033",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
   "passage": "Making paper by hand involves several steps. First, plant fibers are soaked and beaten into a pulp. ______ the pulp is spread onto a fine screen and pressed to remove water.",
@@ -728,6 +761,7 @@
   }
  },
  {
+  "id": "rw-eoi-034",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "hard",
   "passage": "The paleontologist argued that the fossil belonged not to a new species but to a juvenile of a known one. ______ the features others had considered unique, such as its small size and unfused skull bones, were simply signs of immaturity.",
@@ -748,6 +782,7 @@
   }
  },
  {
+  "id": "rw-eoi-035",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
   "passage": "Volunteers at the animal shelter walk the dogs every morning. ______ they clean the kennels and refill the water bowls.",
@@ -768,6 +803,7 @@
   }
  },
  {
+  "id": "rw-eoi-036",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
   "passage": "Some plants defend themselves with chemicals. Milkweed, ______ produces a toxic sap that deters many insects.",
@@ -788,6 +824,7 @@
   }
  },
  {
+  "id": "rw-eoi-037",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "hard",
   "passage": "The documentary's interviews are revealing, and its archival footage is often stunning. ______ its score, played entirely on restored nineteenth-century instruments, gives the film a haunting atmosphere.",
@@ -808,6 +845,7 @@
   }
  },
  {
+  "id": "rw-eoi-038",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
   "passage": "To make meringue, whisk the egg whites until stiff peaks form. ______ add the sugar slowly, one spoonful at a time.",
@@ -828,6 +866,7 @@
   }
  },
  {
+  "id": "rw-eoi-039",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "hard",
   "passage": "The city's 1890 census listed an occupation for nearly every adult resident. ______ it recorded not only each person's trade but also the address of their workplace, allowing historians to map the city's economy block by block.",
@@ -848,6 +887,7 @@
   }
  },
  {
+  "id": "rw-eoi-040",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
   "passage": "The museum offers free admission on Sundays. ______ guided tours are free on the first Sunday of every month.",

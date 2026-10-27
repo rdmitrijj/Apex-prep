@@ -3,6 +3,7 @@ from typing import Any, Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 Letter = Literal["A", "B", "C", "D"]
+SEED_ID = r"^[a-z0-9][a-z0-9_-]{2,63}$"
 Difficulty = Literal["easy", "medium", "hard"]
 
 
@@ -77,6 +78,9 @@ class RWItem(BaseModel):
     """A Reading & Writing item: the on-disk seed format and the LLM pipeline's output schema."""
 
     model_config = ConfigDict(extra="forbid")
+    # Stable seed key (questions.external_id); the LLM pipeline leaves it empty and --out assigns one.
+    id: str | None = Field(default=None, pattern=SEED_ID)
+    modeled_on: str | None = None  # imported mistake or reference example this item twins
     skill: str = Field(pattern=r"^RW\.[A-Z]+\.[A-Z]+\.[A-Z]+$")
     difficulty: Difficulty
     passage: str = Field(min_length=20, max_length=1400)
@@ -106,6 +110,40 @@ class RWItem(BaseModel):
             raise ValueError("quantitative evidence items need a figure")
         if self.skill.startswith("RW.CAS.TSP.FUNCTION") and "<u>" not in self.passage:
             raise ValueError("function items need an <u>underlined</u> portion")
+        return self
+
+
+class MathItem(BaseModel):
+    """A hand-written math item (seed/math/*.json). `check` and `values` are SymPy expressions that
+    app.validate evaluates to prove the key right and every other choice wrong."""
+
+    model_config = ConfigDict(extra="forbid")
+    id: str = Field(pattern=SEED_ID)
+    modeled_on: str | None = None
+    skill: str = Field(pattern=r"^MATH\.[A-Z]+\.[A-Z0-9]+\.[A-Z]+$")
+    difficulty: Difficulty
+    format: Literal["mc", "spr"]
+    stem: str = Field(min_length=10)
+    figure: dict[str, Any] | None = None
+    choices: list[str] | None = Field(default=None, min_length=4, max_length=4)
+    values: list[str] | None = Field(default=None, min_length=4, max_length=4)  # SymPy, one per choice
+    answer: Letter | None = None
+    rationales: Rationales | None = None
+    check: str  # SymPy expression for the key, computed from the problem's givens
+    # Stems with several possible right answers ("which is a zero"): an expression in v (or X, Y for a
+    # point) that is true, or zero, exactly for right answers. Every choice is screened with it.
+    accepts: str | None = None
+    spr_answers: list[str] | None = None  # exact keys, e.g. "59/9"
+    spr_entries: list[str] | None = None  # sample entries that must be graded correct ("6.555", ".9333")
+    explanation: list[str] = Field(min_length=1)
+
+    @model_validator(mode="after")
+    def _shape(self) -> "MathItem":
+        mc = (self.choices, self.values, self.answer, self.rationales)
+        if self.format == "mc" and any(v is None for v in mc):
+            raise ValueError("mc items need choices, values, answer, and rationales")
+        if self.format == "spr" and (self.spr_answers is None or any(v is not None for v in mc)):
+            raise ValueError("spr items need spr_answers and no choices")
         return self
 
 
