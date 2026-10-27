@@ -1,6 +1,6 @@
 # Apex Prep
 
-https://apex-prep.onrender.com
+https://apexprep.duckdns.org
 
 Digital SAT prep app. Anyone can register; each account sets its own test date, total target, and optional section minimums, and the plan, training weights, and dashboard adapt to them.
 
