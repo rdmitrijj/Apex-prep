@@ -1,9 +1,9 @@
 # CLAUDE.md
 
-Digital SAT prep app (FastAPI + React + PostgreSQL), open registration. Each user sets goals at sign-up (`users.test_date`, `target_total`, optional `target_math`/`target_rw` minimums; editable at /goals). `engine/goals.py` turns them into section targets and a weakness boost (up to 1.3× for the section with the higher target); the weekly plan counts down to the user's test date. The owner's account was migrated with 2026-12-05 / 1350 / Math 700 (Aalto bar).
+Digital SAT prep app (FastAPI + React + PostgreSQL), open registration. Each user sets goals at sign-up (`users.test_date`, `target_total`, optional `target_math`/`target_rw` minimums; editable at /goals). `engine/goals.py` turns them into section targets and a weakness boost (up to 1.3× for the section further from its target, measured from the latest official score; up to 1.5× more for domains the latest score report's Knowledge & Skills bars show as weak); the weekly plan counts down to the user's test date. The owner's account was migrated with 2026-12-05 / 1350 / Math 700 (Aalto bar); their current target is LUT's 1300 with R&W 600 / Math 700, set at /goals.
 
 ## Status
-Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. All milestones M1–M7 are done (see PLAN.md). R&W bank: ≥10 items per sub-skill (303 hand-written + 71 LLM items in `seed/rw/llm_*.json`, shipped via seed). The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
+Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. All milestones M1–M7 are done (see PLAN.md). Seed bank: 440 R&W items (every passage 25–150 words) and 54 hand-written math twins in `seed/math/`, all with stable `id`s; math otherwise comes from the generators. The owner's Bluebook PT4 misses (paraphrases only, never official text) live in `seed/imports/` and are loaded per user, not by the seed. The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
 
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
@@ -26,6 +26,7 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 
 ## Commands
 - DB: `docker compose up -d db` (tests create/wipe `apex_test` themselves)
+- Import official-test mistakes for a user: `uv run python -m app.import_mistakes --email <email>` (idempotent; default file `app/seed/imports/bluebook_pt4.json`).
 - Backend: `cd backend && uv run pytest -q` (`GEN_SEEDS=20` speeds up the generator suite; CI runs the default 200), `uv run ruff check . && uv run ruff format --check .`, `uv run mypy`
 - New migration: `uv run alembic revision --autogenerate -m <slug>`, then rename the file to `NNNN_<slug>.py` and set `revision = "NNNN"`.
 - Frontend: `cd frontend && yarn lint && yarn typecheck && yarn test`
@@ -35,7 +36,10 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 ## Gotchas
 - Generators: SymPy auto-distributes `3*(x+2)` into `3x+6`, so stems that must show the unexpanded form build their LaTeX by hand. Compare SymPy numbers with `==` only against Rationals (`Integer(2) == 2.0` is False in SymPy ≥1.13).
 - R&W generation (`app/generate.py`): pass `--budget-usd` (hard spend cap; ~$0.05 per accepted item on Opus 5.5) and `--out app/seed/rw/llm_<name>.json` so items reach every environment via the seed. A structured-output field named like `reasoning` trips the reasoning-extraction safeguard (refusal); keep the blind-solve field a short `justification`. Choices are reshuffled after generation because the model favors certain letters.
-- Seed data (`python -m app.seed`) runs on every container start and is idempotent via `questions.content_hash`.
+- Seed data (`python -m app.seed`) runs on every container start and upserts by `questions.external_id` (the item's `id`): editing an item updates its row in place; items removed from the files are quarantined, never deleted. Never reuse or renumber an `id`.
+- Run `uv run python -m app.validate` before committing question content (CI runs it). Math seed items need a SymPy `check` and per-choice `values`; stems like "Which … is a …" / "could be" need `accepts` (seed) or `correct=` (generators), or they're rejected.
+- The root `.env` points at a production database. Any local alembic/seed/import command must set **both** `DATABASE_URL` and `DATABASE_URL_DIRECT` (Alembic prefers the direct URL).
+- Local e2e: the sign-up throttle allows 5 registrations per IP per 15 minutes, so restart the API between spec batches.
 - Session cookie is always `Secure`. Browsers allow that on http://localhost, but httpx tests must use an `https://` base URL.
 - Neon URLs go through `normalize_db_url` (strips sslmode/channel_binding; `-pooler` host disables statement caches).
 - On Render (`RENDER=true`), startup fails unless `SECRET_KEY` is set to 32+ characters.

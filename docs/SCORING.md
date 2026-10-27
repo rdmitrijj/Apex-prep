@@ -50,7 +50,7 @@ How it behaves: one pair moves the scale most of the way toward the official sco
 Per sub-skill (`weakness.py`):
 
 ```
-score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · √(weight / mean leaf weight) · boost[section]
+score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · √(weight / mean leaf weight) · boost[section] · bars[domain]
 ```
 
 | Term | Meaning |
@@ -61,7 +61,10 @@ score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · �
 | decay | days since last practice, saturating at 21 |
 | due | spaced-repetition review is due (section 7) |
 | weight | the sub-skill's share of the test (`taxonomy.json`) |
-| boost | from the user's goals (`goals.py`): section targets are the optional section minimums, else what the total leaves (half each by default). The section with the higher target gets 1 + 0.006 per point of lead, capped at 1.3× (a 50-point lead, e.g. 700 Math in a 1350 total) |
+| boost | from the user's goals (`goals.py`): section targets are the optional section minimums, else what the total leaves (half each by default). With an official score logged, the section with the bigger gap from its latest official score to its target gets 1 + 0.006 per point of difference in gaps; without one, the section with the higher target does. Capped at 1.3× (a 50-point difference) |
+| bars | Knowledge & Skills bars from the latest official score report (`official_scores.domain_bars`, filled segments out of 7): 1 + 0.5 × unfilled share, so a 2-of-7 domain counts 1.36×. 1.0 when there's no report |
+
+**Imported mistakes** (`imported_mistakes`, loaded by `python -m app.import_mistakes`) count as exam misses dated to the test day, so they decay like any other answer.
 
 Untried skills score in the middle: they rank below skills you've been missing and above skills you've mastered. **Mastery** in the heatmap is `p(correct)` on a medium item at θ.
 
@@ -70,6 +73,8 @@ Untried skills score in the middle: they rank below skills you've been missing a
 ## 7. Spaced repetition
 
 `srs.py`, per sub-skill: intervals of 1 → 3 → 7 → 14 days. A correct answer **on or after** the due date moves up one interval; practising early doesn't extend it. A miss resets to 1 day at any time. The schedule updates on drill and training answers and when exam modules close. Due skills get the `due` term above and show "Due for review".
+
+**Imported mistakes** have their own schedule on the same intervals: due the day they're imported, then moved by answers to their linked twin questions. A mistake retires once every twin has been answered correctly on at least two separate (UTC) days. A due, unretired mistake also marks its sub-skill due.
 
 ## 8. Weekly plan
 
