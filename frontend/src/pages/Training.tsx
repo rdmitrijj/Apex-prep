@@ -1,14 +1,25 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { trainingNext, useExamMisses, useWeaknesses, type ExamMisses, type Section } from "../api/exam";
+import { useSkills } from "../api/drill";
+import { SECTION_NAME, trainingNext, useExamMisses, useWeaknesses, type ExamMisses, type Section, type WeaknessRow } from "../api/exam";
 import { Shell } from "../components/Shell";
 import { WeaknessList } from "../components/WeaknessList";
 import { Session } from "./Drill";
 
 type Scope = "exam" | "all";
 
+// Per section, the domain holding the top-ranked weakness (what training serves first).
+function topDomains(rows: WeaknessRow[], names: Map<string, string>) {
+  return (["RW", "MATH"] as Section[]).flatMap((section) => {
+    const top = rows.find((w) => w.section === section);
+    const id = top?.skill_id.split(".").slice(0, 2).join(".");
+    return id ? [{ id, name: names.get(id) ?? id, section }] : [];
+  });
+}
+
 export function Training() {
-  const weak = useWeaknesses(40);
+  const weak = useWeaknesses(100);
+  const skills = useSkills();
   const misses = useExamMisses();
   const [section, setSection] = useState<Section | null>(null);
   const [count, setCount] = useState(20);
@@ -22,6 +33,7 @@ export function Training() {
         <Session count={count} mode="training" fetchNext={(exclude) => trainingNext({ exclude_ids: exclude, section, last_exam: scope === "exam" })} onDone={() => setRunning(false)} />
       </Shell>
     );
+  const areas = topDomains(weak.data ?? [], new Map(skills.data?.map((n) => [n.id, n.name])));
   const rows = (weak.data ?? []).filter((w) => section === null || w.section === section).slice(0, 10);
   const open = (misses.data?.open ?? []).filter((m) => section === null || m.section === section);
   return (
@@ -31,8 +43,13 @@ export function Training() {
         <p className="text-slate-600">
           {scope === "exam"
             ? `Only the skills you missed in your last practice exam. A skill is cleared once you answer ${misses.data?.clear_streak ?? 15} of its questions correctly in a row; a miss restarts the count.`
-            : "Questions come from the skills where you lose the most points: misses, slow answers, and skills you haven't practised lately, weighted by how often they appear on the test (the section your goals need more from counts up to 1.3×)."}{" "}
+            : "Questions come from the skills where you lose the most points: misses, slow answers, and skills you haven't practised lately, weighted by how often they appear on the test. The section further from its target counts up to 1.3×, and domains your latest official score report shows as weak up to 1.5×. Misses from imported official tests count too."}{" "}
           Difficulty adapts so you get about two in three right.
+          {areas.length > 0 && !weak.data?.every((w) => w.attempts === 0) && (
+            <span className="mt-2 block">
+              Weakest areas right now: {areas.map((a, i) => <span key={a.id}>{i > 0 && " · "}<strong>{a.name}</strong> ({SECTION_NAME[a.section]})</span>)}
+            </span>
+          )}
           {weak.data?.every((w) => w.attempts === 0) && <> Take a <Link to="/exam" className="text-brand-700 underline">practice exam</Link> first so this knows where you stand.</>}
         </p>
         <div className="flex flex-wrap items-end gap-4">

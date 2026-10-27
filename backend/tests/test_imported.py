@@ -74,5 +74,10 @@ async def test_import_shows_up_and_retires_after_two_days(user: AsyncClient) -> 
     assert rows[first["id"]]["retired"] and not rows[first["id"]]["due"]
     assert len((await user.get("/api/imported-mistakes?due=true")).json()) == 32
 
+    assert (await user.get("/api/activity/today")).json() == {
+        "answered": 3,
+        "correct": 3,
+    }  # 3 moved to yesterday
+
     r = await user.put(f"/api/imported-mistakes/{first['id']}/reason", json={"miss_reason": "careless"})
     assert r.status_code == 204

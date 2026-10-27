@@ -59,6 +59,7 @@ export function QuestionView({
   error,
   onSubmit,
   given = null,
+  submitLabel = "Check answer",
 }: {
   q: Question;
   feedback: Feedback | null;
@@ -66,6 +67,7 @@ export function QuestionView({
   error: string | null;
   onSubmit: (answer: string) => void;
   given?: string | null; // review mode: the answer given earlier
+  submitLabel?: string;
 }) {
   const [choice, setChoice] = useState<string | null>(q.format === "mc" ? given : null);
   const [entry, setEntry] = useState(q.format === "spr" ? (given ?? "") : "");
@@ -146,7 +148,7 @@ export function QuestionView({
         </div>
       ) : (
         <button type="button" onClick={submit} disabled={!canSubmit} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600 disabled:opacity-50">
-          Check answer
+          {submitLabel}
         </button>
       )}
       <div>

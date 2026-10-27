@@ -36,6 +36,9 @@ export function Shell({ children }: { children: ReactNode }) {
           <NavLink to="/training" className={link}>
             Weakness Training
           </NavLink>
+          <NavLink to="/triage" className={link}>
+            Triage
+          </NavLink>
           <NavLink to="/mistakes" className={link}>
             Mistakes
           </NavLink>

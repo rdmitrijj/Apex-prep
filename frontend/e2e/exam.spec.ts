@@ -161,7 +161,7 @@ test("timer: 5-minute alert, then the module submits itself at 0:00", async ({ p
   await expect(page.getByRole("timer")).toBeHidden();
 
   await page.clock.fastForward("30:30");
-  await expect(page.getByRole("alert")).toHaveText(/5 minutes remaining/);
+  await expect(page.getByRole("alert")).toHaveText(/5 minutes left: guess on every unanswered question/);
   await expect(page.getByRole("timer")).toBeVisible(); // can't stay hidden in the last 5 minutes
   await page.clock.fastForward("05:00");
   await expect(page.getByRole("heading", { name: "Math: Module 2" })).toBeVisible();

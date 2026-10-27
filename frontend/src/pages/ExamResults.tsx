@@ -7,7 +7,7 @@ import { MissReason } from "../components/MissReason";
 import { QuestionView } from "../components/QuestionView";
 import { Shell } from "../components/Shell";
 
-type Filter = "all" | "wrong" | "flagged" | "slow";
+type Filter = "all" | "wrong" | "omitted" | "flagged" | "slow";
 
 function ScoreCard({ label, score, target, margin }: { label: string; score: number; target?: number; margin?: number }) {
   return (
@@ -118,9 +118,10 @@ export function ExamResults() {
   const shown = r.items
     .map((item, i) => ({ item, n: i + 1 }))
     .filter(({ item }) =>
-      filter === "wrong" ? !item.correct : filter === "flagged" ? item.flagged : filter === "slow" ? item.time_ms / TARGET_SECONDS[item.section] >= slowRatio && item.time_ms > 0 : true,
+      filter === "wrong" ? !item.correct : filter === "omitted" ? item.answer === null : filter === "flagged" ? item.flagged : filter === "slow" ? item.time_ms / TARGET_SECONDS[item.section] >= slowRatio && item.time_ms > 0 : true,
     );
   const wrong = r.items.filter((i) => !i.correct && !i.pretest).length;
+  const omitted = r.items.filter((i) => i.answer === null && !i.pretest).length;
 
   return (
     <Shell>
@@ -145,7 +146,9 @@ export function ExamResults() {
         </p>
         <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl bg-brand-50 p-5 ring-1 ring-brand-100">
           <div>
-            <p className="font-semibold">{wrong} scored questions missed</p>
+            <p className="font-semibold">
+              {wrong} scored questions missed{omitted > 0 && <span className="text-red-700">, {omitted} of them left blank. Guess on every question: blanks always score zero.</span>}
+            </p>
             <Pace items={r.items} section="RW" />
             <Pace items={r.items} section="MATH" />
           </div>
@@ -158,9 +161,9 @@ export function ExamResults() {
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
             <h2 className="text-lg font-semibold">Question review</h2>
             <div className="flex gap-1 text-sm" role="group" aria-label="Filter questions">
-              {(["all", "wrong", "flagged", "slow"] as Filter[]).map((f) => (
+              {(["all", "wrong", "omitted", "flagged", "slow"] as Filter[]).map((f) => (
                 <button key={f} type="button" aria-pressed={filter === f} onClick={() => setFilter(f)} className={`rounded-full px-3 py-1 ${filter === f ? "bg-brand-700 text-white" : "bg-slate-100"}`}>
-                  {{ all: "All", wrong: "Incorrect", flagged: "Marked", slow: "Slowest" }[f]}
+                  {{ all: "All", wrong: "Incorrect", omitted: "Omitted", flagged: "Marked", slow: "Slowest" }[f]}
                 </button>
               ))}
             </div>

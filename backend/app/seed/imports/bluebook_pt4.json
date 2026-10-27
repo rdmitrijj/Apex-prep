@@ -6,6 +6,16 @@
   "rw": 480,
   "math": 580
  },
+ "domain_bars": {
+  "RW.INI": 5,
+  "RW.CAS": 2,
+  "RW.EOI": 4,
+  "RW.SEC": 4,
+  "MATH.ALG": 5,
+  "MATH.ADV": 5,
+  "MATH.PSD": 6,
+  "MATH.GEO": 4
+ },
  "note": "Paraphrases only: never store official question text, passages, or answer choices here.",
  "mistakes": [
   {

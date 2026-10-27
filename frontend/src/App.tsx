@@ -12,6 +12,7 @@ const ExamHome = lazy(() => import("./pages/Exam").then((m) => ({ default: m.Exa
 const ExamResults = lazy(() => import("./pages/ExamResults").then((m) => ({ default: m.ExamResults })));
 const ExamRunner = lazy(() => import("./pages/ExamRunner").then((m) => ({ default: m.ExamRunner })));
 const Mistakes = lazy(() => import("./pages/Mistakes").then((m) => ({ default: m.Mistakes })));
+const Triage = lazy(() => import("./pages/Triage").then((m) => ({ default: m.Triage })));
 const Training = lazy(() => import("./pages/Training").then((m) => ({ default: m.Training })));
 
 function RequireAuth({ children }: { children: ReactNode }) {
@@ -42,6 +43,7 @@ export function App() {
         ["/exam/:id", <ExamRunner />],
         ["/exam/:id/results", <ExamResults />],
         ["/training", <Training />],
+        ["/triage", <Triage />],
         ["/mistakes", <Mistakes />],
         ["/plan", <PlanPage />],
         ["/goals", <Goals />],

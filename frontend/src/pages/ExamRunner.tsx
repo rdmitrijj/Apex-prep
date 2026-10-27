@@ -422,7 +422,7 @@ function Module({ exam, onState, refetch }: { exam: ExamState; onState: (s: Exam
       </header>
       {banner && (
         <div role="alert" className="flex items-center justify-center gap-4 bg-amber-100 py-2 text-sm">
-          5 minutes remaining in this module.
+          5 minutes left: guess on every unanswered question{unanswered > 0 ? ` (${unanswered} blank)` : ""}. Wrong answers cost nothing.
           <button type="button" onClick={() => setBanner(false)} className="underline">Dismiss</button>
         </div>
       )}

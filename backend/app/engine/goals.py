@@ -34,3 +34,12 @@ def priority(targets: dict[str, int] | None, current: dict[str, int] | None = No
     """The section the goals lean on (Math on a tie)."""
     b = section_boost(targets, current)
     return "RW" if b["RW"] > b["MATH"] else "MATH"
+
+
+BAR_SEGMENTS = 7
+
+
+def domain_boost(bars: dict[str, int] | None) -> dict[str, float]:
+    """Weakness multiplier per domain from an official score report's Knowledge & Skills bars:
+    1 + 0.5 x the share of segments not filled (a 2-of-7 domain counts about 1.36x)."""
+    return {d: 1 + 0.5 * (BAR_SEGMENTS - n) / BAR_SEGMENTS for d, n in (bars or {}).items()}

@@ -70,6 +70,7 @@ async def load(db: AsyncSession, user_id: int, doc: dict[str, Any]) -> dict[str,
                 label=doc["label"],
                 rw=doc["scores"]["rw"],
                 math=doc["scores"]["math"],
+                domain_bars=doc.get("domain_bars"),
             )
         )
         await db.flush()

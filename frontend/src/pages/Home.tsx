@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useMe } from "../api/auth";
 import { useSkills } from "../api/drill";
-import { SECTION_NAME, fmtDate, useExams, useOfficialScores, usePlan, useWeaknesses } from "../api/exam";
+import { SECTION_NAME, fmtDate, useExams, useOfficialScores, usePlan, useToday, useWeaknesses } from "../api/exam";
 import { MasteryHeatmap } from "../components/MasteryHeatmap";
 import { ScoreTrend, type TrendPoint } from "../components/ScoreTrend";
 import { Shell } from "../components/Shell";
@@ -29,9 +29,17 @@ export function Home() {
   const plan = usePlan();
   const done = exams.data?.filter((e) => e.status === "completed") ?? [];
   const active = exams.data?.find((e) => e.status === "in_progress");
-  // Latest estimate per section, from any finished exam (section-only exams count too).
-  const rw = done.find((e) => e.rw_score !== null)?.rw_score ?? null;
-  const math = done.find((e) => e.math_score !== null)?.math_score ?? null;
+  const answeredToday = useToday().data;
+  // Latest score per section: the newest finished in-app exam (section-only ones count) or official test.
+  const latest = (key: "rw" | "math") =>
+    [
+      ...done.map((e) => ({ at: e.completed_at ?? e.created_at, v: key === "rw" ? e.rw_score : e.math_score })),
+      ...(official.data?.scores ?? []).map((o) => ({ at: o.taken_on + "T12:00:00", v: o[key] })),
+    ]
+      .filter((p) => p.v !== null)
+      .sort((a, b) => b.at.localeCompare(a.at))[0]?.v ?? null;
+  const rw = latest("rw");
+  const math = latest("math");
   const now = { Total: rw !== null && math !== null ? rw + math : null, Math: math, RW: rw };
   const fresh = exams.isSuccess && official.isSuccess && done.length === 0 && official.data.scores.length === 0;
   const today = plan.data?.days.find((d) => d.date === plan.data.today);
@@ -47,10 +55,15 @@ export function Home() {
           <section className={card}>
             <p className="text-sm uppercase tracking-wide text-slate-500">Test day · {fmtDate(testDay)}</p>
             <p className="mt-1 text-4xl font-bold text-brand-700">{days} days left</p>
+            {answeredToday && (
+              <p className="mt-2 text-sm text-slate-700">
+                Today: <strong>{answeredToday.answered}</strong> questions answered{answeredToday.answered > 0 && `, ${answeredToday.correct} correct`}
+              </p>
+            )}
             <Link to="/goals" className="mt-2 inline-block text-sm text-brand-700 hover:underline">Change goals →</Link>
           </section>
           <section className={`${card} md:col-span-2`}>
-            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest estimate vs. your goal{stretch > me.target_total! && ` (and ${stretch} stretch)`}</p>
+            <p className="mb-3 text-sm uppercase tracking-wide text-slate-500">Latest score vs. your goal{stretch > me.target_total! && ` (and ${stretch} stretch)`}</p>
             {goals.map((g) => {
               const v = now[g.key];
               return (

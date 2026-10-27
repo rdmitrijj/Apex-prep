@@ -1,7 +1,8 @@
 """Weakness score per sub-skill: how much practising it is likely to move the score.
 
 score = (0.45·need + 0.30·errors + 0.15·pace + 0.10·decay + 0.15·due) · sqrt(weight / mean leaf weight)
-        · section boost (engine/goals.py: up to 1.3 for the section the user's goals lean on)
+        · section boost (engine/goals.py: up to 1.3 for the section further from its target)
+        · domain boost (up to 1.5 for domains the latest official score report shows as weak)
 
 - need: chance of missing a medium-hard item (b = 0.5) at the skill's recency-weighted ability
 - errors: recency-weighted error rate, smoothed toward 50%

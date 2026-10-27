@@ -213,6 +213,8 @@ class OfficialScore(Base):
     label: Mapped[str] = mapped_column(String(100), server_default="")
     rw: Mapped[int] = mapped_column(SmallInteger)
     math: Mapped[int] = mapped_column(SmallInteger)
+    # Knowledge & Skills bars from the score report: domain id -> filled segments out of 7.
+    domain_bars: Mapped[dict[str, int] | None] = mapped_column(Json)
     __table_args__ = (
         CheckConstraint("rw BETWEEN 200 AND 800 AND rw % 10 = 0", name="rw_range"),
         CheckConstraint("math BETWEEN 200 AND 800 AND math % 10 = 0", name="math_range"),

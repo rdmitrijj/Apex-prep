@@ -90,7 +90,7 @@ function ImportedRow({ m }: { m: Imported }) {
     <li className="py-2">
       <button type="button" aria-expanded={open} onClick={() => setOpen((o) => !o)} className="flex w-full flex-wrap items-center gap-x-3 text-left text-sm hover:bg-slate-50">
         <span className="rounded bg-brand-50 px-2 text-xs font-medium text-brand-900 ring-1 ring-brand-100">{m.badge}</span>
-        <span className="w-16 text-slate-600">M{m.module} Q{m.question_number}</span>
+        <span className="w-28 text-slate-600">{m.section === "RW" ? "R&W" : "Math"} M{m.module} Q{m.question_number}</span>
         <span className="flex-1">{m.skill_name} <span className="text-slate-500">· {m.result === "omitted" ? "left blank" : "incorrect"}</span></span>
         {status(m)}
       </button>

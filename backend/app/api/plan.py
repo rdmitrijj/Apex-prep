@@ -4,10 +4,10 @@ from typing import Any
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from fastapi import APIRouter, HTTPException
-from sqlalchemy import select
+from sqlalchemy import func, select
 
 from app.api.deps import DB, CurrentUser
-from app.api.training import compute, latest_official
+from app.api.training import compute, current, latest_official
 from app.engine import irt
 from app.engine.goals import priority
 from app.engine.plan import Focus, monday, week_plan
@@ -52,7 +52,7 @@ async def _build(db: DB, user: User, week_start: Any, today: Any) -> dict[str, A
         [Focus(s.id, s.name, s.section, irt.target_difficulty(w.theta)) for w, s in focus],
         has_exam,
         user.test_date,
-        priority(user.section_targets, await latest_official(db, user.id)),
+        priority(user.section_targets, current(await latest_official(db, user.id))),
     )
 
 
@@ -128,3 +128,18 @@ async def get_plan(db: DB, user: CurrentUser, tz: str = "UTC", rebuild: bool = F
         for day in plan["days"]
     ]
     return plan
+
+
+@router.get("/activity/today")
+async def today(db: DB, user: CurrentUser, tz: str = "UTC") -> dict[str, int]:
+    """Practice questions answered today (drill, training, triage) in the user's time zone."""
+    zone = _zone(tz)
+    start = datetime.combine(datetime.now(zone).date(), time(), tzinfo=zone).astimezone(UTC)
+    answered, correct = (
+        await db.execute(
+            select(func.count(), func.count().filter(Response.correct.is_(True))).where(
+                Response.user_id == user.id, Response.created_at >= start, Response.mode != "exam"
+            )
+        )
+    ).one()
+    return {"answered": answered, "correct": correct}

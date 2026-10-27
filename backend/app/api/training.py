@@ -10,7 +10,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api.deps import DB, CurrentUser
 from app.engine import irt
-from app.engine.goals import section_boost
+from app.engine.goals import domain_boost, section_boost
 from app.engine.weakness import Attempt, Weakness, weakness
 from app.generators.core import DIFFICULTY_RATING
 from app.models import (
@@ -73,21 +73,26 @@ class TrainingQuestion(BaseModel):
     reasons: list[str]
 
 
-async def latest_official(db: AsyncSession, user_id: int) -> dict[str, int] | None:
-    """Section scores of the most recent official test, the 'current' level for goal gaps."""
-    o = await db.scalar(
+async def latest_official(db: AsyncSession, user_id: int) -> OfficialScore | None:
+    """The most recent official test: the 'current' level for goal gaps and domain bars."""
+    return await db.scalar(
         select(OfficialScore)
         .where(OfficialScore.user_id == user_id)
         .order_by(OfficialScore.taken_on.desc(), OfficialScore.id.desc())
         .limit(1)
     )
+
+
+def current(o: OfficialScore | None) -> dict[str, int] | None:
     return {"RW": o.rw, "MATH": o.math} if o else None
 
 
 async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
     """Every sub-skill with its weakness score, highest first. Uses all graded responses."""
     user_id = user.id
-    boost = section_boost(user.section_targets, await latest_official(db, user_id))
+    latest = await latest_official(db, user_id)
+    boost = section_boost(user.section_targets, current(latest))
+    by_domain = domain_boost(latest.domain_bars if latest else None)
     leaves = (await db.scalars(select(Skill).where(Skill.level == "subskill"))).all()
     rows = (
         await db.execute(
@@ -147,7 +152,7 @@ async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
                 mean[s.section],
                 by_skill.get(s.id, []),
                 s.id in due,
-                boost[s.section],
+                boost[s.section] * by_domain.get(".".join(s.id.split(".")[:2]), 1.0),
             ),
             s,
         )

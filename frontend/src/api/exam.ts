@@ -147,3 +147,5 @@ export type Plan = {
 const TZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
 export const usePlan = () => useQuery({ queryKey: ["plan"], queryFn: () => api<Plan>(`/plan?tz=${encodeURIComponent(TZ)}`) });
 export const rebuildPlan = () => api<Plan>(`/plan?tz=${encodeURIComponent(TZ)}&rebuild=true`);
+export const useToday = () =>
+  useQuery({ queryKey: ["today"], queryFn: () => api<{ answered: number; correct: number }>(`/activity/today?tz=${encodeURIComponent(TZ)}`) });

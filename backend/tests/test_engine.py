@@ -214,3 +214,7 @@ def test_goals_set_section_targets_and_boost() -> None:
     lut = section_targets(1300, 700, 600)
     assert section_boost(lut, {"RW": 480, "MATH": 650}) == {"MATH": 1.0, "RW": 1.3}
     assert section_boost(lut, {"RW": 480, "MATH": 580}) == {"MATH": 1.0, "RW": 1.0}
+    from app.engine.goals import domain_boost
+
+    assert domain_boost({"RW.CAS": 2, "MATH.PSD": 7}) == {"RW.CAS": 1 + 0.5 * 5 / 7, "MATH.PSD": 1.0}
+    assert domain_boost(None) == {}
