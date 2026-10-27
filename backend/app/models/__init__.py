@@ -92,6 +92,8 @@ class Question(Base):
     status: Mapped[str] = mapped_column(String(11), server_default="active")
     # sha256 of normalized stem+passage; blocks exact duplicates. Near-dupes are filtered in the pipeline.
     content_hash: Mapped[str] = mapped_column(String(64), unique=True)
+    # Stable key of a seed-file item; the seed updates the row in place when the item is edited.
+    external_id: Mapped[str | None] = mapped_column(String(64), unique=True)
     created_at: Mapped[datetime] = _now()
 
 
@@ -215,3 +217,36 @@ class OfficialScore(Base):
         CheckConstraint("rw BETWEEN 200 AND 800 AND rw % 10 = 0", name="rw_range"),
         CheckConstraint("math BETWEEN 200 AND 800 AND math % 10 = 0", name="math_range"),
     )
+
+
+class ImportedMistake(Base):
+    """A miss from an official practice test, entered by hand. Holds a paraphrase and the lesson,
+    never the official item's text. Counts as an exam miss in weaknesses and has its own review
+    schedule; it retires once its twin questions are all answered right on two separate days."""
+
+    __tablename__ = "imported_mistakes"
+    __table_args__ = (
+        UniqueConstraint("user_id", "external_id"),
+        CheckConstraint("result IN ('incorrect','omitted')", name="result"),
+    )
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
+    external_id: Mapped[str] = mapped_column(String(64))
+    source: Mapped[str] = mapped_column(String(120))
+    taken_on: Mapped[date] = mapped_column(Date)
+    module: Mapped[int] = mapped_column(SmallInteger)
+    question_number: Mapped[int] = mapped_column(SmallInteger)
+    skill_id: Mapped[str] = mapped_column(ForeignKey("skills.id"))
+    difficulty: Mapped[str] = mapped_column(String(6))
+    result: Mapped[str] = mapped_column(String(9))
+    my_answer: Mapped[str | None] = mapped_column(String(120))
+    correct_answer: Mapped[str] = mapped_column(String(120))
+    summary: Mapped[str] = mapped_column(Text)
+    lesson: Mapped[str] = mapped_column(Text)
+    where_to_review: Mapped[str] = mapped_column(String(200))
+    miss_reason: Mapped[str | None] = mapped_column(String(16))
+    linked_ids: Mapped[list[str]] = mapped_column(Json, server_default="[]")  # twin questions.external_id
+    interval_days: Mapped[int | None] = mapped_column(SmallInteger)  # None until the first review
+    due_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    retired_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    created_at: Mapped[datetime] = _now()

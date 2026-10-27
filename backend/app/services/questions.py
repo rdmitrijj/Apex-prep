@@ -10,7 +10,7 @@ from fractions import Fraction
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import exists, func, select
+from sqlalchemy import exists, func, select, update
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -93,8 +93,22 @@ async def insert_question(
     return qid
 
 
+def seed_items() -> list[tuple[str, str, str, str, dict[str, Any]]]:
+    """(external_id, skill, format, difficulty, content) for every seed-file item."""
+    out: list[tuple[str, str, str, str, dict[str, Any]]] = []
+    for r in load_rw_seed():
+        assert r.id, f"seed item without an id: {r.passage[:60]}"
+        out.append((r.id, r.skill, "mc", r.difficulty, rw_content(r)))
+    out += [(m.id, m.skill, m.format, m.difficulty, math_content(m)) for m in load_math_seed()]
+    return out
+
+
 async def seed(db: AsyncSession) -> dict[str, int]:
-    """Idempotent: upsert the taxonomy, insert any seed-bank items not already stored."""
+    """Idempotent: upsert the taxonomy, then every seed item by its external_id.
+
+    An edited item updates its row in place (answers stay linked). Seed rows that are no longer in
+    the files, e.g. old copies from before items had ids, are quarantined, never deleted.
+    """
     for n in load_taxonomy():
         values = {
             "id": n["id"],
@@ -107,18 +121,55 @@ async def seed(db: AsyncSession) -> dict[str, int]:
         await db.execute(
             insert(Skill).values(**values).on_conflict_do_update(index_elements=["id"], set_=values)
         )
-    items = load_rw_seed()
-    for item in items:
-        await insert_question(
-            db,
-            skill_id=item.skill,
-            fmt="mc",
-            difficulty=item.difficulty,
-            content=rw_content(item),
-            source="seed",
+    items = seed_items()
+    stored = {
+        q.external_id: q for q in await db.scalars(select(Question).where(Question.external_id.is_not(None)))
+    }
+    changed = 0
+    for eid, skill, fmt, diff, content in items:
+        h = content_hash(content)
+        q = stored.get(eid)
+        if q is None:
+            q = await db.scalar(select(Question).where(Question.content_hash == h))
+            if q is not None and q.external_id is None:
+                q.external_id = eid  # same text already stored (e.g. by the LLM pipeline)
+                continue
+            db.add(
+                Question(
+                    skill_id=skill,
+                    format=fmt,
+                    difficulty=diff,
+                    difficulty_rating=DIFFICULTY_RATING[diff],
+                    content=content,
+                    source="seed",
+                    content_hash=h,
+                    external_id=eid,
+                )
+            )
+            changed += 1
+        elif (q.content_hash, q.skill_id, q.format, q.difficulty) != (h, skill, fmt, diff):
+            q.content, q.content_hash, q.skill_id, q.format = content, h, skill, fmt
+            q.difficulty, q.difficulty_rating = diff, DIFFICULTY_RATING[diff]
+            q.status = "active"  # an edit is the fix for whatever got it quarantined
+            changed += 1
+    await db.flush()
+    ids = [eid for eid, *_ in items]
+    stale = await db.execute(
+        update(Question)
+        .where(
+            Question.source == "seed",
+            Question.status == "active",
+            Question.external_id.is_(None) | Question.external_id.not_in(ids),
         )
+        .values(status="quarantined")
+    )
     await db.commit()
-    return {"skills": len(load_taxonomy()), "seed_items": len(items)}
+    return {
+        "skills": len(load_taxonomy()),
+        "seed_items": len(items),
+        "changed": changed,
+        "retired": stale.rowcount,  # type: ignore[attr-defined]
+    }
 
 
 async def leaves_under(db: AsyncSession, ids: list[str]) -> list[str]:
@@ -135,13 +186,29 @@ async def pick(
     rng.shuffle(order)
     for leaf in order:
         diff = rng.choice(["easy", "medium", "hard"]) if difficulty == "mixed" else difficulty
+        seen = exists().where(Response.user_id == user_id, Response.question_id == Question.id)
         if leaf in REGISTRY:
+            # Hand-written items (twins of real mistakes) come first while unseen; then the generator.
+            q = await db.scalar(
+                select(Question)
+                .where(
+                    Question.skill_id == leaf,
+                    Question.source == "seed",
+                    Question.status == "active",
+                    Question.difficulty == diff,
+                    Question.id.not_in(exclude or [0]),
+                    ~seen,
+                )
+                .order_by(func.random())
+                .limit(1)
+            )
+            if q is not None:
+                return q
             g = generate(leaf, diff, random.Random(secrets.randbits(64)))  # type: ignore[arg-type]
             qid = await insert_question(
                 db, skill_id=leaf, fmt=g.format, difficulty=diff, content=g.content(), source="generator"
             )
             return await db.get(Question, qid)
-        seen = exists().where(Response.user_id == user_id, Response.question_id == Question.id)
         q = await db.scalar(
             select(Question)
             .where(Question.skill_id == leaf, Question.status == "active", Question.id.not_in(exclude or [0]))

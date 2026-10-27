@@ -1,10 +1,12 @@
 import re
 from collections import Counter
 
+import pytest
 from sqlalchemy import func, select
 
 from app.core.db import SessionLocal
 from app.models import Question
+from app.services import questions as qs
 from app.services.questions import content_hash, load_rw_seed, load_taxonomy, rw_content, seed
 
 ITEMS = load_rw_seed()  # validates every item against the RWItem schema
@@ -41,4 +43,28 @@ async def test_seed_is_idempotent() -> None:
         n1 = await db.scalar(select(func.count()).select_from(Question))
         await seed(db)
         n2 = await db.scalar(select(func.count()).select_from(Question))
-    assert n1 == n2 == len(ITEMS)
+    assert n1 == n2 == len(qs.seed_items())
+
+
+async def test_seed_edits_update_rows_in_place(monkeypatch: pytest.MonkeyPatch) -> None:
+    items = qs.seed_items()
+    eid = items[0][0]
+    edited = [
+        (e, s, f, d, {**c, "stem": c["stem"] + " Edited."} if e == eid else c) for e, s, f, d, c in items
+    ]
+    async with SessionLocal() as db:
+        await seed(db)
+        before = await db.scalar(select(Question.id).where(Question.external_id == eid))
+        monkeypatch.setattr(qs, "seed_items", lambda: edited)
+        assert (await seed(db))["changed"] == 1
+        after = await db.scalar(select(Question).where(Question.external_id == eid))
+        assert after is not None and after.id == before and after.content["stem"].endswith("Edited.")
+        monkeypatch.undo()
+        await seed(db)
+        # an item dropped from the files is quarantined, not deleted
+        monkeypatch.setattr(qs, "seed_items", lambda: items[1:])
+        assert (await seed(db))["retired"] == 1
+        monkeypatch.undo()
+        await seed(db)
+        q = await db.scalar(select(Question).where(Question.external_id == eid))
+        assert q is not None and q.status == "active"
