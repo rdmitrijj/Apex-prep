@@ -45,7 +45,7 @@
   "id": "rw-coet-003",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
-  "passage": "Archaeologist Hira Baig argues that a site on the Indus floodplain was a seasonal camp used only during autumn rather than a permanent village.",
+  "passage": "Excavations at the site have uncovered hearths, tools, and thousands of animal bones. Archaeologist Hira Baig argues that a site on the Indus floodplain was a seasonal camp used only during autumn rather than a permanent village.",
   "stem": "Which finding, if true, would most directly support Baig's argument?",
   "choices": [
    "Stone tools at the site were made from rock found nearby.",
@@ -87,7 +87,7 @@
   "id": "rw-coet-005",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "easy",
-  "passage": "Ecologist Tomás Herrera believes that dung beetles in a tropical forest help plants grow by burying seeds in nutrient-rich soil.",
+  "passage": "Dung beetles are found in forests and grasslands on every continent except Antarctica. Ecologist Tomás Herrera believes that dung beetles in a tropical forest help plants grow by burying seeds in nutrient-rich soil.",
   "stem": "Which finding, if true, would most directly support Herrera's claim?",
   "choices": [
    "Dung beetles in the forest are most active at night.",
@@ -150,7 +150,7 @@
   "id": "rw-coet-008",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "medium",
-  "passage": "Historian Malik Osei argues that the letters of the eighteenth-century merchant Thomas Avery were written with publication in mind rather than as private correspondence.",
+  "passage": "Avery traded cloth and spices between London and Lisbon, and more than three hundred of his letters survive. Historian Malik Osei argues that the letters of the eighteenth-century merchant Thomas Avery were written with publication in mind rather than as private correspondence.",
   "stem": "Which finding, if true, would most directly support Osei's argument?",
   "choices": [
    "The letters describe prices of goods in several port cities.",
@@ -171,7 +171,7 @@
   "id": "rw-coet-009",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "hard",
-  "passage": "Psychologist Ines Duarte hypothesizes that background music interferes with reading comprehension only when the music contains lyrics.",
+  "passage": "Many students listen to music while they do homework. Psychologist Ines Duarte hypothesizes that background music interferes with reading comprehension only when the music contains lyrics.",
   "stem": "Which finding, if true, would most directly support Duarte's hypothesis?",
   "choices": [
    "Participants who read while hearing songs with lyrics scored lower than those who read in silence.",
@@ -192,7 +192,7 @@
   "id": "rw-coet-010",
   "skill": "RW.INI.COET.SUPPORT",
   "difficulty": "easy",
-  "passage": "Plant biologist Ana Lima hypothesizes that tomato seedlings grow taller when exposed to blue light than when exposed to red light.",
+  "passage": "Indoor farms can choose the color of light their plants receive. Plant biologist Ana Lima hypothesizes that tomato seedlings grow taller when exposed to blue light than when exposed to red light.",
   "stem": "Which finding, if true, would most directly support Lima's hypothesis?",
   "choices": [
    "Seedlings grown under blue light were on average 20 percent taller than identical seedlings grown under red light.",
@@ -234,7 +234,7 @@
   "id": "rw-coet-012",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
-  "passage": "A farm cooperative claims that its new organic fertilizer increases corn yields.",
+  "passage": "Organic fertilizers are made from materials such as compost and manure. The cooperative sells the fertilizer to farmers across the region. A farm cooperative claims that its new organic fertilizer increases corn yields.",
   "stem": "Which finding, if true, would most directly weaken the cooperative's claim?",
   "choices": [
    "The fertilizer costs less than most other fertilizers.",
@@ -255,7 +255,7 @@
   "id": "rw-coet-013",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
-  "passage": "Art historian Clara Weiss claims that a newly discovered painting was made in the 1650s by the Dutch artist Jan Hals.",
+  "passage": "The painting, which shows a harbor at sunset, was found in a private collection in 2021. Art historian Clara Weiss claims that a newly discovered painting was made in the 1650s by the Dutch artist Jan Hals.",
   "stem": "Which finding, if true, would most directly weaken Weiss's claim?",
   "choices": [
    "The painting's subject, a harbor scene, was common in Dutch art of the 1650s.",
@@ -297,7 +297,7 @@
   "id": "rw-coet-015",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "easy",
-  "passage": "The owners of a café claim that their new menu increased the number of customers at their downtown location.",
+  "passage": "The café has two locations, one downtown and one near the university. The owners of a café claim that their new menu increased the number of customers at their downtown location.",
   "stem": "Which finding, if true, would most directly weaken the owners' claim?",
   "choices": [
    "Customers said they liked the new menu's vegetarian options.",
@@ -318,7 +318,7 @@
   "id": "rw-coet-016",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
-  "passage": "Herpetologist Lucía Fernández hypothesizes that the bright colors of a certain rainforest frog warn predators that the frog is poisonous.",
+  "passage": "Many rainforest frogs are brown or green, but some are bright red, yellow, or blue. Herpetologist Lucía Fernández hypothesizes that the bright colors of a certain rainforest frog warn predators that the frog is poisonous.",
   "stem": "Which finding, if true, would most directly weaken Fernández's hypothesis?",
   "choices": [
    "The frog is active mainly during the day, when its colors are visible.",
@@ -339,7 +339,7 @@
   "id": "rw-coet-017",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "hard",
-  "passage": "Archaeologist Yusuf Kaya claims that the ancient city of Tel Arvan was abandoned around 1200 BCE because of a prolonged drought.",
+  "passage": "Tel Arvan was once a busy trading city with more than ten thousand residents. Archaeologist Yusuf Kaya claims that the ancient city of Tel Arvan was abandoned around 1200 BCE because of a prolonged drought.",
   "stem": "Which finding, if true, would most directly weaken Kaya's claim?",
   "choices": [
    "Sediment cores from the region show above-average rainfall during the decades when the city was abandoned.",
@@ -360,7 +360,7 @@
   "id": "rw-coet-018",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "medium",
-  "passage": "Ecologist Grace Mwangi claims that noise from a nearby highway is reducing the variety of bird species in a forest.",
+  "passage": "Bird surveys in the forest have been carried out every spring since 2005. Ecologist Grace Mwangi claims that noise from a nearby highway is reducing the variety of bird species in a forest.",
   "stem": "Which finding, if true, would most directly weaken Mwangi's claim?",
   "choices": [
    "The highway carries more traffic than any other road in the region.",
@@ -402,7 +402,7 @@
   "id": "rw-coet-020",
   "skill": "RW.INI.COET.WEAKEN",
   "difficulty": "easy",
-  "passage": "A gardening guide claims that the plant species Vincia minor grows best in shade.",
+  "passage": "Vincia minor is a low-growing plant often used to cover the ground in gardens. A gardening guide claims that the plant species Vincia minor grows best in shade.",
   "stem": "Which finding, if true, would most directly weaken the guide's claim?",
   "choices": [
    "Vincia minor needs regular watering during dry periods.",
@@ -423,7 +423,7 @@
   "id": "rw-coet-021",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
-  "passage": "In Edwin Marsh's short story \"The Lantern Keeper,\" the narrator's grandfather is portrayed as deeply devoted to his work tending a lighthouse.",
+  "passage": "The story is told by a man remembering the summers he spent at his grandfather's lighthouse as a boy. In Edwin Marsh's short story \"The Lantern Keeper,\" the narrator's grandfather is portrayed as deeply devoted to his work tending a lighthouse.",
   "stem": "Which quotation from \"The Lantern Keeper\" most effectively illustrates the claim?",
   "choices": [
    "\"Through forty winters he climbed the tower each dusk, and not once did the lamp go dark on his watch.\"",
@@ -444,7 +444,7 @@
   "id": "rw-coet-022",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
-  "passage": "In the poem \"Departure,\" the speaker expresses mixed feelings about leaving home, feeling both eager and sorrowful.",
+  "passage": "\"Departure\" is a short poem written in the voice of a young person who is about to move to a distant city. In the poem \"Departure,\" the speaker expresses mixed feelings about leaving home, feeling both eager and sorrowful.",
   "stem": "Which quotation from \"Departure\" most effectively illustrates the claim?",
   "choices": [
    "\"I pack my bag with eager hands, / yet something in me stays behind.\"",
@@ -465,7 +465,7 @@
   "id": "rw-coet-023",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
-  "passage": "In the novel The Salt Road by Esi Darko, the character Kofi is shown to be resourceful in difficult situations.",
+  "passage": "The novel follows a family of traders traveling across West Africa in the 1890s. In the novel The Salt Road by Esi Darko, the character Kofi is shown to be resourceful in difficult situations.",
   "stem": "Which quotation from The Salt Road most effectively illustrates the claim?",
   "choices": [
    "\"When the cart's axle snapped, Kofi lashed a branch beneath it with strips of his own shirt and had them moving again before noon.\"",
@@ -486,7 +486,7 @@
   "id": "rw-coet-024",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
-  "passage": "In Maren Holt's novel The Apprentice, the narrator gradually comes to recognize the flaws of her mentor, a celebrated painter she had long idolized.",
+  "passage": "Maren Holt's novels often explore the relationships between artists and their students. In Maren Holt's novel The Apprentice, the narrator gradually comes to recognize the flaws of her mentor, a celebrated painter she had long idolized.",
   "stem": "Which quotation from The Apprentice most effectively illustrates the claim?",
   "choices": [
    "\"His studio was full of light, and canvases leaned against every wall.\"",
@@ -507,7 +507,7 @@
   "id": "rw-coet-025",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
-  "passage": "In the short story \"August,\" the author describes the setting as oppressively hot.",
+  "passage": "The story takes place over a single day in a small farming town during a long drought. In the short story \"August,\" the author describes the setting as oppressively hot.",
   "stem": "Which quotation from \"August\" most effectively illustrates the claim?",
   "choices": [
    "\"The heat pressed down on the town like a hand, and even the dogs lay panting in the dust.\"",
@@ -528,7 +528,7 @@
   "id": "rw-coet-026",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
-  "passage": "In the poem \"Kitchen Table,\" the speaker finds beauty in ordinary household objects.",
+  "passage": "The poem, written in plain language, describes a family kitchen early in the morning. In the poem \"Kitchen Table,\" the speaker finds beauty in ordinary household objects.",
   "stem": "Which quotation from \"Kitchen Table\" most effectively illustrates the claim?",
   "choices": [
    "\"We ate in silence, the clock ticking.\"",
@@ -549,7 +549,7 @@
   "id": "rw-coet-027",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
-  "passage": "In her satirical novel The Garden Party, Lydia Crane uses humor to criticize the social pretensions of the wealthy.",
+  "passage": "The novel takes place during a single summer afternoon at a country estate. In her satirical novel The Garden Party, Lydia Crane uses humor to criticize the social pretensions of the wealthy.",
   "stem": "Which quotation from The Garden Party most effectively illustrates the claim?",
   "choices": [
    "\"The garden was at its finest in June, when the roses bloomed.\"",
@@ -570,7 +570,7 @@
   "id": "rw-coet-028",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "medium",
-  "passage": "In the play The Inheritance, the character Victor's ambition is shown to outweigh his loyalty to his family.",
+  "passage": "The play concerns two brothers who inherit their father's shipping company. In the play The Inheritance, the character Victor's ambition is shown to outweigh his loyalty to his family.",
   "stem": "Which quotation from The Inheritance most effectively illustrates the claim?",
   "choices": [
    "\"Victor has always been the clever one in our family.\"",
@@ -591,7 +591,7 @@
   "id": "rw-coet-029",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "hard",
-  "passage": "In the poem \"River and Stone,\" the speaker contrasts the endurance of nature with the impermanence of human achievement.",
+  "passage": "The poem describes a walk through the ruins of an ancient city near a river. In the poem \"River and Stone,\" the speaker contrasts the endurance of nature with the impermanence of human achievement.",
   "stem": "Which quotation from \"River and Stone\" most effectively illustrates the claim?",
   "choices": [
    "\"The marble towers crumble into sand, / while still the patient river finds the sea.\"",
@@ -612,7 +612,7 @@
   "id": "rw-coet-030",
   "skill": "RW.INI.COET.QUOTE",
   "difficulty": "easy",
-  "passage": "In Nadia Rahman's story \"Opening Night,\" Leila is nervous before her first performance.",
+  "passage": "The story follows a young dancer during the week her ballet company opens a new production. In Nadia Rahman's story \"Opening Night,\" Leila is nervous before her first performance.",
   "stem": "Which quotation from \"Opening Night\" most effectively illustrates the claim?",
   "choices": [
    "\"After the show, the cast celebrated at a café across the street.\"",

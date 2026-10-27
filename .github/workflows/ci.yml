@@ -21,6 +21,7 @@ jobs:
       - run: uv run ruff check .
       - run: uv run ruff format --check .
       - run: uv run mypy
+      - run: uv run python -m app.validate --seeds 100
       - run: uv run alembic upgrade head && uv run alembic check
       - run: uv run pytest -q
 

@@ -3,7 +3,7 @@
   "id": "rw-coeq-001",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
-  "passage": "A researcher studying young people's media habits found that average daily screen time increases with age. For example, ______",
+  "passage": "Surveys of families with school-age children have tracked screen use for more than a decade. A researcher studying young people's media habits found that average daily screen time increases with age. For example, ______",
   "figure": {
    "kind": "table",
    "title": "Average Daily Screen Time by Age Group",
@@ -196,7 +196,7 @@
   "id": "rw-coeq-005",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
-  "passage": "A travel writer recommends Dunmere to travelers who dislike summer heat, since of the four towns in the table, ______",
+  "passage": "Summer temperatures can vary widely even among towns in the same region. A travel writer recommends Dunmere to travelers who dislike summer heat, since of the four towns in the table, ______",
   "figure": {
    "kind": "table",
    "title": "Average July Temperature",
@@ -243,7 +243,7 @@
   "id": "rw-coeq-006",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
-  "passage": "A transportation planner noted that residents of Easton rely on public transit far more than residents of Northport do. According to the survey, ______",
+  "passage": "A regional survey asked residents of four towns how they usually get to work. A transportation planner noted that residents of Easton rely on public transit far more than residents of Northport do. According to the survey, ______",
   "figure": {
    "kind": "table",
    "title": "Primary Commuting Mode (% of residents)",
@@ -342,7 +342,7 @@
   "id": "rw-coeq-008",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "medium",
-  "passage": "A librarian argues that e-books are steadily replacing print books at the town library. The data support this argument: ______",
+  "passage": "The town library has tracked checkouts of print books and e-books since 2016. A librarian argues that e-books are steadily replacing print books at the town library. The data support this argument: ______",
   "figure": {
    "kind": "table",
    "title": "Library Checkouts (thousands)",
@@ -441,7 +441,7 @@
   "id": "rw-coeq-010",
   "skill": "RW.INI.COEQ.TABLE",
   "difficulty": "easy",
-  "passage": "In the Northern Hemisphere, the farther a place is from the equator, the more hours of daylight it receives in June. For example, ______",
+  "passage": "Day length in June depends strongly on latitude. In the Northern Hemisphere, the farther a place is from the equator, the more hours of daylight it receives in June. For example, ______",
   "figure": {
    "kind": "table",
    "title": "Average Hours of Daylight in June",
@@ -488,7 +488,7 @@
   "id": "rw-coeq-011",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
-  "passage": "A survey found that pet ownership was most common among respondents aged 30–44. Specifically, ______",
+  "passage": "A national survey asked adults in four age groups whether they owned a pet. A survey found that pet ownership was most common among respondents aged 30–44. Specifically, ______",
   "figure": {
    "kind": "bars",
    "title": "Pet Ownership by Age Group",
@@ -527,7 +527,7 @@
   "id": "rw-coeq-012",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
-  "passage": "An education researcher found that weekly homework time did not rise for every grade between 2010 and 2020. For example, ______",
+  "passage": "A national study surveyed students in grades 9 through 12 about homework in 2010 and again in 2020. An education researcher found that weekly homework time did not rise for every grade between 2010 and 2020. For example, ______",
   "figure": {
    "kind": "bars",
    "title": "Average Weekly Homework Hours",
@@ -580,7 +580,7 @@
   "id": "rw-coeq-013",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
-  "passage": "Although renewable sources are growing in the region, natural gas remained its largest single source of electricity in 2022, generating ______",
+  "passage": "Regional utilities report how much electricity each energy source generates every year. Although renewable sources are growing in the region, natural gas remained its largest single source of electricity in 2022, generating ______",
   "figure": {
    "kind": "bars",
    "title": "Electricity Generated in 2022",
@@ -621,7 +621,7 @@
   "id": "rw-coeq-014",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "hard",
-  "passage": "A seed bank technician claims that storage temperature matters far more for long-term storage than for short-term storage. The data support this claim: ______",
+  "passage": "A seed bank tested how well seeds sprouted after being stored at different temperatures for different lengths of time. A seed bank technician claims that storage temperature matters far more for long-term storage than for short-term storage. The data support this claim: ______",
   "figure": {
    "kind": "bars",
    "title": "Seed Germination Rate after Storage",
@@ -671,7 +671,7 @@
   "id": "rw-coeq-015",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
-  "passage": "The food bank's coordinator noticed that weekends attract the most volunteers. On Saturday, for instance, ______",
+  "passage": "A community food bank recorded how many volunteers arrived on each day of one week in March. The food bank's coordinator noticed that weekends attract the most volunteers. On Saturday, for instance, ______",
   "figure": {
    "kind": "bars",
    "title": "Volunteers by Day of the Week",
@@ -716,7 +716,7 @@
   "id": "rw-coeq-016",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
-  "passage": "When the bakery introduced a cardamom muffin, the owner expected it to sell less than the familiar flavors. Instead, ______",
+  "passage": "A neighborhood bakery tracked weekly sales of each muffin flavor for three months. When the bakery introduced a cardamom muffin, the owner expected it to sell less than the familiar flavors. Instead, ______",
   "figure": {
    "kind": "bars",
    "title": "Average Weekly Muffin Sales",
@@ -805,7 +805,7 @@
   "id": "rw-coeq-018",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "medium",
-  "passage": "In the region, most rain falls during the summer monsoon. In July, for example, ______",
+  "passage": "Meteorologists recorded average monthly rainfall in a region of southern India over thirty years. In the region, most rain falls during the summer monsoon. In July, for example, ______",
   "figure": {
    "kind": "bars",
    "title": "Average Monthly Rainfall",
@@ -844,7 +844,7 @@
   "id": "rw-coeq-019",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "hard",
-  "passage": "Forester Ida Lund claims that a tree's position on a slope affected storm damage more than its species did. Supporting this claim, ______",
+  "passage": "After a severe windstorm, foresters surveyed damage to oak, maple, and pine trees growing on ridges and in valleys. Forester Ida Lund claims that a tree's position on a slope affected storm damage more than its species did. Supporting this claim, ______",
   "figure": {
    "kind": "bars",
    "title": "Trees Damaged in a Storm",
@@ -894,7 +894,7 @@
   "id": "rw-coeq-020",
   "skill": "RW.INI.COEQ.BAR",
   "difficulty": "easy",
-  "passage": "This year, coding was the school's most popular elective: ______",
+  "passage": "Every student at Harbor View High School chooses one elective each year, such as art, music, coding, or drama. The school counts the choices each fall. This year, coding was the school's most popular elective: ______",
   "figure": {
    "kind": "bars",
    "title": "Students Choosing Each Elective",
@@ -933,7 +933,7 @@
   "id": "rw-coeq-021",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
-  "passage": "The town's population grew steadily over four decades: ______",
+  "passage": "Census records describe how a small river town in Oregon changed between 1980 and 2020, as new families arrived and the town expanded. The town's population grew steadily over four decades: ______",
   "figure": {
    "kind": "line",
    "title": "Town Population",
@@ -1038,7 +1038,7 @@
   "id": "rw-coeq-023",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
-  "passage": "Coral bleaching at the reef becomes likely when water temperatures rise above 29°C. According to the graph, ______",
+  "passage": "Marine scientists monitor monthly water temperatures at a reef in the Coral Sea. Coral bleaching at the reef becomes likely when water temperatures rise above 29°C. According to the graph, ______",
   "figure": {
    "kind": "line",
    "title": "Average Sea Surface Temperature at the Reef",
@@ -1154,7 +1154,7 @@
   "id": "rw-coeq-025",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
-  "passage": "After a harmful pesticide was banned, the state's bald eagle population recovered: ______",
+  "passage": "Wildlife officials counted the state's nesting pairs of bald eagles every five years from 1990 to 2010. After a harmful pesticide was banned, the state's bald eagle population recovered: ______",
   "figure": {
    "kind": "line",
    "title": "Bald Eagle Nesting Pairs in the State",
@@ -1200,7 +1200,7 @@
   "id": "rw-coeq-026",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
-  "passage": "City officials credit a 2019 conservation campaign with reducing household water use. Supporting this view, ______",
+  "passage": "The city has measured average daily household water use since 2016. City officials credit a 2019 conservation campaign with reducing household water use. Supporting this view, ______",
   "figure": {
    "kind": "line",
    "title": "Average Daily Household Water Use",
@@ -1248,7 +1248,7 @@
   "id": "rw-coeq-027",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "hard",
-  "passage": "Researcher Hugo Lambert argues that the decline in sleep over the past two decades has been concentrated among teenagers. He notes that ______",
+  "passage": "Large health surveys have asked teenagers and adults how much they sleep. Researcher Hugo Lambert argues that the decline in sleep over the past two decades has been concentrated among teenagers. He notes that ______",
   "figure": {
    "kind": "line",
    "title": "Average Hours of Sleep per Night",
@@ -1304,7 +1304,7 @@
   "id": "rw-coeq-028",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "medium",
-  "passage": "Attendance at the national park dropped sharply in 2020 before largely recovering the following year: ______",
+  "passage": "Park officials record the number of visits to a national park in the western United States every year. Attendance at the national park dropped sharply in 2020 before largely recovering the following year: ______",
   "figure": {
    "kind": "line",
    "title": "National Park Visits",
@@ -1354,7 +1354,7 @@
   "id": "rw-coeq-029",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "hard",
-  "passage": "An economist observes that coffee prices were far more volatile than tea prices from 2018 to 2023. For instance, ______",
+  "passage": "Commodity analysts track the world prices of coffee and tea every month. An economist observes that coffee prices were far more volatile than tea prices from 2018 to 2023. For instance, ______",
   "figure": {
    "kind": "line",
    "title": "Average Wholesale Price per Kilogram",
@@ -1413,7 +1413,7 @@
   "id": "rw-coeq-030",
   "skill": "RW.INI.COEQ.LINE",
   "difficulty": "easy",
-  "passage": "A student measured a bean plant's height every five days and found that it grew taller throughout the experiment: ______",
+  "passage": "For a science fair project on plant growth, a student planted a bean seed in a pot near a sunny window. A student measured a bean plant's height every five days and found that it grew taller throughout the experiment: ______",
   "figure": {
    "kind": "line",
    "title": "Bean Plant Height",

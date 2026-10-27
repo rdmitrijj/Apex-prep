@@ -281,7 +281,7 @@
   "id": "rw-eoi-011",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "easy",
-  "passage": "Many people assume that bats are blind. ______ most bat species have functional eyes, and some see quite well in dim light.",
+  "passage": "Bats are among the most misunderstood of all mammals. Many people assume that bats are blind. ______ most bat species have functional eyes, and some see quite well in dim light.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -449,7 +449,7 @@
   "id": "rw-eoi-019",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "hard",
-  "passage": "The model predicted that the planet's atmosphere would contain abundant methane. Observations from the space telescope, ______ detected only trace amounts of the gas.",
+  "passage": "Astronomers used a computer model to predict the composition of a distant exoplanet's atmosphere. The model predicted that the planet's atmosphere would contain abundant methane. Observations from the space telescope, ______ detected only trace amounts of the gas.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "for example,",
@@ -470,7 +470,7 @@
   "id": "rw-eoi-020",
   "skill": "RW.EOI.TRN.CONTRAST",
   "difficulty": "easy",
-  "passage": "Lemons are known for their sour taste. Oranges, ______ are usually sweet.",
+  "passage": "Citrus fruits differ widely in flavor, even though they belong to the same plant genus. Lemons are known for their sour taste. Oranges, ______ are usually sweet.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "in addition,",
@@ -491,7 +491,7 @@
   "id": "rw-eoi-021",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
-  "passage": "Heavy rain fell on the valley for three days without stopping. ______ the river overflowed its banks and flooded nearby fields.",
+  "passage": "Late in the spring of 2019, a slow-moving storm system stalled over the region. Heavy rain fell on the valley for three days without stopping. ______ the river overflowed its banks and flooded nearby fields.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -512,7 +512,7 @@
   "id": "rw-eoi-022",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
-  "passage": "Octopuses have no internal or external skeleton. ______ even large octopuses can squeeze through openings barely wider than their eyes.",
+  "passage": "Octopuses are mollusks, related to snails and clams. Octopuses have no internal or external skeleton. ______ even large octopuses can squeeze through openings barely wider than their eyes.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "In contrast,",
@@ -533,7 +533,7 @@
   "id": "rw-eoi-023",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
-  "passage": "The town's textile factory, which employed nearly half of its residents, closed in 1987. ______ many families moved to nearby cities in search of work.",
+  "passage": "For most of the twentieth century, the town depended on a single employer. The town's textile factory, which employed nearly half of its residents, closed in 1987. ______ many families moved to nearby cities in search of work.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For instance,",
@@ -575,7 +575,7 @@
   "id": "rw-eoi-025",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
-  "passage": "The bakery sold out of flour before 9:00 a.m. ______ it had to close early for the day.",
+  "passage": "On the morning of the town's spring festival, crowds lined up outside the small bakery on Main Street. The bakery sold out of flour before 9:00 a.m. ______ it had to close early for the day.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -638,7 +638,7 @@
   "id": "rw-eoi-028",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "medium",
-  "passage": "Unlike many vaccines, the new one does not need to be refrigerated. ______ it can be shipped to remote regions that lack reliable electricity.",
+  "passage": "Many vaccines lose their effectiveness if they get too warm. Unlike many vaccines, the new one does not need to be refrigerated. ______ it can be shipped to remote regions that lack reliable electricity.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "In contrast,",
@@ -680,7 +680,7 @@
   "id": "rw-eoi-030",
   "skill": "RW.EOI.TRN.CAUSE",
   "difficulty": "easy",
-  "passage": "Overnight, a layer of ice covered the mountain trail. ______ park rangers closed it to hikers for the day.",
+  "passage": "Winter conditions in the national park can change quickly. Overnight, a layer of ice covered the mountain trail. ______ park rangers closed it to hikers for the day.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "Consequently,",
@@ -701,7 +701,7 @@
   "id": "rw-eoi-031",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
-  "passage": "Many animals besides humans use tools. ______ chimpanzees strip leaves from twigs and use them to fish termites out of their mounds.",
+  "passage": "Tool use was once thought to be a uniquely human ability. Many animals besides humans use tools. ______ chimpanzees strip leaves from twigs and use them to fish termites out of their mounds.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -785,7 +785,7 @@
   "id": "rw-eoi-035",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
-  "passage": "Volunteers at the animal shelter walk the dogs every morning. ______ they clean the kennels and refill the water bowls.",
+  "passage": "The animal shelter depends on a team of about twenty volunteers. Volunteers at the animal shelter walk the dogs every morning. ______ they clean the kennels and refill the water bowls.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -806,7 +806,7 @@
   "id": "rw-eoi-036",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
-  "passage": "Some plants defend themselves with chemicals. Milkweed, ______ produces a toxic sap that deters many insects.",
+  "passage": "Every living thing needs some form of protection. Plants can't run from the animals that eat them. Some plants defend themselves with chemicals. Milkweed, ______ produces a toxic sap that deters many insects.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "in contrast,",
@@ -848,7 +848,7 @@
   "id": "rw-eoi-038",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "medium",
-  "passage": "To make meringue, whisk the egg whites until stiff peaks form. ______ add the sugar slowly, one spoonful at a time.",
+  "passage": "Meringue is a light dessert made from egg whites and sugar. To make meringue, whisk the egg whites until stiff peaks form. ______ add the sugar slowly, one spoonful at a time.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "For example,",
@@ -890,7 +890,7 @@
   "id": "rw-eoi-040",
   "skill": "RW.EOI.TRN.CONT",
   "difficulty": "easy",
-  "passage": "The museum offers free admission on Sundays. ______ guided tours are free on the first Sunday of every month.",
+  "passage": "The city museum wants to attract more families from the neighborhood. The museum offers free admission on Sundays. ______ guided tours are free on the first Sunday of every month.",
   "stem": "Which choice completes the text with the most logical transition?",
   "choices": [
    "However,",

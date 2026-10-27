@@ -35,6 +35,14 @@ BANNED = re.compile(r"\b(SAT|College Board|Bluebook)\b")
 X, Y, V = sympy.symbols("X Y v")
 
 Failure = tuple[str, str, str]  # (area, item id, problem)
+HISTORY = """## History
+
+- 2026-10-27 baseline (commit 31b3093): 374 R&W seed items, 214 with passages under 25 words
+  (149 grammar, 44 evidence, 14 transitions, 7 words in context); math generators clean on a
+  3,360-item sweep. The old double-zero `POLYZ` items had been quarantined by migration 0003.
+- Fixes: every short passage got context sentences (the tested sentence is unchanged); `build()`
+  now requires an independent predicate for multi-answer stems ("Which ... is a ...", "could be").
+"""
 
 
 def words(item: RWItem) -> int:
@@ -318,6 +326,8 @@ def report(failures: list[Failure], counts: dict[str, int], per_skill: Counter[s
         lines += ["", "## All failures", "", "| Area | Item | Problem |", "|---|---|---|"]
         lines += [f"| {a} | `{i}` | {p.replace('|', '/')} |" for a, i, p in failures]
     lines += [
+        "",
+        HISTORY.rstrip(),
         "",
         "## Seed items per sub-skill",
         "",
