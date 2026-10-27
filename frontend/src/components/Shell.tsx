@@ -1,15 +1,35 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import type { ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 import { useMe } from "../api/auth";
 import { api } from "../api/client";
 import { Logo } from "./Logo";
+import { Settings } from "./Settings";
+
+// Per-device preference; the exam runner has no Shell, so exams stay light like the real test.
+const THEME_KEY = "apex-theme";
+function storedDark() {
+  try {
+    return localStorage.getItem(THEME_KEY) === "dark";
+  } catch {
+    return false;
+  }
+}
 
 const link = ({ isActive }: { isActive: boolean }) => (isActive ? "font-semibold text-brand-700" : "text-slate-600 hover:text-brand-700");
 
 export function Shell({ children }: { children: ReactNode }) {
   const me = useMe();
   const qc = useQueryClient();
+  const [dark, setDark] = useState(storedDark);
+  const toggleDark = (on: boolean) => {
+    setDark(on);
+    try {
+      localStorage.setItem(THEME_KEY, on ? "dark" : "light");
+    } catch {
+      /* storage blocked: the choice lasts for this page only */
+    }
+  };
   const logout = useMutation({
     mutationFn: () => api<void>("/auth/logout", { method: "POST" }),
     onSuccess: () => {
@@ -18,7 +38,7 @@ export function Shell({ children }: { children: ReactNode }) {
     },
   });
   return (
-    <div className="min-h-screen">
+    <div className={`min-h-screen bg-slate-50 text-slate-900 ${dark ? "dark" : ""}`}>
       <header className="flex items-center justify-between gap-4 border-b border-slate-200 bg-white px-6 py-3">
         <nav className="flex flex-wrap items-center gap-x-5 gap-y-1 text-sm">
           <NavLink to="/" className="flex items-center gap-2 text-base font-semibold text-brand-900">
@@ -48,9 +68,7 @@ export function Shell({ children }: { children: ReactNode }) {
           <NavLink to="/goals" className={link}>
             Goals
           </NavLink>
-          <button onClick={() => logout.mutate()} className="text-brand-700 hover:underline">
-            Sign out
-          </button>
+          <Settings dark={dark} onDark={toggleDark} onSignOut={() => logout.mutate()} />
         </div>
       </header>
       <main className="mx-auto max-w-5xl p-6">{children}</main>

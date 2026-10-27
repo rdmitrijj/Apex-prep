@@ -14,5 +14,5 @@ test("same-day results share one date label and end labels never overprint", () 
   const rw = screen.getByText("R&W 470");
   const math = screen.getByText("Math 460");
   expect(Math.abs(Number(rw.getAttribute("y")) - Number(math.getAttribute("y")))).toBeGreaterThanOrEqual(13);
-  expect(container.querySelectorAll("svg[role=img] circle[fill='white']")).toHaveLength(2); // official = hollow rings
+  expect(container.querySelectorAll("svg[role=img] circle[fill='var(--color-white)']")).toHaveLength(2); // official = hollow rings
 });

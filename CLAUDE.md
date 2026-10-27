@@ -12,7 +12,8 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 - `PLAN.md`: milestones M1–M7.
 
 ## Conventions
-- No College Board / Bluebook names, logos, or verbatim official questions in the app.
+- No College Board / Bluebook logos or verbatim official questions in the app. Plain-text references are fine: the owner asked for Bluebook source labels on imported mistakes and a link to the official SAT site in the settings menu.
+- Dark theme remaps the Tailwind palette variables under `.dark` (`index.css`), so use palette classes or `var(--color-…)`, not hex colors, in themed pages. The exam runner stays light on purpose.
 - `backend/app/engine/` and `backend/app/generators/` are pure Python (no FastAPI/SQLAlchemy imports), mypy-strict, heavily unit-tested.
 - Math answer keys are computed with SymPy, never hard-coded; distractors come from named error models and must never equal the key.
 - Server is authoritative for exam timing: `services/exam.tick` closes an expired module on the next request; autosaves are accepted until deadline + 3 s.

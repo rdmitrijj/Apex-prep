@@ -26,6 +26,14 @@ test("register, see countdown, sign out, sign back in", async ({ page }) => {
   await page.reload(); // session survives reload (httpOnly cookie)
   await expect(page.getByText(email)).toBeVisible();
 
+  await page.getByRole("button", { name: "Settings" }).click();
+  await expect(page.getByText("version 1.0")).toBeVisible();
+  await expect(page.getByRole("link", { name: /Official SAT website/ })).toHaveAttribute("target", "_blank");
+  await page.getByRole("switch", { name: "Dark theme" }).click();
+  await expect(page.locator(".dark")).toHaveCount(1);
+  await page.reload(); // the theme choice is remembered
+  await expect(page.locator(".dark")).toHaveCount(1);
+  await page.getByRole("button", { name: "Settings" }).click();
   await page.getByRole("button", { name: "Sign out" }).click();
   await expect(page).toHaveURL(/\/login$/);
 

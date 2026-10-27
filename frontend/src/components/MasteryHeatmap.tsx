@@ -4,7 +4,7 @@ import type { WeaknessRow } from "../api/exam";
 
 // Reference sequential blue ramp, steps 100-700 (light = low mastery, dark = high).
 const RAMP = ["#cde2fb", "#b7d3f6", "#9ec5f4", "#86b6ef", "#6da7ec", "#5598e7", "#3987e5", "#2a78d6", "#256abf", "#1c5cab", "#184f95", "#104281", "#0d366b"];
-const UNTRIED = "#f0efec";
+const UNTRIED = "var(--color-slate-100)"; // follows the theme
 
 const color = (m: number) => RAMP[Math.min(RAMP.length - 1, Math.max(0, Math.floor(m * RAMP.length)))];
 

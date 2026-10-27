@@ -32,12 +32,12 @@ test("mistake notebook: tag a miss, filter, retry similar", async ({ page }) => 
   await page.getByRole("link", { name: "Mistakes" }).click();
   await expect(page.getByRole("heading", { name: "Mistake Notebook" })).toBeVisible();
   await page.getByLabel("Reason").selectOption("careless");
-  const row = page.getByRole("button", { name: /Drill .*Careless slip/ });
+  const row = page.getByRole("button", { name: /Topic drill .*Careless slip/ });
   await expect(row).toHaveCount(1);
   await page.getByLabel("Reason").selectOption("untagged");
   await expect(page.getByText("No mistakes here. Nice.")).toBeVisible();
   await page.getByLabel("Reason").selectOption("");
-  await page.getByRole("button", { name: /Drill .*Careless slip/ }).click();
+  await page.getByRole("button", { name: /Topic drill .*Careless slip/ }).click();
   await expect(page.getByText(/^(You answered .*|Left blank) · \d+ s$/)).toBeVisible();
   await page.getByRole("link", { name: "Retry 3 similar questions" }).click();
   await expect(page.getByText("Question 1 of 3")).toBeVisible();

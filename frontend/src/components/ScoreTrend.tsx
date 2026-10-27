@@ -64,11 +64,11 @@ export function ScoreTrend({ points, target = 700 }: { points: TrendPoint[]; tar
           </span>
         ))}
         <span className="flex items-center gap-1.5">
-          <svg width="12" height="12"><circle cx="6" cy="6" r="4" fill="white" stroke="#52514e" strokeWidth="2" /></svg>
+          <svg width="12" height="12"><circle cx="6" cy="6" r="4" fill="var(--color-white)" stroke="var(--color-slate-600)" strokeWidth="2" /></svg>
           Official score
         </span>
         <span className="flex items-center gap-1.5">
-          <svg width="16" height="8"><line x1="0" x2="16" y1="4" y2="4" stroke="#52514e" strokeDasharray="3 3" /></svg>
+          <svg width="16" height="8"><line x1="0" x2="16" y1="4" y2="4" stroke="var(--color-slate-600)" strokeDasharray="3 3" /></svg>
           Math target
         </span>
       </div>
@@ -76,23 +76,23 @@ export function ScoreTrend({ points, target = 700 }: { points: TrendPoint[]; tar
         <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label={`Score trend: ${pts.length} results from ${fmt(pts[0].t)} to ${fmt(pts[pts.length - 1].t)}`}>
           {ticks.map((v) => (
             <g key={v}>
-              <line x1={PAD.l} x2={W - PAD.r} y1={y(v)} y2={y(v)} stroke="#e7e5e0" />
+              <line x1={PAD.l} x2={W - PAD.r} y1={y(v)} y2={y(v)} stroke="var(--color-slate-200)" />
               <text x={PAD.l - 6} y={y(v) + 4} textAnchor="end" className="fill-slate-500 text-[11px]">{v}</text>
             </g>
           ))}
-          <line x1={PAD.l} x2={W - PAD.r} y1={y(target)} y2={y(target)} stroke="#52514e" strokeDasharray="4 4" />
+          <line x1={PAD.l} x2={W - PAD.r} y1={y(target)} y2={y(target)} stroke="var(--color-slate-600)" strokeDasharray="4 4" />
           <text x={PAD.l + 4} y={y(target) - 4} className="fill-slate-600 text-[11px]">Math {target}</text>
           {[...new Set([dates[0], dates[dates.length - 1]])].map((t) => (
             <text key={t} x={x(t)} y={H - 8} textAnchor="middle" className="fill-slate-500 text-[11px]">{fmt(t)}</text>
           ))}
-          {hover !== null && <line x1={x(hover)} x2={x(hover)} y1={PAD.t} y2={H - PAD.b} stroke="#9a9893" />}
+          {hover !== null && <line x1={x(hover)} x2={x(hover)} y1={PAD.t} y2={H - PAD.b} stroke="var(--color-slate-400)" />}
           {(["rw", "math"] as const).map((k) => {
             const s = k === "rw" ? "RW" : "MATH";
             return (
               <g key={k}>
                 <path d={line(k)} fill="none" stroke={COLOR[s]} strokeWidth="2" strokeLinejoin="round" />
                 {pts.filter((p) => p[k] !== null).map((p, i) => (
-                  <circle key={i} cx={x(p.t)} cy={y(p[k]!)} r={p.official ? 5 : 4} fill={p.official ? "white" : COLOR[s]} stroke={p.official ? COLOR[s] : "white"} strokeWidth="2" />
+                  <circle key={i} cx={x(p.t)} cy={y(p[k]!)} r={p.official ? 5 : 4} fill={p.official ? "var(--color-white)" : COLOR[s]} stroke={p.official ? COLOR[s] : "var(--color-white)"} strokeWidth="2" />
                 ))}
               </g>
             );
