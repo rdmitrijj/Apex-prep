@@ -1,0 +1,1607 @@
+[
+ {
+  "id": "m-tw-m1q15-e",
+  "modeled_on": "bb-pt4-m-m1-q15",
+  "skill": "MATH.PSD.TWOVAR.MODELTYPE",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The function $f(t) = 12(0.8)^t$ models the number of active members, in hundreds, of a hiking club $t$ years after the end of 2015. According to the model, how many active members did the club have at the end of 2015?",
+  "choices": [
+   "$960$",
+   "$80$",
+   "$1{,}200$",
+   "$12$"
+  ],
+  "values": [
+   "960",
+   "80",
+   "1200",
+   "12"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That's $f(1) \\cdot 100$, the end of 2016. The end of 2015 is $t = 0$.",
+   "B": "That's the decay factor $0.8$ times 100, not the starting value.",
+   "C": "Correct. At the end of 2015, $t = 0$, so $f(0) = 12$ hundred members, which is $1{,}200$.",
+   "D": "Unit slip: $f(0) = 12$ is in hundreds, so the club had $1{,}200$ members."
+  },
+  "check": "12*(8/10)**0*100",
+  "explanation": [
+   "The end of 2015 is $t = 0$.",
+   "$f(0) = 12(0.8)^0 = 12$.",
+   "The output is in hundreds: $12 \\times 100 = 1{,}200$ members."
+  ]
+ },
+ {
+  "id": "m-tw-m1q15-m",
+  "modeled_on": "bb-pt4-m-m1-q15",
+  "skill": "MATH.PSD.TWOVAR.MODELTYPE",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The function $y = 45(0.9)^x$ models the number of print subscriptions, in thousands, to a magazine $x$ years after the end of 2010. According to the model, by how many subscriptions did the number decrease from the end of 2010 to the end of 2011?",
+  "check": "45*1000 - 45*(9/10)*1000",
+  "spr_answers": [
+   "4500"
+  ],
+  "spr_entries": [
+   "4500"
+  ],
+  "explanation": [
+   "End of 2010: $x = 0$, so $y = 45$ thousand $= 45{,}000$.",
+   "End of 2011: $x = 1$, so $y = 45(0.9) = 40.5$ thousand $= 40{,}500$.",
+   "Decrease: $45{,}000 - 40{,}500 = 4{,}500$. (Answering $4.5$ forgets that $y$ is in thousands.)"
+  ]
+ },
+ {
+  "id": "m-tw-m1q15-h",
+  "modeled_on": "bb-pt4-m-m1-q15",
+  "skill": "MATH.PSD.TWOVAR.MODELTYPE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The value of a machine, in thousands of dollars, is modeled by $y = ab^x$, where $x$ is the number of years after the machine was bought at the end of 2020 and $a$ and $b$ are positive constants. The graph of the model passes through the points $(0, 36)$ and $(2, 23.04)$. According to the model, what was the value of the machine, in dollars, at the end of 2021?",
+  "choices": [
+   "$28.8$",
+   "$36{,}000$",
+   "$29{,}520$",
+   "$28{,}800$"
+  ],
+  "values": [
+   "288/10",
+   "36000",
+   "29520",
+   "28800"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Unit slip: the model gives thousands of dollars, so $28.8$ means $28{,}800$.",
+   "B": "That's the value at $x = 0$ (end of 2020), not the end of 2021.",
+   "C": "That's the average of $36$ and $23.04$: it assumes linear decay, but the model is exponential.",
+   "D": "Correct. $b^2 = 23.04/36 = 0.64$, so $b = 0.8$ and $y(1) = 28.8$ thousand dollars."
+  },
+  "check": "36*sqrt(Rational(2304, 3600))*1000",
+  "explanation": [
+   "$x = 0$ gives $a = 36$.",
+   "$36b^2 = 23.04$, so $b^2 = 0.64$ and $b = 0.8$ (b is positive).",
+   "End of 2021 is $x = 1$: $36(0.8) = 28.8$ thousand dollars $= \\$28{,}800$.",
+   "Desmos: plot the two points and type $y_1 \\sim a b^{x_1}$ to fit $a$ and $b$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q20-e",
+  "modeled_on": "bb-pt4-m-m1-q20",
+  "skill": "MATH.ALG.INEQ.MODEL",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The maximum number of guests, $g$, that a hall allows is 40 more than 3 times the number of tables, $n$. Which inequality represents this situation?",
+  "choices": [
+   "$g \\ge 3n + 40$",
+   "$g \\le 3n + 40$",
+   "$g \\le 3(n + 40)$",
+   "$g \\le 40n + 3$"
+  ],
+  "values": [
+   "g >= 3*n + 40",
+   "g <= 3*n + 40",
+   "g <= 3*(n + 40)",
+   "g <= 40*n + 3"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Direction error: 'maximum' means $\\le$; $\\ge$ would describe a minimum.",
+   "B": "Correct. A maximum is an upper limit, so $g$ is at most $3n + 40$.",
+   "C": "Grouping error: '40 more than 3 times $n$' is $3n + 40$, not $3(n + 40)$.",
+   "D": "Swapped the coefficient and the constant."
+  },
+  "check": "g <= 3*n + 40",
+  "explanation": [
+   "'3 times the number of tables' is $3n$; '40 more than' that is $3n + 40$.",
+   "'Maximum' means $g$ can't exceed it: $g \\le 3n + 40$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q20-m",
+  "modeled_on": "bb-pt4-m-m1-q20",
+  "skill": "MATH.ALG.INEQ.MODEL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "For a bread recipe, the minimum amount of flour $f$, in grams, is 25 less than 4 times the amount of water $w$, in grams. Which inequality represents this situation?",
+  "choices": [
+   "$f \\ge 4w - 25$",
+   "$f \\le 4w - 25$",
+   "$f \\ge 25 - 4w$",
+   "$f \\ge 4(w - 25)$"
+  ],
+  "values": [
+   "f >= 4*w - 25",
+   "f <= 4*w - 25",
+   "f >= 25 - 4*w",
+   "f >= 4*(w - 25)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. A minimum is a lower limit, so $f$ is at least $4w - 25$.",
+   "B": "Direction error: 'minimum' means $\\ge$.",
+   "C": "Order error: '25 less than $4w$' is $4w - 25$, not $25 - 4w$.",
+   "D": "Grouping error: the 25 is subtracted after multiplying, not before."
+  },
+  "check": "f >= 4*w - 25",
+  "explanation": [
+   "'25 less than 4 times $w$' is $4w - 25$.",
+   "'Minimum' means $f$ is at least that: $f \\ge 4w - 25$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q20-h",
+  "modeled_on": "bb-pt4-m-m1-q20",
+  "skill": "MATH.ALG.INEQ.MODEL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "For values of $x$ in a certain interval, the maximum possible value of $y$ is 9 less than the product of 4 and $x$, and the minimum possible value of $y$ is 3 more than $x$. Which system of inequalities represents this situation?",
+  "choices": [
+   "$y \\le 9 - 4x$ and $y \\ge x + 3$",
+   "$y \\le 4x - 9$ and $y \\ge 3x$",
+   "$y \\le 4x - 9$ and $y \\ge x + 3$",
+   "$y \\ge 4x - 9$ and $y \\le x + 3$"
+  ],
+  "values": [
+   "And(y <= 9 - 4*x, y >= x + 3)",
+   "And(y <= 4*x - 9, y >= 3*x)",
+   "And(y <= 4*x - 9, y >= x + 3)",
+   "And(y >= 4*x - 9, y <= x + 3)"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Order error: '9 less than $4x$' is $4x - 9$.",
+   "B": "'3 more than $x$' is $x + 3$, not $3x$.",
+   "C": "Correct. Maximum gives $\\le$, minimum gives $\\ge$.",
+   "D": "Both directions reversed: the maximum is an upper bound ($\\le$)."
+  },
+  "check": "And(y <= 4*x - 9, y >= x + 3)",
+  "explanation": [
+   "Maximum of $y$: $y \\le 4x - 9$.",
+   "Minimum of $y$: $y \\ge x + 3$.",
+   "Rule: maximum $\\to \\le$, minimum $\\to \\ge$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q22-e",
+  "modeled_on": "bb-pt4-m-m1-q22",
+  "skill": "MATH.ALG.LIN2.SOLN",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The graph of $y = 2x - 6$ in the $xy$-plane is shifted up 4 units. What is the $x$-coordinate of the $x$-intercept of the new graph?",
+  "choices": [
+   "$1$",
+   "$3$",
+   "$-2$",
+   "$5$"
+  ],
+  "values": [
+   "1",
+   "3",
+   "-2",
+   "5"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The new line is $y = 2x - 2$, which is 0 at $x = 1$.",
+   "B": "That's the $x$-intercept of the original line: the shift wasn't applied.",
+   "C": "That's the $y$-intercept of the new line, not the $x$-intercept.",
+   "D": "Shifted down instead of up: $y = 2x - 10$ has $x$-intercept 5."
+  },
+  "check": "solve(2*x - 6 + 4, x)[0]",
+  "explanation": [
+   "Up 4: $y = 2x - 6 + 4 = 2x - 2$.",
+   "Set $y = 0$: $2x = 2$, so $x = 1$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q22-m",
+  "modeled_on": "bb-pt4-m-m1-q22",
+  "skill": "MATH.ALG.LIN2.SOLN",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "In the $xy$-plane, the graph of $5x + 4y = 20$ is shifted down 3 units. What is the $x$-coordinate of the $x$-intercept of the resulting graph?",
+  "check": "solve(5*x + 4*(0 + 3) - 20, x)[0]",
+  "spr_answers": [
+   "8/5"
+  ],
+  "spr_entries": [
+   "8/5",
+   "1.6"
+  ],
+  "explanation": [
+   "Shifting down 3 replaces $y$ with $y + 3$: $5x + 4(y + 3) = 20$, so $5x + 4y = 8$.",
+   "Set $y = 0$: $5x = 8$, so $x = \\frac{8}{5}$.",
+   "Trap: replacing $y$ with $y - 3$ shifts the graph up and gives $\\frac{32}{5}$."
+  ]
+ },
+ {
+  "id": "m-tw-m1q22-h",
+  "modeled_on": "bb-pt4-m-m1-q22",
+  "skill": "MATH.ALG.LIN2.SOLN",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the $xy$-plane, line $\\ell$ has equation $7x - 3y = 11$. Line $m$ is the result of translating line $\\ell$ 2 units down and 1 unit to the right. What is the $x$-coordinate of the $x$-intercept of line $m$?",
+  "check": "solve(7*(x - 1) - 3*(0 + 2) - 11, x)[0]",
+  "spr_answers": [
+   "24/7"
+  ],
+  "spr_entries": [
+   "24/7",
+   "3.428",
+   "3.429"
+  ],
+  "explanation": [
+   "Right 1: replace $x$ with $x - 1$. Down 2: replace $y$ with $y + 2$.",
+   "$7(x - 1) - 3(y + 2) = 11$ simplifies to $7x - 3y = 24$.",
+   "Set $y = 0$: $x = \\frac{24}{7}$.",
+   "Desmos: graph $7(x-1) - 3(y+2) = 11$ and click the $x$-intercept."
+  ]
+ },
+ {
+  "id": "m-tw-m2q05-e",
+  "modeled_on": "bb-pt4-m-m2-q05",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The table shows three values of $x$ and their corresponding values of $f(x)$ for the quadratic function $f$. Which equation defines $f$?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$f(x)$"
+   ],
+   "rows": [
+    [
+     "0",
+     "3"
+    ],
+    [
+     "1",
+     "4"
+    ],
+    [
+     "2",
+     "7"
+    ]
+   ]
+  },
+  "choices": [
+   "$f(x) = 2x^2 + 3$",
+   "$f(x) = x^2 + 3$",
+   "$f(x) = x + 3$",
+   "$f(x) = 3x^2 + 1$"
+  ],
+  "values": [
+   "2*x**2 + 3",
+   "x**2 + 3",
+   "x + 3",
+   "3*x**2 + 1"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "At $x = 1$ this gives 5, not 4.",
+   "B": "Correct. It gives 3, 4, and 7 at $x = 0, 1, 2$.",
+   "C": "Fits the first two rows only; at $x = 2$ it gives 5, not 7.",
+   "D": "At $x = 0$ this gives 1, not 3."
+  },
+  "check": "interpolate([(0, 3), (1, 4), (2, 7)], x)",
+  "explanation": [
+   "Test every row in each choice.",
+   "$x^2 + 3$: $0 + 3 = 3$, $1 + 3 = 4$, $4 + 3 = 7$. All match."
+  ]
+ },
+ {
+  "id": "m-tw-m2q05-m",
+  "modeled_on": "bb-pt4-m-m2-q05",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The table shows three values of $x$ and their corresponding values of $f(x)$, where $f(x) = ax^2 + bx + c$ and $a$, $b$, and $c$ are constants. Which equation defines $f$?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$f(x)$"
+   ],
+   "rows": [
+    [
+     "-1",
+     "4"
+    ],
+    [
+     "0",
+     "1"
+    ],
+    [
+     "2",
+     "7"
+    ]
+   ]
+  },
+  "choices": [
+   "$f(x) = x^2 - 2x + 1$",
+   "$f(x) = 2x^2 + x + 1$",
+   "$f(x) = 3x + 1$",
+   "$f(x) = 2x^2 - x + 1$"
+  ],
+  "values": [
+   "x**2 - 2*x + 1",
+   "2*x**2 + x + 1",
+   "3*x + 1",
+   "2*x**2 - x + 1"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Matches the first two rows only; at $x = 2$ it gives 1, not 7.",
+   "B": "Sign error on $b$: at $x = -1$ this gives 2, not 4.",
+   "C": "A line through two of the points; at $x = -1$ it gives $-2$, not 4.",
+   "D": "Correct. It matches all three rows."
+  },
+  "check": "interpolate([(-1, 4), (0, 1), (2, 7)], x)",
+  "explanation": [
+   "$x = 0$: $c = 1$.",
+   "$x = -1$: $a - b + 1 = 4$, so $a - b = 3$. $x = 2$: $4a + 2b + 1 = 7$, so $2a + b = 3$.",
+   "Add: $3a = 6$, $a = 2$, $b = -1$.",
+   "Desmos: enter the table and type $y_1 \\sim a x_1^2 + b x_1 + c$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q05-h",
+  "modeled_on": "bb-pt4-m-m2-q05",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "For the quadratic function $g$, the table shows three values of $x$ and their corresponding values of $g(x)$. What is the value of $g(4)$?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$g(x)$"
+   ],
+   "rows": [
+    [
+     "-1",
+     "-6"
+    ],
+    [
+     "1",
+     "0"
+    ],
+    [
+     "2",
+     "9"
+    ]
+   ]
+  },
+  "check": "interpolate([(-1, -6), (1, 0), (2, 9)], x).subs(x, 4)",
+  "spr_answers": [
+   "39"
+  ],
+  "spr_entries": [
+   "39"
+  ],
+  "explanation": [
+   "Write $g(x) = ax^2 + bx + c$.",
+   "$a - b + c = -6$ and $a + b + c = 0$, so $b = 3$ and $a + c = -3$.",
+   "$4a + 2b + c = 9$, so $4a + c = 3$. Subtract: $3a = 6$, $a = 2$, $c = -5$.",
+   "$g(4) = 2(16) + 3(4) - 5 = 39$.",
+   "Desmos: regression $y_1 \\sim a x_1^2 + b x_1 + c$, then evaluate at 4."
+  ]
+ },
+ {
+  "id": "m-tw-m2q07-e",
+  "modeled_on": "bb-pt4-m-m2-q07",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "Two parallel lines are cut by a transversal. Two corresponding angles formed have measures $(3x + 10)^\\circ$ and $70^\\circ$. What is the value of $x$?",
+  "choices": [
+   "$\\frac{100}{3}$",
+   "$\\frac{80}{3}$",
+   "$70$",
+   "$20$"
+  ],
+  "values": [
+   "100/3",
+   "80/3",
+   "70",
+   "20"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Treated corresponding angles as supplementary ($3x + 10 = 110$).",
+   "B": "Sign error: added 10 instead of subtracting it.",
+   "C": "That's the angle measure, not $x$.",
+   "D": "Correct. Corresponding angles are equal: $3x + 10 = 70$."
+  },
+  "check": "solve(3*x + 10 - 70, x)[0]",
+  "explanation": [
+   "Corresponding angles on parallel lines are equal.",
+   "$3x + 10 = 70$, so $3x = 60$ and $x = 20$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q07-m",
+  "modeled_on": "bb-pt4-m-m2-q07",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "Two parallel lines are cut by a transversal, forming a pair of alternate interior angles with measures $(5k - 12)^\\circ$ and $(3k + 20)^\\circ$. What is the measure, in degrees, of the angle with measure $(5k - 12)^\\circ$?",
+  "check": "(5*k - 12).subs(k, solve(5*k - 12 - (3*k + 20), k)[0])",
+  "spr_answers": [
+   "68"
+  ],
+  "spr_entries": [
+   "68"
+  ],
+  "explanation": [
+   "Alternate interior angles are equal: $5k - 12 = 3k + 20$, so $k = 16$.",
+   "The angle is $5(16) - 12 = 68$ degrees. (16 is $k$, not the angle.)"
+  ]
+ },
+ {
+  "id": "m-tw-m2q07-h",
+  "modeled_on": "bb-pt4-m-m2-q07",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Lines $p$ and $q$ are parallel and are cut by transversal $t$. At line $p$, one angle formed has measure $(2x + y)^\\circ$. At line $q$, the alternate interior angle to that angle measures $110^\\circ$, and the angle that forms a linear pair with the $110^\\circ$ angle has measure $(x + 2y)^\\circ$. What is the value of $x + y$?",
+  "choices": [
+   "$\\frac{220}{3}$",
+   "$10$",
+   "$50$",
+   "$60$"
+  ],
+  "values": [
+   "220/3",
+   "10",
+   "50",
+   "60"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Treated the linear pair as equal angles; a linear pair sums to 180.",
+   "B": "That's $y$ alone.",
+   "C": "That's $x$ alone.",
+   "D": "Correct. $2x + y = 110$ and $x + 2y = 70$; adding gives $3(x + y) = 180$."
+  },
+  "check": "(x + y).subs(solve([2*x + y - 110, x + 2*y - (180 - 110)], [x, y], dict=True)[0])",
+  "explanation": [
+   "Alternate interior angles are equal: $2x + y = 110$.",
+   "A linear pair sums to 180: $x + 2y = 70$.",
+   "Add the equations: $3x + 3y = 180$, so $x + y = 60$. No need to find $x$ and $y$ separately."
+  ]
+ },
+ {
+  "id": "m-tw-m2q08-e",
+  "modeled_on": "bb-pt4-m-m2-q08",
+  "skill": "MATH.ALG.LINF.PARPERP",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "Line $k$ has a slope of $\\frac{3}{4}$. What is the slope of a line perpendicular to line $k$?",
+  "choices": [
+   "$-\\frac{3}{4}$",
+   "$-\\frac{4}{3}$",
+   "$\\frac{4}{3}$",
+   "$\\frac{3}{4}$"
+  ],
+  "values": [
+   "-3/4",
+   "-4/3",
+   "4/3",
+   "3/4"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Changed the sign but didn't flip the fraction.",
+   "B": "Correct. Negative reciprocal: flip and change the sign.",
+   "C": "Reciprocal only: the sign must change too.",
+   "D": "That's the slope of a parallel line."
+  },
+  "check": "-1/(3/4)",
+  "explanation": [
+   "Perpendicular slopes multiply to $-1$.",
+   "$-1 \\div \\frac{3}{4} = -\\frac{4}{3}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q08-m",
+  "modeled_on": "bb-pt4-m-m2-q08",
+  "skill": "MATH.ALG.LINF.PARPERP",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "Line $\\ell$ passes through the points $(-2, 5)$ and $(4, 1)$. Line $m$ is perpendicular to line $\\ell$. What is the slope of line $m$?",
+  "choices": [
+   "$-\\frac{2}{3}$",
+   "$-\\frac{3}{2}$",
+   "$\\frac{3}{2}$",
+   "$\\frac{2}{3}$"
+  ],
+  "values": [
+   "-2/3",
+   "-3/2",
+   "3/2",
+   "2/3"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That's the slope of $\\ell$ itself.",
+   "B": "Reciprocal only: forgot to change the sign.",
+   "C": "Correct. Slope of $\\ell$ is $-\\frac{2}{3}$; its negative reciprocal is $\\frac{3}{2}$.",
+   "D": "Changed the sign but didn't flip."
+  },
+  "check": "-1/((1 - 5)/(4 - (-2)))",
+  "explanation": [
+   "Slope of $\\ell$: $\\frac{1 - 5}{4 - (-2)} = -\\frac{2}{3}$.",
+   "Perpendicular: flip and change sign, $\\frac{3}{2}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q08-h",
+  "modeled_on": "bb-pt4-m-m2-q08",
+  "skill": "MATH.ALG.LINF.PARPERP",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the $xy$-plane, line $p$ has equation $4x + ky = 7$, where $k$ is a constant. Line $p$ is perpendicular to the graph of $y = 2x - 9$. What is the value of $k$?",
+  "check": "solve(-4/k + Rational(1, 2), k)[0]",
+  "spr_answers": [
+   "8"
+  ],
+  "spr_entries": [
+   "8"
+  ],
+  "explanation": [
+   "Solve for $y$: $y = -\\frac{4}{k}x + \\frac{7}{k}$, so the slope of $p$ is $-\\frac{4}{k}$.",
+   "Perpendicular to slope 2 means slope $-\\frac{1}{2}$: $-\\frac{4}{k} = -\\frac{1}{2}$, so $k = 8$.",
+   "Trap: $k = -8$ comes from dropping the negative sign of the reciprocal."
+  ]
+ },
+ {
+  "id": "m-tw-m2q10-e",
+  "modeled_on": "bb-pt4-m-m2-q10",
+  "skill": "MATH.ADV.NLF.EXPF",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The function $P(t) = 500(1.06)^t$ models the population of a town $t$ years after 2020. By what percent does the population increase each year, according to the model?",
+  "choices": [
+   "$60\\%$",
+   "$106\\%$",
+   "$6\\%$",
+   "$1.06\\%$"
+  ],
+  "values": [
+   "60",
+   "106",
+   "6",
+   "106/100"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Decimal slip: $0.06$ is $6\\%$, not $60\\%$.",
+   "B": "That's the new value as a percent of the old one, not the increase.",
+   "C": "Correct. The factor $1.06 = 1 + 0.06$ means a $6\\%$ increase.",
+   "D": "Read the growth factor as a percent."
+  },
+  "check": "(Rational(106, 100) - 1)*100",
+  "explanation": [
+   "Growth factor $1.06 = 1 + r$, so $r = 0.06$.",
+   "$0.06 = 6\\%$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q10-m",
+  "modeled_on": "bb-pt4-m-m2-q10",
+  "skill": "MATH.ADV.NLF.EXPF",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The amount of a medication, in milligrams, in a patient's body $t$ hours after a dose is modeled by $A(t) = 80(0.95)^{t/3}$. Which statement best describes how $A$ changes every 3 hours?",
+  "choices": [
+   "It decreases by $95\\%$.",
+   "It decreases by $5\\%$.",
+   "It decreases by $15\\%$.",
+   "It decreases by $\\frac{5}{3}\\%$."
+  ],
+  "values": [
+   "-95",
+   "-5",
+   "-15",
+   "-5/3"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Read the factor $0.95$ as the decrease; it's the amount that remains.",
+   "B": "Correct. Every 3 hours the exponent grows by 1, so $A$ is multiplied by $0.95$.",
+   "C": "Multiplied the rate by 3.",
+   "D": "Divided the rate by 3; the $t/3$ already makes 3 hours one step."
+  },
+  "check": "((Rational(95, 100))**(3/3) - 1)*100",
+  "explanation": [
+   "Each 3 hours adds 1 to the exponent $t/3$.",
+   "So $A$ is multiplied by $0.95$: a $5\\%$ decrease."
+  ]
+ },
+ {
+  "id": "m-tw-m2q10-h",
+  "modeled_on": "bb-pt4-m-m2-q10",
+  "skill": "MATH.ADV.NLF.EXPF",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The value of an investment, in dollars, is modeled by $Q(t) = 300(1.02)^{6t}$, where $t$ is the number of years after the investment was made. According to the model, the value increases by $p\\%$ every 2 months. What is the value of $p$?",
+  "check": "((Rational(102, 100))**(6*Rational(1, 6)) - 1)*100",
+  "spr_answers": [
+   "2"
+  ],
+  "spr_entries": [
+   "2"
+  ],
+  "explanation": [
+   "2 months is $\\frac{1}{6}$ of a year, so $t$ increases by $\\frac{1}{6}$.",
+   "The exponent $6t$ increases by $6 \\cdot \\frac{1}{6} = 1$, so $Q$ is multiplied by $1.02$.",
+   "That's a $2\\%$ increase. (12 would be the yearly exponent count times 2.)"
+  ]
+ },
+ {
+  "id": "m-tw-m2q11-e",
+  "modeled_on": "bb-pt4-m-m2-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "How many solutions does the equation $2(3x - 4) = 6x + 1$ have?",
+  "choices": [
+   "Zero",
+   "Exactly one",
+   "Infinitely many",
+   "Exactly two"
+  ],
+  "values": [
+   "0",
+   "1",
+   "oo",
+   "2"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Both sides have $6x$, but the constants differ ($-8 \\ne 1$).",
+   "B": "That needs different $x$-coefficients; here both are 6.",
+   "C": "That needs equal constants too; $-8 \\ne 1$.",
+   "D": "A linear equation can't have exactly two solutions."
+  },
+  "check": "len(solve(2*(3*x - 4) - (6*x + 1), x))",
+  "explanation": [
+   "Distribute: $6x - 8 = 6x + 1$.",
+   "Subtract $6x$: $-8 = 1$, which is false, so there's no solution."
+  ]
+ },
+ {
+  "id": "m-tw-m2q11-m",
+  "modeled_on": "bb-pt4-m-m2-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "In the equation $ax - 7 = 5x + 2$, $a$ is a constant. If the equation has no solution, what is the value of $a$?",
+  "choices": [
+   "$9$",
+   "$-7$",
+   "$-5$",
+   "$5$"
+  ],
+  "values": [
+   "9",
+   "-7",
+   "-5",
+   "5"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Combined the constants ($7 + 2$); the constants already differ.",
+   "B": "Used the constant term instead of the coefficient.",
+   "C": "Sign error: the coefficients must be equal, not opposite.",
+   "D": "Correct. Equal $x$-coefficients with different constants gives no solution."
+  },
+  "check": "solve(Poly(a*x - 7 - (5*x + 2), x).coeff_monomial(x), a)[0]",
+  "explanation": [
+   "No solution: the $x$-terms must cancel while the constants don't.",
+   "So $a = 5$, and then $-7 = 2$ is false."
+  ]
+ },
+ {
+  "id": "m-tw-m2q11-h",
+  "modeled_on": "bb-pt4-m-m2-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The equation $\\frac{2}{3}(6x + 3r) = kx + 10$, where $k$ and $r$ are constants, has infinitely many solutions. What is the value of $k + r$?",
+  "check": "solve([4 - k, 2*r - 10], [k, r])[k] + solve([4 - k, 2*r - 10], [k, r])[r]",
+  "spr_answers": [
+   "9"
+  ],
+  "spr_entries": [
+   "9"
+  ],
+  "explanation": [
+   "Distribute: $4x + 2r = kx + 10$.",
+   "Infinitely many solutions: coefficients and constants both match, so $k = 4$ and $2r = 10$, $r = 5$.",
+   "$k + r = 9$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q12-e",
+  "modeled_on": "bb-pt4-m-m2-q12",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "A jacket costs $\\$40$. Its price increases by $25\\%$. What is the new price?",
+  "choices": [
+   "$\\$50$",
+   "$\\$30$",
+   "$\\$10$",
+   "$\\$65$"
+  ],
+  "values": [
+   "50",
+   "30",
+   "10",
+   "65"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $40 \\times 1.25 = 50$.",
+   "B": "Decreased the price instead of increasing it.",
+   "C": "That's the increase, not the new price.",
+   "D": "Added 25 dollars instead of 25 percent."
+  },
+  "check": "40*Rational(125, 100)",
+  "explanation": [
+   "A $25\\%$ increase multiplies by $1.25$.",
+   "$40 \\times 1.25 = 50$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q12-m",
+  "modeled_on": "bb-pt4-m-m2-q12",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A store buys a lamp for $\\$12$ and sets its selling price at $150\\%$ of that cost. During a sale, the selling price is reduced by $30\\%$. What is the sale price of the lamp?",
+  "choices": [
+   "$\\$14.40$",
+   "$\\$12.60$",
+   "$\\$5.40$",
+   "$\\$21.00$"
+  ],
+  "values": [
+   "12*Rational(12, 10)",
+   "12*Rational(15, 10)*Rational(7, 10)",
+   "12*Rational(15, 10)*Rational(3, 10)",
+   "12*Rational(25, 10)*Rational(7, 10)"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Subtracted the percents ($150\\% - 30\\%$); they apply one after the other.",
+   "B": "Correct. $12 \\times 1.5 = 18$, then $18 \\times 0.70 = 12.60$.",
+   "C": "That's $30\\%$ of the price: 30% off leaves 70%.",
+   "D": "Read '150% of' as '150% more than' ($\\times 2.5$)."
+  },
+  "check": "12*Rational(150, 100)*(1 - Rational(30, 100))",
+  "explanation": [
+   "'150% of the cost' means $\\times 1.5$: $\\$18$.",
+   "'Reduced by 30%' means $\\times 0.70$: $\\$12.60$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q12-h",
+  "modeled_on": "bb-pt4-m-m2-q12",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A shop's cost for an item is $c$ dollars, and its regular price is $240\\%$ of $c$. During a sale the regular price is discounted by $d\\%$, and the sale price is $1.68c$ dollars. What is the value of $d$?",
+  "check": "solve(Rational(240, 100)*(1 - d/100) - Rational(168, 100), d)[0]",
+  "spr_answers": [
+   "30"
+  ],
+  "spr_entries": [
+   "30"
+  ],
+  "explanation": [
+   "Regular price: $2.4c$. Sale price: $2.4c(1 - \\frac{d}{100}) = 1.68c$.",
+   "$1 - \\frac{d}{100} = 0.7$, so $d = 30$.",
+   "Traps: 72 (subtracting $2.4 - 1.68$) and 70 (the percent that remains)."
+  ]
+ },
+ {
+  "id": "m-tw-m2q13-e",
+  "modeled_on": "bb-pt4-m-m2-q13",
+  "skill": "MATH.ADV.NLEQ.DISC",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "How many distinct real solutions does the equation $x^2 - 6x + 9 = 0$ have?",
+  "choices": [
+   "Infinitely many",
+   "Exactly two",
+   "Exactly one",
+   "Zero"
+  ],
+  "values": [
+   "oo",
+   "2",
+   "1",
+   "0"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "A quadratic equation has at most two solutions.",
+   "B": "That needs a positive discriminant; here $36 - 36 = 0$.",
+   "C": "Correct. It's $(x - 3)^2 = 0$; the discriminant is 0.",
+   "D": "That needs a negative discriminant; here it's 0."
+  },
+  "check": "len(solve(x**2 - 6*x + 9, x))",
+  "explanation": [
+   "Discriminant: $b^2 - 4ac = 36 - 36 = 0$.",
+   "Zero discriminant means exactly one real solution, $x = 3$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q13-m",
+  "modeled_on": "bb-pt4-m-m2-q13",
+  "skill": "MATH.ADV.NLEQ.DISC",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "In the equation $x^2 + 10x + c = 0$, $c$ is a constant. If the equation has exactly two distinct real solutions, which of the following could be the value of $c$?",
+  "choices": [
+   "$24$",
+   "$25$",
+   "$30$",
+   "$26$"
+  ],
+  "values": [
+   "24",
+   "25",
+   "30",
+   "26"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $100 - 4(24) = 4 > 0$: two solutions.",
+   "B": "$100 - 100 = 0$: exactly one solution.",
+   "C": "$100 - 120 < 0$: no real solutions.",
+   "D": "$100 - 104 < 0$: no real solutions."
+  },
+  "check": "24",
+  "accepts": "100 - 4*v > 0",
+  "explanation": [
+   "Two real solutions need $b^2 - 4ac > 0$: $100 - 4c > 0$, so $c < 25$.",
+   "Only 24 is less than 25."
+  ]
+ },
+ {
+  "id": "m-tw-m2q13-h",
+  "modeled_on": "bb-pt4-m-m2-q13",
+  "skill": "MATH.ADV.NLEQ.DISC",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the equation $kx^2 + 12x + 4 = 0$, $k$ is a nonzero constant. If the equation has exactly one real solution, what is the value of $k$?",
+  "check": "solve(12**2 - 4*k*4, k)[0]",
+  "spr_answers": [
+   "9"
+  ],
+  "spr_entries": [
+   "9"
+  ],
+  "explanation": [
+   "Exactly one solution: $b^2 - 4ac = 0$.",
+   "$144 - 16k = 0$, so $k = 9$.",
+   "($k$ must be nonzero: $k = 0$ would make the equation linear.)"
+  ]
+ },
+ {
+  "id": "m-tw-m2q14-e",
+  "modeled_on": "bb-pt4-m-m2-q14",
+  "skill": "MATH.PSD.ONEVAR.CENTER",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "Class A has 10 students with a mean test score of 80. Class B has 30 students with a mean test score of 60. What is the mean test score of all 40 students?",
+  "choices": [
+   "$65$",
+   "$70$",
+   "$140$",
+   "$75$"
+  ],
+  "values": [
+   "65",
+   "70",
+   "140",
+   "75"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Total points $800 + 1{,}800 = 2{,}600$, divided by 40.",
+   "B": "That's the average of the two means; the classes have different sizes.",
+   "C": "Added the means instead of averaging.",
+   "D": "Weighted the wrong way: matched 30 students with 80."
+  },
+  "check": "(10*80 + 30*60)/(10 + 30)",
+  "explanation": [
+   "Sum of all scores: $10(80) + 30(60) = 2{,}600$.",
+   "Mean: $2{,}600 \\div 40 = 65$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q14-m",
+  "modeled_on": "bb-pt4-m-m2-q14",
+  "skill": "MATH.PSD.ONEVAR.CENTER",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "Data set P has 24 values with a mean of 15. Data set Q has 16 values with a mean of 40. What is the mean of the data set formed by combining P and Q?",
+  "check": "(24*15 + 16*40)/(24 + 16)",
+  "spr_answers": [
+   "25"
+  ],
+  "spr_entries": [
+   "25"
+  ],
+  "explanation": [
+   "Total: $24(15) + 16(40) = 360 + 640 = 1{,}000$.",
+   "Mean: $1{,}000 \\div 40 = 25$ (not $27.5$, the average of the means)."
+  ]
+ },
+ {
+  "id": "m-tw-m2q14-h",
+  "modeled_on": "bb-pt4-m-m2-q14",
+  "skill": "MATH.PSD.ONEVAR.CENTER",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Group X has $n$ people with a mean age of 30 years. Group Y has 20 people with a mean age of 45 years. The mean age of the two groups combined is 36 years. What is the value of $n$?",
+  "check": "solve(30*n + 20*45 - 36*(n + 20), n)[0]",
+  "spr_answers": [
+   "30"
+  ],
+  "spr_entries": [
+   "30"
+  ],
+  "explanation": [
+   "Total age: $30n + 20(45) = 36(n + 20)$.",
+   "$30n + 900 = 36n + 720$, so $6n = 180$ and $n = 30$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q15-e",
+  "modeled_on": "bb-pt4-m-m2-q15",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "Which expression is equivalent to $(x + 4)(x - 7)$?",
+  "choices": [
+   "$x^2 - 28$",
+   "$x^2 - 3x - 28$",
+   "$x^2 + 3x - 28$",
+   "$x^2 - 11x - 28$"
+  ],
+  "values": [
+   "x**2 - 28",
+   "x**2 - 3*x - 28",
+   "x**2 + 3*x - 28",
+   "x**2 - 11*x - 28"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Left out the middle products.",
+   "B": "Correct. $x^2 - 7x + 4x - 28$.",
+   "C": "Sign error on the middle term: $-7x + 4x = -3x$.",
+   "D": "Subtracted 4 from $-7$ instead of adding."
+  },
+  "check": "expand((x + 4)*(x - 7))",
+  "explanation": [
+   "Multiply every term: $x^2 - 7x + 4x - 28$.",
+   "Combine: $x^2 - 3x - 28$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q15-m",
+  "modeled_on": "bb-pt4-m-m2-q15",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The expression $x^2 + bx + 12$ can be rewritten as $(x + m)(x + n)$, where $m$ and $n$ are positive integers and $b$ is a constant. Which of the following could be the value of $b$?",
+  "choices": [
+   "$6$",
+   "$12$",
+   "$7$",
+   "$14$"
+  ],
+  "values": [
+   "6",
+   "12",
+   "7",
+   "14"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "No positive integer pair with product 12 sums to 6.",
+   "B": "That's the product $mn$, not the sum.",
+   "C": "Correct. $m = 3$, $n = 4$: $mn = 12$ and $b = m + n = 7$.",
+   "D": "No positive integer pair with product 12 sums to 14."
+  },
+  "check": "7",
+  "accepts": "Contains(v, imageset(Lambda(d, d + 12/d), FiniteSet(*divisors(12))))",
+  "explanation": [
+   "Expand: $x^2 + (m + n)x + mn$, so $mn = 12$ and $b = m + n$.",
+   "Pairs: $(1, 12) \\to 13$, $(2, 6) \\to 8$, $(3, 4) \\to 7$.",
+   "Only 7 is among the choices."
+  ]
+ },
+ {
+  "id": "m-tw-m2q15-h",
+  "modeled_on": "bb-pt4-m-m2-q15",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The expression $3x^2 + kx + 20$, where $k$ is a constant, can be rewritten as $(3x + p)(x + q)$, where $p$ and $q$ are positive integers. What is the greatest possible value of $k$?",
+  "check": "Max(*imageset(Lambda(p, 3*20/p + p), FiniteSet(*divisors(20))))",
+  "spr_answers": [
+   "61"
+  ],
+  "spr_entries": [
+   "61"
+  ],
+  "explanation": [
+   "Expand: $3x^2 + (3q + p)x + pq$, so $pq = 20$ and $k = 3q + p$.",
+   "Try every pair $(p, q)$: $(1, 20) \\to 61$, $(2, 10) \\to 32$, $(4, 5) \\to 19$, $(5, 4) \\to 17$, $(10, 2) \\to 16$, $(20, 1) \\to 23$.",
+   "Greatest: 61. Trap: $p$ and $q$ aren't interchangeable, because $q$ is multiplied by 3."
+  ]
+ },
+ {
+  "id": "m-tw-m2q17-e",
+  "modeled_on": "bb-pt4-m-m2-q17",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "A data set consists of the values 4, 7, 9, 12, and 18. A new data set is made by adding 10 to each value. What is the range of the new data set?",
+  "choices": [
+   "$14$",
+   "$19$",
+   "$24$",
+   "$28$"
+  ],
+  "values": [
+   "14",
+   "19",
+   "24",
+   "28"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $28 - 14 = 14$: adding a constant doesn't change the range.",
+   "B": "That's the new median, a measure of center.",
+   "C": "Added 10 to the range; adding to every value shifts it, spread stays the same.",
+   "D": "That's the new maximum: range is maximum minus minimum."
+  },
+  "check": "Max(14, 17, 19, 22, 28) - Min(14, 17, 19, 22, 28)",
+  "explanation": [
+   "New values: 14, 17, 19, 22, 28.",
+   "Range $= 28 - 14 = 14$, the same as $18 - 4$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q17-m",
+  "modeled_on": "bb-pt4-m-m2-q17",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "Data set A has a median of 12 and a range of 8. Data set B is made by multiplying each value in A by 3 and then adding 5. What is the range of data set B?",
+  "choices": [
+   "$29$",
+   "$8$",
+   "$41$",
+   "$24$"
+  ],
+  "values": [
+   "29",
+   "8",
+   "41",
+   "24"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Added 5 to the range; adding a constant doesn't change spread.",
+   "B": "Multiplying does change spread: every gap triples.",
+   "C": "That's the new median, $3(12) + 5$.",
+   "D": "Correct. Multiplying by 3 triples the range; adding 5 doesn't change it."
+  },
+  "check": "3*8",
+  "explanation": [
+   "Range scales with multiplication: $3 \\times 8 = 24$.",
+   "Adding 5 shifts every value equally, so the range stays 24."
+  ]
+ },
+ {
+  "id": "m-tw-m2q17-h",
+  "modeled_on": "bb-pt4-m-m2-q17",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Data set P has mean $m$ and standard deviation $s$, where $s > 0$. Data set Q is made by replacing each value $v$ in P with $100 - v$. Which choice gives the mean and the standard deviation of Q, in that order?",
+  "choices": [
+   "$100 - m$ and $s$",
+   "$100 - m$ and $100 - s$",
+   "$100 - m$ and $-s$",
+   "$m - 100$ and $s$"
+  ],
+  "values": [
+   "(100 - m, s)",
+   "(100 - m, 100 - s)",
+   "(100 - m, -s)",
+   "(m - 100, s)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Reflecting and shifting moves the center; the spread is unchanged.",
+   "B": "Spread isn't affected by adding 100.",
+   "C": "A standard deviation can't be negative; distances stay the same.",
+   "D": "Sign error: each value becomes $100 - v$, so the mean becomes $100 - m$."
+  },
+  "check": "(100 - m, s)",
+  "explanation": [
+   "Mean of $100 - v$ is $100 - m$.",
+   "Every distance from the mean is the same size, just mirrored, so the standard deviation stays $s$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q18-e",
+  "modeled_on": "bb-pt4-m-m2-q18",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = \\frac{6}{x}$. The function $g$ is defined by $g(x) = f(x - 3)$. Which equation defines $g$?",
+  "choices": [
+   "$g(x) = \\frac{6}{x} - 3$",
+   "$g(x) = \\frac{6}{x + 3}$",
+   "$g(x) = \\frac{6}{x} + 3$",
+   "$g(x) = \\frac{6}{x - 3}$"
+  ],
+  "values": [
+   "6/x - 3",
+   "6/(x + 3)",
+   "6/x + 3",
+   "6/(x - 3)"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "That's $f(x) - 3$, a vertical shift.",
+   "B": "Sign error: $f(x - 3)$ puts $x - 3$ in the denominator.",
+   "C": "That's $f(x) + 3$, a vertical shift.",
+   "D": "Correct. Replace $x$ with $x - 3$ in $f$."
+  },
+  "check": "(6/x).subs(x, x - 3)",
+  "explanation": [
+   "$g(x) = f(x - 3)$: substitute $x - 3$ for $x$.",
+   "$g(x) = \\frac{6}{x - 3}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q18-m",
+  "modeled_on": "bb-pt4-m-m2-q18",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = \\frac{a}{x + 2}$, where $a$ is a constant. The graph of $y = f(x)$ passes through the point $(1, 4)$. What is the value of $f(4)$?",
+  "choices": [
+   "$-2$",
+   "$3$",
+   "$2$",
+   "$12$"
+  ],
+  "values": [
+   "-2",
+   "3",
+   "2",
+   "12"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Used $x - 2$: $a = -4$ and $f(4) = -2$.",
+   "B": "Forgot the $+2$: $\\frac{12}{4} = 3$.",
+   "C": "Correct. $a = 4(3) = 12$, so $f(4) = \\frac{12}{6} = 2$.",
+   "D": "That's $a$, an intermediate value."
+  },
+  "check": "solve(a/(1 + 2) - 4, a)[0]/(4 + 2)",
+  "explanation": [
+   "$4 = \\frac{a}{1 + 2}$, so $a = 12$.",
+   "$f(4) = \\frac{12}{4 + 2} = 2$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q18-h",
+  "modeled_on": "bb-pt4-m-m2-q18",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = \\frac{a}{x - b}$, where $a$ and $b$ are constants. The graph of $y = f(x)$ passes through the points $(2, 3)$ and $(5, -6)$. If $g(x) = f(x - 2)$, which equation defines $g$?",
+  "choices": [
+   "$g(x) = \\frac{-6}{x - 2}$",
+   "$g(x) = \\frac{-6}{x - 6}$",
+   "$g(x) = \\frac{-6}{x - 4} - 2$",
+   "$g(x) = \\frac{6}{x - 6}$"
+  ],
+  "values": [
+   "-6/(x - 2)",
+   "-6/(x - 6)",
+   "-6/(x - 4) - 2",
+   "6/(x - 6)"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Shifted the wrong way: $f(x - 2)$ moves the graph right 2.",
+   "B": "Correct. $f(x) = \\frac{-6}{x - 4}$; then replace $x$ with $x - 2$.",
+   "C": "That's $f(x) - 2$, a vertical shift.",
+   "D": "Sign error on $a$: $3 = \\frac{a}{2 - 4}$ gives $a = -6$."
+  },
+  "check": "(a/(x - 2 - b)).subs(solve([a/(2 - b) - 3, a/(5 - b) + 6], [a, b], dict=True)[0])",
+  "explanation": [
+   "From the points: $a = 3(2 - b)$ and $a = -6(5 - b)$.",
+   "$6 - 3b = -30 + 6b$, so $b = 4$ and $a = -6$: $f(x) = \\frac{-6}{x - 4}$.",
+   "$g(x) = f(x - 2) = \\frac{-6}{x - 2 - 4} = \\frac{-6}{x - 6}$.",
+   "Desmos: graph $\\frac{a}{x-b}$ with sliders until both points are on it, then type $f(x-2)$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q19-e",
+  "modeled_on": "bb-pt4-m-m2-q19",
+  "skill": "MATH.ADV.NLEQ.QUAD",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "What is the sum of the solutions to the equation $x^2 - 9x + 14 = 0$?",
+  "choices": [
+   "$7$",
+   "$14$",
+   "$9$",
+   "$-9$"
+  ],
+  "values": [
+   "7",
+   "14",
+   "9",
+   "-9"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That's only one solution.",
+   "B": "That's the product of the solutions.",
+   "C": "Correct. Sum of roots $= -\\frac{b}{a} = 9$ (the roots are 2 and 7).",
+   "D": "Sign error: the sum is $-\\frac{b}{a}$, and $b = -9$."
+  },
+  "check": "sum(solve(x**2 - 9*x + 14, x))",
+  "explanation": [
+   "Factor: $(x - 2)(x - 7) = 0$.",
+   "Sum: $2 + 7 = 9$, which matches $-\\frac{b}{a}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q19-m",
+  "modeled_on": "bb-pt4-m-m2-q19",
+  "skill": "MATH.ADV.NLEQ.QUAD",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "What is the product of the solutions to the equation $2x^2 - 7x - 15 = 0$?",
+  "check": "prod(solve(2*x**2 - 7*x - 15, x))",
+  "spr_answers": [
+   "-15/2"
+  ],
+  "spr_entries": [
+   "-15/2",
+   "-7.5"
+  ],
+  "explanation": [
+   "Product of roots $= \\frac{c}{a} = \\frac{-15}{2}$.",
+   "Check: roots are 5 and $-\\frac{3}{2}$; $5 \\cdot (-\\frac{3}{2}) = -\\frac{15}{2}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q19-h",
+  "modeled_on": "bb-pt4-m-m2-q19",
+  "skill": "MATH.ADV.NLEQ.QUAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the equation $4x^2 - (4r + s)x + rs = 0$, $r$ and $s$ are positive constants. Which expression represents the sum of the solutions to the equation?",
+  "choices": [
+   "$r + \\frac{s}{4}$",
+   "$4r + s$",
+   "$-r - \\frac{s}{4}$",
+   "$\\frac{rs}{4}$"
+  ],
+  "values": [
+   "r + s/4",
+   "4*r + s",
+   "-r - s/4",
+   "r*s/4"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Sum $= -\\frac{b}{a} = \\frac{4r + s}{4}$.",
+   "B": "Forgot to divide by the leading coefficient 4.",
+   "C": "Sign error: $b = -(4r + s)$, so $-\\frac{b}{a}$ is positive.",
+   "D": "That's the product of the solutions, $\\frac{c}{a}$."
+  },
+  "check": "sum(solve(4*x**2 - (4*r + s)*x + r*s, x))",
+  "explanation": [
+   "Sum of roots $= -\\frac{b}{a} = \\frac{4r + s}{4} = r + \\frac{s}{4}$.",
+   "Check by factoring: $(x - r)(4x - s) = 0$ gives roots $r$ and $\\frac{s}{4}$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q20-e",
+  "modeled_on": "bb-pt4-m-m2-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "A circle in the $xy$-plane has equation $(x - 3)^2 + (y + 1)^2 = 49$. What is the radius of the circle?",
+  "choices": [
+   "$49$",
+   "$\\frac{49}{2}$",
+   "$3$",
+   "$7$"
+  ],
+  "values": [
+   "49",
+   "49/2",
+   "3",
+   "7"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "That's $r^2$.",
+   "B": "Halved $r^2$ instead of taking the square root.",
+   "C": "That's the $x$-coordinate of the center.",
+   "D": "Correct. $r^2 = 49$, so $r = 7$."
+  },
+  "check": "sqrt(49)",
+  "explanation": [
+   "The right side is $r^2$.",
+   "$r = \\sqrt{49} = 7$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q20-m",
+  "modeled_on": "bb-pt4-m-m2-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A circle in the $xy$-plane has equation $x^2 + 8x + y^2 - 6y = 11$. What is the radius of the circle?",
+  "choices": [
+   "$3\\sqrt{2}$",
+   "$6$",
+   "$\\sqrt{11}$",
+   "$36$"
+  ],
+  "values": [
+   "sqrt(18)",
+   "6",
+   "sqrt(11)",
+   "36"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Added half the coefficients (4 and 3) instead of their squares.",
+   "B": "Correct. $11 + 16 + 9 = 36$, so $r = 6$.",
+   "C": "Forgot to add the completed-square terms to the right side.",
+   "D": "That's $r^2$."
+  },
+  "check": "sqrt(11 + (8/2)**2 + (6/2)**2)",
+  "explanation": [
+   "Complete the square: $(x + 4)^2 - 16 + (y - 3)^2 - 9 = 11$.",
+   "$(x + 4)^2 + (y - 3)^2 = 36$, so $r = 6$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q20-h",
+  "modeled_on": "bb-pt4-m-m2-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A circle in the $xy$-plane has equation $2x^2 + 2y^2 - 6x + 10y = 1$. What is the radius of the circle?",
+  "check": "sqrt(Rational(1, 2) + Rational(9, 4) + Rational(25, 4))",
+  "spr_answers": [
+   "3"
+  ],
+  "spr_entries": [
+   "3"
+  ],
+  "explanation": [
+   "Divide by 2: $x^2 - 3x + y^2 + 5y = \\frac{1}{2}$.",
+   "Add $\\frac{9}{4}$ and $\\frac{25}{4}$ to both sides: $(x - \\frac{3}{2})^2 + (y + \\frac{5}{2})^2 = 9$.",
+   "$r = 3$. Traps: forgetting to divide the 1 by 2, or not adding to the right side.",
+   "Desmos: graph the equation and read the radius from the leftmost and rightmost points."
+  ]
+ },
+ {
+  "id": "m-tw-m2q21-e",
+  "modeled_on": "bb-pt4-m-m2-q21",
+  "skill": "MATH.GEO.AV.VOL",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "A rectangular box has dimensions 3 inches by 4 inches by 5 inches. What is the surface area, in square inches, of the box?",
+  "choices": [
+   "$60$",
+   "$188$",
+   "$94$",
+   "$47$"
+  ],
+  "values": [
+   "60",
+   "188",
+   "94",
+   "47"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That's the volume, $3 \\cdot 4 \\cdot 5$.",
+   "B": "Doubled twice.",
+   "C": "Correct. $2(12 + 15 + 20) = 94$.",
+   "D": "Counted each pair of faces once; a box has two of each."
+  },
+  "check": "2*(3*4 + 3*5 + 4*5)",
+  "explanation": [
+   "Faces come in pairs: $3 \\times 4$, $3 \\times 5$, $4 \\times 5$.",
+   "$2(12 + 15 + 20) = 94$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q21-m",
+  "modeled_on": "bb-pt4-m-m2-q21",
+  "skill": "MATH.GEO.AV.VOL",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "Two identical cubes, each with edge length 6 centimeters, are glued together so that one face of each cube matches exactly. What is the surface area, in square centimeters, of the resulting solid?",
+  "check": "2*6*6**2 - 2*6**2",
+  "spr_answers": [
+   "360"
+  ],
+  "spr_entries": [
+   "360"
+  ],
+  "explanation": [
+   "Two separate cubes: $2 \\times 6 \\times 36 = 432$.",
+   "Gluing hides one face on each cube: subtract $2 \\times 36$.",
+   "$432 - 72 = 360$. (396 subtracts only one hidden face.)"
+  ]
+ },
+ {
+  "id": "m-tw-m2q21-h",
+  "modeled_on": "bb-pt4-m-m2-q21",
+  "skill": "MATH.GEO.AV.VOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Two identical right circular cylinders, each with radius $r$ centimeters and height 12 centimeters, are joined base to base to form one cylinder of height 24 centimeters. The surface area of the new cylinder is $\\frac{5}{6}$ of the total surface area of the two original cylinders. What is the value of $r$?",
+  "check": "Max(*solve(2*r**2 + 48*r - Rational(5, 6)*(4*r**2 + 48*r), r))",
+  "spr_answers": [
+   "6"
+  ],
+  "spr_entries": [
+   "6"
+  ],
+  "explanation": [
+   "Two cylinders: $2(2\\pi r^2 + 24\\pi r) = 4\\pi r^2 + 48\\pi r$.",
+   "New cylinder: $2\\pi r^2 + 2\\pi r(24) = 2\\pi r^2 + 48\\pi r$ (two bases are hidden).",
+   "$2r^2 + 48r = \\frac{5}{6}(4r^2 + 48r)$ gives $\\frac{4}{3}r^2 = 8r$, so $r = 6$ ($r > 0$)."
+  ]
+ },
+ {
+  "id": "m-tw-m2q22-e",
+  "modeled_on": "bb-pt4-m-m2-q22",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "easy",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = (x - 4)^2 + 3$. What is the minimum value of $f(x)$?",
+  "choices": [
+   "$-3$",
+   "$3$",
+   "$19$",
+   "$4$"
+  ],
+  "values": [
+   "-3",
+   "3",
+   "19",
+   "4"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Sign error: the vertex form $a(x - h)^2 + k$ has $k = 3$.",
+   "B": "Correct. The vertex is $(4, 3)$ and the parabola opens up.",
+   "C": "That's $f(0)$, the $y$-intercept.",
+   "D": "That's the $x$-coordinate of the vertex, where the minimum happens."
+  },
+  "check": "minimum((x - 4)**2 + 3, x)",
+  "explanation": [
+   "$(x - 4)^2 \\ge 0$, so $f(x) \\ge 3$.",
+   "The minimum value is 3, at $x = 4$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q22-m",
+  "modeled_on": "bb-pt4-m-m2-q22",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = 2(x + 3)^2 - 8$. What is the $y$-coordinate of the $y$-intercept of the graph of $y = f(x)$?",
+  "choices": [
+   "$-2$",
+   "$10$",
+   "$28$",
+   "$-8$"
+  ],
+  "values": [
+   "-2",
+   "10",
+   "28",
+   "-8"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Forgot to square: $2(3) - 8$.",
+   "B": "Correct. $f(0) = 2(9) - 8 = 10$.",
+   "C": "Squared the 2 as well: $(2 \\cdot 3)^2 - 8$.",
+   "D": "That's $k$, the $y$-coordinate of the vertex."
+  },
+  "check": "(2*(x + 3)**2 - 8).subs(x, 0)",
+  "explanation": [
+   "The $y$-intercept is $f(0)$.",
+   "$f(0) = 2(3)^2 - 8 = 18 - 8 = 10$."
+  ]
+ },
+ {
+  "id": "m-tw-m2q22-h",
+  "modeled_on": "bb-pt4-m-m2-q22",
+  "skill": "MATH.ADV.NLF.VERTEX",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The graph of $y = ax^2 + bx + c$ in the $xy$-plane, where $a$, $b$, and $c$ are constants, opens downward and has its vertex at $(-1, 6)$. Which of the following could be the value of $c$?",
+  "choices": [
+   "$2$",
+   "$7$",
+   "$6$",
+   "$9$"
+  ],
+  "values": [
+   "2",
+   "7",
+   "6",
+   "9"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $c = a + 6$ with $a < 0$, so $c < 6$.",
+   "B": "This needs $a = 1 > 0$, a parabola that opens upward.",
+   "C": "This needs $a = 0$, which isn't a parabola.",
+   "D": "This needs $a = 3 > 0$, a parabola that opens upward."
+  },
+  "check": "2",
+  "accepts": "v < 6",
+  "explanation": [
+   "Vertex form: $y = a(x + 1)^2 + 6$.",
+   "$c$ is $y$ at $x = 0$: $c = a + 6$.",
+   "Opens downward means $a < 0$, so $c < 6$. Only 2 works."
+  ]
+ }
+]

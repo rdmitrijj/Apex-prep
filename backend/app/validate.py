@@ -85,6 +85,10 @@ def same(a: Any, b: Any) -> bool:
             and len(a) == len(b)
             and all(same(p, q) for p, q in zip(a, b, strict=True))
         )
+    if isinstance(a, sympy.And) or isinstance(b, sympy.And):  # a system: same parts in any order
+        if not (isinstance(a, sympy.And) and isinstance(b, sympy.And)) or len(a.args) != len(b.args):
+            return False
+        return all(any(same(p, q) for q in b.args) for p in a.args)
     if isinstance(a, Relational) or isinstance(b, Relational):
         if not (isinstance(a, Relational) and isinstance(b, Relational)):
             return False
