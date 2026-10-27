@@ -1,0 +1,443 @@
+[
+ {
+  "id": "rw-x-wic-001",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Coffee plants need steady rainfall throughout the growing season, but they do not ______ standing water: roots left in soaked soil for more than a few days quickly begin to rot.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "produce",
+   "require",
+   "attract",
+   "tolerate"
+  ],
+  "answer": "D",
+  "explanation": "'But' contrasts needing rain with something the plants can't handle, and the colon explains the harm: they can't 'tolerate' standing water.",
+  "rationales": {
+   "A": "Plants don't produce standing water.",
+   "B": "The colon explains that standing water harms the plants, so they don't need it; 'do not require' misses the harm.",
+   "C": "Attracting water isn't the point; the text is about harm from too much water.",
+   "D": "Correct. 'Tolerate' means to survive or put up with; the roots rot in standing water."
+  }
+ },
+ {
+  "id": "rw-x-wic-002",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "Unlike her outgoing older brother, the young violinist was ______ in interviews, answering most questions with a single word and avoiding eye contact with the reporters who had gathered after her concert.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "careless",
+   "confident",
+   "reserved",
+   "talkative"
+  ],
+  "answer": "C",
+  "explanation": "'Unlike her outgoing brother' and one-word answers point to a word meaning 'quiet and shy.'",
+  "rationales": {
+   "A": "Nothing suggests she was careless; she was quiet.",
+   "B": "Avoiding eye contact suggests shyness, not confidence.",
+   "C": "Correct. 'Reserved' means quiet and slow to share feelings, the opposite of 'outgoing.'",
+   "D": "One-word answers aren't talkative; this ignores 'unlike.'"
+  }
+ },
+ {
+  "id": "rw-x-wic-003",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "easy",
+  "passage": "The city's new bridge was designed to ______ traffic in the crowded downtown area. Since it opened last year, however, the average commute through downtown has actually grown longer, surprising the planners.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "measure",
+   "reduce",
+   "ignore",
+   "increase"
+  ],
+  "answer": "B",
+  "explanation": "'However' and 'surprising' show the result was the opposite of the goal. Longer commutes were the surprise, so the goal was to 'reduce' traffic.",
+  "rationales": {
+   "A": "A bridge isn't built to measure traffic.",
+   "B": "Correct. The planners were surprised that commutes got longer, so the bridge was meant to lessen traffic.",
+   "C": "'Ignore traffic' doesn't describe the purpose of a bridge.",
+   "D": "No one designs a bridge to add traffic, and 'however' signals the result went against the goal."
+  }
+ },
+ {
+  "id": "rw-x-wic-004",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Early critics called the composer's music chaotic, but later listeners came to see its apparent disorder as carefully ______: every clash of sounds, they argued, had been planned in advance to unsettle the audience.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "deliberate",
+   "borrowed",
+   "accidental",
+   "fleeting"
+  ],
+  "answer": "A",
+  "explanation": "The colon explains the blank: the clashes were planned. 'Carefully deliberate' fits.",
+  "rationales": {
+   "A": "Correct. 'Deliberate' means done on purpose, matching 'had been planned in advance.'",
+   "B": "Nothing suggests the sounds were taken from other composers.",
+   "C": "This repeats the early critics' view; 'but later listeners' signals the opposite.",
+   "D": "'Fleeting' (brief) has nothing to do with planning."
+  }
+ },
+ {
+  "id": "rw-x-wic-005",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "The historian's account of the revolution is admirably ______: she presents the arguments of both the rebels and the royalists in their own words and draws no conclusion about which side was right.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "exhaustive",
+   "sentimental",
+   "partisan",
+   "evenhanded"
+  ],
+  "answer": "D",
+  "explanation": "The colon defines the blank: both sides presented, no side taken. That's 'evenhanded.' Watch for words that fit the topic ('exhaustive') but not the explanation.",
+  "rationales": {
+   "A": "'Exhaustive' (complete in every detail) fits a history book but not the colon's point about fairness.",
+   "B": "Nothing suggests emotional or nostalgic writing.",
+   "C": "'Partisan' means favoring one side, the opposite of what's described.",
+   "D": "Correct. 'Evenhanded' means fair to all sides, exactly what the colon describes."
+  }
+ },
+ {
+  "id": "rw-x-wic-006",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Although the drug produced promising results in mice, the researchers warned against ______ its effects to humans, noting that many treatments that work in animals fail once clinical trials begin.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "celebrating",
+   "restricting",
+   "extrapolating",
+   "concealing"
+  ],
+  "answer": "C",
+  "explanation": "The researchers don't want mouse results applied to people yet. 'Extrapolating' means extending results beyond what was tested.",
+  "rationales": {
+   "A": "'Celebrating its effects to humans' isn't grammatical or logical.",
+   "B": "Warning against 'restricting its effects to humans' makes no sense.",
+   "C": "Correct. 'Extrapolate' means to extend findings beyond the cases studied, here from mice to humans.",
+   "D": "Hiding the results isn't the concern; the concern is overgeneralizing."
+  }
+ },
+ {
+  "id": "rw-x-wic-007",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "The village's water supply had always been ______: in dry years the wells ran low by midsummer, and residents never knew whether there would be enough water until the autumn rains returned.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "precarious",
+   "abundant",
+   "ancient",
+   "contaminated"
+  ],
+  "answer": "A",
+  "explanation": "The colon describes uncertainty about having enough water. 'Precarious' (insecure, risky) fits.",
+  "rationales": {
+   "A": "Correct. 'Precarious' means uncertain and at risk, matching wells that might run low.",
+   "B": "Wells that run low aren't abundant.",
+   "C": "The age of the supply isn't the point of the colon.",
+   "D": "The text is about quantity, not pollution."
+  }
+ },
+ {
+  "id": "rw-x-wic-008",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "passage": "Rather than ______ the review committee's concerns, the architect responded to each one in a detailed letter and revised her plans wherever the criticism seemed fair.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "dismissing",
+   "acknowledging",
+   "publishing",
+   "anticipating"
+  ],
+  "answer": "A",
+  "explanation": "'Rather than X, she responded to each one' means X is the opposite of taking concerns seriously: 'dismissing.'",
+  "rationales": {
+   "A": "Correct. 'Rather than' contrasts the blank with responding carefully, so it means 'rejecting without consideration.'",
+   "B": "Acknowledging the concerns is what she did; 'rather than' needs the opposite.",
+   "C": "Making the concerns public isn't the contrast being drawn.",
+   "D": "Predicting the concerns in advance doesn't contrast with answering them."
+  }
+ },
+ {
+  "id": "rw-x-wic-009",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Marine biologist Ayumi Sato notes that coral recovery after the 2016 heat wave was not uniform but ______: some reefs regrew within five years, while others only a few kilometers away showed almost no new growth.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "patchy",
+   "rapid",
+   "gradual",
+   "complete"
+  ],
+  "answer": "A",
+  "explanation": "'Not uniform but ___' plus the contrast between nearby reefs means 'uneven': patchy.",
+  "rationales": {
+   "A": "Correct. 'Patchy' means uneven from place to place, matching reefs that differed nearby.",
+   "B": "Only some reefs recovered quickly; the point is the unevenness.",
+   "C": "'Gradual' describes steady slow change everywhere, not the contrast between reefs.",
+   "D": "Some reefs showed almost no growth, so recovery wasn't complete."
+  }
+ },
+ {
+  "id": "rw-x-wic-010",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "The novelist's prose is often described as plain, yet that plainness is ______: readers who return to her books discover layers of irony beneath sentences that at first seemed entirely simple.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "accidental",
+   "deceptive",
+   "tedious",
+   "refreshing"
+  ],
+  "answer": "B",
+  "explanation": "'Yet' signals a twist: the plainness hides irony. It's 'deceptive.'",
+  "rationales": {
+   "A": "Nothing suggests the style was unplanned.",
+   "B": "Correct. 'Deceptive' means misleading: the plain surface hides complexity.",
+   "C": "Discovering layers of irony isn't boring.",
+   "D": "It fits a positive tone, but 'yet' and the hidden irony point to plainness that misleads."
+  }
+ },
+ {
+  "id": "rw-x-wic-011",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Economists had expected the 2022 tax cut to ______ consumer spending, but most households saved the extra money instead, and retail sales stayed nearly unchanged over the following year.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "mask",
+   "spur",
+   "gauge",
+   "curb"
+  ],
+  "answer": "B",
+  "explanation": "'But households saved' contrasts with the expectation, so economists expected more spending: 'spur.'",
+  "rationales": {
+   "A": "'Mask' (hide) doesn't fit an expected effect of a tax cut.",
+   "B": "Correct. 'Spur' means to encourage or speed up; the expected boost didn't happen.",
+   "C": "'Gauge' means to measure; a tax cut doesn't measure spending.",
+   "D": "'Curb' means to limit; economists wouldn't expect a tax cut to reduce spending, and 'but' needs a contrast with unchanged sales."
+  }
+ },
+ {
+  "id": "rw-x-wic-012",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "passage": "Some scholars treat the poet's letters as mere ______ to her poems, useful only for dating them. Lin Wei argues instead that the letters are literary works in their own right, crafted as carefully as the poems themselves.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "rebuttals",
+   "imitations",
+   "supplements",
+   "rivals"
+  ],
+  "answer": "C",
+  "explanation": "'Mere ... useful only for dating them' shows the scholars see the letters as minor additions; 'instead' introduces Lin Wei's opposite view.",
+  "rationales": {
+   "A": "Nothing suggests the letters argue against the poems.",
+   "B": "Nothing suggests the letters copy the poems.",
+   "C": "Correct. 'Mere supplements' means minor additions, which 'useful only for dating them' describes.",
+   "D": "Rivals would be equal in importance, the view Lin Wei holds, not 'some scholars.'"
+  }
+ },
+ {
+  "id": "rw-x-inf-001",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "easy",
+  "passage": "Ecologist Rosa Jiménez found that a species of hummingbird visits red flowers far more often than white flowers in the same meadow. When she painted some white flowers red, hummingbird visits to those flowers rose sharply, even though their nectar was unchanged. These findings suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "painting flowers reduces the amount of nectar they produce.",
+   "the hummingbirds choose flowers mainly by color rather than by the nectar they offer.",
+   "the hummingbirds avoid meadows that contain many white flowers.",
+   "red flowers naturally produce more nectar than white flowers do."
+  ],
+  "answer": "B",
+  "explanation": "Only the color changed, and visits rose, so color matters most to these birds.",
+  "rationales": {
+   "A": "The text says the nectar was unchanged.",
+   "B": "Correct. Changing only the color changed the visits, so color drives the choice.",
+   "C": "The study compared flowers within one meadow, not whole meadows.",
+   "D": "The painted flowers' nectar was unchanged, and the text never compares nectar."
+  }
+ },
+ {
+  "id": "rw-x-inf-002",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "passage": "In 2021, linguist Omar Haddad recorded how often speakers of a regional dialect used an old word for \"river.\" Speakers over seventy used it in nearly every conversation, speakers aged forty to sixty used it occasionally, and speakers under twenty almost never used it. If this pattern continues, ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the dialect has no other word for \"river.\"",
+   "older speakers learned the word from their grandchildren.",
+   "the old word is likely to become much less common in the dialect over the coming decades.",
+   "young speakers will start using the old word more often as they grow older."
+  ],
+  "answer": "C",
+  "explanation": "Use falls with each younger age group. If that continues, the word will fade.",
+  "rationales": {
+   "A": "If young speakers rarely use the old word, they probably use another one.",
+   "B": "This reverses the direction of the pattern.",
+   "C": "Correct. Each younger group uses it less, so as older speakers pass on, use will drop.",
+   "D": "Nothing suggests people adopt the word with age; the pattern points the other way."
+  }
+ },
+ {
+  "id": "rw-x-inf-003",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "passage": "Most fossil sites preserve only bones and shells, because soft tissues usually decay before they can be buried. At the Ravenna site, however, paleontologists have found fossilized jellyfish, worms, and even the outlines of feathers. Because rapid burial in fine mud is one of the few conditions that slows decay, the researchers infer that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "feathers decay more slowly than bones do.",
+   "animals with bones and shells rarely lived near the Ravenna site.",
+   "organisms at the Ravenna site were likely buried in fine sediment soon after they died.",
+   "soft-bodied animals were more common near the Ravenna site than anywhere else."
+  ],
+  "answer": "C",
+  "explanation": "The puzzle is unusual preservation; the stated cause of such preservation is rapid burial in fine mud.",
+  "rationales": {
+   "A": "The text says soft tissues usually decay first.",
+   "B": "Nothing in the text supports this.",
+   "C": "Correct. Soft tissue survived, and rapid burial in fine mud is what slows decay.",
+   "D": "The fossils show preservation, not how common the animals were."
+  }
+ },
+ {
+  "id": "rw-x-weak-001",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "easy",
+  "passage": "This year, Lakeside High School moved its start time from 8:00 a.m. to 9:00 a.m. The principal claims that the later start time caused students' scores on the spring math test to rise compared with last year.",
+  "stem": "Which finding, if true, would most directly weaken the principal's claim?",
+  "choices": [
+   "Lakeside High School is located next to a public park.",
+   "Math scores rose by the same amount at a nearby school that kept its 8:00 a.m. start time.",
+   "Lakeside replaced its cafeteria tables over the summer.",
+   "Students at Lakeside say they feel more awake in morning classes this year."
+  ],
+  "answer": "B",
+  "explanation": "Claim: X (later start) caused Y (higher scores). Y happening without X weakens it.",
+  "rationales": {
+   "A": "The location didn't change, so it can't explain this year's rise.",
+   "B": "Correct. The scores rose without the later start, so something else likely caused the rise.",
+   "C": "New tables have no plausible link to math scores.",
+   "D": "This supports the claim."
+  }
+ },
+ {
+  "id": "rw-x-weak-002",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "easy",
+  "passage": "Last spring, the city replaced the streetlights on Elm Avenue with much brighter ones. A city official claims that the brighter streetlights are the reason car accidents on Elm Avenue fell by 30 percent this year.",
+  "stem": "Which finding, if true, would most directly weaken the official's claim?",
+  "choices": [
+   "The drop in accidents on Elm Avenue happened entirely during daylight hours, when the streetlights were off.",
+   "Elm Avenue is one of the oldest streets in the city.",
+   "Drivers report that Elm Avenue feels safer at night than it used to.",
+   "The new streetlights use less electricity than the old ones."
+  ],
+  "answer": "A",
+  "explanation": "If the effect (fewer accidents) appears only when the supposed cause (light) is absent, the cause is in doubt.",
+  "rationales": {
+   "A": "Correct. Lights that are off can't prevent accidents, so another cause is at work.",
+   "B": "The street's age doesn't explain a change this year.",
+   "C": "This supports the claim.",
+   "D": "Energy use is unrelated to accidents."
+  }
+ },
+ {
+  "id": "rw-x-weak-003",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "The population of a frog species in Lake Varna has fallen by more than half since 2015. Biologist Erik Lund claims that a skin fungus first detected in the lake in 2014 is responsible for the decline.",
+  "stem": "Which finding, if true, would most directly weaken Lund's claim?",
+  "choices": [
+   "The fungus grows best in cool water like that of Lake Varna.",
+   "Frogs of the same species in a nearby lake where the fungus has never been found declined just as quickly over the same period.",
+   "The fungus has been found on the skin of most dead frogs collected from Lake Varna.",
+   "The frog species lays its eggs in shallow water near the shore."
+  ],
+  "answer": "B",
+  "explanation": "Claim: fungus caused the decline. A matching decline where there's no fungus points to a different cause.",
+  "rationales": {
+   "A": "This makes the claim more plausible, not less.",
+   "B": "Correct. The decline happened without the fungus, suggesting another cause.",
+   "C": "This supports the claim.",
+   "D": "Egg-laying habits don't bear on whether the fungus caused the decline."
+  }
+ },
+ {
+  "id": "rw-x-weak-004",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "passage": "In 2019, a city passed a law limiting how much landlords can raise rents each year. Economist Priya Shah argues that the law caused the number of new apartment buildings started in the city to fall over the next three years.",
+  "stem": "Which finding, if true, would most directly weaken Shah's argument?",
+  "choices": [
+   "Rents in the city were higher than the national average before 2019.",
+   "Several developers in the city said that the law made new projects less profitable.",
+   "Over the same three years, construction of new apartment buildings fell by a similar amount in neighboring cities that had no rent limits.",
+   "The city's rent law was modeled on a similar law in another country."
+  ],
+  "answer": "C",
+  "explanation": "Compare with places that lack the supposed cause. If they changed the same way, the cause is doubtful.",
+  "rationales": {
+   "A": "This describes conditions before the law; it doesn't test whether the law caused the drop.",
+   "B": "This supports the argument.",
+   "C": "Correct. The same drop without the law suggests a wider cause, such as building costs or interest rates.",
+   "D": "Where the law came from doesn't affect its impact."
+  }
+ },
+ {
+  "id": "rw-x-weak-005",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "passage": "A railroad line reached the town of Millbrook in 1872. Historian Ana Ruiz claims that the railroad's arrival caused Millbrook's rapid population growth in the following decades, as new residents came to work in rail-related businesses.",
+  "stem": "Which finding, if true, would most directly weaken Ruiz's claim?",
+  "choices": [
+   "Millbrook's population grew rapidly in the decades after 1872.",
+   "Several Millbrook businesses advertised in newspapers in nearby towns.",
+   "After 1872, most goods sold in Millbrook's stores arrived by train.",
+   "Millbrook's population had already doubled in the decade before 1872, and its growth rate did not change after the railroad arrived."
+  ],
+  "answer": "D",
+  "explanation": "To weaken 'X caused Y,' show Y was already happening at the same rate before X.",
+  "rationales": {
+   "A": "This restates the growth without testing its cause.",
+   "B": "Advertising doesn't bear on what caused population growth.",
+   "C": "This shows the railroad was used, which fits the claim.",
+   "D": "Correct. The growth was already happening and didn't speed up, so the railroad didn't cause it."
+  }
+ },
+ {
+  "id": "rw-x-weak-006",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "passage": "Psychologist Kenji Mori hypothesizes that playing chess improves children's math skills. In his study, children who joined an after-school chess club earned higher math grades at the end of the year than children at the same school who didn't join.",
+  "stem": "Which finding, if true, would most directly weaken Mori's hypothesis?",
+  "choices": [
+   "Children who joined the chess club already had higher math grades than their classmates before they started playing.",
+   "Children in the chess club said they enjoyed playing the game.",
+   "The math teachers didn't know which children were in the chess club.",
+   "The chess club met twice a week for the whole school year."
+  ],
+  "answer": "A",
+  "explanation": "A difference that existed before the 'cause' points to selection, not to chess improving math.",
+  "rationales": {
+   "A": "Correct. The difference existed before chess, so the club may simply attract strong math students.",
+   "B": "Enjoyment doesn't bear on math skills.",
+   "C": "This rules out teacher bias, which strengthens the study.",
+   "D": "A schedule detail neither supports nor weakens the hypothesis."
+  }
+ }
+]
