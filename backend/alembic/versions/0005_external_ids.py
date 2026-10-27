@@ -57,7 +57,9 @@ def upgrade() -> None:
         sa.ForeignKeyConstraint(
             ["user_id"], ["users.id"], name=op.f("fk_imported_mistakes_user_id_users"), ondelete="CASCADE"
         ),
-        sa.ForeignKeyConstraint(["skill_id"], ["skills.id"], name=op.f("fk_imported_mistakes_skill_id_skills")),
+        sa.ForeignKeyConstraint(
+            ["skill_id"], ["skills.id"], name=op.f("fk_imported_mistakes_skill_id_skills")
+        ),
         sa.PrimaryKeyConstraint("id", name=op.f("pk_imported_mistakes")),
         sa.UniqueConstraint("user_id", "external_id", name=op.f("uq_imported_mistakes_user_id")),
     )

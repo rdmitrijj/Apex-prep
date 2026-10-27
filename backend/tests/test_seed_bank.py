@@ -67,4 +67,10 @@ async def test_seed_edits_update_rows_in_place(monkeypatch: pytest.MonkeyPatch) 
         monkeypatch.undo()
         await seed(db)
         q = await db.scalar(select(Question).where(Question.external_id == eid))
-        assert q is not None and q.status == "active"
+        assert q is not None and q.status == "quarantined"  # stays out until the item is edited
+        monkeypatch.setattr(qs, "seed_items", lambda: edited)
+        await seed(db)
+        await db.refresh(q)
+        assert q.status == "active"
+        monkeypatch.undo()
+        await seed(db)
