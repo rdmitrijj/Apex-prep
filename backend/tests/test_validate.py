@@ -1,11 +1,15 @@
+import json
 from fractions import Fraction
+from pathlib import Path
 from typing import Any
 
+import pytest
 from sympy import sympify
 
+from app import validate
 from app.generators.spr import is_correct
-from app.schemas.question import MathItem, RWItem
-from app.validate import check_math, check_rw, same
+from app.schemas.question import MathItem, RWItem, RWSeedItem
+from app.validate import check_bank, check_math, check_rw, same
 
 LEAVES = {"MATH.ADV.NLF.POLYZ", "MATH.ALG.LIN2.SOLN", "RW.CAS.WIC.FILL"}
 WHY = "Sign error: this one is wrong."
@@ -105,3 +109,87 @@ def test_rw_checks() -> None:
     )
     errs = check_rw(item, LEAVES)
     assert any("13 words" in e for e in errs) and any("appears in the passage" in e for e in errs), errs
+
+
+def rw_item(**kw: Any) -> RWSeedItem:
+    base: dict[str, Any] = {
+        "id": "rw-tri-test-001",
+        "skill": "RW.CAS.WIC.FILL",
+        "difficulty": "hard",
+        "topic": "test",
+        "fictional": True,
+        "passage": "The committee praised the plan's ambition but ______ its approval, attaching conditions "
+        "that an independent audit would have to confirm before any money could be spent on it.",
+        "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+        "choices": ["qualified", "hastened", "disguised", "multiplied"],
+        "answer": "A",
+        "explanation": "Approval with conditions is limited approval.",
+        "steps": ["One.", "Two.", "Three."],
+        "strategy_tip": "Predict a word first.",
+        "rationales": {"A": "Correct. Limited.", "B": WHY, "C": WHY, "D": WHY},
+        "traps": {"B": "wrong logic", "C": "wrong logic", "D": "wrong logic"},
+        "vocab": [
+            {
+                "word": w,
+                "pos": "verb",
+                "meaning_en": "a meaning",
+                "meaning_ru": "значение",
+                "example": "An example sentence.",
+            }
+            for w in ("qualified", "hastened", "disguised", "multiplied")
+        ],
+    }
+    return RWSeedItem.model_validate(base | kw)
+
+
+def test_study_fields() -> None:
+    assert check_rw(rw_item(), LEAVES) == []
+    vocab = rw_item().vocab or []
+    mixed = [v.model_copy(update={"pos": "adjective"}) if v.word == "hastened" else v for v in vocab]
+    assert "choices are not all the same part of speech" in check_rw(rw_item(vocab=mixed), LEAVES)
+    assert any("without a vocab entry" in e for e in check_rw(rw_item(vocab=vocab[:3]), LEAVES))
+    assert any("traps must name" in e for e in check_rw(rw_item(traps={"A": "x"}), LEAVES))
+    bnd = rw_item(skill="RW.SEC.BND.SUPP", vocab=None, choices=["zero—", "zero,", "zero;", "zeros"])
+    assert "boundaries choices differ in more than punctuation" in check_rw(bnd, LEAVES | {"RW.SEC.BND.SUPP"})
+
+
+def test_quant_numbers_must_come_from_the_figure() -> None:
+    fig = {
+        "kind": "table",
+        "header": ["Branch", "Before", "After"],
+        "rows": [["North", "410", "520"], ["South", "300", "310"]],
+    }
+    roles = {"A": "supports", "B": "true_but_irrelevant", "C": "false", "D": "misread"}
+    item = rw_item(
+        skill="RW.INI.COEQ.TABLE",
+        vocab=None,
+        figure=fig,
+        quant=roles,
+        choices=[
+            "North rose by 110, more than South's 10.",
+            "South had 300 before.",
+            "South rose by 99.",
+            "North fell.",
+        ],
+    )
+    assert check_rw(item, LEAVES | {"RW.INI.COEQ.TABLE"}) == []
+    bad = item.model_copy(update={"choices": ["North rose by 111.", *item.choices[1:]]})
+    assert any("cites ['111']" in e for e in check_rw(bad, LEAVES | {"RW.INI.COEQ.TABLE"}))
+    two = item.model_copy(update={"quant": {**roles, "B": "supports"}})
+    assert any("exactly one choice" in e for e in check_rw(two, LEAVES | {"RW.INI.COEQ.TABLE"}))
+
+
+def test_bank_balance_length_and_blind(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
+    key = {"answer": "D", "rationales": {"A": WHY, "B": WHY, "C": WHY, "D": "Correct. Longest."}}
+    items = [rw_item(id=f"rw-tri-test-{n:03}", **key) for n in range(8)]
+    items = [i.model_copy(update={"passage": f"{i.passage} {n}"}) for n, i in enumerate(items)]
+    blind = tmp_path / "blind.json"
+    blind.write_text(json.dumps({i.id: "multiplied" for i in items}))
+    monkeypatch.setattr(validate, "BLIND", blind)
+    errs = [p for _, _, p in check_bank(items)]
+    assert any("unbalanced key" in e for e in errs), errs  # every key is D
+    assert any("key is the longest choice in 8/8" in e for e in errs), errs
+    assert any("similar to" in e for e in errs), errs
+    blind.write_text(json.dumps({items[0].id: "hastened"}))  # the solver disagreed with the key
+    errs = [p for _, _, p in check_bank(items[:1])]
+    assert any("blind re-solve picked 'hastened'" in e for e in errs), errs

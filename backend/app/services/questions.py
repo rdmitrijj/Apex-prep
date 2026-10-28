@@ -19,7 +19,7 @@ from app.generators import REGISTRY, generate
 from app.generators.core import DIFFICULTY_RATING
 from app.generators.spr import canonical_entry, is_correct
 from app.models import Question, Response, ReviewSchedule, Skill
-from app.schemas.question import MathItem, QuestionOut, RWItem
+from app.schemas.question import MathItem, QuestionOut, RWItem, RWSeedItem
 
 SEED_DIR = Path(__file__).resolve().parents[1] / "seed"
 PUBLIC_KEYS = ("passage", "passage2", "notes", "figure")
@@ -32,8 +32,12 @@ def content_hash(content: dict[str, Any]) -> str:
 
 
 def rw_content(item: RWItem) -> dict[str, Any]:
-    c = item.model_dump(exclude={"id", "modeled_on", "skill", "difficulty"}, exclude_none=True)
-    c["explanation"] = [item.explanation]
+    c = item.model_dump(
+        exclude={"id", "modeled_on", "skill", "difficulty", "steps", "strategy_tip"}, exclude_none=True
+    )
+    steps = getattr(item, "steps", None) or [item.explanation]
+    tip = getattr(item, "strategy_tip", None)
+    c["explanation"] = [*steps, f"Strategy: {tip}"] if tip else steps
     return c
 
 
@@ -54,10 +58,10 @@ def load_taxonomy() -> list[dict[str, Any]]:
     return nodes
 
 
-def load_rw_seed() -> list[RWItem]:
-    items: list[RWItem] = []
+def load_rw_seed() -> list[RWSeedItem]:
+    items: list[RWSeedItem] = []
     for path in sorted((SEED_DIR / "rw").glob("*.json")):
-        items += [RWItem.model_validate(raw) for raw in json.loads(path.read_text())]
+        items += [RWSeedItem.model_validate(raw) for raw in json.loads(path.read_text())]
     return items
 
 
@@ -147,7 +151,7 @@ async def seed(db: AsyncSession) -> dict[str, int]:
                 )
             )
             changed += 1
-        elif (q.content_hash, q.skill_id, q.format, q.difficulty) != (h, skill, fmt, diff):
+        elif (q.content, q.skill_id, q.format, q.difficulty) != (content, skill, fmt, diff):
             q.content, q.content_hash, q.skill_id, q.format = content, h, skill, fmt
             q.difficulty, q.difficulty_rating = diff, DIFFICULTY_RATING[diff]
             q.status = "active"  # an edit is the fix for whatever got it quarantined

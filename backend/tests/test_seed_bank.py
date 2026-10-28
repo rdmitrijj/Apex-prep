@@ -33,7 +33,11 @@ def test_items_are_consistent() -> None:
         assert len(i.passage.split()) + len((i.passage2 or "").split()) <= 170, i.passage[:50]
         text = " ".join([i.passage, i.passage2 or "", i.stem, *i.choices, *(i.notes or [])])
         assert not re.search(r"\b(SAT|College Board|Bluebook)\b", text), i.passage[:50]
-        if i.skill.startswith(("RW.SEC.", "RW.CAS.WIC.FILL", "RW.EOI.TRN.", "RW.INI.COEQ.")):
+        # Quantitative items either complete the text or ask which choice supports a stated claim.
+        blank = i.skill.startswith(("RW.SEC.", "RW.CAS.WIC.FILL", "RW.EOI.TRN.")) or (
+            i.skill.startswith("RW.INI.COEQ.") and "complete" in i.stem
+        )
+        if blank:
             assert "______" in i.passage, i.passage[:50]
 
 

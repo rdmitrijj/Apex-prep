@@ -113,6 +113,34 @@ class RWItem(BaseModel):
         return self
 
 
+class Vocab(BaseModel):
+    """A words-in-context entry (key or distractor) for the Anki export."""
+
+    model_config = ConfigDict(extra="forbid")
+    word: str = Field(min_length=2)
+    pos: Literal["noun", "verb", "adjective", "adverb", "phrase"]
+    meaning_en: str = Field(min_length=3)
+    meaning_ru: str = Field(min_length=2)
+    example: str = Field(min_length=10)
+
+
+# How a quantitative-evidence choice relates to the figure and the claim (app.validate checks it).
+QuantRole = Literal["supports", "true_but_irrelevant", "false", "misread"]
+
+
+class RWSeedItem(RWItem):
+    """Seed-file R&W item: RWItem plus optional study fields. Kept off RWItem so the LLM pipeline's
+    structured-output schema doesn't change."""
+
+    topic: str | None = None  # short label; app.validate limits repeats per skill
+    steps: list[str] | None = Field(default=None, min_length=3, max_length=5)  # shown instead of explanation
+    strategy_tip: str | None = None
+    traps: dict[Letter, str] | None = None  # trap type of each wrong choice
+    vocab: list[Vocab] | None = None
+    fictional: bool | None = None  # true: people, studies, and works in the passage are invented
+    quant: dict[Letter, QuantRole] | None = None
+
+
 class MathItem(BaseModel):
     """A hand-written math item (seed/math/*.json). `check` and `values` are SymPy expressions that
     app.validate evaluates to prove the key right and every other choice wrong."""

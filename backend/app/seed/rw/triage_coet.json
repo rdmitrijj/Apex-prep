@@ -1,0 +1,831 @@
+[
+ {
+  "id": "rw-tri-ini-quote-001",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "harbor water at night (poem)",
+  "fictional": true,
+  "passage": "\"Harbor Hours\" is a 2009 poem by Teodora Vass about a fishing town. In the poem, Vass portrays the harbor water at night as an active participant in the town's work, as though the sea itself were one of the laborers.",
+  "stem": "Which quotation from \"Harbor Hours\" most effectively illustrates the claim?",
+  "choices": [
+   "\"After midnight the tide comes in to help, / shouldering the moored boats one by one / and setting them down beside the nets.\"",
+   "\"The tide is a clock the fishermen trust; / they rise when it rises, long before light, / and rest when it falls back into the bay.\"",
+   "\"All night the lamps along the pier keep watch, / as tireless as any hand in town, / their light laid out across the docks.\"",
+   "\"By noon the water lies flat and silver, / and the nets hang drying on the rocks / while gulls argue over what is left.\""
+  ],
+  "answer": "A",
+  "explanation": "The claim needs three things together, which are night, the water, and the water doing work. Only one quotation has all three.",
+  "steps": [
+   "List the parts of the claim: (1) night, (2) the harbor water, (3) the water acts like a worker.",
+   "Check each quotation against all three parts.",
+   "The 'lamps' lines have night and work but not water; the 'clock' lines have water but no work.",
+   "Only the tide 'shouldering' boats after midnight meets all three."
+  ],
+  "strategy_tip": "Write the claim as a checklist before reading the quotations; reject any choice missing one item.",
+  "rationales": {
+   "A": "Correct. Night (after midnight), water (the tide), and active work (shouldering and setting down boats) are all present.",
+   "B": "Covers only part of the claim: The water sets the schedule, but it doesn't do any of the work itself.",
+   "C": "Covers only part of the claim: Night and work are here, but it's the lamps, not the water, that take part.",
+   "D": "Fits the topic but not the claim: This is daytime, and the water is still, not working."
+  },
+  "traps": {
+   "B": "covers only part of the claim",
+   "C": "covers only part of the claim",
+   "D": "fits the topic but not the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-002",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "proud violin maker who doubts himself (novel)",
+  "fictional": true,
+  "passage": "In Dumisani Reyes's novel The Glass Orchard, Olek is a celebrated violin maker who takes public pride in his craft yet privately doubts whether his instruments equal those made by his late teacher.",
+  "stem": "Which quotation from The Glass Orchard most effectively illustrates the claim?",
+  "choices": [
+   "\"Olek told every customer that his violins would outlast their grandchildren, and he said it without the trace of a smile, as if stating the weather.\"",
+   "\"Olek kept his teacher's portrait above the workbench, and each morning he nodded to it before picking up a chisel or a plane.\"",
+   "\"When a famous cellist ordered an instrument, Olek worried privately that his small workshop could not finish it before the concert season.\"",
+   "\"Olek accepted the medal as though no other result had been possible; that night, alone in the shop, he played his teacher's violin and then his own, and could not decide which was finer.\""
+  ],
+  "answer": "D",
+  "explanation": "The claim has two halves, public pride and private doubt about measuring up to his teacher. Only one quotation shows both.",
+  "steps": [
+   "Claim: (1) public pride + (2) private doubt + (3) the doubt is about matching his teacher.",
+   "The 'customers' quotation has pride only.",
+   "The 'cellist' quotation has private worry, but about a deadline, not his teacher.",
+   "The medal-and-two-violins quotation has all parts."
+  ],
+  "strategy_tip": "A distractor often matches the emotion (worry) but not its object (what he worries about).",
+  "rationales": {
+   "A": "Covers only part of the claim: This shows pride, but no private doubt.",
+   "B": "Fits the topic but not the claim: This shows respect for the teacher, not doubt about his own work.",
+   "C": "Covers only part of the claim: Private worry is here, but it's about time and space, not about whether his work equals his teacher's.",
+   "D": "Correct. Public pride (accepting the medal as if certain) and private doubt (alone, unable to decide whether his violin matches his teacher's) are both shown."
+  },
+  "traps": {
+   "A": "covers only part of the claim",
+   "B": "fits the topic but not the claim",
+   "C": "covers only part of the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-003",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "memory compared to a river (poem)",
+  "fictional": true,
+  "passage": "The poem \"Low Water\" describes a riverbank in late summer, when the water has dropped. In it, Annika Sorvali compares memory to a river, suggesting that memory both preserves what it carries and gradually changes it.",
+  "stem": "Which quotation from \"Low Water\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The river does not hold the rain that fed it; / it lets the summer go, as memory does.\"",
+   "\"The river keeps each stone it takes from us, / but turns it, year by year, to some new shape.\"",
+   "\"I still can see the river as it was in June, / so bright and quick and full of falling summer light.\"",
+   "\"Nothing the river carries stays the same: / it wears the leaves to silt, the logs to sand.\""
+  ],
+  "answer": "B",
+  "explanation": "The claim needs memory-as-river doing two things, keeping and changing. One quotation does both.",
+  "steps": [
+   "Claim parts: (1) memory is like a river, (2) it preserves, (3) it changes.",
+   "'Lets the summer go' is the opposite of preserving.",
+   "'Wears the leaves to silt' shows only change.",
+   "'Keeps each stone... turns it to some new shape' shows both."
+  ],
+  "strategy_tip": "Watch for choices that match one half of a 'both X and Y' claim.",
+  "rationales": {
+   "A": "Contradicts the claim: Here memory loses things; the claim says it keeps them.",
+   "B": "Correct. The river keeps the stones (preserves) and reshapes them (changes).",
+   "C": "Fits the topic but not the claim: The speaker remembers a river, but memory isn't compared to it or shown preserving and changing.",
+   "D": "Covers only part of the claim: This shows change but not keeping or preserving."
+  },
+  "traps": {
+   "A": "contradicts the claim",
+   "C": "fits the topic but not the claim",
+   "D": "covers only part of the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-004",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "topic": "hiding nervousness before a meeting (story)",
+  "fictional": true,
+  "passage": "In Priya Halvorsen's short story \"The Waiting Room,\" the narrator is anxious about a meeting with the director of a museum but tries to hide that anxiety from the people around her.",
+  "stem": "Which quotation from \"The Waiting Room\" most effectively illustrates the claim?",
+  "choices": [
+   "\"I had never met the director before, and I wondered what kind of person she would turn out to be.\"",
+   "\"The meeting was set for nine o'clock, but I arrived at the museum at half past eight.\"",
+   "\"I smiled at the receptionist and chatted about the weather, all the while counting the seconds until the door would open.\"",
+   "\"My hands shook so badly as I signed the visitor log that the receptionist and everyone else in the crowded waiting room turned to stare at me.\""
+  ],
+  "answer": "C",
+  "explanation": "The claim needs anxiety AND an effort to hide it. Only one quotation shows a calm surface over inner nerves.",
+  "steps": [
+   "Claim parts: (1) anxious, (2) hiding it from others.",
+   "Shaking hands that everyone notices shows anxiety but no hiding.",
+   "Chatting while counting seconds shows both."
+  ],
+  "strategy_tip": "Check each part of the claim; 'shows the feeling' is not the same as 'hides the feeling.'",
+  "rationales": {
+   "A": "Fits the topic but not the claim: Curiosity isn't anxiety, and nothing is being hidden.",
+   "B": "Fits the topic but not the claim: Arriving early might hint at nerves, but there's no hiding.",
+   "C": "Correct. Smiling and chatting hides the feeling, while counting the seconds shows the anxiety underneath.",
+   "D": "Contradicts the claim: Here the anxiety is obvious to everyone, the opposite of hiding it."
+  },
+  "traps": {
+   "A": "fits the topic but not the claim",
+   "B": "fits the topic but not the claim",
+   "D": "contradicts the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-005",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "joking to avoid a painful subject (play)",
+  "fictional": true,
+  "passage": "In Kofi Asante-Ward's play Paper Lanterns, Marguerite's family bakery has closed after twenty years. When her brother asks about it, Marguerite uses humor to steer the conversation away from a subject she finds painful.",
+  "stem": "Which quotation from Paper Lanterns most effectively illustrates the claim?",
+  "choices": [
+   "\"Closed? I prefer to say it's resting. Even bread deserves a holiday. Now, tell me about that train conductor you were complaining about.\"",
+   "\"It closed in March. Twenty years of early mornings, and then one day a paper sign on the door. I'd rather not talk about it.\"",
+   "\"Do you remember the morning you burned a whole tray of rolls and blamed the oven? Papa laughed until he cried.\"",
+   "\"The bank wanted its money back, and the new supermarket on the corner sells bread for half our price. What else could we possibly have done?\""
+  ],
+  "answer": "A",
+  "explanation": "The claim needs humor AND moving the conversation away from the painful topic. Only one line does both.",
+  "steps": [
+   "Claim parts: (1) humor, (2) steering away from the bakery's closing.",
+   "The serious explanation and the direct refusal lack humor.",
+   "The rolls memory is funny but keeps the talk on the bakery.",
+   "The 'resting' joke followed by a new topic does both."
+  ],
+  "strategy_tip": "Ask 'what is the character DOING with the words?' The claim is about a purpose (deflecting), not only a tone.",
+  "rationales": {
+   "A": "Correct. She jokes about the closing and then immediately changes the subject, which is humor used to steer away.",
+   "B": "Covers only part of the claim: She avoids the subject, but directly and without humor.",
+   "C": "Covers only part of the claim: This is a funny memory of the bakery, but it doesn't steer away from the painful topic; it stays on the bakery.",
+   "D": "Fits the topic but not the claim: She explains the closing seriously; there's no humor and no change of subject."
+  },
+  "traps": {
+   "B": "covers only part of the claim",
+   "C": "covers only part of the claim",
+   "D": "fits the topic but not the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-006",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "an indifferent but comforting city (poem)",
+  "fictional": true,
+  "passage": "In the poem \"Avenue Hours,\" Lucan Ferro's speaker presents the city as indifferent to any single person and suggests that this very indifference can be a source of comfort.",
+  "stem": "Which quotation from \"Avenue Hours\" most effectively illustrates the claim?",
+  "choices": [
+   "\"No one on the avenue has learned my name, / and that is why I walk there when I grieve.\"",
+   "\"Ten thousand windows, and not one of them / turns toward me as I pass beneath the rain.\"",
+   "\"The city never sleeps, and neither do I; / we keep each other company till dawn.\"",
+   "\"I love the bakeries and the rattling trains, / the smell of bread that fills the street at six.\""
+  ],
+  "answer": "A",
+  "explanation": "The claim links two ideas, the city doesn't care AND that is comforting. Only one quotation connects them ('that is why').",
+  "steps": [
+   "Claim parts: (1) the city is indifferent, (2) that indifference comforts.",
+   "The 'windows' lines have only (1).",
+   "The 'company till dawn' lines make the city caring, which contradicts (1).",
+   "'No one... has learned my name, and that is why I walk there when I grieve' has both."
+  ],
+  "strategy_tip": "When a claim says one thing CAUSES or EXPLAINS another, look for a quotation with that link ('so', 'that is why').",
+  "rationales": {
+   "A": "Correct. Not knowing his name is indifference, and walking there to grieve shows that the indifference comforts him.",
+   "B": "Covers only part of the claim: This shows indifference but not comfort.",
+   "C": "Contradicts the claim: Here the city is a companion, not indifferent.",
+   "D": "Fits the topic but not the claim: This is affection for the city, with no indifference."
+  },
+  "traps": {
+   "B": "covers only part of the claim",
+   "C": "contradicts the claim",
+   "D": "fits the topic but not the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-007",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "topic": "grandmother teaching patience (poem)",
+  "fictional": true,
+  "passage": "The poem \"Rising\" recalls childhood afternoons in a grandmother's kitchen. In the poem, Eun-ji Calloway's speaker expresses gratitude to her grandmother for teaching her to be patient.",
+  "stem": "Which quotation from \"Rising\" most effectively illustrates the claim?",
+  "choices": [
+   "\"My grandmother's kitchen was always warm; / the windows fogged on winter afternoons.\"",
+   "\"I was a restless child who hated waiting / for anything, for supper, spring, or sleep.\"",
+   "\"I thank my grandmother for every song / she sang to us while washing up the dishes after supper.\"",
+   "\"She showed me how to wait for dough to rise, / and still I thank her when a slow thing grows.\""
+  ],
+  "answer": "D",
+  "explanation": "The claim needs gratitude AND that it's for patience. Only one quotation has both.",
+  "steps": [
+   "Claim parts: (1) gratitude, (2) to the grandmother, (3) for teaching patience.",
+   "The 'songs' lines have gratitude but the wrong reason.",
+   "The dough lines have all three."
+  ],
+  "strategy_tip": "Gratitude for the wrong thing is still wrong; check what the feeling is about.",
+  "rationales": {
+   "A": "Fits the topic but not the claim: This describes a setting, with no gratitude and no patience.",
+   "B": "Covers only part of the claim: This shows impatience, but no gratitude and no teaching.",
+   "C": "Covers only part of the claim: This shows gratitude, but for songs, not for patience.",
+   "D": "Correct. Waiting for dough shows patience learned from the grandmother, and 'I thank her' shows gratitude."
+  },
+  "traps": {
+   "A": "fits the topic but not the claim",
+   "B": "covers only part of the claim",
+   "C": "covers only part of the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-008",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "mixed feelings about a hometown (novel)",
+  "fictional": true,
+  "passage": "In Sunniva Dahl-Ortiz's novel Winter Ledger, the narrator has mixed feelings about Brennick, the small town where she grew up: she resents its narrow view of what a life can be, yet she admires the loyalty its residents show one another.",
+  "stem": "Which quotation from Winter Ledger most effectively illustrates the claim?",
+  "choices": [
+   "\"I left Brennick when I was eighteen and did not go back for eleven years, not even for holidays.\"",
+   "\"Brennick was small and plain, but its people were the most loyal I have known anywhere in the world.\"",
+   "\"In Brennick nobody could picture any life beyond the county line, and from the age of twelve I could hardly wait to escape it for good.\"",
+   "\"I hated the way Brennick measured every life against its own six streets, and I loved the way it never let a neighbor go hungry.\""
+  ],
+  "answer": "D",
+  "explanation": "Mixed feelings require both the negative (narrowness) and the positive (loyalty). One quotation has both.",
+  "steps": [
+   "Claim parts: (1) resents narrowness, (2) admires loyalty.",
+   "The 'county line' quotation has only (1); the 'most loyal' quotation has only (2).",
+   "The 'six streets / never let a neighbor go hungry' quotation has both."
+  ],
+  "strategy_tip": "For 'mixed feelings' claims, eliminate every choice that shows only one side.",
+  "rationales": {
+   "A": "Fits the topic but not the claim: This states facts about leaving, without either feeling clearly shown.",
+   "B": "Covers only part of the claim: This shows admiration of loyalty, but 'small and plain' is not resentment of narrow thinking.",
+   "C": "Covers only part of the claim: This shows resentment of narrowness, but no admiration.",
+   "D": "Correct. Resentment of narrowness ('six streets') and admiration of loyalty (feeding neighbors) appear together."
+  },
+  "traps": {
+   "A": "fits the topic but not the claim",
+   "B": "covers only part of the claim",
+   "C": "covers only part of the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-009",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "a storm that speaks to a house (poem)",
+  "fictional": true,
+  "passage": "In Halvard Ness's poem \"Night of the Long Wind,\" the speaker depicts a storm as if it were a voice speaking and portrays the old farmhouse as answering it.",
+  "stem": "Which quotation from \"Night of the Long Wind\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The storm tore shingles from the barn roof / and flattened all the corn in the low field.\"",
+   "\"The storm called down the chimney all night long, / and every beam of the old house replied.\"",
+   "\"All night I listened to the old house creak / and wondered if its weary walls would hold.\"",
+   "\"The wind howled like a wolf across the hills, / the loudest sound I'd heard in all my years.\""
+  ],
+  "answer": "B",
+  "explanation": "The claim has two parts, the storm speaks and the house answers. Only one quotation shows a conversation.",
+  "steps": [
+   "Claim parts: (1) storm as a voice, (2) house answering.",
+   "Creaking alone isn't answering; howling 'like a wolf' isn't speaking to the house.",
+   "'Called... replied' shows both parts."
+  ],
+  "strategy_tip": "Look for the exact relationship the claim describes (here, a call and an answer).",
+  "rationales": {
+   "A": "Fits the topic but not the claim: The storm causes damage, but it doesn't speak and the house doesn't answer.",
+   "B": "Correct. The storm 'called' (a voice) and the house 'replied' (answered).",
+   "C": "Covers only part of the claim: The house makes sounds, but it isn't answering a speaking storm.",
+   "D": "Covers only part of the claim: The wind is compared to an animal's cry, and the house doesn't answer."
+  },
+  "traps": {
+   "A": "fits the topic but not the claim",
+   "C": "covers only part of the claim",
+   "D": "covers only part of the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quote-010",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "a farmer won over by the telephone (novel)",
+  "fictional": true,
+  "passage": "In Agnes Thorvaldsen's novel The Wire Across the Prairie, set in the 1890s, the farmer Pell is skeptical of the telephone at first but is gradually won over by its practical usefulness.",
+  "stem": "Which quotation from The Wire Across the Prairie most effectively illustrates the claim?",
+  "choices": [
+   "\"At first Pell refused to touch the telephone, calling it a toy for impatient people; by spring he was using it to order seed from three towns away.\"",
+   "\"Pell spent the whole winter reading newspaper stories about the telephone and describing its wonders to anyone at the feed store or the church supper who would listen.\"",
+   "\"Pell never trusted the telephone, and whenever it rang he made his daughter answer it for him.\"",
+   "\"The telephone was installed at the general store, where anyone in town could use it for a few cents.\""
+  ],
+  "answer": "A",
+  "explanation": "The claim describes a change, from skeptical to convinced by usefulness. Only one quotation shows both stages.",
+  "steps": [
+   "Claim parts: (1) skeptical at first, (2) later won over, (3) because it was useful.",
+   "'Never trusted' has no change; 'describing its wonders' has no skepticism.",
+   "'Refused at first... by spring using it to order seed' shows all three."
+  ],
+  "strategy_tip": "Words like 'at first' and 'gradually' in a claim mean the right quotation must show a change.",
+  "rationales": {
+   "A": "Correct. Early refusal (skeptical) changes to using it for ordering seed (won over by usefulness).",
+   "B": "Contradicts the claim: This shows early enthusiasm, not early skepticism.",
+   "C": "Covers only part of the claim: This shows skepticism that never changes.",
+   "D": "Fits the topic but not the claim: This describes the telephone, not Pell's change of attitude."
+  },
+  "traps": {
+   "B": "contradicts the claim",
+   "C": "covers only part of the claim",
+   "D": "fits the topic but not the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-support-001",
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "topic": "reef fish larvae following sounds",
+  "fictional": true,
+  "passage": "Marine biologist Keziah Moradi hypothesizes that larvae of the reef fish Pomacentrus aurelius locate reefs at night partly by following the crackling sounds made by snapping shrimp, which live almost exclusively on reefs. To test the idea, she placed larvae one at a time in a long tank with an underwater speaker at one end and recorded which end of the tank each larva swam toward.",
+  "stem": "Which finding, if true, would most directly support Moradi's hypothesis?",
+  "choices": [
+   "Larvae swam toward the speaker both when it played snapping-shrimp recordings and when it played open-ocean noise at the same volume.",
+   "Adult Pomacentrus aurelius produce low grunting sounds during their breeding season.",
+   "Larvae swam toward the speaker when it played snapping-shrimp recordings but showed no preference when it played open-ocean noise at the same volume.",
+   "Snapping shrimp are more active at night than during the day."
+  ],
+  "answer": "C",
+  "explanation": "Support needs the larvae to respond to the reef sound specifically, which requires a control sound of equal volume.",
+  "steps": [
+   "Hypothesis: larvae follow snapping-shrimp sounds to find reefs.",
+   "A good test must separate 'reef sound' from 'any loud sound.'",
+   "Only the key shows attraction to the shrimp sound and NOT to equally loud ocean noise.",
+   "The choice where both sounds attract larvae fits the topic but doesn't isolate the reef sound."
+  ],
+  "strategy_tip": "For 'support' questions, prefer the finding that rules out the boring explanation (here, plain loudness).",
+  "rationales": {
+   "A": "Fits the topic but not the claim: If any loud sound attracts them, the result says nothing about following REEF sounds.",
+   "B": "True but irrelevant: Sounds adults make don't show how larvae find reefs.",
+   "C": "Correct. Only the reef sound attracted the larvae; noise of equal loudness did not, so the larvae respond to the reef's sound specifically.",
+   "D": "Background fact rather than a test: This makes the idea possible but says nothing about what the larvae actually do."
+  },
+  "traps": {
+   "A": "fits the topic but not the claim",
+   "B": "true but irrelevant",
+   "D": "background fact rather than a test"
+  }
+ },
+ {
+  "id": "rw-tri-ini-support-002",
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "topic": "desert shrub dropping leaves",
+  "fictional": true,
+  "passage": "During long droughts, the desert shrub Larrea pallida sheds most of its leaves. Botanist Amara Lindqvist hypothesizes that the shrub drops its leaves mainly as a way to reduce water loss, and not because the drought has already damaged the leaves beyond use.",
+  "stem": "Which finding, if true, would most directly support Lindqvist's hypothesis?",
+  "choices": [
+   "Leaves that Larrea pallida sheds during droughts show severe tissue damage.",
+   "Larrea pallida grows in deserts on three different continents.",
+   "In a greenhouse, Larrea pallida plants given little water dropped their leaves before any damage could be detected in the leaf tissue.",
+   "Several other desert shrubs that grow alongside Larrea pallida keep all of their leaves through even the longest and hottest droughts on record."
+  ],
+  "answer": "C",
+  "explanation": "The hypothesis says the leaves are dropped on purpose, not because they're damaged. Dropping undamaged leaves supports that.",
+  "steps": [
+   "Hypothesis has two parts: the leaves are dropped to save water, NOT because they are damaged.",
+   "Evidence that the leaves fall before any damage supports the 'not damaged' part directly.",
+   "Damaged leaves would support the opposite view."
+  ],
+  "strategy_tip": "When a hypothesis says 'A, not B,' the best support usually rules out B.",
+  "rationales": {
+   "A": "Weakens the claim: Damaged leaves point to the explanation Lindqvist rejects.",
+   "B": "True but irrelevant: Where the shrub grows says nothing about why it drops leaves.",
+   "C": "Correct. Dropping healthy, undamaged leaves fits a strategy to save water, not a response to damage.",
+   "D": "About other plants: Other shrubs' behavior doesn't explain this shrub's reason."
+  },
+  "traps": {
+   "A": "weakens the claim",
+   "B": "true but irrelevant",
+   "D": "about other plants"
+  }
+ },
+ {
+  "id": "rw-tri-ini-support-003",
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "topic": "how discounts are stated",
+  "fictional": true,
+  "passage": "Economist Hana Sato hypothesizes that shoppers judge a discount stated as a dollar amount to be larger than the same discount stated as a percentage when the item is expensive, but that the pattern reverses for inexpensive items, for which a percentage seems larger. She asked shoppers to rate deals on a $300 jacket and on a $4 notebook.",
+  "stem": "Which finding from Sato's study, if true, would most strongly support her hypothesis?",
+  "choices": [
+   "Shoppers rated \"$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"$1 off\" the notebook as a better deal than \"25% off\" the notebook.",
+   "Shoppers rated \"20% off\" the jacket and \"$60 off\" the jacket as equally good deals.",
+   "Shoppers in the study were more likely to buy notebooks than jackets.",
+   "Shoppers rated \"$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"25% off\" the notebook as a better deal than \"$1 off\" the notebook."
+  ],
+  "answer": "D",
+  "explanation": "The hypothesis has two parts (expensive items favor dollars; cheap items favor percentages). Only one choice confirms both.",
+  "steps": [
+   "Split the hypothesis: (1) expensive item, dollars seem bigger; (2) cheap item, percent seems bigger.",
+   "Check the math: $60 is 20% of $300 and $1 is 25% of $4, so each pair is the same real discount.",
+   "Only one choice shows dollars winning for the jacket AND percent winning for the notebook.",
+   "The look-alike choice matches part (1) but contradicts part (2)."
+  ],
+  "strategy_tip": "Break a multi-part claim into pieces and check every piece; a choice that proves half is wrong.",
+  "rationales": {
+   "A": "Covers only part of the claim: Dollars won for both items, so the predicted reversal for cheap items didn't happen.",
+   "B": "Weakens the claim: No difference for the expensive item contradicts the first half of the hypothesis.",
+   "C": "True but irrelevant: What shoppers bought doesn't show how they judged the size of the discounts.",
+   "D": "Correct. Both deals are equal in value. Dollars won for the expensive item and percent won for the cheap item, matching both halves of the hypothesis."
+  },
+  "traps": {
+   "A": "covers only part of the claim",
+   "B": "weakens the claim",
+   "C": "true but irrelevant"
+  }
+ },
+ {
+  "id": "rw-tri-ini-support-004",
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "medium",
+  "topic": "medieval chronicle scribes",
+  "fictional": true,
+  "passage": "The Corwen Chronicle, a fourteenth-century manuscript, records events in a northern river valley. Earlier scholars assumed that the whole manuscript was written by a single monk. Historian Beatrix Oyelaran argues instead that two different scribes wrote it, one completing the first half and another the second.",
+  "stem": "Which finding, if true, would most directly support Oyelaran's argument?",
+  "choices": [
+   "The manuscript records events from the years 1302 to 1361.",
+   "The first half of the manuscript spells several common words differently from the second half and forms the letter \"g\" in a different style.",
+   "The ink used in both halves of the manuscript has the same chemical makeup.",
+   "Several other chronicles written in monasteries of the same region during the fourteenth century are known to be the work of more than one scribe."
+  ],
+  "answer": "B",
+  "explanation": "Two scribes should leave two sets of habits. Different spelling and letter forms in the two halves support that.",
+  "steps": [
+   "Claim: two scribes wrote the manuscript, one per half.",
+   "Evidence should show a difference that splits at the halves.",
+   "Spelling and handwriting differences between the halves do exactly that."
+  ],
+  "strategy_tip": "Evidence about OTHER cases doesn't prove THIS case.",
+  "rationales": {
+   "A": "True but irrelevant: The time span doesn't show how many people wrote it.",
+   "B": "Correct. Consistent differences in spelling and handwriting between the halves suggest two writers.",
+   "C": "Weakens the claim: If anything, identical ink fits a single writer better.",
+   "D": "About other texts: Other manuscripts don't show who wrote this one."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "C": "weakens the claim",
+   "D": "about other texts"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-001",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "school gardens and lunch vegetables",
+  "fictional": true,
+  "passage": "Nutrition researcher Tamsin Achebe studied two elementary schools in the same district. In 2021, Hollis School added a vegetable garden in which every class grows and harvests produce; Brandt School did not. Over the next two years, the share of lunch vegetables that Hollis students actually ate, rather than threw away, rose from 38 percent to 61 percent, while at Brandt it stayed near 40 percent. Achebe concluded that growing vegetables themselves made Hollis students more willing to eat vegetables at lunch.",
+  "stem": "Which finding, if true, would most directly weaken Achebe's conclusion?",
+  "choices": [
+   "In 2021, Hollis also switched to a lunch supplier that roasts and seasons its vegetables instead of boiling them, while Brandt kept its old supplier.",
+   "Hollis students who spent the most hours working in the garden showed the largest increase in the vegetables they ate.",
+   "Students at Brandt said in a survey that they would enjoy having a school garden.",
+   "At both schools, students ate a larger share of their fruit than of their vegetables at lunch."
+  ],
+  "answer": "A",
+  "explanation": "The claim is \"the garden caused the rise.\" A different cause that started at the same time, at Hollis only, weakens it.",
+  "steps": [
+   "Find the claim: the garden (X) caused Hollis students to eat more vegetables (Y).",
+   "Note that a comparison school already exists, so 'Y happened without X' is not available here.",
+   "The strongest weakener is another cause that started at the same time and only at Hollis.",
+   "Better-cooked vegetables from a new supplier explain the rise without the garden."
+  ],
+  "strategy_tip": "When the study already has a comparison group, look for a second change that hit only the treated group at the same time.",
+  "rationales": {
+   "A": "Correct. A second change that began at the same time, only at Hollis, could explain the rise just as well as the garden.",
+   "B": "Strengthens the claim: More garden time going with more eating is evidence FOR the garden effect.",
+   "C": "True but irrelevant: What Brandt students would enjoy says nothing about why eating changed at Hollis.",
+   "D": "Doesn't touch the causal link: This describes both schools equally, so it can't explain why only Hollis changed."
+  },
+  "traps": {
+   "B": "strengthens the claim",
+   "C": "true but irrelevant",
+   "D": "doesn't touch the causal link"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-002",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "tree rings and a volcanic eruption",
+  "fictional": true,
+  "passage": "Narrow tree rings indicate cool growing seasons. Dendroclimatologist Oren Malik examined pines in the Cerra Highlands and found that rings formed from 1601 to 1604 are unusually narrow. A large volcanic eruption occurred in 1600, and such eruptions can inject particles into the upper atmosphere that dim sunlight around the globe for several years. Malik therefore argues that the eruption caused the cool summers recorded in the highland pines.",
+  "stem": "Which finding, if true, would most directly weaken Malik's argument?",
+  "choices": [
+   "Ice cores from several regions contain a layer of volcanic ash dated to 1600.",
+   "Some of the pines in the Cerra Highlands are more than five hundred years old.",
+   "Historical records of volcanic eruptions that occurred before 1600 are far less complete and less precisely dated than the records of later eruptions.",
+   "Pines at the same latitude on other continents, which would have received the same dimmed sunlight, formed rings of normal width from 1601 to 1604."
+  ],
+  "answer": "D",
+  "explanation": "The argument relies on a global effect. If the global cause was present elsewhere but the effect (narrow rings) wasn't, the cause is probably local.",
+  "steps": [
+   "Claim: the 1600 eruption (X) caused narrow rings in 1601-1604 (Y).",
+   "The passage says the eruption's effect is global: it dims sunlight 'around the globe.'",
+   "So X was present everywhere. If Y is missing elsewhere, X probably isn't what caused Y in the highlands.",
+   "Normal rings in similar pines elsewhere is exactly that finding."
+  ],
+  "strategy_tip": "If the cause would act everywhere, a place where it acted but the effect didn't appear weakens the claim.",
+  "rationales": {
+   "A": "Strengthens the claim: This confirms the eruption put particles into the atmosphere, which supports Malik.",
+   "B": "True but irrelevant: The trees' age doesn't affect whether the eruption caused the cool summers.",
+   "C": "Sounds negative but misses the claim: Poor records of OTHER eruptions don't weaken the link between THIS eruption and these rings.",
+   "D": "Correct. If the eruption dimmed sunlight everywhere, trees elsewhere should also show narrow rings. They don't, so a local cause is more likely."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "B": "true but irrelevant",
+   "C": "sounds negative but misses the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-003",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "topic": "library fines and late returns",
+  "fictional": true,
+  "passage": "In 2022, the Pell County library system stopped charging fines for overdue books. Over the following year, the number of books returned more than a month late fell by 30 percent. Library director Mateo Ilunga claims that eliminating fines made patrons feel less embarrassed about returning overdue books and thus caused them to return books more promptly.",
+  "stem": "Which finding, if true, would most directly weaken Ilunga's claim?",
+  "choices": [
+   "Library systems in several neighboring counties that stopped charging fines around the same time also reported fewer very late returns.",
+   "In early 2022, the library system also began sending patrons automatic text reminders three days before each due date.",
+   "Patrons surveyed in 2023 said they were glad they no longer had to pay fines.",
+   "Before 2022, most of the system's overdue books were eventually returned."
+  ],
+  "answer": "B",
+  "explanation": "Another cause that began at the same time as the policy (text reminders) weakens the claim that the policy caused the change.",
+  "steps": [
+   "Claim: no fines (X) caused fewer late returns (Y).",
+   "A finding weakens it if Y has another cause that appeared at the same time.",
+   "Text reminders began in early 2022 too, and reminders could make returns more prompt by themselves."
+  ],
+  "strategy_tip": "'X caused Y' is weakened by another cause that arrived at the same time as X.",
+  "rationales": {
+   "A": "Strengthens the claim: The same result after the same change elsewhere supports the claim.",
+   "B": "Correct. Reminders that started at the same time are another explanation for fewer very late returns.",
+   "C": "Doesn't touch the causal link: Being glad about the policy doesn't show what changed return times.",
+   "D": "True but irrelevant: This describes the past and doesn't explain the drop after 2022."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "C": "doesn't touch the causal link",
+   "D": "true but irrelevant"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-004",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "office plants and productivity",
+  "fictional": true,
+  "passage": "Organizational psychologist Ruth Halloran surveyed forty departments at a large insurance company and found that departments with more potted plants in their work areas tended to have higher productivity ratings. On the basis of this pattern, Halloran concluded that adding plants to work areas raises employees' productivity, and she recommended that the company place plants in every department.",
+  "stem": "Which finding, if true, would most directly weaken Halloran's conclusion?",
+  "choices": [
+   "Employees in departments with many plants were more likely to describe their work areas as pleasant.",
+   "The plants most common in the offices were ferns and spider plants, which need little care.",
+   "Halloran's survey covered only the company's headquarters and did not include any of its regional offices in other cities or in other countries.",
+   "The company rewards departments with high productivity ratings by giving them a decoration budget, which most of them spend partly on plants."
+  ],
+  "answer": "D",
+  "explanation": "A correlation can run the other way. If productive departments get plants as a reward, plants don't need to cause productivity.",
+  "steps": [
+   "Claim: plants (X) cause higher productivity (Y), based only on a pattern.",
+   "A pattern can also mean Y causes X.",
+   "The decoration budget for productive departments is exactly that reverse direction.",
+   "A survey limitation sounds critical but doesn't offer another explanation for the pattern."
+  ],
+  "strategy_tip": "When the evidence is only a correlation, check for reverse cause: maybe Y produces X.",
+  "rationales": {
+   "A": "Strengthens the claim: This suggests a way plants could help, which supports Halloran.",
+   "B": "True but irrelevant: The type of plant doesn't affect which way the cause runs.",
+   "C": "Sounds negative but misses the claim: A smaller sample is a limitation, but it doesn't challenge the link between plants and productivity.",
+   "D": "Correct. Here productivity causes the plants, not the other way around, so the pattern doesn't show that plants raise productivity."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "B": "true but irrelevant",
+   "C": "sounds negative but misses the claim"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-005",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "decorated pots and migration",
+  "fictional": true,
+  "passage": "Archaeologist Ilse Brandvold has found that, around 900 CE, households in the river settlement of Kessa began using cooking pots decorated with a distinctive comb-pressed pattern previously found only at Thora, a town 200 kilometers upstream. Brandvold argues that the pots show that families from Thora settled in Kessa, bringing with them potters who made Thora-style pots from local materials.",
+  "stem": "Which finding, if true, would most directly weaken Brandvold's argument?",
+  "choices": [
+   "Burials at Kessa from after 900 CE include several people whose tooth chemistry shows they grew up near Thora.",
+   "The comb-pressed pots found at Kessa were made from a clay that occurs only near Thora.",
+   "At Thora, the comb-pressed pattern was also used to decorate baskets.",
+   "At Kessa, comb-pressed pots appear in the same houses as older, undecorated pots."
+  ],
+  "answer": "B",
+  "explanation": "Brandvold says potters came to Kessa and made pots there. Clay from Thora means the pots were made at Thora, which points to trade instead.",
+  "steps": [
+   "Read the claim closely: families moved to Kessa AND their potters made the pots there from local clay.",
+   "If the pots were made in Kessa, the clay should be from near Kessa.",
+   "Clay found only near Thora means the pots were made at Thora and carried downstream, which suggests trade.",
+   "Tooth chemistry showing Thora-born people at Kessa would support the claim."
+  ],
+  "strategy_tip": "Read every detail of the claim; the weakener often attacks the specific detail (here, 'local materials').",
+  "rationales": {
+   "A": "Strengthens the claim: People from Thora living at Kessa supports migration.",
+   "B": "Correct. If the pots were made from Thora's clay, they were probably made at Thora and traded downstream, not made at Kessa by newcomers.",
+   "C": "True but irrelevant: How Thora decorated baskets doesn't affect how the pots reached Kessa.",
+   "D": "Side detail: Old and new pots being used together fits either migration or trade."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "C": "true but irrelevant",
+   "D": "side detail"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-006",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "slang spread by a TV comedy",
+  "fictional": true,
+  "passage": "Linguist Paolo Esteves notes that the slang word \"brisk,\" used to mean \"impressive,\" was rare on online forums based in the city of Velmora until early 2019, when a popular local television comedy began using it in nearly every episode. Within a year, the word appeared in Velmora forum posts about ten times as often as before. Esteves concludes that the comedy was responsible for spreading the word among the city's forum users.",
+  "stem": "Which finding, if true, would most directly weaken Esteves's conclusion?",
+  "choices": [
+   "Many of the forum users who used \"brisk\" in 2019 also quoted lines from the comedy or mentioned its main characters in the very same posts.",
+   "The comedy was canceled in 2021 after three seasons.",
+   "Velmora forum posts using \"brisk\" to mean \"impressive\" had already begun rising sharply in mid-2018, months before the comedy first aired.",
+   "Older forum users used \"brisk\" less often than younger users did."
+  ],
+  "answer": "C",
+  "explanation": "A cause must come before its effect. If the rise started before the show, the show didn't start it.",
+  "steps": [
+   "Claim: the comedy (X) caused the spread of 'brisk' (Y).",
+   "If Y was already happening before X existed, X can't be the starting cause.",
+   "The mid-2018 rise came before the 2019 show."
+  ],
+  "strategy_tip": "Check timing; an effect that starts before its supposed cause weakens the claim.",
+  "rationales": {
+   "A": "Strengthens the claim: Users who use the word and talk about the show suggests the show influenced them.",
+   "B": "True but irrelevant: When the show ended doesn't affect what caused the rise in 2019.",
+   "C": "Correct. The rise started before the show existed, so the show can't be what started it.",
+   "D": "Side detail: Who used the word more doesn't show where the word came from."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "B": "true but irrelevant",
+   "D": "side detail"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-007",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "wildlife overpass and deer collisions",
+  "fictional": true,
+  "passage": "After a wildlife overpass was built across Route 9 in 2018, collisions between vehicles and deer on that highway fell by 45 percent over the next three years. On nearby Route 14, which crosses similar forest but received no overpass, collisions fell by only 5 percent. Transportation analyst Imogen Fairweather concludes that the overpass accounts for most of the decline on Route 9.",
+  "stem": "Which finding, if true, would most directly weaken Fairweather's conclusion?",
+  "choices": [
+   "In 2018, the speed limit on Route 9, but not on Route 14, was lowered from 100 to 70 kilometers per hour.",
+   "Deer populations near both highways stayed about the same from 2018 to 2021.",
+   "Cameras on the overpass recorded thousands of deer crossings each year.",
+   "Route 14 carries somewhat more traffic than Route 9 does, both before and after the overpass was built."
+  ],
+  "answer": "A",
+  "explanation": "With a comparison road already in place, the weakener must be a change that hit only Route 9 at the same time.",
+  "steps": [
+   "Claim: the overpass (X) caused most of the drop in collisions on Route 9 (Y).",
+   "Route 14 is the comparison group, so look for a second change on Route 9 only.",
+   "A lower speed limit starting in 2018 on Route 9 is that change.",
+   "A traffic difference that existed before and after doesn't explain a change."
+  ],
+  "strategy_tip": "A difference between groups that never changed can't explain a change over time.",
+  "rationales": {
+   "A": "Correct. Lower speeds began at the same time and only on Route 9, so they could explain the larger drop instead of the overpass.",
+   "B": "Strengthens the claim: This rules out fewer deer as an explanation, so it supports Fairweather.",
+   "C": "Strengthens the claim: Deer using the overpass supports the idea that it prevented collisions.",
+   "D": "Difference that didn't change: A steady difference in traffic can't explain why collisions CHANGED on Route 9."
+  },
+  "traps": {
+   "B": "strengthens the claim",
+   "C": "strengthens the claim",
+   "D": "difference that didn't change"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-008",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "medium",
+  "topic": "café music and spending",
+  "fictional": true,
+  "passage": "In March, café owner Lior Benami switched the background music in his café from fast pop songs to slow jazz. From March through June, customers stayed longer and spent more per visit than they had from November through February. Benami concludes that the slower music caused customers to linger and spend more.",
+  "stem": "Which finding, if true, would most directly weaken Benami's conclusion?",
+  "choices": [
+   "Several customers told Benami that they found the new music relaxing.",
+   "In each of the previous three years, when the café played fast pop music all year, customers also stayed longer and spent more from March through June than in the winter months.",
+   "The café's prices did not change between February and June.",
+   "Slow jazz is less popular than pop music among people under 25."
+  ],
+  "answer": "B",
+  "explanation": "If the effect (more spending in spring) happens every year without the cause (jazz), the cause isn't needed to explain it.",
+  "steps": [
+   "Claim: jazz (X) caused longer visits and more spending (Y).",
+   "Y happening without X weakens the claim.",
+   "Every spring brought the same rise even with pop music."
+  ],
+  "strategy_tip": "'X caused Y' is weakened when Y also happens without X.",
+  "rationales": {
+   "A": "Strengthens the claim: Relaxed customers lingering supports the music explanation.",
+   "B": "Correct. The same rise happens every spring without the jazz, so the season, not the music, likely explains it.",
+   "C": "Strengthens the claim: This rules out price changes as an explanation, which supports Benami.",
+   "D": "True but irrelevant: General music tastes don't show what changed customer behavior here."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "C": "strengthens the claim",
+   "D": "true but irrelevant"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-009",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "city lizards and heat tolerance",
+  "fictional": true,
+  "passage": "Biologist Dmitri Valcourt found that anole lizards captured in the city of Port Ester can keep running at body temperatures about 1.5°C higher than anoles captured in nearby forests can. Because cities tend to be hotter than surrounding areas, Valcourt argues that city anoles have evolved inherited genetic differences that give them greater heat tolerance.",
+  "stem": "Which finding, if true, would most directly weaken Valcourt's argument?",
+  "choices": [
+   "Port Ester's average summer temperature is about 3°C higher than that of the nearby forests.",
+   "Anoles living in several other hot cities around the world can also keep running at higher body temperatures than anoles living in the forests just outside those cities.",
+   "When eggs from city and forest anoles were hatched and raised under identical laboratory conditions, the young lizards from both groups had the same heat tolerance.",
+   "City anoles spend more time on concrete walls than on tree trunks."
+  ],
+  "answer": "C",
+  "explanation": "The claim is that the difference is genetic. Raising both groups in the same conditions tests that, and no difference means it isn't genetic.",
+  "steps": [
+   "Find the exact claim: the heat tolerance difference is INHERITED (genetic).",
+   "Inherited traits should appear even when animals grow up in the same conditions.",
+   "Lab-raised young from both groups were the same, so the difference isn't inherited."
+  ],
+  "strategy_tip": "Pay attention to the precise word in the claim ('inherited', 'primarily', 'only'); the weakener targets it.",
+  "rationales": {
+   "A": "Strengthens the claim: This confirms the city is hotter, a premise of the argument.",
+   "B": "Strengthens the claim: A repeated pattern is consistent with adaptation to city heat.",
+   "C": "Correct. If the difference disappears when both groups grow up in the same conditions, it isn't inherited; it comes from the environment.",
+   "D": "Side detail: Where they rest doesn't show whether the difference is genetic."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "B": "strengthens the claim",
+   "D": "side detail"
+  }
+ },
+ {
+  "id": "rw-tri-ini-weaken-010",
+  "skill": "RW.INI.COET.WEAKEN",
+  "difficulty": "hard",
+  "topic": "buried coin hoard and abandonment",
+  "fictional": true,
+  "passage": "Coin hoards, collections of coins buried for safekeeping, are often found in places that were abandoned suddenly, since owners who fled could not return to dig them up. Archaeologist Nils Akerman has excavated a hoard of 412 silver coins beneath a house floor in the ancient town of Vel Harra. Because the hoard was never recovered, Akerman concludes that the town's residents abandoned it suddenly.",
+  "stem": "Which finding, if true, would most directly weaken Akerman's conclusion?",
+  "choices": [
+   "Several other houses in Vel Harra contained cooking pots still sitting on their hearths.",
+   "The hoard's coins were minted in at least six different cities.",
+   "The house above the hoard was repaired and lived in for several decades after the newest coins in the hoard were minted.",
+   "Akerman has so far excavated only about a fifth of the town, and he has not yet begun work on its cemetery or on its large temple complex."
+  ],
+  "answer": "C",
+  "explanation": "The argument says the hoard stayed buried because people fled. If people stayed in that very house for decades, the hoard's fate doesn't show sudden abandonment.",
+  "steps": [
+   "Claim: the unrecovered hoard shows the town was abandoned suddenly.",
+   "The reasoning assumes the owners couldn't return because they fled.",
+   "If the house stayed in use for decades after the hoard was buried, the hoard isn't linked to a sudden departure.",
+   "Pots left on hearths would support the claim."
+  ],
+  "strategy_tip": "Find the assumption that links the evidence to the conclusion, and choose the finding that breaks that link.",
+  "rationales": {
+   "A": "Strengthens the claim: Meals left in place suggest people left in a hurry.",
+   "B": "True but irrelevant: Where the coins came from doesn't show how the town was left.",
+   "C": "Correct. People kept living right on top of the hoard for decades, so its never being dug up doesn't show that the town was suddenly abandoned.",
+   "D": "Sounds negative but misses the claim: An unfinished dig is a limitation, but it doesn't challenge the reasoning about the hoard."
+  },
+  "traps": {
+   "A": "strengthens the claim",
+   "B": "true but irrelevant",
+   "D": "sounds negative but misses the claim"
+  }
+ }
+]

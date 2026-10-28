@@ -10,7 +10,10 @@ second right answer (the old "8 is also a zero of (x+8)(x+2)(x-8)" bug) fails va
 
 import argparse
 import asyncio
+import difflib
+import itertools
 import json
+import os
 import random
 import re
 import sys
@@ -25,11 +28,17 @@ from sympy.core.relational import Relational
 from app.generators import DIFFICULTIES, REGISTRY, generate
 from app.generators.core import MULTI_ANSWER
 from app.generators.spr import canonical_entry, is_correct, is_valid_entry
-from app.schemas.question import MathItem, RWItem
+from app.schemas.question import MathItem, RWItem, RWSeedItem
 from app.services.questions import SEED_DIR, load_taxonomy
 
 IMPORTS = SEED_DIR / "imports" / "bluebook_pt4.json"
 REFERENCES = SEED_DIR / "imports" / "reference_examples.json"
+# Blind re-solves of the Triage bank: item id -> the choice TEXT a solver picked without the key.
+BLIND = SEED_DIR / "blind_solve.json"
+TRIAGE = "rw-tri-"  # Triage-bank ids; the stricter study-field checks apply to these
+MAX_SIMILARITY = 0.75
+MAX_TOPIC_REPEATS = 3
+MAX_KEY_LONGEST = 0.40
 MIN_WORDS, MAX_WORDS = 25, 150
 BANNED = re.compile(r"\b(SAT|College Board|Bluebook)\b")
 X, Y, V = sympy.symbols("X Y v")
@@ -75,7 +84,124 @@ def check_rw(item: RWItem, leaves: set[str]) -> list[str]:
     text = " ".join([item.passage, item.passage2 or "", item.stem, *item.choices, *(item.notes or [])])
     if BANNED.search(text):
         errs.append("names the test or its maker")
+    if item.notes is not None and not 4 <= len(item.notes) <= 6:
+        errs.append(f"{len(item.notes)} notes bullets (needs 4-6)")
+    if isinstance(item, RWSeedItem):
+        errs += check_study_fields(item)
     return errs
+
+
+def numbers(text: str) -> set[Fraction]:
+    return {Fraction(m.replace(",", "")) for m in re.findall(r"\d[\d,]*(?:\.\d+)?", text)}
+
+
+def derivable(fig: dict[str, Any]) -> set[Fraction]:
+    """Figure values, plus every pairwise difference, sum, and ratio (rounded as a choice would cite
+    it) and percent change: the numbers a correct quantitative choice may state."""
+    vals = numbers(json.dumps(fig))
+    out = set(vals)
+    for a, b in itertools.permutations(vals, 2):
+        out |= {abs(a - b), a + b}
+        if b:
+            out |= {Fraction(round(a / b, k)).limit_denominator(1000) for k in (0, 1, 2)}
+            out |= {Fraction(round(100 * (a - b) / b, k)).limit_denominator(1000) for k in (0, 1)}
+    return out
+
+
+def check_study_fields(item: RWSeedItem) -> list[str]:
+    errs = []
+    wrong = [L for L in "ABCD" if item.answer != L]
+    triage = (item.id or "").startswith(TRIAGE)
+    if item.vocab is not None or (triage and item.skill.startswith("RW.CAS.WIC")):
+        by_word = {v.word.lower(): v.pos for v in item.vocab or []}
+        missing = [c for c in item.choices if c.strip().lower() not in by_word]
+        if missing:
+            errs.append(f"choices without a vocab entry: {missing}")
+        elif len({by_word[c.strip().lower()] for c in item.choices}) > 1:
+            errs.append("choices are not all the same part of speech")
+    if item.quant is not None:
+        if sorted(item.quant) != list("ABCD"):
+            errs.append("quant needs a role for every choice")
+        if [L for L, role in item.quant.items() if role == "supports"] != [item.answer]:
+            errs.append("exactly one choice, the key, may be marked 'supports'")
+        if item.figure is not None:
+            known = derivable(item.figure.model_dump())
+            for L, choice in zip("ABCD", item.choices, strict=True):
+                bad = sorted(str(n) for n in numbers(choice) - known)
+                if bad and item.quant.get(L) in ("supports", "true_but_irrelevant"):
+                    errs.append(f"{L} cites {bad}, not in or computable from the figure")
+    if not triage:
+        return errs
+    for field in ("topic", "steps", "strategy_tip", "traps", "fictional"):
+        if getattr(item, field) is None:
+            errs.append(f"missing {field}")
+    if item.traps is not None and sorted(item.traps) != wrong:
+        errs.append(f"traps must name the trap of each wrong choice ({''.join(wrong)})")
+    if item.skill.startswith("RW.INI.COEQ") and item.quant is None:
+        errs.append("quantitative items need quant roles")
+    if (
+        item.skill.startswith("RW.SEC.BND")
+        and len({re.sub(r"[^a-z]", "", c.lower()) for c in item.choices}) > 1
+    ):
+        errs.append("boundaries choices differ in more than punctuation")
+    if item.skill.startswith("RW.SEC.FSS") and not item.skill.endswith(".MOD"):
+        toks = [c.split() for c in item.choices]
+        pre = len(os.path.commonprefix(toks))
+        suf = len(os.path.commonprefix([t[pre:][::-1] for t in toks]))
+        if max(len(t) - pre - suf for t in toks) > 4:
+            errs.append("form/structure choices differ in more than the tested words")
+    return errs
+
+
+def check_bank(items: list[RWSeedItem]) -> list[Failure]:
+    """Checks across items: near-duplicate passages, topic repeats, and (Triage bank) answer-key
+    balance, the key-is-longest bias, and the recorded blind re-solve."""
+    out: list[Failure] = []
+    texts = {
+        i.id or "": norm(" ".join([i.passage, i.passage2 or "", *(i.notes or [])])).split() for i in items
+    }
+    new = [i for i in texts if i.startswith(TRIAGE)]
+    for a in new:
+        sm = difflib.SequenceMatcher(None, b=texts[a], autojunk=False)
+        for b in texts:
+            if b == a or (b.startswith(TRIAGE) and b < a):
+                continue
+            sm.set_seq1(texts[b])
+            if sm.real_quick_ratio() > MAX_SIMILARITY and sm.quick_ratio() > MAX_SIMILARITY:
+                r = sm.ratio()
+                if r > MAX_SIMILARITY:
+                    out.append(("rw", a, f"passage {r:.2f} similar to {b}"))
+    topics = Counter((skill_of(i.skill), i.topic.lower()) for i in items if i.topic)
+    out += [
+        ("rw", f"{s} / {t}", f"topic used {n} times") for (s, t), n in topics.items() if n > MAX_TOPIC_REPEATS
+    ]
+
+    blind = json.loads(BLIND.read_text()) if BLIND.exists() else {}
+    by_skill: dict[str, list[RWSeedItem]] = defaultdict(list)
+    for i in items:
+        if (i.id or "").startswith(TRIAGE):
+            by_skill[skill_of(i.skill)].append(i)
+            key = i.choices["ABCD".index(i.answer)]
+            if i.id not in blind:
+                out.append(("rw", i.id or "", "no blind re-solve recorded"))
+            elif blind[i.id] != key:
+                out.append(("rw", i.id or "", f"blind re-solve picked {blind[i.id]!r}, key is {key!r}"))
+    for skill, group in by_skill.items():
+        n, letters = len(group), Counter(i.answer for i in group)
+        if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
+            out.append(("rw", skill, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
+        longest = sum(
+            len(i.choices["ABCD".index(i.answer)])
+            > max(len(c) for j, c in enumerate(i.choices) if "ABCD"[j] != i.answer)
+            for i in group
+        )
+        if longest > MAX_KEY_LONGEST * n:
+            out.append(("rw", skill, f"key is the longest choice in {longest}/{n} items"))
+    return out
+
+
+def skill_of(leaf: str) -> str:
+    return ".".join(leaf.split(".")[:3])
 
 
 def _val(s: str) -> Any:
@@ -233,7 +359,8 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
     ids: Counter[str] = Counter()
     texts: dict[str, str] = {}
     per_skill: Counter[str] = Counter()
-    for folder, model, check in (("rw", RWItem, check_rw), ("math", MathItem, check_math)):
+    rw: list[RWSeedItem] = []
+    for folder, model, check in (("rw", RWSeedItem, check_rw), ("math", MathItem, check_math)):
         for path in sorted((SEED_DIR / folder).glob("*.json")):
             for i, raw in enumerate(json.loads(path.read_text())):
                 where = f"{path.name}[{i}]"
@@ -244,6 +371,8 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
                     continue
                 eid = item.id or where
                 ids[eid] += 1
+                if isinstance(item, RWSeedItem):
+                    rw.append(item)
                 per_skill[f"{item.skill}|{item.difficulty}"] += 1
                 out += [(folder, eid, e) for e in check(item, leaves)]  # type: ignore[arg-type]
                 body = norm(" ".join([getattr(item, "passage", "") or "", item.stem]))
@@ -251,6 +380,7 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
                     out.append((folder, eid, f"same passage and stem as {texts[body]}"))
                 texts.setdefault(body, eid)
     out += [("seed", e, "duplicate id") for e, c in ids.items() if c > 1]
+    out += check_bank(rw)
     return out, set(ids), per_skill
 
 
