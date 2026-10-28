@@ -1,0 +1,1055 @@
+[
+ {
+  "id": "rw-tri-ini-quant-001",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "topic": "free bus fares by neighborhood income",
+  "fictional": true,
+  "passage": "In 2023, the city of Marrowfield made bus travel free on four routes for one year. Transit analyst Delphine Osei-Brandt claims that the program's effect, measured as the percentage increase in average daily riders, was greater on routes serving low-income neighborhoods than on routes serving high-income neighborhoods.",
+  "figure": {
+   "kind": "table",
+   "title": "Average daily riders on four Marrowfield bus routes",
+   "header": [
+    "Route",
+    "Neighborhood income",
+    "Before free fares",
+    "During free fares"
+   ],
+   "rows": [
+    [
+     "4",
+     "Low",
+     "2,100",
+     "2,940"
+    ],
+    [
+     "7",
+     "High",
+     "3,500",
+     "3,710"
+    ],
+    [
+     "11",
+     "Low",
+     "1,200",
+     "1,680"
+    ],
+    [
+     "15",
+     "High",
+     "2,800",
+     "2,940"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to support Osei-Brandt's claim?",
+  "choices": [
+   "Route 7 had more daily riders than any other route both before the program began and while fares were free.",
+   "Ridership on Routes 4 and 11 rose by 40 percent each, while ridership on Routes 7 and 15 rose by 6 percent and 5 percent, respectively.",
+   "Route 15 gained 140 daily riders during the free-fare year, while Route 7, which also serves a high-income neighborhood, gained 210 daily riders.",
+   "Ridership on Route 11 rose by a smaller percentage than ridership on Route 15 did during the free-fare year."
+  ],
+  "answer": "B",
+  "explanation": "The claim compares percentage increases between low- and high-income routes. Only one choice gives those percentages for both groups.",
+  "steps": [
+   "Claim: percentage increase was larger on LOW-income routes than on HIGH-income routes.",
+   "Compute: Route 4: 840/2,100 = 40%. Route 11: 480/1,200 = 40%. Route 7: 210/3,500 = 6%. Route 15: 140/2,800 = 5%.",
+   "The correct choice must compare both groups using percentages.",
+   "The other true statements describe one route or compare two high-income routes."
+  ],
+  "strategy_tip": "Before reading the choices, decide what comparison the claim needs (which groups, which measure).",
+  "rationales": {
+   "A": "True but irrelevant: True, but it is about the size of one route, not about percentage increases by neighborhood income.",
+   "B": "Correct. Both low-income routes grew by 40 percent; both high-income routes grew by 5-6 percent. That is the percentage comparison the claim needs.",
+   "C": "True but irrelevant: True (2,940 - 2,800 and 3,710 - 3,500), but it compares two high-income routes, so it says nothing about low versus high.",
+   "D": "False: Route 11 rose 40% (480/1,200); Route 15 rose 5% (140/2,800)."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "supports",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-002",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "topic": "nest guards and snake predators",
+  "fictional": true,
+  "passage": "Ornithologist Teodor Haugland attached metal guards to the poles holding bluebird nest boxes at four sites and compared nest success (the percentage of nests that produced at least one fledgling) with that of unguarded boxes at the same sites. Haugland concludes that the guards are far more effective at sites where snakes, rather than raccoons, are the main nest predators.",
+  "figure": {
+   "kind": "table",
+   "title": "Nest success (%) at four sites",
+   "header": [
+    "Site",
+    "Main nest predator",
+    "Unguarded boxes",
+    "Guarded boxes"
+   ],
+   "rows": [
+    [
+     "A",
+     "Snakes",
+     "32",
+     "71"
+    ],
+    [
+     "B",
+     "Raccoons",
+     "45",
+     "52"
+    ],
+    [
+     "C",
+     "Snakes",
+     "28",
+     "66"
+    ],
+    [
+     "D",
+     "Raccoons",
+     "50",
+     "54"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to support Haugland's conclusion?",
+  "choices": [
+   "At every one of the four sites, nest success was higher for guarded boxes than it was for unguarded boxes.",
+   "Site D, where raccoons were the main predator, had the highest nest success for unguarded boxes of all the sites.",
+   "Guards raised nest success at Site B, where raccoons were the main predator, by more percentage points than they raised it at Site C, where snakes were.",
+   "At Sites A and C, guards raised nest success by 39 and 38 percentage points, but at Sites B and D they raised it by only 7 and 4 points."
+  ],
+  "answer": "D",
+  "explanation": "The conclusion is about where guards help MORE. The support must compare the gain at snake sites with the gain at raccoon sites.",
+  "steps": [
+   "Claim: guards help much more at SNAKE sites than at RACCOON sites.",
+   "Compute gains: A +39, C +38 (snakes); B +7, D +4 (raccoons).",
+   "'Guards helped everywhere' is true but doesn't show a difference between site types."
+  ],
+  "strategy_tip": "A statement can be true and on-topic yet still not support the claim; check that it makes the claim's comparison.",
+  "rationales": {
+   "A": "True but irrelevant: True, but it only shows guards help everywhere; it doesn't show they help MORE at snake sites.",
+   "B": "True but irrelevant: True (50%), but it is about unguarded boxes only and doesn't compare the guards' effect.",
+   "C": "False: Site B rose 7 points; Site C rose 38 points.",
+   "D": "Correct. The snake sites gained far more than the raccoon sites, which is exactly the comparison in the conclusion."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "C": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "false",
+   "D": "supports"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-003",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "medium",
+  "topic": "museum evening hours and young visitors",
+  "fictional": true,
+  "passage": "The Halvard Museum of Design began staying open until 10 p.m. on Thursdays. Museum director Oona Lachance claims that the Thursday evening hours draw a much younger audience than the museum's regular hours do: a larger share of Thursday visitors are under 30 than on any other day.",
+  "figure": {
+   "kind": "table",
+   "title": "Visitors to the Halvard Museum of Design in one week",
+   "header": [
+    "Day",
+    "Visitors",
+    "Share under 30 (%)"
+   ],
+   "rows": [
+    [
+     "Monday",
+     "1,200",
+     "18"
+    ],
+    [
+     "Tuesday",
+     "1,150",
+     "20"
+    ],
+    [
+     "Thursday",
+     "1,900",
+     "47"
+    ],
+    [
+     "Saturday",
+     "3,400",
+     "25"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to support Lachance's claim?",
+  "choices": [
+   "Saturday had more visitors than any other day in the table, nearly twice as many as on Thursday.",
+   "Of Thursday's visitors, 47 percent were under 30, compared with no more than 25 percent on any other day.",
+   "The museum had slightly fewer visitors on Tuesday than it did on Monday, which was the first day of the week that the museum was open.",
+   "Fewer than 20 percent of the visitors on Thursday were under 30 years old."
+  ],
+  "answer": "B",
+  "explanation": "The claim compares the under-30 share on Thursday with other days. Only one choice makes that comparison.",
+  "steps": [
+   "Claim: Thursday has a larger share of under-30 visitors than any other day.",
+   "Look at the 'Share under 30' column: Thursday 47% vs. 18%, 20%, 25%.",
+   "Total visitors is the wrong column for this claim."
+  ],
+  "strategy_tip": "Match the claim to the right column before reading the choices.",
+  "rationales": {
+   "A": "True but irrelevant: True, but the claim is about the share of young visitors, not the total number.",
+   "B": "Correct. Thursday's share of under-30 visitors is higher than every other day's share.",
+   "C": "True but irrelevant: True (1,150 < 1,200), but this says nothing about Thursday or age.",
+   "D": "False: The table shows 47% for Thursday."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "supports",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-004",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "topic": "solar panel efficiency in heat",
+  "fictional": true,
+  "passage": "Solar panels convert sunlight to electricity less efficiently as they heat up. Engineer Rafael Nakashima-Lund tested four panel types and claims that the two thin-film types, Q and S, are less sensitive to heat than the two crystalline types, P and R, even though the crystalline types are more efficient at moderate temperatures.",
+  "figure": {
+   "kind": "table",
+   "title": "Efficiency (%) of four solar panel types",
+   "header": [
+    "Panel type",
+    "Design",
+    "At 25°C",
+    "At 45°C"
+   ],
+   "rows": [
+    [
+     "P",
+     "Crystalline",
+     "21.0",
+     "18.9"
+    ],
+    [
+     "Q",
+     "Thin-film",
+     "19.5",
+     "18.6"
+    ],
+    [
+     "R",
+     "Crystalline",
+     "22.4",
+     "19.6"
+    ],
+    [
+     "S",
+     "Thin-film",
+     "18.0",
+     "17.1"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to support the claim that Q and S are less sensitive to heat than P and R?",
+  "choices": [
+   "Types Q and S each lost 0.9 percentage points of efficiency from 25°C to 45°C, while Types P and R lost 2.1 and 2.8 points.",
+   "Type R, a crystalline panel, had the highest efficiency of the four types at 25°C and also had the highest efficiency at 45°C.",
+   "At 45°C, the thin-film Types Q and S were both more efficient than the crystalline Types P and R.",
+   "Every one of the four panel types was less efficient at 45°C than it was at 25°C during the tests."
+  ],
+  "answer": "A",
+  "explanation": "Heat sensitivity is the DROP from 25°C to 45°C, not the efficiency level. Q and S dropped 0.9; P and R dropped 2.1 and 2.8.",
+  "steps": [
+   "Translate the claim: 'less sensitive to heat' = smaller drop in efficiency when hot.",
+   "Compute drops: P 2.1, Q 0.9, R 2.8, S 0.9.",
+   "Beware the choice comparing levels at 45°C; it's also false (P beats Q)."
+  ],
+  "strategy_tip": "Translate the claim into a number you can compute (a difference, a ratio) before checking choices.",
+  "rationales": {
+   "A": "Correct. Smaller losses in heat for Q and S than for P and R is what 'less sensitive to heat' means.",
+   "B": "True but irrelevant: True, but it describes efficiency levels, not how much efficiency each type lost in heat.",
+   "C": "Misread: At 45°C, Q (18.6) is below P (18.9) and S (17.1) is below both P and R.",
+   "D": "True but irrelevant: True, but it doesn't show that some types lost less than others."
+  },
+  "traps": {
+   "B": "true but irrelevant",
+   "C": "misread",
+   "D": "true but irrelevant"
+  },
+  "quant": {
+   "A": "supports",
+   "B": "true_but_irrelevant",
+   "C": "misread",
+   "D": "true_but_irrelevant"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-005",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "topic": "young speakers of a revitalized language",
+  "fictional": true,
+  "passage": "Linguist Ayasha Brightwater studies Tallowan, a language spoken in a mountain region. She notes that school immersion programs begun in 2011 have changed who is learning the language. In 2010, fluent speakers were concentrated among older adults, but in the following decade the youngest speakers showed the greatest growth. For example, ______",
+  "figure": {
+   "kind": "table",
+   "title": "Fluent Tallowan speakers by age group",
+   "header": [
+    "Age group",
+    "2010",
+    "2020"
+   ],
+   "rows": [
+    [
+     "5-17",
+     "140",
+     "610"
+    ],
+    [
+     "18-39",
+     "320",
+     "450"
+    ],
+    [
+     "40-64",
+     "880",
+     "860"
+    ],
+    [
+     "65 and older",
+     "1,450",
+     "1,210"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to complete the example?",
+  "choices": [
+   "the number of fluent speakers aged 5 to 17 rose by 470 from 2010 to 2020, more than in any other age group.",
+   "in both 2010 and 2020, fluent speakers aged 65 and older outnumbered the fluent speakers in every other age group.",
+   "the number of fluent speakers aged 40 to 64 fell by 20 between 2010 and 2020, after the immersion programs began.",
+   "the number of fluent speakers aged 18 to 39 more than doubled between 2010 and 2020."
+  ],
+  "answer": "A",
+  "explanation": "The example must show the youngest group growing more than the others. A gain of 470 for ages 5-17 does that.",
+  "steps": [
+   "The sentence before the blank says the YOUNGEST speakers showed the GREATEST growth.",
+   "Compute changes: 5-17 +470, 18-39 +130, 40-64 -20, 65+ -240.",
+   "Only one choice names the youngest group and compares its growth with the others."
+  ],
+  "strategy_tip": "For 'complete the example,' reread the sentence before the blank; the example must illustrate exactly that.",
+  "rationales": {
+   "A": "Correct. The youngest group's gain (470) is larger than every other group's change, which illustrates 'the youngest speakers showed the greatest growth.'",
+   "B": "True but irrelevant: True, but it is about the oldest group's size, not growth among the youngest.",
+   "C": "True but irrelevant: True (880 to 860), but it describes a middle group, not the youngest.",
+   "D": "False: It rose from 320 to 450, which is far less than double."
+  },
+  "traps": {
+   "B": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "supports",
+   "B": "true_but_irrelevant",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-006",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "topic": "cover crops in drought years",
+  "fictional": true,
+  "passage": "Cover crops are plants grown between harvests to protect and enrich soil. Agronomist Lucía Fenwick-Obi compared wheat yields on fields with and without cover crops in a normal year and in a drought year. She argues that cover crops matter most when water is scarce: their benefit to yield is much larger in drought years than in normal years.",
+  "figure": {
+   "kind": "bars",
+   "title": "Average wheat yield",
+   "labels": [
+    "Normal year",
+    "Drought year"
+   ],
+   "series": [
+    {
+     "name": "Without cover crops",
+     "values": [
+      9.2,
+      5.1
+     ]
+    },
+    {
+     "name": "With cover crops",
+     "values": [
+      9.6,
+      7.0
+     ]
+    }
+   ],
+   "ylabel": "Tons per hectare"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Fenwick-Obi's argument?",
+  "choices": [
+   "Fields without cover crops yielded considerably more wheat per hectare in the normal year than they did in the drought year.",
+   "In the normal year, fields with cover crops had the highest average yield of any group shown in the graph.",
+   "In the drought year, fields with cover crops yielded more than fields without cover crops yielded in the normal year.",
+   "In the drought year, fields with cover crops yielded 1.9 tons per hectare more than fields without them, compared with 0.4 tons per hectare more in the normal year."
+  ],
+  "answer": "D",
+  "explanation": "The argument is about the SIZE of the benefit in each year. Compare the gap between bars in each year, 1.9 vs. 0.4.",
+  "steps": [
+   "Claim: the benefit (with minus without) is bigger in drought years.",
+   "Normal year: 9.6 - 9.2 = 0.4. Drought year: 7.0 - 5.1 = 1.9.",
+   "Only one choice compares both gaps."
+  ],
+  "strategy_tip": "When a claim is about an effect's size, compare the gaps between bars, not the bars themselves.",
+  "rationales": {
+   "A": "True but irrelevant: True, but it shows only that drought hurts yields, not that cover crops help more in drought.",
+   "B": "True but irrelevant: True (9.6), but it is about the normal year and doesn't compare the size of the benefit.",
+   "C": "False: 7.0 in drought is less than 9.2 in the normal year.",
+   "D": "Correct. The cover-crop advantage was 1.9 in drought and 0.4 in the normal year, so the benefit is much larger in drought."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "C": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "false",
+   "D": "supports"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-007",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "topic": "bee visits by flower color",
+  "fictional": true,
+  "passage": "Ecologist Harpreet Okafor-Lind recorded how often bumblebees visited four color varieties of the same wildflower species in a meadow. She concludes that the bees strongly favor blue flowers over yellow ones, visiting blue flowers more than twice as often.",
+  "figure": {
+   "kind": "bars",
+   "title": "Bumblebee visits per hour, by flower color",
+   "labels": [
+    "Blue",
+    "Purple",
+    "White",
+    "Yellow"
+   ],
+   "values": [
+    48,
+    41,
+    26,
+    22
+   ],
+   "ylabel": "Visits per hour"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Okafor-Lind's conclusion?",
+  "choices": [
+   "Blue flowers received 48 visits per hour, more than twice the 22 visits per hour that yellow flowers received.",
+   "Purple flowers received more bumblebee visits per hour than white flowers did over the course of the study.",
+   "Blue flowers received only 7 more visits per hour than purple flowers did, a fairly small difference between the two most visited colors.",
+   "Yellow flowers received more visits per hour than white flowers did."
+  ],
+  "answer": "A",
+  "explanation": "The conclusion compares blue with yellow ('more than twice'). 48 vs. 22 shows that.",
+  "steps": [
+   "Claim: blue visits are more than 2 x yellow visits.",
+   "Blue 48, yellow 22; 2 x 22 = 44, and 48 > 44.",
+   "Choices about purple or white don't test the claim."
+  ],
+  "strategy_tip": "Find the two groups the claim names and check that the choice compares exactly those.",
+  "rationales": {
+   "A": "Correct. 48 is more than twice 22 (2 x 22 = 44), which matches 'more than twice as often.'",
+   "B": "True but irrelevant: True, but neither blue nor yellow is mentioned.",
+   "C": "True but irrelevant: True (48 - 41), but the conclusion compares blue with yellow, not purple.",
+   "D": "False: Yellow had 22 and white had 26."
+  },
+  "traps": {
+   "B": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "supports",
+   "B": "true_but_irrelevant",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-008",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "topic": "audiobooks and print by age",
+  "fictional": true,
+  "passage": "A 2024 survey in the country of Ostrel asked adults whether they had read a print book or listened to an audiobook in the past week. Media researcher Corin Abasolo argues that among the youngest adults, audiobooks have nearly caught up with print books, but that among older adults, print remains far ahead.",
+  "figure": {
+   "kind": "bars",
+   "title": "Adults who read or listened in the past week (%)",
+   "labels": [
+    "18-29",
+    "30-49",
+    "50 and older"
+   ],
+   "series": [
+    {
+     "name": "Print book",
+     "values": [
+      34,
+      38,
+      45
+     ]
+    },
+    {
+     "name": "Audiobook",
+     "values": [
+      31,
+      19,
+      12
+     ]
+    }
+   ],
+   "xlabel": "Age group",
+   "ylabel": "Percent of adults"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Abasolo's argument?",
+  "choices": [
+   "Adults aged 50 and older were more likely than adults in either younger group to have read a print book in the past week.",
+   "Audiobook use trailed print by 3 percentage points among adults aged 18 to 29 but by 19 and 33 points in the two older groups.",
+   "The share of adults who had read a print book in the past week was higher in each successively older age group, rising from 34 percent to 45 percent.",
+   "Adults aged 30 to 49 were more likely to have listened to an audiobook than adults aged 18 to 29 were."
+  ],
+  "answer": "B",
+  "explanation": "The argument compares the print-audio gap across ages, small for the young and large for older adults. Only one choice gives those gaps.",
+  "steps": [
+   "Two-part claim: (1) small gap for 18-29, (2) big gap for older adults.",
+   "Gaps: 34 - 31 = 3; 38 - 19 = 19; 45 - 12 = 33.",
+   "Statements about print alone can't show audiobooks catching up."
+  ],
+  "strategy_tip": "A 'gap' claim needs both series in each group; choices using one series are traps.",
+  "rationales": {
+   "A": "True but irrelevant: True (45%), but it doesn't compare print with audiobooks within each group.",
+   "B": "Correct. A small gap for the youngest group and large gaps for older groups match both parts of the argument.",
+   "C": "True but irrelevant: True (34, 38, 45), but it says nothing about audiobooks catching up.",
+   "D": "False: 19% for ages 30-49 vs. 31% for ages 18-29."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "supports",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-009",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "topic": "glacier retreat by slope direction",
+  "fictional": true,
+  "passage": "Glaciologist Maren Oduya measured the retreat of four glaciers in the Halden Range. Two face north and two face south. Oduya argues that slope direction strongly affects retreat: south-facing glaciers, which receive more direct sunlight, retreated more than twice as fast as north-facing ones. For example, ______",
+  "figure": {
+   "kind": "bars",
+   "title": "Average retreat of four glaciers, 1990-2020",
+   "labels": [
+    "Arn (north)",
+    "Bel (south)",
+    "Corra (north)",
+    "Dask (south)"
+   ],
+   "values": [
+    120,
+    310,
+    140,
+    290
+   ],
+   "ylabel": "Meters per decade"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the example?",
+  "choices": [
+   "Corra, which faces north, retreated somewhat faster than Arn, the other north-facing glacier in the range.",
+   "Bel retreated faster than any other glacier that Oduya measured in the Halden Range from 1990 to 2020.",
+   "the slower south-facing glacier, Dask, retreated 290 meters per decade, more than twice the 140 meters of the faster north-facing glacier, Corra.",
+   "Dask, which faces south, retreated more slowly than Corra did."
+  ],
+  "answer": "C",
+  "explanation": "To show south-facing glaciers retreated more than twice as fast, compare the slowest south-facing glacier with the fastest north-facing one.",
+  "steps": [
+   "Claim: south-facing > 2 x north-facing.",
+   "The strictest test pairs the slowest south (Dask, 290) with the fastest north (Corra, 140).",
+   "2 x 140 = 280, and 290 > 280, so the claim holds."
+  ],
+  "strategy_tip": "To support 'all X beat all Y,' compare the weakest X with the strongest Y.",
+  "rationales": {
+   "A": "True but irrelevant: True, but it compares two north-facing glaciers.",
+   "B": "True but irrelevant: True (310), but one glacier's speed doesn't show the north-south difference.",
+   "C": "Correct. Even the slower south-facing glacier beat twice the faster north-facing one (2 x 140 = 280 < 290), so every south-facing glacier retreated more than twice as fast.",
+   "D": "False: Dask retreated 290 m per decade; Corra 140."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "supports",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-010",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "medium",
+  "topic": "door-to-door outreach and composting",
+  "fictional": true,
+  "passage": "The town of Greywater offered free compost bins to all households. In two neighborhoods, volunteers also went door to door explaining how to compost. Town planner Ines Valderrama-Koh reports that every neighborhood that received this outreach had a higher participation rate than any neighborhood that did not.",
+  "figure": {
+   "kind": "bars",
+   "title": "Households using compost bins (%)",
+   "labels": [
+    "Oakridge (outreach)",
+    "Fenmoor (outreach)",
+    "Lisle (no outreach)",
+    "Westbay (no outreach)"
+   ],
+   "values": [
+    46,
+    39,
+    21,
+    27
+   ],
+   "ylabel": "Percent of households"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Valderrama-Koh's report?",
+  "choices": [
+   "Oakridge, one of the two neighborhoods that received door-to-door outreach, had the highest participation rate of the four.",
+   "Westbay, which did not receive door-to-door outreach, had a higher participation rate than Lisle, which also did not receive any outreach from volunteers.",
+   "Fenmoor had a lower participation rate than Westbay.",
+   "The lowest rate among the outreach neighborhoods, 39 percent in Fenmoor, was higher than the highest rate without outreach, 27 percent in Westbay."
+  ],
+  "answer": "D",
+  "explanation": "'Every outreach neighborhood beat any non-outreach one' is shown by comparing the lowest outreach rate with the highest non-outreach rate.",
+  "steps": [
+   "Claim: ALL outreach neighborhoods > ALL non-outreach neighborhoods.",
+   "Lowest outreach: Fenmoor 39. Highest non-outreach: Westbay 27.",
+   "39 > 27, so the claim holds."
+  ],
+  "strategy_tip": "'Every... than any' claims are proven by the closest pair, not the extremes.",
+  "rationales": {
+   "A": "True but irrelevant: True, but one neighborhood being highest doesn't show that EVERY outreach neighborhood beat EVERY other one.",
+   "B": "True but irrelevant: True, but it compares two neighborhoods without outreach.",
+   "C": "False: Fenmoor 39% vs. Westbay 27%.",
+   "D": "Correct. If the lowest outreach rate beats the highest non-outreach rate, every outreach neighborhood beats every other one."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "C": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "false",
+   "D": "supports"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-011",
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "topic": "puffins and sand eels",
+  "fictional": true,
+  "passage": "Puffins on Skerra Island feed their chicks mainly on sand eels, small fish. Seabird biologist Elin Mortensen-Achebe argues that the island's puffin decline was a delayed response to a sudden collapse in sand eels: puffin numbers held steady for a year after the collapse and fell only once older, well-fed birds began to die off.",
+  "figure": {
+   "kind": "line",
+   "title": "Sand eels and puffins on Skerra Island",
+   "x": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+   ],
+   "series": [
+    {
+     "name": "Sand eel abundance (index)",
+     "values": [
+      100,
+      98,
+      97,
+      61,
+      52,
+      48,
+      45
+     ]
+    },
+    {
+     "name": "Puffin breeding pairs (hundreds)",
+     "values": [
+      42,
+      43,
+      41,
+      42,
+      35,
+      29,
+      24
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Value"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Mortensen-Achebe's argument?",
+  "choices": [
+   "Sand eel abundance around Skerra Island was lower in 2020 than in any other year shown, falling to less than half of its 2014 level by the end of the period.",
+   "The number of puffin breeding pairs on Skerra Island was higher in 2015 than in any other year shown.",
+   "Sand eel abundance dropped sharply from 2016 to 2017, but puffin pairs stayed level through 2017 and then declined every year from 2018 to 2020.",
+   "Puffin breeding pairs fell sharply from 2016 to 2017, the same years in which sand eel abundance dropped."
+  ],
+  "answer": "C",
+  "explanation": "The argument is about timing, a delay between the collapse and the decline. Only one choice shows both events and the gap between them.",
+  "steps": [
+   "Claim: puffins fell ONE YEAR AFTER the sand eel collapse.",
+   "Sand eels: 97 to 61 between 2016 and 2017 (collapse). Puffins: 41, 42 (steady) then 35, 29, 24 (decline from 2018).",
+   "Only the key gives both timelines."
+  ],
+  "strategy_tip": "Timing claims need dates for both events; one series alone can't show a delay.",
+  "rationales": {
+   "A": "True but irrelevant: True (45 vs. 100), but it says nothing about the timing of the puffin decline.",
+   "B": "True but irrelevant: True (43), but a peak year doesn't show a delayed response.",
+   "C": "Correct. This shows both the sudden collapse and the one-year delay before puffins declined.",
+   "D": "False: Puffin pairs went from 41 to 42 in those years; they did not fall."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "supports",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-012",
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "topic": "park visits after a car ban",
+  "fictional": true,
+  "passage": "In 2019, Larkspur Canyon National Park banned private cars and replaced them with a shuttle system. Critics predicted a lasting drop in visits. Park historian Bram Okoye argues that the drop was only temporary: visits fell in the first year of the ban but within two years had climbed above their pre-ban level. For example, ______",
+  "figure": {
+   "kind": "line",
+   "title": "Annual visits to Larkspur Canyon National Park",
+   "x": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "series": [
+    {
+     "name": "Visits (thousands)",
+     "values": [
+      410,
+      425,
+      432,
+      350,
+      398,
+      441,
+      470
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Visits (thousands)"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the example?",
+  "choices": [
+   "the park received more visits in 2022 than in any other year shown in the graph, including the years before the ban.",
+   "the number of visits to the park rose every year from 2016 through 2018, before private cars were banned.",
+   "visits fell from 432 thousand in 2018 to 350 thousand in 2019 and then reached 441 thousand in 2021.",
+   "visits in 2020 were higher than visits in 2018, the last year before the ban."
+  ],
+  "answer": "C",
+  "explanation": "The example must show a fall in the ban year and a recovery above the pre-ban level within two years.",
+  "steps": [
+   "Claim: (1) visits fell in 2019; (2) by 2021 they were above the 2018 level.",
+   "Data: 432 (2018) to 350 (2019) to 441 (2021). 441 > 432.",
+   "The 2022 record shows recovery but not the drop."
+  ],
+  "strategy_tip": "For two-part claims, each part needs data; a choice proving one part only is a trap.",
+  "rationales": {
+   "A": "Covers only part of the claim: True, and it shows recovery, but it doesn't show the drop or the two-year timing.",
+   "B": "True but irrelevant: True, but it describes the years before the ban.",
+   "C": "Correct. A fall in 2019 followed by a 2021 total above the 2018 level shows a drop that was temporary.",
+   "D": "False: 398 thousand in 2020 is below 432 thousand in 2018."
+  },
+  "traps": {
+   "A": "covers only part of the claim",
+   "B": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "supports",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-013",
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "medium",
+  "topic": "lake ice cover by decade",
+  "fictional": true,
+  "passage": "Lake Varsund in the far north freezes over every winter. Climatologist Noor Haddad-Lindgren reports that the number of days the lake is covered by ice has declined since 1950 and that the decline was much steeper after 1980 than before it.",
+  "figure": {
+   "kind": "line",
+   "title": "Average days of ice cover on Lake Varsund",
+   "x": [
+    1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000,
+    2010,
+    2020
+   ],
+   "series": [
+    {
+     "name": "Days of ice cover",
+     "values": [
+      112,
+      110,
+      107,
+      105,
+      96,
+      88,
+      79,
+      70
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Days"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support Haddad-Lindgren's report?",
+  "choices": [
+   "The lake had more days of ice cover in 1950 than in any later year shown on the graph.",
+   "In 2020, the lake was covered by ice for an average of 70 days, the lowest figure on the graph.",
+   "Ice cover fell by 7 days from 1950 to 1980 but by 35 days from 1980 to 2020.",
+   "The number of days of ice cover rose between 1990 and 2000."
+  ],
+  "answer": "C",
+  "explanation": "A steeper decline means a bigger drop per year. Compare the drop before 1980 with the drop after.",
+  "steps": [
+   "Claim: decline steeper AFTER 1980 than BEFORE.",
+   "Before: 112 to 105 (7 days in 30 years). After: 105 to 70 (35 days in 40 years).",
+   "Only one choice compares the two periods."
+  ],
+  "strategy_tip": "'Steeper' or 'faster' claims need two rates of change, one per period.",
+  "rationales": {
+   "A": "True but irrelevant: True, but it doesn't compare the rate before and after 1980.",
+   "B": "True but irrelevant: True, but one value can't show a change in the rate of decline.",
+   "C": "Correct. A loss of 35 days in the 40 years after 1980 is far steeper than 7 days in the 30 years before.",
+   "D": "False: It fell from 96 to 88."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "B": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "supports",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-014",
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "topic": "wind overtaking coal in electricity",
+  "fictional": true,
+  "passage": "Energy analyst Ingrid Mbatha-Rowe studies electricity generation in the country of Dunmara. She notes that wind power's share of the country's electricity grew steadily for years, but she argues that wind did not overtake coal until 2021, after coal's share had been falling for several years.",
+  "figure": {
+   "kind": "line",
+   "title": "Share of Dunmara's electricity by source",
+   "x": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+   ],
+   "series": [
+    {
+     "name": "Wind (%)",
+     "values": [
+      8,
+      10,
+      12,
+      14,
+      16,
+      19,
+      23,
+      27
+     ]
+    },
+    {
+     "name": "Coal (%)",
+     "values": [
+      38,
+      39,
+      39,
+      37,
+      31,
+      25,
+      21,
+      18
+     ]
+    }
+   ],
+   "xlabel": "Year",
+   "ylabel": "Percent of electricity"
+  },
+  "stem": "Which choice most effectively uses data from the graph to support the claim that wind did not overtake coal until 2021?",
+  "choices": [
+   "Wind's share was below coal's in every year from 2015 through 2020, but in 2021 wind supplied 23 percent and coal 21 percent.",
+   "Wind's share of Dunmara's electricity rose in every single year shown, from 8 percent in 2015 to 27 percent in 2022.",
+   "Coal's share of the country's electricity reached its highest level, 39 percent, in 2016 and again in 2017.",
+   "Wind's share first exceeded coal's share in 2020."
+  ],
+  "answer": "A",
+  "explanation": "'Did not overtake until 2021' needs two facts: wind below coal through 2020 and above coal in 2021.",
+  "steps": [
+   "Claim: first year with wind > coal is 2021.",
+   "Check 2020: wind 19 < coal 25. Check 2021: wind 23 > coal 21.",
+   "Only the key shows both 'below before' and 'above in 2021.'"
+  ],
+  "strategy_tip": "'Not until' claims need evidence for both before and after the date.",
+  "rationales": {
+   "A": "Correct. Below coal every year until 2020, then above coal in 2021, which means wind first overtook coal in 2021.",
+   "B": "True but irrelevant: True, but steady growth alone doesn't show WHEN wind passed coal.",
+   "C": "True but irrelevant: True, but it says nothing about wind passing coal.",
+   "D": "False: In 2020, wind was 19% and coal 25%."
+  },
+  "traps": {
+   "B": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "supports",
+   "B": "true_but_irrelevant",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ },
+ {
+  "id": "rw-tri-ini-quant-015",
+  "skill": "RW.INI.COEQ.LINE",
+  "difficulty": "hard",
+  "topic": "reading tutoring gap over a school year",
+  "fictional": true,
+  "passage": "Education researcher Siddharth Moreau-Kalu compared the reading scores of students who received weekly tutoring with those of similar students who did not. The two groups began the school year with nearly identical average scores, but the tutored group's advantage grew larger at each checkpoint. For example, ______",
+  "figure": {
+   "kind": "line",
+   "title": "Average reading score",
+   "x": [
+    0,
+    3,
+    6,
+    9
+   ],
+   "series": [
+    {
+     "name": "Tutored",
+     "values": [
+      62,
+      66,
+      71,
+      77
+     ]
+    },
+    {
+     "name": "Not tutored",
+     "values": [
+      61,
+      63,
+      65,
+      66
+     ]
+    }
+   ],
+   "xlabel": "Months since start of school year",
+   "ylabel": "Average score"
+  },
+  "stem": "Which choice most effectively uses data from the graph to complete the example?",
+  "choices": [
+   "the average scores of both the tutored group and the group without tutoring rose over the nine months of the study.",
+   "the tutored group's lead was 1 point at the start, 3 points at month 3, 6 points at month 6, and 11 points at month 9.",
+   "the tutored group's average score rose by 15 points from the start of the school year to the final checkpoint at month 9.",
+   "the gap between the two groups' average scores was largest at month 3."
+  ],
+  "answer": "B",
+  "explanation": "The example must show the gap growing at each checkpoint. Computing the gaps gives 1, 3, 6, 11.",
+  "steps": [
+   "Claim: the tutored group's ADVANTAGE (the gap) grew at each checkpoint.",
+   "Gaps: 62 - 61 = 1, 66 - 63 = 3, 71 - 65 = 6, 77 - 66 = 11.",
+   "One group's growth (15 points) is a trap; the claim is about the difference between groups."
+  ],
+  "strategy_tip": "'Advantage' or 'gap' means the difference between two lines, not the rise of one line.",
+  "rationales": {
+   "A": "True but irrelevant: True, but both groups rising doesn't show the gap growing.",
+   "B": "Correct. The lead grows at every checkpoint (1, 3, 6, 11), which illustrates a growing advantage.",
+   "C": "True but irrelevant: True (62 to 77), but it describes one group and doesn't compare it with the other.",
+   "D": "False: The gap was 3 at month 3 but 11 at month 9."
+  },
+  "traps": {
+   "A": "true but irrelevant",
+   "C": "true but irrelevant",
+   "D": "false"
+  },
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "supports",
+   "C": "true_but_irrelevant",
+   "D": "false"
+  }
+ }
+]
