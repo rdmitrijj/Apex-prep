@@ -1,0 +1,867 @@
+[
+ {
+  "id": "rw-tri-cas-ctc-001",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "requiring rooftop gardens on all new buildings",
+  "fictional": true,
+  "passage": "Text 1: Green roofs, which are covered with soil and plants, insulate buildings and cut their cooling costs in summer. City council member Rafaela Ostrowski argues that the city of Bellmont should therefore require green roofs on all new buildings, from warehouses to residential towers, as a way to reduce the city's energy use.",
+  "passage2": "Text 2: Engineer Joon-ho Abara measured cooling costs in buildings with and without green roofs. For one- and two-story buildings with large roofs, green roofs cut cooling costs by up to 25 percent. For towers of twenty stories or more, however, the savings were under 2 percent, since the roof is a tiny fraction of a tower's outer surface.",
+  "stem": "Based on the texts, how would Abara (Text 2) most likely respond to Ostrowski's proposal (Text 1)?",
+  "choices": [
+   "By pointing out that the savings depend on building shape, so the requirement would do little for tall towers",
+   "By agreeing that green roofs would greatly reduce energy use in every kind of building in the city",
+   "By arguing that green roofs actually increase cooling costs for most buildings",
+   "By suggesting that the requirement should apply only to towers of twenty stories or more"
+  ],
+  "answer": "A",
+  "explanation": "Text 2 doesn't reject green roofs. It shows the benefit depends on building height, which undercuts a rule for all buildings.",
+  "steps": [
+   "Text 1: green roofs save energy, so require them on ALL new buildings.",
+   "Text 2: big savings on low buildings, under 2% on towers.",
+   "So Abara would qualify the proposal: the benefit isn't the same for every building."
+  ],
+  "strategy_tip": "Cross-text: find the assumption in Text 1 (here, 'same benefit everywhere') that Text 2 tests.",
+  "rationales": {
+   "A": "Correct. Big savings for low buildings, almost none for towers; a rule for ALL new buildings overlooks this.",
+   "B": "Contradicts Text 2: Abara found tiny savings for towers.",
+   "C": "Contradicts Text 2: Green roofs reduced costs in his measurements, a lot or a little.",
+   "D": "Reverses Text 2: Towers benefited least, so this is the opposite of his data."
+  },
+  "traps": {
+   "B": "contradicts Text 2",
+   "C": "contradicts Text 2",
+   "D": "reverses Text 2"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-002",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "women in a medieval weaving trade",
+  "fictional": true,
+  "passage": "Text 1: The guild records of the medieval town of Orsk list every master weaver who worked there between 1350 and 1450, and not one is a woman. Historian Pieter Malakai concludes that women were excluded from the town's weaving trade.",
+  "passage2": "Text 2: Guild records list only official guild members, and in Orsk only men could join the guild. Historian Selin Arkwright notes, however, that the town's tax rolls from the same century show dozens of weaving workshops headed by widows, who often kept running their late husbands' businesses under the husbands' names.",
+  "stem": "Based on the texts, how would Arkwright (Text 2) most likely respond to Malakai's conclusion (Text 1)?",
+  "choices": [
+   "By agreeing with it, since the tax rolls confirm that women had no part in the town's weaving trade",
+   "By claiming that the guild records of Orsk are forgeries made in a later century",
+   "By asserting that women in Orsk controlled most of the town's weaving workshops",
+   "By arguing that it rests on records that could not show women's actual work in the trade"
+  ],
+  "answer": "D",
+  "explanation": "Text 2 shows the source in Text 1 couldn't record women, and a different source shows that women did take part.",
+  "steps": [
+   "Text 1's evidence: guild records list no women.",
+   "Text 2: guild records list only members, and only men could join.",
+   "So the absence of women in guild records proves nothing; tax rolls show women working."
+  ],
+  "strategy_tip": "Ask whether Text 2 attacks the conclusion, the evidence, or what the evidence can show.",
+  "rationales": {
+   "A": "Contradicts Text 2: The tax rolls show women heading workshops.",
+   "B": "Goes beyond the text: Arkwright questions what the records cover, not whether they are genuine.",
+   "C": "Overstates Text 2: 'Dozens' of workshops doesn't mean most of them.",
+   "D": "Correct. Guild records list only members (men); tax rolls show women running workshops."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "goes beyond the text",
+   "C": "overstates Text 2"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-003",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "dogs, wolves, and following a pointing finger",
+  "fictional": true,
+  "passage": "Text 1: In tests at the Halden Canine Center, pet dogs found hidden food by following a person's pointing finger far more often than wolves living in a wildlife park did. Psychologist Marta Ibsen-Cole argues that domestication gave dogs an inborn ability to read human gestures that wolves lack.",
+  "passage2": "Text 2: Biologist Kofi Anan-Rask tested wolves that had been raised by people from the age of ten days, handled daily and spoken to like pets. These wolves followed pointing gestures about as accurately as pet dogs did, while wolves raised by other wolves rarely did.",
+  "stem": "Based on the texts, how would Anan-Rask (Text 2) most likely respond to Ibsen-Cole's argument (Text 1)?",
+  "choices": [
+   "By suggesting that wolves may be better than dogs at reading every kind of human gesture",
+   "By suggesting that the difference she observed may reflect how the animals were raised rather than domestication",
+   "By agreeing that only domestication, and not the way an animal is raised, can explain why dogs follow pointing gestures",
+   "By claiming that pet dogs are unable to follow human pointing gestures at all"
+  ],
+  "answer": "B",
+  "explanation": "Text 1 compared pet dogs with park wolves, which differ in upbringing as well as domestication. Text 2 controls for upbringing.",
+  "steps": [
+   "Text 1's assumption: the dog-wolf difference is inborn (domestication).",
+   "Text 2: wolves raised by people perform like dogs.",
+   "So upbringing, not only domestication, could explain the difference."
+  ],
+  "strategy_tip": "Look for a second difference between the groups that Text 1 ignored.",
+  "rationales": {
+   "A": "Overstates Text 2: Human-raised wolves did about as well as dogs, not better, and only pointing was tested.",
+   "B": "Correct. Wolves raised by people matched dogs, so upbringing could explain Text 1's result.",
+   "C": "Contradicts Text 2: Human-raised wolves followed pointing too.",
+   "D": "Contradicts both texts: Both texts say dogs follow pointing."
+  },
+  "traps": {
+   "A": "overstates Text 2",
+   "C": "contradicts Text 2",
+   "D": "contradicts both texts"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-004",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "medium",
+  "topic": "reading on screens versus paper",
+  "fictional": true,
+  "passage": "Text 1: In a study by education researcher Lina Okoro, students who read articles on tablets answered fewer comprehension questions correctly than students who read the same articles on paper. Okoro recommends that schools use printed texts for important reading assignments.",
+  "passage2": "Text 2: Researcher Tomasz Wilde repeated a similar experiment with one change: half the students had a strict time limit, and half could read for as long as they wished. With a time limit, paper readers outscored screen readers. Without one, the two groups scored the same.",
+  "stem": "Based on the texts, how would Wilde (Text 2) most likely respond to Okoro's recommendation (Text 1)?",
+  "choices": [
+   "By arguing that students understand texts better when they read them on screens",
+   "By noting that paper's advantage may appear only when students must read under time pressure",
+   "By agreeing that paper is better than screens for students' comprehension under all reading conditions, timed or untimed",
+   "By claiming that time limits have no effect on students' reading comprehension"
+  ],
+  "answer": "B",
+  "explanation": "Text 2 adds a condition (time limit) under which Text 1's result holds, so the recommendation may be too broad.",
+  "steps": [
+   "Text 1: paper beats screens, so use paper for important reading.",
+   "Text 2: paper wins only with a time limit; otherwise a tie.",
+   "So Wilde would limit Okoro's conclusion to timed reading."
+  ],
+  "strategy_tip": "When Text 2 adds a condition, the answer usually says Text 1's claim holds only under that condition.",
+  "rationales": {
+   "A": "Contradicts Text 2: Screens never did better; at best they tied.",
+   "B": "Correct. In Text 2, the gap appeared only with a time limit.",
+   "C": "Contradicts Text 2: Without a time limit, scores were equal.",
+   "D": "Contradicts Text 2: The time limit is exactly what created the difference."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "C": "contradicts Text 2",
+   "D": "contradicts Text 2"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-005",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "a tourist tax and falling visits",
+  "fictional": true,
+  "passage": "Text 1: In 2022, the coastal city of Brava introduced a nightly tax on hotel stays. That year, the number of overnight visitors fell by 12 percent. Economist Alma Rusu concludes that the tax drove tourists away and recommends that Brava repeal it.",
+  "passage2": "Text 2: Economist Nuno Feld notes that in 2022 the national currency rose sharply in value, making trips to the country more expensive for most foreign travelers. Overnight visits to three nearby coastal cities that had no hotel tax fell by 10 to 14 percent that same year.",
+  "stem": "Based on the texts, how would Feld (Text 2) most likely respond to Rusu's conclusion (Text 1)?",
+  "choices": [
+   "By agreeing that the tax was the main reason that overnight visits to Brava declined",
+   "By arguing that it overlooks a factor that reduced visits in cities with and without the tax",
+   "By suggesting that the tax may have increased the number of foreign tourists who visited Brava",
+   "By recommending that the three nearby coastal cities introduce a nightly hotel tax of their own to raise revenue"
+  ],
+  "answer": "B",
+  "explanation": "The same drop happened without the tax, and a currency change affected all the cities. So the tax may not explain Brava's decline.",
+  "steps": [
+   "Text 1: tax, then fewer visits, so the tax caused it.",
+   "Text 2: cities without the tax fell just as much, and the currency rose.",
+   "So Feld would say Rusu missed a common cause."
+  ],
+  "strategy_tip": "If Text 2 shows the effect without Text 1's cause, the answer says Text 1 overlooked another cause.",
+  "rationales": {
+   "A": "Contradicts Text 2: Cities without the tax saw the same decline.",
+   "B": "Correct. Similar drops in cities with no tax point to the currency, not the tax.",
+   "C": "Contradicts both texts: Visits to Brava fell.",
+   "D": "Goes beyond the text: Feld makes no policy recommendation."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "C": "contradicts both texts",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-006",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "a poet's plain late style",
+  "fictional": true,
+  "passage": "Text 1: The early poems of Signe Rasmussen are dense with images and unusual words, while her late poems, written in the 1980s, use short lines and plain vocabulary. Critic Hugo Palme reads this change as a sign of decline, arguing that Rasmussen's imaginative powers weakened with age.",
+  "passage2": "Text 2: Rasmussen's drafts, now held in a university archive, show that she rewrote many late poems more than twenty times, each version removing images and replacing rare words with common ones. Scholar Amara Vik notes that these drafts often began as richly detailed as her early work.",
+  "stem": "Based on the texts, how would Vik (Text 2) most likely respond to Palme's reading (Text 1)?",
+  "choices": [
+   "By agreeing that Rasmussen's late poems show that her imagination had weakened with age",
+   "By suggesting that Rasmussen's early poems may also have been written in plain vocabulary",
+   "By arguing that the plainness of the late poems was a deliberate choice rather than a loss of ability",
+   "By suggesting that the late poems were mostly revised by an editor or someone else other than Rasmussen herself"
+  ],
+  "answer": "C",
+  "explanation": "Text 1 assumes plain style means weaker imagination. Text 2's drafts show rich beginnings that were simplified deliberately.",
+  "steps": [
+   "Text 1: plain late style, so a decline.",
+   "Text 2: drafts began rich; she removed images over 20+ revisions.",
+   "So the plainness was chosen, not forced."
+  ],
+  "strategy_tip": "Text 2 often attacks the explanation of a fact both texts accept.",
+  "rationales": {
+   "A": "Contradicts Text 2: Her drafts began richly detailed, so the ability was still there.",
+   "B": "Contradicts both texts: Both texts describe the early poems as dense and unusual.",
+   "C": "Correct. Drafts started rich and were stripped down on purpose, through many rewrites.",
+   "D": "Goes beyond the text: Nothing suggests another reviser."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "contradicts both texts",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-007",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "medium",
+  "topic": "streaks in a language-learning app",
+  "fictional": true,
+  "passage": "Text 1: The language app Parlo shows users a \"streak,\" the number of days in a row they have practiced. The company reports that users who keep a streak open the app on far more days than other users, and it argues that streaks help people learn languages faster.",
+  "passage2": "Text 2: Researcher Dalia Morgenthal analyzed Parlo usage data. Users with long streaks did practice on more days, but their sessions were much shorter: many completed a single one-minute exercise, the minimum needed to keep the streak alive, and their test scores improved no faster than other users' scores.",
+  "stem": "Based on the texts, how would Morgenthal (Text 2) most likely respond to the company's argument (Text 1)?",
+  "choices": [
+   "By agreeing that streaks help users learn faster, as their improved test scores show",
+   "By claiming that users with streaks open the app on fewer days than other users",
+   "By arguing that the app should require all of its users to practice for at least an hour every single day",
+   "By pointing out that streaks may raise how often users practice without improving how much they learn"
+  ],
+  "answer": "D",
+  "explanation": "Text 2 accepts that streaks increase frequency but shows they don't improve learning. Frequency is not the same as progress.",
+  "steps": [
+   "Text 1: streaks mean more days, so faster learning.",
+   "Text 2: more days, but minimal sessions and no faster score gains.",
+   "So streaks raise frequency, not learning."
+  ],
+  "strategy_tip": "Separate what Text 2 accepts from what it rejects; the right answer usually reflects both.",
+  "rationales": {
+   "A": "Contradicts Text 2: Their scores improved no faster.",
+   "B": "Contradicts Text 2: Streak users did practice on more days.",
+   "C": "Goes beyond the text: Morgenthal makes no recommendation.",
+   "D": "Correct. More days, but shorter sessions and no faster score gains."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "contradicts Text 2",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-008",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "a stone circle and the solstice",
+  "fictional": true,
+  "passage": "Text 1: At the stone circle of Kell Moor, a line drawn between two of its forty standing stones points precisely to the spot where the sun rises on the summer solstice. Archaeologist Brenna Oyelaran argues that the circle's builders designed it as a calendar to mark the solstice.",
+  "passage2": "Text 2: Astronomer Paulo Venn calculates that among the 780 possible lines between pairs of forty stones, several are likely to point toward sunrise or sunset on some important date purely by chance. A single alignment, he argues, shows design only if it could have been predicted from the monument's layout before anyone looked for it.",
+  "stem": "Based on the texts, how would Venn (Text 2) most likely respond to Oyelaran's argument (Text 1)?",
+  "choices": [
+   "By cautioning that the alignment she cites could easily be a coincidence, given the number of stones",
+   "By agreeing that the alignment proves the circle was built as a calendar for the solstice",
+   "By arguing that none of the stones at Kell Moor point toward the solstice sunrise",
+   "By suggesting that the people who built stone circles probably had little interest in the sun"
+  ],
+  "answer": "A",
+  "explanation": "Venn accepts that the alignment exists but argues it could be chance, so it isn't strong evidence of design.",
+  "steps": [
+   "Text 1: one alignment, so built as a calendar.",
+   "Text 2: many possible lines mean some alignment is likely by chance.",
+   "So the alignment doesn't by itself show design."
+  ],
+  "strategy_tip": "Distinguish 'the evidence is false' from 'the evidence doesn't prove the conclusion'.",
+  "rationales": {
+   "A": "Correct. With 780 lines, some alignment is expected by chance, so one match isn't proof of design.",
+   "B": "Contradicts Text 2: Venn says a single alignment doesn't prove design.",
+   "C": "Contradicts Text 1: Venn doesn't deny the alignment exists; he questions what it shows.",
+   "D": "Goes beyond the text: Venn says nothing about the builders' interests."
+  },
+  "traps": {
+   "B": "contradicts Text 2",
+   "C": "contradicts Text 1",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-009",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "wider highways and traffic",
+  "fictional": true,
+  "passage": "Text 1: Commuters on the Westway, the main highway into the city of Tarrow, face long delays every morning. Transportation official Grant Mbeki proposes adding two lanes in each direction, arguing that the extra space would allow traffic to move freely and end the morning delays.",
+  "passage2": "Text 2: Urban economist Leona Haugen studied highways widened in twelve cities. In nearly every case, travel times improved at first, but within about five years traffic had grown to fill the new lanes, as people who had avoided the highway, or had traveled at other times, began to use it at rush hour.",
+  "stem": "Based on the texts, how would Haugen (Text 2) most likely respond to Mbeki's proposal (Text 1)?",
+  "choices": [
+   "By agreeing that adding lanes would end the Westway's morning delays for good",
+   "By arguing that adding lanes immediately makes traffic worse than it was before",
+   "By predicting that the improvement in travel times would probably not last",
+   "By suggesting that commuters on the Westway should simply leave home earlier each morning"
+  ],
+  "answer": "C",
+  "explanation": "Text 2 shows that widening helps briefly and then new traffic fills the lanes. So the benefit would likely be temporary.",
+  "steps": [
+   "Text 1: more lanes means traffic flows freely and delays end.",
+   "Text 2: improvement at first, then traffic grows to fill the lanes.",
+   "So Haugen expects only a temporary improvement."
+  ],
+  "strategy_tip": "Watch time words in Text 2 ('at first', 'within five years'); they often limit Text 1's claim.",
+  "rationales": {
+   "A": "Contradicts Text 2: Her data show delays returning after the improvement.",
+   "B": "Contradicts Text 2: Travel times improved at first.",
+   "C": "Correct. In her study, new lanes filled up within about five years.",
+   "D": "Goes beyond the text: Haugen proposes nothing for commuters."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "contradicts Text 2",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-010",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "a fertilizer tested on one soil type",
+  "fictional": true,
+  "passage": "Text 1: In field trials run by the agricultural institute of Valdora, a new fertilizer called NX-4 increased wheat yields by an average of 20 percent. On the strength of these results, the institute recommends that farmers throughout the country adopt NX-4.",
+  "passage2": "Text 2: Soil scientist Ifeoma Rasmussen-Daly points out that every one of the institute's trials took place on the sandy, nitrogen-poor soils of Valdora's south. In her own trials on the heavy clay soils that cover most of the north, NX-4 produced no measurable change in wheat yields.",
+  "stem": "Based on the texts, how would Rasmussen-Daly (Text 2) most likely respond to the institute's recommendation (Text 1)?",
+  "choices": [
+   "By arguing that it extends results from one kind of soil to regions where the fertilizer may not work",
+   "By agreeing that NX-4 would raise wheat yields by about 20 percent on all of the country's farms, north and south",
+   "By claiming that NX-4 reduces wheat yields on the sandy soils of Valdora's south",
+   "By recommending that farmers in the north switch from growing wheat to other crops"
+  ],
+  "answer": "A",
+  "explanation": "The recommendation covers the whole country, but the evidence comes from one soil type. On the other main soil type, it didn't work.",
+  "steps": [
+   "Text 1: trials show +20%, so recommend nationwide.",
+   "Text 2: the trials were only on southern sandy soil; on northern clay, no effect.",
+   "So the recommendation overgeneralizes."
+  ],
+  "strategy_tip": "Check whether Text 1's evidence matches the scope of its conclusion.",
+  "rationales": {
+   "A": "Correct. All trials were on southern sandy soil; on northern clay, no effect.",
+   "B": "Contradicts Text 2: Her clay-soil trials showed no change.",
+   "C": "Contradicts Text 1: Text 1 reports a 20% increase on those soils, which she doesn't dispute.",
+   "D": "Goes beyond the text: She makes no crop recommendation."
+  },
+  "traps": {
+   "B": "contradicts Text 2",
+   "C": "contradicts Text 1",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-011",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "a folk tune in a symphony",
+  "fictional": true,
+  "passage": "Text 1: The final movement of Emil Varga's 1891 Symphony No. 2 is built on a folk tune from his native Bresova. Musicologist Hana Lukic argues that by quoting the tune, Varga was expressing pride in Bresovan national identity at a time when the region was ruled by a foreign empire.",
+  "passage2": "Text 2: Musicologist Adrian Kowal notes that the tune was equally popular across the border in the empire's capital, where Varga lived for a decade. In a letter, Varga wrote that he first heard it played by a café band in that city and used it because its rhythm suited his finale.",
+  "stem": "Based on the texts, how would Kowal (Text 2) most likely respond to Lukic's argument (Text 1)?",
+  "choices": [
+   "By agreeing that Varga quoted the tune mainly to express pride in Bresovan identity",
+   "By claiming that the tune in Varga's finale was composed by Varga himself",
+   "By suggesting that Varga may have disliked Bresova and wished to be seen as a citizen of the empire",
+   "By suggesting that Varga's use of the tune may not have been an expression of national pride"
+  ],
+  "answer": "D",
+  "explanation": "Text 1 reads national meaning into the quotation. Text 2 offers evidence of a non-national reason (where he heard it, its rhythm).",
+  "steps": [
+   "Text 1: the folk tune shows national pride.",
+   "Text 2: the tune was popular in the capital too; Varga's letter says he chose it for its rhythm.",
+   "So Kowal would doubt the national-pride reading."
+  ],
+  "strategy_tip": "A writer's own stated reason (a letter, a diary) is strong evidence against an interpretation.",
+  "rationales": {
+   "A": "Contradicts Text 2: Varga's letter gives a musical reason, not a national one.",
+   "B": "Contradicts both texts: Both texts treat it as an existing folk tune.",
+   "C": "Goes beyond the text: Nothing in Text 2 shows dislike of Bresova.",
+   "D": "Correct. The tune was popular in the capital too, and Varga chose it for its rhythm."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "contradicts both texts",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-ctc-012",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "remote work and productivity",
+  "fictional": true,
+  "passage": "Text 1: In a 2023 survey, 70 percent of managers at the insurance firm Halvard Mutual said that employees who worked from home were less productive than those who worked in the office. Business writer Corinne Oduya concludes that remote work reduces productivity.",
+  "passage2": "Text 2: Economist Benedikt Sorensen examined Halvard Mutual's records of claims processed per employee during the same year and found no difference between remote and office workers. He notes that managers see office workers every day but remote workers only on screens, which may shape their impressions.",
+  "stem": "Based on the texts, how would Sorensen (Text 2) most likely respond to Oduya's conclusion (Text 1)?",
+  "choices": [
+   "By agreeing that remote workers at Halvard Mutual processed fewer claims than office workers",
+   "By suggesting that remote workers at the firm were probably more productive than office workers",
+   "By arguing that it relies on managers' impressions, which measured output does not support",
+   "By suggesting that the firm's managers should themselves begin working from home"
+  ],
+  "answer": "C",
+  "explanation": "Text 1's evidence is opinion. Text 2's measured output shows no difference and explains why managers might see one.",
+  "steps": [
+   "Text 1: managers SAY remote workers are less productive.",
+   "Text 2: measured output shows no difference.",
+   "So Sorensen would say the conclusion rests on impressions, not output."
+  ],
+  "strategy_tip": "Compare the TYPE of evidence in each text (opinion vs. measurement).",
+  "rationales": {
+   "A": "Contradicts Text 2: The records show no difference.",
+   "B": "Overstates Text 2: He found no difference, not an advantage for remote work.",
+   "C": "Correct. Records of claims processed show no difference; managers' views may reflect visibility.",
+   "D": "Goes beyond the text: Sorensen makes no recommendation."
+  },
+  "traps": {
+   "A": "contradicts Text 2",
+   "B": "overstates Text 2",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-function-001",
+  "skill": "RW.CAS.TSP.FUNCTION",
+  "difficulty": "hard",
+  "topic": "plants that call predators for help",
+  "fictional": true,
+  "passage": "Many plants defend themselves against insects with toxic chemicals, but some recruit allies instead. <u>When caterpillars chew the leaves of the wild tobacco Nicotiana lumen, the plant releases a scent that attracts predatory bugs, which then eat the caterpillars' eggs.</u> Such \"calls for help\" may be far more common than once thought: botanist Ruth Abiodun-Sato has identified similar scents in more than forty plant species.",
+  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+   "It gives a specific example of the defensive strategy introduced in the first sentence.",
+   "It presents a finding that contradicts the claim made in the first sentence.",
+   "It explains why the strategy that the text describes is less common than scientists once thought.",
+   "It introduces the research method that Abiodun-Sato used to identify scents in other species."
+  ],
+  "answer": "A",
+  "explanation": "The first sentence names a strategy, the underlined sentence illustrates it, and the last sentence says it may be widespread.",
+  "steps": [
+   "First sentence: some plants 'recruit allies.'",
+   "Underlined: one plant attracts predators of its pests, which is a concrete case.",
+   "So its function is to give an example."
+  ],
+  "strategy_tip": "Ask how the underlined sentence connects to the one BEFORE it: example, contrast, or cause?",
+  "rationales": {
+   "A": "Correct. 'Recruit allies' is the strategy; the tobacco attracting predatory bugs is an example of it.",
+   "B": "Contradicts the text: It supports the first sentence; the plant does recruit allies.",
+   "C": "Contradicts the text: The last sentence says the strategy may be MORE common than thought.",
+   "D": "Misreads the role: No research method is described in the underlined sentence."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "contradicts the text",
+   "D": "misreads the role"
+  }
+ },
+ {
+  "id": "rw-tri-cas-function-002",
+  "skill": "RW.CAS.TSP.FUNCTION",
+  "difficulty": "hard",
+  "topic": "cheap clocks and punctuality",
+  "fictional": true,
+  "passage": "Historian Ama Lindgren argues that the spread of cheap clocks in the 1850s changed how factory workers in the city of Harwell thought about time, turning punctuality from an employer's demand into a personal virtue. <u>Lindgren acknowledges that factory owners had demanded punctuality long before clocks became affordable.</u> Her point is that once workers owned clocks themselves, they began to judge one another by the same standard.",
+  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+   "It presents the main evidence that Lindgren uses to support her argument about clocks.",
+   "It concedes a fact that might seem to weaken Lindgren's argument before the text clarifies what she claims.",
+   "It explains why clocks became much cheaper for workers to buy during the 1850s.",
+   "It reports a criticism of Lindgren's work that eventually leads her to abandon her argument."
+  ],
+  "answer": "B",
+  "explanation": "The fact that owners demanded punctuality earlier could look like it weakens her claim, so she concedes it and then explains that her claim is about workers judging one another.",
+  "steps": [
+   "Claim: clocks made punctuality a personal virtue.",
+   "Underlined: 'acknowledges' a possible objection (owners demanded punctuality earlier).",
+   "Next: 'Her point is...' clarifies that the change was among workers themselves."
+  ],
+  "strategy_tip": "'Acknowledges', 'grants', and 'admits' usually mark a concession that the author then limits.",
+  "rationales": {
+   "A": "Misreads the role: The underlined sentence is a concession, not evidence for her claim.",
+   "B": "Correct. 'Acknowledges' marks a concession; the next sentence ('Her point is') clarifies her actual claim.",
+   "C": "Goes beyond the text: No reason for cheaper clocks is given.",
+   "D": "Contradicts the text: She keeps her argument and clarifies it in the next sentence."
+  },
+  "traps": {
+   "A": "misreads the role",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-function-003",
+  "skill": "RW.CAS.TSP.FUNCTION",
+  "difficulty": "medium",
+  "topic": "sea otters grooming in cold water",
+  "fictional": true,
+  "passage": "Sea otters in Lusk Bay spend hours each day grooming their thick fur. <u>Biologist Ilan Petrossian suspected that the otters groom more in colder water, since well-groomed fur traps more insulating air.</u> To test the idea, he compared the otters' grooming time in summer and winter and found that they groomed about 40 percent longer in winter.",
+  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+   "It summarizes the results of the study that Petrossian carried out in Lusk Bay.",
+   "It explains why sea otters live in the cold waters of bays like Lusk Bay.",
+   "It presents a hypothesis that the rest of the text describes being tested.",
+   "It describes an observation that contradicts the study's eventual results."
+  ],
+  "answer": "C",
+  "explanation": "'Suspected' introduces a hypothesis, and 'To test the idea' shows the rest of the text tests it.",
+  "steps": [
+   "Underlined: what Petrossian 'suspected', a hypothesis.",
+   "Next: 'To test the idea', the test.",
+   "The underlined sentence sets up the test."
+  ],
+  "strategy_tip": "Words like 'suspected' or 'hypothesized' signal a hypothesis to be tested.",
+  "rationales": {
+   "A": "Misreads the role: The results come in the final sentence, not the underlined one.",
+   "B": "Goes beyond the text: The sentence is about grooming, not where otters live.",
+   "C": "Correct. 'Suspected' introduces an idea; 'To test the idea' follows.",
+   "D": "Contradicts the text: The results (more grooming in winter) support the idea."
+  },
+  "traps": {
+   "A": "misreads the role",
+   "B": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-function-004",
+  "skill": "RW.CAS.TSP.FUNCTION",
+  "difficulty": "hard",
+  "topic": "an uncle's repeated stories (novel)",
+  "fictional": true,
+  "passage": "The following text is from Lucia Ferrand's 2008 novel The Long Table. Every Sunday, the Aldana family gathered for dinner, and every Sunday, Uncle Tomas arrived last, carrying a cake nobody had asked for. <u>He told the same three stories each week, and the children, who could recite them, laughed in all the right places anyway.</u> Years later, when Tomas was gone, it was those stories, and not the cakes, that the family found themselves repeating.",
+  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+   "It suggests that the children were bored by Tomas's stories and secretly wished he would stop telling them.",
+   "It explains why Tomas always arrived last at the family's Sunday dinners.",
+   "It reveals that the stories Tomas told each week were invented rather than true.",
+   "It shows the family's fondness for Tomas despite his predictability, setting up the final sentence."
+  ],
+  "answer": "D",
+  "explanation": "'Anyway' shows the children laugh out of affection, and the last sentence shows the stories mattered most.",
+  "steps": [
+   "Key word: 'anyway'. They laugh even though they know the stories.",
+   "That shows affection, not just politeness.",
+   "Final sentence: the stories are what the family remembers, which the underlined sentence prepares."
+  ],
+  "strategy_tip": "Small words like 'anyway' or 'still' carry the attitude; build your answer on them.",
+  "rationales": {
+   "A": "Contradicts the text: They laughed 'in all the right places', a sign of affection, not boredom.",
+   "B": "Goes beyond the text: No reason for his lateness is given.",
+   "C": "Goes beyond the text: Nothing suggests the stories were false.",
+   "D": "Correct. The children laugh 'anyway' at stories they know by heart, which is affection; later the family repeats those stories."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "goes beyond the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-purpose-001",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "hard",
+  "topic": "who invented a glassworks' color recipes",
+  "fictional": true,
+  "passage": "Most accounts of the Tessaly glassworks, which operated from 1820 to 1874, credit its owner, Augustin Merle, with the colored-glass recipes that made the factory famous. But account books recently found in a nearby archive record regular payments to a worker named Odile Vasseur for \"secrets of color,\" and the recipes in Merle's notebooks first appear only after those payments begin. Historian Inès Calloway argues that Vasseur, not Merle, was the factory's chief innovator.",
+  "stem": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To describe the methods that nineteenth-century glassmakers used to produce colored glass",
+   "To present evidence that challenges the usual account of who created the factory's famous recipes",
+   "To explain why the Tessaly glassworks closed its doors in 1874",
+   "To argue that factory owners in the nineteenth century routinely took credit for their workers' ideas"
+  ],
+  "answer": "B",
+  "explanation": "The text sets up a common belief and then presents new evidence against it. Its purpose is to challenge that belief.",
+  "steps": [
+   "Sentence 1: the usual account (Merle invented the recipes).",
+   "'But': new evidence (payments to Vasseur; recipes appear after them).",
+   "Last sentence: a historian's new conclusion.",
+   "So the purpose is to challenge the usual account."
+  ],
+  "strategy_tip": "Purpose questions: describe what the text DOES (challenge, explain, compare), not just its topic.",
+  "rationales": {
+   "A": "Fits the topic but not the purpose: No glassmaking methods are described.",
+   "B": "Correct. The text gives the usual view (Merle), then new evidence pointing to Vasseur.",
+   "C": "Goes beyond the text: The closing date is mentioned, but no reason is given.",
+   "D": "Goes beyond the text: The text is about one factory, not owners in general."
+  },
+  "traps": {
+   "A": "fits the topic but not the purpose",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-purpose-002",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "hard",
+  "topic": "a newcomer watching a city wake up (novel)",
+  "fictional": true,
+  "passage": "The following text is from Yara Benedetti's 2014 novel The Harbor Clock. Mira has recently moved to the city of Port Calder. Each morning Mira watched the city wake from her window: the baker propping his door open with a sack of flour, the tram drivers trading cigarettes at the depot, the old women calling to one another across the square by name. Everyone seemed to know where to stand and what to say. Mira knew the names of the streets from her map, but not one of the names that were called across the square.",
+  "stem": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To explain why Mira decided to move to Port Calder instead of to some other city along the coast",
+   "To describe the history of the trades that people practice in Port Calder's main square",
+   "To show that Mira has begun to make friends with the people who work near her home",
+   "To convey Mira's sense of being outside a community whose routines she can watch but not share"
+  ],
+  "answer": "D",
+  "explanation": "The contrast between everyone's easy belonging and Mira's knowing only street names shows she feels like an outsider.",
+  "steps": [
+   "Mira watches from her window, separate from the scene.",
+   "'Everyone seemed to know where to stand and what to say.'",
+   "Final contrast: she knows street names, but not people's names.",
+   "Purpose: to convey her outsider feeling."
+  ],
+  "strategy_tip": "In literary passages, a final contrast usually reveals the purpose.",
+  "rationales": {
+   "A": "Goes beyond the text: Her reasons for moving are never given.",
+   "B": "Fits the topic but not the purpose: Trades appear as details of the scene, not as history.",
+   "C": "Contradicts the text: She doesn't know a single name called in the square.",
+   "D": "Correct. She observes everyone's familiar routines but knows none of the people's names."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "fits the topic but not the purpose",
+   "C": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-purpose-003",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "seasonal mixing of lake water",
+  "fictional": true,
+  "passage": "In summer, the surface of Lake Orvo warms while its deep water stays cold. Because warm water is less dense than cold water, the two layers stay separate, and oxygen from the air cannot reach the bottom. In autumn, however, the surface water cools until it is as dense as the water below. The layers then mix, carrying oxygen down to the fish and other organisms living in the lake's deepest parts.",
+  "stem": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To argue that Lake Orvo needs protection from pollution that lowers its oxygen",
+   "To compare the fish living near the surface of Lake Orvo with those in its depths",
+   "To explain how seasonal changes in temperature cause the water in a lake to mix",
+   "To describe a scientist's discovery of why some lakes freeze over in winter"
+  ],
+  "answer": "C",
+  "explanation": "The text explains a process step by step. Warm and cold water stay apart in summer and mix in autumn.",
+  "steps": [
+   "Summer: layers stay separate (density difference).",
+   "Autumn: surface cools, densities match, layers mix.",
+   "Purpose: explain a process."
+  ],
+  "strategy_tip": "Cause-and-effect words (because, then) signal an 'explain how' purpose.",
+  "rationales": {
+   "A": "Goes beyond the text: Pollution and protection are never mentioned.",
+   "B": "Fits the topic but not the purpose: Fish are mentioned only as organisms that receive oxygen.",
+   "C": "Correct. The text walks through summer layering and autumn mixing, and why each happens.",
+   "D": "Goes beyond the text: No scientist or freezing is discussed."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "fits the topic but not the purpose",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-purpose-004",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "hard",
+  "topic": "replicas in museums",
+  "fictional": false,
+  "passage": "Some museum visitors feel cheated when they learn that an object on display is a replica rather than the original. Their disappointment is understandable: an original carries a direct link to the past that a copy cannot. Yet replicas often allow museums to show objects that are too fragile to be displayed at all, such as textiles that would fade under gallery lights, and they let visitors handle and examine details that glass cases hide. Dismissing replicas as fakes ignores what they make possible.",
+  "stem": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To grant that visitors' disappointment has a basis while arguing that replicas offer real benefits",
+   "To explain the techniques that museums use to produce accurate replicas of fragile objects such as textiles",
+   "To argue that museums should replace all of their original objects with replicas",
+   "To describe how visitors typically react when they discover that an object is a replica"
+  ],
+  "answer": "A",
+  "explanation": "The text concedes a point and then argues against dismissing replicas. Its purpose includes both moves.",
+  "steps": [
+   "Concession: disappointment is 'understandable.'",
+   "'Yet': benefits of replicas (fragile objects, handling).",
+   "Conclusion: dismissing replicas ignores those benefits.",
+   "The right purpose names both the concession and the argument."
+  ],
+  "strategy_tip": "If a passage concedes and then argues, the best purpose choice mentions both.",
+  "rationales": {
+   "A": "Correct. The text concedes ('understandable') and then argues for replicas ('Yet... ignores what they make possible').",
+   "B": "Fits the topic but not the purpose: No production techniques are described.",
+   "C": "Goes beyond the text: The text defends replicas; it never says originals should be replaced.",
+   "D": "Covers only part of the text: Visitors' reaction is only the starting point; most of the text argues for replicas."
+  },
+  "traps": {
+   "B": "fits the topic but not the purpose",
+   "C": "goes beyond the text",
+   "D": "covers only part of the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-purpose-005",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "passing on knowledge of a creek (poem)",
+  "fictional": true,
+  "passage": "The following text is from Ilona Marsh's 1987 poem \"Field Notes.\" The speaker is addressing a younger sibling. Remember that the creek floods every April, / that the low bridge is the first to go, / that the heron's nest is in the leaning pine. / I will be far away by then. / Someone should know these things.",
+  "stem": "Which choice best describes the main purpose of the text?",
+  "choices": [
+   "To describe a spring flood that destroyed the low bridge over the creek",
+   "To pass on knowledge of a familiar place before the speaker leaves it",
+   "To express regret about a disagreement between the speaker and the sibling",
+   "To explain why herons in the area prefer to build their nests in pine trees"
+  ],
+  "answer": "B",
+  "explanation": "The speaker lists things to remember and says they'll be gone, so the purpose is to pass on local knowledge.",
+  "steps": [
+   "Repeated 'Remember that...' gives facts about a place.",
+   "'I will be far away by then' explains why.",
+   "'Someone should know these things' states the purpose."
+  ],
+  "strategy_tip": "In poems, a short final line often states the reason for everything before it.",
+  "rationales": {
+   "A": "Goes beyond the text: The bridge 'is the first to go' in floods generally; no single flood is described.",
+   "B": "Correct. 'Remember...' plus 'I will be far away' and 'Someone should know' means the speaker is handing on knowledge.",
+   "C": "Goes beyond the text: No disagreement appears in the poem.",
+   "D": "Fits the topic but not the purpose: The nest's location is one remembered fact, not an explanation."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "C": "goes beyond the text",
+   "D": "fits the topic but not the purpose"
+  }
+ },
+ {
+  "id": "rw-tri-cas-structure-001",
+  "skill": "RW.CAS.TSP.STRUCTURE",
+  "difficulty": "hard",
+  "topic": "what triggers songbird migration",
+  "fictional": true,
+  "passage": "Ecologists have long assumed that songbirds in the Mirren Highlands migrate south each autumn because food becomes scarce. Ornithologist Gwen Okafor-Lund found, however, that birds kept in aviaries with unlimited food still grew restless and tried to fly south at the usual time, which suggests that changing day length, rather than hunger, triggers migration. Okafor-Lund notes that her study cannot show whether wild birds that find plenty of food would actually leave.",
+  "stem": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "It presents a long-held assumption, describes a finding that challenges it, and then notes a limit of that finding.",
+   "It describes a study, explains why its results were rejected, and then proposes a new study to replace it.",
+   "It introduces two competing explanations and then argues that both explanations are correct.",
+   "It describes how songbirds prepare for migration and then explains the routes they follow south."
+  ],
+  "answer": "A",
+  "explanation": "Three moves, an assumption, a challenge, and a limitation. Only one choice lists all three in order.",
+  "steps": [
+   "Sentence 1: what ecologists 'have long assumed.'",
+   "Sentence 2: 'however', a finding against it.",
+   "Sentence 3: what the study 'cannot show', a limitation."
+  ],
+  "strategy_tip": "Label each sentence with one word (claim, challenge, limit) and match the sequence.",
+  "rationales": {
+   "A": "Correct. Assumption (food), challenge (aviary study), limitation (can't show wild birds' behavior).",
+   "B": "Wrong order of ideas: The study's results weren't rejected, and no new study is proposed.",
+   "C": "Misreads the structure: The finding favors day length over hunger; it doesn't say both are right.",
+   "D": "Fits the topic but not the structure: Neither preparation nor routes are described."
+  },
+  "traps": {
+   "B": "wrong order of ideas",
+   "C": "misreads the structure",
+   "D": "fits the topic but not the structure"
+  }
+ },
+ {
+  "id": "rw-tri-cas-structure-002",
+  "skill": "RW.CAS.TSP.STRUCTURE",
+  "difficulty": "hard",
+  "topic": "a ferry ride and a father's memory (story)",
+  "fictional": true,
+  "passage": "The following text is from Kwame Osei-Lindqvist's 2019 short story \"The Ferry.\" Abena stood at the rail as the ferry left the harbor, watching the town grow small. Twenty years earlier she had stood in the same place beside her father, who had pointed out each roof and named the family living beneath it, as if the town were a book he knew by heart. She had been bored then and had begged him to stop. Now she searched the shrinking rooftops and found she could not name a single one.",
+  "stem": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "A memory is described in detail and is then revealed to be inaccurate.",
+   "Two characters argue about the past and then reach a kind of agreement.",
+   "A character makes an important decision and then explains the reasons that led her to make it.",
+   "A present-day scene leads into a memory, which gives new meaning to the present moment."
+  ],
+  "answer": "D",
+  "explanation": "The passage moves present, then past, then present, and the memory makes her present inability to name the roofs meaningful.",
+  "steps": [
+   "Present: Abena at the rail.",
+   "Past: her father naming every roof; she was bored.",
+   "Present: she can't name one, and the memory gives this weight."
+  ],
+  "strategy_tip": "Track time shifts ('Twenty years earlier', 'Now'); they often define a literary structure.",
+  "rationales": {
+   "A": "Misreads the structure: Nothing suggests the memory is wrong.",
+   "B": "Goes beyond the text: Only Abena is present; there is no argument.",
+   "C": "Goes beyond the text: Abena makes no decision.",
+   "D": "Correct. Ferry now, then the father twenty years ago, then back to now with a sense of loss."
+  },
+  "traps": {
+   "A": "misreads the structure",
+   "B": "goes beyond the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-cas-structure-003",
+  "skill": "RW.CAS.TSP.STRUCTURE",
+  "difficulty": "medium",
+  "topic": "fans that protect apple blossoms from frost",
+  "fictional": true,
+  "passage": "Farmers in the Delen Valley lost much of their apple harvest each year to late spring frosts, which kill the blossoms. In 2018, agricultural engineer Pilar Esteban-Yoon proposed installing large fans in the orchards; on cold, still nights, the fans pull down warmer air that collects a few meters above the ground. By 2022, orchards using the fans were losing only about a third as many blossoms to frost as orchards without them.",
+  "stem": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "It describes a problem, presents a proposed solution, and then reports evidence of the solution's success.",
+   "It compares two possible solutions to a problem and argues that one of them is better.",
+   "It describes a problem and then explains why farmers have been unable to solve it.",
+   "It traces an engineer's career and lists several of the inventions she created."
+  ],
+  "answer": "A",
+  "explanation": "Problem, then solution, then results. Only one choice has all three parts.",
+  "steps": [
+   "Sentence 1: the problem (frost kills blossoms).",
+   "Sentence 2: the proposed solution (fans).",
+   "Sentence 3: the result (a third as many losses)."
+  ],
+  "strategy_tip": "Problem-solution-result is one of the most common structures; check the last sentence for results.",
+  "rationales": {
+   "A": "Correct. Frost damage (problem), fans (solution), fewer lost blossoms (results).",
+   "B": "Misreads the structure: Only one solution is presented.",
+   "C": "Contradicts the text: The fans largely solved the problem.",
+   "D": "Fits the topic but not the structure: Only one proposal is described."
+  },
+  "traps": {
+   "B": "misreads the structure",
+   "C": "contradicts the text",
+   "D": "fits the topic but not the structure"
+  }
+ },
+ {
+  "id": "rw-tri-cas-structure-004",
+  "skill": "RW.CAS.TSP.STRUCTURE",
+  "difficulty": "hard",
+  "topic": "an island dialect and old speech",
+  "fictional": true,
+  "passage": "Linguist Dario Mendes-Akande argues that the dialect spoken on Tarn Island preserves features of the mainland language as it was spoken four centuries ago. Some scholars object that islanders have had constant contact with the mainland through trade, which should have spread newer forms of speech to the island. Mendes-Akande counters that trade on Tarn was handled almost entirely by a few merchant families, so most islanders rarely spoke with mainlanders at all.",
+  "stem": "Which choice best describes the overall structure of the text?",
+  "choices": [
+   "It presents two scholars' claims about a dialect and then explains why both of them are mistaken.",
+   "It describes the history of trade on an island and then explains how that trade enriched a few families.",
+   "It introduces a scholar's claim, presents an objection to it, and then gives the scholar's response.",
+   "It introduces a claim, offers evidence for it, and then concludes that no further study is needed."
+  ],
+  "answer": "C",
+  "explanation": "'Some scholars object' and 'counters' mark the objection and the response.",
+  "steps": [
+   "Sentence 1: Mendes-Akande's claim.",
+   "'Some scholars object': the objection.",
+   "'counters': his response."
+  ],
+  "strategy_tip": "Signal verbs (argues, object, counters, concedes) map the structure for you.",
+  "rationales": {
+   "A": "Misreads the structure: The text doesn't reject both views; it gives a reply to one objection.",
+   "B": "Fits the topic but not the structure: Trade is part of the objection, not the subject of the text.",
+   "C": "Correct. Claim (old features preserved), objection (trade contact), response (few people traded).",
+   "D": "Goes beyond the text: There's no conclusion about further study."
+  },
+  "traps": {
+   "A": "misreads the structure",
+   "B": "fits the topic but not the structure",
+   "D": "goes beyond the text"
+  }
+ }
+]
