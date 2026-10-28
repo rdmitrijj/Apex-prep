@@ -1,0 +1,943 @@
+[
+ {
+  "id": "rw-tri-eoi-rs-001",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "squirrels remembering buried seeds",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "In 2021, ecologist Maren Solberg studied red squirrels in the Halden Forest.",
+   "She wanted to know whether squirrels remember where they bury food.",
+   "She tracked 40 squirrels fitted with small radio tags for one winter.",
+   "The squirrels recovered 74% of the seeds they had buried themselves but only 9% of seeds buried by other squirrels.",
+   "Solberg concluded that the squirrels rely on memory, not smell alone."
+  ],
+  "stem": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In 2021, ecologist Maren Solberg tracked 40 red squirrels with small radio tags to learn whether they remember where they bury their food.",
+   "Tracking 40 radio-tagged squirrels for a winter, Maren Solberg found that they recovered 74% of their own buried seeds but only 9% of others'.",
+   "Ecologist Maren Solberg wanted to know whether red squirrels in the Halden Forest remember where they bury their food.",
+   "Squirrels may rely on memory rather than on smell alone when they look for the seeds they have buried."
+  ],
+  "answer": "B",
+  "explanation": "The goal has two parts, the study and its findings. Only one choice includes both.",
+  "steps": [
+   "Split the goal: (1) present the study, (2) present its findings.",
+   "Findings in the notes: 74% of own seeds vs. 9% of others'.",
+   "The 2021 choice describes the study well but has no results; that's the trap.",
+   "The key has both."
+  ],
+  "strategy_tip": "Underline every part of the goal ('study AND findings'); reject choices missing any part.",
+  "rationales": {
+   "A": "Method and aim, no findings: It describes the study and its question but never says what Solberg found.",
+   "B": "Correct. It names the study (Solberg tracking 40 tagged squirrels) AND the findings (74% vs. 9%).",
+   "C": "Aim only: This gives only the research question, with no method and no findings.",
+   "D": "Conclusion without the study: This states a conclusion but doesn't present the study."
+  },
+  "traps": {
+   "A": "method and aim, no findings",
+   "C": "aim only",
+   "D": "conclusion without the study"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-002",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "two rivers with different water",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Corva and the Tessel are two rivers in the Varn Basin.",
+   "The Corva is 410 kilometers long; the Tessel is 380 kilometers long.",
+   "The Corva's water is clear because the river flows mostly over bedrock.",
+   "The Tessel's water is brown because it carries clay washed from farmland.",
+   "Both rivers flow into Lake Varn."
+  ],
+  "stem": "The student wants to emphasize a difference between the two rivers' water. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "At 410 kilometers, the Corva is somewhat longer than the Tessel, which is 380 kilometers long.",
+   "The Corva and the Tessel, two rivers in the Varn Basin, both flow into Lake Varn.",
+   "The water of the Tessel, a river in the Varn Basin, is brown because it carries clay washed from the farmland along its banks.",
+   "The Corva's water is clear, since it flows over bedrock, while the Tessel's water is brown with clay from farmland."
+  ],
+  "answer": "D",
+  "explanation": "The goal asks for a difference in the WATER. One choice gives a difference, but in length; only the key compares the water.",
+  "steps": [
+   "Goal: a difference + about the water.",
+   "Length is a difference, but not about water.",
+   "Only the key compares clear and brown water."
+  ],
+  "strategy_tip": "Check the goal's topic word ('water'), not only its task word ('difference').",
+  "rationales": {
+   "A": "Right task, wrong difference: It states a difference, but in length, not in the water.",
+   "B": "Similarity, not difference: This is something the rivers share.",
+   "C": "Only one side: Only one river's water is described, so there's no difference.",
+   "D": "Correct. It contrasts the two rivers' water (clear vs. brown)."
+  },
+  "traps": {
+   "A": "right task, wrong difference",
+   "B": "similarity, not difference",
+   "C": "only one side"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-003",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "qanat water channels",
+  "fictional": false,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "A qanat is an underground channel that carries water from an aquifer to the surface.",
+   "Qanats were first built in ancient Persia (in present-day Iran) about 3,000 years ago.",
+   "They work by gravity, so they need no pumps.",
+   "Some qanats in Iran are still in use today.",
+   "One qanat in the town of Gonabad is more than 30 kilometers long."
+  ],
+  "stem": "The student wants to introduce qanats to an audience unfamiliar with them. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "One of the qanats in the town of Gonabad, in present-day Iran, stretches underground for more than 30 kilometers from its source.",
+   "Some of the qanats built in Iran thousands of years ago are still being used to supply water today.",
+   "Qanats, underground channels first built in ancient Persia, use gravity to carry water from aquifers to the surface.",
+   "Because they rely entirely on gravity, qanats have never needed any pumps to keep the water moving."
+  ],
+  "answer": "C",
+  "explanation": "For an unfamiliar audience, the sentence must say what the thing is. Only the key defines a qanat.",
+  "steps": [
+   "Goal: introduce to someone who has never heard of qanats.",
+   "So the choice must define the term.",
+   "Only the key says what a qanat is (an underground channel carrying water)."
+  ],
+  "strategy_tip": "'Unfamiliar audience' means the right choice defines or explains the term.",
+  "rationales": {
+   "A": "Assumes the audience knows the term: A reader who doesn't know what a qanat is learns only a length.",
+   "B": "Assumes the audience knows the term: It never explains what a qanat is.",
+   "C": "Correct. It explains what a qanat is, which an unfamiliar audience needs.",
+   "D": "Assumes the audience knows the term: It gives a feature without defining the thing."
+  },
+  "traps": {
+   "A": "assumes the audience knows the term",
+   "B": "assumes the audience knows the term",
+   "D": "assumes the audience knows the term"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-004",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "background noise and creativity",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Psychologists Ana Lindqvist and Omar Haddad studied how background noise affects creative thinking.",
+   "Participants did a creative task in silence, in moderate noise (65 decibels), or in loud noise (85 decibels).",
+   "Participants in moderate noise produced the most original ideas.",
+   "Participants in loud noise produced the fewest original ideas.",
+   "The researchers suggest that mild distraction may encourage more abstract thinking."
+  ],
+  "stem": "The student wants to summarize the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In Lindqvist and Haddad's study, people doing a creative task had the most original ideas in moderate noise and the fewest in loud noise.",
+   "Lindqvist and Haddad had participants complete a creative task in silence, in moderate noise of 65 decibels, or in loud noise of 85 decibels.",
+   "According to two psychologists, mild distraction may encourage people to think in more abstract ways.",
+   "Psychologists Ana Lindqvist and Omar Haddad investigated the effects of background noise on creative thinking."
+  ],
+  "answer": "A",
+  "explanation": "A summary of a study must include its results. Choices with only the method, the aim, or the interpretation fall short.",
+  "steps": [
+   "A study summary = who + what they did + what they found.",
+   "Check each choice for the RESULTS (moderate = most, loud = fewest).",
+   "Only the key includes the results."
+  ],
+  "strategy_tip": "'Summarize the study' always needs the findings; method-only choices are the most common trap.",
+  "rationales": {
+   "A": "Correct. A summary needs who, what was done, and what was found; this has all three.",
+   "B": "Method only: It describes the setup but leaves out the results.",
+   "C": "Conclusion only: It gives the interpretation without the study or its results.",
+   "D": "Aim only: It says what was studied but not what was found."
+  },
+  "traps": {
+   "B": "method only",
+   "C": "conclusion only",
+   "D": "aim only"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-005",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "an ancient feather with pigment",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "In 2020, paleontologist Ruth Odinga found a fossil feather preserved in amber in the Kessel Hills.",
+   "The feather is about 99 million years old.",
+   "It still contains traces of its original pigment.",
+   "Before this find, the colors of feathers from this period could only be guessed.",
+   "The pigment shows that the feather was dark brown with pale spots."
+  ],
+  "stem": "The student wants to explain the significance of Odinga's discovery. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The fossil feather that Ruth Odinga found in amber in the Kessel Hills in 2020 was dark brown with pale spots.",
+   "Because it still contains pigment, the 99-million-year-old feather reveals a color that, for its period, could previously only be guessed.",
+   "In 2020, paleontologist Ruth Odinga found a remarkably well-preserved 99-million-year-old fossil feather in a piece of amber in the Kessel Hills.",
+   "The feather, which is about 99 million years old, was found preserved in a piece of amber."
+  ],
+  "answer": "B",
+  "explanation": "Significance means why it matters. The notes give the reason, that before this, colors could only be guessed.",
+  "steps": [
+   "Goal word: significance (why it matters).",
+   "Find the 'why' in the notes: 'Before this find, the colors... could only be guessed.'",
+   "Only the key uses that note."
+  ],
+  "strategy_tip": "'Significance' or 'importance' means pick the choice that uses the note explaining WHY it matters.",
+  "rationales": {
+   "A": "Detail, not significance: It gives the color but not why knowing it matters.",
+   "B": "Correct. It says why the find matters: it shows real colors where before there were only guesses.",
+   "C": "Describes, doesn't explain: It reports the find without saying why it's important.",
+   "D": "Detail, not significance: Age and setting don't explain the discovery's importance."
+  },
+  "traps": {
+   "A": "detail, not significance",
+   "C": "describes, doesn't explain",
+   "D": "detail, not significance"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-006",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "topic": "the age of a medieval psalter",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Orsa Psalter is an illuminated manuscript.",
+   "It was made around 1150.",
+   "It contains 212 pages.",
+   "It is decorated with gold leaf.",
+   "It is kept in the Brenholt Library."
+  ],
+  "stem": "The student wants to emphasize the age of the Orsa Psalter. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Orsa Psalter was made around 1150, more than eight centuries ago.",
+   "The 212-page Orsa Psalter is decorated throughout with gold leaf.",
+   "The Orsa Psalter, an illuminated manuscript, is kept in the Brenholt Library.",
+   "The Orsa Psalter is an illuminated manuscript decorated with gold leaf."
+  ],
+  "answer": "A",
+  "explanation": "Only one choice uses the date, which is the information about age.",
+  "steps": [
+   "Goal: age.",
+   "Relevant note: 'made around 1150.'",
+   "Only the key uses the date."
+  ],
+  "strategy_tip": "Match the goal's key word to one specific note.",
+  "rationales": {
+   "A": "Correct. It focuses on when the manuscript was made, which is its age.",
+   "B": "Wrong focus: Length and decoration don't show its age.",
+   "C": "Wrong focus: Location says nothing about age.",
+   "D": "Wrong focus: Type and decoration don't show its age."
+  },
+  "traps": {
+   "B": "wrong focus",
+   "C": "wrong focus",
+   "D": "wrong focus"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-007",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "how mangroves handle salt",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Mangroves are trees that grow in salty coastal water.",
+   "Three mangrove species grow on the coast of the island of Tessaly.",
+   "The Tessaly red mangrove filters out salt at its roots.",
+   "The Tessaly black mangrove takes in salt but releases it through its leaves.",
+   "The Tessaly white mangrove does both."
+  ],
+  "stem": "The student wants to make a generalization about how mangroves cope with salt. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Tessaly red mangrove filters out salt at its roots, while the Tessaly black mangrove releases salt through its leaves.",
+   "The Tessaly white mangrove both filters out salt at its roots and releases salt through its leaves.",
+   "Mangroves are trees that grow in salty coastal water, including on the coast of the island of Tessaly.",
+   "Mangroves have more than one way of coping with salt, such as filtering it out at their roots or releasing it through their leaves."
+  ],
+  "answer": "D",
+  "explanation": "A generalization speaks about mangroves in general and must be about coping with salt. Only one choice does both.",
+  "steps": [
+   "Goal: (1) a generalization, (2) about coping with salt.",
+   "The species comparisons are specific, not general.",
+   "'Mangroves grow in salty water' is general but not about coping."
+  ],
+  "strategy_tip": "Generalization choices talk about the whole group ('mangroves'), not named examples.",
+  "rationales": {
+   "A": "Specific, not general: This compares two particular species rather than making a general statement.",
+   "B": "Specific, not general: It describes only one species.",
+   "C": "General, but off-topic: It's general, but it doesn't say how mangroves cope with salt.",
+   "D": "Correct. A generalization makes a broad statement about mangroves as a group, here about salt."
+  },
+  "traps": {
+   "A": "specific, not general",
+   "B": "specific, not general",
+   "C": "general, but off-topic"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-008",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "two painters who made their own paints",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Painter Odile Brecht (1901-1977) worked in Lyon, France.",
+   "Painter Kenji Arata (1903-1980) worked in Osaka, Japan.",
+   "Brecht painted only with colors she ground herself from local minerals.",
+   "Arata also made all of his own paints, from plants and soils near his studio.",
+   "Brecht painted landscapes; Arata painted portraits."
+  ],
+  "stem": "The student wants to emphasize a similarity between Brecht and Arata. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Both Odile Brecht and Kenji Arata made their own paints from materials found near where they worked.",
+   "Brecht painted landscapes in Lyon, France, whereas Arata painted portraits in Osaka, Japan.",
+   "Odile Brecht, who worked in Lyon, painted only with colors that she ground herself from local minerals.",
+   "Kenji Arata, a painter who worked in the city of Osaka, Japan, lived from 1903 to 1980."
+  ],
+  "answer": "A",
+  "explanation": "A similarity needs both painters and something they share. Only the key has both.",
+  "steps": [
+   "Goal: similarity, which needs both people plus a shared trait.",
+   "Shared trait in the notes: both made their own paints from local materials.",
+   "The other choices give one person or a difference."
+  ],
+  "strategy_tip": "'Similarity' and 'difference' goals need BOTH subjects in the sentence.",
+  "rationales": {
+   "A": "Correct. Making their own paints from local materials is something they share.",
+   "B": "Difference, not similarity: This emphasizes how they differed.",
+   "C": "Only one side: It describes Brecht alone, so no similarity is shown.",
+   "D": "Only one side: It describes only Arata's place and dates."
+  },
+  "traps": {
+   "B": "difference, not similarity",
+   "C": "only one side",
+   "D": "only one side"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-009",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "how a tide mill made power",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Tarn tide mill was built on an estuary in 1720.",
+   "At high tide, seawater flowed into a pond behind the mill through a gate.",
+   "When the tide fell, the gate closed, trapping the water.",
+   "The trapped water was then released through a waterwheel, which turned the millstones.",
+   "The mill ground grain until 1955."
+  ],
+  "stem": "The student wants to explain how the Tarn tide mill produced power. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Built on an estuary in 1720, the Tarn tide mill continued to grind grain for local farmers for more than two centuries, until 1955.",
+   "At high tide, seawater flowed into the pond behind the Tarn tide mill through a gate.",
+   "The Tarn tide mill trapped seawater in a pond at high tide and later released it through a waterwheel that turned its millstones.",
+   "The Tarn tide mill, which stood on an estuary, used millstones to grind grain."
+  ],
+  "answer": "C",
+  "explanation": "Explaining how power was produced requires the mechanism. Water trapped, then released through the wheel, which turned the stones.",
+  "steps": [
+   "Goal: HOW it produced power, which means the process.",
+   "Process notes: water in at high tide, trapped, released through a waterwheel, millstones turn.",
+   "Only the key connects the water to the turning millstones."
+  ],
+  "strategy_tip": "'Explain how' goals need a process with a beginning and an end; partial steps are traps.",
+  "rationales": {
+   "A": "History, not process: It gives dates, not how the mill made power.",
+   "B": "Only part of the process: It stops before the water does any work.",
+   "C": "Correct. This traces the whole process from trapping water to turning the millstones.",
+   "D": "What, not how: It says what the mill did, not how it got power."
+  },
+  "traps": {
+   "A": "history, not process",
+   "B": "only part of the process",
+   "D": "what, not how"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-010",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "recording a whistled language",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "Linguist Iris Okafor-Bell studies whistled languages.",
+   "Whistled languages replace spoken syllables with whistled tones.",
+   "They allow communication across distances of up to several kilometers.",
+   "Okafor-Bell is recording the whistled language of La Velo, a mountain village.",
+   "Her aim is to create a dictionary before the last fluent whistlers die."
+  ],
+  "stem": "The student wants to emphasize the aim of Okafor-Bell's research. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "Okafor-Bell is recording La Velo's whistled language so that she can create a dictionary before its last fluent whistlers die.",
+   "Whistled languages, which replace spoken syllables with whistled tones, allow people to communicate across distances of up to several kilometers.",
+   "Iris Okafor-Bell, a linguist, studies whistled languages, including the one spoken in the mountain village of La Velo.",
+   "In the whistled language of the mountain village of La Velo, spoken syllables are replaced by whistled tones."
+  ],
+  "answer": "A",
+  "explanation": "The aim is in the last note. Only the key uses it.",
+  "steps": [
+   "Goal word: aim (what she hopes to accomplish).",
+   "Relevant note: 'Her aim is to create a dictionary before...'",
+   "Only the key includes it."
+  ],
+  "strategy_tip": "Aim, purpose, and goal mean look for 'to' or 'so that' plus an intended result.",
+  "rationales": {
+   "A": "Correct. It states what she wants to achieve (the dictionary) and why now.",
+   "B": "Background, not aim: This explains whistled languages, not the purpose of her research.",
+   "C": "Topic, not aim: It says what she studies, not what she is trying to accomplish.",
+   "D": "Background, not aim: It describes the language, not her goal."
+  },
+  "traps": {
+   "B": "background, not aim",
+   "C": "topic, not aim",
+   "D": "background, not aim"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-011",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "two explanations for stone rows",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Kessa stone rows are long lines of standing stones built around 2500 BCE.",
+   "Archaeologist Lars Ibsen argues that the rows marked property boundaries.",
+   "He notes that the rows divide the land into plots of nearly equal size.",
+   "Archaeologist Ama Teye argues that the rows tracked sunrise on important dates.",
+   "She notes that one row points to sunrise on the winter solstice."
+  ],
+  "stem": "The student wants to contrast the two archaeologists' explanations of the stone rows. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Kessa stone rows divide the land into plots of nearly equal size, and one of the rows points to sunrise on the winter solstice.",
+   "While Lars Ibsen argues that the Kessa stone rows marked property boundaries, Ama Teye argues that they tracked sunrise on important dates.",
+   "Archaeologist Ama Teye has noted that one of the Kessa stone rows points to sunrise on the winter solstice.",
+   "The Kessa stone rows, long lines of standing stones, were built around 2500 BCE."
+  ],
+  "answer": "B",
+  "explanation": "Contrasting explanations needs both explanations, set against each other. Listing their evidence isn't the same thing.",
+  "steps": [
+   "Goal: contrast the two EXPLANATIONS (boundaries vs. sunrise).",
+   "The evidence choice mentions both sides' evidence but no explanations.",
+   "Only the key states and contrasts the two claims."
+  ],
+  "strategy_tip": "Separate a claim (what someone argues) from its evidence (what they point to).",
+  "rationales": {
+   "A": "Evidence, not explanations: It lists both pieces of evidence but never states or contrasts the two explanations.",
+   "B": "Correct. It sets the two explanations against each other.",
+   "C": "Only one side: Only Teye's evidence appears.",
+   "D": "Background: No explanation is given, let alone two."
+  },
+  "traps": {
+   "A": "evidence, not explanations",
+   "C": "only one side",
+   "D": "background"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-012",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "topic": "a lighthouse at a river mouth",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Ilha Bell is a lighthouse built in the 1800s.",
+   "It stands on a rocky island at the mouth of the Varna River.",
+   "It is 31 meters tall.",
+   "It was automated in 1981."
+  ],
+  "stem": "The student wants to indicate where the Ilha Bell lighthouse stands. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Ilha Bell, a lighthouse built in the 1800s, rises 31 meters.",
+   "The Ilha Bell lighthouse, built in the 1800s, was automated in 1981.",
+   "The Ilha Bell lighthouse stands on a rocky island at the mouth of the Varna River.",
+   "At 31 meters tall, the Ilha Bell is a lighthouse that was built in the 1800s and automated in the year 1981."
+  ],
+  "answer": "C",
+  "explanation": "The goal is location. Only one choice uses the location note.",
+  "steps": [
+   "Goal: where it stands.",
+   "Relevant note: 'on a rocky island at the mouth of the Varna River.'",
+   "Only the key uses it."
+  ],
+  "strategy_tip": "Simple goal? Find the one note that answers it, then the one choice that uses that note.",
+  "rationales": {
+   "A": "Wrong focus: Age and height, not location.",
+   "B": "Wrong focus: Dates, not location.",
+   "C": "Correct. It gives the location.",
+   "D": "Wrong focus: Height and dates, not location."
+  },
+  "traps": {
+   "A": "wrong focus",
+   "B": "wrong focus",
+   "D": "wrong focus"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-rs-013",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "medium",
+  "topic": "front porches and talking with neighbors",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "In 2022, sociologist Femi Adeyemi surveyed 1,200 residents of the city of Corrin.",
+   "He asked them how often they spoke with their neighbors.",
+   "Residents of streets with front porches talked with neighbors twice as often as residents of streets without porches.",
+   "Adeyemi suggests that porches create chances for casual contact."
+  ],
+  "stem": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "In 2022, sociologist Femi Adeyemi surveyed 1,200 residents of the city of Corrin about how often they spoke with their neighbors.",
+   "Front porches may create chances for casual contact between neighbors, according to a sociologist.",
+   "Sociologist Femi Adeyemi is interested in how often the residents of Corrin speak with their neighbors.",
+   "Surveying 1,200 Corrin residents in 2022, Femi Adeyemi found that people on streets with front porches talked with neighbors twice as often."
+  ],
+  "answer": "D",
+  "explanation": "Both parts of the goal (study + findings) appear only in the key.",
+  "steps": [
+   "Goal: study AND findings.",
+   "Finding in the notes: porches mean twice as much talking.",
+   "Only the key has the survey plus that finding."
+  ],
+  "strategy_tip": "If a choice could have been written before the study was done, it has no findings.",
+  "rationales": {
+   "A": "Method, no findings: It describes the survey but not what it found.",
+   "B": "Conclusion without the study: It gives an interpretation, not the study and its result.",
+   "C": "Aim only: It gives only the topic of interest.",
+   "D": "Correct. It presents the study (the survey) and its finding (twice as often)."
+  },
+  "traps": {
+   "A": "method, no findings",
+   "B": "conclusion without the study",
+   "C": "aim only"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-001",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "topic": "a spider that rarely leaves its burrow",
+  "fictional": true,
+  "passage": "The Halden trapdoor spider rarely leaves its burrow, waiting instead for insects to wander close to the hidden entrance. ______ researchers who filmed one burrow continuously for six months never saw its owner move more than a few centimeters beyond the door.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In fact,",
+   "Likewise,",
+   "Nevertheless,",
+   "Yet,"
+  ],
+  "answer": "A",
+  "explanation": "'Rarely leaves' is strengthened by 'never... beyond the door.' 'In fact' introduces stronger support for the same point.",
+  "steps": [
+   "Sentence 1: the spider rarely leaves.",
+   "Sentence 2: evidence that it almost never leaves, which is the same point, made stronger.",
+   "'In fact' = and even more strongly. 'Likewise' = here is another, separate similar case."
+  ],
+  "strategy_tip": "In fact = stronger version of the SAME point. Likewise = a DIFFERENT point that's similar.",
+  "rationales": {
+   "A": "Correct. The second sentence strengthens the first claim with striking evidence.",
+   "B": "Adds a separate similar point: 'Likewise' adds a different but similar fact; here the same claim is being reinforced.",
+   "C": "Signals contrast: Nothing contradicts the first sentence.",
+   "D": "Signals contrast: Nothing in the second sentence goes against the first; it supports it."
+  },
+  "traps": {
+   "B": "adds a separate similar point",
+   "C": "signals contrast",
+   "D": "signals contrast"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-002",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "topic": "bike lanes and drivers who moved",
+  "fictional": true,
+  "passage": "When the town of Ardmore added bike lanes to Mill Street, the council predicted that some drivers would switch to cycling, reducing car traffic. ______ most drivers simply moved to nearby Oak Avenue, and the number of cyclists on Mill Street barely changed.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Nevertheless,",
+   "Similarly,",
+   "In addition,",
+   "Instead,"
+  ],
+  "answer": "D",
+  "explanation": "The prediction (drivers switch to bikes) was replaced by something else (drivers moved). 'Instead' signals this.",
+  "steps": [
+   "Prediction: drivers switch to cycling.",
+   "Reality: drivers moved to another street.",
+   "'Instead' introduces what happened in place of the expected outcome."
+  ],
+  "strategy_tip": "Instead = A was expected or proposed, but B happened in its place. Nevertheless = B happened despite A.",
+  "rationales": {
+   "A": "Concession, not replacement: 'Nevertheless' means 'despite that'; the result isn't something that happened despite the prediction.",
+   "B": "Signals similarity: The outcome differs from the prediction.",
+   "C": "Signals addition: The second sentence doesn't add to the prediction; it replaces it.",
+   "D": "Correct. What happened replaced what was predicted: drivers moved rather than switching to bikes."
+  },
+  "traps": {
+   "A": "concession, not replacement",
+   "B": "signals similarity",
+   "C": "signals addition"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-003",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "topic": "an unreliable diary that is accurate on details",
+  "fictional": true,
+  "passage": "Some historians dismiss Tomas Ferro's diary as an unreliable source on the 1848 uprising in the city of Varna. ______ Ferro wrote many entries weeks after the events they describe, and he sometimes confuses dates. But his descriptions of the barricades match city records closely, suggesting that his memory of what he saw was accurate.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Moreover,",
+   "Granted,",
+   "Therefore,",
+   "Similarly,"
+  ],
+  "answer": "B",
+  "explanation": "The pattern is critics' view, then a concession ('Granted'), then a rebuttal ('But').",
+  "steps": [
+   "Sentence 1: others' view (unreliable).",
+   "Sentence 2: facts that support that view.",
+   "Sentence 3: 'But' turns against it.",
+   "Admit-then-rebut means 'Granted.'"
+  ],
+  "strategy_tip": "If a 'But' comes right after the blank's sentence, the blank is often a concession: Granted, Admittedly, True.",
+  "rationales": {
+   "A": "Adds to the argument: 'Moreover' would make the author add to the case against the diary, which the 'But' then contradicts.",
+   "B": "Correct. The author concedes the critics' points before rebutting them with 'But.'",
+   "C": "Signals a conclusion: The late entries aren't a result of historians' opinion.",
+   "D": "Signals similarity: The sentence doesn't describe something similar; it admits a weakness."
+  },
+  "traps": {
+   "A": "adds to the argument",
+   "C": "signals a conclusion",
+   "D": "signals similarity"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-004",
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "topic": "live birth in a mountain skink",
+  "fictional": true,
+  "passage": "Unlike most reptiles, the Varnish skink gives birth to live young rather than laying eggs. Eggs left in cold soil often fail to develop, and the skink lives high in the mountains, where the ground stays near freezing for much of the year. ______ biologists think that live birth may have evolved in this species as a way to keep developing young warm inside the mother's body.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Nevertheless,",
+   "Thus,",
+   "In contrast,",
+   "Yet,"
+  ],
+  "answer": "B",
+  "explanation": "Cold soil harms eggs, and the skink lives on cold ground, so live birth may have evolved to keep young warm.",
+  "steps": [
+   "Facts: eggs fail in cold soil; the skink's habitat is near freezing.",
+   "Last sentence: a conclusion based on those facts.",
+   "Cause-to-conclusion transition: 'Thus.'"
+  ],
+  "strategy_tip": "If the last sentence explains WHY something happened, using earlier facts, choose a cause-effect transition.",
+  "rationales": {
+   "A": "Signals contrast: The conclusion follows from the facts rather than going against them.",
+   "B": "Correct. The cold-soil facts lead to the biologists' conclusion.",
+   "C": "Signals contrast: Nothing is being contrasted.",
+   "D": "Signals contrast: The conclusion follows from the facts; nothing is contrasted."
+  },
+  "traps": {
+   "A": "signals contrast",
+   "C": "signals contrast",
+   "D": "signals contrast"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-005",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "topic": "an architect who used local materials",
+  "fictional": true,
+  "passage": "The architect Hana Ilves rarely used building materials brought from far away. ______ the walls of her Tarn Island library are made of stone quarried on the island, and its roof beams come from a forest less than ten kilometers away.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "In contrast,",
+   "For example,",
+   "Still,",
+   "As a result,"
+  ],
+  "answer": "B",
+  "explanation": "The first sentence states a general habit, and the second gives one building that shows it.",
+  "steps": [
+   "General statement: she used local materials.",
+   "Specific case: the Tarn Island library.",
+   "General to specific = 'For example.'"
+  ],
+  "strategy_tip": "General statement followed by a specific case calls for 'For example' or 'For instance.'",
+  "rationales": {
+   "A": "Signals contrast: The library matches her habit; it doesn't contrast with it.",
+   "B": "Correct. The library is a specific case of her using nearby materials.",
+   "C": "Signals concession: Nothing is being conceded.",
+   "D": "Signals cause: The library isn't a result of her habit; it's an example of it."
+  },
+  "traps": {
+   "A": "signals contrast",
+   "C": "signals concession",
+   "D": "signals cause"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-006",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "topic": "better turbines but a small share of power",
+  "fictional": true,
+  "passage": "Engineers have upgraded the turbines in the Halden Dam several times since it opened in 1962, and today they produce 30 percent more electricity than the originals did. ______ the dam supplies only a small share of the region's power, since demand has grown far faster than the dam's output.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Therefore,",
+   "Likewise,",
+   "Still,",
+   "So,"
+  ],
+  "answer": "C",
+  "explanation": "More output (good news) is followed by a small share anyway (a limit). 'Still' signals 'despite that.'",
+  "steps": [
+   "Sentence 1: output up 30%.",
+   "Sentence 2: share still small.",
+   "Despite = 'Still' (or 'Even so', 'Nevertheless')."
+  ],
+  "strategy_tip": "Positive fact, then a disappointing fact: Still, Even so, Nevertheless.",
+  "rationales": {
+   "A": "Signals cause: More output doesn't cause a small share; the small share is despite it.",
+   "B": "Signals similarity: The two facts point in different directions.",
+   "C": "Correct. Despite the improvement, the dam's share remains small.",
+   "D": "Signals cause: More output doesn't cause a small share; the small share is in spite of it."
+  },
+  "traps": {
+   "A": "signals cause",
+   "B": "signals similarity",
+   "D": "signals cause"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-007",
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "topic": "falling water table in a dry valley",
+  "fictional": true,
+  "passage": "Rainfall in the Corva Valley has dropped by nearly a third since 1990, yet the valley's farmers, who draw most of their water from wells, have expanded the area they irrigate. ______ the water table beneath the valley has fallen by more than ten meters, and several wells have run dry.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "However,",
+   "Similarly,",
+   "For instance,",
+   "Consequently,"
+  ],
+  "answer": "D",
+  "explanation": "Cause (less rain, more irrigation) leads to effect (lower water table, dry wells).",
+  "steps": [
+   "Causes: less rain; more wells and irrigation.",
+   "Effect: water table down 10 m; wells dry.",
+   "Cause-to-effect = 'Consequently.'"
+  ],
+  "strategy_tip": "Ask whether the second sentence HAPPENED BECAUSE OF the first; if yes, use a cause-effect transition.",
+  "rationales": {
+   "A": "Signals contrast: The falling water table is an expected result, not a contrast.",
+   "B": "Signals similarity: The last sentence describes an effect, not a similar situation.",
+   "C": "Signals an example: A falling water table isn't an example of more irrigation; it's a result.",
+   "D": "Correct. Less rain plus more pumping leads to a falling water table."
+  },
+  "traps": {
+   "A": "signals contrast",
+   "B": "signals similarity",
+   "C": "signals an example"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-008",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "medium",
+  "topic": "steps in restoring a fresco",
+  "fictional": true,
+  "passage": "To restore the damaged fresco, conservators first photographed every crack and recorded the condition of the plaster. Next, they injected a lime-based glue behind loose sections to reattach them to the wall. ______ they filled the cracks with plaster tinted to match the surrounding colors, leaving the repairs visible on close inspection.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Finally,",
+   "Yet,",
+   "For example,",
+   "In contrast,"
+  ],
+  "answer": "A",
+  "explanation": "'First' and 'Next' set up a sequence; the last step takes 'Finally.'",
+  "steps": [
+   "Sequence words: 'first', 'Next.'",
+   "The blank begins the third and last step.",
+   "'Finally' completes the sequence."
+  ],
+  "strategy_tip": "Follow the sequence markers already in the text.",
+  "rationales": {
+   "A": "Correct. The steps go first, next, and then the last step.",
+   "B": "Signals contrast: Filling cracks continues the process; it doesn't contrast with the earlier steps.",
+   "C": "Signals an example: Filling cracks is a separate step, not an example of reattaching plaster.",
+   "D": "Signals contrast: The steps aren't being contrasted."
+  },
+  "traps": {
+   "B": "signals contrast",
+   "C": "signals an example",
+   "D": "signals contrast"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-009",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "medium",
+  "topic": "a frog that lays eggs on leaves",
+  "fictional": true,
+  "passage": "Most frogs in the Tessel Forest lay their eggs in ponds, where the tadpoles develop for several weeks. ______ the tree frog Hylo minor lays its eggs on leaves that hang over streams; when the tadpoles hatch, they drop into the water below.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Similarly,",
+   "Therefore,",
+   "In contrast,",
+   "In fact,"
+  ],
+  "answer": "C",
+  "explanation": "Most frogs use ponds, but this one uses leaves. That's a contrast.",
+  "steps": [
+   "Sentence 1: most frogs use ponds.",
+   "Sentence 2: one frog uses leaves.",
+   "Different behavior means 'In contrast.'"
+  ],
+  "strategy_tip": "'Most X do A' followed by one X doing B usually calls for a contrast.",
+  "rationales": {
+   "A": "Signals similarity: Leaves over streams are not like ponds.",
+   "B": "Signals cause: Most frogs' behavior doesn't cause Hylo minor's.",
+   "C": "Correct. Hylo minor differs from most frogs in where it lays eggs.",
+   "D": "Signals emphasis: The second sentence doesn't strengthen the first; it describes an exception."
+  },
+  "traps": {
+   "A": "signals similarity",
+   "B": "signals cause",
+   "D": "signals emphasis"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-010",
+  "skill": "RW.EOI.TRN.CAUSE",
+  "difficulty": "hard",
+  "topic": "secret banknote ink and counterfeits",
+  "fictional": true,
+  "passage": "In the 1880s, the Ostrel Mint printed its banknotes with an ink whose formula it kept secret. Counterfeiters, unable to reproduce the formula, had to use ordinary inks, which differed slightly in color. ______ bank clerks could often spot a fake simply by holding it beside a genuine note.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "As a result,",
+   "Nevertheless,",
+   "Likewise,",
+   "In other words,"
+  ],
+  "answer": "A",
+  "explanation": "Secret formula, then ordinary inks of a slightly different color, so clerks could compare and spot fakes.",
+  "steps": [
+   "Cause: fakes used inks of a different color.",
+   "Effect: clerks could spot fakes by comparing colors.",
+   "Cause to effect = 'As a result.'"
+  ],
+  "strategy_tip": "'In other words' only restates; check whether the sentence adds new information.",
+  "rationales": {
+   "A": "Correct. The color difference made fakes easy to spot.",
+   "B": "Signals contrast: Spotting fakes is the expected result, not something despite the color difference.",
+   "C": "Signals similarity: The clerks' ability is a consequence, not a similar fact.",
+   "D": "Signals restatement: The last sentence adds a consequence; it doesn't restate the previous one."
+  },
+  "traps": {
+   "B": "signals contrast",
+   "C": "signals similarity",
+   "D": "signals restatement"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-011",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "topic": "puffins traveling far in winter",
+  "fictional": true,
+  "passage": "Many people assume that Atlantic puffins stay near the coast all year. Tracking studies, however, show that the birds range far out to sea in winter. ______ one puffin tagged on the island of Skerra traveled more than 2,000 kilometers from its colony before returning in the spring.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Still,",
+   "In contrast,",
+   "Previously,",
+   "Indeed,"
+  ],
+  "answer": "D",
+  "explanation": "The third sentence strongly confirms the second, so 'Indeed' (emphasis) fits.",
+  "steps": [
+   "Sentence 2: puffins range far in winter.",
+   "Sentence 3: one puffin went 2,000 km, which confirms it.",
+   "Confirming and strengthening means 'Indeed.'"
+  ],
+  "strategy_tip": "Ignore the contrast in sentence 2 ('however'); connect the blank to the sentence right before it.",
+  "rationales": {
+   "A": "Signals concession: The journey supports the second sentence; nothing is conceded.",
+   "B": "Signals contrast: The journey matches the claim that puffins range far; it doesn't contrast with it.",
+   "C": "Signals earlier time: The journey isn't described as happening before the studies.",
+   "D": "Correct. The 2,000-kilometer journey emphatically confirms the claim that puffins range far."
+  },
+  "traps": {
+   "A": "signals concession",
+   "B": "signals contrast",
+   "C": "signals earlier time"
+  }
+ },
+ {
+  "id": "rw-tri-eoi-trn-012",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "topic": "a playwright and a possible collaborator",
+  "fictional": true,
+  "passage": "Most scholars agree that the playwright Eliska Varga wrote all twelve of the plays published under her name. ______ two of the plays contain passages in a dialect she is not known to have spoken, which has led a few critics to suggest that a collaborator may have helped her.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Therefore,",
+   "Similarly,",
+   "That said,",
+   "For this reason,"
+  ],
+  "answer": "C",
+  "explanation": "General agreement is followed by evidence that complicates it, which calls for 'That said' (a qualification).",
+  "steps": [
+   "Sentence 1: most scholars agree Varga wrote all twelve.",
+   "Sentence 2: some evidence suggests otherwise.",
+   "Qualifying a statement = 'That said' (also: However, Even so)."
+  ],
+  "strategy_tip": "'That said' introduces a reservation about what came before.",
+  "rationales": {
+   "A": "Signals cause: The dialect passages aren't a result of the scholars' agreement.",
+   "B": "Signals similarity: The second sentence raises a doubt; it isn't similar to the first.",
+   "C": "Correct. It introduces a qualification to the scholars' general agreement.",
+   "D": "Signals cause: The scholars' agreement isn't the reason for the dialect passages."
+  },
+  "traps": {
+   "A": "signals cause",
+   "B": "signals similarity",
+   "D": "signals cause"
+  }
+ }
+]
