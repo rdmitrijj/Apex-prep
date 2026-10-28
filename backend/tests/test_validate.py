@@ -193,3 +193,15 @@ def test_bank_balance_length_and_blind(monkeypatch: pytest.MonkeyPatch, tmp_path
     blind.write_text(json.dumps({items[0].id: "hastened"}))  # the solver disagreed with the key
     errs = [p for _, _, p in check_bank(items[:1])]
     assert any("blind re-solve picked 'hastened'" in e for e in errs), errs
+
+
+def test_vocab_export_covers_every_wic_choice() -> None:
+    from app.export_vocab import HEADER, rows
+    from app.services.questions import load_rw_seed
+
+    words = {r[0].lower() for r in rows()}
+    wic = [
+        i for i in load_rw_seed() if i.skill.startswith("RW.CAS.WIC") and (i.id or "").startswith("rw-tri-")
+    ]
+    assert len(wic) == 30 and all(c.lower() in words for i in wic for c in i.choices)
+    assert all(len(r) == len(HEADER) and all(r) for r in rows())

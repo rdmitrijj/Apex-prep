@@ -13,7 +13,7 @@ from app.services import imported
 from app.services import questions as qs
 
 router = APIRouter(tags=["mistakes"])
-MissReason = Literal["concept", "careless", "misread", "time", "guess"]
+MissReason = Literal["concept", "careless", "misread", "time", "slow", "guess"]
 
 
 class Mistake(BaseModel):

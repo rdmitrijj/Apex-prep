@@ -252,3 +252,21 @@ class ImportedMistake(Base):
     due_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
     retired_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     created_at: Mapped[datetime] = _now()
+
+
+class TriageSession(Base):
+    """A finished Triage drill: its summary for the history chart and its items (question, answer,
+    time, first-pass flag, response id). The graded answers themselves are `responses` rows."""
+
+    __tablename__ = "triage_sessions"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    mode: Mapped[str] = mapped_column(String(8))
+    limit_s: Mapped[int] = mapped_column(Integer)
+    elapsed_ms: Mapped[int] = mapped_column(Integer)
+    total: Mapped[int] = mapped_column(SmallInteger)
+    correct: Mapped[int] = mapped_column(SmallInteger)
+    blanks: Mapped[int] = mapped_column(SmallInteger)
+    avg_seconds: Mapped[float] = mapped_column(Float)
+    items: Mapped[list[dict[str, Any]]] = mapped_column(Json)
+    created_at: Mapped[datetime] = _now()
