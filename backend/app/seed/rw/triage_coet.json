@@ -419,19 +419,19 @@
   "difficulty": "hard",
   "topic": "how discounts are stated",
   "fictional": true,
-  "passage": "Economist Hana Sato hypothesizes that shoppers judge a discount stated as a dollar amount to be larger than the same discount stated as a percentage when the item is expensive, but that the pattern reverses for inexpensive items, for which a percentage seems larger. She asked shoppers to rate deals on a $300 jacket and on a $4 notebook.",
+  "passage": "Economist Hana Sato hypothesizes that shoppers judge a discount stated as a dollar amount to be larger than the same discount stated as a percentage when the item is expensive, but that the pattern reverses for inexpensive items, for which a percentage seems larger. She asked shoppers to rate deals on a \\$300 jacket and on a \\$4 notebook.",
   "stem": "Which finding from Sato's study, if true, would most strongly support her hypothesis?",
   "choices": [
-   "Shoppers rated \"$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"$1 off\" the notebook as a better deal than \"25% off\" the notebook.",
-   "Shoppers rated \"20% off\" the jacket and \"$60 off\" the jacket as equally good deals.",
+   "Shoppers rated \"\\$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"\\$1 off\" the notebook as a better deal than \"25% off\" the notebook.",
+   "Shoppers rated \"20% off\" the jacket and \"\\$60 off\" the jacket as equally good deals.",
    "Shoppers in the study were more likely to buy notebooks than jackets.",
-   "Shoppers rated \"$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"25% off\" the notebook as a better deal than \"$1 off\" the notebook."
+   "Shoppers rated \"\\$60 off\" the jacket as a better deal than \"20% off\" the jacket, and rated \"25% off\" the notebook as a better deal than \"\\$1 off\" the notebook."
   ],
   "answer": "D",
   "explanation": "The hypothesis has two parts (expensive items favor dollars; cheap items favor percentages). Only one choice confirms both.",
   "steps": [
    "Split the hypothesis: (1) expensive item, dollars seem bigger; (2) cheap item, percent seems bigger.",
-   "Check the math: $60 is 20% of $300 and $1 is 25% of $4, so each pair is the same real discount.",
+   "Check the math: \\$60 is 20% of \\$300 and \\$1 is 25% of \\$4, so each pair is the same real discount.",
    "Only one choice shows dollars winning for the jacket AND percent winning for the notebook.",
    "The look-alike choice matches part (1) but contradicts part (2)."
   ],
