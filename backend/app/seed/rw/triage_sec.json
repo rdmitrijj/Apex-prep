@@ -1,0 +1,1192 @@
+[
+ {
+  "id": "rw-tri-sec-bnd-001",
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "topic": "sheepskin maps damaged by mold",
+  "fictional": true,
+  "passage": "Cartographer Leni Ostrova catalogs the maps held by the Brenholt Archive. The archive's oldest maps were drawn on sheepskin, which resists moisture far better than ______ several of them have been damaged by mold over the centuries.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "paper, even so,",
+   "paper even so,",
+   "paper, even so;",
+   "paper; even so,"
+  ],
+  "answer": "D",
+  "explanation": "Two complete sentences are joined. A transition like 'even so' needs a semicolon (or period) before it and a comma after it.",
+  "steps": [
+   "Clause 1: 'The archive's oldest maps were drawn on sheepskin, which resists moisture far better than paper.' Complete.",
+   "Clause 2: 'even so, several of them have been damaged...' Complete.",
+   "Transition words (even so, however) can't join clauses with a comma; use '; even so,'."
+  ],
+  "strategy_tip": "Test each side of the blank: if both could stand alone as sentences, you need a period or semicolon.",
+  "rationales": {
+   "A": "Comma splice: A comma alone can't join two independent clauses, even with 'even so.'",
+   "B": "Run-on sentence: Two independent clauses run together with no punctuation between them.",
+   "C": "Misplaced semicolon: The semicolon must come before 'even so,' where the second clause begins.",
+   "D": "Correct. A semicolon joins the two independent clauses, and 'even so' is followed by a comma."
+  },
+  "traps": {
+   "A": "comma splice",
+   "B": "run-on sentence",
+   "C": "misplaced semicolon"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-002",
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "topic": "recording marsh frog calls",
+  "fictional": true,
+  "passage": "Researchers placed sound recorders at forty locations across the Ferran Wetlands to track the calls of the rare marsh frog Hyla ______ recordings collected over two springs revealed that the frogs call most often in the hour just after sunset.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "serrata, the",
+   "serrata the",
+   "serrata and the",
+   "serrata. The"
+  ],
+  "answer": "D",
+  "explanation": "Both parts are complete sentences, so they need a period (or a semicolon, or ', and').",
+  "steps": [
+   "Clause 1: 'Researchers placed sound recorders... Hyla serrata.' Complete.",
+   "Clause 2: 'The recordings... revealed that...' Complete.",
+   "Of the choices, only the period correctly separates them."
+  ],
+  "strategy_tip": "Comma alone, nothing, or 'and' without a comma: all three are wrong between two full clauses.",
+  "rationales": {
+   "A": "Comma splice: A comma alone can't join two independent clauses.",
+   "B": "Run-on sentence: Nothing separates the two complete clauses.",
+   "C": "Missing comma before 'and': Two independent clauses joined by 'and' need a comma before it.",
+   "D": "Correct. A period separates two independent clauses."
+  },
+  "traps": {
+   "A": "comma splice",
+   "B": "run-on sentence",
+   "C": "missing comma before 'and'"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-003",
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "topic": "a transparent-winged butterfly",
+  "fictional": true,
+  "passage": "The glasswing butterfly of the Corvana Highlands—a species whose transparent wings make it nearly invisible against the shaded forest ______ spends most of the day resting on the undersides of broad leaves, where birds rarely search for it.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "floor—",
+   "floor,",
+   "floor;",
+   "floor"
+  ],
+  "answer": "A",
+  "explanation": "The dash after 'Highlands' opens extra information about the butterfly. The same mark must close it before 'spends.'",
+  "steps": [
+   "Find the opening mark: a dash after 'Highlands.'",
+   "Find where the extra information ends: after 'floor', before the main verb 'spends.'",
+   "Close with the same mark: a dash."
+  ],
+  "strategy_tip": "Supplements come in matching pairs: dash...dash, comma...comma, (...).",
+  "rationales": {
+   "A": "Correct. The supplement opened with a dash, so it must close with a dash.",
+   "B": "Breaks the dash pair: A supplement opened with a dash can't be closed with a comma.",
+   "C": "Semicolon before a verb: A semicolon would cut the subject off from its verb 'spends.'",
+   "D": "Unclosed supplement: Without a closing dash, the supplement runs into the main verb."
+  },
+  "traps": {
+   "B": "breaks the dash pair",
+   "C": "semicolon before a verb",
+   "D": "unclosed supplement"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-004",
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "topic": "an engineer who also designed a library",
+  "fictional": true,
+  "passage": "Hollis Pratt, the civil engineer who designed the town of Ardmore's first water-filtration plant in ______ also drew up the plans for its public library, a brick building that still stands on Market Street.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "1894",
+   "1894—",
+   "1894;",
+   "1894,"
+  ],
+  "answer": "D",
+  "explanation": "'The civil engineer who... in 1894' describes Pratt. It's set off by commas on both sides.",
+  "steps": [
+   "Main sentence: 'Hollis Pratt... also drew up the plans.'",
+   "Extra information: 'the civil engineer who designed... in 1894.'",
+   "It opened with a comma, so close with a comma."
+  ],
+  "strategy_tip": "Cover the extra information with your finger; the sentence that remains must still work.",
+  "rationales": {
+   "A": "Unclosed supplement: The appositive must be closed before the verb 'drew up.'",
+   "B": "Breaks the comma pair: A supplement opened with a comma can't close with a dash.",
+   "C": "Semicolon before a verb: A semicolon would separate the subject 'Hollis Pratt' from its verb.",
+   "D": "Correct. The appositive opened with a comma after 'Pratt,' so it closes with a comma."
+  },
+  "traps": {
+   "A": "unclosed supplement",
+   "B": "breaks the comma pair",
+   "C": "semicolon before a verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-005",
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "hard",
+  "topic": "an old granite bridge",
+  "fictional": true,
+  "passage": "Engineers inspecting the bridges of the city of Velsk were surprised by the condition of the oldest one. The Saint Anne Bridge (built in 1702 from blocks of local ______ still carries more than four thousand vehicles a day across the river without any structural repairs.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "granite),",
+   "granite,",
+   "granite)",
+   "granite"
+  ],
+  "answer": "C",
+  "explanation": "The parenthetical opened with '(' must close with ')'. No comma follows, because the verb comes next.",
+  "steps": [
+   "Opening mark: '(' before 'built.'",
+   "Close it after 'granite' with ')'.",
+   "After it comes the verb 'carries', so add no comma."
+  ],
+  "strategy_tip": "After closing a supplement, check what comes next; a verb needs no comma before it.",
+  "rationales": {
+   "A": "Comma between subject and verb: The comma after the parenthesis separates the subject 'Bridge' from its verb 'carries.'",
+   "B": "Breaks the parenthesis pair: An opening parenthesis needs a closing parenthesis, not a comma.",
+   "C": "Correct. The parenthesis opened before 'built' must be closed, with nothing extra before the verb 'carries.'",
+   "D": "Unclosed parenthesis: The parenthesis is never closed."
+  },
+  "traps": {
+   "A": "comma between subject and verb",
+   "B": "breaks the parenthesis pair",
+   "D": "unclosed parenthesis"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-006",
+  "skill": "RW.SEC.BND.SUPP",
+  "difficulty": "medium",
+  "topic": "a novelist's second book",
+  "fictional": true,
+  "passage": "Marisol Etxeberria spent nine years writing her first novel and only two writing the next. Her second novel, The Lantern ______ was published in 2011 and later translated into fourteen languages.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Road,",
+   "Road",
+   "Road;",
+   "Road—"
+  ],
+  "answer": "A",
+  "explanation": "She has only one second novel, so its title is extra (nonessential) information between commas.",
+  "steps": [
+   "'Her second novel' already identifies the book (there's only one).",
+   "So the title is nonessential and goes between two commas.",
+   "Close the pair after 'Road.'"
+  ],
+  "strategy_tip": "If the noun is already unique (her second novel), the name after it is set off by commas.",
+  "rationales": {
+   "A": "Correct. The title is extra information opened with a comma, so it closes with a comma.",
+   "B": "Unclosed supplement: The comma pair around the title isn't closed.",
+   "C": "Semicolon before a verb: A semicolon would separate 'Her second novel' from 'was published.'",
+   "D": "Breaks the comma pair: A comma opened the title, so a dash can't close it."
+  },
+  "traps": {
+   "B": "unclosed supplement",
+   "C": "semicolon before a verb",
+   "D": "breaks the comma pair"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-007",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "topic": "a silted harbor and an abandoned city",
+  "fictional": true,
+  "passage": "The ancient port of Varneth was abandoned around 400 CE. The theory that the city's residents left because their harbor slowly filled with silt carried down from the mountains by the ______ supported by core samples recently taken from the old harbor floor.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "river, is",
+   "river is",
+   "river; is",
+   "river: is"
+  ],
+  "answer": "B",
+  "explanation": "Everything from 'The theory' to 'river' is the subject. The verb 'is' follows directly.",
+  "steps": [
+   "Find the subject: 'The theory that... by the river.'",
+   "Find its verb: 'is supported.'",
+   "Never put punctuation between a subject and its verb, even a long one."
+  ],
+  "strategy_tip": "Long subject? Find the main verb and make sure nothing separates them.",
+  "rationales": {
+   "A": "Comma between subject and verb: However long the subject, no comma goes between it and its verb.",
+   "B": "Correct. The long subject ('The theory that...river') goes straight into its verb 'is' with no punctuation.",
+   "C": "Semicolon before a verb: A semicolon needs a complete clause on each side.",
+   "D": "Colon before a verb: A colon can't separate a subject from its verb."
+  },
+  "traps": {
+   "A": "comma between subject and verb",
+   "C": "semicolon before a verb",
+   "D": "colon before a verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-008",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "topic": "three trends behind closing shops",
+  "fictional": true,
+  "passage": "Economist Priya Natarajan-Holt studied why small shops in the city of Corrin closed between 2010 and 2020. In her report, she ______ rising rents in the city center, competition from large chain stores, and the growth of online shopping.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "identified",
+   "identified:",
+   "identified,",
+   "identified—"
+  ],
+  "answer": "A",
+  "explanation": "'Identified' needs its objects (the three trends) directly after it.",
+  "steps": [
+   "The verb 'identified' needs an object: what did she identify?",
+   "The list IS the object, so it follows the verb with no punctuation.",
+   "A colon needs a complete clause before it; 'she identified' isn't complete."
+  ],
+  "strategy_tip": "No colon after a verb or a preposition (included, such as, are, of).",
+  "rationales": {
+   "A": "Correct. The verb leads straight into its list of objects; no punctuation belongs between them.",
+   "B": "Colon after an incomplete clause: 'In her report, she identified' isn't a complete clause, so no colon.",
+   "C": "Comma between verb and object: A comma can't separate a verb from its objects.",
+   "D": "Dash between verb and object: A dash can't separate a verb from its objects."
+  },
+  "traps": {
+   "B": "colon after an incomplete clause",
+   "C": "comma between verb and object",
+   "D": "dash between verb and object"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-009",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "topic": "a documentary filmmaker's long project",
+  "fictional": true,
+  "passage": "Documentaries about deep-sea life usually take a year or two to film. The documentary ______ Ilunga, however, spent eight years recording the animals of the Kessel Trench, using cameras that he designed himself.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "filmmaker, Tomasz",
+   "filmmaker Tomasz",
+   "filmmaker: Tomasz",
+   "filmmaker—Tomasz"
+  ],
+  "answer": "B",
+  "explanation": "'The documentary filmmaker' could be anyone, so the name identifies him and stays without commas.",
+  "steps": [
+   "Without the name, 'The documentary filmmaker' doesn't tell us who.",
+   "So the name is essential (restrictive): no punctuation.",
+   "Also check: no closing comma after 'Ilunga', so an opening comma can't work."
+  ],
+  "strategy_tip": "Title + name (the poet Ana Ruiz, physicist Lise Meitner): no comma when the title doesn't already identify the person.",
+  "rationales": {
+   "A": "Unnecessary comma: A comma here would need a matching comma after 'Ilunga,' and the name is essential anyway.",
+   "B": "Correct. The name is essential (it tells which filmmaker), so no commas set it off.",
+   "C": "Colon before a noun: A colon can't introduce the name inside the subject.",
+   "D": "Unnecessary dash: A dash would split the subject and has no matching dash."
+  },
+  "traps": {
+   "A": "unnecessary comma",
+   "C": "colon before a noun",
+   "D": "unnecessary dash"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-010",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "topic": "clay from a distant river valley",
+  "fictional": true,
+  "passage": "At the hilltop site of Orrin Tor, excavations have reached a layer more than four thousand years old. Chemical tests show that the pottery ______ in this lowest layer were made from clay found only in a river valley sixty kilometers to the south.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "fragments, discovered",
+   "fragments—discovered",
+   "fragments discovered",
+   "fragments; discovered"
+  ],
+  "answer": "C",
+  "explanation": "The phrase tells which fragments (those in the lowest layer), so it's essential and needs no punctuation.",
+  "steps": [
+   "Subject: 'the pottery fragments discovered in this lowest layer.'",
+   "The phrase limits which fragments, so it's essential.",
+   "Essential phrases take no commas."
+  ],
+  "strategy_tip": "Ask whether removing the phrase changes WHICH thing is meant; if so, use no commas.",
+  "rationales": {
+   "A": "Unnecessary comma: The phrase is essential, and there's no closing comma before 'was made.'",
+   "B": "Unnecessary dash: A dash would open a supplement that is never closed.",
+   "C": "Correct. 'Discovered in this lowest layer' identifies which fragments, so it takes no commas.",
+   "D": "Semicolon in a clause: A semicolon needs a complete clause on each side."
+  },
+  "traps": {
+   "A": "unnecessary comma",
+   "B": "unnecessary dash",
+   "D": "semicolon in a clause"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-011",
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "hard",
+  "topic": "a museum wing for three collections",
+  "fictional": true,
+  "passage": "After a decade of fundraising, the Linden Museum has begun building a new wing. It will display three collections that were previously kept in ______ medieval manuscripts, early printed maps, and a set of astronomical instruments made in the 1600s.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "storage",
+   "storage:",
+   "storage;",
+   "storage,"
+  ],
+  "answer": "B",
+  "explanation": "'It will display three collections that were previously kept in storage' is complete, and the list explains it. That calls for a colon.",
+  "steps": [
+   "Check the part before the blank: a complete sentence.",
+   "Check the part after: a list that names the three collections.",
+   "Complete clause + list = colon."
+  ],
+  "strategy_tip": "A colon needs a complete sentence BEFORE it; what follows can be a list.",
+  "rationales": {
+   "A": "Run-together list: Without punctuation, the list seems to describe 'storage.'",
+   "B": "Correct. A complete clause comes before the list, so a colon introduces it.",
+   "C": "Semicolon before a list: A semicolon must join two independent clauses; the list isn't one.",
+   "D": "Comma before a list: A comma makes 'storage' look like the first item in a series."
+  },
+  "traps": {
+   "A": "run-together list",
+   "C": "semicolon before a list",
+   "D": "comma before a list"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-012",
+  "skill": "RW.SEC.BND.COLON",
+  "difficulty": "hard",
+  "topic": "an expedition's supplies",
+  "fictional": true,
+  "passage": "Before crossing the Harrow Ice Field in 1911, explorer Agnes Lindqvist-Moor packed her two sledges with care. Their cargo ______ dried fish, rice, lamp oil, spare runners, and two hundred meters of rope.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "included:",
+   "included;",
+   "included—",
+   "included"
+  ],
+  "answer": "D",
+  "explanation": "'Their cargo included' needs its objects. The list follows the verb directly.",
+  "steps": [
+   "Before the blank: 'Their cargo included'. Incomplete, since we need to know what.",
+   "So the list is the object of 'included.'",
+   "No colon after a verb."
+  ],
+  "strategy_tip": "If the words before a colon can't stand alone, delete the colon.",
+  "rationales": {
+   "A": "Colon after an incomplete clause: 'Their cargo included' isn't a complete clause, so no colon.",
+   "B": "Semicolon before a list: A semicolon can't introduce a list.",
+   "C": "Dash between verb and object: A dash can't separate a verb from its objects.",
+   "D": "Correct. The verb 'included' leads directly into its list; no punctuation is needed."
+  },
+  "traps": {
+   "A": "colon after an incomplete clause",
+   "B": "semicolon before a list",
+   "C": "dash between verb and object"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-013",
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "hard",
+  "topic": "three festival headliners",
+  "fictional": true,
+  "passage": "The Halden Jazz Festival announced its lineup on Monday. The three headliners will be Ana Duarte, a guitarist from ______ Kenji Moriyama, a drummer from Osaka; and Leila Haddad, a singer from Beirut.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Lisbon,",
+   "Lisbon",
+   "Lisbon;",
+   "Lisbon:"
+  ],
+  "answer": "C",
+  "explanation": "Each item has an internal comma (name, description). Semicolons separate the items, matching the one after 'Osaka.'",
+  "steps": [
+   "Each item: 'Name, a musician from City.'",
+   "Because items contain commas, items are separated by semicolons.",
+   "The text already uses '; and' before the last item, so match it."
+  ],
+  "strategy_tip": "Look for a punctuation mark already used in the list (here '; and') and stay consistent.",
+  "rationales": {
+   "A": "Comma in a complex list: With commas inside items, a comma can't show where one item ends.",
+   "B": "Run-together items: Nothing separates the first item from the second.",
+   "C": "Correct. Items that contain commas are separated by semicolons, as after 'Osaka.'",
+   "D": "Colon inside a list: A colon doesn't separate items in a series."
+  },
+  "traps": {
+   "A": "comma in a complex list",
+   "B": "run-together items",
+   "D": "colon inside a list"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-014",
+  "skill": "RW.SEC.BND.SERIES",
+  "difficulty": "medium",
+  "topic": "volunteers at an animal shelter",
+  "fictional": true,
+  "passage": "The Corwen Animal Shelter depends on about sixty volunteers. Each morning, volunteers feed the animals, clean the ______ and answer calls from families hoping to adopt a dog or cat.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "kennels;",
+   "kennels",
+   "kennels,",
+   "kennels:"
+  ],
+  "answer": "C",
+  "explanation": "Three simple actions (feed, clean, answer) are separated by commas.",
+  "steps": [
+   "Items: feed the animals / clean the kennels / answer calls.",
+   "No item contains a comma, so use commas between items.",
+   "The comma before 'and' (the serial comma) completes the list."
+  ],
+  "strategy_tip": "Use semicolons in lists only when the items already contain commas.",
+  "rationales": {
+   "A": "Semicolon in a simple list: Semicolons separate list items only when items contain commas.",
+   "B": "Missing comma in a series: The second and third items need a comma between them.",
+   "C": "Correct. A simple series of three actions is separated by commas.",
+   "D": "Colon inside a list: A colon doesn't separate items in a series."
+  },
+  "traps": {
+   "A": "semicolon in a simple list",
+   "B": "missing comma in a series",
+   "D": "colon inside a list"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-015",
+  "skill": "RW.SEC.BND.INTRO",
+  "difficulty": "medium",
+  "topic": "measuring glacier speed",
+  "fictional": true,
+  "passage": "Having spent three summers measuring the speed of the glaciers in the Halden ______ glaciologist Inga Moraes concluded that the largest of them now moves almost twice as fast as it did in the 1990s.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Range",
+   "Range;",
+   "Range,",
+   "Range:"
+  ],
+  "answer": "C",
+  "explanation": "'Having spent... in the Halden Range' introduces the main clause 'glaciologist Inga Moraes concluded...', so use a comma.",
+  "steps": [
+   "Introductory phrase: 'Having spent three summers... Range.'",
+   "Main clause starts with the subject 'glaciologist Inga Moraes.'",
+   "Separate them with a comma."
+  ],
+  "strategy_tip": "Introductory phrase + comma + subject: the standard pattern.",
+  "rationales": {
+   "A": "Missing comma after introduction: The introductory phrase needs a comma to separate it from the subject.",
+   "B": "Semicolon after a phrase: The introductory phrase isn't a complete clause, so no semicolon.",
+   "C": "Correct. A long introductory phrase is followed by a comma before the main clause.",
+   "D": "Colon after a phrase: A colon needs a complete clause before it."
+  },
+  "traps": {
+   "A": "missing comma after introduction",
+   "B": "semicolon after a phrase",
+   "D": "colon after a phrase"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-016",
+  "skill": "RW.SEC.BND.FRAG",
+  "difficulty": "hard",
+  "topic": "a bridge frame that flexes in wind",
+  "fictional": true,
+  "passage": "When the Ferran Strait Bridge opened in 1931, many engineers doubted that it would survive its first winter storm. Its designer, Rosa Ilves, had given the bridge an unusually light steel ______ which allows the roadway to bend slightly in strong winds instead of resisting them.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "frame,",
+   "frame.",
+   "frame;",
+   "frame"
+  ],
+  "answer": "A",
+  "explanation": "'Which allows the roadway to bend...' is a dependent clause describing the frame. It attaches with a comma.",
+  "steps": [
+   "Read the part after the blank alone: 'which allows the roadway...' It's not a sentence.",
+   "So a period or semicolon would leave a fragment.",
+   "A nonessential 'which' clause follows a comma."
+  ],
+  "strategy_tip": "A clause starting with 'which' can never stand alone after a period or semicolon.",
+  "rationales": {
+   "A": "Correct. A comma introduces the nonessential 'which' clause and keeps the sentence whole.",
+   "B": "Creates a fragment: 'Which allows the roadway to bend...' can't stand alone as a sentence.",
+   "C": "Creates a fragment: A semicolon needs a complete clause after it; the 'which' clause isn't one.",
+   "D": "Missing comma before 'which': A nonessential 'which' clause is set off with a comma."
+  },
+  "traps": {
+   "B": "creates a fragment",
+   "C": "creates a fragment",
+   "D": "missing comma before 'which'"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-017",
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "topic": "ants that stay home to tend larvae",
+  "fictional": true,
+  "passage": "In colonies of the harvester ant Messor pallens, most workers leave the nest to forage for seeds during the ______ a small group of older workers stays inside to tend the larvae and guard the entrance.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "day; however,",
+   "day, however,",
+   "day however,",
+   "day; however"
+  ],
+  "answer": "A",
+  "explanation": "Both sides are independent clauses, and 'however' is a transition, so the pattern is '; however,'.",
+  "steps": [
+   "Clause 1: 'most workers leave the nest... during the day.' Complete.",
+   "Clause 2: 'a small group... stays inside...' Complete.",
+   "Transition between clauses: semicolon before, comma after."
+  ],
+  "strategy_tip": "'However' between two sentences: '; however,'. 'However' inside one sentence: ', however,'.",
+  "rationales": {
+   "A": "Correct. A semicolon joins the two clauses, and 'however' takes a comma after it.",
+   "B": "Comma splice: 'However' can't join two independent clauses with commas.",
+   "C": "Run-on sentence: Nothing separates the two complete clauses.",
+   "D": "Missing comma after 'however': A sentence-opening 'however' is followed by a comma."
+  },
+  "traps": {
+   "B": "comma splice",
+   "C": "run-on sentence",
+   "D": "missing comma after 'however'"
+  }
+ },
+ {
+  "id": "rw-tri-sec-bnd-018",
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "medium",
+  "topic": "an opera recording released decades later",
+  "fictional": true,
+  "passage": "The first complete recording of Elin Sorvik's opera The Salt Road was made in ______ was not released until 1979, six years after the composer's death.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "1952, it",
+   "1952, but it",
+   "1952 it",
+   "1952 but it"
+  ],
+  "answer": "B",
+  "explanation": "Clause 1 ends at '1952', and clause 2 starts with 'it.' Joining them with a conjunction needs ', but'.",
+  "steps": [
+   "Both parts are complete sentences.",
+   "Options to join: period, semicolon, or comma + conjunction.",
+   "Only ', but it' does that among the choices."
+  ],
+  "strategy_tip": "Comma + FANBOYS (for, and, nor, but, or, yet, so) can join two sentences; a comma alone can't.",
+  "rationales": {
+   "A": "Comma splice: A comma alone can't join two independent clauses.",
+   "B": "Correct. Two independent clauses joined by 'but' take a comma before the conjunction.",
+   "C": "Run-on sentence: Nothing separates the two complete clauses.",
+   "D": "Missing comma before 'but': Two independent clauses joined by 'but' need a comma before it."
+  },
+  "traps": {
+   "A": "comma splice",
+   "C": "run-on sentence",
+   "D": "missing comma before 'but'"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-001",
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "topic": "letters between a botanist and her sister",
+  "fictional": true,
+  "passage": "For more than forty years, botanist Mirela Kovač wrote to her sister from wherever her research took her. The collection of letters that the two women exchanged across four decades of travel through South America and Southeast Asia ______ now held in the university archive in Brenholt.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "is",
+   "are",
+   "were",
+   "have been"
+  ],
+  "answer": "A",
+  "explanation": "Strip the interrupter ('of letters that... Southeast Asia'). What remains is 'The collection... is now held.'",
+  "steps": [
+   "Find the main noun: 'The collection.'",
+   "Skip the phrases after it: 'of letters that the two women exchanged...'",
+   "Singular subject + 'now' = 'is.'"
+  ],
+  "strategy_tip": "Cross out everything between the subject and the blank, then match the verb to the subject.",
+  "rationales": {
+   "A": "Correct. The subject is 'collection' (singular), so the verb is 'is.'",
+   "B": "Agrees with the wrong noun: 'Letters' and 'women' are inside modifying phrases; the subject is 'collection.'",
+   "C": "Agrees with the wrong noun: Plural and past; the subject is singular, and 'now' signals the present.",
+   "D": "Agrees with the wrong noun: Plural form; 'collection' needs a singular verb."
+  },
+  "traps": {
+   "B": "agrees with the wrong noun",
+   "C": "agrees with the wrong noun",
+   "D": "agrees with the wrong noun"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-002",
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "topic": "a shrinking, saltier lake",
+  "fictional": true,
+  "passage": "The fishing cooperative on Lake Tarrin moved its nets to the lake's northern bay in 2021. The steady decline in the lake's water level and the rise in its salinity over the past decade ______ forced the fish that the cooperative depends on into the deeper, fresher water there.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has",
+   "having",
+   "was",
+   "have"
+  ],
+  "answer": "D",
+  "explanation": "'The steady decline... and the rise...' is a compound subject joined by 'and', so it takes plural 'have.'",
+  "steps": [
+   "Subject 1: 'The steady decline in the lake's water level.'",
+   "'and' + Subject 2: 'the rise in its salinity.'",
+   "Two subjects joined by 'and' = plural = 'have.'"
+  ],
+  "strategy_tip": "'A and B' is plural even when each part is singular.",
+  "rationales": {
+   "A": "Ignores the compound subject: 'Decline AND rise' is plural.",
+   "B": "Nonfinite verb: The sentence needs a finite verb; 'having forced' leaves it without one.",
+   "C": "Ignores the compound subject: Singular, and 'was forced the fish' doesn't make sense.",
+   "D": "Correct. Two subjects joined by 'and' (decline and rise) take a plural verb."
+  },
+  "traps": {
+   "A": "ignores the compound subject",
+   "B": "nonfinite verb",
+   "C": "ignores the compound subject"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-003",
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "topic": "a committee approving a design",
+  "fictional": true,
+  "passage": "The design for the new Ardmore library was controversial from the start. The planning committee, after months of debate over the building's glass façade and its estimated heating costs, ______ finally approved the plan by a vote of seven to two.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "has",
+   "have",
+   "having",
+   "to have"
+  ],
+  "answer": "A",
+  "explanation": "The subject is 'committee', a collective noun acting as one body. Skip the long interrupter and use 'has.'",
+  "steps": [
+   "Subject: 'The planning committee.'",
+   "Interrupter: 'after months of debate over... costs.'",
+   "Collective noun acting as one = singular 'has.'"
+  ],
+  "strategy_tip": "Committee, team, jury, and audience usually take a singular verb on the SAT.",
+  "rationales": {
+   "A": "Correct. 'Committee' acts as one unit, so it takes the singular 'has.'",
+   "B": "Plural with a collective noun: The committee acts as a single body here.",
+   "C": "Nonfinite verb: The sentence needs a main verb; 'having approved' is not one.",
+   "D": "Nonfinite verb: 'To have approved' is not a main verb."
+  },
+  "traps": {
+   "B": "plural with a collective noun",
+   "C": "nonfinite verb",
+   "D": "nonfinite verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-004",
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "hard",
+  "topic": "artifacts from a shipwreck",
+  "fictional": true,
+  "passage": "Divers began exploring the wreck of the merchant ship Saint Clare off the coast of Varna in 2018. Among the artifacts recovered from the ship's lower deck ______ a bronze astrolabe and a set of glass weights that merchants used to measure gold.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "were",
+   "is",
+   "has been"
+  ],
+  "answer": "B",
+  "explanation": "Flip it: 'A bronze astrolabe and a set of glass weights were among the artifacts.' Plural, past.",
+  "steps": [
+   "The sentence is inverted: 'Among the artifacts... [verb] [subject].'",
+   "Subject: 'a bronze astrolabe and a set of glass weights', which is plural.",
+   "Plural + past = 'were.'"
+  ],
+  "strategy_tip": "When a sentence starts with 'Among...' or 'Here...', look AFTER the verb for the subject.",
+  "rationales": {
+   "A": "Agrees with the wrong noun: The subject is compound ('an astrolabe and a set'), so it's plural.",
+   "B": "Correct. In this inverted sentence the subject comes after the verb: 'an astrolabe and a set' (plural).",
+   "C": "Agrees with the wrong noun: Singular and present; the subject is plural and the recovery is past.",
+   "D": "Agrees with the wrong noun: Singular form; the compound subject needs a plural verb."
+  },
+  "traps": {
+   "A": "agrees with the wrong noun",
+   "C": "agrees with the wrong noun",
+   "D": "agrees with the wrong noun"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-005",
+  "skill": "RW.SEC.FSS.SVA",
+  "difficulty": "medium",
+  "topic": "restored paintings in a gallery",
+  "fictional": true,
+  "passage": "The Halvard Museum closed its east gallery for most of last year. The paintings that hang in the east gallery ______ cleaned and restored during the closure, and the gallery reopened in March.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "was",
+   "has been",
+   "were",
+   "is"
+  ],
+  "answer": "C",
+  "explanation": "Subject 'paintings' (plural), and 'last year' and 'reopened' signal the past, so 'were.'",
+  "steps": [
+   "Subject: 'The paintings.'",
+   "Skip 'that hang in the east gallery.'",
+   "Plural + past = 'were.'"
+  ],
+  "strategy_tip": "Find the subject before the 'that' clause.",
+  "rationales": {
+   "A": "Agrees with the wrong noun: 'Gallery' is in a modifying clause; the subject is 'paintings.'",
+   "B": "Agrees with the wrong noun: Singular form; 'paintings' is plural.",
+   "C": "Correct. Plural subject 'paintings' and a past event: 'were.'",
+   "D": "Wrong number and tense: Singular and present, but the subject is plural and the event is past."
+  },
+  "traps": {
+   "A": "agrees with the wrong noun",
+   "B": "agrees with the wrong noun",
+   "D": "wrong number and tense"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-006",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "topic": "a new bridge opening next spring",
+  "fictional": true,
+  "passage": "Construction of the bridge linking the island of Tarra to the mainland began in 2023. Engineers now expect that the bridge, which will carry both cars and a light-rail line, ______ open to traffic by next spring.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "being",
+   "to be",
+   "will be",
+   "having been"
+  ],
+  "answer": "C",
+  "explanation": "The 'that' clause has the subject 'the bridge' and needs a real verb. 'By next spring' means the future, so 'will be.'",
+  "steps": [
+   "Clause: 'that the bridge... [verb] open to traffic.'",
+   "Every clause needs a finite verb (one with tense).",
+   "'By next spring' signals the future: 'will be.'"
+  ],
+  "strategy_tip": "-ing, to + verb, and 'having + -ed' are never the main verb of a clause.",
+  "rationales": {
+   "A": "Nonfinite verb: 'Being' can't serve as the main verb of the 'that' clause.",
+   "B": "Nonfinite verb: An infinitive can't be the main verb of the clause.",
+   "C": "Correct. The clause 'that the bridge... ___ open' needs a finite verb, and 'by next spring' calls for the future.",
+   "D": "Nonfinite verb: A participle phrase can't be the main verb, and it's the wrong time."
+  },
+  "traps": {
+   "A": "nonfinite verb",
+   "B": "nonfinite verb",
+   "D": "nonfinite verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-007",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "topic": "volunteers sampling river water",
+  "fictional": true,
+  "passage": "Since 2015, the Ferran River Trust has tracked pollution along the river's entire length. The volunteers who monitor the river's water quality each month ______ samples from twelve sites, from the river's source in the hills to its mouth at Port Ferran.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "collecting",
+   "to collect",
+   "having collected",
+   "collect"
+  ],
+  "answer": "D",
+  "explanation": "The subject 'The volunteers who monitor...' needs a main verb. Only 'collect' is finite.",
+  "steps": [
+   "Subject: 'The volunteers' (the 'who' clause has its own verb, 'monitor').",
+   "The main sentence still needs a verb for 'volunteers.'",
+   "Plural + present = 'collect.'"
+  ],
+  "strategy_tip": "A 'who' clause's verb (monitor) doesn't count as the main verb; the subject still needs one.",
+  "rationales": {
+   "A": "Nonfinite verb: 'Collecting' leaves the sentence without a main verb.",
+   "B": "Nonfinite verb: An infinitive can't be the main verb.",
+   "C": "Nonfinite verb: A participle phrase can't be the main verb.",
+   "D": "Correct. Plural subject 'volunteers' needs a finite present verb: 'collect.'"
+  },
+  "traps": {
+   "A": "nonfinite verb",
+   "B": "nonfinite verb",
+   "C": "nonfinite verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-008",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "medium",
+  "topic": "a railway cutting its fares",
+  "fictional": true,
+  "passage": "Passenger numbers on the Halden Railway fell sharply after a new highway opened in 1906. In 1908, the railway's directors, hoping to win back passengers, ______ fares on every route by a third.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "reducing",
+   "to reduce",
+   "having reduced",
+   "reduced"
+  ],
+  "answer": "D",
+  "explanation": "'Hoping to win back passengers' is a modifier. The subject 'directors' still needs a main verb, 'reduced.'",
+  "steps": [
+   "Subject: 'the railway's directors.'",
+   "Modifier between commas: 'hoping to win back passengers.'",
+   "Main verb (past, 1908): 'reduced.'"
+  ],
+  "strategy_tip": "An -ing phrase between commas is a modifier; the main verb comes after it.",
+  "rationales": {
+   "A": "Nonfinite verb: 'Reducing' leaves the sentence without a main verb.",
+   "B": "Nonfinite verb: An infinitive can't be the main verb.",
+   "C": "Nonfinite verb: A participle phrase can't be the main verb.",
+   "D": "Correct. The subject 'directors' needs a finite past-tense verb."
+  },
+  "traps": {
+   "A": "nonfinite verb",
+   "B": "nonfinite verb",
+   "C": "nonfinite verb"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-009",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "topic": "rice varieties in dry soil",
+  "fictional": true,
+  "passage": "Agronomist Wen Halloran compared twelve varieties of rice grown in dry and wet plots. Comparing the ______ properties under a microscope, she found that seeds from the dry plots had thicker outer layers and absorbed water more slowly.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "varieties'",
+   "variety's",
+   "varieties",
+   "varietys'"
+  ],
+  "answer": "A",
+  "explanation": "The properties belong to the twelve varieties being compared, so the plural possessive is varieties'.",
+  "steps": [
+   "Ownership: the properties belong to the varieties, so we need a possessive.",
+   "How many? Twelve (and 'Comparing' needs more than one), so plural.",
+   "Plural ending in s + apostrophe = varieties'."
+  ],
+  "strategy_tip": "First decide plural or singular, then add 's (singular) or ' (plural ending in s).",
+  "rationales": {
+   "A": "Correct. Twelve varieties own the properties: plural possessive 'varieties''.",
+   "B": "Singular possessive: She compared twelve varieties, not one.",
+   "C": "Missing apostrophe: The properties belong to the varieties, so a possessive is needed.",
+   "D": "Misspelled plural: The plural of 'variety' is 'varieties'; add only an apostrophe."
+  },
+  "traps": {
+   "B": "singular possessive",
+   "C": "missing apostrophe",
+   "D": "misspelled plural"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-010",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "hard",
+  "topic": "cliff swallow mud nests",
+  "fictional": true,
+  "passage": "Cliff swallows on the Orsa coast nest in colonies of several hundred pairs. The ______ nests, each built from more than a thousand pellets of mud, are attached side by side beneath rock ledges, forming what looks like a single clay wall.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "bird's",
+   "birds'",
+   "birds",
+   "birds's"
+  ],
+  "answer": "B",
+  "explanation": "Many birds own the nests, so the plural possessive is birds'.",
+  "steps": [
+   "The nests belong to the birds, so possessive.",
+   "'Several hundred pairs' means plural.",
+   "birds + ' = birds'."
+  ],
+  "strategy_tip": "Look for number clues in the sentence before (several hundred pairs) to decide singular or plural.",
+  "rationales": {
+   "A": "Singular possessive: Hundreds of pairs build the nests, not one bird.",
+   "B": "Correct. Nests belonging to many birds: plural possessive 'birds''.",
+   "C": "Missing apostrophe: The nests belong to the birds, so a possessive is needed.",
+   "D": "Nonstandard possessive: Plural nouns ending in s take only an apostrophe."
+  },
+  "traps": {
+   "A": "singular possessive",
+   "C": "missing apostrophe",
+   "D": "nonstandard possessive"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-011",
+  "skill": "RW.SEC.FSS.POSS",
+  "difficulty": "medium",
+  "topic": "planting trees along avenues",
+  "fictional": true,
+  "passage": "The city of Corvane has set out to cool its streets in summer. Over the past decade, it has planted more than four thousand ______ along its main avenues, most of them fast-growing species that cast wide shade.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "tree's",
+   "trees'",
+   "tree",
+   "trees"
+  ],
+  "answer": "D",
+  "explanation": "'Four thousand trees' is a plain plural. No apostrophe because nothing is possessed.",
+  "steps": [
+   "Is something owned? No; 'along its main avenues' isn't owned by the trees.",
+   "Is it plural? Yes, four thousand.",
+   "Plain plural: trees."
+  ],
+  "strategy_tip": "Apostrophes show ownership, never just plurality.",
+  "rationales": {
+   "A": "Unnecessary apostrophe: Nothing belongs to the trees here; it's just a plural.",
+   "B": "Unnecessary apostrophe: Plural possessive, but nothing follows that the trees own.",
+   "C": "Singular after a number: 'Four thousand' needs the plural 'trees.'",
+   "D": "Correct. A simple plural; nothing is owned."
+  },
+  "traps": {
+   "A": "unnecessary apostrophe",
+   "B": "unnecessary apostrophe",
+   "C": "singular after a number"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-012",
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "hard",
+  "topic": "string sections with their own conductors",
+  "fictional": true,
+  "passage": "The Brava Youth Orchestra prepares for concerts in an unusual way. Each of the orchestra's string sections, which rehearse separately for two weeks before the full ensemble meets, has ______ own conductor.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "their",
+   "it's",
+   "they're",
+   "its"
+  ],
+  "answer": "D",
+  "explanation": "'Each... has its own conductor'. 'Each' is singular, and the verb 'has' confirms it.",
+  "steps": [
+   "Subject: 'Each' (singular). Verb 'has' confirms it.",
+   "Pronoun refers back to 'Each', so it is singular.",
+   "Singular possessive: 'its' (no apostrophe)."
+  ],
+  "strategy_tip": "'Each of the + plural' is still singular; let the verb (has) confirm it.",
+  "rationales": {
+   "A": "Agrees with the wrong noun: 'Sections' is inside a phrase; the subject 'Each' is singular.",
+   "B": "Contraction, not possessive: 'It's' means 'it is', which makes no sense here.",
+   "C": "Contraction, not possessive: 'They're' means 'they are.'",
+   "D": "Correct. The antecedent is 'Each' (singular), so the possessive pronoun is 'its.'"
+  },
+  "traps": {
+   "A": "agrees with the wrong noun",
+   "B": "contraction, not possessive",
+   "C": "contraction, not possessive"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-013",
+  "skill": "RW.SEC.FSS.PAA",
+  "difficulty": "hard",
+  "topic": "early photographers mixing chemicals",
+  "fictional": true,
+  "passage": "Photography arrived in the port city of Brava in the 1850s. The city's first photographers, who worked in rented rooms above the shops along the harbor and sold portraits to sailors, often mixed ______ own developing chemicals from recipes printed in foreign journals.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "his or her",
+   "their",
+   "its",
+   "one's"
+  ],
+  "answer": "B",
+  "explanation": "Who mixed the chemicals? The photographers (plural), so 'their.'",
+  "steps": [
+   "Find who 'mixed': 'The city's first photographers.'",
+   "Skip the long 'who' clause.",
+   "Plural antecedent = 'their.'"
+  ],
+  "strategy_tip": "Ask who does the action; the pronoun must match that noun, not the closest noun.",
+  "rationales": {
+   "A": "Agrees with the wrong number: 'Photographers' is plural, not one person.",
+   "B": "Correct. The antecedent 'photographers' is plural, so 'their.'",
+   "C": "Agrees with the wrong noun: 'Its' would refer to the city, but the photographers mixed the chemicals.",
+   "D": "Shifts the person: 'One's' refers to people in general, not the photographers."
+  },
+  "traps": {
+   "A": "agrees with the wrong number",
+   "C": "agrees with the wrong noun",
+   "D": "shifts the person"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-014",
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "hard",
+  "topic": "looters before an excavation",
+  "fictional": true,
+  "passage": "The tomb at Kessa Ridge was first recorded by a surveyor in 1962 but was not excavated for decades. When archaeologist Selin Okafor finally arrived at the site in 2019, looters ______ already removed most of the burial goods.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "have",
+   "will have",
+   "had",
+   "are having"
+  ],
+  "answer": "C",
+  "explanation": "Two past events, arrival in 2019 and earlier looting. The earlier one takes 'had'.",
+  "steps": [
+   "Reference point: 'arrived... in 2019' (past).",
+   "'Already' means the looting was before that.",
+   "Earlier past = past perfect: 'had removed.'"
+  ],
+  "strategy_tip": "'Already' + a past time marker = past perfect (had + past participle).",
+  "rationales": {
+   "A": "Wrong tense: Present perfect connects to now, but the reference point is 2019, a past moment.",
+   "B": "Wrong tense: Future perfect doesn't fit an event before 2019.",
+   "C": "Correct. The looting happened before Okafor's arrival (a past event), so use the past perfect 'had removed.'",
+   "D": "Wrong tense: Present progressive doesn't fit a completed past action."
+  },
+  "traps": {
+   "A": "wrong tense",
+   "B": "wrong tense",
+   "D": "wrong tense"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-015",
+  "skill": "RW.SEC.FSS.TENSE",
+  "difficulty": "medium",
+  "topic": "mapping fever cases to a well",
+  "fictional": true,
+  "passage": "During an outbreak of fever in 1854, physician Ilse Varga-Holm marked every reported case on a map of her town. Studying the map, she ______ that most of the cases had occurred near a single public well.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "notices",
+   "will notice",
+   "noticed",
+   "has noticed"
+  ],
+  "answer": "C",
+  "explanation": "The surrounding verbs ('marked', 'had occurred') are past, so 'noticed.'",
+  "steps": [
+   "Time marker: 1854.",
+   "Other verbs: 'marked', 'had occurred', all past.",
+   "Keep the past: 'noticed.'"
+  ],
+  "strategy_tip": "Match the tense of nearby verbs unless a time word signals a change.",
+  "rationales": {
+   "A": "Wrong tense: Present tense breaks the past-tense narration.",
+   "B": "Wrong tense: Future tense doesn't fit events in 1854.",
+   "C": "Correct. The passage describes past events (1854, 'marked'), so use the simple past.",
+   "D": "Wrong tense: Present perfect links to now; this is a finished past event."
+  },
+  "traps": {
+   "A": "wrong tense",
+   "B": "wrong tense",
+   "D": "wrong tense"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-016",
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "hard",
+  "topic": "an architect trained in botany",
+  "fictional": true,
+  "passage": "Many landscape architects treat a park's buildings and its plantings as separate projects, each handled by a different specialist. Trained in both architecture and botany, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Lina Haugen designs public parks in which buildings and plants are interwoven.",
+   "public parks designed by Lina Haugen interweave buildings and plants.",
+   "the public parks of Lina Haugen interweave buildings and plants.",
+   "Lina Haugen's public parks interweave buildings and plants."
+  ],
+  "answer": "A",
+  "explanation": "'Trained in both architecture and botany' must describe the word right after the comma, and only a person can be trained.",
+  "steps": [
+   "Who was trained? A person, Lina Haugen.",
+   "The subject after the comma must be 'Lina Haugen.'",
+   "In 'Lina Haugen's public parks', the subject is 'parks', which is a trap."
+  ],
+  "strategy_tip": "After an opening modifier, the next noun must be the thing it describes; a possessive (Haugen's parks) doesn't count.",
+  "rationales": {
+   "A": "Correct. The person trained in both fields, Lina Haugen, comes right after the modifier.",
+   "B": "Dangling modifier: This says the parks were 'trained in both architecture and botany.'",
+   "C": "Dangling modifier: Again the parks, not Haugen, follow the modifier.",
+   "D": "Dangling modifier: The subject is 'parks', not Haugen; parks weren't trained."
+  },
+  "traps": {
+   "B": "dangling modifier",
+   "C": "dangling modifier",
+   "D": "dangling modifier"
+  }
+ },
+ {
+  "id": "rw-tri-sec-fss-017",
+  "skill": "RW.SEC.FSS.MOD",
+  "difficulty": "hard",
+  "topic": "frescoes buried under volcanic ash",
+  "fictional": true,
+  "passage": "In 2016, archaeologists excavating the Roman-era town of Vellia uncovered a villa decorated with wall paintings. Buried under volcanic ash for nearly two thousand years, ______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "archaeologists have found that the villa's frescoes kept their bright colors.",
+   "the villa's frescoes have kept colors that are still remarkably bright.",
+   "visitors can now see frescoes whose colors are still remarkably bright.",
+   "there are frescoes in the villa whose colors are still remarkably bright."
+  ],
+  "answer": "B",
+  "explanation": "What was buried for two thousand years? The frescoes. They must be the subject after the comma.",
+  "steps": [
+   "Ask what was 'buried under volcanic ash.' The frescoes.",
+   "The subject right after the comma must be 'the villa's frescoes.'",
+   "Archaeologists and visitors weren't buried."
+  ],
+  "strategy_tip": "Read the modifier + the next noun together: 'Buried... archaeologists'? That's the error.",
+  "rationales": {
+   "A": "Dangling modifier: This says the archaeologists were buried for two thousand years.",
+   "B": "Correct. The frescoes were buried, so 'the villa's frescoes' must follow the modifier.",
+   "C": "Dangling modifier: This says the visitors were buried.",
+   "D": "Dangling modifier: 'There' isn't a noun the modifier can describe."
+  },
+  "traps": {
+   "A": "dangling modifier",
+   "C": "dangling modifier",
+   "D": "dangling modifier"
+  }
+ }
+]

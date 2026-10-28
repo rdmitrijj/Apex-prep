@@ -142,15 +142,15 @@ def check_study_fields(item: RWSeedItem) -> list[str]:
     # Boundaries choices differ in punctuation (plus at most a conjunction); form choices in a short span.
     if item.skill.startswith("RW.SEC.BND") and changed_words(item.choices, punctuation=False) > 1:
         errs.append("boundaries choices differ in more than punctuation")
-    if item.skill.startswith("RW.SEC.FSS") and not item.skill.endswith(".MOD"):
-        if changed_words(item.choices, punctuation=True) > 4:
-            errs.append("form/structure choices differ in more than the tested words")
+    fss = item.skill.startswith("RW.SEC.FSS") and not item.skill.endswith(".MOD")
+    if fss and changed_words(item.choices, punctuation=True) > 4:
+        errs.append("form/structure choices differ in more than the tested words")
     return errs
 
 
 def changed_words(choices: list[str], punctuation: bool) -> int:
     """Most words any choice has outside the prefix and suffix that all choices share."""
-    toks = [c.split() if punctuation else re.sub(r"[^a-z ]", "", c.lower()).split() for c in choices]
+    toks = [c.split() if punctuation else re.sub(r"[^a-z0-9]+", " ", c.lower()).split() for c in choices]
     pre = len(os.path.commonprefix(toks))
     suf = len(os.path.commonprefix([t[pre:][::-1] for t in toks]))
     return max(len(t) - pre - suf for t in toks)
@@ -378,7 +378,11 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
                     rw.append(item)
                 per_skill[f"{item.skill}|{item.difficulty}"] += 1
                 out += [(folder, eid, e) for e in check(item, leaves)]  # type: ignore[arg-type]
-                body = norm(" ".join([getattr(item, "passage", "") or "", item.stem]))
+                body = norm(
+                    " ".join(
+                        [getattr(item, "passage", "") or "", *(getattr(item, "notes", None) or []), item.stem]
+                    )
+                )
                 if body in texts:
                     out.append((folder, eid, f"same passage and stem as {texts[body]}"))
                 texts.setdefault(body, eid)
