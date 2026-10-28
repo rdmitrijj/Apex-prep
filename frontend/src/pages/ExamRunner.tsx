@@ -141,7 +141,7 @@ function ModuleIntro({ exam, onState }: { exam: ExamState; onState: (s: ExamStat
   );
 }
 
-function Grid({ items, states, current, onPick }: { items: ExamItem[]; states: Record<number, ItemState>; current: number; onPick: (i: number) => void }) {
+export function Grid({ items, states, current, onPick }: { items: ExamItem[]; states: Record<number, ItemState>; current: number; onPick: (i: number) => void }) {
   return (
     <div className="grid grid-cols-8 gap-2 sm:grid-cols-10">
       {items.map((it, i) => {
@@ -164,13 +164,14 @@ function Grid({ items, states, current, onPick }: { items: ExamItem[]; states: R
   );
 }
 
-function QuestionPane({
+export function QuestionPane({
   item,
   n,
   state,
   strike,
   onChange,
   onToggleStrike,
+  notesKey = `apex-annotations-${item.id}`,
 }: {
   item: ExamItem;
   n: number;
@@ -178,12 +179,13 @@ function QuestionPane({
   strike: boolean;
   onChange: (patch: Partial<ItemState>) => void;
   onToggleStrike: () => void;
+  notesKey?: string;
 }) {
   const q = item.question;
   const isRW = q.skill_id.startsWith("RW");
   const [entry, setEntry] = useState(state.answer ?? "");
   const root = useRef<HTMLDivElement>(null);
-  const notes = useAnnotations(`apex-annotations-${item.id}`, root);
+  const notes = useAnnotations(notesKey, root);
   const [hint, setHint] = useState(false);
   const header = (
     <div className="flex items-center gap-3 border-b-2 border-dashed border-slate-300 bg-slate-100 px-2 py-1.5">

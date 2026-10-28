@@ -5,7 +5,8 @@ export const REASONS = [
   ["concept", "Didn't know how"],
   ["careless", "Careless slip"],
   ["misread", "Misread the question"],
-  ["time", "Rushed / out of time"],
+  ["time", "Rushed"],
+  ["slow", "Too slow / ran out of time"],
   ["guess", "Guessed"],
 ] as const;
 export type Reason = (typeof REASONS)[number][0];
