@@ -149,7 +149,7 @@ def test_study_fields() -> None:
     assert "choices are not all the same part of speech" in check_rw(rw_item(vocab=mixed), LEAVES)
     assert any("without a vocab entry" in e for e in check_rw(rw_item(vocab=vocab[:3]), LEAVES))
     assert any("traps must name" in e for e in check_rw(rw_item(traps={"A": "x"}), LEAVES))
-    bnd = rw_item(skill="RW.SEC.BND.SUPP", vocab=None, choices=["zero—", "zero,", "zero;", "zeros"])
+    bnd = rw_item(skill="RW.SEC.BND.SUPP", vocab=None, choices=["zero—", "zero,", "zero;", "many zeros"])
     assert "boundaries choices differ in more than punctuation" in check_rw(bnd, LEAVES | {"RW.SEC.BND.SUPP"})
 
 

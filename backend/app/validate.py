@@ -139,18 +139,21 @@ def check_study_fields(item: RWSeedItem) -> list[str]:
         errs.append(f"traps must name the trap of each wrong choice ({''.join(wrong)})")
     if item.skill.startswith("RW.INI.COEQ") and item.quant is None:
         errs.append("quantitative items need quant roles")
-    if (
-        item.skill.startswith("RW.SEC.BND")
-        and len({re.sub(r"[^a-z]", "", c.lower()) for c in item.choices}) > 1
-    ):
+    # Boundaries choices differ in punctuation (plus at most a conjunction); form choices in a short span.
+    if item.skill.startswith("RW.SEC.BND") and changed_words(item.choices, punctuation=False) > 1:
         errs.append("boundaries choices differ in more than punctuation")
     if item.skill.startswith("RW.SEC.FSS") and not item.skill.endswith(".MOD"):
-        toks = [c.split() for c in item.choices]
-        pre = len(os.path.commonprefix(toks))
-        suf = len(os.path.commonprefix([t[pre:][::-1] for t in toks]))
-        if max(len(t) - pre - suf for t in toks) > 4:
+        if changed_words(item.choices, punctuation=True) > 4:
             errs.append("form/structure choices differ in more than the tested words")
     return errs
+
+
+def changed_words(choices: list[str], punctuation: bool) -> int:
+    """Most words any choice has outside the prefix and suffix that all choices share."""
+    toks = [c.split() if punctuation else re.sub(r"[^a-z ]", "", c.lower()).split() for c in choices]
+    pre = len(os.path.commonprefix(toks))
+    suf = len(os.path.commonprefix([t[pre:][::-1] for t in toks]))
+    return max(len(t) - pre - suf for t in toks)
 
 
 def check_bank(items: list[RWSeedItem]) -> list[Failure]:
@@ -190,13 +193,13 @@ def check_bank(items: list[RWSeedItem]) -> list[Failure]:
         n, letters = len(group), Counter(i.answer for i in group)
         if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
             out.append(("rw", skill, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
-        longest = sum(
-            len(i.choices["ABCD".index(i.answer)])
-            > max(len(c) for j, c in enumerate(i.choices) if "ABCD"[j] != i.answer)
-            for i in group
-        )
-        if longest > MAX_KEY_LONGEST * n:
-            out.append(("rw", skill, f"key is the longest choice in {longest}/{n} items"))
+        if skill.startswith("RW.SEC."):  # choices differ by a mark or a word; length is no cue
+            continue
+        # A key that is usually the longest (or, after padding distractors, the shortest) gives itself away.
+        for name, pick in (("longest", max), ("shortest", min)):
+            k = sum(len(i.choices["ABCD".index(i.answer)]) == pick(map(len, i.choices)) for i in group)
+            if k > MAX_KEY_LONGEST * n:
+                out.append(("rw", skill, f"key is the {name} choice in {k}/{n} items"))
     return out
 
 

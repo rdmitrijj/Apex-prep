@@ -1,0 +1,894 @@
+[
+ {
+  "id": "rw-tri-ini-detail-001",
+  "skill": "RW.INI.CID.DETAIL",
+  "difficulty": "hard",
+  "topic": "a crater lake that changes color before eruptions",
+  "fictional": true,
+  "passage": "Volcanologist Kaito Brenner-Sun has studied the lake that fills the crater of Mount Orsa. The water is normally green, but before three of the volcano's last four eruptions, it turned gray several weeks in advance as gases from below stirred up sediment. Brenner-Sun cautions that the color change cannot be used by itself to predict eruptions: the lake also turned gray in 2017, after a landslide, with no eruption following, and it stayed green before the 2009 eruption.",
+  "stem": "According to the text, why does Brenner-Sun caution against relying on the lake's color alone to predict eruptions?",
+  "choices": [
+   "The lake turned gray only a few days before each eruption, which is too late to give a useful warning.",
+   "Gases from beneath the volcano rarely reach the crater lake, so they seldom affect the water's color.",
+   "The color of the lake is difficult for scientists to observe reliably from outside the volcano's crater.",
+   "The lake has turned gray without an eruption following, and it has stayed green before an eruption."
+  ],
+  "answer": "D",
+  "explanation": "The colon after 'cautions' introduces two reasons, a false alarm in 2017 and a miss in 2009.",
+  "steps": [
+   "Find the sentence with 'cautions'; the reason follows the colon.",
+   "Reason 1: gray in 2017 with no eruption (false alarm).",
+   "Reason 2: green before the 2009 eruption (missed warning)."
+  ],
+  "strategy_tip": "For 'according to the text' questions, find the exact sentence; a colon often introduces the answer.",
+  "rationales": {
+   "A": "Contradicts the text: It turned gray several weeks in advance.",
+   "B": "Contradicts the text: Gases stirring up sediment is what turns the lake gray.",
+   "C": "Goes beyond the text: Observation difficulty isn't mentioned.",
+   "D": "Correct. Both kinds of failure appear in the text: 2017 (gray, no eruption) and 2009 (eruption, no gray)."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "contradicts the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-detail-002",
+  "skill": "RW.INI.CID.DETAIL",
+  "difficulty": "hard",
+  "topic": "a nephew earning trust in a boat shop (story)",
+  "fictional": true,
+  "passage": "The following text is from Renske Abebe's 2016 short story \"Low Tide.\" Teo has worked at his uncle's boat-repair shop for one summer. Teo could not yet tell a sound hull from a rotten one by tapping it, as his uncle did, and he still sanded too hard at the edges. But he had learned to arrive before his uncle each morning, to have the coffee ready and the tools laid out in the order they would be needed, and he had noticed that his uncle had stopped checking whether the tools were there.",
+  "stem": "Based on the text, what is true about Teo?",
+  "choices": [
+   "He has become just as skilled as his uncle at judging the condition of a boat's hull by tapping it.",
+   "He arrives at the shop later than his uncle most mornings, which has begun to frustrate his uncle.",
+   "He enjoys sanding the edges of boats more than any of the other tasks he has to do in the shop.",
+   "His uncle has come to rely on him for some tasks, even though his repair skills are still limited."
+  ],
+  "answer": "D",
+  "explanation": "The passage balances weaknesses (hull, sanding) against reliability (morning routine), and the uncle's no longer checking shows trust.",
+  "steps": [
+   "First sentence: skills not yet learned.",
+   "'But': reliable habits.",
+   "Last detail: the uncle stopped checking, which means he trusts Teo with that task."
+  ],
+  "strategy_tip": "A detail like 'stopped checking' carries meaning; ask what it shows about a relationship.",
+  "rationales": {
+   "A": "Contradicts the text: He 'could not yet' do this.",
+   "B": "Contradicts the text: He arrives before his uncle.",
+   "C": "Goes beyond the text: His feelings about sanding aren't given, only that he sands too hard.",
+   "D": "Correct. The uncle 'stopped checking' the tools, a sign of trust, while Teo still can't judge hulls or sand well."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "contradicts the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-detail-003",
+  "skill": "RW.INI.CID.DETAIL",
+  "difficulty": "medium",
+  "topic": "old film plates at an observatory",
+  "fictional": true,
+  "passage": "The Ridgeline Observatory switched from photographic film to digital cameras in 1998. Astronomer Femi Castellano notes that the observatory's thousands of older film plates remain valuable. Because the plates record the positions and brightness of stars from as early as 1902, they allow researchers to detect slow changes that recent digital images, which cover only a few decades, cannot reveal.",
+  "stem": "According to the text, why are the observatory's film plates still valuable?",
+  "choices": [
+   "They show much fainter stars than any of the observatory's newer digital cameras are able to detect.",
+   "They extend the record back far enough in time to reveal slow changes that recent images miss.",
+   "They are considerably easier for researchers to analyze than the observatory's digital images are.",
+   "They were made before the observatory's astronomers had begun to measure how bright stars are."
+  ],
+  "answer": "B",
+  "explanation": "The \"Because\" sentence states the reason. The long time span reveals slow changes.",
+  "steps": [
+   "Locate the reason: 'Because the plates record... from as early as 1902.'",
+   "The benefit: detecting slow changes that short records miss.",
+   "Choices about faintness or ease of analysis aren't in the text, so eliminate them."
+  ],
+  "strategy_tip": "'Because' sentences are where 'why' answers live.",
+  "rationales": {
+   "A": "Goes beyond the text: Faintness is never compared.",
+   "B": "Correct. The plates go back to 1902; digital images cover only a few decades.",
+   "C": "Goes beyond the text: Ease of analysis isn't discussed.",
+   "D": "Contradicts the text: The plates themselves record brightness."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-detail-004",
+  "skill": "RW.INI.CID.DETAIL",
+  "difficulty": "hard",
+  "topic": "moths that click at bats",
+  "fictional": true,
+  "passage": "Most bats hunt insects by echolocation, making high-pitched calls and listening for the echoes. Some moths, however, produce rapid clicks when a bat approaches. Biologist Chiamaka Lindqvist-Oyo tested two explanations: that the clicks warn bats that the moth tastes bad, or that the clicks jam the bat's echolocation. She found that young bats that had never tasted these moths still missed them far more often when the moths clicked, and that the misses happened in the final moments of an attack, when a bat's calls are fastest.",
+  "stem": "According to the text, what did Lindqvist-Oyo find about bats that had never tasted the moths?",
+  "choices": [
+   "They stopped attacking clicking moths entirely after only one or two attempts to catch them.",
+   "They quickly learned from experience that the clicking moths had an unpleasant taste.",
+   "They missed the moths far more often when the moths clicked than when the moths were silent.",
+   "They stopped making their echolocation calls whenever the moths near them began to click."
+  ],
+  "answer": "C",
+  "explanation": "The finding is stated directly. Bats with no taste experience still missed clicking moths more often.",
+  "steps": [
+   "Find the sentence about bats that 'had never tasted these moths.'",
+   "Result: they missed clicking moths far more often.",
+   "Choices about learning the taste contradict 'never tasted.'"
+  ],
+  "strategy_tip": "Match the group named in the question to the exact sentence about that group.",
+  "rationales": {
+   "A": "Contradicts the text: They kept attacking; they just missed more often.",
+   "B": "Contradicts the text: These bats had never tasted the moths.",
+   "C": "Correct. The text says these bats 'still missed them far more often when the moths clicked.'",
+   "D": "Goes beyond the text: Their calls are described as fastest at the end of an attack, not stopped."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "contradicts the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-detail-005",
+  "skill": "RW.INI.CID.DETAIL",
+  "difficulty": "medium",
+  "topic": "short leases and drip irrigation",
+  "fictional": true,
+  "passage": "Economist Rhea Valtonen-Abara examined why some small farms in the Kessel Valley adopted drip irrigation in the 2010s while others did not. Contrary to her expectations, the cost of the equipment was not the main obstacle, since a government program covered most of it. Instead, farms were far less likely to adopt the system if they rented their land on short leases, because its water savings accumulate over several years, by which time a tenant might have had to leave.",
+  "stem": "According to the text, what was the main obstacle to adopting drip irrigation?",
+  "choices": [
+   "Farmers renting land on short leases might not stay long enough to benefit from the savings.",
+   "The equipment cost more than most of the valley's small farms could afford to pay on their own.",
+   "The government program was open only to farms whose owners had bought their land outright.",
+   "Drip irrigation used more water than older methods during the first few years after it was installed."
+  ],
+  "answer": "A",
+  "explanation": "The text rules out cost, then names the real obstacle after \"Instead.\"",
+  "steps": [
+   "'Contrary to her expectations': cost was NOT the obstacle.",
+   "'Instead': short leases.",
+   "'because': savings arrive slowly, and a tenant may leave first."
+  ],
+  "strategy_tip": "'Not X... Instead Y' structures put the answer right after 'Instead.'",
+  "rationales": {
+   "A": "Correct. 'Instead' introduces the main obstacle: short leases and savings that come only after years.",
+   "B": "Contradicts the text: Cost was not the main obstacle; a program covered most of it.",
+   "C": "Goes beyond the text: Program rules aren't described.",
+   "D": "Goes beyond the text: The text says savings build up over years, not that it uses more water at first."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-001",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "an exoplanet that keeps its atmosphere",
+  "fictional": true,
+  "passage": "Astronomers expected the exoplanet Kepra-9b to have no atmosphere, because it orbits so close to its star that intense radiation should strip away any gas within a few million years. Yet observations reveal a thin atmosphere rich in sodium. Since Kepra-9b is estimated to be several billion years old, this atmosphere cannot be left over from the gas the planet had when it formed. This suggests that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "Kepra-9b formed much more recently than astronomers had estimated from their observations.",
+   "astronomers were mistaken in thinking that intense radiation can strip gas from a planet over time.",
+   "sodium is the most common gas in the atmospheres of planets that orbit close to their stars.",
+   "something is continually adding new gas to the planet's atmosphere, perhaps from its surface."
+  ],
+  "answer": "D",
+  "explanation": "If gas disappears in millions of years and the planet is billions of years old, an atmosphere that exists now must be constantly resupplied.",
+  "steps": [
+   "Premise 1: radiation removes gas within a few million years.",
+   "Premise 2: the planet is billions of years old, so the gas isn't original.",
+   "Combine them: today's gas must be arriving continually.",
+   "Wrong choices reject a premise the text keeps, or talk about other planets."
+  ],
+  "strategy_tip": "Keep every premise the passage treats as true; the answer must fit all of them.",
+  "rationales": {
+   "A": "Contradicts the text: The passage keeps the age estimate; it uses that age to rule out original gas.",
+   "B": "Contradicts the text: The passage keeps this premise; the puzzle only exists because radiation strips gas.",
+   "C": "Goes beyond the text: The text is about one planet and says nothing about other planets' atmospheres.",
+   "D": "Correct. Gas is stripped quickly, and the planet is old, so the gas seen today must keep being replaced."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "contradicts the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-002",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a loanword that kept a forbidden sound cluster",
+  "fictional": true,
+  "passage": "In the Varsk language, words borrowed from neighboring languages usually adapt to Varsk sound rules within a generation, mainly as speakers repeat them in conversation; for example, speakers insert a vowel to break up consonant clusters that Varsk does not allow. Linguist Odile Mbeki found that the word \"strelna\" (a kind of cargo boat), borrowed more than three centuries ago, still keeps its \"str\" cluster, which Varsk otherwise forbids. She also found that \"strelna\" appears almost exclusively in written shipping contracts and is rarely spoken. Mbeki's findings suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "\"strelna\" entered the Varsk language more recently than most of the other words borrowed from neighboring languages.",
+   "a borrowed word that is seldom spoken may escape the sound changes that usually adapt loanwords to Varsk.",
+   "most Varsk speakers today are unable to pronounce the \"str\" cluster in any word, even in a borrowed one.",
+   "written shipping contracts in Varsk contain more borrowed words than any other kind of Varsk writing does."
+  ],
+  "answer": "B",
+  "explanation": "The passage says adaptation happens \"as speakers repeat them in conversation.\" A word used almost only in writing missed that process.",
+  "steps": [
+   "Find the mechanism: loanwords adapt mainly through being spoken.",
+   "Find the exception: 'strelna' didn't adapt AND is rarely spoken.",
+   "Link them: rarely spoken words can avoid adaptation."
+  ],
+  "strategy_tip": "Look for a 'because' or 'mainly as' clause; it usually explains the exception at the end.",
+  "rationales": {
+   "A": "Contradicts the text: It was borrowed more than three centuries ago, so it has had plenty of time.",
+   "B": "Correct. Adaptation happens through speech; a word that is rarely spoken had little chance to adapt.",
+   "C": "Goes beyond the text: The text says nothing about what speakers can pronounce.",
+   "D": "Goes beyond the text: The text compares no kinds of writing."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-003",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "ants carrying seeds away from the parent plant",
+  "fictional": true,
+  "passage": "The forest herb Viola trenta produces seeds with a fatty attachment that ants carry back to their nests, where they eat the attachment and discard the intact seed. Ecologist Hiro Tanaka-Wells found that in plots where ants were kept out, seedlings still appeared, but nearly all of them grew within a few centimeters of the parent plant, where they competed with it for light. Since seedlings that sprout farther from the parent are more likely to survive, Tanaka-Wells concluded that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "ants probably increase the plant's reproductive success by moving its seeds away from the parent.",
+   "Viola trenta cannot produce any seedlings at all in forest plots where ants are not present.",
+   "ants eat the seeds of Viola trenta whenever the seeds' fatty attachment has already been removed.",
+   "Viola trenta seedlings grow best in the shade created by the leaves of the parent plant."
+  ],
+  "answer": "A",
+  "explanation": "Combining \"ants move seeds\" with \"seedlings far from the parent survive better\" gives the conclusion.",
+  "steps": [
+   "Fact 1: without ants, seedlings stay near the parent.",
+   "Fact 2: seedlings far from the parent survive better.",
+   "So ants, by moving seeds, help more seedlings survive."
+  ],
+  "strategy_tip": "Connect the two facts the passage gives you; the answer is usually their combination.",
+  "rationales": {
+   "A": "Correct. Ants move seeds away; seeds far from the parent survive better; so ants help the plant reproduce.",
+   "B": "Contradicts the text: Seedlings still appeared where ants were kept out.",
+   "C": "Goes beyond the text: The text says ants discard the intact seed; nothing suggests they eat seeds.",
+   "D": "Contradicts the text: Seedlings near the parent compete for light and are less likely to survive."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-004",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a pigment that redates a painting",
+  "fictional": true,
+  "passage": "Art historians had dated an unsigned landscape painting to about 1790 on the basis of its style. However, a recent analysis found that the blue sky was painted with a pigment first manufactured in 1826. Because the analysis also showed that this blue layer lies directly on the canvas's original preparatory layer, with no earlier paint beneath it, the researchers concluded that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the painting was most likely made in 1826 or later, not around 1790 as its style had suggested.",
+   "the sky was repainted by a restorer at some point after 1826, replacing the artist's original sky.",
+   "the painting's style was still common among landscape painters working in the years after 1826.",
+   "blue pigments made before 1826 were rarely used by landscape painters working in the 1790s."
+  ],
+  "answer": "A",
+  "explanation": "The detail \"no earlier paint beneath it\" rules out a later repaint, so the pigment dates the painting itself.",
+  "steps": [
+   "Fact 1: the sky's pigment didn't exist before 1826.",
+   "Fact 2: the sky isn't painted over older paint, so it isn't a repair.",
+   "Therefore the painting itself was made in 1826 or later.",
+   "The 'restorer' choice is tempting but is ruled out by fact 2."
+  ],
+  "strategy_tip": "When a sentence starts 'Because... also,' that detail exists to rule out a tempting wrong answer.",
+  "rationales": {
+   "A": "Correct. The sky uses an 1826 pigment and wasn't painted over an older sky, so the painting itself dates from 1826 or later.",
+   "B": "Contradicts the text: No earlier paint lies under the blue layer, so there was no original sky to replace.",
+   "C": "Goes beyond the text: The text says nothing about which styles were common after 1826.",
+   "D": "Goes beyond the text: Nothing in the text concerns how often older blues were used."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-005",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "bread prices after a bakery closed",
+  "fictional": true,
+  "passage": "When the town of Ellery's only bakery closed in 2021, economists expected the price of bread at the town's two grocery stores to rise, since shoppers would have fewer places to buy it. Instead, prices at both stores stayed flat. Economist Javier Lund-Okafor noted that within weeks of the closure, a large bakery in a neighboring town began delivering bread to Ellery homes at prices similar to the grocery stores'. Lund-Okafor's observation suggests that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "Ellery's bakery closed because the two grocery stores in town had been selling bread at prices that were too low.",
+   "competition from the new delivery service may have kept the town's two grocery stores from raising bread prices.",
+   "Ellery residents bought considerably less bread overall after the town's only bakery had closed in 2021.",
+   "the economists were wrong to assume that having fewer sellers in a market can lead to higher prices."
+  ],
+  "answer": "B",
+  "explanation": "The expected price rise depended on fewer sellers. A new seller arrived, so there weren't fewer sellers.",
+  "steps": [
+   "Expectation: fewer sellers, so higher prices.",
+   "Observation: a new seller (delivery) appeared right away.",
+   "So competition stayed, and prices could stay flat."
+  ],
+  "strategy_tip": "Ask why the expected result didn't happen; the new detail is usually the reason.",
+  "rationales": {
+   "A": "Goes beyond the text: The text never says why the bakery closed.",
+   "B": "Correct. A new seller replaced the closed one, so the stores still had competition.",
+   "C": "Goes beyond the text: Nothing is said about how much bread people bought.",
+   "D": "Contradicts the text: The observation keeps this idea; a new seller simply appeared."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-006",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "song lyrics and word memory",
+  "fictional": true,
+  "passage": "Psychologist Lena Aaltonen asked participants to memorize lists of words either in silence or while listening to songs with lyrics. Those who heard lyrics later recalled fewer words. In a second experiment, participants who heard the same songs without lyrics recalled as many words as those who had worked in silence. Aaltonen's results suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the lyrics, rather than the music itself, interfered with participants' memory for the words.",
+   "listening to music without lyrics improves people's ability to memorize lists of words.",
+   "music with lyrics interferes with nearly every kind of mental task that people perform.",
+   "participants found the memorization task more enjoyable when they could hear songs with lyrics."
+  ],
+  "answer": "A",
+  "explanation": "The two experiments differ only in the lyrics, so the lyrics explain the difference in recall.",
+  "steps": [
+   "Experiment 1: lyrics led to worse recall.",
+   "Experiment 2: same music, no lyrics, recall as good as silence.",
+   "The only difference is the lyrics."
+  ],
+  "strategy_tip": "'Equal to' is not 'better than'; watch for choices that upgrade the result.",
+  "rationales": {
+   "A": "Correct. Same music without lyrics caused no drop, so the lyrics caused the drop.",
+   "B": "Goes beyond the text: Music without lyrics matched silence; it did not improve recall.",
+   "C": "Goes beyond the text: Only word memorization was tested.",
+   "D": "Goes beyond the text: Enjoyment was never measured."
+  },
+  "traps": {
+   "B": "goes beyond the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-007",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "cathedral limestone and a flooded quarry",
+  "fictional": true,
+  "passage": "The cathedral in the city of Morvane is built from a pale limestone containing fossils of a sea lily species found in only two quarries: one near Morvane and one in Aubrac, 300 kilometers away. Records show that the Morvane quarry was flooded and could not be worked from 1150 to 1240. The cathedral's nave, which is built of this fossil-bearing limestone, has been dated to between 1180 and 1210. It can therefore be concluded that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the cathedral's builders preferred Aubrac limestone because it contained more fossils than Morvane limestone.",
+   "the Morvane quarry produced no limestone at any time after it was flooded in the year 1150.",
+   "the limestone used to build the nave was most likely brought to Morvane from the quarry in Aubrac.",
+   "the cathedral's nave was built before any of the other sections of the cathedral in Morvane."
+  ],
+  "answer": "C",
+  "explanation": "The stone could come from two places, and one was closed during construction, so it came from the other.",
+  "steps": [
+   "The stone exists in only two quarries: Morvane and Aubrac.",
+   "Morvane was closed from 1150 to 1240.",
+   "The nave was built from 1180 to 1210, during the closure.",
+   "So the stone came from Aubrac."
+  ],
+  "strategy_tip": "Elimination logic: two options, one ruled out, so the other remains.",
+  "rationales": {
+   "A": "Goes beyond the text: The text gives no reason based on preference or fossil count.",
+   "B": "Contradicts the text: It was unusable only until 1240.",
+   "C": "Correct. Only two quarries had this stone, and the Morvane quarry was flooded while the nave was built, which leaves Aubrac.",
+   "D": "Goes beyond the text: The text doesn't date the other sections."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "contradicts the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-008",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "self-reported walking time",
+  "fictional": true,
+  "passage": "In a citywide survey, residents of Brask reported walking an average of 50 minutes per day. Public health researcher Sanna Ilves gave step counters to a separate, similar group of Brask residents and found that they actually walked an average of 22 minutes per day. When she then asked the step-counter group how long they walked, they gave estimates close to the survey's, with those who considered themselves active overestimating the most. If Ilves's group is representative, these findings suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "residents of Brask walk more each day than the residents of most other cities of similar size.",
+   "Brask residents who consider themselves active estimate their walking time more accurately than others do.",
+   "the survey probably overstates how much time the residents of Brask actually spend walking each day.",
+   "Brask residents walked less in the year of Ilves's study than they had in earlier years."
+  ],
+  "answer": "C",
+  "explanation": "The step-counter group's estimates matched the survey but their real walking was much lower, so the survey is probably too high.",
+  "steps": [
+   "Measured walking: 22 minutes. Reported walking (same people): close to 50.",
+   "So self-reports run high.",
+   "The survey used self-reports, so it likely overstates walking."
+  ],
+  "strategy_tip": "Follow the chain across sentences; the answer often applies a finding back to the first sentence.",
+  "rationales": {
+   "A": "Goes beyond the text: No other cities are discussed.",
+   "B": "Contradicts the text: They overestimated the most.",
+   "C": "Correct. People who really walked 22 minutes reported about 50, so the survey's self-reports are likely too high.",
+   "D": "Goes beyond the text: The text compares measured and reported walking, not different years."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "contradicts the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-009",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "crackled glaze and cooling speed",
+  "fictional": true,
+  "passage": "Potters in the village of Seret make a glaze known for its fine network of cracks, which form because the glaze shrinks more than the clay beneath it as both cool. Chemist Ayumi Castellanos found that Seret potters cool their kilns unusually fast. In laboratory tests, pots made from Seret clay but cooled slowly showed no cracks, while pots made from an ordinary clay but cooled quickly developed cracks much like Seret's. These results suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "Seret clay shrinks considerably more than the glaze applied to it does as the pots cool in the kiln.",
+   "pottery cooled slowly in a kiln is generally stronger and longer lasting than pottery cooled quickly.",
+   "potters outside Seret have been unable to reproduce the crackled glaze despite many attempts.",
+   "the cracks depend mainly on how fast the pots cool, not on the particular clay used in Seret."
+  ],
+  "answer": "D",
+  "explanation": "The tests swap one factor at a time: clay without fast cooling gives no cracks, and fast cooling without that clay gives cracks.",
+  "steps": [
+   "Test 1 keeps Seret clay but removes fast cooling, and the cracks disappear.",
+   "Test 2 removes Seret clay but keeps fast cooling, and the cracks appear.",
+   "So fast cooling, not the clay, is the key factor."
+  ],
+  "strategy_tip": "In two-test passages, ask which factor changed in each test and what happened.",
+  "rationales": {
+   "A": "Contradicts the text: The text says the glaze shrinks more than the clay.",
+   "B": "Goes beyond the text: Strength is never discussed.",
+   "C": "Contradicts the text: Ordinary clay cooled quickly produced similar cracks.",
+   "D": "Correct. Seret clay without fast cooling: no cracks. Other clay with fast cooling: cracks. So cooling speed is what matters."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "goes beyond the text",
+   "C": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-010",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "letters written by paid scribes and literacy",
+  "fictional": true,
+  "passage": "Historians have often used surviving letters to estimate literacy in eighteenth-century Halden Province, assuming that anyone who sent a letter could write. However, historian Maud Ferreira-Holm found that many of the province's letters were written by professional scribes, who charged a fee to write down the words of customers who dictated them. She also found that scribes' fees were low enough that most farm laborers could afford them. These findings suggest that estimates of literacy based on letters ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "are probably too low, since farm laborers in the province almost never sent letters to anyone.",
+   "may overstate how many people in the province were able to write letters without anyone's help.",
+   "should be replaced entirely by estimates based on the fees that scribes charged their customers.",
+   "are accurate for farm laborers but not for wealthier residents of the province, who hired scribes."
+  ],
+  "answer": "B",
+  "explanation": "The historians' assumption (senders could write) fails when senders dictated to scribes. That pushes estimates too high.",
+  "steps": [
+   "Old method: letter sender = person who could write.",
+   "New finding: many senders dictated to scribes; even laborers could afford it.",
+   "So some 'writers' couldn't write, and the estimates are too high."
+  ],
+  "strategy_tip": "When the text attacks an assumption, ask in which direction the error pushes the estimate.",
+  "rationales": {
+   "A": "Contradicts the text: Fees were affordable to laborers, so laborers could send letters.",
+   "B": "Correct. Many letter senders only dictated, so counting senders as writers inflates literacy.",
+   "C": "Goes beyond the text: The text doesn't propose a replacement method.",
+   "D": "Goes beyond the text: The text says laborers could afford scribes too."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-011",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "finch song dialects learned or inherited",
+  "fictional": true,
+  "passage": "Young male Halden finches learn their songs by copying the adult males they hear during their first months of life, and finches in different valleys sing distinct dialects. To confirm that dialects are learned rather than inherited, ornithologist Petra Nnamdi moved nests containing unhatched eggs from one valley to another. If dialects are learned in this way, Nnamdi should have found that the moved birds, once mature, ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "sang the dialect of the valley where their eggs had been laid, even though they had never heard it.",
+   "sang an even mixture of both valleys' dialects, combining features they had picked up from each one.",
+   "sang the dialect of the valley where they hatched and grew up rather than their parents' dialect.",
+   "were unable to sing any recognizable song at all, because they had been moved before they hatched."
+  ],
+  "answer": "C",
+  "explanation": "If song is learned from adults heard after hatching, birds raised in the new valley sing that valley's dialect.",
+  "steps": [
+   "Rule: song is copied from adults heard in the first months.",
+   "The moved birds heard only adults in the new valley.",
+   "So they should sing the new valley's dialect."
+  ],
+  "strategy_tip": "'If X, then we should see...' questions ask you to apply the rule exactly.",
+  "rationales": {
+   "A": "Contradicts the text: That would suggest an inherited dialect, the opposite of what learning predicts.",
+   "B": "Goes beyond the text: They never heard the first valley's adults, so they had nothing to mix in.",
+   "C": "Correct. If song is copied from adults heard after hatching, the birds copy the adults in their new valley.",
+   "D": "Contradicts the text: Adults were present in the new valley to copy."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-012",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "city heat versus traffic pollution and rain",
+  "fictional": true,
+  "passage": "Some cities receive more summer rain downwind of their centers than upwind. One explanation is that heat rising from city streets triggers storms; another is that tiny pollution particles from traffic help raindrops form. Climatologist Rui Andrade-Okoro studied the city of Velsk, where a two-week holiday each August cuts traffic by about 70 percent while city-center temperatures stay the same. He found that downwind rainfall during the holiday was just as high as during the rest of the summer. This finding suggests that, in Velsk, ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "pollution from traffic has no effect on rainfall patterns in any of the world's large cities.",
+   "city-center temperatures are noticeably higher during the August holiday than during the rest of the summer.",
+   "rainfall upwind of the city increases during the holiday, when traffic in the city is greatly reduced.",
+   "the extra downwind rain is more likely due to the city's heat than to traffic pollution."
+  ],
+  "answer": "D",
+  "explanation": "The holiday is a natural experiment. Traffic falls, heat stays, and the rain stays, which points to heat.",
+  "steps": [
+   "Two possible causes: heat or traffic pollution.",
+   "During the holiday, traffic drops 70% but heat is unchanged.",
+   "The rain doesn't change, so traffic isn't driving it; heat remains the likely cause.",
+   "The claim is limited to Velsk, so reject the choice about every city."
+  ],
+  "strategy_tip": "Watch for scope words ('in Velsk', 'some'); choices that widen the scope go too far.",
+  "rationales": {
+   "A": "Goes beyond the text: One city's result can't show anything about every city.",
+   "B": "Contradicts the text: Temperatures stay the same during the holiday.",
+   "C": "Goes beyond the text: Only downwind rainfall is reported.",
+   "D": "Correct. Cutting traffic didn't reduce the rain, but the heat stayed, so heat is the better explanation."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "contradicts the text",
+   "C": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-013",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a symphony ending changed by a publisher",
+  "fictional": true,
+  "passage": "Musicologist Iris Okonedo examined the manuscript of a symphony by the nineteenth-century composer Karl Weidlund. The published symphony ends quietly, but on the manuscript's last page, a loud ending has been crossed out and the quiet ending written in above it, in the handwriting of Weidlund's publisher, whose letters show that he disliked loud endings. Weidlund's detailed diaries, which record his other revisions, never mention this change. This evidence suggests that the quiet ending ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "was written by Weidlund himself after he decided that loud endings had gone out of fashion.",
+   "may reflect the publisher's personal taste in endings rather than Weidlund's own intention.",
+   "is performed much more often today than the loud ending that was crossed out in the manuscript.",
+   "was added by the same publisher to every symphony that he printed during the nineteenth century."
+  ],
+  "answer": "B",
+  "explanation": "Three clues point the same way, which are the publisher's handwriting, his stated taste, and the composer's silence about the change.",
+  "steps": [
+   "Clue 1: the quiet ending is in the publisher's handwriting.",
+   "Clue 2: the publisher disliked loud endings.",
+   "Clue 3: Weidlund's diaries record other revisions but not this one.",
+   "Together: the change likely came from the publisher."
+  ],
+  "strategy_tip": "Count the clues; the right answer uses all of them, and wrong answers ignore one.",
+  "rationales": {
+   "A": "Contradicts the text: The change is in the publisher's handwriting, not Weidlund's.",
+   "B": "Correct. The publisher wrote the change, liked quiet endings, and Weidlund never recorded making it.",
+   "C": "Goes beyond the text: Modern performances are never discussed.",
+   "D": "Goes beyond the text: Only this one symphony is discussed."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-014",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "sleep rebound in fruit flies",
+  "fictional": true,
+  "passage": "Fruit flies deprived of sleep for one night later sleep longer than usual, a \"rebound\" thought to repay a sleep debt. Neuroscientist Kalinda Brooks-Ito kept two groups of flies awake for the same length of time. Flies kept awake by gentle shaking showed the usual rebound, but flies kept awake by a drug that blocks a particular brain signal did not. These results suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the drug caused the flies that received it to sleep for longer than usual on the following night.",
+   "being kept awake by gentle shaking is a more stressful experience for flies than receiving the drug is.",
+   "the rebound depends on that brain signal, not simply on how long the flies were kept awake.",
+   "flies that miss a night of sleep need to eat more food the next day than flies that are well rested."
+  ],
+  "answer": "C",
+  "explanation": "Time awake was the same in both groups, so the difference must come from the blocked brain signal.",
+  "steps": [
+   "Controlled factor: same time awake in both groups.",
+   "Changed factor: only the drug group had the brain signal blocked.",
+   "Result: no rebound when the signal was blocked, so the rebound needs that signal."
+  ],
+  "strategy_tip": "Find what was held equal; the answer is about what was different.",
+  "rationales": {
+   "A": "Contradicts the text: The drug group did NOT show the rebound.",
+   "B": "Goes beyond the text: Stress was never measured.",
+   "C": "Correct. Equal time awake, but no rebound when the signal was blocked, so the signal is needed for the rebound.",
+   "D": "Goes beyond the text: Food isn't discussed."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "goes beyond the text",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-015",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a burned village rebuilt in a new style",
+  "fictional": true,
+  "passage": "At the Neolithic site of Daru Kel, archaeologists found a burned layer containing the remains of every house in the village. Above it lies a layer with houses in a new style and pottery unlike any found below. Archaeologist Mehmet Lindahl argues that a new group of people took over the site after the fire. However, tests show that the new pottery was made from the same local clay used before the fire, and the new houses stand on exactly the same stone foundations as the burned ones. These findings suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the fire that destroyed the village of Daru Kel was most likely set on purpose by an invading group.",
+   "the new style of pottery found above the burned layer was copied from a village somewhere nearby.",
+   "the houses built before the fire were considerably larger than the houses built after it.",
+   "the village may have been rebuilt by its earlier residents, who changed their styles."
+  ],
+  "answer": "D",
+  "explanation": "The \"However\" signals evidence against Lindahl. Reusing local clay and old foundations suggests the same community.",
+  "steps": [
+   "Lindahl's view: a new group arrived.",
+   "'However' introduces evidence against it: same clay source, same foundations.",
+   "That fits the original residents rebuilding in a new style."
+  ],
+  "strategy_tip": "After 'However,' expect the conclusion to push AGAINST the view stated before it.",
+  "rationales": {
+   "A": "Goes beyond the text: Nothing indicates how the fire started.",
+   "B": "Goes beyond the text: No other village is mentioned.",
+   "C": "Contradicts the text: The new houses use exactly the same foundations, so they were the same size.",
+   "D": "Correct. Same clay source and the same foundations point to continuity, which challenges the idea of a new group."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "B": "goes beyond the text",
+   "C": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-inf-016",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "shade and coral bleaching",
+  "fictional": true,
+  "passage": "Coral bleaching occurs when high water temperatures cause corals to expel the algae living in their tissues. Marine biologist Ana Ferreira-Doyle noticed that during a 2022 heat wave on the Tessel Reef, corals growing in the shadow of a cliff bleached far less than nearby corals in full sun, even though the water temperature was the same at both spots. Since bright light is known to increase the stress that heat places on the algae, her observation suggests that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "reducing the amount of light that reaches corals could lessen bleaching during future heat waves.",
+   "the water in the shadow of the cliff stayed cooler than the water in full sun throughout the heat wave.",
+   "corals growing in full sun normally contain far more algae in their tissues than shaded corals do.",
+   "heat waves cannot cause any bleaching at all in corals that grow close to cliffs on the reef."
+  ],
+  "answer": "A",
+  "explanation": "Temperature was equal, so the difference comes from light. Light adds heat stress, so less light means less bleaching.",
+  "steps": [
+   "Equal factor: water temperature.",
+   "Different factor: sunlight versus shade.",
+   "Known mechanism: light increases heat stress.",
+   "So shading reduces bleaching."
+  ],
+  "strategy_tip": "'Less' is not 'none'; reject answers that turn a reduction into an absolute.",
+  "rationales": {
+   "A": "Correct. Same heat, less light, less bleaching, and light is known to add stress, so cutting light can help.",
+   "B": "Contradicts the text: The temperature was the same at both spots.",
+   "C": "Goes beyond the text: Algae amounts aren't compared.",
+   "D": "Contradicts the text: The shaded corals bleached less, not zero."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-main-001",
+  "skill": "RW.INI.CID.MAIN",
+  "difficulty": "hard",
+  "topic": "dead wood in managed forests",
+  "fictional": true,
+  "passage": "For decades, foresters treated dead trees in managed forests as waste: fallen trunks were removed to reduce fire risk and to make room for new planting. Studies over the past twenty years, however, have found that many forest insects, fungi, and nesting birds depend on dead wood at some stage of life. Forest ecologist Lise Harjo argues that this research has not removed concern about fire but has changed how foresters weigh it: many now leave some dead wood in place and remove it mainly near roads and settlements, where fires pose the greatest danger to people.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Research on the value of dead wood has led many foresters to leave some of it while still removing it where fire threatens people most.",
+   "Dead wood in managed forests turns out to increase the risk of forest fires far more than foresters had once believed.",
+   "Most forest insects, fungi, and birds depend on dead wood at every single stage of their lives.",
+   "Foresters have completely stopped removing dead trees from the managed forests they look after, even near roads and settlements."
+  ],
+  "answer": "A",
+  "explanation": "The main idea combines the shift (keeping some dead wood) with its limit (removing it where people are at risk).",
+  "steps": [
+   "Old practice: remove dead wood.",
+   "New research: dead wood supports wildlife.",
+   "Result (main idea): keep some dead wood, but still remove it near people.",
+   "Reject overstatements like 'completely stopped' or 'every stage.'"
+  ],
+  "strategy_tip": "A main idea keeps the passage's qualifications ('some', 'mainly'); extreme versions are traps.",
+  "rationales": {
+   "A": "Correct. This captures the change (leaving dead wood) and the qualification (still removing it near people).",
+   "B": "Contradicts the text: The text says fire concern remains, not that the risk is greater than thought.",
+   "C": "Goes beyond the text: The text says 'many' and 'at some stage,' not most and every stage.",
+   "D": "Contradicts the text: They still remove dead wood near roads and settlements."
+  },
+  "traps": {
+   "B": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "contradicts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-main-002",
+  "skill": "RW.INI.CID.MAIN",
+  "difficulty": "hard",
+  "topic": "returning to a childhood kitchen (novel)",
+  "fictional": true,
+  "passage": "The following text is from Odalys Ferrante's 2011 novel The Salt Keeper. Ines has just returned to her childhood home after many years away. The kitchen was smaller than she remembered, though nothing in it had moved. The blue jar still stood by the window; the chair with the cracked rung still waited by the stove. Ines touched the table where she had done her lessons and felt, absurdly, that she ought to apologize to it. For years she had told herself that the house meant nothing to her. Now, standing in it, she understood that she had only been refusing to miss it.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Ines is surprised and somewhat upset to discover that the kitchen has been rearranged since she left home.",
+   "Ines regrets that she did not spend more of her childhood studying at the kitchen table with care.",
+   "Back in her childhood home, Ines realizes that her supposed indifference to it had hidden a sense of loss.",
+   "Ines decides, after looking carefully around the kitchen, that she will move back into her childhood home for good."
+  ],
+  "answer": "C",
+  "explanation": "The final sentence states the turn. What she called indifference was really a refusal to feel the loss.",
+  "steps": [
+   "Find the turning point: 'Now... she understood.'",
+   "Before: 'the house meant nothing.' After: 'refusing to miss it.'",
+   "The main idea is that realization."
+  ],
+  "strategy_tip": "In literary passages, the main idea is often in the last sentence's change of understanding.",
+  "rationales": {
+   "A": "Contradicts the text: Nothing in the kitchen had moved.",
+   "B": "Misreads a detail: The table where she did lessons triggers a feeling; she doesn't regret her studying.",
+   "C": "Correct. She'd claimed the house meant nothing, but she was 'refusing to miss it,' which is hidden longing.",
+   "D": "Goes beyond the text: No such decision appears."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "misreads a detail",
+   "D": "goes beyond the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-main-003",
+  "skill": "RW.INI.CID.MAIN",
+  "difficulty": "medium",
+  "topic": "octopus learning and the missing shell",
+  "fictional": false,
+  "passage": "Many people assume that octopuses, like most mollusks, have simple behavior with little need to remember anything. Yet in laboratory tests, octopuses can learn to unscrew jar lids, tell individual human caretakers apart, and remember solutions to puzzles over many days. Some biologists suspect that these learning abilities evolved because the octopus, unlike its shelled relatives such as clams and snails, has no protective shell and must rely on flexible behavior to find food and escape predators.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Octopuses live considerably longer lives in the wild than clams, snails, and most other kinds of mollusks do.",
+   "Octopuses learn remarkably well, possibly because they lack the shell that protects related animals.",
+   "Laboratory tests are the most reliable way for biologists to measure how intelligent an animal is.",
+   "Octopuses are able to tell apart the individual human caretakers who work with them in laboratories."
+  ],
+  "answer": "B",
+  "explanation": "The text corrects an assumption (simple behavior) with evidence of learning, then suggests why. The key combines both.",
+  "steps": [
+   "Assumption: octopuses behave simply.",
+   "Evidence against it: several learning feats.",
+   "Explanation: no shell, so they need flexible behavior."
+  ],
+  "strategy_tip": "One example from a list is a detail; the main idea covers what all the examples show.",
+  "rationales": {
+   "A": "Goes beyond the text: Lifespan isn't mentioned.",
+   "B": "Correct. The text describes their learning, then offers a possible reason (no shell).",
+   "C": "Goes beyond the text: The text doesn't rank research methods.",
+   "D": "Side detail: True, but this is one example, not the main idea."
+  },
+  "traps": {
+   "A": "goes beyond the text",
+   "C": "goes beyond the text",
+   "D": "side detail"
+  }
+ },
+ {
+  "id": "rw-tri-ini-main-004",
+  "skill": "RW.INI.CID.MAIN",
+  "difficulty": "hard",
+  "topic": "a schools act and rising literacy",
+  "fictional": true,
+  "passage": "Historians of the Teral Republic have long credited its 1884 Schools Act, which required every town to fund a primary school, with the republic's rapid rise in literacy. Historian Nadia Kowalczyk-Ade does not dispute that literacy rose after 1884. She points out, however, that it had already been rising for two decades, largely through church-run reading circles, and that many towns ignored the act's funding requirement for years. In her view, the act mainly confirmed and organized a change that ordinary people had already set in motion.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+   "Kowalczyk-Ade argues that literacy in the Teral Republic did not actually increase in the years following 1884.",
+   "Kowalczyk-Ade sees the 1884 act less as a cause of rising literacy than as a formal response to a trend already underway.",
+   "Kowalczyk-Ade argues that church reading circles taught children to read more effectively than schools did.",
+   "Kowalczyk-Ade argues that most of the republic's towns refused to obey the 1884 Schools Act at all."
+  ],
+  "answer": "B",
+  "explanation": "The last sentence gives her view. The act followed and organized change rather than starting it.",
+  "steps": [
+   "Traditional view: the act caused the literacy rise.",
+   "Her concession: literacy did rise.",
+   "Her evidence: it was already rising, and many towns ignored the act.",
+   "Her conclusion: the act confirmed an existing trend."
+  ],
+  "strategy_tip": "Separate what an author concedes from what she argues; the main idea is the argument.",
+  "rationales": {
+   "A": "Contradicts the text: She explicitly does not dispute that literacy rose.",
+   "B": "Correct. Her view is that the act organized a change that had already begun.",
+   "C": "Goes beyond the text: She doesn't compare how well each taught.",
+   "D": "Distorts the text: She says 'many towns' ignored the funding requirement 'for years,' not that most refused entirely."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "C": "goes beyond the text",
+   "D": "distorts the text"
+  }
+ },
+ {
+  "id": "rw-tri-ini-main-005",
+  "skill": "RW.INI.CID.MAIN",
+  "difficulty": "hard",
+  "topic": "a father who counted everything (poem)",
+  "fictional": true,
+  "passage": "The following text is from Tomas Eberhardt-Salo's 1998 poem \"Inventory.\" My father counted everything: / the nails left in the jar, the jars on the shelf, / the shelves he built the year that I was born. / He never said he loved the house. / He only kept it whole, / and I have learned, by counting what he kept, / how much he must have meant.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+   "The speaker resents the father for caring more about the house and its contents than about the family.",
+   "The speaker explains that the father finished building the house shortly before the speaker was born.",
+   "The speaker comes to see the father's careful upkeep of the house as an expression of feelings he never voiced.",
+   "The speaker plans to sell the house after making a complete inventory of everything that is in it."
+  ],
+  "answer": "C",
+  "explanation": "The poem moves from the father's silent counting to the speaker's understanding of what it meant.",
+  "steps": [
+   "Lines 1-3: the father counted and kept everything.",
+   "Line 4: he never said he loved the house.",
+   "Last lines: by counting what he kept, the speaker learns how much he 'meant,' i.e. felt."
+  ],
+  "strategy_tip": "For poems, look for the final turn ('and I have learned...'); it usually states the main idea.",
+  "rationales": {
+   "A": "Contradicts the text: The tone is appreciative; no resentment appears.",
+   "B": "Misreads a detail: Only the shelves were built the year the speaker was born.",
+   "C": "Correct. He 'never said he loved' it but 'kept it whole,' and the speaker reads that care as unspoken feeling.",
+   "D": "Goes beyond the text: No plan to sell is mentioned."
+  },
+  "traps": {
+   "A": "contradicts the text",
+   "B": "misreads a detail",
+   "D": "goes beyond the text"
+  }
+ }
+]
