@@ -18,7 +18,5 @@ Digital SAT prep app. Anyone can register; each account sets its own test date, 
 
 I've made this brilliant app on FastAPI + React (python + typescript/javascript), and most importatly deployed it on AWS server, using NGINX
 
-
-
-Docs: [`docs/SAT_SPEC.md`](docs/SAT_SPEC.md) (test spec), [`docs/SCORING.md`](docs/SCORING.md) (every model), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`docs/DEPLOY.md`](docs/DEPLOY.md), [`PLAN.md`](PLAN.md).
+Claude Code was an assisntant (as you can see from commits) mosly helped with frontend, I'm still learning typescript
 
