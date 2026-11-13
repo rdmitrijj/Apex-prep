@@ -1,0 +1,272 @@
+[
+ {
+  "id": "pt5-mock-a-m-01",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "From 2024 to 2025, the number of members in a chess club increased by $150\\%$. The club had 90 members in 2025. How many members did the club have in 2024?",
+  "choices": ["$60$", "$135$", "$36$", "$225$"],
+  "values": ["60", "135", "36", "225"],
+  "answer": "C",
+  "rationales": {
+   "A": "Read 'by 150%' as 'to 150%': you divided by 1.5. An increase BY 150% multiplies by 2.5.",
+   "B": "Wrong direction: you increased the 2025 number. You must undo the increase, so divide.",
+   "C": "Correct. Increase by 150% means new = 2.5 times old, so old $= 90 \\div 2.5 = 36$.",
+   "D": "Wrong direction: you multiplied 90 by 2.5. The 2024 number is smaller, so divide by 2.5."
+  },
+  "check": "90/(1 + Rational(150, 100))",
+  "explanation": [
+   "Increase BY $150\\%$: new $=$ old $+ 1.5 \\cdot$ old $= 2.5 \\cdot$ old.",
+   "So $2.5m = 90$, where $m$ is the 2024 number.",
+   "$m = 90 \\div 2.5 = 36$.",
+   "Check: $36 + 1.5 \\cdot 36 = 36 + 54 = 90$."
+  ]
+ },
+ {
+  "id": "pt5-mock-b-m-01",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "How many solutions does the equation $6(x - 4) + 9 = -3(x + 5)$ have?",
+  "choices": ["Zero", "Exactly one", "Exactly two", "Infinitely many"],
+  "values": ["0", "1", "2", "oo"],
+  "answer": "B",
+  "rationales": {
+   "A": "The result is $x = 0$, and $x = 0$ is one solution. Zero solutions needs a false statement like $0 = 5$.",
+   "B": "Correct. Both sides simplify to $6x - 15 = -3x - 15$, so $9x = 0$ and $x = 0$: one solution.",
+   "C": "A linear equation can't have exactly two solutions.",
+   "D": "The constants match ($-15$ on both sides), but the $x$-coefficients differ (6 and $-3$), so it is not an identity."
+  },
+  "check": "len(solve(Eq(6*(x - 4) + 9, -3*(x + 5)), x))",
+  "explanation": [
+   "Left side: $6x - 24 + 9 = 6x - 15$. Right side: $-3x - 15$.",
+   "Add $3x$ and add 15 to both sides: $9x = 0$, so $x = 0$.",
+   "$x = 0$ is a real number, so the equation has exactly one solution.",
+   "Desmos way: graph $y = 6(x-4)+9$ and $y = -3(x+5)$; the lines cross once, at $x = 0$."
+  ]
+ },
+ {
+  "id": "pt5-mock-c-m-01",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The table shows the results of a survey of 200 visitors to a nature park. Each visitor gave their ticket type and said whether they used the park shuttle. If one of the visitors who used the shuttle is selected at random, what is the probability that this visitor has a season pass?",
+  "figure": {
+   "kind": "table",
+   "header": ["Ticket type", "Used shuttle", "Did not use shuttle", "Total"],
+   "rows": [
+    ["Day pass", "48", "72", "120"],
+    ["Season pass", "36", "44", "80"],
+    ["Total", "84", "116", "200"]
+   ]
+  },
+  "choices": ["$\\frac{9}{20}$", "$\\frac{9}{50}$", "$\\frac{21}{50}$", "$\\frac{3}{7}$"],
+  "values": ["9/20", "9/50", "21/50", "3/7"],
+  "answer": "D",
+  "rationales": {
+   "A": "Wrong denominator: $\\frac{36}{80}$ uses all season-pass holders. The visitor is chosen from shuttle users.",
+   "B": "Wrong denominator: $\\frac{36}{200}$ uses all visitors, but the group is only shuttle users.",
+   "C": "That is $\\frac{84}{200}$, the probability that a visitor used the shuttle, not the asked probability.",
+   "D": "Correct. Among the 84 shuttle users, 36 have a season pass: $\\frac{36}{84} = \\frac{3}{7}$."
+  },
+  "check": "Rational(36, 36 + 48)",
+  "explanation": [
+   "'Of the visitors who used the shuttle' sets the group: the 'Used shuttle' column.",
+   "Denominator: total of that column, $48 + 36 = 84$.",
+   "Numerator: season-pass holders in that column, 36.",
+   "$\\frac{36}{84} = \\frac{3}{7}$."
+  ]
+ },
+ {
+  "id": "pt5-mock-a-m-02",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$3(x - 2y) = 4y + 2x - 7$$ $$kx + 25y = 12$$ In the given system of equations, $k$ is a constant. If the system has no solution, what is the value of $k$?",
+  "check": "solve(Eq(k*diff(3*(x - 2*y) - 4*y - 2*x + 7, y), 25*diff(3*(x - 2*y) - 4*y - 2*x + 7, x)), k)[0]",
+  "spr_answers": ["-5/2"],
+  "spr_entries": ["-5/2", "-2.5"],
+  "explanation": [
+   "Simplify the first equation: $3x - 6y = 4y + 2x - 7$, so $x - 10y = -7$.",
+   "No solution means parallel lines: the coefficients are proportional, but the constants are not.",
+   "$\\frac{k}{1} = \\frac{25}{-10}$, so $k = -\\frac{5}{2}$.",
+   "Check the constants: $-\\frac{5}{2} \\cdot (-7) = \\frac{35}{2} \\ne 12$, so the lines are parallel and different."
+  ]
+ },
+ {
+  "id": "pt5-mock-a-m-03",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $C(h, k)$, where $h$ and $k$ are constants. The point $A(h + 5, k - \\sqrt{39})$ lies on the circle. Point $B$ also lies on the circle, and angle $ACB$ is a right angle. What is the length of $\\overline{AB}$?",
+  "choices": ["$8$", "$16$", "$2\\sqrt{22}$", "$8\\sqrt{2}$"],
+  "values": ["8", "16", "2*sqrt(22)", "8*sqrt(2)"],
+  "answer": "D",
+  "rationales": {
+   "A": "That is the radius $CA$. $\\overline{AB}$ is the hypotenuse of a right triangle with two legs of length 8.",
+   "B": "That is the diameter. $A$ and $B$ are only $90^\\circ$ apart, not opposite each other.",
+   "C": "You didn't square the 5: $5 + 39 = 44$. The radius squared is $5^2 + 39 = 64$.",
+   "D": "Correct. $r^2 = 5^2 + (\\sqrt{39})^2 = 64$, so $r = 8$ and $AB = \\sqrt{8^2 + 8^2} = 8\\sqrt{2}$."
+  },
+  "check": "sqrt(2)*sqrt(5**2 + sqrt(39)**2)",
+  "explanation": [
+   "The distance from the center to $A$ is the radius: $r^2 = 5^2 + (\\sqrt{39})^2 = 25 + 39 = 64$, so $r = 8$.",
+   "$CA = CB = 8$ (both are radii), and angle $ACB = 90^\\circ$.",
+   "Pythagorean theorem: $AB^2 = 8^2 + 8^2 = 128$, so $AB = 8\\sqrt{2}$."
+  ]
+ },
+ {
+  "id": "pt5-mock-a-m-04",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The polynomial $p$ is defined by $p(x) = x^3 + kx^2 - 7x + 10$, where $k$ is a constant. When $p(x)$ is divided by $x + 3$, the remainder is 13. What is the remainder when $p(x)$ is divided by $x - 1$?",
+  "choices": ["$5$", "$1$", "$17$", "$\\frac{11}{3}$"],
+  "values": ["5", "1", "17", "11/3"],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $p(-3) = 4 + 9k = 13$ gives $k = 1$, and the remainder for $x - 1$ is $p(1) = 1 + 1 - 7 + 10 = 5$.",
+   "B": "That is $k$, not the remainder. You still need to compute $p(1)$.",
+   "C": "Sign slip: dividing by $x - 1$ gives remainder $p(1)$, but you computed $p(-1)$.",
+   "D": "Sign slip at the start: the remainder for $x + 3$ is $p(-3)$, not $p(3)$. That gave $k = -\\frac{1}{3}$."
+  },
+  "check": "(x**3 + k*x**2 - 7*x + 10).subs(k, solve(Eq((x**3 + k*x**2 - 7*x + 10).subs(x, -3), 13), k)[0]).subs(x, 1)",
+  "explanation": [
+   "Remainder theorem: the remainder of $p(x) \\div (x - a)$ is $p(a)$. For $x + 3$, $a = -3$.",
+   "$p(-3) = -27 + 9k + 21 + 10 = 4 + 9k = 13$, so $k = 1$.",
+   "For $x - 1$, $a = 1$: $p(1) = 1 + 1 - 7 + 10 = 5$.",
+   "Desmos way: type $p(x) = x^3 + kx^2 - 7x + 10$ with a slider for $k$, set $p(-3) = 13$, then read $p(1)$."
+  ]
+ },
+ {
+  "id": "pt5-mock-b-m-02",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set P is $y = 2.4x + 18$. Data set R is created by multiplying each $y$-value in data set P by 2.5 and then subtracting 10 from each result. The $x$-values do not change. Which equation gives the line of best fit for data set R?",
+  "choices": ["$y = 6x + 35$", "$y = 2.4x + 35$", "$y = 6x + 45$", "$y = 6x + 8$"],
+  "values": ["Eq(y, 6*x + 35)", "Eq(y, 12/5*x + 35)", "Eq(y, 6*x + 45)", "Eq(y, 6*x + 8)"],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Every $y$ becomes $2.5y - 10$, so the line becomes $y = 2.5(2.4x + 18) - 10 = 6x + 35$.",
+   "B": "Scaling the $y$-values also scales the slope: $2.4 \\times 2.5 = 6$, not $2.4$.",
+   "C": "You scaled the line but forgot to subtract 10 from the intercept.",
+   "D": "You subtracted 10 from the intercept 18 but didn't multiply the intercept by 2.5."
+  },
+  "check": "Eq(y, expand(Rational(5, 2)*(Rational(12, 5)*x + 18) - 10))",
+  "explanation": [
+   "Apply the same change to the whole line: $y_{\\text{new}} = 2.5 \\cdot y_{\\text{old}} - 10$.",
+   "$2.5(2.4x + 18) - 10 = 6x + 45 - 10$.",
+   "So the new line is $y = 6x + 35$: both the slope and the intercept are multiplied by 2.5, then the intercept drops by 10."
+  ]
+ },
+ {
+  "id": "pt5-mock-b-m-03",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Two circular solar panels have radii in the ratio 5 to 2. The power that each panel produces is proportional to its area. Together, the two panels produce 2,320 watts. How many more watts does the larger panel produce than the smaller panel?",
+  "check": "2320*(5**2 - 2**2)/(5**2 + 2**2)",
+  "spr_answers": ["1680"],
+  "spr_entries": ["1680"],
+  "explanation": [
+   "Area grows with the square of the radius, so the areas are in the ratio $5^2 : 2^2 = 25 : 4$.",
+   "Total parts: $25 + 4 = 29$. One part is $2{,}320 \\div 29 = 80$ watts.",
+   "Larger: $25 \\cdot 80 = 2{,}000$. Smaller: $4 \\cdot 80 = 320$.",
+   "Difference: $2{,}000 - 320 = 1{,}680$ watts. (Using $5 : 2$ instead of $25 : 4$ gives the wrong split.)"
+  ]
+ },
+ {
+  "id": "pt5-mock-b-m-04",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = \\frac{(3 - 2x)(4x + 1)}{2x^2 + 9}$. The graph of $y = f(x)$ in the $xy$-plane has a horizontal asymptote $y = c$, where $c$ is a constant. What is the value of $c$?",
+  "choices": ["$4$", "$\\frac{1}{3}$", "$-4$", "$0$"],
+  "values": ["4", "1/3", "-4", "0"],
+  "answer": "C",
+  "rationales": {
+   "A": "Sign slip: the $x^2$ term of the numerator is $(-2x)(4x) = -8x^2$, so the ratio is negative.",
+   "B": "You divided the constant terms: $\\frac{3 \\cdot 1}{9}$. The asymptote comes from the highest-power terms.",
+   "C": "Correct. The numerator's leading term is $-8x^2$ and the denominator's is $2x^2$, so $c = \\frac{-8}{2} = -4$.",
+   "D": "The numerator is degree 2, not degree 1. A zero asymptote needs a lower-degree numerator."
+  },
+  "check": "limit((3 - 2*x)*(4*x + 1)/(2*x**2 + 9), x, oo)",
+  "explanation": [
+   "Multiply out the numerator: $(3 - 2x)(4x + 1) = -8x^2 + 10x + 3$. It is degree 2.",
+   "The denominator is also degree 2, so the asymptote is the ratio of the leading coefficients.",
+   "$c = \\frac{-8}{2} = -4$.",
+   "Desmos way: graph $f$ and zoom out; the graph levels off at $y = -4$."
+  ]
+ },
+ {
+  "id": "pt5-mock-c-m-02",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$2(x + 3y) - x = 14 - x$$ $$ax + 15y = 35 + 3x$$ In the given system of equations, $a$ is a constant. If the system has infinitely many solutions, what is the value of $a$?",
+  "check": "solve(Eq(diff(a*x + 15*y - 35 - 3*x, x)*diff(2*(x + 3*y) - x - (14 - x), y), diff(a*x + 15*y - 35 - 3*x, y)*diff(2*(x + 3*y) - x - (14 - x), x)), a)[0]",
+  "spr_answers": ["8"],
+  "spr_entries": ["8"],
+  "explanation": [
+   "First equation: $2x + 6y - x = 14 - x$, so $2x + 6y = 14$.",
+   "Second equation: move $3x$ to the left: $(a - 3)x + 15y = 35$.",
+   "Infinitely many solutions means one equation is a multiple of the other. $\\frac{15}{6} = \\frac{35}{14} = \\frac{5}{2}$, so the multiplier is $\\frac{5}{2}$.",
+   "$a - 3 = \\frac{5}{2} \\cdot 2 = 5$, so $a = 8$. (Forgetting the $3x$ on the right gives 5.)"
+  ]
+ },
+ {
+  "id": "pt5-mock-c-m-03",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, the graph of $(x - a)^2 + (y + 2a)^2 = 45$ is a circle, where $a$ is a positive constant. The circle passes through the origin. What is the $y$-coordinate of the center of the circle?",
+  "choices": ["$-6$", "$6$", "$3$", "$-2\\sqrt{15}$"],
+  "values": ["-6", "6", "3", "-2*sqrt(15)"],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $a^2 + 4a^2 = 45$ gives $a = 3$, and the center is $(a, -2a) = (3, -6)$.",
+   "B": "Sign slip: $(y + 2a)^2$ means the center's $y$-coordinate is $-2a$, not $2a$.",
+   "C": "That is $a$, the $x$-coordinate of the center, not the $y$-coordinate.",
+   "D": "You didn't square the 2: $(2a)^2 = 4a^2$, not $2a^2$. So $5a^2 = 45$, not $3a^2 = 45$."
+  },
+  "check": "-2*Max(*solve(Eq((0 - a)**2 + (0 + 2*a)**2, 45), a))",
+  "explanation": [
+   "The center of $(x - h)^2 + (y - k)^2 = r^2$ is $(h, k)$. Here $(y + 2a)^2 = (y - (-2a))^2$, so the center is $(a, -2a)$.",
+   "The origin is on the circle: $(0 - a)^2 + (0 + 2a)^2 = 45$, so $5a^2 = 45$ and $a^2 = 9$.",
+   "$a$ is positive, so $a = 3$, and the $y$-coordinate is $-2a = -6$."
+  ]
+ },
+ {
+  "id": "pt5-mock-c-m-04",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The price of a jacket was decreased by $20\\%$. Later, the reduced price was increased to $150\\%$ of the reduced price. The final price was 156 dollars. What was the original price, in dollars?",
+  "choices": ["$78$", "$130$", "$120$", "$104$"],
+  "values": ["78", "130", "120", "104"],
+  "answer": "B",
+  "rationales": {
+   "A": "Read 'to 150%' as 'by 150%': that multiplies by 2.5 instead of 1.5.",
+   "B": "Correct. Original $\\times 0.8 \\times 1.5 = 1.2 \\times$ original $= 156$, so the original is 130.",
+   "C": "You added the percents ($-20\\% + 50\\% = +30\\%$). Successive changes multiply: $0.8 \\times 1.5 = 1.2$.",
+   "D": "You ignored the $20\\%$ decrease and only divided by 1.5."
+  },
+  "check": "156/(Rational(80, 100)*Rational(150, 100))",
+  "explanation": [
+   "Decrease BY $20\\%$: multiply by $0.8$. Increase TO $150\\%$: multiply by $1.5$.",
+   "Overall: original $\\times 0.8 \\times 1.5 =$ original $\\times 1.2$.",
+   "$1.2p = 156$, so $p = 130$.",
+   "Check: $130 \\times 0.8 = 104$, and $104 \\times 1.5 = 156$."
+  ]
+ }
+]

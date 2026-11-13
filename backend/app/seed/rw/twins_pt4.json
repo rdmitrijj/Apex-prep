@@ -19,7 +19,37 @@
    "B": "'Did not require' doesn't connect the complaints to the on-time opening.",
    "C": "Whether objections describe construction has nothing to do with its opening on time.",
    "D": "Complaints wouldn't be expected to celebrate anything; the sentence needs a word for slowing."
-  }
+  },
+  "vocab": [
+   {
+    "word": "delay",
+    "pos": "verb",
+    "meaning_en": "to make something happen later than planned",
+    "meaning_ru": "задерживать, откладывать",
+    "example": "Heavy snow delayed the start of the school day."
+   },
+   {
+    "word": "require",
+    "pos": "verb",
+    "meaning_en": "to need something; to make it necessary",
+    "meaning_ru": "требовать, нуждаться в",
+    "example": "The recipe requires two cups of flour."
+   },
+   {
+    "word": "describe",
+    "pos": "verb",
+    "meaning_en": "to tell what something is like",
+    "meaning_ru": "описывать",
+    "example": "She described the city as quiet and green."
+   },
+   {
+    "word": "celebrate",
+    "pos": "verb",
+    "meaning_en": "to mark a happy event with an activity",
+    "meaning_ru": "праздновать, отмечать",
+    "example": "The team celebrated the win with a dinner."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q01-m",
@@ -41,7 +71,37 @@
    "B": "The reviews didn't foresee success; they expected the opposite.",
    "C": "Reviews don't record a later success, and this ignores the 'however' contrast.",
    "D": "Negative criticism wouldn't be expected to boost success, and 'did little to' signals it failed to block it."
-  }
+  },
+  "vocab": [
+   {
+    "word": "impede",
+    "pos": "verb",
+    "meaning_en": "to slow down or get in the way of progress",
+    "meaning_ru": "препятствовать, мешать",
+    "example": "Fallen trees impeded the rescue crews."
+   },
+   {
+    "word": "predict",
+    "pos": "verb",
+    "meaning_en": "to say what will happen in the future",
+    "meaning_ru": "предсказывать, прогнозировать",
+    "example": "Forecasters predict rain for the weekend."
+   },
+   {
+    "word": "document",
+    "pos": "verb",
+    "meaning_en": "to record something in writing, photos, or data",
+    "meaning_ru": "документировать, фиксировать",
+    "example": "The nurse documented every change in the patient's condition."
+   },
+   {
+    "word": "enhance",
+    "pos": "verb",
+    "meaning_en": "to improve or increase the quality of something",
+    "meaning_ru": "улучшать, усиливать",
+    "example": "Good lighting enhances the colors in a painting."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q01-h",
@@ -63,7 +123,37 @@
    "B": "'Mirror' (reflect) doesn't connect the failed strike to the later laws.",
    "C": "Correct. 'Thwart' means to prevent; the broader aims were later achieved, so the strikes didn't fully prevent them.",
    "D": "Nothing in the text concerns hiding the organizers' aims."
-  }
+  },
+  "vocab": [
+   {
+    "word": "advance",
+    "pos": "verb",
+    "meaning_en": "to move forward; to help something progress",
+    "meaning_ru": "продвигать, способствовать",
+    "example": "The grant advanced her research by several years."
+   },
+   {
+    "word": "mirror",
+    "pos": "verb",
+    "meaning_en": "to closely copy or reflect something",
+    "meaning_ru": "отражать, повторять",
+    "example": "The novel's plot mirrors the author's own childhood."
+   },
+   {
+    "word": "thwart",
+    "pos": "verb",
+    "meaning_en": "to stop someone from achieving a goal",
+    "meaning_ru": "сорвать, помешать (планам)",
+    "example": "A sudden storm thwarted the climbers' attempt to reach the summit."
+   },
+   {
+    "word": "conceal",
+    "pos": "verb",
+    "meaning_en": "to hide something",
+    "meaning_ru": "скрывать, прятать",
+    "example": "He tried to conceal his disappointment with a smile."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q02-e",
@@ -85,7 +175,37 @@
    "B": "Correct. She mostly keeps to the old methods and only occasionally changes something.",
    "C": "Recipes can't forget methods, and this contradicts the occasional changes.",
    "D": "If the recipes rejected the methods, 'occasionally changes' would make no sense."
-  }
+  },
+  "vocab": [
+   {
+    "word": "invent",
+    "pos": "verb",
+    "meaning_en": "to create something new that did not exist before",
+    "meaning_ru": "изобретать, придумывать",
+    "example": "Who invented the first telephone?"
+   },
+   {
+    "word": "follow",
+    "pos": "verb",
+    "meaning_en": "to act according to instructions, rules, or an example",
+    "meaning_ru": "следовать, соблюдать",
+    "example": "Please follow the directions on the label."
+   },
+   {
+    "word": "forget",
+    "pos": "verb",
+    "meaning_en": "to fail to remember something",
+    "meaning_ru": "забывать",
+    "example": "I forgot my umbrella at the station."
+   },
+   {
+    "word": "reject",
+    "pos": "verb",
+    "meaning_en": "to refuse to accept something",
+    "meaning_ru": "отвергать, отклонять",
+    "example": "The editor rejected the article as too long."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q02-m",
@@ -107,7 +227,37 @@
    "B": "Performing songs isn't commenting on their arrangements.",
    "C": "This reverses the logic: 'though' introduces the exceptions, so the general rule is keeping tradition.",
    "D": "Correct. They mostly keep the traditional arrangements, with occasional exceptions."
-  }
+  },
+  "vocab": [
+   {
+    "word": "compete with",
+    "pos": "phrase",
+    "meaning_en": "to try to do better than someone or something",
+    "meaning_ru": "соперничать с, конкурировать с",
+    "example": "Small shops struggle to compete with online stores."
+   },
+   {
+    "word": "comment on",
+    "pos": "phrase",
+    "meaning_en": "to give an opinion or remark about something",
+    "meaning_ru": "комментировать, высказываться о",
+    "example": "The coach refused to comment on the trade rumors."
+   },
+   {
+    "word": "depart from",
+    "pos": "phrase",
+    "meaning_en": "to do something different from what is usual or expected",
+    "meaning_ru": "отступать от, отклоняться от",
+    "example": "The chef rarely departs from her grandmother's recipes."
+   },
+   {
+    "word": "conform to",
+    "pos": "phrase",
+    "meaning_en": "to follow a rule, standard, or accepted pattern",
+    "meaning_ru": "соответствовать, следовать (нормам)",
+    "example": "All new buildings must conform to the safety code."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q02-h",
@@ -129,7 +279,37 @@
    "B": "The topic is tradition, but 'rarely adheres to' contradicts houses 'rooted in' that tradition.",
    "C": "'Rarely replicates' would mean she seldom copies the tradition, which contradicts 'rooted in.'",
    "D": "Correct. She rarely leaves the traditional proportions and materials; the glass is her deliberate exception."
-  }
+  },
+  "vocab": [
+   {
+    "word": "documents",
+    "pos": "phrase",
+    "meaning_en": "records something in writing, photos, or data",
+    "meaning_ru": "документирует, фиксирует",
+    "example": "The film documents a year in the life of a farming family."
+   },
+   {
+    "word": "adheres to",
+    "pos": "phrase",
+    "meaning_en": "follows a rule, plan, or practice closely",
+    "meaning_ru": "придерживается, строго следует",
+    "example": "The company adheres to strict environmental standards."
+   },
+   {
+    "word": "replicates",
+    "pos": "phrase",
+    "meaning_en": "copies something exactly; repeats it",
+    "meaning_ru": "воспроизводит, копирует",
+    "example": "The museum's model replicates the original ship in every detail."
+   },
+   {
+    "word": "deviates from",
+    "pos": "phrase",
+    "meaning_en": "moves away from what is usual or planned",
+    "meaning_ru": "отклоняется от, отступает от",
+    "example": "The pilot never deviates from the flight plan without permission."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q05-e",
@@ -151,7 +331,37 @@
    "B": "They made estimates, so they didn't ignore the question.",
    "C": "Correct. With no records or instruments, they could only estimate roughly, and the estimates were wrong.",
    "D": "You can't prove something with no evidence, and their estimates turned out wrong."
-  }
+  },
+  "vocab": [
+   {
+    "word": "measure",
+    "pos": "verb",
+    "meaning_en": "to find the exact size, amount, or degree of something",
+    "meaning_ru": "измерять",
+    "example": "The nurse measured the child's height."
+   },
+   {
+    "word": "ignore",
+    "pos": "verb",
+    "meaning_en": "to pay no attention to something",
+    "meaning_ru": "игнорировать, не обращать внимания",
+    "example": "He ignored the warning signs and kept driving."
+   },
+   {
+    "word": "guess",
+    "pos": "verb",
+    "meaning_en": "to give an answer without being sure it is correct",
+    "meaning_ru": "угадывать, предполагать наугад",
+    "example": "Can you guess how old this tree is?"
+   },
+   {
+    "word": "prove",
+    "pos": "verb",
+    "meaning_en": "to show that something is true",
+    "meaning_ru": "доказывать",
+    "example": "The lawyer proved that her client was innocent."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q05-m",
@@ -173,7 +383,37 @@
    "B": "'Fabricate' means to invent falsely, but the route was based on real letters and later confirmed.",
    "C": "'Contrive' means to create artificially or by trickery; the researchers honestly reasoned from evidence.",
    "D": "'Declare' means to state officially; it misses the idea of working from clues."
-  }
+  },
+  "vocab": [
+   {
+    "word": "inferred",
+    "pos": "verb",
+    "meaning_en": "worked out from evidence and reasoning",
+    "meaning_ru": "вывели, установили (на основе данных)",
+    "example": "From the footprints, the guide inferred that a bear had passed by."
+   },
+   {
+    "word": "fabricated",
+    "pos": "verb",
+    "meaning_en": "invented something false in order to deceive",
+    "meaning_ru": "сфабриковали, выдумали",
+    "example": "The reporter was fired after he fabricated several quotes."
+   },
+   {
+    "word": "contrived",
+    "pos": "verb",
+    "meaning_en": "created or arranged in an artificial or clever way",
+    "meaning_ru": "искусно устроили, ухитрились (устроить)",
+    "example": "The prisoners contrived a way to send messages to each other."
+   },
+   {
+    "word": "declared",
+    "pos": "verb",
+    "meaning_en": "stated something officially or firmly",
+    "meaning_ru": "объявили, заявили",
+    "example": "The judges declared the race a tie."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q05-h",
@@ -195,7 +435,37 @@
    "B": "The scientists held the belief; they didn't argue against it.",
    "C": "Correct. 'Presume' means to assume without proof; the belief rested on thin evidence and proved wrong.",
    "D": "'Contrive' means to create by trickery; nothing suggests the scientists were deceptive."
-  }
+  },
+  "vocab": [
+   {
+    "word": "verified",
+    "pos": "verb",
+    "meaning_en": "checked and confirmed that something is true",
+    "meaning_ru": "проверили и подтвердили",
+    "example": "The bank verified her identity before opening the account."
+   },
+   {
+    "word": "disputed",
+    "pos": "verb",
+    "meaning_en": "argued that something is not true or correct",
+    "meaning_ru": "оспаривали",
+    "example": "The company disputed the newspaper's figures."
+   },
+   {
+    "word": "presumed",
+    "pos": "verb",
+    "meaning_en": "believed something to be true without proof",
+    "meaning_ru": "предполагали, считали (без доказательств)",
+    "example": "Everyone presumed the old house was empty."
+   },
+   {
+    "word": "contrived",
+    "pos": "verb",
+    "meaning_en": "created or arranged in an artificial or clever way",
+    "meaning_ru": "искусно устроили, ухитрились (устроить)",
+    "example": "She contrived a meeting with the director at the conference."
+   }
+  ]
  },
  {
   "id": "rw-tw-m1q12-e",
@@ -717,7 +987,37 @@
    "B": "Correct. 'On the other hand' contrasts polluted sections with unpolluted ones.",
    "C": "Popularity has nothing to do with pollution.",
    "D": "Depth isn't the contrast; the first sentence is about pollution."
-  }
+  },
+  "vocab": [
+   {
+    "word": "ancient",
+    "pos": "adjective",
+    "meaning_en": "very old; from a long time ago",
+    "meaning_ru": "древний",
+    "example": "The museum displays ancient coins from Greece."
+   },
+   {
+    "word": "clean",
+    "pos": "adjective",
+    "meaning_en": "free from dirt or pollution",
+    "meaning_ru": "чистый",
+    "example": "The hotel offers clean, quiet rooms."
+   },
+   {
+    "word": "popular",
+    "pos": "adjective",
+    "meaning_en": "liked by many people",
+    "meaning_ru": "популярный",
+    "example": "The café is popular with students."
+   },
+   {
+    "word": "shallow",
+    "pos": "adjective",
+    "meaning_en": "not deep",
+    "meaning_ru": "мелкий, неглубокий",
+    "example": "The children played in the shallow end of the pool."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q02-m",
@@ -739,7 +1039,37 @@
    "B": "This describes the salty-soil seedlings, ignoring 'by contrast.'",
    "C": "Being alike in size isn't the opposite of being stunted.",
    "D": "Correct. 'Vigorous' (strong, growing well) is the opposite of 'stunted and pale.'"
-  }
+  },
+  "vocab": [
+   {
+    "word": "dormant",
+    "pos": "adjective",
+    "meaning_en": "inactive for a period, as if asleep",
+    "meaning_ru": "бездействующий, в состоянии покоя",
+    "example": "The volcano has been dormant for centuries."
+   },
+   {
+    "word": "fragile",
+    "pos": "adjective",
+    "meaning_en": "easily broken or damaged",
+    "meaning_ru": "хрупкий",
+    "example": "Pack the fragile glasses in paper."
+   },
+   {
+    "word": "uniform",
+    "pos": "adjective",
+    "meaning_en": "the same everywhere; not varying",
+    "meaning_ru": "однородный, одинаковый",
+    "example": "The tiles are of uniform size and color."
+   },
+   {
+    "word": "vigorous",
+    "pos": "adjective",
+    "meaning_en": "strong, healthy, and growing well",
+    "meaning_ru": "здоровый, крепкий, буйно растущий",
+    "example": "After the rain, the tomato plants looked vigorous and green."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q02-h",
@@ -761,7 +1091,37 @@
    "B": "Emotion isn't the contrast; structure is.",
    "C": "'Obscure' (hard to understand) doesn't match a simple, focused structure.",
    "D": "Correct. 'Spare' means plain and without extra parts, the opposite of 'cluttered.'"
-  }
+  },
+  "vocab": [
+   {
+    "word": "ornate",
+    "pos": "adjective",
+    "meaning_en": "heavily decorated with complicated details",
+    "meaning_ru": "витиеватый, богато украшенный",
+    "example": "The palace has ornate ceilings covered in gold leaf."
+   },
+   {
+    "word": "sentimental",
+    "pos": "adjective",
+    "meaning_en": "showing strong, often excessive, tender feelings",
+    "meaning_ru": "сентиментальный",
+    "example": "She keeps her old letters for sentimental reasons."
+   },
+   {
+    "word": "obscure",
+    "pos": "adjective",
+    "meaning_en": "not well known; or hard to understand",
+    "meaning_ru": "малоизвестный; неясный",
+    "example": "The quote comes from an obscure nineteenth-century poet."
+   },
+   {
+    "word": "spare",
+    "pos": "adjective",
+    "meaning_en": "simple and without extra detail or decoration",
+    "meaning_ru": "скупой, лаконичный, без излишеств",
+    "example": "The room was spare: a bed, a desk, and a single lamp."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q03-e",
@@ -783,7 +1143,37 @@
    "B": "Correct. 'Admit' means to accept as true after doubting, which matches the change of mind.",
    "C": "They used the idea, so they didn't prevent anything.",
    "D": "Demanding doesn't fit a change from doubt to acceptance."
-  }
+  },
+  "vocab": [
+   {
+    "word": "ensured",
+    "pos": "verb",
+    "meaning_en": "made certain that something would happen",
+    "meaning_ru": "обеспечили, гарантировали",
+    "example": "Extra staff ensured that the event ran smoothly."
+   },
+   {
+    "word": "admitted",
+    "pos": "verb",
+    "meaning_en": "agreed, often unwillingly, that something is true",
+    "meaning_ru": "признали",
+    "example": "He admitted that he had made a mistake."
+   },
+   {
+    "word": "prevented",
+    "pos": "verb",
+    "meaning_en": "stopped something from happening",
+    "meaning_ru": "предотвратили, не допустили",
+    "example": "Quick action prevented the fire from spreading."
+   },
+   {
+    "word": "demanded",
+    "pos": "verb",
+    "meaning_en": "asked for something firmly, as a right",
+    "meaning_ru": "потребовали",
+    "example": "The workers demanded higher wages."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q03-m",
@@ -805,7 +1195,37 @@
    "B": "'Ensure' means to make certain something happens; experts don't 'ensure' a proof as correct.",
    "C": "Copying a proof isn't accepting it as correct.",
    "D": "Correct. 'Recognized as correct' matches 'this acceptance.'"
-  }
+  },
+  "vocab": [
+   {
+    "word": "questioned",
+    "pos": "verb",
+    "meaning_en": "expressed doubt about something",
+    "meaning_ru": "подвергали сомнению",
+    "example": "Several scientists questioned the study's results."
+   },
+   {
+    "word": "ensured",
+    "pos": "verb",
+    "meaning_en": "made certain that something would happen",
+    "meaning_ru": "обеспечили, гарантировали",
+    "example": "The new rules ensured that every vote was counted."
+   },
+   {
+    "word": "imitated",
+    "pos": "verb",
+    "meaning_en": "copied the way someone or something acts",
+    "meaning_ru": "подражали, имитировали",
+    "example": "The child imitated her father's deep voice."
+   },
+   {
+    "word": "recognized",
+    "pos": "verb",
+    "meaning_en": "accepted officially or generally as valid or true",
+    "meaning_ru": "признавали (верным, законным)",
+    "example": "The painting is now recognized as a masterpiece."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q03-h",
@@ -827,7 +1247,37 @@
    "B": "Correct. 'Concede' means to admit something is true, often reluctantly, which matches the 'reversal.'",
    "C": "Hiding the merit isn't a reversal that newspapers would report.",
    "D": "'Ensure' means to make certain; you can't 'ensure the merit' of a past warning."
-  }
+  },
+  "vocab": [
+   {
+    "word": "inflate",
+    "pos": "verb",
+    "meaning_en": "to make something seem bigger or more important than it is",
+    "meaning_ru": "раздувать, преувеличивать",
+    "example": "Some sellers inflate the value of their used cars."
+   },
+   {
+    "word": "concede",
+    "pos": "verb",
+    "meaning_en": "to admit, often unwillingly, that something is true",
+    "meaning_ru": "признать (неохотно), согласиться",
+    "example": "The mayor conceded that the project had cost too much."
+   },
+   {
+    "word": "conceal",
+    "pos": "verb",
+    "meaning_en": "to hide something",
+    "meaning_ru": "скрывать, прятать",
+    "example": "She could not conceal her excitement."
+   },
+   {
+    "word": "ensure",
+    "pos": "verb",
+    "meaning_en": "to make certain that something happens",
+    "meaning_ru": "обеспечивать, гарантировать",
+    "example": "Please ensure that all windows are closed."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q04-e",
@@ -849,7 +1299,37 @@
    "B": "Correct. Teachers put the approved plan into action.",
    "C": "'Improvise' means to act without a plan, but this plan was detailed and approved.",
    "D": "They 'began to' act on it, so they didn't postpone it."
-  }
+  },
+  "vocab": [
+   {
+    "word": "criticize",
+    "pos": "phrase",
+    "meaning_en": "to say what is wrong with something",
+    "meaning_ru": "критиковать",
+    "example": "Reviewers criticized the film's slow pace."
+   },
+   {
+    "word": "carry out",
+    "pos": "phrase",
+    "meaning_en": "to put a plan or task into action",
+    "meaning_ru": "выполнять, осуществлять",
+    "example": "The nurses carried out the doctor's instructions."
+   },
+   {
+    "word": "improvise",
+    "pos": "phrase",
+    "meaning_en": "to do something without a plan or preparation",
+    "meaning_ru": "импровизировать",
+    "example": "When the microphone failed, the speaker had to improvise."
+   },
+   {
+    "word": "postpone",
+    "pos": "phrase",
+    "meaning_en": "to move an event to a later time",
+    "meaning_ru": "откладывать, переносить",
+    "example": "The match was postponed because of rain."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q04-m",
@@ -871,7 +1351,37 @@
    "B": "Correct. 'Execute' (put into effect) matches the department's concrete work.",
    "C": "'Improvise' means to act without preparation; the department followed the law's requirements.",
    "D": "The council already passed the law; the department didn't write it."
-  }
+  },
+  "vocab": [
+   {
+    "word": "repealing",
+    "pos": "verb",
+    "meaning_en": "officially canceling a law",
+    "meaning_ru": "отмена (закона)",
+    "example": "Voters approved repealing the old parking tax."
+   },
+   {
+    "word": "executing",
+    "pos": "verb",
+    "meaning_en": "carrying out a plan, order, or law",
+    "meaning_ru": "исполнение, выполнение",
+    "example": "The manager is responsible for executing the new strategy."
+   },
+   {
+    "word": "improvising",
+    "pos": "verb",
+    "meaning_en": "doing something without a plan or preparation",
+    "meaning_ru": "импровизация",
+    "example": "Improvising a speech is harder than reading one."
+   },
+   {
+    "word": "drafting",
+    "pos": "verb",
+    "meaning_en": "writing the first version of a document",
+    "meaning_ru": "составление (проекта документа)",
+    "example": "Lawyers spent weeks drafting the contract."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q04-h",
@@ -893,7 +1403,37 @@
    "B": "Translating commitments into procedures is following them, not acting without preparation.",
    "C": "Announcing the agreements isn't the work described.",
    "D": "Governments ratify (formally approve) agreements; customs officers don't."
-  }
+  },
+  "vocab": [
+   {
+    "word": "administering",
+    "pos": "verb",
+    "meaning_en": "managing and putting into effect",
+    "meaning_ru": "реализация, применение, управление",
+    "example": "The agency is in charge of administering the scholarship program."
+   },
+   {
+    "word": "improvising",
+    "pos": "verb",
+    "meaning_en": "doing something without a plan or preparation",
+    "meaning_ru": "импровизация",
+    "example": "The band is known for improvising long solos."
+   },
+   {
+    "word": "publicizing",
+    "pos": "verb",
+    "meaning_en": "making something widely known",
+    "meaning_ru": "огласка, реклама, популяризация",
+    "example": "The volunteers spent the week publicizing the charity concert."
+   },
+   {
+    "word": "ratifying",
+    "pos": "verb",
+    "meaning_en": "formally approving an agreement so it takes effect",
+    "meaning_ru": "ратификация, официальное утверждение",
+    "example": "Ratifying the treaty required a two-thirds vote."
+   }
+  ]
  },
  {
   "id": "rw-tw-m2q11-e",

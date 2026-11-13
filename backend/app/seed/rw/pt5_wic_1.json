@@ -1,0 +1,978 @@
+[
+  {
+    "id": "pt5-rw-wic-001",
+    "modeled_on": "bb-pt5-rw-a-q2",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "freezing water used to split granite",
+    "fictional": true,
+    "passage": "Quarry engineer Mireya Castell needed to split large blocks of granite without explosives, which could crack the stone she wanted to sell. Her crews drilled rows of holes, filled them with water, and waited for winter: as the water froze, it expanded and slowly forced the rock apart. Castell had ______ a familiar property of water to do work that once required dynamite.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "redefined",
+      "exploited",
+      "discounted",
+      "rationalized"
+    ],
+    "answer": "B",
+    "explanation": "Castell made productive use of the fact that freezing water expands. 'Exploited' has exactly this meaning here.",
+    "steps": [
+      "Cover the choices. Ask: what did Castell do with the property of water? She used it to split rock.",
+      "Predict a word: 'used' or 'took advantage of'.",
+      "'Exploit' has a neutral meaning, to make productive use of something, not only 'to abuse'.",
+      "'Redefined', 'discounted', and 'rationalized' do not mean 'used'."
+    ],
+    "strategy_tip": "Predict a simple word like 'used' first, then find the choice with that meaning, even if it has a second, negative meaning.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: Castell did not change the meaning or limits of the property; she put it to work.",
+      "B": "Correct. 'Exploited' here means made productive use of; Castell used the expansion of freezing water to split rock.",
+      "C": "Opposite of the clue: To discount the property is to ignore it, but her whole method depended on it.",
+      "D": "Wrong meaning: To rationalize is to justify something with reasons; nothing here is being justified."
+    },
+    "traps": {
+      "A": "fits the topic but not the logic",
+      "C": "opposite of the clue",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "exploited",
+        "pos": "verb",
+        "meaning_en": "made full, productive use of something",
+        "meaning_ru": "использовал (с выгодой), эксплуатировал",
+        "example": "The farmers exploited the steady wind by building small mills on the hill."
+      },
+      {
+        "word": "redefined",
+        "pos": "verb",
+        "meaning_en": "changed the meaning or the limits of something",
+        "meaning_ru": "переопределил, по-новому определил",
+        "example": "The new rule redefined who counts as a full-time worker."
+      },
+      {
+        "word": "discounted",
+        "pos": "verb",
+        "meaning_en": "treated something as unimportant or untrue",
+        "meaning_ru": "не принял во внимание, отбросил",
+        "example": "The judge discounted the witness's story because it changed twice."
+      },
+      {
+        "word": "rationalized",
+        "pos": "verb",
+        "meaning_en": "gave reasons to make an action seem acceptable, often after it happened",
+        "meaning_ru": "оправдал, нашёл рациональное объяснение",
+        "example": "He rationalized skipping practice by saying he was saving energy for the match."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-002",
+    "modeled_on": "bb-pt5-rw-b-q3",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "university students in reading-speed studies",
+    "fictional": true,
+    "passage": "Most published studies of reading speed have tested only university students, a group that reads far more each day than the average adult. Linguist Tomas Rehn argues that this narrow pool makes the results hard to apply to the wider public. Recruiting participants of many ages and occupations, he says, would ______ this problem, though it would also make studies slower and more expensive.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "rationalize",
+      "postulate",
+      "sanction",
+      "ameliorate"
+    ],
+    "answer": "D",
+    "explanation": "A wider pool of participants would make the narrow-pool problem better. 'Ameliorate' means to improve a bad situation.",
+    "steps": [
+      "Find the clue: 'this problem' is the narrow pool of subjects.",
+      "Ask what recruiting many kinds of people does to that problem: it reduces it.",
+      "Predict 'improve' or 'fix', and match it to 'ameliorate'.",
+      "'Rationalize' would justify the problem, which is the opposite of Rehn's goal."
+    ],
+    "strategy_tip": "When the blank acts on 'this problem', decide first whether the action fixes it, excuses it, or ignores it.",
+    "rationales": {
+      "A": "Wrong meaning: To rationalize the problem would be to justify or excuse it, but Rehn wants to fix it.",
+      "B": "Wrong meaning: To postulate is to propose that something is true; the problem is already known, not proposed.",
+      "C": "Wrong meaning: To sanction is to officially approve (or to punish); recruiting new groups does neither to a problem.",
+      "D": "Correct. 'Ameliorate' means to make a bad situation better; a wider pool would reduce the problem."
+    },
+    "traps": {
+      "A": "wrong meaning",
+      "B": "wrong meaning",
+      "C": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "rationalize",
+        "pos": "verb",
+        "meaning_en": "to give reasons that make something seem acceptable",
+        "meaning_ru": "оправдывать, находить рациональное объяснение",
+        "example": "She tried to rationalize her late arrival by blaming the traffic."
+      },
+      {
+        "word": "postulate",
+        "pos": "verb",
+        "meaning_en": "to suggest that something is true, as a basis for reasoning",
+        "meaning_ru": "постулировать, выдвигать предположение",
+        "example": "The astronomer postulated a hidden planet to explain the strange orbit."
+      },
+      {
+        "word": "sanction",
+        "pos": "verb",
+        "meaning_en": "to officially approve or allow something (it can also mean to punish)",
+        "meaning_ru": "санкционировать, официально разрешать (также: наказывать)",
+        "example": "The school board sanctioned a longer lunch break for younger pupils."
+      },
+      {
+        "word": "ameliorate",
+        "pos": "verb",
+        "meaning_en": "to make a bad or difficult situation better",
+        "meaning_ru": "улучшать, смягчать (плохую ситуацию)",
+        "example": "Planting trees along the street helped ameliorate the summer heat."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-003",
+    "modeled_on": "bb-pt5-ref-impending",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "terns moving chicks before storm surges",
+    "fictional": true,
+    "passage": "Seabird researcher Ilona Prask spent four seasons watching a colony of terns on the low island of Kesh. About a day before each large storm surge, the adult birds began moving their chicks to higher ground, even when the sky was still clear. Prask suspects the terns detect a change in air pressure that warns them of the ______ flooding.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "impending",
+      "antecedent",
+      "innocuous",
+      "perpetual"
+    ],
+    "answer": "A",
+    "explanation": "The birds act a day before the surge, so the flooding is about to happen. 'Impending' means coming soon.",
+    "steps": [
+      "Find the time clue: the birds move their chicks 'about a day before' the surge.",
+      "A warning is about something in the future, so predict 'coming' or 'approaching'.",
+      "'Impending' means about to happen; 'antecedent' means the reverse, happening before."
+    ],
+    "strategy_tip": "Check the time order in the passage: a warning always points to something that has not happened yet.",
+    "rationales": {
+      "A": "Correct. 'Impending' means about to happen; the birds react a day before the flooding arrives.",
+      "B": "Wrong direction in time: 'Antecedent' means coming before something else, but the flooding comes after the warning.",
+      "C": "Opposite of the clue: The birds move their chicks to safety, so the flooding is not harmless.",
+      "D": "Not supported: The flooding comes with each surge; nothing says it never ends."
+    },
+    "traps": {
+      "B": "wrong direction in time",
+      "C": "opposite of the clue",
+      "D": "not supported"
+    },
+    "vocab": [
+      {
+        "word": "impending",
+        "pos": "adjective",
+        "meaning_en": "about to happen soon (usually something bad)",
+        "meaning_ru": "надвигающийся, неминуемый",
+        "example": "Dark clouds over the hills signaled an impending storm."
+      },
+      {
+        "word": "antecedent",
+        "pos": "adjective",
+        "meaning_en": "existing or happening before something else",
+        "meaning_ru": "предшествующий",
+        "example": "Historians studied the antecedent events that led to the strike."
+      },
+      {
+        "word": "innocuous",
+        "pos": "adjective",
+        "meaning_en": "harmless; not likely to hurt or upset anyone",
+        "meaning_ru": "безобидный, безвредный",
+        "example": "The snake looked dangerous, but it was completely innocuous."
+      },
+      {
+        "word": "perpetual",
+        "pos": "adjective",
+        "meaning_en": "never ending or changing; continuous",
+        "meaning_ru": "вечный, непрекращающийся",
+        "example": "The old house seemed to be in a state of perpetual repair."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-004",
+    "modeled_on": "bb-pt5-ref-overtly",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "a novelist attacking mill owners",
+    "fictional": true,
+    "passage": "Earlier novelists of the Darrow valley criticized the local mill owners only indirectly, hiding their complaints inside fables about clever foxes and greedy wolves. Ines Calloway took a different approach. In her 1911 novel \"The Long Shift,\" she ______ attacked the owners, naming their mills, quoting their wage lists, and describing the injuries workers suffered on their machines.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "inadvertently",
+      "prudently",
+      "overtly",
+      "cordially"
+    ],
+    "answer": "C",
+    "explanation": "Calloway did the opposite of hiding her criticism: she named mills and quoted wage lists. 'Overtly' means openly.",
+    "steps": [
+      "Find the contrast: earlier writers criticized 'indirectly'; Calloway 'took a different approach'.",
+      "The opposite of 'indirectly, hiding' is 'openly'.",
+      "Naming mills and quoting wage lists confirms it: predict 'openly', which is 'overtly'."
+    ],
+    "strategy_tip": "When the text says 'a different approach', predict the opposite of the approach described before it.",
+    "rationales": {
+      "A": "Opposite of the clue: Naming mills and quoting wage lists was deliberate, not accidental.",
+      "B": "Describes the wrong group: Careful, cautious criticism fits the earlier fable writers, not Calloway's different approach.",
+      "C": "Correct. 'Overtly' means openly; unlike the hidden criticism of earlier writers, Calloway named the mills directly.",
+      "D": "Wrong meaning: 'Cordially' means in a warm, friendly way, which does not fit an attack."
+    },
+    "traps": {
+      "A": "opposite of the clue",
+      "B": "describes the wrong group",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "inadvertently",
+        "pos": "adverb",
+        "meaning_en": "by accident; without meaning to",
+        "meaning_ru": "нечаянно, непреднамеренно",
+        "example": "I inadvertently deleted the file while cleaning my desktop."
+      },
+      {
+        "word": "prudently",
+        "pos": "adverb",
+        "meaning_en": "carefully, in a way that avoids risk",
+        "meaning_ru": "благоразумно, осмотрительно",
+        "example": "She prudently saved part of every paycheck."
+      },
+      {
+        "word": "overtly",
+        "pos": "adverb",
+        "meaning_en": "openly, in a way that is not hidden",
+        "meaning_ru": "открыто, явно",
+        "example": "The manager overtly criticized the plan during the meeting."
+      },
+      {
+        "word": "cordially",
+        "pos": "adverb",
+        "meaning_en": "in a warm and friendly way",
+        "meaning_ru": "радушно, сердечно",
+        "example": "The hosts cordially welcomed every guest at the door."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-005",
+    "modeled_on": "bb-pt5-rw-b-q5",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a botanist's field notebooks",
+    "fictional": true,
+    "passage": "While recent scholarship has undermined claims that the field notebooks of botanist Halvard Ruen were ______ to his published work, showing instead that several of his best-known theories first appeared in those notebooks, most libraries still catalog the notebooks as minor personal papers rather than as scientific documents.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "indispensable",
+      "antecedent",
+      "inconsequential",
+      "hostile"
+    ],
+    "answer": "C",
+    "explanation": "Scholars rejected a claim by showing the notebooks were important. So the rejected claim was that they were unimportant: 'inconsequential'.",
+    "steps": [
+      "Find the negation: scholars 'undermined claims that' the notebooks were ______.",
+      "What did scholars show 'instead'? That key theories started in the notebooks, so the notebooks mattered.",
+      "The rejected claim is the opposite of what they showed: the notebooks did not matter.",
+      "Predict 'unimportant', which is 'inconsequential'. 'Most libraries still' treat them as minor fits this."
+    ],
+    "strategy_tip": "With 'undermined claims that X was ___', the blank is the opposite of what the evidence shows.",
+    "rationales": {
+      "A": "Missed the negation: 'Indispensable' matches what scholars showed, but the blank names the claim they rejected.",
+      "B": "Missed the negation: The theories first appeared in the notebooks, so they did come before; scholars would support that claim, not undermine it.",
+      "C": "Correct. 'Inconsequential' means unimportant; scholars undermined this claim by showing that his theories began in the notebooks.",
+      "D": "Not supported: Nothing suggests anyone claimed that the notebooks opposed his published work."
+    },
+    "traps": {
+      "A": "missed the negation",
+      "B": "missed the negation",
+      "D": "not supported"
+    },
+    "vocab": [
+      {
+        "word": "indispensable",
+        "pos": "adjective",
+        "meaning_en": "absolutely necessary",
+        "meaning_ru": "незаменимый, необходимый",
+        "example": "A good map is indispensable to hikers in this area."
+      },
+      {
+        "word": "antecedent",
+        "pos": "adjective",
+        "meaning_en": "existing or happening before something else",
+        "meaning_ru": "предшествующий",
+        "example": "Horse-drawn carts were antecedent to the first steam trains on this route."
+      },
+      {
+        "word": "inconsequential",
+        "pos": "adjective",
+        "meaning_en": "not important; having little or no effect",
+        "meaning_ru": "незначительный, несущественный",
+        "example": "The typing error was inconsequential to the final result."
+      },
+      {
+        "word": "hostile",
+        "pos": "adjective",
+        "meaning_en": "strongly opposed to something",
+        "meaning_ru": "враждебный, настроенный против",
+        "example": "Some villagers were hostile to the plan for a new highway."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-006",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "fishers' reports of shrinking eel runs",
+    "fictional": true,
+    "passage": "For decades, fishers along the Merrow estuary had reported that the spring eel runs were shrinking, but their accounts rarely appeared in scientific surveys. Far from ______ these reports as mere stories, marine biologist Petra Ossin built her 2019 study around them, interviewing more than eighty fishers and then testing each of their claims with net counts.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "discounting",
+      "exploiting",
+      "sanctioning",
+      "postulating"
+    ],
+    "answer": "A",
+    "explanation": "'Far from' means Ossin did the opposite of the blank. She took the reports seriously, so the blank means dismissing them: 'discounting'.",
+    "steps": [
+      "Find the negation: 'Far from ______' means 'not at all ______'.",
+      "What did Ossin actually do? She built her study around the reports.",
+      "So the blank is the opposite: ignoring or dismissing the reports.",
+      "'As mere stories' confirms it: you dismiss something as mere stories."
+    ],
+    "strategy_tip": "'Far from X, she did Y' means X is the opposite of Y; predict the opposite of what she did.",
+    "rationales": {
+      "A": "Correct. 'Discounting' means dismissing as unimportant; 'far from' tells you Ossin did the opposite and took the reports seriously.",
+      "B": "Missed the negation: Ossin did make use of the reports, so she was not 'far from exploiting' them.",
+      "C": "Missed the negation: Approving of the reports is close to what Ossin did, so 'far from sanctioning' them contradicts the text.",
+      "D": "Wrong meaning: You postulate a theory, not other people's reports; 'as mere stories' needs a word for dismissing."
+    },
+    "traps": {
+      "B": "missed the negation",
+      "C": "missed the negation",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "discounting",
+        "pos": "verb",
+        "meaning_en": "treating something as unimportant or untrue",
+        "meaning_ru": "отбрасывая, не принимая всерьёз",
+        "example": "Discounting the weather report, the climbers set off and were caught in snow."
+      },
+      {
+        "word": "exploiting",
+        "pos": "verb",
+        "meaning_en": "making full, productive use of something",
+        "meaning_ru": "используя (с выгодой)",
+        "example": "Exploiting the morning light, the photographer finished the shoot early."
+      },
+      {
+        "word": "sanctioning",
+        "pos": "verb",
+        "meaning_en": "officially approving or allowing something",
+        "meaning_ru": "санкционируя, официально одобряя",
+        "example": "By sanctioning the new route, the city added three bus stops."
+      },
+      {
+        "word": "postulating",
+        "pos": "verb",
+        "meaning_en": "suggesting that something is true as a basis for reasoning",
+        "meaning_ru": "выдвигая предположение, постулируя",
+        "example": "Postulating a link between sleep and memory, the team designed a night study."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-007",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "uneven snowmelt on a plateau",
+    "fictional": true,
+    "passage": "Satellite images of the Orvel Plateau taken every week from March to June show that the spring snowmelt there is ______: some south-facing slopes are bare by early April, while neighboring slopes shaded by tall ridges stay white until late June.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "rapid",
+      "uniform",
+      "perpetual",
+      "patchy"
+    ],
+    "answer": "D",
+    "explanation": "The colon explains the blank: some slopes melt in April and others in June. That is uneven melting, so 'patchy' fits.",
+    "steps": [
+      "Read past the blank: the colon gives the explanation.",
+      "The explanation compares slopes: bare in April next to white in June.",
+      "Predict 'uneven' or 'different from place to place', which is 'patchy'.",
+      "'Rapid' sounds natural with 'snowmelt', but the text is about where, not how fast."
+    ],
+    "strategy_tip": "Don't pick the word that sounds natural with the topic; pick the word the explanation after the colon proves.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: Snowmelt can be fast, but the colon describes uneven melting, and some slopes keep snow for three months.",
+      "B": "Opposite of the clue: Uniform melting would happen at the same time everywhere, but the slopes differ by months.",
+      "C": "Not supported: The melt has a start and an end; nothing says it never ends.",
+      "D": "Correct. 'Patchy' means uneven, happening in some places but not others, like bare slopes next to snowy ones."
+    },
+    "traps": {
+      "A": "fits the topic but not the logic",
+      "B": "opposite of the clue",
+      "C": "not supported"
+    },
+    "vocab": [
+      {
+        "word": "rapid",
+        "pos": "adjective",
+        "meaning_en": "happening very quickly",
+        "meaning_ru": "быстрый, стремительный",
+        "example": "The town saw rapid growth after the factory opened."
+      },
+      {
+        "word": "uniform",
+        "pos": "adjective",
+        "meaning_en": "the same everywhere or at all times",
+        "meaning_ru": "однородный, единообразный",
+        "example": "The new paint gave the old wall a uniform color."
+      },
+      {
+        "word": "perpetual",
+        "pos": "adjective",
+        "meaning_en": "never ending; continuous",
+        "meaning_ru": "вечный, непрекращающийся",
+        "example": "Living next to the airport meant perpetual noise."
+      },
+      {
+        "word": "patchy",
+        "pos": "adjective",
+        "meaning_en": "uneven; existing or happening only in some parts",
+        "meaning_ru": "неравномерный, местами, пятнистый",
+        "example": "Phone coverage in the mountains is patchy."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-008",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "glass beads from six workshops",
+    "fictional": true,
+    "passage": "The glass beads found at the Tamra burial site were made in at least six different workshops, according to the tool marks on their surfaces. Yet chemical tests show that the glass itself is strikingly ______ in composition from one bead to the next, which suggests that all six workshops obtained their sand from a single source.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "patchy",
+      "uniform",
+      "derivative",
+      "indiscriminate"
+    ],
+    "answer": "B",
+    "explanation": "'Yet' sets up a surprise: many workshops, but one sand source. So the glass is the same in every bead: 'uniform'.",
+    "steps": [
+      "Find the contrast word: 'Yet' says the chemical result is unexpected after 'six different workshops'.",
+      "Read the end: 'a single source' of sand.",
+      "One source means the glass is the same from bead to bead. Predict 'the same' or 'consistent'.",
+      "'Uniform' means the same in all parts."
+    ],
+    "strategy_tip": "After 'yet', expect the opposite of what the first sentence makes you expect.",
+    "rationales": {
+      "A": "Opposite of the clue: Six workshops might suggest variety, but 'yet' and 'a single source' point to sameness.",
+      "B": "Correct. 'Uniform' means the same in all cases; one sand source explains why every bead has the same composition.",
+      "C": "Wrong meaning: 'Derivative' means copied from something else; it describes ideas or designs, not the chemistry of glass.",
+      "D": "Wrong meaning: 'Indiscriminate' means done without careful choice; it does not describe how similar the glass is."
+    },
+    "traps": {
+      "A": "opposite of the clue",
+      "C": "wrong meaning",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "patchy",
+        "pos": "adjective",
+        "meaning_en": "uneven; existing or happening only in some parts",
+        "meaning_ru": "неравномерный, местами, пятнистый",
+        "example": "The fog was patchy, so some roads were clear and others were not."
+      },
+      {
+        "word": "uniform",
+        "pos": "adjective",
+        "meaning_en": "the same in all parts or cases",
+        "meaning_ru": "однородный, одинаковый",
+        "example": "The bakery cuts its loaves to a uniform thickness."
+      },
+      {
+        "word": "derivative",
+        "pos": "adjective",
+        "meaning_en": "copied from or based on something else; not original",
+        "meaning_ru": "вторичный, подражательный, производный",
+        "example": "Critics called the film derivative of older spy movies."
+      },
+      {
+        "word": "indiscriminate",
+        "pos": "adjective",
+        "meaning_en": "done without careful choice or judgment",
+        "meaning_ru": "неразборчивый, беспорядочный",
+        "example": "Indiscriminate cutting of trees caused floods in the valley."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-009",
+    "modeled_on": "bb-pt5-ref-exactitude",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a clockmaker's precise gears",
+    "fictional": true,
+    "passage": "Clockmaker Benedikt Sorel was admired less for the beauty of his clocks than for their ______. His workshop cut every gear to within a hundredth of a millimeter, and a Sorel clock tested in 1874 lost less than one second over a full month.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "resilience",
+      "precariousness",
+      "exactitude",
+      "ambivalence"
+    ],
+    "answer": "C",
+    "explanation": "The second sentence describes tiny tolerances and almost no lost time. That is accuracy: 'exactitude'.",
+    "steps": [
+      "The second sentence explains the blank.",
+      "Gears cut to a hundredth of a millimeter and less than a second lost per month both describe accuracy.",
+      "Predict 'accuracy' or 'precision', which is 'exactitude'.",
+      "'Resilience' is about recovering from damage; no damage is mentioned."
+    ],
+    "strategy_tip": "Let the details in the next sentence choose the word; every detail must fit it.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: Good clocks can be tough, but the details are about accuracy, not recovering from damage.",
+      "B": "Opposite of the clue: 'Precariousness' means being unstable or likely to fail, the opposite of a nearly perfect clock.",
+      "C": "Correct. 'Exactitude' means great accuracy, which matches gears cut to a hundredth of a millimeter.",
+      "D": "Wrong meaning: 'Ambivalence' is a feeling of mixed emotions; clocks do not have feelings."
+    },
+    "traps": {
+      "A": "fits the topic but not the logic",
+      "B": "opposite of the clue",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "resilience",
+        "pos": "noun",
+        "meaning_en": "the ability to recover quickly after damage or difficulty",
+        "meaning_ru": "устойчивость, способность восстанавливаться",
+        "example": "The town showed great resilience after the flood."
+      },
+      {
+        "word": "precariousness",
+        "pos": "noun",
+        "meaning_en": "the state of being unstable and likely to fall or fail",
+        "meaning_ru": "ненадёжность, шаткость",
+        "example": "The precariousness of the old ladder worried the painters."
+      },
+      {
+        "word": "exactitude",
+        "pos": "noun",
+        "meaning_en": "the quality of being very accurate and correct",
+        "meaning_ru": "точность, безупречная аккуратность",
+        "example": "The surveyor marked the border with great exactitude."
+      },
+      {
+        "word": "ambivalence",
+        "pos": "noun",
+        "meaning_en": "mixed feelings, both positive and negative, about something",
+        "meaning_ru": "двойственное отношение, амбивалентность",
+        "example": "He felt some ambivalence about moving abroad for the job."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-010",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "reefs recovering after heat waves",
+    "fictional": true,
+    "passage": "Coral biologist Nadia Ferro has monitored reefs in the Selun Strait through three marine heat waves since 2010. Each time, the corals bleached white, and nearby fishers predicted that the reefs would die. Instead, most colonies regained their color and normal growth within two years. Ferro attributes this ______ to the cold deep currents that rise into the strait each winter.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "resilience",
+      "precariousness",
+      "complacency",
+      "obscurity"
+    ],
+    "answer": "A",
+    "explanation": "'Instead' shows that the reefs recovered each time. The ability to recover after damage is 'resilience'.",
+    "steps": [
+      "'This ______' refers back to the sentence just before it.",
+      "That sentence says the corals recovered within two years, against the fishers' prediction.",
+      "Predict 'ability to recover', which is 'resilience'.",
+      "'Precariousness' fits the fishers' fear, not what actually happened."
+    ],
+    "strategy_tip": "When the blank is 'this ______', name what the previous sentence describes before you look at the choices.",
+    "rationales": {
+      "A": "Correct. 'Resilience' means the ability to recover after damage; the corals regained their color after each heat wave.",
+      "B": "Fits the topic but not the logic: Bleached reefs seem fragile, and the fishers expected them to die, but 'Instead' shows they recovered.",
+      "C": "Wrong meaning: 'Complacency' is a lack of concern about danger, a human attitude that corals cannot have.",
+      "D": "Not supported: 'Obscurity' means being little known, and nothing suggests the reefs are unknown."
+    },
+    "traps": {
+      "B": "fits the topic but not the logic",
+      "C": "wrong meaning",
+      "D": "not supported"
+    },
+    "vocab": [
+      {
+        "word": "resilience",
+        "pos": "noun",
+        "meaning_en": "the ability to recover quickly after damage or difficulty",
+        "meaning_ru": "устойчивость, способность восстанавливаться",
+        "example": "Rubber's resilience lets the ball return to its shape after each bounce."
+      },
+      {
+        "word": "precariousness",
+        "pos": "noun",
+        "meaning_en": "the state of being unstable and likely to fall or fail",
+        "meaning_ru": "ненадёжность, шаткость",
+        "example": "The precariousness of her job made it hard to plan a holiday."
+      },
+      {
+        "word": "complacency",
+        "pos": "noun",
+        "meaning_en": "a feeling of being satisfied that stops you from noticing danger or trying harder",
+        "meaning_ru": "самоуспокоенность, благодушие",
+        "example": "After years without a fire, complacency led the town to cut its fire budget."
+      },
+      {
+        "word": "obscurity",
+        "pos": "noun",
+        "meaning_en": "the state of being unknown or not famous",
+        "meaning_ru": "безвестность, неизвестность",
+        "example": "The painter died in obscurity, and her work was found decades later."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-011",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a poet's mixed feelings about fame",
+    "fictional": true,
+    "passage": "In letters to her publisher, poet Coralie Vance often complained that her growing fame brought strangers to her door and left her no quiet hours for writing. Yet she kept every newspaper review in a scrapbook and asked the publisher for extra copies of her portrait to send to admirers. The letters thus reveal Vance's ______ about her celebrity.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "resentment",
+      "indifference",
+      "enthusiasm",
+      "ambivalence"
+    ],
+    "answer": "D",
+    "explanation": "She complains about fame but also collects reviews and sends portraits. Both sides together are mixed feelings: 'ambivalence'.",
+    "steps": [
+      "Find the two sides: complaints about fame, then 'Yet' she saves reviews and sends portraits.",
+      "'Thus' says the blank sums up both sides.",
+      "Predict 'mixed feelings', which is 'ambivalence'.",
+      "'Resentment' and 'enthusiasm' each cover only one side."
+    ],
+    "strategy_tip": "When the text gives both a negative and a positive side, the answer must cover both, not just one.",
+    "rationales": {
+      "A": "Only half the clue: Her complaints show resentment, but saving reviews and sending portraits shows she also enjoyed fame.",
+      "B": "Opposite of the clue: Someone indifferent would neither complain about fame nor carefully save reviews; Vance cared a lot.",
+      "C": "Only half the clue: Saving reviews shows enjoyment, but her complaints show she also disliked fame.",
+      "D": "Correct. 'Ambivalence' means mixed feelings; Vance both complained about fame and enjoyed it."
+    },
+    "traps": {
+      "A": "only half the clue",
+      "B": "opposite of the clue",
+      "C": "only half the clue"
+    },
+    "vocab": [
+      {
+        "word": "resentment",
+        "pos": "noun",
+        "meaning_en": "a feeling of anger about something unfair or unwanted",
+        "meaning_ru": "обида, негодование",
+        "example": "Workers felt resentment when the bonus was cancelled."
+      },
+      {
+        "word": "indifference",
+        "pos": "noun",
+        "meaning_en": "lack of interest or concern",
+        "meaning_ru": "безразличие, равнодушие",
+        "example": "The cat watched the barking dog with complete indifference."
+      },
+      {
+        "word": "enthusiasm",
+        "pos": "noun",
+        "meaning_en": "strong excitement and interest",
+        "meaning_ru": "энтузиазм, воодушевление",
+        "example": "The children greeted the new teacher with enthusiasm."
+      },
+      {
+        "word": "ambivalence",
+        "pos": "noun",
+        "meaning_en": "mixed feelings, both positive and negative, about something",
+        "meaning_ru": "двойственное отношение, амбивалентность",
+        "example": "Voters showed ambivalence about the plan: they liked the new park but not the higher taxes."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-012",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a lungfish ancestor with no fossil",
+    "fictional": true,
+    "passage": "No fossil of the common ancestor of the two living lungfish species of the Arnu basin has ever been found. Paleontologist Ruth Ambler therefore cannot point to direct evidence of the animal. She can only ______ its existence, reasoning that the many skeletal features the two species share must have been inherited from a single forerunner.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "discount",
+      "postulate",
+      "sanction",
+      "ameliorate"
+    ],
+    "answer": "B",
+    "explanation": "Ambler has no direct evidence but reasons that the ancestor must have existed. To propose something as true without proof is to 'postulate' it.",
+    "steps": [
+      "Find the limit: no fossil and no direct evidence, so she 'can only' do something weaker than prove.",
+      "Find what she does: she reasons that an ancestor 'must have' existed.",
+      "Predict 'propose' or 'assume', which is 'postulate'."
+    ],
+    "strategy_tip": "Words like 'can only' and 'no direct evidence' point to a word for suggesting, not proving or rejecting.",
+    "rationales": {
+      "A": "Opposite of the clue: Ambler argues that the ancestor 'must have' existed, so she does not dismiss the idea.",
+      "B": "Correct. 'Postulate' means to propose that something is true as a basis for reasoning, without direct proof.",
+      "C": "Wrong meaning: To sanction is to approve officially or to punish; a scientist does not approve an animal's existence.",
+      "D": "Wrong meaning: To ameliorate is to make a bad situation better; an ancestor's existence is not a problem to fix."
+    },
+    "traps": {
+      "A": "opposite of the clue",
+      "C": "wrong meaning",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "discount",
+        "pos": "verb",
+        "meaning_en": "to treat something as unimportant or untrue",
+        "meaning_ru": "не принимать во внимание, отбрасывать",
+        "example": "Do not discount small savings; they add up over a year."
+      },
+      {
+        "word": "postulate",
+        "pos": "verb",
+        "meaning_en": "to suggest that something is true, as a basis for reasoning",
+        "meaning_ru": "постулировать, выдвигать предположение",
+        "example": "Doctors postulated that a virus caused the illness before they could test for one."
+      },
+      {
+        "word": "sanction",
+        "pos": "verb",
+        "meaning_en": "to officially approve or allow something (it can also mean to punish)",
+        "meaning_ru": "санкционировать, официально разрешать (также: наказывать)",
+        "example": "The league refused to sanction the match because the field was flooded."
+      },
+      {
+        "word": "ameliorate",
+        "pos": "verb",
+        "meaning_en": "to make a bad or difficult situation better",
+        "meaning_ru": "улучшать, смягчать (плохую ситуацию)",
+        "example": "The new bus line ameliorated the long commute for many workers."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-013",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a city council and open-air markets",
+    "fictional": true,
+    "passage": "For years the city council of Brevik refused to ______ open-air markets in the old town, arguing that the stalls blocked fire lanes. After a survey found that most residents wanted the markets back, however, the council reversed course and issued permits for twelve market sites, each with a marked lane for emergency vehicles.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "prohibit",
+      "redefine",
+      "sanction",
+      "postulate"
+    ],
+    "answer": "C",
+    "explanation": "The council 'reversed course' by issuing permits, so what it refused before was to allow the markets. 'Sanction' here means to officially allow.",
+    "steps": [
+      "Find the negation: the council 'refused to ______', then 'reversed course'.",
+      "Reversing a refusal means finally doing the action. What did it finally do? Issue permits.",
+      "So the blank means 'officially allow'.",
+      "'Sanction' can mean 'punish' or 'approve'; here the permits show it means approve."
+    ],
+    "strategy_tip": "For 'refused to ___ ... then reversed course and did Y', the blank means Y.",
+    "rationales": {
+      "A": "Missed the negation: The council refused and later reversed course by giving permits, so the refused action was allowing the markets, not banning them.",
+      "B": "Wrong meaning: Issuing permits does not change what a market is, so nothing was redefined.",
+      "C": "Correct. Here 'sanction' means to officially allow; reversing its refusal, the council issued market permits.",
+      "D": "Wrong meaning: To postulate is to propose an idea as true; a council does not postulate markets."
+    },
+    "traps": {
+      "A": "missed the negation",
+      "B": "wrong meaning",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "prohibit",
+        "pos": "verb",
+        "meaning_en": "to officially forbid something",
+        "meaning_ru": "запрещать",
+        "example": "The park prohibits campfires during the dry months."
+      },
+      {
+        "word": "redefine",
+        "pos": "verb",
+        "meaning_en": "to change the meaning or the limits of something",
+        "meaning_ru": "переопределять, по-новому определять",
+        "example": "Smartphones redefined how people take photos."
+      },
+      {
+        "word": "sanction",
+        "pos": "verb",
+        "meaning_en": "to officially approve or allow something (it can also mean to punish)",
+        "meaning_ru": "санкционировать, официально разрешать (также: наказывать)",
+        "example": "The museum finally sanctioned photography in its main hall."
+      },
+      {
+        "word": "postulate",
+        "pos": "verb",
+        "meaning_en": "to suggest that something is true, as a basis for reasoning",
+        "meaning_ru": "постулировать, выдвигать предположение",
+        "example": "Early chemists postulated a special substance that was released by burning wood."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-014",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "an accidental video of a rare moth",
+    "fictional": true,
+    "passage": "Ornithologist Felix Danner did not set out to study insects. In 2021 he placed cameras near swallow nests in the Kaldra hills to record how often parents fed their chicks. When he reviewed the footage, however, he found that he had ______ captured the first known video of the rare ghost moth, which had landed on one of the camera housings.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "overtly",
+      "inadvertently",
+      "methodically",
+      "reluctantly"
+    ],
+    "answer": "B",
+    "explanation": "Danner was filming birds, not moths, so he recorded the moth by accident. 'Inadvertently' means without meaning to.",
+    "steps": [
+      "Find the negation: Danner 'did not set out to study insects'.",
+      "His plan was to film swallows; the moth simply landed on a camera.",
+      "Predict 'by accident', which is 'inadvertently'."
+    ],
+    "strategy_tip": "A sentence that says someone 'did not set out' to do something often leads to a word meaning 'by accident'.",
+    "rationales": {
+      "A": "Wrong meaning: 'Overtly' means openly, not hidden; the point is that the recording was accidental, not that it was open.",
+      "B": "Correct. 'Inadvertently' means without meaning to; Danner was filming swallows when the moth appeared.",
+      "C": "Opposite of the clue: 'Methodically' suggests a careful plan, but Danner had no plan to film moths.",
+      "D": "Not supported: Nothing suggests Danner was unwilling; the recording simply was not planned."
+    },
+    "traps": {
+      "A": "wrong meaning",
+      "C": "opposite of the clue",
+      "D": "not supported"
+    },
+    "vocab": [
+      {
+        "word": "overtly",
+        "pos": "adverb",
+        "meaning_en": "openly, in a way that is not hidden",
+        "meaning_ru": "открыто, явно",
+        "example": "The two companies never overtly competed, but each watched the other closely."
+      },
+      {
+        "word": "inadvertently",
+        "pos": "adverb",
+        "meaning_en": "by accident; without meaning to",
+        "meaning_ru": "нечаянно, непреднамеренно",
+        "example": "The waiter inadvertently brought me the wrong soup."
+      },
+      {
+        "word": "methodically",
+        "pos": "adverb",
+        "meaning_en": "in a careful, organized, step-by-step way",
+        "meaning_ru": "методично, систематически",
+        "example": "She methodically checked every line of the contract."
+      },
+      {
+        "word": "reluctantly",
+        "pos": "adverb",
+        "meaning_en": "unwillingly; without wanting to",
+        "meaning_ru": "неохотно",
+        "example": "He reluctantly agreed to work on Saturday."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-015",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "hikers explaining unused gear",
+    "fictional": true,
+    "passage": "Economist Lena Vorst surveyed members of a hiking club who had bought expensive gear they almost never used. Rather than admitting that the purchases were mistakes, most members tended to ______ them, insisting that the equipment would surely be needed on some future expedition or that it had been a bargain at the time.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "rationalize",
+      "exploit",
+      "ameliorate",
+      "discount"
+    ],
+    "answer": "A",
+    "explanation": "Instead of admitting mistakes, the members gave reasons why the purchases made sense. To justify with reasons is to 'rationalize'.",
+    "steps": [
+      "Find the contrast: 'Rather than admitting' the purchases were mistakes.",
+      "See what they did instead: they insisted on reasons (future need, a bargain).",
+      "Predict 'justify' or 'make excuses for', which is 'rationalize'."
+    ],
+    "strategy_tip": "'Rather than X' tells you the blank is the alternative to X; read the details after the blank to name it.",
+    "rationales": {
+      "A": "Correct. 'Rationalize' means to give reasons that make something seem acceptable; the members justified the purchases.",
+      "B": "Fits the topic but not the logic: To exploit the gear would mean making good use of it, but the members almost never used it.",
+      "C": "Wrong meaning: To ameliorate is to make a bad situation better; giving excuses does not improve the purchases.",
+      "D": "Wrong meaning: To discount the purchases would be to treat them as unimportant, but the members defended them with reasons."
+    },
+    "traps": {
+      "B": "fits the topic but not the logic",
+      "C": "wrong meaning",
+      "D": "wrong meaning"
+    },
+    "vocab": [
+      {
+        "word": "rationalize",
+        "pos": "verb",
+        "meaning_en": "to give reasons that make something seem acceptable",
+        "meaning_ru": "оправдывать, находить рациональное объяснение",
+        "example": "Many people rationalize eating dessert by saying they skipped breakfast."
+      },
+      {
+        "word": "exploit",
+        "pos": "verb",
+        "meaning_en": "to make full, productive use of something",
+        "meaning_ru": "использовать (с выгодой), эксплуатировать",
+        "example": "The company exploited cheap solar power to run its computers."
+      },
+      {
+        "word": "ameliorate",
+        "pos": "verb",
+        "meaning_en": "to make a bad or difficult situation better",
+        "meaning_ru": "улучшать, смягчать (плохую ситуацию)",
+        "example": "Extra tutors ameliorated the effects of the long school closure."
+      },
+      {
+        "word": "discount",
+        "pos": "verb",
+        "meaning_en": "to treat something as unimportant or untrue",
+        "meaning_ru": "не принимать во внимание, отбрасывать",
+        "example": "Scientists discounted the strange reading as an equipment error."
+      }
+    ]
+  }
+]

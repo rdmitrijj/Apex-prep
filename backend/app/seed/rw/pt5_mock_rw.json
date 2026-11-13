@@ -1,0 +1,796 @@
+[
+  {
+    "id": "pt5-mock-a-rw-01",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "medium",
+    "topic": "parchment shadow puppets lit from behind",
+    "fictional": true,
+    "passage": "Shadow puppeteer Ottavia Renn spends months preparing each new show at her small theater in Varlo. Cut from thin goat parchment and painted with translucent inks, ______ when lamplight shines through them from behind the screen.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Renn creates puppets that glow in deep reds and greens",
+      "the glow of the puppets in Renn's shows is deep red and green",
+      "the puppets in Renn's shows glow in deep reds and greens",
+      "audiences watch the puppets in Renn's shows glow in deep reds and greens"
+    ],
+    "answer": "C",
+    "explanation": "The opening phrase describes something cut from parchment and painted. The puppets were cut and painted, so 'the puppets' must come right after the comma.",
+    "steps": [
+      "Ask: what was 'cut from thin goat parchment and painted'? The puppets.",
+      "The noun right after the comma must be that thing.",
+      "Renn, the glow, and audiences were not cut from parchment.",
+      "Only the choice that starts with 'the puppets' works."
+    ],
+    "strategy_tip": "After an opening modifier, put your finger on the first noun after the comma: it must be the thing the modifier describes.",
+    "rationales": {
+      "A": "Dangling modifier: This says Renn was cut from goat parchment and painted with inks.",
+      "B": "Dangling modifier: This says the glow was cut from parchment. The glow is not an object that can be cut.",
+      "C": "Correct. The puppets were cut from parchment and painted, and 'the puppets' comes right after the comma.",
+      "D": "Dangling modifier: This says the audiences were cut from parchment and painted with inks."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "B": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-mock-a-rw-02",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "topic": "a crossword constructor's themed grids",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Ilka Vesterlund built crossword puzzles for the Norhaven Daily from 1958 to 1991.",
+      "She was the first constructor at the paper to build each grid around a single theme.",
+      "Before her, the paper's puzzles used answers with no connection to one another.",
+      "Editor Paul Amsel wrote that Vesterlund \"turned the crossword from a word list into a story.\"",
+      "By 1975, six other newspapers had adopted her themed format."
+    ],
+    "stem": "The student wants to use a quotation to emphasize Vesterlund's contribution to crossword design. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "By building each grid around a single theme, Vesterlund, in editor Paul Amsel's words, \"turned the crossword from a word list into a story.\"",
+      "Vesterlund was the first constructor at the Norhaven Daily to build every grid around one theme, a format that six other newspapers had adopted by 1975.",
+      "Paul Amsel, an editor, wrote about Ilka Vesterlund, who built crossword puzzles for the Norhaven Daily from 1958 to 1991.",
+      "Before Vesterlund began working in 1958, the Norhaven Daily's puzzles used answers with no connection to one another."
+    ],
+    "answer": "A",
+    "explanation": "The goal has two parts: a quotation, and Vesterlund's contribution. Only one choice quotes Amsel and states what she changed.",
+    "steps": [
+      "Split the goal: (1) use a quotation, (2) show her contribution.",
+      "Look for quotation marks first. Only one choice has them.",
+      "Check that it also names her contribution: themed grids.",
+      "The 1975 choice shows her influence well, but it has no quotation."
+    ],
+    "strategy_tip": "When the goal says 'use a quotation', reject every choice without quotation marks before you read anything else.",
+    "rationales": {
+      "A": "Correct. It names her contribution (themed grids) and supports it with Amsel's quotation.",
+      "B": "No quotation: It shows her contribution and influence, but the goal asks for a quotation.",
+      "C": "No quotation: It says that Amsel wrote about her but never quotes him or states her contribution.",
+      "D": "No quotation: It describes the puzzles before her work, with no quotation and no contribution."
+    },
+    "traps": {
+      "B": "no quotation",
+      "C": "no quotation",
+      "D": "no quotation"
+    }
+  },
+  {
+    "id": "pt5-mock-b-rw-01",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.COLON",
+    "difficulty": "medium",
+    "topic": "a tea taster who never swallows",
+    "fictional": true,
+    "passage": "Tea taster Rahel Odum grades about thirty teas each morning before they are sold. She never swallows the samples she grades at the Merrow auction ______ swallowing even small amounts of so many teas would dull her sense of taste by noon.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "house,",
+      "house",
+      "house. Because",
+      "house:"
+    ],
+    "answer": "D",
+    "explanation": "Both parts are complete sentences, and the second one explains the first. A colon can join them and introduce the explanation.",
+    "steps": [
+      "Left side: 'She never swallows the samples she grades at the Merrow auction house.' Complete.",
+      "Right side: 'swallowing even small amounts ... would dull her sense of taste by noon.' Complete.",
+      "The right side explains why she never swallows, so a colon fits.",
+      "A comma alone, or no mark, can't join two complete sentences."
+    ],
+    "strategy_tip": "If both sides of the blank are complete sentences and the second explains the first, choose the colon.",
+    "rationales": {
+      "A": "Comma splice: A comma alone can't join two independent clauses.",
+      "B": "Run-on sentence: Two independent clauses run together with no punctuation.",
+      "C": "Fragment: 'Because swallowing ... by noon' has no main clause, so it can't stand alone as a sentence.",
+      "D": "Correct. The colon joins two independent clauses, and the second explains the first."
+    },
+    "traps": {
+      "A": "comma splice",
+      "B": "run-on sentence",
+      "C": "fragment"
+    }
+  },
+  {
+    "id": "pt5-mock-b-rw-02",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "medium",
+    "topic": "an umbrella maker's folding ribs",
+    "fictional": true,
+    "passage": "In 1891, umbrella maker Cosima Thale of Brenn made the folding umbrella far easier to carry. ______ she replaced its heavy wooden ribs with hinged steel ribs that could fold to one third of their open length.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Regardless,",
+      "Specifically,",
+      "However,",
+      "Similarly,"
+    ],
+    "answer": "B",
+    "explanation": "Sentence 1 makes a general claim (she made the umbrella easier to carry). Sentence 2 gives the exact change she made. 'Specifically' introduces that detail.",
+    "steps": [
+      "Sentence 1: a general claim about an improvement.",
+      "Sentence 2: the exact improvement (steel ribs that fold).",
+      "General claim followed by the precise detail = 'Specifically' or 'In particular'.",
+      "Nothing in sentence 2 contrasts with sentence 1 or adds a separate similar case."
+    ],
+    "strategy_tip": "If sentence 2 tells you exactly what sentence 1 described in general words, use 'Specifically'.",
+    "rationales": {
+      "A": "Ignores the link: 'Regardless' means 'without paying attention to that', but sentence 2 explains sentence 1.",
+      "B": "Correct. Sentence 2 states exactly how she made the umbrella easier to carry.",
+      "C": "Signals contrast: The steel ribs support the claim in sentence 1; they don't go against it.",
+      "D": "Adds a separate similar point: 'Similarly' would need a second, different improvement; this is the same one in detail."
+    },
+    "traps": {
+      "A": "ignores the link",
+      "C": "signals contrast",
+      "D": "adds a separate similar point"
+    }
+  },
+  {
+    "id": "pt5-mock-c-rw-01",
+    "modeled_on": "bb-pt5-ref-overtly",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "a composer who hides feelings in the orchestra",
+    "fictional": true,
+    "passage": "In the comic operas of composer Teodor Wilk, characters seldom state their feelings ______. Instead, Wilk hints at those feelings through small changes in the orchestra, such as a flute that suddenly falls silent whenever a lover is telling a lie.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "hesitantly",
+      "openly",
+      "accidentally",
+      "politely"
+    ],
+    "answer": "B",
+    "explanation": "'Instead, Wilk hints at those feelings' is the contrast. Hinting is indirect, so the characters seldom state their feelings directly: 'openly'.",
+    "steps": [
+      "Cover the choices. Find the clue: 'Instead, Wilk hints at those feelings.'",
+      "The opposite of hinting is saying something directly.",
+      "Predict 'directly' or 'clearly'. 'Openly' matches.",
+      "The other words describe a manner of speaking that has nothing to do with hinting."
+    ],
+    "strategy_tip": "When the next sentence starts with 'Instead', the blank is the opposite of what follows.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: The contrast is with hinting, not with speaking confidently.",
+      "B": "Correct. 'Openly' means directly and clearly, the opposite of hinting.",
+      "C": "Fits the topic but not the logic: The contrast is between direct and indirect, not between planned and unplanned.",
+      "D": "Fits the topic but not the logic: Being polite or rude is not the opposite of hinting."
+    },
+    "traps": {
+      "A": "fits the topic but not the logic",
+      "C": "fits the topic but not the logic",
+      "D": "fits the topic but not the logic"
+    },
+    "vocab": [
+      {
+        "word": "openly",
+        "pos": "adverb",
+        "meaning_en": "in a direct way that hides nothing",
+        "meaning_ru": "открыто, прямо",
+        "example": "The coach openly admitted that the team had played badly."
+      },
+      {
+        "word": "hesitantly",
+        "pos": "adverb",
+        "meaning_en": "slowly and without confidence, because you are unsure",
+        "meaning_ru": "нерешительно, неуверенно",
+        "example": "The new student raised her hand hesitantly."
+      },
+      {
+        "word": "accidentally",
+        "pos": "adverb",
+        "meaning_en": "by chance, without planning to",
+        "meaning_ru": "случайно",
+        "example": "He accidentally deleted the file he needed."
+      },
+      {
+        "word": "politely",
+        "pos": "adverb",
+        "meaning_en": "in a way that shows good manners",
+        "meaning_ru": "вежливо",
+        "example": "She politely refused a second piece of cake."
+      }
+    ]
+  },
+  {
+    "id": "pt5-mock-c-rw-02",
+    "modeled_on": "bb-pt5-rw-b-q12",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "medium",
+    "topic": "sled dogs running below top speed",
+    "fictional": true,
+    "passage": "Animal scientist Ines Halloran measured how fast four teams of sled dogs ran compared with each team's top speed. Halloran claims that sled dogs do not always run at full speed, even during races, when they are pushed hardest.",
+    "figure": {
+      "kind": "table",
+      "title": "Average speed as a percentage of each team's top speed",
+      "header": ["Team", "Training runs (%)", "Races (%)"],
+      "rows": [
+        ["Arvik", "62", "88"],
+        ["Tula", "58", "91"],
+        ["Brandt", "65", "100"],
+        ["Selka", "60", "84"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to support Halloran's claim?",
+    "choices": [
+      "Even during races, the Arvik team ran at only 88% of its top speed, and the Selka team ran at only 84%.",
+      "During races, the Brandt team reached 100% of its top speed, the highest percentage of any team in the table.",
+      "During training runs, no team ran faster than 65% of its top speed, and the Tula team ran at only 58%.",
+      "The Tula team ran at a lower percentage of its top speed during races than it did during training runs."
+    ],
+    "answer": "A",
+    "explanation": "The claim says 'even during races', so it needs race data showing teams below 100%. Arvik (88%) and Selka (84%) are below full speed in races.",
+    "steps": [
+      "Claim: dogs don't always run at full speed, EVEN in races.",
+      "So look at the 'Races' column for values below 100%.",
+      "Arvik 88% and Selka 84% are below full speed in races.",
+      "Brandt's 100% is the most striking number, but it goes against the claim."
+    ],
+    "strategy_tip": "Pick the data that supports the exact claim, not the most eye-catching number in the table.",
+    "rationales": {
+      "A": "Correct. It shows two teams below full speed during races, which is the 'even during races' part of the claim.",
+      "B": "True but irrelevant: True, but a team at 100% shows dogs running at full speed, which does not support the claim.",
+      "C": "True but irrelevant: True, but training runs don't show what happens during races, and the claim says 'even during races'.",
+      "D": "False: Tula ran at 91% in races and 58% in training, so its race percentage was higher."
+    },
+    "traps": {
+      "B": "true but irrelevant",
+      "C": "true but irrelevant",
+      "D": "false"
+    },
+    "quant": {
+      "A": "supports",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "false"
+    }
+  },
+  {
+    "id": "pt5-mock-a-rw-03",
+    "modeled_on": "bb-pt5-rw-a-q2",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "organ builders using swelling pine",
+    "fictional": true,
+    "passage": "Organ builders in the village of Strell ______ a well-known weakness of local pine: because the wood swells sharply in damp air, they fitted pine wedges into the joints of their instruments, where the swelling locks the pipes tightly in place during the wet season.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "corrected",
+      "lamented",
+      "disregarded",
+      "exploited"
+    ],
+    "answer": "D",
+    "explanation": "The builders used the swelling of the pine to lock the pipes in place. They made productive use of a weakness, so 'exploited' fits.",
+    "steps": [
+      "Cover the choices. Read the colon: the builders used the swelling to lock the pipes.",
+      "Predict: they 'made use of' the weakness.",
+      "'Exploit' can mean 'make productive use of', not only 'use unfairly'.",
+      "They didn't fix, regret, or ignore the swelling; they used it."
+    ],
+    "strategy_tip": "Predict a word from the sentence after the colon, then remember that 'exploit' also has a neutral meaning: to use something well.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: The builders did not remove the swelling; they relied on it.",
+      "B": "Opposite of the clue: They found the swelling useful, so they had no reason to complain about it.",
+      "C": "Opposite of the clue: Their whole method depends on the swelling, so they paid close attention to it.",
+      "D": "Correct. 'Exploited' here means made productive use of: the swelling locks the pipes in place."
+    },
+    "traps": {
+      "A": "fits the topic but not the logic",
+      "B": "opposite of the clue",
+      "C": "opposite of the clue"
+    },
+    "vocab": [
+      {
+        "word": "exploited",
+        "pos": "verb",
+        "meaning_en": "made productive use of something (base form: exploit)",
+        "meaning_ru": "использовали с выгодой, воспользовались",
+        "example": "The farmers exploited the steep hillside by building terraces for grapes."
+      },
+      {
+        "word": "corrected",
+        "pos": "verb",
+        "meaning_en": "fixed a mistake or a fault (base form: correct)",
+        "meaning_ru": "исправили",
+        "example": "The editor corrected two dates in the article."
+      },
+      {
+        "word": "lamented",
+        "pos": "verb",
+        "meaning_en": "expressed sadness or regret about something (base form: lament)",
+        "meaning_ru": "сетовали, сожалели",
+        "example": "Fans lamented the closing of the old stadium."
+      },
+      {
+        "word": "disregarded",
+        "pos": "verb",
+        "meaning_en": "paid no attention to something (base form: disregard)",
+        "meaning_ru": "проигнорировали, не приняли во внимание",
+        "example": "The driver disregarded the warning signs and took the flooded road."
+      }
+    ]
+  },
+  {
+    "id": "pt5-mock-a-rw-04",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "a folklorist's book on salt rakers' songs",
+    "fictional": true,
+    "passage": "Folklorist Hedda Marsk spent a decade recording the work songs of salt harvesters on the Orrin coast. Her 1974 book Salt and Measure, a study of the rhythms that kept the rakers moving ______ was reissued in 2019 with tapes of the original singers.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "together",
+      "together,",
+      "together;",
+      "together—"
+    ],
+    "answer": "B",
+    "explanation": "The phrase 'a study of the rhythms that kept the rakers moving together' is extra information about the book. It opens with a comma, so it must close with a comma.",
+    "steps": [
+      "Find the main sentence: 'Her 1974 book Salt and Measure ... was reissued in 2019.'",
+      "The part after 'Measure,' is extra information (an appositive). It opens with a comma.",
+      "Extra information opened with a comma must close with a comma.",
+      "A dash can't close a pair that a comma opened, and a semicolon can't separate a subject from its verb."
+    ],
+    "strategy_tip": "Find the mark that opens the extra information, then close it with the same mark.",
+    "rationales": {
+      "A": "Unclosed pair: The extra information opens with a comma after 'Measure' but is never closed.",
+      "B": "Correct. The comma closes the appositive that the comma after 'Measure' opened.",
+      "C": "Separates subject and verb: A semicolon here cuts 'Her 1974 book' off from its verb 'was reissued'.",
+      "D": "Mismatched pair: The extra information opens with a comma, so it can't close with a dash."
+    },
+    "traps": {
+      "A": "unclosed pair",
+      "C": "separates subject and verb",
+      "D": "mismatched pair"
+    }
+  },
+  {
+    "id": "pt5-mock-a-rw-05",
+    "modeled_on": "bb-pt5-rw-b-q24",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a chess opening that looks like a blunder",
+    "fictional": true,
+    "passage": "The Kessler opening, a chess opening popular in the clubs of Varde, begins with a move that appears to give away a pawn for nothing. ______ many beginners wrongly assume that it is a careless mistake, not realizing that the pawn is usually won back a few moves later.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Hence,",
+      "However,",
+      "For example,",
+      "Regardless,"
+    ],
+    "answer": "A",
+    "explanation": "The move looks like it gives away a pawn. Because of that, beginners think it is a mistake. Sentence 2 is a result of sentence 1, so 'Hence' fits.",
+    "steps": [
+      "Sentence 1: the move appears to give away a pawn.",
+      "Sentence 2: so beginners wrongly think it's a mistake.",
+      "The wrong belief is caused by how the move looks: a result.",
+      "'Wrongly' makes the sentence feel like a contrast, but the belief follows from sentence 1."
+    ],
+    "strategy_tip": "Ask 'does sentence 2 happen because of sentence 1?' If yes, choose a result word, even when sentence 2 describes a mistake.",
+    "rationales": {
+      "A": "Correct. Beginners think it's a mistake because the move appears to give away a pawn; that is a result.",
+      "B": "Signals contrast: The beginners' belief agrees with how the move looks; it doesn't go against sentence 1.",
+      "C": "Signals an example: The beginners' belief is not an example of the move; it is caused by it.",
+      "D": "Ignores the link: 'Regardless' means the belief exists without any connection to sentence 1, but sentence 1 causes it."
+    },
+    "traps": {
+      "B": "signals contrast",
+      "C": "signals an example",
+      "D": "ignores the link"
+    }
+  },
+  {
+    "id": "pt5-mock-a-rw-06",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "breaks for sign-language interpreters",
+    "fictional": true,
+    "passage": "Sign-language interpreters often work long shifts, and tiredness can lower their accuracy. Researcher Tomas Ellery scored the accuracy of 45 interpreters who took no break, a 5-minute break, or a 20-minute break during a two-hour shift. Ellery claims that a 20-minute break offers interpreters no greater benefit than a 5-minute break does.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average accuracy score of interpreters, by break length",
+      "labels": ["Start of shift", "30 minutes after break", "60 minutes after break"],
+      "series": [
+        {"name": "No break", "values": [88, 74, 69]},
+        {"name": "5-minute break", "values": [88, 84, 79]},
+        {"name": "20-minute break", "values": [87, 84, 79]}
+      ],
+      "xlabel": "Time of measurement",
+      "ylabel": "Accuracy score"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Ellery's claim?",
+    "choices": [
+      "At the start of the shift, interpreters in all three groups had average accuracy scores of either 87 or 88.",
+      "At 30 minutes after the break, interpreters who took no break scored 74, lower than both groups that took a break.",
+      "Both 30 and 60 minutes after the break, interpreters who took a 5-minute break scored 84 and 79, the same as those who took a 20-minute break.",
+      "At 60 minutes after the break, interpreters who took a 20-minute break scored higher than those who took a 5-minute break."
+    ],
+    "answer": "C",
+    "explanation": "The claim compares the 5-minute and 20-minute breaks, after the break. Only one choice compares those two groups at those times, and it shows equal scores.",
+    "steps": [
+      "Claim: a 20-minute break is no better than a 5-minute break.",
+      "So compare ONLY the 5-minute and 20-minute groups, and ONLY after the break.",
+      "At 30 minutes: 84 and 84. At 60 minutes: 79 and 79. Equal.",
+      "The 'no break' data and the start-of-shift data don't compare the two break lengths."
+    ],
+    "strategy_tip": "Name the two groups and the time the claim is about, then reject every choice that uses other groups or other times.",
+    "rationales": {
+      "A": "True but irrelevant: True, but these scores come from before any break, so they can't show the effect of break length.",
+      "B": "True but irrelevant: True, but it compares no break with a break, not a short break with a long one.",
+      "C": "Correct. After the break, the 5-minute and 20-minute groups had the same scores (84 and 79), so the longer break gave no extra benefit.",
+      "D": "False: At 60 minutes, both groups scored 79."
+    },
+    "traps": {
+      "A": "true but irrelevant",
+      "B": "true but irrelevant",
+      "D": "false"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "supports",
+      "D": "false"
+    }
+  },
+  {
+    "id": "pt5-mock-b-rw-03",
+    "modeled_on": "bb-pt5-rw-b-q3",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a ballad archive drawn from two towns",
+    "fictional": true,
+    "passage": "For decades, most recordings of folk ballads in the Halvard archive came from singers in just two coastal towns, so scholars who relied on the archive got a distorted picture of the region's music. Folklorist Anja Brekke argues that recording singers from the inland valleys would ______ this problem by giving scholars a much wider sample.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "remedy",
+      "rationalize",
+      "compound",
+      "acknowledge"
+    ],
+    "answer": "A",
+    "explanation": "A wider sample would make the distorted picture more accurate. Brekke's plan would fix the problem, so 'remedy' fits.",
+    "steps": [
+      "Cover the choices. The problem: a distorted picture from a narrow sample.",
+      "The plan: record more singers, which gives a wider sample.",
+      "A wider sample fixes a narrow sample. Predict 'fix' or 'improve'.",
+      "'Rationalize' means 'justify', not 'fix'."
+    ],
+    "strategy_tip": "Decide whether the action makes the situation better, worse, or just explains it, then pick the word with that direction.",
+    "rationales": {
+      "A": "Correct. 'Remedy' means to fix or improve a bad situation, which is what a wider sample would do.",
+      "B": "Wrong meaning: 'Rationalize' means to give reasons that justify something; a wider sample would correct the problem, not justify it.",
+      "C": "Opposite of the clue: 'Compound' means to make a problem worse, but a wider sample would reduce the distortion.",
+      "D": "Fits the topic but not the logic: Admitting the problem would not change the sample; the new recordings actually fix it."
+    },
+    "traps": {
+      "B": "wrong meaning",
+      "C": "opposite of the clue",
+      "D": "fits the topic but not the logic"
+    },
+    "vocab": [
+      {
+        "word": "remedy",
+        "pos": "verb",
+        "meaning_en": "to fix or improve a bad situation",
+        "meaning_ru": "исправить, устранить (недостаток)",
+        "example": "The school hired two more teachers to remedy the shortage of staff."
+      },
+      {
+        "word": "rationalize",
+        "pos": "verb",
+        "meaning_en": "to give reasons that make something seem acceptable or justified",
+        "meaning_ru": "оправдывать, находить разумное объяснение",
+        "example": "He tried to rationalize his late arrival by blaming the traffic."
+      },
+      {
+        "word": "compound",
+        "pos": "verb",
+        "meaning_en": "to make a problem or difficulty worse",
+        "meaning_ru": "усугублять",
+        "example": "Heavy rain compounded the damage caused by the storm."
+      },
+      {
+        "word": "acknowledge",
+        "pos": "verb",
+        "meaning_en": "to accept or admit that something exists or is true",
+        "meaning_ru": "признавать",
+        "example": "The company acknowledged that its software had a serious flaw."
+      }
+    ]
+  },
+  {
+    "id": "pt5-mock-b-rw-04",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "hard",
+    "topic": "a bookbinder's stitching patterns",
+    "fictional": true,
+    "passage": "Bookbinder Ferro Lantz worked alone for most of his life. The stitching patterns that Lantz developed in his Brill workshop (a single room above a bakery, where one apprentice and a cat kept him company) ______ still taught in binding schools across the region.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "is",
+      "was",
+      "are",
+      "has been"
+    ],
+    "answer": "C",
+    "explanation": "The subject is 'patterns', which is plural. 'Still' shows the present. The plural present verb is 'are'.",
+    "steps": [
+      "Find the subject: 'The stitching patterns'.",
+      "Cross out everything between the subject and the blank: the 'that' clause and the parentheses.",
+      "'The stitching patterns ______ still taught' needs a plural verb.",
+      "The singular nouns nearby (workshop, room, bakery, cat) are traps."
+    ],
+    "strategy_tip": "Cross out relative clauses and parentheses between the subject and the verb, then match the verb to the subject.",
+    "rationales": {
+      "A": "Agrees with the wrong noun: 'Is' is singular and agrees with a nearby noun like 'cat', not with 'patterns'.",
+      "B": "Agrees with the wrong noun: 'Was' is singular, but the subject 'patterns' is plural.",
+      "C": "Correct. 'Are' is plural and present, matching 'patterns' and 'still taught'.",
+      "D": "Agrees with the wrong noun: 'Has been' is singular, but the subject 'patterns' is plural."
+    },
+    "traps": {
+      "A": "agrees with the wrong noun",
+      "B": "agrees with the wrong noun",
+      "D": "agrees with the wrong noun"
+    }
+  },
+  {
+    "id": "pt5-mock-b-rw-05",
+    "modeled_on": "bb-pt5-rw-b-q9",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "cheese aged in a warm and a cool cave",
+    "fictional": true,
+    "passage": "At the Varenne dairy, cheesemaker Lise Corbet aged identical wheels of cheese in two caves, one kept at 9°C and the other at 13°C. The wheels in the warmer cave developed their flavor more quickly. Corbet also examined the mold on the rinds and found the same mold species, in the same proportions, in both caves. This finding was important because it suggests that ______",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the mold species that grew on the rinds were responsible for most of the difference in flavor between the two caves.",
+      "cheese wheels aged at 13°C have a better flavor than identical wheels aged at 9°C in another cave.",
+      "the mold on the rinds of the cheese wheels grew more quickly in the warmer cave than in the cooler cave.",
+      "the faster flavor development in the warmer cave was caused by temperature rather than by the rind mold."
+    ],
+    "answer": "D",
+    "explanation": "If the molds had been different, the molds could explain the faster flavor. Because the molds were the same, Corbet can rule them out and link the difference to temperature.",
+    "steps": [
+      "What differed between the caves? Only the temperature.",
+      "What might be another explanation for faster flavor? Different rind molds.",
+      "The molds were the same in both caves, so they can't explain the difference.",
+      "So the finding rules out the molds and points to temperature."
+    ],
+    "strategy_tip": "When a study shows that something stayed the same, ask which other explanation that rules out.",
+    "rationales": {
+      "A": "Contradicts the text: The molds were the same in both caves, so they can't explain a difference between the caves.",
+      "B": "Unsupported claim: The text says flavor developed faster, not that it was better.",
+      "C": "Unsupported claim: Corbet compared the species and proportions of mold, not how fast the mold grew.",
+      "D": "Correct. Since the molds were the same, they can't explain the difference, which leaves temperature."
+    },
+    "traps": {
+      "A": "contradicts the text",
+      "B": "unsupported claim",
+      "C": "unsupported claim"
+    }
+  },
+  {
+    "id": "pt5-mock-b-rw-06",
+    "modeled_on": "bb-pt5-rw-b-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "classifying a lighthouse keeper's weather log",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Corvel Maritime Archive sorts lighthouse keepers' papers into three categories.",
+      "Operational records are documents produced as part of the daily running of a light.",
+      "Personal papers are letters and diaries written for a keeper's own use.",
+      "Official correspondence is any letter sent to or from the harbor authority.",
+      "Keeper Mathis Oyelaran's weather log was required by his duties and was filled in every evening."
+    ],
+    "stem": "The student wants to state which category Oyelaran's weather log belongs to and explain why. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Mathis Oyelaran filled in his weather log every evening at the lighthouse, as his duties as a keeper required.",
+      "Because it was produced as part of his daily duties, Oyelaran's weather log is classed by the archive as an operational record.",
+      "The Corvel Maritime Archive sorts papers like Oyelaran's weather log into operational records, personal papers, or official correspondence.",
+      "Unlike the letters that keepers sent to the harbor authority, Oyelaran's weather log does not count as official correspondence."
+    ],
+    "answer": "B",
+    "explanation": "The goal has two parts: name the category and give the reason. Only one choice names 'operational record' and explains it with the log's link to his daily duties.",
+    "steps": [
+      "Split the goal: (1) name the category, (2) explain why.",
+      "Match the log to a rule: it was required by his duties, so it is an operational record.",
+      "Reject choices that give the reason but no category, or list categories without choosing one.",
+      "Saying what the log is NOT does not name what it IS."
+    ],
+    "strategy_tip": "If the goal asks for a category, the correct choice must say the category's name out loud.",
+    "rationales": {
+      "A": "Reason without the category: It gives the facts that make the log an operational record but never names the category.",
+      "B": "Correct. It names the category (operational record) and the reason (produced as part of his daily duties).",
+      "C": "Lists without choosing: It names all three categories but doesn't say which one the log belongs to.",
+      "D": "Rules out one category only: Saying the log is not official correspondence still leaves two possible categories."
+    },
+    "traps": {
+      "A": "reason without the category",
+      "C": "lists without choosing",
+      "D": "rules out one category only"
+    }
+  },
+  {
+    "id": "pt5-mock-c-rw-03",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.LINK",
+    "difficulty": "hard",
+    "topic": "rice-paper fighting kites",
+    "fictional": true,
+    "passage": "Each spring, kite makers in the town of Selvo build fighting kites from rice paper and split bamboo. The paper is light enough to make the kites quick to turn, but it tears easily in strong ______ most fliers carry several spare sails to every match.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "wind, therefore,",
+      "wind therefore,",
+      "wind, therefore;",
+      "wind; therefore,"
+    ],
+    "answer": "D",
+    "explanation": "Both sides of the blank are complete sentences. A transition like 'therefore' needs a semicolon (or period) before it and a comma after it.",
+    "steps": [
+      "Left side: 'The paper is light ..., but it tears easily in strong wind.' Complete.",
+      "Right side: 'therefore, most fliers carry several spare sails to every match.' Complete.",
+      "'Therefore' is not a conjunction, so it can't join the clauses with only a comma.",
+      "Put the semicolon before 'therefore' and a comma after it."
+    ],
+    "strategy_tip": "Words like 'therefore' and 'however' are not glue: the semicolon goes before them when they start a new clause.",
+    "rationales": {
+      "A": "Comma splice: Commas around 'therefore' can't join two independent clauses.",
+      "B": "Run-on sentence: Nothing separates the two independent clauses before 'therefore'.",
+      "C": "Misplaced semicolon: The semicolon must come before 'therefore', where the second clause begins.",
+      "D": "Correct. The semicolon joins the two independent clauses, and 'therefore' is followed by a comma."
+    },
+    "traps": {
+      "A": "comma splice",
+      "B": "run-on sentence",
+      "C": "misplaced semicolon"
+    }
+  },
+  {
+    "id": "pt5-mock-c-rw-04",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "lacquer bowls coated in forty layers",
+    "fictional": true,
+    "passage": "Mirei Dosan is one of the last lacquer artists still working in the mountain town of Kurane. Coated with as many as forty layers of tree sap, each one dried for a week in a humid cabinet, ______.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Dosan spends nearly a year finishing a single bowl",
+      "a single bowl by Dosan can take nearly a year to finish",
+      "nearly a year is spent by Dosan finishing a single bowl",
+      "Dosan's patience is needed for nearly a year to finish a single bowl"
+    ],
+    "answer": "B",
+    "explanation": "The opening phrase describes something coated with forty layers of sap. That is the bowl, so 'a single bowl' must come right after the comma.",
+    "steps": [
+      "Ask: what was 'coated with as many as forty layers of tree sap'? A bowl.",
+      "The noun right after the comma must be the bowl.",
+      "Dosan, a year, and Dosan's patience were not coated with sap.",
+      "A possessive like 'Dosan's patience' makes 'patience' the noun being described, which is also wrong."
+    ],
+    "strategy_tip": "Read the opening phrase, name its thing, and pick the choice that starts with that thing.",
+    "rationales": {
+      "A": "Dangling modifier: This says Dosan herself was coated with forty layers of tree sap.",
+      "B": "Correct. The bowl is what was coated with sap, and 'a single bowl' comes right after the comma.",
+      "C": "Dangling modifier: This says a year was coated with layers of sap.",
+      "D": "Dangling modifier: This says Dosan's patience was coated with sap; the possessive doesn't fix the modifier."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "C": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-mock-c-rw-05",
+    "modeled_on": "bb-pt5-rw-b-q23",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "hard",
+    "topic": "rising and falling bids at two fish markets",
+    "fictional": true,
+    "passage": "At the Harlow fish market, crates are sold in rising-bid auctions: the price starts low, and buyers call out higher offers until only one bidder remains. ______ at the nearby Orsa market, the price of each crate starts high and falls steadily until the first buyer accepts it.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For instance,",
+      "Accordingly,",
+      "Conversely,",
+      "Similarly,"
+    ],
+    "answer": "C",
+    "explanation": "Harlow's prices rise from low; Orsa's prices fall from high. These are opposite cases, so 'Conversely' fits.",
+    "steps": [
+      "Sentence 1: Harlow, price starts low and rises.",
+      "Sentence 2: Orsa, price starts high and falls.",
+      "Two opposite cases = 'Conversely' or 'In contrast'.",
+      "Orsa is not an example of Harlow's method, and it is not caused by it."
+    ],
+    "strategy_tip": "When sentence 2 describes the reverse of sentence 1 in a different case, use 'Conversely' or 'In contrast'.",
+    "rationales": {
+      "A": "Signals an example: Orsa's auction is not an example of a rising-bid auction; it works the opposite way.",
+      "B": "Signals a result: Orsa's method is not a consequence of Harlow's method.",
+      "C": "Correct. Orsa's falling price is the opposite of Harlow's rising price.",
+      "D": "Signals similarity: The two auctions work in opposite directions, so they are not similar."
+    },
+    "traps": {
+      "A": "signals an example",
+      "B": "signals a result",
+      "D": "signals similarity"
+    }
+  },
+  {
+    "id": "pt5-mock-c-rw-06",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "two footbridges hung from tilted masts",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Oskel footbridge crosses the Vinn River in Tarsa.",
+      "The Bremm footbridge crosses the Lute River in Kallo.",
+      "Both bridges hang from a single tilted mast.",
+      "The Oskel footbridge, designed by Ruth Amadi, opened in 2009 and is made of steel.",
+      "The Bremm footbridge, designed by Joel Stavros, opened in 2016 and is made of laminated timber."
+    ],
+    "stem": "The student wants to emphasize a similarity between the two bridges and specify when each one opened. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Both hanging from a single tilted mast, the Oskel and Bremm footbridges opened in 2009 and 2016, respectively.",
+      "The Oskel footbridge opened in 2009, seven years before the Bremm footbridge, which is made of laminated timber rather than steel.",
+      "Like Ruth Amadi's steel footbridge across the Vinn River, Joel Stavros's timber footbridge across the Lute River hangs from a tilted mast.",
+      "Unlike the timber Bremm footbridge, the Oskel footbridge, which opened in 2009, is made of steel."
+    ],
+    "answer": "A",
+    "explanation": "The goal has two parts: a similarity, and both opening dates. Only one choice names the shared tilted mast and gives both years.",
+    "steps": [
+      "Split the goal: (1) a similarity, (2) when EACH bridge opened.",
+      "The similarity in the notes: both hang from a single tilted mast.",
+      "Check each choice for both years, 2009 and 2016.",
+      "A choice with dates but a difference, or a similarity but no dates, fails one part."
+    ],
+    "strategy_tip": "Turn the goal into a checklist (similarity? both dates?) and tick it for every choice.",
+    "rationales": {
+      "A": "Correct. It states the similarity (a single tilted mast) and both opening years (2009 and 2016).",
+      "B": "Difference, not similarity: It gives both dates but stresses a difference in materials.",
+      "C": "Similarity without dates: It shows the shared mast but never says when either bridge opened.",
+      "D": "Difference, not similarity: It gives only one date and stresses a difference in materials."
+    },
+    "traps": {
+      "B": "difference, not similarity",
+      "C": "similarity without dates",
+      "D": "difference, not similarity"
+    }
+  }
+]

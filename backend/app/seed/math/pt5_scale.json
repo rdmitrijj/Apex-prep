@@ -1,0 +1,233 @@
+[
+ {
+  "id": "pt5-m-scale-001",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "Two square loops of wire lie flat next to each other in a uniform magnetic field. The side length of the larger loop is 2 times the side length of the smaller loop. The magnetic flux through each loop is proportional to the area of the loop. The total flux through the two loops is $350$ microwebers. What is the flux, in microwebers, through the larger loop?",
+  "choices": [
+   "$1{,}400$",
+   "$\\frac{700}{3}$",
+   "$280$",
+   "$70$"
+  ],
+  "values": [
+   "1400",
+   "700/3",
+   "280",
+   "70"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Multiplied the total by 4. The area ratio 4 to 1 splits the total into 5 parts; it does not multiply it.",
+   "B": "Used the side ratio 2 to 1. Flux follows area, so the ratio is $2^2 = 4$ to 1.",
+   "C": "Correct. Areas are $4 : 1$, so the larger loop gets $\\frac{4}{5}$ of $350$, which is $280$.",
+   "D": "That's the smaller loop, $\\frac{1}{5}$ of the total. The question asks for the larger loop."
+  },
+  "check": "Rational(2**2, 2**2 + 1)*350",
+  "explanation": [
+   "Side ratio $2 : 1$, so area ratio $2^2 : 1^2 = 4 : 1$.",
+   "Flux has the same ratio: $4$ parts and $1$ part, $5$ parts in total.",
+   "Larger loop: $\\frac{4}{5} \\cdot 350 = 280$ microwebers.",
+   "Check: smaller loop $70$, and $280 + 70 = 350$."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-002",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "A gas pushes evenly on two square metal plates, so the force on each plate is proportional to its area. The side length of the larger plate is 3 times the side length of the smaller plate. The total force on the two plates is $1{,}200$ newtons. What is the force, in newtons, on the smaller plate?",
+  "check": "Rational(1, 3**2 + 1)*1200",
+  "spr_answers": [
+   "120"
+  ],
+  "spr_entries": [
+   "120"
+  ],
+  "explanation": [
+   "Side ratio $3 : 1$, so area ratio $9 : 1$.",
+   "The total force splits into $9 + 1 = 10$ parts.",
+   "Smaller plate: $\\frac{1}{10} \\cdot 1{,}200 = 120$ newtons.",
+   "Trap: $\\frac{1}{4} \\cdot 1{,}200 = 300$ uses the side ratio, not the area ratio."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-003",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Heat flows through two square glass panels in the same wall. The heat flow through each panel is proportional to its area. The side lengths of the two panels are in the ratio $2 : 5$. The total heat flow through both panels is $5{,}800$ watts. What is the heat flow, in watts, through the larger panel?",
+  "choices": [
+   "$5{,}000$",
+   "$145{,}000$",
+   "$\\frac{29{,}000}{7}$",
+   "$800$"
+  ],
+  "values": [
+   "5000",
+   "145000",
+   "29000/7",
+   "800"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Areas are $4 : 25$, so the larger panel gets $\\frac{25}{29}$ of $5{,}800$, which is $5{,}000$.",
+   "B": "Multiplied the total by 25. The total is shared in $29$ parts; take $\\frac{25}{29}$ of it.",
+   "C": "Used the side ratio $2 : 5$, giving $\\frac{5}{7}$ of the total. Heat follows area, so square the sides.",
+   "D": "That's the smaller panel, $\\frac{4}{29}$ of the total."
+  },
+  "check": "Rational(5**2, 2**2 + 5**2)*5800",
+  "explanation": [
+   "Side ratio $2 : 5$, so area ratio $4 : 25$.",
+   "Total parts: $4 + 25 = 29$. One part is $5{,}800 / 29 = 200$ watts.",
+   "Larger panel: $25 \\cdot 200 = 5{,}000$ watts.",
+   "Check: smaller panel $4 \\cdot 200 = 800$, and $5{,}000 + 800 = 5{,}800$."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-004",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Two circular mirrors collect light. The amount of light each mirror collects is proportional to its area. The diameter of mirror $P$ is 3 times the diameter of mirror $R$. Mirror $P$ collects $1{,}440$ units more light than mirror $R$. How many units of light do the two mirrors collect in total?",
+  "check": "Rational(1440, 3**2 - 1)*(3**2 + 1)",
+  "spr_answers": [
+   "1800"
+  ],
+  "spr_entries": [
+   "1800"
+  ],
+  "explanation": [
+   "Diameter ratio $3 : 1$, so area ratio $9 : 1$.",
+   "Let mirror $R$ collect $a$ units. Then mirror $P$ collects $9a$.",
+   "The difference is $9a - a = 8a = 1{,}440$, so $a = 180$.",
+   "Total: $9a + a = 10a = 1{,}800$ units."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-005",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Two solid cubes are made of the same material with uniform density, so the mass of each cube is proportional to its volume. The edge lengths of the cubes are in the ratio $3 : 2$. The total mass of the two cubes is $700$ grams. What is the mass, in grams, of the larger cube?",
+  "choices": [
+   "$420$",
+   "$\\frac{6{,}300}{13}$",
+   "$18{,}900$",
+   "$540$"
+  ],
+  "values": [
+   "420",
+   "6300/13",
+   "18900",
+   "540"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Used the edge ratio $3 : 2$, giving $\\frac{3}{5}$ of the total. Mass follows volume, so cube the edges.",
+   "B": "Used the area ratio $9 : 4$. Mass follows volume, so the ratio is $27 : 8$.",
+   "C": "Multiplied the total by 27. The total is shared in $35$ parts; take $\\frac{27}{35}$ of it.",
+   "D": "Correct. Volumes are $27 : 8$, so the larger cube is $\\frac{27}{35}$ of $700$, which is $540$."
+  },
+  "check": "Rational(3**3, 3**3 + 2**3)*700",
+  "explanation": [
+   "Edge ratio $3 : 2$, so volume ratio $3^3 : 2^3 = 27 : 8$.",
+   "Total parts: $27 + 8 = 35$. One part is $700 / 35 = 20$ grams.",
+   "Larger cube: $27 \\cdot 20 = 540$ grams.",
+   "Check: smaller cube $8 \\cdot 20 = 160$, and $540 + 160 = 700$."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-006",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Cube $A$ and cube $B$ are made of the same material with uniform density, so the mass of each cube is proportional to its volume. The edge length of cube $A$ is $2.5$ times the edge length of cube $B$. The total mass of the two cubes is $266$ kilograms. What is the mass, in kilograms, of cube $A$?",
+  "check": "Rational(5**3, 5**3 + 2**3)*266",
+  "spr_answers": [
+   "250"
+  ],
+  "spr_entries": [
+   "250"
+  ],
+  "explanation": [
+   "$2.5 = \\frac{5}{2}$, so the edge ratio is $5 : 2$.",
+   "Volume ratio: $5^3 : 2^3 = 125 : 8$, so there are $133$ parts.",
+   "One part is $266 / 133 = 2$ kilograms.",
+   "Cube $A$: $125 \\cdot 2 = 250$ kilograms."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-007",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Three square coils lie flat in a row in a uniform magnetic field. Their side lengths are in the ratio $1 : 2 : 3$. The magnetic flux through each coil is proportional to its area. The total flux through the three coils is $4{,}200$ microwebers. What is the flux, in microwebers, through the middle coil?",
+  "choices": [
+   "$300$",
+   "$1{,}200$",
+   "$16{,}800$",
+   "$2{,}700$"
+  ],
+  "values": [
+   "300",
+   "1200",
+   "16800",
+   "2700"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "That's one part, $4{,}200 / 14 = 300$. The middle coil has 4 parts of the 14.",
+   "B": "Correct. Areas are $1 : 4 : 9$, so the middle coil gets $\\frac{4}{14}$ of $4{,}200$, which is $1{,}200$.",
+   "C": "Multiplied the total by 4. The total is shared in $14$ parts; take $\\frac{4}{14}$ of it.",
+   "D": "That's the largest coil, $\\frac{9}{14}$ of the total, not the middle one."
+  },
+  "check": "Rational(2**2, 1 + 2**2 + 3**2)*4200",
+  "explanation": [
+   "Side ratio $1 : 2 : 3$, so area ratio $1 : 4 : 9$.",
+   "Total parts: $1 + 4 + 9 = 14$. One part is $4{,}200 / 14 = 300$.",
+   "Middle coil: $4 \\cdot 300 = 1{,}200$ microwebers."
+  ]
+ },
+ {
+  "id": "pt5-m-scale-008",
+  "modeled_on": "bb-pt5-m-q21",
+  "skill": "MATH.GEO.AV.SCALE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Two triangular plates are similar, and the same pressure acts evenly on both, so the force on each plate is proportional to its area. Each side of the larger plate is $\\frac{5}{3}$ times the corresponding side of the smaller plate. The total force on the two plates is $6{,}800$ newtons. What is the force, in newtons, on the smaller plate?",
+  "choices": [
+   "$1{,}800$",
+   "$200$",
+   "$5{,}000$",
+   "$61{,}200$"
+  ],
+  "values": [
+   "1800",
+   "200",
+   "5000",
+   "61200"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Areas are $25 : 9$, so the smaller plate gets $\\frac{9}{34}$ of $6{,}800$, which is $1{,}800$.",
+   "B": "That's one part, $6{,}800 / 34 = 200$. The smaller plate has 9 parts of the 34.",
+   "C": "That's the larger plate, $\\frac{25}{34}$ of the total. The question asks for the smaller one.",
+   "D": "Multiplied the total by 9. The total is shared in $34$ parts; take $\\frac{9}{34}$ of it."
+  },
+  "check": "Rational(3**2, 5**2 + 3**2)*6800",
+  "explanation": [
+   "Side ratio $5 : 3$, so area ratio $25 : 9$. This works for any similar shapes, not only squares.",
+   "Total parts: $25 + 9 = 34$. One part is $6{,}800 / 34 = 200$ newtons.",
+   "Smaller plate: $9 \\cdot 200 = 1{,}800$ newtons."
+  ]
+ }
+]

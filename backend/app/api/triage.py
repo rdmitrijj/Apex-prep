@@ -14,15 +14,17 @@ from app.engine import triage as tr
 from app.generators.spr import is_valid_entry
 from app.models import Question, Response, TriageSession
 from app.schemas.question import QuestionOut
-from app.services import imported
+from app.services import imported, pt5
 from app.services import questions as qs
 
 router = APIRouter(prefix="/triage", tags=["triage"])
-Mode = Literal["sprint", "module", "weakness", "math"]
+Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath"]
+Form = Literal["A", "B", "C"]
 
 
 class StartIn(BaseModel):
     mode: Mode
+    form: Form | None = None  # Mini Mock only
 
 
 class TriageQuestion(BaseModel):
@@ -32,6 +34,7 @@ class TriageQuestion(BaseModel):
 
 class StartOut(BaseModel):
     mode: Mode
+    form: Form | None = None
     limit_seconds: int
     questions: list[TriageQuestion]
 
@@ -47,6 +50,7 @@ class ItemIn(BaseModel):
 
 class SubmitIn(BaseModel):
     mode: Mode
+    form: Form | None = None
     elapsed_ms: int = Field(ge=0, le=3_600_000)
     items: list[ItemIn] = Field(min_length=1, max_length=30)
 
@@ -116,6 +120,8 @@ async def weak_skills(db: DB, user: CurrentUser) -> list[str]:
 
 @router.post("/start", response_model=StartOut)
 async def start(body: StartIn, db: DB, user: CurrentUser) -> StartOut:
+    if body.mode.startswith("mock"):
+        return await _mock(body, db)
     rng = random.Random(secrets.randbits(64))
     weak = await weak_skills(db, user) if body.mode == "weakness" else []
     picked: list[Question] = []
@@ -140,6 +146,37 @@ async def start(body: StartIn, db: DB, user: CurrentUser) -> StartOut:
                 question=qs.public(q, names[q.skill_id]), target_seconds=tr.target_seconds(q.skill_id)
             )
             for q in picked
+        ],
+    )
+
+
+async def _mock(body: StartIn, db: DB) -> StartOut:
+    """A fixed Mini Mock form, in official order (R&W by domain, Math easier first)."""
+    sec = "rw" if body.mode == "mockrw" else "math"
+    ids = pt5.forms().get(body.form or "", {}).get(sec)
+    if not ids:
+        raise HTTPException(409, "This Mini Mock form isn't available yet")
+    rows = {
+        q.external_id: q
+        for q in await db.scalars(
+            select(Question).where(Question.external_id.in_(ids), Question.status == "active")
+        )
+    }
+    picked = [rows[e] for e in ids if e in rows]
+    order = bp.order(
+        sec.upper(), [(q.skill_id, q.difficulty_rating) for q in picked], random.Random(body.form)
+    )
+    names = await qs.skill_names(db)
+    return StartOut(
+        mode=body.mode,
+        form=body.form,
+        limit_seconds=tr.MODES[body.mode][1],
+        questions=[
+            TriageQuestion(
+                question=qs.public(picked[i], names[picked[i].skill_id]),
+                target_seconds=tr.target_seconds(picked[i].skill_id),
+            )
+            for i in order
         ],
     )
 
@@ -181,12 +218,13 @@ async def submit(body: SubmitIn, db: DB, user: CurrentUser) -> Results:
         db.add(r)
         await qs.record_review(db, user.id, q.skill_id, correct)
         await imported.on_answer(db, user.id, q, correct)
+        await pt5.on_answer(db, user.id, q, correct)
         graded.append((it, q, r, item))
     a = tr.analyze([g[3] for g in graded], names)
     await db.flush()
     sess = TriageSession(
         user_id=user.id,
-        mode=body.mode,
+        mode=f"{body.mode}-{body.form}" if body.form else body.mode,
         limit_s=tr.MODES[body.mode][1],
         elapsed_ms=body.elapsed_ms,
         total=a.total,

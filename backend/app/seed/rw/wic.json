@@ -18,7 +18,37 @@
    "B": "\"Exposed\" means the opposite: the corals inside the bay fared better, not worse.",
    "C": "\"Reminded ... from the heat\" is illogical; water can't remind corals of anything.",
    "D": "\"Compared ... from the heat\" doesn't make sense; nothing is being compared."
-  }
+  },
+  "vocab": [
+   {
+    "word": "shielded",
+    "pos": "verb",
+    "meaning_en": "protected from harm or danger",
+    "meaning_ru": "защитил, укрыл (от чего-либо)",
+    "example": "The umbrella shielded the baby from the afternoon sun."
+   },
+   {
+    "word": "exposed",
+    "pos": "verb",
+    "meaning_en": "left without protection; made open to something harmful",
+    "meaning_ru": "подверг (воздействию), оставил без защиты",
+    "example": "The storm exposed the hikers to freezing winds."
+   },
+   {
+    "word": "reminded",
+    "pos": "verb",
+    "meaning_en": "caused someone to remember something",
+    "meaning_ru": "напомнил",
+    "example": "The smell of pine reminded him of summers at the lake."
+   },
+   {
+    "word": "compared",
+    "pos": "verb",
+    "meaning_en": "examined how two or more things are alike or different",
+    "meaning_ru": "сравнил",
+    "example": "The students compared the two maps of the city."
+   }
+  ]
  },
  {
   "id": "rw-wic-002",
@@ -39,7 +69,37 @@
    "B": "Correct. A ninety-page book contrasting with five-hundred-page ones is brief.",
    "C": "Nothing in the text discusses how popular the book was.",
    "D": "\"Lengthy\" describes her usual books, not the slim final one the text contrasts with them."
-  }
+  },
+  "vocab": [
+   {
+    "word": "brief",
+    "pos": "adjective",
+    "meaning_en": "short in length or duration",
+    "meaning_ru": "краткий, короткий",
+    "example": "The speaker gave a brief overview before taking questions."
+   },
+   {
+    "word": "complicated",
+    "pos": "adjective",
+    "meaning_en": "having many parts; hard to understand",
+    "meaning_ru": "сложный, запутанный",
+    "example": "The instructions for the new printer were too complicated to follow."
+   },
+   {
+    "word": "popular",
+    "pos": "adjective",
+    "meaning_en": "liked or enjoyed by many people",
+    "meaning_ru": "популярный",
+    "example": "The café became popular with students from the nearby college."
+   },
+   {
+    "word": "lengthy",
+    "pos": "adjective",
+    "meaning_en": "very long, often too long",
+    "meaning_ru": "длинный, затянутый",
+    "example": "After a lengthy debate, the council finally voted."
+   }
+  ]
  },
  {
   "id": "rw-wic-003",
@@ -60,7 +120,37 @@
    "B": "The findings contradict the assumption, so they don't confirm it.",
    "C": "Correct. Evidence that people choose suboptimal options calls the assumption into question.",
    "D": "Showing that an assumption is often wrong is not predicting it."
-  }
+  },
+  "vocab": [
+   {
+    "word": "challenged",
+    "pos": "verb",
+    "meaning_en": "questioned whether something is true or correct",
+    "meaning_ru": "поставил под сомнение, оспорил",
+    "example": "New fossil finds challenged the idea that the species evolved late."
+   },
+   {
+    "word": "originated",
+    "pos": "verb",
+    "meaning_en": "began or came into existence; first created something",
+    "meaning_ru": "возник, зародился; положил начало",
+    "example": "The custom originated in a small mountain village."
+   },
+   {
+    "word": "confirmed",
+    "pos": "verb",
+    "meaning_en": "showed that something is true",
+    "meaning_ru": "подтвердил",
+    "example": "The lab tests confirmed the doctor's diagnosis."
+   },
+   {
+    "word": "predicted",
+    "pos": "verb",
+    "meaning_en": "said that something would happen in the future",
+    "meaning_ru": "предсказал",
+    "example": "Forecasters predicted heavy snow for the weekend."
+   }
+  ]
  },
  {
   "id": "rw-wic-004",
@@ -81,7 +171,37 @@
    "B": "\"Simple geometric forms\" chosen deliberately are orderly, not haphazard.",
    "C": "\"Extravagant\" suggests lavish decoration, the opposite of what she favored.",
    "D": "Nothing indicates her style was typical; rejecting ornament isn't described as the norm."
-  }
+  },
+  "vocab": [
+   {
+    "word": "austere",
+    "pos": "adjective",
+    "meaning_en": "plain and without decoration",
+    "meaning_ru": "строгий, аскетичный, без украшений",
+    "example": "The monks lived in austere rooms with only a bed and a desk."
+   },
+   {
+    "word": "haphazard",
+    "pos": "adjective",
+    "meaning_en": "lacking order or planning; random",
+    "meaning_ru": "бессистемный, беспорядочный",
+    "example": "Books were stacked in a haphazard way across the floor."
+   },
+   {
+    "word": "extravagant",
+    "pos": "adjective",
+    "meaning_en": "elaborate and excessive, especially in decoration or spending",
+    "meaning_ru": "экстравагантный, чрезмерно пышный",
+    "example": "The hotel lobby featured an extravagant gold chandelier."
+   },
+   {
+    "word": "conventional",
+    "pos": "adjective",
+    "meaning_en": "following usual or traditional practices",
+    "meaning_ru": "традиционный, общепринятый",
+    "example": "He chose a conventional suit for the job interview."
+   }
+  ]
  },
  {
   "id": "rw-wic-005",
@@ -102,7 +222,37 @@
    "B": "Nothing in the contrast concerns whether the change was permanent.",
    "C": "The effects did accumulate over time, so saying the press did not eventually transform intellectual life contradicts the text.",
    "D": "The text says the change did happen gradually, so it can't say the press did not change things gradually."
-  }
+  },
+  "vocab": [
+   {
+    "word": "abruptly",
+    "pos": "adverb",
+    "meaning_en": "suddenly and unexpectedly",
+    "meaning_ru": "внезапно, резко",
+    "example": "The music stopped abruptly when the power went out."
+   },
+   {
+    "word": "permanently",
+    "pos": "adverb",
+    "meaning_en": "for all time; in a lasting way",
+    "meaning_ru": "навсегда, постоянно",
+    "example": "The museum permanently closed its east wing."
+   },
+   {
+    "word": "eventually",
+    "pos": "adverb",
+    "meaning_en": "in the end, after a long time",
+    "meaning_ru": "в конце концов, со временем",
+    "example": "After several failed attempts, she eventually passed the exam."
+   },
+   {
+    "word": "gradually",
+    "pos": "adverb",
+    "meaning_en": "slowly, little by little",
+    "meaning_ru": "постепенно",
+    "example": "The fog gradually lifted as the sun rose."
+   }
+  ]
  },
  {
   "id": "rw-wic-006",
@@ -123,7 +273,37 @@
    "B": "Nothing suggests enthusiasm; the writers were guarded.",
    "C": "Correct. Avoiding specifics on purpose is the hallmark of a circumspect tone.",
    "D": "\"Belligerent\" means hostile; vagueness about money isn't aggression."
-  }
+  },
+  "vocab": [
+   {
+    "word": "circumspect",
+    "pos": "adjective",
+    "meaning_en": "careful and cautious; unwilling to say too much",
+    "meaning_ru": "осмотрительный, сдержанный, осторожный",
+    "example": "The spokesperson was circumspect when reporters asked about layoffs."
+   },
+   {
+    "word": "candid",
+    "pos": "adjective",
+    "meaning_en": "honest and direct",
+    "meaning_ru": "откровенный, прямой",
+    "example": "In a candid interview, the coach admitted the team had played poorly."
+   },
+   {
+    "word": "exuberant",
+    "pos": "adjective",
+    "meaning_en": "full of energy, excitement, and cheerfulness",
+    "meaning_ru": "восторженный, полный энергии",
+    "example": "The exuberant fans danced in the streets after the victory."
+   },
+   {
+    "word": "belligerent",
+    "pos": "adjective",
+    "meaning_en": "hostile and eager to fight or argue",
+    "meaning_ru": "воинственный, агрессивный",
+    "example": "The belligerent customer shouted at the cashier."
+   }
+  ]
  },
  {
   "id": "rw-wic-007",
@@ -144,7 +324,37 @@
    "B": "Correct. \"Derivative\" (copied from earlier work) is the criticism that poems repeating familiar patterns would draw.",
    "C": "Calling work innovative is praise, which doesn't fit \"dismiss ... as merely.\"",
    "D": "The text says nothing about emotional excess; it's about repeating forms."
-  }
+  },
+  "vocab": [
+   {
+    "word": "derivative",
+    "pos": "adjective",
+    "meaning_en": "copying others' work; lacking originality",
+    "meaning_ru": "вторичный, подражательный",
+    "example": "Reviewers found the film's plot derivative of older thrillers."
+   },
+   {
+    "word": "obscure",
+    "pos": "adjective",
+    "meaning_en": "not well known; hard to understand",
+    "meaning_ru": "малоизвестный; неясный",
+    "example": "The quote came from an obscure eighteenth-century pamphlet."
+   },
+   {
+    "word": "innovative",
+    "pos": "adjective",
+    "meaning_en": "introducing new ideas or methods",
+    "meaning_ru": "новаторский, инновационный",
+    "example": "The company is known for its innovative approach to packaging."
+   },
+   {
+    "word": "sentimental",
+    "pos": "adjective",
+    "meaning_en": "driven by tender feelings, often excessively",
+    "meaning_ru": "сентиментальный",
+    "example": "She kept the old concert ticket for sentimental reasons."
+   }
+  ]
  },
  {
   "id": "rw-wic-008",
@@ -165,7 +375,37 @@
    "B": "Correct. Shorter commute times show the bridge was meant to reduce congestion.",
    "C": "Building a bridge to \"celebrate\" congestion makes no sense.",
    "D": "A bridge doesn't measure traffic, and the outcome described is a decrease."
-  }
+  },
+  "vocab": [
+   {
+    "word": "reduce",
+    "pos": "verb",
+    "meaning_en": "to make smaller in amount or degree",
+    "meaning_ru": "уменьшать, сокращать",
+    "example": "Planting trees can reduce noise from the highway."
+   },
+   {
+    "word": "increase",
+    "pos": "verb",
+    "meaning_en": "to make larger in amount or number",
+    "meaning_ru": "увеличивать",
+    "example": "The store increased its prices in January."
+   },
+   {
+    "word": "celebrate",
+    "pos": "verb",
+    "meaning_en": "to mark a special occasion with festivities",
+    "meaning_ru": "праздновать, отмечать",
+    "example": "The town celebrates its founding every June."
+   },
+   {
+    "word": "measure",
+    "pos": "verb",
+    "meaning_en": "to find the size, amount, or degree of something",
+    "meaning_ru": "измерять",
+    "example": "The nurse measured the child's height."
+   }
+  ]
  },
  {
   "id": "rw-wic-009",
@@ -186,7 +426,37 @@
    "B": "Correct. Observations that can only be made every 76 years are especially valuable.",
    "C": "\"Routine\" suggests something ordinary and common, the opposite of a once-in-76-years event.",
    "D": "Nothing suggests the observations are flawed."
-  }
+  },
+  "vocab": [
+   {
+    "word": "valuable",
+    "pos": "adjective",
+    "meaning_en": "very useful or important",
+    "meaning_ru": "ценный",
+    "example": "Her years of field experience proved valuable to the new team."
+   },
+   {
+    "word": "frequent",
+    "pos": "adjective",
+    "meaning_en": "happening often",
+    "meaning_ru": "частый",
+    "example": "Frequent rain made the trail muddy all spring."
+   },
+   {
+    "word": "routine",
+    "pos": "adjective",
+    "meaning_en": "ordinary and regular; not special",
+    "meaning_ru": "обычный, рутинный",
+    "example": "The pilot completed a routine safety check before takeoff."
+   },
+   {
+    "word": "inaccurate",
+    "pos": "adjective",
+    "meaning_en": "not correct or exact",
+    "meaning_ru": "неточный",
+    "example": "The old map was inaccurate, so we got lost."
+   }
+  ]
  },
  {
   "id": "rw-wic-010",
@@ -207,7 +477,37 @@
    "B": "Correct. \"Not attributable to any single cause\" matches the list of several contributing causes.",
    "C": "\"Opposed to\" makes no sense describing the relationship between a decline and its causes.",
    "D": "A decline being \"susceptible to\" a cause doesn't express that it was caused by several factors."
-  }
+  },
+  "vocab": [
+   {
+    "word": "attributable to",
+    "pos": "phrase",
+    "meaning_en": "caused by; able to be explained by",
+    "meaning_ru": "вызванный (чем-либо), объясняемый (чем-либо)",
+    "example": "Most of the delays were attributable to bad weather."
+   },
+   {
+    "word": "indifferent to",
+    "pos": "phrase",
+    "meaning_en": "not caring about or interested in",
+    "meaning_ru": "безразличный к",
+    "example": "The cat seemed indifferent to the noise outside."
+   },
+   {
+    "word": "opposed to",
+    "pos": "phrase",
+    "meaning_en": "against; disagreeing with",
+    "meaning_ru": "выступающий против, противящийся",
+    "example": "Many residents are opposed to the new parking fees."
+   },
+   {
+    "word": "susceptible to",
+    "pos": "phrase",
+    "meaning_en": "easily affected or harmed by",
+    "meaning_ru": "восприимчивый к, подверженный (чему-либо)",
+    "example": "Young plants are especially susceptible to frost."
+   }
+  ]
  },
  {
   "id": "rw-wic-011",
@@ -228,7 +528,37 @@
    "B": "\"Lifted\" is the physical sense of \"raised,\" which doesn't apply to concerns.",
    "C": "The members didn't make the concerns bigger; they voiced them.",
    "D": "Correct. To raise a concern is to bring it up for discussion."
-  }
+  },
+  "vocab": [
+   {
+    "word": "mentioned",
+    "pos": "verb",
+    "meaning_en": "brought up or spoke about something",
+    "meaning_ru": "упомянул, затронул (тему)",
+    "example": "During dinner, she mentioned that she was moving abroad."
+   },
+   {
+    "word": "built",
+    "pos": "verb",
+    "meaning_en": "made something by putting parts together",
+    "meaning_ru": "построил",
+    "example": "My grandfather built the wooden shed behind the house."
+   },
+   {
+    "word": "lifted",
+    "pos": "verb",
+    "meaning_en": "moved something to a higher position",
+    "meaning_ru": "поднял",
+    "example": "He lifted the box onto the top shelf."
+   },
+   {
+    "word": "increased",
+    "pos": "verb",
+    "meaning_en": "made larger in amount or number",
+    "meaning_ru": "увеличил",
+    "example": "The company increased its staff by twenty percent."
+   }
+  ]
  },
  {
   "id": "rw-wic-012",
@@ -249,7 +579,37 @@
    "B": "Correct. To draw on sources is to use them as material.",
    "C": "The exhibit isn't physically pulling the documents.",
    "D": "\"Sketches\" is a sense of \"draws,\" but an exhibit doesn't sketch letters."
-  }
+  },
+  "vocab": [
+   {
+    "word": "uses",
+    "pos": "phrase",
+    "meaning_en": "makes use of something as a source or tool",
+    "meaning_ru": "использует, опирается на",
+    "example": "The documentary uses old newsreels to tell its story."
+   },
+   {
+    "word": "attracts",
+    "pos": "phrase",
+    "meaning_en": "causes someone or something to come near",
+    "meaning_ru": "привлекает",
+    "example": "The bright porch light attracts moths every evening."
+   },
+   {
+    "word": "pulls toward",
+    "pos": "phrase",
+    "meaning_en": "drags or tugs in the direction of something",
+    "meaning_ru": "тянет к (чему-либо), тянет в сторону",
+    "example": "The dog always pulls toward the park when we leave the house."
+   },
+   {
+    "word": "sketches",
+    "pos": "phrase",
+    "meaning_en": "makes a quick, rough drawing",
+    "meaning_ru": "делает набросок, рисует эскиз",
+    "example": "The artist sketches people sitting in the square."
+   }
+  ]
  },
  {
   "id": "rw-wic-013",
@@ -270,7 +630,37 @@
    "B": "The orbit had already been measured; the problem was explaining it, not reporting it.",
    "C": "Counting has nothing to do with whether a theory fits an orbit.",
    "D": "Correct. A theory accounts for observations by explaining them."
-  }
+  },
+  "vocab": [
+   {
+    "word": "explain",
+    "pos": "phrase",
+    "meaning_en": "to give the reason or cause for something",
+    "meaning_ru": "объяснять",
+    "example": "Can you explain why the train was late?"
+   },
+   {
+    "word": "pay for",
+    "pos": "phrase",
+    "meaning_en": "to give money in exchange for something",
+    "meaning_ru": "платить за, оплачивать",
+    "example": "I'll pay for the tickets if you buy the snacks."
+   },
+   {
+    "word": "report",
+    "pos": "phrase",
+    "meaning_en": "to give an account of something that happened",
+    "meaning_ru": "сообщать, докладывать",
+    "example": "Witnesses reported a loud noise just before midnight."
+   },
+   {
+    "word": "count",
+    "pos": "phrase",
+    "meaning_en": "to find the total number of something",
+    "meaning_ru": "считать, подсчитывать",
+    "example": "The teacher counted the students before the bus left."
+   }
+  ]
  },
  {
   "id": "rw-wic-014",
@@ -291,7 +681,37 @@
    "B": "Correct. Opinion shifting in someone's favor means it changed toward them.",
    "C": "Opinion wasn't traded for something else.",
    "D": "Nothing is being carried anywhere."
-  }
+  },
+  "vocab": [
+   {
+    "word": "changed",
+    "pos": "verb",
+    "meaning_en": "became different",
+    "meaning_ru": "изменился, поменялся",
+    "example": "Her view of the city changed after she lived there for a year."
+   },
+   {
+    "word": "relocated",
+    "pos": "verb",
+    "meaning_en": "moved to a new place",
+    "meaning_ru": "переехал, переместился",
+    "example": "The company relocated its headquarters to Denver."
+   },
+   {
+    "word": "exchanged",
+    "pos": "verb",
+    "meaning_en": "gave one thing and received another in return",
+    "meaning_ru": "обменял, обменялся",
+    "example": "The two friends exchanged gifts at the station."
+   },
+   {
+    "word": "transported",
+    "pos": "verb",
+    "meaning_en": "carried from one place to another",
+    "meaning_ru": "перевёз, транспортировал",
+    "example": "Trucks transported the grain to the port."
+   }
+  ]
  },
  {
   "id": "rw-wic-015",
@@ -312,7 +732,37 @@
    "B": "Correct. A bare platform, one chair, and one lamp is minimal staging.",
    "C": "\"Spare\" can mean extra (a spare tire), but the staging isn't additional; it's sparse.",
    "D": "Nothing concerns cost or availability."
-  }
+  },
+  "vocab": [
+   {
+    "word": "minimal",
+    "pos": "adjective",
+    "meaning_en": "very small in amount; simple and bare",
+    "meaning_ru": "минимальный, скупой",
+    "example": "The cabin had only minimal furniture: a bed and a stove."
+   },
+   {
+    "word": "generous",
+    "pos": "adjective",
+    "meaning_en": "giving freely; larger than usual",
+    "meaning_ru": "щедрый",
+    "example": "The host served generous portions of pasta."
+   },
+   {
+    "word": "extra",
+    "pos": "adjective",
+    "meaning_en": "more than is usual or needed",
+    "meaning_ru": "дополнительный, лишний",
+    "example": "Bring an extra sweater in case it gets cold."
+   },
+   {
+    "word": "free",
+    "pos": "adjective",
+    "meaning_en": "not busy or occupied; available",
+    "meaning_ru": "свободный, незанятый",
+    "example": "Are you free on Saturday afternoon?"
+   }
+  ]
  },
  {
   "id": "rw-wic-016",
@@ -333,7 +783,37 @@
    "B": "\"Certified\" is the credential sense of \"qualified,\" which doesn't apply to a view.",
    "C": "\"Competent\" describes a person's ability, not a view of motives.",
    "D": "\"Eligible\" (qualified for a prize) doesn't describe a view."
-  }
+  },
+  "vocab": [
+   {
+    "word": "nuanced",
+    "pos": "adjective",
+    "meaning_en": "showing subtle distinctions and limits; not simple",
+    "meaning_ru": "тонкий, полный нюансов, с оговорками",
+    "example": "The historian offered a nuanced account of the king's reign."
+   },
+   {
+    "word": "certified",
+    "pos": "adjective",
+    "meaning_en": "officially recognized as meeting a standard",
+    "meaning_ru": "сертифицированный, дипломированный",
+    "example": "Only a certified electrician should rewire the house."
+   },
+   {
+    "word": "competent",
+    "pos": "adjective",
+    "meaning_en": "having enough skill to do something well",
+    "meaning_ru": "компетентный, умелый",
+    "example": "She is a competent swimmer but not a fast one."
+   },
+   {
+    "word": "eligible",
+    "pos": "adjective",
+    "meaning_en": "meeting the requirements to do or receive something",
+    "meaning_ru": "имеющий право (на что-либо), подходящий по условиям",
+    "example": "Students over sixteen are eligible for the program."
+   }
+  ]
  },
  {
   "id": "rw-wic-017",
@@ -354,7 +834,37 @@
    "B": "The remarks had a clear, direct implication, not a loose one.",
    "C": "\"Sharp-tipped\" is the literal sense of \"pointed,\" which remarks can't have.",
    "D": "Correct. The remarks clearly accused the agency, so they were sharply critical."
-  }
+  },
+  "vocab": [
+   {
+    "word": "sharply critical",
+    "pos": "phrase",
+    "meaning_en": "harshly disapproving; aimed directly at a fault",
+    "meaning_ru": "резко критический, язвительный",
+    "example": "The editorial was sharply critical of the mayor's spending."
+   },
+   {
+    "word": "carefully measured",
+    "pos": "phrase",
+    "meaning_en": "deliberate and restrained; chosen with care",
+    "meaning_ru": "взвешенный, продуманный",
+    "example": "Her carefully measured reply avoided taking sides."
+   },
+   {
+    "word": "loosely connected",
+    "pos": "phrase",
+    "meaning_en": "only weakly linked or related",
+    "meaning_ru": "слабо связанный",
+    "example": "The book is a series of loosely connected stories."
+   },
+   {
+    "word": "physically sharp",
+    "pos": "phrase",
+    "meaning_en": "having a fine point or cutting edge",
+    "meaning_ru": "острый (в буквальном смысле)",
+    "example": "The cactus spines are physically sharp enough to pierce gloves."
+   }
+  ]
  },
  {
   "id": "rw-wic-018",
@@ -375,7 +885,37 @@
    "B": "Correct. A polished performance is refined and free of flaws.",
    "C": "Nothing was painted.",
    "D": "\"Shined\" is the literal sense of \"polished\" (for metal or shoes), not a performance."
-  }
+  },
+  "vocab": [
+   {
+    "word": "refined",
+    "pos": "verb",
+    "meaning_en": "improved and perfected through careful work",
+    "meaning_ru": "отточенный, доведённый до совершенства",
+    "example": "After many drafts, the author refined her opening chapter."
+   },
+   {
+    "word": "rubbed",
+    "pos": "verb",
+    "meaning_en": "pressed and moved back and forth against a surface",
+    "meaning_ru": "натёртый, потёртый",
+    "example": "He rubbed his hands together to warm them."
+   },
+   {
+    "word": "painted",
+    "pos": "verb",
+    "meaning_en": "covered with paint",
+    "meaning_ru": "окрашенный, покрашенный",
+    "example": "We painted the fence white last summer."
+   },
+   {
+    "word": "shined",
+    "pos": "verb",
+    "meaning_en": "made bright by rubbing or cleaning",
+    "meaning_ru": "начищенный до блеска",
+    "example": "He shined his shoes before the wedding."
+   }
+  ]
  },
  {
   "id": "rw-wic-019",
@@ -396,7 +936,37 @@
    "B": "\"Inappropriate\" is an unrelated sense of \"suggestive.\"",
    "C": "Correct. Suggestive results indicate a possibility without proving it.",
    "D": "\"Decisive\" is close to \"conclusive,\" which the text contrasts with \"suggestive.\""
-  }
+  },
+  "vocab": [
+   {
+    "word": "indicative",
+    "pos": "adjective",
+    "meaning_en": "serving as a sign or hint of something",
+    "meaning_ru": "указывающий (на что-либо), показательный",
+    "example": "Rising rents are indicative of a growing demand for housing."
+   },
+   {
+    "word": "imaginative",
+    "pos": "adjective",
+    "meaning_en": "showing creativity or originality",
+    "meaning_ru": "творческий, с богатым воображением",
+    "example": "The children wrote imaginative stories about dragons."
+   },
+   {
+    "word": "inappropriate",
+    "pos": "adjective",
+    "meaning_en": "not suitable or proper",
+    "meaning_ru": "неуместный, неподобающий",
+    "example": "Jeans are inappropriate for the formal dinner."
+   },
+   {
+    "word": "decisive",
+    "pos": "adjective",
+    "meaning_en": "settling an issue beyond doubt; able to decide quickly",
+    "meaning_ru": "решающий; решительный",
+    "example": "The goalkeeper's save was decisive in the final."
+   }
+  ]
  },
  {
   "id": "rw-wic-020",
@@ -417,6 +987,36 @@
    "B": "\"Handed\" fits \"passed the salt,\" not episodes in a chronicle.",
    "C": "\"Exceeded\" fits \"passed the limit,\" which doesn't apply.",
    "D": "\"Crossed\" fits \"passed over a bridge,\" a physical sense."
-  }
+  },
+  "vocab": [
+   {
+    "word": "omitted",
+    "pos": "verb",
+    "meaning_en": "left out; not included or mentioned",
+    "meaning_ru": "опустил, пропустил, не упомянул",
+    "example": "The report omitted any mention of the budget shortfall."
+   },
+   {
+    "word": "handed",
+    "pos": "verb",
+    "meaning_en": "gave something to someone by hand",
+    "meaning_ru": "передал, вручил",
+    "example": "She handed the keys to her neighbor."
+   },
+   {
+    "word": "exceeded",
+    "pos": "verb",
+    "meaning_en": "went beyond a limit or amount",
+    "meaning_ru": "превысил",
+    "example": "Sales exceeded the company's expectations."
+   },
+   {
+    "word": "crossed",
+    "pos": "verb",
+    "meaning_en": "went from one side to the other",
+    "meaning_ru": "пересёк, перешёл",
+    "example": "We crossed the river by ferry."
+   }
+  ]
  }
 ]

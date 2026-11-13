@@ -1,0 +1,537 @@
+[
+  {
+    "id": "pt5-rw-inf-001",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "topic": "periwinkle snails raised on the shore vs in tanks",
+    "fictional": true,
+    "passage": "Biologist Mirela Antunes-Ko collected periwinkle snail eggs from a single rocky shore. She raised half of the hatchlings in tide pools on that shore and half in laboratory tanks of filtered seawater. When the adult snails were exposed to the scent of a predatory crab, the shore-raised snails quickly climbed out of the water, but the tank-raised snails kept feeding as if nothing had changed. Because both groups came from the same batch of eggs, Antunes-Ko concluded that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the conditions a periwinkle snail grows up in affect how it responds to the scent of a predator",
+      "a young snail must meet a live crab in order to respond to crab scent later in its life",
+      "periwinkle snails are born with an instinct to climb out of the water when a crab is near",
+      "crabs on rocky shores mostly hunt the snails that stay underwater instead of climbing out"
+    ],
+    "answer": "A",
+    "explanation": "The two groups had the same eggs; only the place they were raised differed. So the conclusion must be about rearing conditions.",
+    "steps": [
+      "Find what was different between the groups: shore vs tank rearing.",
+      "Find what was the same: the eggs (so not genes).",
+      "The result differed, so the conclusion is about where they were raised.",
+      "Reject claims about one narrow part of rearing that the study didn't test alone."
+    ],
+    "strategy_tip": "Name the one thing that differed between the groups; the conclusion must be about exactly that thing.",
+    "rationales": {
+      "A": "Correct. Same eggs, different rearing places, different responses: rearing conditions shape the response.",
+      "B": "Too narrow: The shore and the tank differed in many ways. The study did not test meeting a crab by itself.",
+      "C": "Contradicts the text: The tank-raised snails did not climb out, so the response is not simply inborn.",
+      "D": "Goes beyond the text: The text says nothing about which snails crabs hunt."
+    },
+    "traps": {
+      "B": "too narrow",
+      "C": "contradicts the text",
+      "D": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-002",
+    "modeled_on": "bb-pt5-rw-b-q9",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "topic": "wild thyme seeds and a steady bee population",
+    "fictional": true,
+    "passage": "Ecologist Tavi Orlund studied wild thyme on a hillside for ten years. Over that decade, average spring temperatures rose, and the number of seeds the thyme produced rose by 40 percent. Orlund suspected that warmer air made bees fly and visit flowers more often. A larger bee population could also have raised seed production, but Orlund's counts showed that the number of bees on the hillside stayed about the same for all ten years. This finding was important because it ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "showed that bees prefer to visit thyme on this hillside rather than on other hillsides",
+      "indicated that bees fly less often when spring temperatures become warmer",
+      "made it unlikely that more bees, rather than warmer air, explained the rise in seeds",
+      "suggested that the number of bees is the main factor that controls thyme seed production"
+    ],
+    "answer": "C",
+    "explanation": "The bee count did not change, so a bigger bee population cannot explain the extra seeds. That leaves warmer air as the likely cause.",
+    "steps": [
+      "Effect: more seeds. Proposed cause: warmer air.",
+      "Other possible cause: more bees.",
+      "Bee numbers stayed the same, so the other cause is ruled out.",
+      "The finding is important because it removes an alternative explanation."
+    ],
+    "strategy_tip": "When something stayed the same, ask which other explanation that fact rules out.",
+    "rationales": {
+      "A": "Goes beyond the text: The study looked at one hillside only; no other hillsides are compared.",
+      "B": "Contradicts the text: Orlund suspects the opposite, that warm air makes bees fly more.",
+      "C": "Correct. Bee numbers were steady, so 'more bees' cannot explain the extra seeds; warm air remains the likely cause.",
+      "D": "Reverses the logic: Bee numbers did not change while seeds rose, so the finding points away from bee numbers as the cause."
+    },
+    "traps": {
+      "A": "goes beyond the text",
+      "B": "contradicts the text",
+      "D": "reverses the logic"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-003",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "topic": "counting chickadees at winter feeders",
+    "fictional": true,
+    "passage": "To estimate how many chickadees live in Brennick Woods, volunteers count every chickadee that lands on a set of feeders during one winter morning, and each landing is recorded as a separate bird. In winter, almost every chickadee in the woods visits these feeders. However, studies of birds marked with leg bands show that a single chickadee often returns to the same feeder many times in one morning. Because of this, the volunteers' method most likely ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "gives a number lower than the true number of chickadees living in the woods",
+      "is accurate, since every landing at the feeders is carefully recorded",
+      "shows that chickadees visit feeders more often than other forest birds do",
+      "gives a number higher than the true number of chickadees living in the woods"
+    ],
+    "answer": "D",
+    "explanation": "One bird landing many times is counted as many birds. Almost no birds are missed, so the count is too high.",
+    "steps": [
+      "Ask what the method does wrong: it counts one bird several times.",
+      "Ask whether it also misses birds: no, almost every bird visits.",
+      "Counting the same bird again makes the number too big.",
+      "So the estimate is higher than the true number."
+    ],
+    "strategy_tip": "For estimate questions, ask: does the method count something twice (too high) or miss something (too low)?",
+    "rationales": {
+      "A": "Reverses the direction: Repeat landings add extra counts, so the number is too high, not too low.",
+      "B": "Contradicts the text: Careful recording doesn't help; each repeat landing is still recorded as a new bird.",
+      "C": "Goes beyond the text: No other bird species are discussed.",
+      "D": "Correct. Each bird can be counted many times and almost none are missed, so the count overstates the population."
+    },
+    "traps": {
+      "A": "reverses the direction",
+      "B": "contradicts the text",
+      "C": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-004",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "medium",
+    "topic": "tomato seedlings grown beside a fan",
+    "fictional": true,
+    "passage": "Plant scientist Odile Marchetti grew two groups of tomato seedlings from the same packet of seeds in identical greenhouses with the same soil, water, and light. The only difference was that a fan blew gently on one group for several hours each day. After six weeks, the seedlings exposed to the fan had shorter but thicker stems, and fewer of them bent over in a later wind test. Marchetti concluded that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "fan exposure must last several hours a day before it has any effect on tomato stems",
+      "exposure to moving air during growth changes how tomato stems develop",
+      "the thickness of a tomato stem depends mainly on the soil the plant grows in",
+      "tomato seedlings grow taller when a fan blows on them for part of each day"
+    ],
+    "answer": "B",
+    "explanation": "Everything was the same except the moving air, and the stems differed. So moving air affects stem growth.",
+    "steps": [
+      "Same seeds, soil, water, and light.",
+      "One difference: the fan (moving air).",
+      "Result: shorter, thicker, stronger stems.",
+      "Conclusion: moving air changes stem development."
+    ],
+    "strategy_tip": "Look for 'the only difference was'; the conclusion is about that difference.",
+    "rationales": {
+      "A": "Too narrow: Only one length of fan time was used, so the study can't say that shorter times have no effect.",
+      "B": "Correct. Moving air was the only difference, and the stems developed differently.",
+      "C": "Contradicts the text: The soil was the same for both groups, so it can't explain the difference.",
+      "D": "Reverses the direction: The fan-exposed seedlings were shorter, not taller."
+    },
+    "traps": {
+      "A": "too narrow",
+      "C": "contradicts the text",
+      "D": "reverses the direction"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-005",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "parasitic wasps reared on a farm vs in a lab",
+    "fictional": true,
+    "passage": "Entomologist Ruben Kalnins-Ade studied a parasitic wasp that lays its eggs inside caterpillars. He reared one group of wasps on a farm, where caterpillars fed on many plant species, and another group in a laboratory, where caterpillars fed only on cabbage. In later tests, farm-reared wasps searched the leaves of several plant types for caterpillars, while lab-reared wasps searched almost only cabbage leaves, even when caterpillars were hidden on other plants. Kalnins-Ade concluded that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the caterpillars' diet, and no other difference between the farm and the laboratory, explains the wasps' behavior",
+      "farm-reared wasps lay more eggs over their lifetimes than lab-reared wasps do",
+      "the environment in which a wasp is reared influences which plants it searches for caterpillars",
+      "wasps of this species search mainly cabbage leaves wherever they are reared"
+    ],
+    "answer": "C",
+    "explanation": "The groups differed in where they were reared (farm vs lab), and their searching differed. The conclusion must be about the rearing environment as a whole.",
+    "steps": [
+      "Difference between groups: farm rearing vs lab rearing.",
+      "A farm and a lab differ in many ways, not only caterpillar diet.",
+      "Result: different plants searched.",
+      "Safe conclusion: rearing environment affects searching. Anything narrower isn't proven."
+    ],
+    "strategy_tip": "If the groups differ in a whole setting (field vs lab), don't pick a choice that blames just one part of that setting.",
+    "rationales": {
+      "A": "Too narrow: Diet is only one way the farm and the lab differ; the study did not test it alone.",
+      "B": "Goes beyond the text: The number of eggs laid was not measured.",
+      "C": "Correct. Wasps reared in different places searched different plants, so the rearing environment matters.",
+      "D": "Contradicts the text: Farm-reared wasps searched several plant types, not mainly cabbage."
+    },
+    "traps": {
+      "A": "too narrow",
+      "B": "goes beyond the text",
+      "D": "contradicts the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-006",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "songbird eggs swapped between city and forest nests",
+    "fictional": true,
+    "passage": "Songbirds of one species sing at a higher pitch in cities than in forests. To learn why, ornithologist Hana Veltrusky moved eggs between nests: some eggs laid by city birds hatched and were raised in forest nests, and some eggs laid by forest birds were raised in city nests. As adults, birds raised in the city sang at a high pitch, whatever their parents' origin, while birds raised in the forest sang at a lower pitch. These results suggest that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the place where a bird is raised, rather than its parents' origin, shapes the pitch of its song",
+      "the pitch of a bird's song is mainly inherited from the parents that laid its egg",
+      "loud city traffic is the specific feature of city life that makes young birds sing higher",
+      "birds raised in cities attract mates more easily than birds raised in forests do"
+    ],
+    "answer": "A",
+    "explanation": "Pitch followed the place of rearing, not the parents. So rearing place shapes pitch.",
+    "steps": [
+      "Two things could matter: parents' origin and rearing place.",
+      "Swapping eggs separates them.",
+      "Pitch matched the rearing place every time.",
+      "Conclusion: rearing place, not parentage, shapes pitch."
+    ],
+    "strategy_tip": "In swap experiments, see which factor the result follows; the conclusion names that factor.",
+    "rationales": {
+      "A": "Correct. City-raised birds sang high and forest-raised birds sang low, regardless of parents.",
+      "B": "Reverses the logic: Pitch followed the rearing place, not the parents, so the results point away from inheritance.",
+      "C": "Too narrow: A city differs from a forest in many ways; the study did not isolate traffic noise.",
+      "D": "Goes beyond the text: Mating success was not studied."
+    },
+    "traps": {
+      "B": "reverses the logic",
+      "C": "too narrow",
+      "D": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-007",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "farm loans with different repayment plans",
+    "fictional": true,
+    "passage": "In a study led by economist Ines Barraclough-Teo, two groups of farmers in the same district received identical loans to buy fertilizer. The groups were similar in farm size and income; the only difference was the repayment plan. One group repaid the loan in a single payment after the harvest, while the other repaid it in equal monthly amounts starting at once. Farmers in the harvest-repayment group bought 30 percent more fertilizer and reported higher yields. Barraclough-Teo concluded that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "repaying after the harvest helps only farmers with large farms, who can use more fertilizer",
+      "most farmers in the district prefer monthly repayments to a single payment",
+      "the amount of fertilizer farmers use has little effect on the size of their harvests",
+      "the timing of loan repayments can influence how much farmers invest in their crops"
+    ],
+    "answer": "D",
+    "explanation": "The only difference was when farmers repaid, and their fertilizer buying differed. So repayment timing affects investment.",
+    "steps": [
+      "Same loans, similar farms and incomes.",
+      "Only difference: repay after harvest vs monthly.",
+      "Result: harvest-repayment farmers bought more fertilizer.",
+      "Conclusion: repayment timing affects how much farmers invest."
+    ],
+    "strategy_tip": "A conclusion that limits the result to one subgroup is too narrow unless the study compared that subgroup.",
+    "rationales": {
+      "A": "Too narrow: The groups had similar farm sizes, so the study can't say the effect applies only to large farms.",
+      "B": "Goes beyond the text: Farmers' preferences were not measured.",
+      "C": "Contradicts the text: The group that bought more fertilizer also reported higher yields.",
+      "D": "Correct. Repayment timing was the only difference, and it changed how much fertilizer farmers bought."
+    },
+    "traps": {
+      "A": "too narrow",
+      "B": "goes beyond the text",
+      "C": "contradicts the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-008",
+    "modeled_on": "bb-pt5-rw-a-q14",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "tadpoles raised beside caged dragonfly larvae",
+    "fictional": true,
+    "passage": "Herpetologist Aurelio Nwosu-Lind raised wood frog tadpoles from a single egg mass in two sets of tanks. In one set, each tank held a dragonfly larva, a tadpole predator, inside a clear mesh cage that kept it from reaching the tadpoles. The other tanks held identical empty cages. After three weeks, tadpoles in the tanks with caged predators had deeper tails and swam away faster when touched. Nwosu-Lind concluded that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "tadpoles change their shape when they see a predator but not when they only smell one",
+      "the presence of a predator during development can change a tadpole's body shape",
+      "tadpoles with deeper tails attract more dragonfly larvae than other tadpoles do",
+      "the tail depth of a wood frog tadpole is fixed by the egg mass it hatched from"
+    ],
+    "answer": "B",
+    "explanation": "The only difference was a caged predator in the tank, and tail shape differed. So a predator's presence changes body shape.",
+    "steps": [
+      "Same egg mass, same tanks and cages.",
+      "Only difference: a predator inside the cage.",
+      "Result: deeper tails and faster escapes.",
+      "The clear mesh cage let tadpoles both see and smell it, so sight and smell can't be separated."
+    ],
+    "strategy_tip": "If the study can't separate two parts of a condition, reject a choice that credits only one part.",
+    "rationales": {
+      "A": "Too narrow: The tadpoles could both see and smell the caged predator, so the study can't separate sight from smell.",
+      "B": "Correct. A predator was the only difference, and the tadpoles' tails changed.",
+      "C": "Goes beyond the text: The study did not test which tadpoles attract predators.",
+      "D": "Contradicts the text: All tadpoles came from one egg mass, yet their tails differed."
+    },
+    "traps": {
+      "A": "too narrow",
+      "C": "goes beyond the text",
+      "D": "contradicts the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-009",
+    "modeled_on": "bb-pt5-rw-b-q9",
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "topic": "after-school reading clubs and unchanged classrooms",
+    "fictional": true,
+    "passage": "Education researcher Paloma Strand-Ihejirika studied twelve schools that opened after-school reading clubs. Over the next two years, students' reading scores at these schools rose sharply. Strand-Ihejirika then checked whether anything else had changed at the schools during that time. She found that class sizes, teaching staff, and the reading textbooks used in class all remained the same throughout the study. She argued that the clubs were the most likely cause of the improvement.",
+    "stem": "Based on the text, why was it important to Strand-Ihejirika's argument that class sizes, staff, and textbooks remained the same?",
+    "choices": [
+      "It showed that students enjoyed the reading clubs more than their regular reading classes.",
+      "It indicated that the clubs had little effect, since the classrooms themselves had not changed.",
+      "It proved that reading scores never depend on the textbooks that students use in class.",
+      "It made it less likely that some other change at the schools explained the higher scores."
+    ],
+    "answer": "D",
+    "explanation": "If class sizes, staff, or books had changed, they could explain the higher scores. Because they stayed the same, the clubs remain the best explanation.",
+    "steps": [
+      "Effect: higher reading scores. Claimed cause: the clubs.",
+      "Possible other causes: smaller classes, new teachers, new books.",
+      "None of these changed, so they are ruled out.",
+      "That supports the clubs as the cause."
+    ],
+    "strategy_tip": "'Remained the same' in a study usually means an alternative explanation is being ruled out.",
+    "rationales": {
+      "A": "Goes beyond the text: Students' enjoyment is never mentioned.",
+      "B": "Reverses the logic: Unchanged classrooms point toward the clubs as the cause, not away from them.",
+      "C": "Goes beyond the text: The finding is about these schools only; 'never depend' is far too strong.",
+      "D": "Correct. With nothing else changing, other causes are ruled out and the clubs remain the likely cause."
+    },
+    "traps": {
+      "A": "goes beyond the text",
+      "B": "reverses the logic",
+      "C": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-010",
+    "modeled_on": "bb-pt5-rw-b-q9",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "young perch growth in warm and cool summers",
+    "fictional": true,
+    "passage": "Fisheries biologist Joaquim Dervish-Oyelaran found that young perch in Lake Morvan grew about 25 percent faster in warm summers than in cool ones. Perch feed mainly on zooplankton, tiny animals whose numbers often rise in warm water. However, Dervish-Oyelaran's samples showed that the amount of zooplankton in the lake was nearly the same in warm and cool summers. This result was important because it ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "showed that young perch eat less zooplankton in warm summers than in cool ones",
+      "suggested that the amount of zooplankton determines how fast young perch grow",
+      "allowed the faster growth to be linked to warmer water rather than to more food",
+      "proved that zooplankton numbers do not change with water temperature in any lake"
+    ],
+    "answer": "C",
+    "explanation": "More food could have explained faster growth, but the food supply did not change. So the faster growth can be linked to temperature.",
+    "steps": [
+      "Effect: faster growth in warm summers.",
+      "Possible explanation 1: warm water itself. Possible explanation 2: more zooplankton.",
+      "Zooplankton stayed the same, so explanation 2 is ruled out.",
+      "The result matters because it points to temperature."
+    ],
+    "strategy_tip": "Ask what the steady variable could have explained if it had changed; that explanation is the one ruled out.",
+    "rationales": {
+      "A": "Goes beyond the text: The samples measured how much zooplankton was in the lake, not how much perch ate.",
+      "B": "Reverses the logic: Growth changed while zooplankton stayed the same, so the result points away from food.",
+      "C": "Correct. With the food supply unchanged, 'more food' is ruled out, leaving warm water as the likely cause.",
+      "D": "Contradicts the text: The text says zooplankton numbers often rise in warm water; this lake is an exception."
+    },
+    "traps": {
+      "A": "goes beyond the text",
+      "B": "reverses the logic",
+      "D": "contradicts the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-011",
+    "modeled_on": "bb-pt5-rw-b-q9",
+    "skill": "RW.INI.CID.DETAIL",
+    "difficulty": "hard",
+    "topic": "speed bumps and steady traffic counts",
+    "fictional": true,
+    "passage": "After the town of Velmora installed speed bumps on twenty residential streets, the number of crashes on those streets fell by half within a year. Traffic engineer Oskar Feldmann-Achebe then examined traffic counts for the same streets. He found that about as many cars used them after the speed bumps were installed as before. Feldmann-Achebe argued that slower driving, not a drop in traffic, explained the decline in crashes.",
+    "stem": "Based on the text, why was the traffic-count finding important to Feldmann-Achebe's argument?",
+    "choices": [
+      "It ruled out the idea that crashes fell simply because fewer cars used the streets.",
+      "It showed that many drivers began avoiding the streets that had speed bumps.",
+      "It suggested that speed bumps cause more crashes on streets with heavy traffic.",
+      "It indicated that the speed bumps had no effect on how fast drivers traveled."
+    ],
+    "answer": "A",
+    "explanation": "Fewer cars could have meant fewer crashes. Traffic stayed the same, so that explanation is ruled out and slower driving remains.",
+    "steps": [
+      "Effect: crashes fell by half.",
+      "Alternative explanation: fewer cars on the streets.",
+      "Traffic counts stayed the same, so the alternative fails.",
+      "That supports slower driving as the cause."
+    ],
+    "strategy_tip": "Match the steady finding to the 'not ...' part of the argument; that is the explanation it rules out.",
+    "rationales": {
+      "A": "Correct. The same number of cars means 'less traffic' can't explain the drop, which supports slower driving.",
+      "B": "Contradicts the text: About as many cars used the streets as before.",
+      "C": "Contradicts the text: Crashes fell after the speed bumps were installed, and heavy and light traffic are not compared.",
+      "D": "Goes beyond the text: The traffic counts measure how many cars passed, not how fast they went."
+    },
+    "traps": {
+      "B": "contradicts the text",
+      "C": "contradicts the text",
+      "D": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-012",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "weighing household food waste in garbage bins",
+    "fictional": true,
+    "passage": "To estimate how much food households in the city of Halvenbury throw away, researcher Liesel Okonkwo-Brandt weighed the food found in residents' garbage bins each week. A later survey found that many households also put food scraps into home compost piles or wash them down kitchen sink disposals. The survey also found that almost none of the food in the bins came from outside the households. Because of this, Okonkwo-Brandt's method most likely ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "gave a figure higher than the total amount of food the households actually discarded",
+      "counted food from shops and restaurants as if it had been thrown away by households",
+      "showed that households with compost piles waste less food than other households do",
+      "gave a figure lower than the total amount of food the households actually discarded"
+    ],
+    "answer": "D",
+    "explanation": "The method weighs only the bins and misses compost and sink waste. It adds almost nothing extra, so the figure is too low.",
+    "steps": [
+      "What does the method miss? Compost and sink waste.",
+      "Does it add anything extra? Almost no outside food is in the bins.",
+      "Missing part of the total makes the estimate too low.",
+      "So the figure understates the true amount."
+    ],
+    "strategy_tip": "Missing part of the total = understates; counting extra or counting twice = overstates.",
+    "rationales": {
+      "A": "Reverses the direction: Missing the compost and sink waste makes the figure too low, not too high.",
+      "B": "Contradicts the text: The survey found almost no outside food in the bins.",
+      "C": "Goes beyond the text: Households with and without compost piles were not compared.",
+      "D": "Correct. Food that went to compost or down the sink was never weighed, so the total is underestimated."
+    },
+    "traps": {
+      "A": "reverses the direction",
+      "B": "contradicts the text",
+      "C": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-013",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "an exercise survey given at sports centers",
+    "fictional": true,
+    "passage": "To estimate the share of adults in the town of Brisa Alta who exercise at least three times a week, a health team handed questionnaires to adults entering the town's two public sports centers on several weekday mornings. Of the adults who answered, 64 percent reported exercising that often. The team notes, however, that most adults in Brisa Alta never visit either sports center. Given this, the 64 percent figure most likely ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "understates the share of all adults in Brisa Alta who exercise at least three times a week",
+      "overstates the share of all adults in Brisa Alta who exercise at least three times a week",
+      "is accurate for the whole town, since the questionnaires were handed out on several different mornings",
+      "shows that adults who visit sports centers in the morning exercise more than those who visit later"
+    ],
+    "answer": "B",
+    "explanation": "People entering a sports center are more likely to exercise than typical adults. Most adults never go there, so the figure is too high for the whole town.",
+    "steps": [
+      "Who was asked? Only people entering sports centers.",
+      "Are they typical? No; most adults never visit, and visitors are likely to exercise more.",
+      "A sample tilted toward exercisers gives a number that is too high.",
+      "So 64 percent overstates the town's true share."
+    ],
+    "strategy_tip": "Ask who was left out of the sample and whether they would push the number up or down.",
+    "rationales": {
+      "A": "Reverses the direction: The sample is full of people who go to sports centers, so it pushes the figure up, not down.",
+      "B": "Correct. The people asked were visiting sports centers, unlike most adults, so they exercise more than the town average.",
+      "C": "Contradicts the text: Using several mornings doesn't help, because the team says most adults never visit the centers.",
+      "D": "Goes beyond the text: No one was asked at other times of day, so no comparison is possible."
+    },
+    "traps": {
+      "A": "reverses the direction",
+      "C": "contradicts the text",
+      "D": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-014",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "glacier ice loss measured from retreating edges",
+    "fictional": true,
+    "passage": "Glaciologist Teodora Vasquez-Holm estimated how much ice the Skarn Glacier lost between 2000 and 2020. Using satellite images, she measured how much area the glacier lost as its edges retreated and multiplied that area by the glacier's average thickness in 2000. Field surveys, however, show that over the same period the remaining part of the glacier also became thinner across most of its surface. If the field surveys are accurate, Vasquez-Holm's estimate most likely ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "overstates the total amount of ice the glacier lost from 2000 to 2020",
+      "gives the correct total, because it measures the lost area at the edges precisely",
+      "understates the total amount of ice the glacier lost from 2000 to 2020",
+      "shows that the glacier will disappear completely within the next few decades"
+    ],
+    "answer": "C",
+    "explanation": "The method counts only ice lost at the retreating edges. It misses the thinning of the rest of the glacier, so the total loss is too low.",
+    "steps": [
+      "What does the method count? Ice lost at the edges.",
+      "What does it miss? Ice lost by thinning everywhere else.",
+      "Missing a source of loss makes the estimate too small.",
+      "So it understates the total loss."
+    ],
+    "strategy_tip": "List what the method measures and what really happened; the gap tells you the direction.",
+    "rationales": {
+      "A": "Reverses the direction: Leaving out the thinning makes the estimate too small, not too large.",
+      "B": "Too narrow: Measuring the edges well still covers only part of the loss; the thinning is left out.",
+      "C": "Correct. The method ignores ice lost through thinning, so the real loss is larger than the estimate.",
+      "D": "Goes beyond the text: The text makes no prediction about the glacier's future."
+    },
+    "traps": {
+      "A": "reverses the direction",
+      "B": "too narrow",
+      "D": "goes beyond the text"
+    }
+  },
+  {
+    "id": "pt5-rw-inf-015",
+    "skill": "RW.INI.INF.COMPLETE",
+    "difficulty": "hard",
+    "topic": "thinner pottery walls and a faster wheel",
+    "fictional": true,
+    "passage": "Archaeologist Nils Abernathy-Oduya found that pottery from the village site of Kell Duran became steadily thinner-walled over four centuries. He argues that the village's potters adopted a faster pottery wheel during that time, since a fast wheel lets a potter pull clay into thinner walls than a slow wheel or shaping by hand does. Abernathy-Oduya's argument would be most directly weakened if it were found that ______.",
+    "stem": "Which choice most logically completes the text?",
+    "choices": [
+      "the thinnest pots from the later centuries were all shaped by hand, without a wheel",
+      "the later pots show spiral marks of the kind that a fast wheel leaves in clay",
+      "the population of Kell Duran grew steadily during the same four centuries",
+      "the pots were used mainly for storing grain rather than for cooking food"
+    ],
+    "answer": "A",
+    "explanation": "The argument says a fast wheel made the thin walls. If the thinnest pots were made without any wheel, the wheel can't be the explanation.",
+    "steps": [
+      "Claim: a faster wheel caused the thinner walls.",
+      "To weaken it, find evidence that thin walls came without a fast wheel.",
+      "Hand-shaped thin pots show the wheel was not needed.",
+      "Reject evidence that supports the claim or has nothing to do with it."
+    ],
+    "strategy_tip": "To weaken a cause claim, look for the effect happening without the proposed cause.",
+    "rationales": {
+      "A": "Correct. If the thinnest pots used no wheel at all, a faster wheel can't explain the thinner walls.",
+      "B": "Reverses the direction: Fast-wheel marks on later pots would strengthen the argument, not weaken it.",
+      "C": "Irrelevant to the argument: Population size says nothing about how the pots were made.",
+      "D": "Irrelevant to the argument: What the pots held doesn't show whether a fast wheel was used."
+    },
+    "traps": {
+      "B": "reverses the direction",
+      "C": "irrelevant to the argument",
+      "D": "irrelevant to the argument"
+    }
+  }
+]

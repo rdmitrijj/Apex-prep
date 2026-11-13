@@ -1,0 +1,400 @@
+[
+  {
+    "id": "pt5-rw-trans-016",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "medium",
+    "topic": "a linguist who set aside old word lists",
+    "fictional": true,
+    "passage": "For decades, scholars of the Varran language relied on word lists that travelers had written down in the 1800s. Linguist Odile Brannick suspected that these lists missed many everyday words, so she did not use them in her own study. ______ she spent two years recording ordinary conversations in Varran villages, creating the first large archive of the spoken language.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Similarly,", "Instead,", "For instance,", "Still,"],
+    "answer": "B",
+    "explanation": "Brannick did not use the old lists; the recordings are what she used in their place. 'Instead' introduces a replacement.",
+    "steps": [
+      "Sentence before: she did NOT use the word lists.",
+      "Sentence after: she recorded conversations.",
+      "The recordings take the place of the lists: that is replacement.",
+      "Replacement words: Instead, Rather."
+    ],
+    "strategy_tip": "After 'did not do X', the next sentence often says what was done in place of X: use Instead or Rather.",
+    "rationales": {
+      "A": "Signals similarity: Recording conversations is not a similar case to avoiding the lists; it replaces them.",
+      "B": "Correct. 'Instead' introduces what Brannick did in place of using the old word lists.",
+      "C": "Signals an example: The recordings are not an example of not using the lists; they are the new method she chose.",
+      "D": "Signals contrast: 'Still' means 'despite this', but recording conversations is not surprising after she rejected the lists. It is the replacement."
+    },
+    "traps": {"A": "signals similarity", "C": "signals an example", "D": "signals contrast"}
+  },
+  {
+    "id": "pt5-rw-trans-017",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "medium",
+    "topic": "self-sealing concrete with bacteria",
+    "fictional": true,
+    "passage": "Engineer Tomas Ruelle added dormant bacteria to a new concrete mix. When cracks let water into the concrete, the bacteria wake up and produce limestone, which seals the gaps before they can grow. ______ the mix costs only slightly more than ordinary concrete, so it is practical for large projects such as bridges and parking garages.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Instead,", "Nevertheless,", "Even so,", "Moreover,"],
+    "answer": "D",
+    "explanation": "The first sentences give one advantage (the concrete seals itself). The last sentence gives a second advantage (low cost). 'Moreover' adds a further point.",
+    "steps": [
+      "Before the blank: an advantage, the concrete repairs its own cracks.",
+      "After the blank: another advantage, it is cheap enough for big projects.",
+      "Advantage + advantage = addition.",
+      "Addition words: Moreover, Furthermore, In addition."
+    ],
+    "strategy_tip": "If both sentences push the same way (good + good), choose an addition word, not a contrast word.",
+    "rationales": {
+      "A": "Signals replacement: The low cost does not replace the self-sealing feature; it is added to it.",
+      "B": "Signals contrast: Nothing goes against the first point. The low cost is a second benefit.",
+      "C": "Signals concession: 'Even so' means 'despite this', but the price does not work against the self-sealing feature.",
+      "D": "Correct. 'Moreover' adds a second advantage (low cost) to the first (self-sealing)."
+    },
+    "traps": {"A": "signals replacement", "B": "signals contrast", "C": "signals concession"}
+  },
+  {
+    "id": "pt5-rw-trans-018",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "medium",
+    "topic": "sailors learning songs by ear in two ports",
+    "fictional": true,
+    "passage": "Music historian Carys Penhale found that sailors in the port of Velsk learned new songs mainly by listening to other sailors in harbor taverns, not from printed songbooks. ______ in the distant port of Amarro, dockworkers' diaries from the same period describe learning tunes almost entirely by ear from fellow workers.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Likewise,", "In contrast,", "Therefore,", "Even so,"],
+    "answer": "A",
+    "explanation": "Velsk and Amarro are two separate places where workers learned songs the same way, by ear. 'Likewise' introduces a similar case.",
+    "steps": [
+      "Case 1: Velsk sailors learned songs by listening.",
+      "Case 2: Amarro dockworkers learned songs by ear.",
+      "Two different places, same pattern: similarity.",
+      "Similarity words: Likewise, Similarly."
+    ],
+    "strategy_tip": "Two different places or people doing the same thing = Likewise / Similarly.",
+    "rationales": {
+      "A": "Correct. 'Likewise' shows that Amarro is a second, similar case of learning songs by ear.",
+      "B": "Signals contrast: The two ports are alike, not opposite.",
+      "C": "Signals result: What happened in Velsk did not cause what happened in a distant port.",
+      "D": "Signals concession: 'Even so' means 'despite this', but nothing in Amarro goes against the Velsk finding."
+    },
+    "traps": {"B": "signals contrast", "C": "signals result", "D": "signals concession"}
+  },
+  {
+    "id": "pt5-rw-trans-019",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "medium",
+    "topic": "a market moved beside a railway station",
+    "fictional": true,
+    "passage": "In 1912, the town council of Brennholt moved its weekly market from the crowded old square to an open field beside the new railway station. ______ shops, inns, and warehouses began to appear around the station, and within twenty years the field had become the busy center of town.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Previously,", "Still,", "Thereafter,", "For instance,"],
+    "answer": "C",
+    "explanation": "First the market moved (1912); after that, buildings grew around the station. 'Thereafter' means 'after that time'.",
+    "steps": [
+      "Event 1 (1912): the market moved to the field.",
+      "Event 2: buildings appeared, and the field became the center within twenty years.",
+      "Event 2 comes after event 1: time order.",
+      "Later-in-time words: Thereafter, Subsequently, Later."
+    ],
+    "strategy_tip": "Put the two events on a timeline; if the second comes later, choose Thereafter or Subsequently.",
+    "rationales": {
+      "A": "Signals an earlier time: The shops and inns came after the 1912 move, not before it.",
+      "B": "Signals contrast: Nothing goes against the move; the growth follows from it.",
+      "C": "Correct. 'Thereafter' places the new buildings after the market moved.",
+      "D": "Signals an example: The new shops are not an example of moving the market; they are what happened next."
+    },
+    "traps": {"A": "signals an earlier time", "B": "signals contrast", "D": "signals an example"}
+  },
+  {
+    "id": "pt5-rw-trans-020",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "medium",
+    "topic": "a wasted dig season and radar surveys",
+    "fictional": true,
+    "passage": "In 1987, a team led by archaeologist Ines Halvorsen spent a full season digging at Mount Teral but found nothing, because the old map they had trusted placed the ancient settlement in the wrong valley. ______ the team began every later project with a ground-penetrating radar survey before any digging started.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "For example,", "Regardless,", "As a result,"],
+    "answer": "D",
+    "explanation": "The wasted season (cause) led the team to start every project with a radar survey (effect). 'As a result' introduces a consequence.",
+    "steps": [
+      "Before the blank: a bad map wasted a whole season.",
+      "After the blank: the team changed how it starts every project.",
+      "Ask: why did they change? Because of the failure. That is cause and effect.",
+      "Result words: As a result, Accordingly, Hence, Thus."
+    ],
+    "strategy_tip": "A lesson learned, then a change in method = result (As a result / Accordingly), not an example.",
+    "rationales": {
+      "A": "Signals contrast: The new radar surveys do not go against the failed dig; they respond to it.",
+      "B": "Signals an example: The radar surveys are not an example of the failed season; they are what the team did because of it.",
+      "C": "Signals disregard: 'Regardless' means the team acted without being affected by the failure, but the failure is exactly why they changed.",
+      "D": "Correct. 'As a result' shows that the radar surveys were a consequence of the wasted season."
+    },
+    "traps": {"A": "signals contrast", "B": "signals an example", "C": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-021",
+    "modeled_on": "bb-pt5-rw-b-q24",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a pottery glaze mistaken for bronze",
+    "fictional": true,
+    "passage": "Potters in the ancient city of Oskarra coated their bowls with a glaze containing tiny flakes of iron oxide. When fired, the glaze developed a bright, reflective sheen almost identical to that of polished bronze. ______ several early museum catalogs listed the Oskarra bowls as metal vessels, an error that was corrected only when conservators examined one of the bowls under a microscope.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "For example,", "Hence,", "Regardless,"],
+    "answer": "C",
+    "explanation": "Because the glaze looked like bronze, catalogs wrongly called the bowls metal. The mistake is a result of the look, so 'Hence' fits.",
+    "steps": [
+      "Before the blank: the clay bowls looked almost exactly like bronze.",
+      "After the blank: catalogs called them metal (a mistake).",
+      "Ask: why did the catalogs make that mistake? Because of the look. Cause, then effect.",
+      "The word 'error' tempts you toward 'However', but the error is the result, not a contrast."
+    ],
+    "strategy_tip": "When people wrongly believe something BECAUSE of how it looks, the link is result (Hence), not contrast (However).",
+    "rationales": {
+      "A": "Signals contrast: The catalog error does not go against the bronze-like look; the look caused it.",
+      "B": "Signals an example: Listing the bowls as metal is not an example of the glaze's sheen; it is a consequence of it.",
+      "C": "Correct. 'Hence' shows that the catalogs' mistake resulted from the glaze looking like bronze.",
+      "D": "Signals disregard: 'Regardless' means the catalogs acted without being affected by the look, but the look is exactly why they made the mistake."
+    },
+    "traps": {"A": "signals contrast", "B": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-022",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "plant-based plastics that cracked outdoors",
+    "fictional": true,
+    "passage": "Chemist Rafael Oduya's early plant-based plastics performed well in laboratory tests, but samples left outdoors cracked within weeks because sunlight broke down their molecular chains. The lesson was clear: indoor tests alone could not predict how the material would behave in real use. ______ Oduya's group now exposes every new formula to six months of outdoor weathering before reporting any results.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Regardless,", "Accordingly,", "However,", "For example,"],
+    "answer": "B",
+    "explanation": "The group learned that indoor tests are not enough, so it now adds outdoor tests. 'Accordingly' means 'because of this, in a matching way'.",
+    "steps": [
+      "Before the blank: the lesson, indoor tests can't predict real use.",
+      "After the blank: the group now tests every formula outdoors.",
+      "The new practice follows from the lesson: consequence.",
+      "Result words: Accordingly, Hence, Therefore, Consequently."
+    ],
+    "strategy_tip": "Lesson -> new rule = Accordingly. Check that the second sentence is a response to the first, not one case of it.",
+    "rationales": {
+      "A": "Signals disregard: 'Regardless' means the outdoor tests ignore the lesson, but they were added because of it.",
+      "B": "Correct. 'Accordingly' shows that the outdoor testing is the group's response to the lesson it learned.",
+      "C": "Signals contrast: The outdoor testing agrees with the lesson; it does not go against it.",
+      "D": "Signals an example: The new testing rule is not an example of the lesson; it is what the group did because of the lesson."
+    },
+    "traps": {"A": "signals disregard", "C": "signals contrast", "D": "signals an example"}
+  },
+  {
+    "id": "pt5-rw-trans-023",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a bell founder's change to his bronze",
+    "fictional": true,
+    "passage": "The nineteenth-century bell founder Aurelio Mancuso is remembered today for a single change he made to the way church bells were cast in his region. ______ he raised the share of tin in his bronze from about 18 percent to 22 percent, which gave his bells a clearer tone that carried much farther across the hills.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["For example,", "However,", "Regardless,", "Specifically,"],
+    "answer": "D",
+    "explanation": "The first sentence mentions 'a single change' in general terms. The second sentence says exactly what that change was. 'Specifically' introduces the precise detail.",
+    "steps": [
+      "Before the blank: Mancuso made 'a single change' (general, not yet named).",
+      "After the blank: the exact change, more tin in the bronze.",
+      "General claim -> the precise detail of that same claim: elaboration.",
+      "'For example' needs several possible cases; here there is only one change, so it is not an example."
+    ],
+    "strategy_tip": "If sentence 1 says 'one change' or 'an improvement' and sentence 2 names it, choose Specifically or In particular.",
+    "rationales": {
+      "A": "Signals an example: There was only one change, so the tin increase is not one example among several; it is the change itself.",
+      "B": "Signals contrast: The tin increase does not go against the first sentence; it explains it in detail.",
+      "C": "Signals disregard: 'Regardless' means the next point ignores what came before, but the second sentence describes the very change the first one mentions.",
+      "D": "Correct. 'Specifically' introduces the exact detail of the 'single change' named in general terms before."
+    },
+    "traps": {"A": "signals an example", "B": "signals contrast", "C": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-024",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a coastal chart with water depths",
+    "fictional": true,
+    "passage": "When cartographer Lise Moravec published her chart of the Dalvik coast in 1794, sea captains quickly came to prefer it over all earlier maps of the region. Her chart differed from those maps in one important way. ______ she marked the water depth along every shipping route, information that earlier mapmakers had always left out.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["In particular,", "However,", "For example,", "Regardless,"],
+    "answer": "A",
+    "explanation": "The sentence before says the chart differed 'in one important way' but does not say how. The next sentence names that way. 'In particular' introduces the specific detail.",
+    "steps": [
+      "Before the blank: 'one important way' (general, not yet named).",
+      "After the blank: the exact way, water depths on every route.",
+      "General -> specific detail of the same point: elaboration.",
+      "Only one way is mentioned, so 'For example' (one case among many) does not fit."
+    ],
+    "strategy_tip": "Ask: is sentence 2 one case among many (For example) or THE detail of sentence 1 (In particular / Specifically)?",
+    "rationales": {
+      "A": "Correct. 'In particular' introduces the specific feature that made the chart different.",
+      "B": "Signals contrast: Marking water depths does not go against the chart being different; it is the difference.",
+      "C": "Signals an example: The text speaks of only one important difference, so the depths are not one example among several.",
+      "D": "Signals disregard: 'Regardless' means the next point ignores what came before, but the second sentence names the very difference just mentioned."
+    },
+    "traps": {"B": "signals contrast", "C": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-025",
+    "modeled_on": "bb-pt5-rw-b-q24",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a native word mistaken for a loanword",
+    "fictional": true,
+    "passage": "The Tessic word \"karvo,\" meaning \"boat,\" sounds almost exactly like the word for \"boat\" in neighboring Ulmar, a language from an entirely different language family. ______ many early dictionaries wrongly listed \"karvo\" as a word Tessic had borrowed from Ulmar; only decades later did linguist Petra Jansky trace it to an ancient Tessic root.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["For example,", "However,", "Therefore,", "Regardless,"],
+    "answer": "C",
+    "explanation": "The two words sound alike, so dictionaries assumed one was borrowed. The wrong assumption is a result of the similar sound, so 'Therefore' fits.",
+    "steps": [
+      "Before the blank: 'karvo' sounds like the Ulmar word.",
+      "After the blank: dictionaries wrongly said it was borrowed.",
+      "Why did they think so? Because the words sound alike. Cause, then effect.",
+      "'Wrongly' makes the sentence feel like a contrast, but the mistake follows from the first sentence."
+    ],
+    "strategy_tip": "A wrong belief can still be a result: ask WHY people believed it, and if the first sentence is the reason, use a result word.",
+    "rationales": {
+      "A": "Signals an example: The dictionaries' mistake is not an example of the words sounding alike; it is caused by it.",
+      "B": "Signals contrast: The dictionaries' claim does not go against the similar sound; the similar sound led to it.",
+      "C": "Correct. 'Therefore' shows that the dictionaries' mistake resulted from the two words sounding alike.",
+      "D": "Signals disregard: 'Regardless' means the dictionaries ignored the similar sound, but the similar sound is exactly why they made the mistake."
+    },
+    "traps": {"A": "signals an example", "B": "signals contrast", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-026",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a 400-meter rule for grocery stores",
+    "fictional": true,
+    "passage": "Urban planner Mirela Szabo's 2015 survey found that residents of Corvane walked to buy food only when a store was within 400 meters of their homes; beyond that distance, nearly all of them drove. ______ Szabo's plan for the city's new districts places a grocery store within 400 meters of every block, even though building many small stores costs more than building a few large ones.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Regardless,", "Thus,", "For example,", "However,"],
+    "answer": "B",
+    "explanation": "The survey showed that people walk only to stores within 400 meters, so the plan puts a store within 400 meters of every block. The plan follows from the survey, so 'Thus' fits.",
+    "steps": [
+      "Before the blank: people walk only if a store is within 400 meters.",
+      "After the blank: the plan puts a store within 400 meters of every block.",
+      "The plan is based on the finding: consequence.",
+      "The 'even though... costs more' clause is a contrast INSIDE sentence 2; the link between the two sentences is still result."
+    ],
+    "strategy_tip": "Judge the transition by how the two sentences connect, not by a contrast word ('even though') inside the second sentence.",
+    "rationales": {
+      "A": "Signals disregard: 'Regardless' means the plan ignores the survey, but the plan uses the survey's exact 400-meter finding.",
+      "B": "Correct. 'Thus' shows that the plan's 400-meter rule follows from the survey's finding.",
+      "C": "Signals an example: The plan is not an example of residents' walking habits; it is a response to them.",
+      "D": "Signals contrast: The plan agrees with the survey; the only contrast (cost) is inside the second sentence."
+    },
+    "traps": {"A": "signals disregard", "C": "signals an example", "D": "signals contrast"}
+  },
+  {
+    "id": "pt5-rw-trans-027",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a composer who never stopped revising",
+    "fictional": true,
+    "passage": "Historians long assumed that the composer Ilse Dornbach wrote her songs quickly and rarely returned to them, since her published scores show few corrections. Her recently discovered notebooks, however, reveal that she revised her work far more than anyone had thought. ______ she seems never to have considered a song truly finished: some pieces were still being reworked thirty years after their first performance.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Conversely,", "Likewise,", "Still,", "In fact,"],
+    "answer": "D",
+    "explanation": "The notebooks show she revised a lot. The next sentence makes that claim even stronger: she never thought a song was finished. 'In fact' introduces a stronger version of the same point.",
+    "steps": [
+      "Before the blank: she revised far more than people thought.",
+      "After the blank: she never considered a song finished (an even stronger claim).",
+      "Same point, made stronger: emphasis.",
+      "The contrast with the historians was already made with 'however'; the blank sentence continues the notebooks' point."
+    ],
+    "strategy_tip": "If sentence 2 pushes sentence 1's point further, use In fact or Indeed; Likewise needs a second, separate case.",
+    "rationales": {
+      "A": "Signals contrast: The blank sentence agrees with the sentence before it; the contrast with the historians was already stated.",
+      "B": "Signals similarity: 'Likewise' adds a separate, similar case, but here the same claim about Dornbach is made stronger.",
+      "C": "Signals concession: 'Still' means 'despite this', but never finishing a song supports, not opposes, heavy revision.",
+      "D": "Correct. 'In fact' introduces an even stronger version of the claim that she revised a lot."
+    },
+    "traps": {"A": "signals contrast", "B": "signals similarity", "C": "signals concession"}
+  },
+  {
+    "id": "pt5-rw-trans-028",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a foam that widens when stretched",
+    "fictional": true,
+    "passage": "Unlike most materials, which become thinner when they are stretched, a foam developed by engineer Sun-hee Larkin has what scientists call a negative Poisson's ratio. ______ when Larkin's foam is pulled in one direction, it grows wider instead of thinner, a property that could make it useful in shock-absorbing helmet liners.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Nonetheless,", "Previously,", "In other words,", "Similarly,"],
+    "answer": "C",
+    "explanation": "The first sentence uses a technical term, 'negative Poisson's ratio'. The second sentence explains the same idea in plain words. 'In other words' introduces a restatement.",
+    "steps": [
+      "Before the blank: the foam has a 'negative Poisson's ratio' (a technical term).",
+      "After the blank: when stretched, it gets wider (the same fact, in plain words).",
+      "Same idea, said more simply: restatement.",
+      "The contrast with most materials is already in sentence 1 ('Unlike'), so the blank does not need a contrast word."
+    ],
+    "strategy_tip": "Technical term in sentence 1, plain explanation in sentence 2 = In other words / That is.",
+    "rationales": {
+      "A": "Signals concession: 'Nonetheless' means 'despite this', but widening when stretched is what a negative Poisson's ratio means.",
+      "B": "Signals an earlier time: The sentence describes how the foam always behaves, not something that happened before.",
+      "C": "Correct. 'In other words' introduces a plain explanation of the technical term 'negative Poisson's ratio'.",
+      "D": "Signals similarity: 'Similarly' adds a separate, similar case, but here the same property is explained again."
+    },
+    "traps": {"A": "signals concession", "B": "signals an earlier time", "D": "signals similarity"}
+  },
+  {
+    "id": "pt5-rw-trans-029",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a desert city's pledge to cool its streets",
+    "fictional": true,
+    "passage": "Summer street temperatures in the desert city of Qasira have risen by nearly two degrees Celsius since 1990. In 2024, the city's planners pledged to reverse that rise completely by 2035. ______ they have begun planting rows of shade trees along major roads and requiring new buildings to have white roofs that reflect sunlight.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["To that end,", "On the contrary,", "Even so,", "For instance,"],
+    "answer": "A",
+    "explanation": "The sentence before states a goal (reverse the rise by 2035). The next sentence gives the actions taken to reach it. 'To that end' means 'in order to reach that goal'.",
+    "steps": [
+      "Before the blank: a goal, the planners' pledge.",
+      "After the blank: actions, trees and white roofs.",
+      "Actions done to reach a goal: purpose.",
+      "Purpose words: To that end, To this end, For this purpose."
+    ],
+    "strategy_tip": "Goal in sentence 1, actions in sentence 2 = To that end. Link to the sentence right before the blank.",
+    "rationales": {
+      "A": "Correct. 'To that end' shows that the trees and white roofs are the means of reaching the pledged goal.",
+      "B": "Signals contradiction: 'On the contrary' rejects the sentence before, but the actions support the pledge.",
+      "C": "Signals concession: 'Even so' means 'despite this', but the actions follow from the pledge, not in spite of it.",
+      "D": "Signals an example: A pledge is a goal, not a general claim; the trees and roofs are the ways to reach it, not examples of it."
+    },
+    "traps": {"B": "signals contradiction", "C": "signals concession", "D": "signals an example"}
+  },
+  {
+    "id": "pt5-rw-trans-030",
+    "modeled_on": "bb-pt5-ref-insodoing",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "village names revealing the first settlers' language",
+    "fictional": true,
+    "passage": "Linguist Amara Teodor compared the names of 300 villages in the Kessel Valley with words from three languages once spoken nearby. ______ she showed that the valley's earliest settlers spoke a language related to Old Pellic, not to the language spoken in the valley today.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Conversely,", "In so doing,", "For instance,", "In particular,"],
+    "answer": "B",
+    "explanation": "The first sentence describes Teodor's method (comparing names). The second gives what that method achieved. 'In so doing' means 'by doing this'.",
+    "steps": [
+      "Before the blank: what she did (compared village names with three languages).",
+      "After the blank: what she showed (the settlers' language).",
+      "Action -> what the action achieved: method and result.",
+      "'In so doing' = by doing this."
+    ],
+    "strategy_tip": "If sentence 1 is an action and sentence 2 is what that action achieved, choose In so doing or By doing so.",
+    "rationales": {
+      "A": "Signals contrast: The finding does not go against the comparison; the comparison produced it.",
+      "B": "Correct. 'In so doing' shows that the finding came about through the comparison of village names.",
+      "C": "Signals an example: The finding about the settlers is not an example of comparing names; it is the result of the comparison.",
+      "D": "Signals a specific detail: 'In particular' would add a detail of the comparison itself, but the sentence gives what the comparison achieved."
+    },
+    "traps": {"A": "signals contrast", "C": "signals an example", "D": "signals a specific detail"}
+  }
+]

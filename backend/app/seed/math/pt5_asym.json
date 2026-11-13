@@ -1,0 +1,157 @@
+[
+ {
+  "id": "pt5-m-asym-001",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "What is the equation of the horizontal asymptote of the graph of $y = \\dfrac{7 - 3x^2}{4x^2 + 5x}$ in the $xy$-plane?",
+  "choices": [
+   "$y = \\frac{7}{4}$",
+   "$y = -\\frac{3}{4}$",
+   "$y = \\frac{3}{4}$",
+   "$y = 0$"
+  ],
+  "values": [
+   "7/4",
+   "-3/4",
+   "3/4",
+   "0"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "First-term trap: $7$ is written first, but it is not the leading term. The leading term of the numerator is $-3x^2$.",
+   "B": "Correct. Both degrees are 2, so $y = \\frac{-3}{4}$.",
+   "C": "Sign error: the leading coefficient of the numerator is $-3$, not $3$.",
+   "D": "Degree error: $y = 0$ is only for a numerator of lower degree. Here both degrees are 2."
+  },
+  "check": "limit((7 - 3*x**2)/(4*x**2 + 5*x), x, oo)",
+  "explanation": [
+   "Find the highest power on top and bottom: $-3x^2$ and $4x^2$.",
+   "The degrees are equal, so the asymptote is the ratio of the leading coefficients.",
+   "$y = \\frac{-3}{4}$.",
+   "Desmos way: graph the function and zoom out; it flattens at $y = -0.75$."
+  ]
+ },
+ {
+  "id": "pt5-m-asym-002",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = \\dfrac{1 + 6x}{5 - 2x^2}$. What is the equation of the horizontal asymptote of the graph of $y = f(x)$ in the $xy$-plane?",
+  "choices": [
+   "$y = -3$",
+   "$y = \\frac{1}{5}$",
+   "$y = 3$",
+   "$y = 0$"
+  ],
+  "values": [
+   "-3",
+   "1/5",
+   "3",
+   "0"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Degree error: $\\frac{6}{-2}$ compares terms of different degrees. The numerator has degree 1 and the denominator degree 2.",
+   "B": "Constant-term trap: $\\frac{1}{5}$ is $f(0)$, the $y$-intercept, not the long-run value.",
+   "C": "Degree and sign error: the degrees differ, and $\\frac{6}{-2}$ would be negative anyway.",
+   "D": "Correct. The numerator has lower degree (1 < 2), so $f(x)$ goes to $0$."
+  },
+  "check": "limit((1 + 6*x)/(5 - 2*x**2), x, oo)",
+  "explanation": [
+   "Leading terms: $6x$ on top (degree 1), $-2x^2$ on the bottom (degree 2).",
+   "The bottom grows faster, so the fraction gets close to $0$.",
+   "Asymptote: $y = 0$.",
+   "Desmos way: graph $y = \\frac{1 + 6x}{5 - 2x^2}$; for large $|x|$ it hugs the $x$-axis."
+  ]
+ },
+ {
+  "id": "pt5-m-asym-003",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The graph of $y = \\dfrac{ax^2 + 5}{8 - 2x^2}$ in the $xy$-plane, where $a$ is a constant, has a horizontal asymptote at $y = 3$. What is the value of $a$?",
+  "choices": [
+   "$-6$",
+   "$6$",
+   "$24$",
+   "$-\\frac{3}{2}$"
+  ],
+  "values": [
+   "-6",
+   "6",
+   "24",
+   "-3/2"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The asymptote is $\\frac{a}{-2} = 3$, so $a = -6$.",
+   "B": "Sign error: the leading coefficient of the denominator is $-2$, not $2$. It is written last.",
+   "C": "First-term trap: $8$ is a constant, not the leading term. You solved $\\frac{a}{8} = 3$.",
+   "D": "Inverted ratio: you solved $\\frac{-2}{a} = 3$. The asymptote is top over bottom."
+  },
+  "check": "solve(Eq(limit((a*x**2 + 5)/(8 - 2*x**2), x, oo), 3), a)[0]",
+  "explanation": [
+   "Leading terms: $ax^2$ on top, $-2x^2$ on the bottom (the $x^2$ term is written second).",
+   "Equal degrees, so the asymptote is $y = \\frac{a}{-2}$.",
+   "$\\frac{a}{-2} = 3$, so $a = -6$.",
+   "Desmos way: add a slider for $a$, graph the function and $y = 3$, and find the $a$ where the tails match $y = 3$."
+  ]
+ },
+ {
+  "id": "pt5-m-asym-004",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "What is the equation of the horizontal asymptote of the graph of $y = \\dfrac{(2x - 1)(3 - x)}{4x^2 + 7}$ in the $xy$-plane?",
+  "choices": [
+   "$y = \\frac{1}{2}$",
+   "$y = \\frac{3}{2}$",
+   "$y = -\\frac{1}{2}$",
+   "$y = -\\frac{3}{7}$"
+  ],
+  "values": [
+   "1/2",
+   "3/2",
+   "-1/2",
+   "-3/7"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Sign error: $2x \\cdot (-x) = -2x^2$, so the leading coefficient is $-2$.",
+   "B": "First-term trap: $2x \\cdot 3$ is an $x$-term. The $x^2$ term comes from $2x \\cdot (-x)$.",
+   "C": "Correct. The numerator's leading term is $2x(-x) = -2x^2$, so $y = \\frac{-2}{4} = -\\frac{1}{2}$.",
+   "D": "Constant-term trap: $\\frac{-3}{7}$ is the $y$-intercept, $f(0)$."
+  },
+  "check": "limit((2*x - 1)*(3 - x)/(4*x**2 + 7), x, oo)",
+  "explanation": [
+   "The leading term of the numerator is the product of the $x$-terms: $2x \\cdot (-x) = -2x^2$.",
+   "Both degrees are 2, so use the ratio of leading coefficients.",
+   "$y = \\frac{-2}{4} = -\\frac{1}{2}$.",
+   "Desmos way: graph the function and zoom out; it levels off at $y = -0.5$."
+  ]
+ },
+ {
+  "id": "pt5-m-asym-005",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The function $f$ is defined by $f(x) = \\dfrac{3}{x} + \\dfrac{5 - 2x}{4x + 1}$. The graph of $y = f(x)$ in the $xy$-plane has a horizontal asymptote at $y = c$, where $c$ is a constant. What is the value of $c$?",
+  "check": "limit(3/x + (5 - 2*x)/(4*x + 1), x, oo)",
+  "spr_answers": [
+   "-1/2"
+  ],
+  "spr_entries": [
+   "-1/2",
+   "-.5",
+   "-0.5"
+  ],
+  "explanation": [
+   "Look at each part for very large $x$.",
+   "$\\frac{3}{x}$: the numerator has lower degree, so it goes to $0$.",
+   "$\\frac{5 - 2x}{4x + 1}$: equal degrees, so it goes to $\\frac{-2}{4} = -\\frac{1}{2}$.",
+   "$c = 0 + (-\\frac{1}{2}) = -\\frac{1}{2}$.",
+   "Desmos way: graph $f$ and zoom out; the tails approach $y = -0.5$."
+  ]
+ }
+]

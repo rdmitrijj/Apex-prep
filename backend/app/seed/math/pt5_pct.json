@@ -1,0 +1,295 @@
+[
+ {
+  "id": "pt5-m-pct-001",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.BASIC",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "When the number $x$ is increased by $300\\%$, the result is $120$. What is the value of $x$?",
+  "choices": [
+   "$40$",
+   "$30$",
+   "$360$",
+   "$480$"
+  ],
+  "values": [
+   "40",
+   "30",
+   "360",
+   "480"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Times 3 instead of times 4: increasing by $300\\%$ adds $3x$ to $x$, so the result is $4x$.",
+   "B": "Correct. Increasing by $300\\%$ gives $x + 3x = 4x = 120$, so $x = 30$.",
+   "C": "Wrong direction and wrong factor: $120 \\times 3$. The $120$ is the result, so divide by $4$.",
+   "D": "Wrong direction: you increased $120$ by $300\\%$. The $120$ is the result, so divide by $4$."
+  },
+  "check": "120/(1 + 300/100)",
+  "explanation": [
+   "Increase BY $300\\%$: new value $= x(1 + 3) = 4x$.",
+   "$4x = 120$, so $x = 30$.",
+   "Check: $30 + 3(30) = 120$."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-002",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.BASIC",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "When the number $y$ is increased to $250\\%$ of its value, the result is $75$. What is the value of $y$?",
+  "check": "75/(250/100)",
+  "spr_answers": [
+   "30"
+  ],
+  "spr_entries": [
+   "30"
+  ],
+  "explanation": [
+   "Increase TO $250\\%$ means the new value is $250\\%$ of $y$: $2.5y$.",
+   "$2.5y = 75$, so $y = 30$.",
+   "Trap: reading it as \\\"by $250\\%$\\\" gives $3.5y = 75$, which is wrong here."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-003",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The price of a lamp is increased by $20\\%$. Then the new price is decreased by $20\\%$. The final price is what percent of the original price?",
+  "choices": [
+   "$100\\%$",
+   "$80\\%$",
+   "$104\\%$",
+   "$96\\%$"
+  ],
+  "values": [
+   "100",
+   "80",
+   "104",
+   "96"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Cancelled the changes: the $20\\%$ decrease is taken from a bigger price, so it removes more than was added.",
+   "B": "Applied only the decrease. The price first rose to $120\\%$, then fell by $20\\%$ of that.",
+   "C": "Multiplied by $1.2$ twice: a decrease of $20\\%$ means times $0.8$, not times $1.2$.",
+   "D": "Correct. $1.2 \\times 0.8 = 0.96$, so the final price is $96\\%$ of the original."
+  },
+  "check": "(1 + 20/100)*(1 - 20/100)*100",
+  "explanation": [
+   "Increase by $20\\%$: multiply by $1.2$.",
+   "Decrease by $20\\%$: multiply by $0.8$.",
+   "$1.2 \\times 0.8 = 0.96$, so the final price is $96\\%$ of the original."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-004",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.BASIC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The value of $p$ is $400\\%$ greater than the value of $q$, and $p - q = 96$. What is the value of $p$?",
+  "choices": [
+   "$120$",
+   "$128$",
+   "$96$",
+   "$24$"
+  ],
+  "values": [
+   "120",
+   "128",
+   "96",
+   "24"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $p = q + 4q = 5q$, so $p - q = 4q = 96$, $q = 24$, and $p = 120$.",
+   "B": "Times 4 instead of times 5: you used $p = 4q$, so $3q = 96$. \\\"$400\\%$ greater\\\" means $p = 5q$.",
+   "C": "That's $p - q$, the difference, not $p$.",
+   "D": "That's $q$. The question asks for $p = 5q$."
+  },
+  "check": "96/(400/100)*(1 + 400/100)",
+  "explanation": [
+   "\\\"$400\\%$ greater than $q$\\\" means $p = q + 4q = 5q$.",
+   "$p - q = 5q - q = 4q = 96$, so $q = 24$.",
+   "$p = 5 \\times 24 = 120$."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-005",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The number of members in a club increased by $25\\%$ in the first year, decreased by $20\\%$ in the second year, and increased by $10\\%$ in the third year. At the end of the third year, the club had $4{,}400$ members. How many members did the club have at the start of the first year?",
+  "choices": [
+   "$3{,}564$",
+   "$3{,}960$",
+   "$4{,}000$",
+   "$4{,}840$"
+  ],
+  "values": [
+   "3564",
+   "3960",
+   "4000",
+   "4840"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Reversed each change with the opposite percent of the later number ($-10\\%$, $+20\\%$, $-25\\%$). Percents must be undone by dividing.",
+   "B": "Undid only the last change, and by subtracting $10\\%$ of $4{,}400$. You must divide by all three factors.",
+   "C": "Correct. The total factor is $1.25 \\times 0.8 \\times 1.1 = 1.1$, so the start was $4{,}400 \\div 1.1 = 4{,}000$.",
+   "D": "Wrong direction: you increased $4{,}400$ by $10\\%$. The $4{,}400$ is the end value, so divide."
+  },
+  "check": "4400/((1 + 25/100)*(1 - 20/100)*(1 + 10/100))",
+  "explanation": [
+   "Write each change as a factor: $1.25$, $0.8$, $1.1$.",
+   "Total factor: $1.25 \\times 0.8 \\times 1.1 = 1.1$.",
+   "Start $\\times 1.1 = 4{,}400$, so the start is $4{,}000$.",
+   "Desmos way: type $x \\cdot 1.25 \\cdot 0.8 \\cdot 1.1 = 4400$ and read $x = 4000$."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-006",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A store buys a jacket for $80$ dollars. It marks the price up by $150\\%$ of the cost. During a sale, the marked price is discounted by $40\\%$. What is the sale price, in dollars?",
+  "choices": [
+   "$72$",
+   "$80$",
+   "$168$",
+   "$120$"
+  ],
+  "values": [
+   "72",
+   "80",
+   "168",
+   "120"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Times 1.5 instead of times 2.5: a markup BY $150\\%$ gives $80(1 + 1.5) = 200$, not $80(1.5) = 120$.",
+   "B": "Kept the discount, not the price: $40\\%$ off leaves $60\\%$ of $200$, not $40\\%$.",
+   "C": "Added and subtracted the percents ($100\\% + 150\\% - 40\\% = 210\\%$). Successive changes multiply.",
+   "D": "Correct. Marked price $80 \\times 2.5 = 200$; sale price $200 \\times 0.6 = 120$."
+  },
+  "check": "80*(1 + 150/100)*(1 - 40/100)",
+  "explanation": [
+   "Markup BY $150\\%$: $80 \\times (1 + 1.5) = 80 \\times 2.5 = 200$ dollars.",
+   "Discount of $40\\%$: you pay $60\\%$, so $200 \\times 0.6 = 120$ dollars.",
+   "In one line: $80 \\times 2.5 \\times 0.6 = 120$."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-007",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A coat is discounted by $30\\%$. Then a coupon takes an additional $10\\%$ off the discounted price. The final price is $126$ dollars. What was the original price, in dollars?",
+  "choices": [
+   "$200$",
+   "$210$",
+   "$180$",
+   "$140$"
+  ],
+  "values": [
+   "200",
+   "210",
+   "180",
+   "140"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The total factor is $0.7 \\times 0.9 = 0.63$, so the original price was $126 \\div 0.63 = 200$.",
+   "B": "Added the discounts to $40\\%$: the $10\\%$ is taken from the lower price, so the total factor is $0.63$, not $0.6$.",
+   "C": "Undid only the $30\\%$ discount ($126 \\div 0.7$). The coupon must be undone too.",
+   "D": "Undid only the $10\\%$ coupon ($126 \\div 0.9$). The $30\\%$ discount must be undone too."
+  },
+  "check": "126/((1 - 30/100)*(1 - 10/100))",
+  "explanation": [
+   "$30\\%$ off: multiply by $0.7$. Another $10\\%$ off: multiply by $0.9$.",
+   "Total factor: $0.7 \\times 0.9 = 0.63$.",
+   "Original $\\times 0.63 = 126$, so the original is $126 \\div 0.63 = 200$ dollars."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-008",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.BASIC",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "When the number $w$ is increased by $350\\%$, the result is $126$. What is the value of $w$?",
+  "check": "126/(1 + 350/100)",
+  "spr_answers": [
+   "28"
+  ],
+  "spr_entries": [
+   "28"
+  ],
+  "explanation": [
+   "Increase BY $350\\%$: new value $= w(1 + 3.5) = 4.5w$.",
+   "$4.5w = 126$, so $w = 28$.",
+   "Trap: $3.5w = 126$ gives $36$; that is \\\"increased TO $350\\%$\\\"."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-009",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.SUCC",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A number is increased by $60\\%$, and the result is then decreased by $p\\%$. The final number is $20\\%$ greater than the original number. What is the value of $p$?",
+  "check": "(1 - (1 + 20/100)/(1 + 60/100))*100",
+  "spr_answers": [
+   "25"
+  ],
+  "spr_entries": [
+   "25"
+  ],
+  "explanation": [
+   "As factors: $1.6 \\times (1 - \\frac{p}{100}) = 1.2$.",
+   "$1 - \\frac{p}{100} = \\frac{1.2}{1.6} = 0.75$, so $p = 25$.",
+   "Trap: $60 - 20 = 40$ subtracts percents of different numbers.",
+   "Desmos way: type $1.6(1 - p/100) = 1.2$ and read $p = 25$."
+  ]
+ },
+ {
+  "id": "pt5-m-pct-010",
+  "modeled_on": "bb-pt5-m-q19",
+  "skill": "MATH.PSD.PCT.BASIC",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The number $a$ is $300\\%$ of the number $b$, and the number $c$ is $300\\%$ greater than $b$. If $a + c = 140$, what is the value of $c$?",
+  "choices": [
+   "$70$",
+   "$60$",
+   "$80$",
+   "$20$"
+  ],
+  "values": [
+   "70",
+   "60",
+   "80",
+   "20"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Treated \\\"$300\\%$ greater than\\\" like \\\"$300\\%$ of\\\": that makes $c = a$. But $c = 4b$ and $a = 3b$.",
+   "B": "That's $a = 3b$, not $c$.",
+   "C": "Correct. $a = 3b$ and $c = b + 3b = 4b$, so $7b = 140$, $b = 20$, and $c = 80$.",
+   "D": "That's $b$. The question asks for $c = 4b$."
+  },
+  "check": "140/(300/100 + 1 + 300/100)*(1 + 300/100)",
+  "explanation": [
+   "\\\"$300\\%$ of $b$\\\" means $a = 3b$.",
+   "\\\"$300\\%$ greater than $b$\\\" means $c = b + 3b = 4b$.",
+   "$3b + 4b = 7b = 140$, so $b = 20$ and $c = 80$."
+  ]
+ }
+]

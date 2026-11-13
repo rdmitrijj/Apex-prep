@@ -18,7 +18,37 @@
       "B": "Nothing in the text suggests the increase later reversed, so \"temporarily\" is unsupported.",
       "C": "Correct. Growing from about 200 to over 650 in one year is a dramatic rise.",
       "D": "The text says nothing about the change being hard to predict; it only describes its size."
-    }
+    },
+    "vocab": [
+      {
+        "word": "dramatically",
+        "pos": "adverb",
+        "meaning_en": "by a very large amount; strikingly",
+        "meaning_ru": "резко, значительно",
+        "example": "Ticket sales rose dramatically after the film won an award."
+      },
+      {
+        "word": "slightly",
+        "pos": "adverb",
+        "meaning_en": "by a small amount",
+        "meaning_ru": "слегка, немного",
+        "example": "The price of bread rose slightly this month."
+      },
+      {
+        "word": "temporarily",
+        "pos": "adverb",
+        "meaning_en": "for a limited time only",
+        "meaning_ru": "временно",
+        "example": "The library is temporarily closed for repairs."
+      },
+      {
+        "word": "unpredictably",
+        "pos": "adverb",
+        "meaning_en": "in a way that cannot be foreseen",
+        "meaning_ru": "непредсказуемо",
+        "example": "Mountain weather can change unpredictably."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-002",
@@ -39,7 +69,37 @@
       "B": "Saying his realism was \"less temporary\" would mean it was more lasting, which doesn't follow from the discovery of fantastical drawings.",
       "C": "The sketchbooks reveal what Dacanay drew, not how much praise his realism received, so \"celebrated\" doesn't follow from the evidence.",
       "D": "The sketchbooks add to the record of Dacanay's work, so it is illogical to conclude that his realism was less documented."
-    }
+    },
+    "vocab": [
+      {
+        "word": "absolute",
+        "pos": "adjective",
+        "meaning_en": "complete and total; without exception",
+        "meaning_ru": "абсолютный, полный, безоговорочный",
+        "example": "The team had absolute confidence in its captain."
+      },
+      {
+        "word": "temporary",
+        "pos": "adjective",
+        "meaning_en": "lasting only for a short time",
+        "meaning_ru": "временный",
+        "example": "He found a temporary job for the summer."
+      },
+      {
+        "word": "celebrated",
+        "pos": "adjective",
+        "meaning_en": "famous and widely praised",
+        "meaning_ru": "знаменитый, прославленный",
+        "example": "The celebrated chef opened a new restaurant downtown."
+      },
+      {
+        "word": "documented",
+        "pos": "adjective",
+        "meaning_en": "recorded or supported by written evidence",
+        "meaning_ru": "задокументированный, подтверждённый документально",
+        "example": "There are documented cases of the disease in three countries."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-003",
@@ -60,7 +120,37 @@
       "B": "\"Fragile\" suggests the batteries were easily damaged, which contradicts the evidence that they held nearly 90 percent of their capacity.",
       "C": "\"Outdated\" refers to being old-fashioned, but the passage describes the batteries' performance, not their style or age as a design.",
       "D": "\"Expensive\" concerns cost, which the passage never discusses, so it doesn't follow from the test results."
-    }
+    },
+    "vocab": [
+      {
+        "word": "reliable",
+        "pos": "adjective",
+        "meaning_en": "consistently working well; dependable",
+        "meaning_ru": "надёжный",
+        "example": "My old car is still reliable after fifteen years."
+      },
+      {
+        "word": "fragile",
+        "pos": "adjective",
+        "meaning_en": "easily broken or damaged",
+        "meaning_ru": "хрупкий",
+        "example": "Pack the fragile glasses in plenty of paper."
+      },
+      {
+        "word": "outdated",
+        "pos": "adjective",
+        "meaning_en": "no longer current or modern",
+        "meaning_ru": "устаревший",
+        "example": "The school replaced its outdated computers."
+      },
+      {
+        "word": "expensive",
+        "pos": "adjective",
+        "meaning_en": "costing a lot of money",
+        "meaning_ru": "дорогой, дорогостоящий",
+        "example": "Fresh berries are expensive in winter."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-004",
@@ -81,7 +171,37 @@
       "B": "The trials show whether seeds sprout at all, not how quickly they sprout, so \"accelerated by\" misdescribes the finding.",
       "C": "Correct. Germination occurred only after ample water, so it is \"contingent on\" (dependent on) substantial rainfall.",
       "D": "\"Detrimental to\" reverses the relationship: germination does not harm rainfall, and heavy rain promotes germination rather than being harmed by it."
-    }
+    },
+    "vocab": [
+      {
+        "word": "contingent on",
+        "pos": "phrase",
+        "meaning_en": "dependent on something happening",
+        "meaning_ru": "зависящий от, обусловленный (чем-либо)",
+        "example": "The picnic is contingent on good weather."
+      },
+      {
+        "word": "unaffected by",
+        "pos": "phrase",
+        "meaning_en": "not changed or influenced by",
+        "meaning_ru": "не затронутый, не подверженный влиянию (чего-либо)",
+        "example": "The village was unaffected by the floods."
+      },
+      {
+        "word": "accelerated by",
+        "pos": "phrase",
+        "meaning_en": "made faster by",
+        "meaning_ru": "ускоренный (чем-либо)",
+        "example": "The melting of the ice was accelerated by warm winds."
+      },
+      {
+        "word": "detrimental to",
+        "pos": "phrase",
+        "meaning_en": "harmful to",
+        "meaning_ru": "вредный для, пагубный для",
+        "example": "Lack of sleep is detrimental to memory."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-005",
@@ -102,7 +222,37 @@
       "B": "\"Enthusiastic\" suggests eager, high participation, but turnout of about one-third of voters doesn't indicate enthusiasm, and the colon's explanation is about consistency.",
       "C": "\"Volatile\" means changing sharply and unpredictably, which is the opposite of turnout staying within a three-point range.",
       "D": "Correct. Turnout that stayed between 31 and 34 percent across twenty years was stable."
-    }
+    },
+    "vocab": [
+      {
+        "word": "stable",
+        "pos": "adjective",
+        "meaning_en": "steady and not changing much",
+        "meaning_ru": "стабильный, устойчивый",
+        "example": "Her weight has stayed stable for years."
+      },
+      {
+        "word": "declining",
+        "pos": "adjective",
+        "meaning_en": "becoming smaller or weaker",
+        "meaning_ru": "снижающийся, сокращающийся",
+        "example": "The town has a declining population."
+      },
+      {
+        "word": "enthusiastic",
+        "pos": "adjective",
+        "meaning_en": "showing great excitement and interest",
+        "meaning_ru": "полный энтузиазма, восторженный",
+        "example": "The enthusiastic volunteers arrived an hour early."
+      },
+      {
+        "word": "volatile",
+        "pos": "adjective",
+        "meaning_en": "likely to change suddenly and unpredictably",
+        "meaning_ru": "изменчивый, нестабильный",
+        "example": "Oil prices have been volatile this year."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-006",
@@ -123,7 +273,37 @@
       "B": "Correct. The cloth draws high prices because buyers willingly pay more for it.",
       "C": "\"Overlook\" fits a physical sense (\"the hill commands a view of the valley\"), which doesn't apply to prices.",
       "D": "\"Control\" suggests the cooperatives set or dictate prices, but the text says buyers choose to pay more, not that sellers control the market."
-    }
+    },
+    "vocab": [
+      {
+        "word": "draw",
+        "pos": "verb",
+        "meaning_en": "to attract or bring in (a price, crowd, or response)",
+        "meaning_ru": "привлекать; получать (цену, отклик)",
+        "example": "Rare stamps can draw high bids at auction."
+      },
+      {
+        "word": "instruct",
+        "pos": "verb",
+        "meaning_en": "to teach or give orders to",
+        "meaning_ru": "обучать; давать указания",
+        "example": "The coach instructed the players to stay in position."
+      },
+      {
+        "word": "overlook",
+        "pos": "verb",
+        "meaning_en": "to fail to notice; to have a view over from above",
+        "meaning_ru": "упускать из виду, не замечать; выходить на (о виде)",
+        "example": "It's easy to overlook small errors when you're tired."
+      },
+      {
+        "word": "control",
+        "pos": "verb",
+        "meaning_en": "to have power over; to direct",
+        "meaning_ru": "контролировать, управлять",
+        "example": "The pilot controls the plane from the cockpit."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-007",
@@ -144,7 +324,37 @@
       "B": "\"Money\" is the most common literal sense of \"currency,\" but it makes no sense when applied to the use of a word.",
       "C": "\"Relevance\" plays on the association of \"currency\" with being current or up to date, but the passage defines the word by its spread across groups, not its timeliness.",
       "D": "\"Worth\" draws on the monetary-value sense of \"currency\" and echoes \"merit,\" but the passage is about how widely a term spreads, not how valuable it is."
-    }
+    },
+    "vocab": [
+      {
+        "word": "circulation",
+        "pos": "noun",
+        "meaning_en": "the state of being widely passed around or used",
+        "meaning_ru": "распространённость, хождение (в обиходе)",
+        "example": "The rumor had been in circulation for weeks before anyone checked it."
+      },
+      {
+        "word": "money",
+        "pos": "noun",
+        "meaning_en": "coins and bills used to buy things",
+        "meaning_ru": "деньги",
+        "example": "She saved money for a new bicycle."
+      },
+      {
+        "word": "relevance",
+        "pos": "noun",
+        "meaning_en": "close connection to the matter at hand",
+        "meaning_ru": "актуальность, уместность",
+        "example": "The professor questioned the relevance of the old data."
+      },
+      {
+        "word": "worth",
+        "pos": "noun",
+        "meaning_en": "value or usefulness",
+        "meaning_ru": "ценность, стоимость",
+        "example": "The painting's worth was estimated at a million dollars."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-008",
@@ -165,7 +375,37 @@
       "B": "Correct. Her support comes with a reservation about villages where leaders hold political office, so it is limited.",
       "C": "\"Accredited\" reflects the sense of \"qualified\" as officially certified, which describes people or institutions, not the restricted scope of an endorsement.",
       "D": "\"Competent\" is the sense of \"qualified\" that could describe the economist herself, but the word modifies her endorsement, which the text shows was restricted, not skillful."
-    }
+    },
+    "vocab": [
+      {
+        "word": "limited",
+        "pos": "adjective",
+        "meaning_en": "restricted; not complete or unconditional",
+        "meaning_ru": "ограниченный, с оговорками",
+        "example": "The plan received only limited support from the board."
+      },
+      {
+        "word": "eligible",
+        "pos": "adjective",
+        "meaning_en": "meeting the requirements to do or receive something",
+        "meaning_ru": "имеющий право (на что-либо), подходящий по условиям",
+        "example": "Only full-time employees are eligible for the bonus."
+      },
+      {
+        "word": "accredited",
+        "pos": "adjective",
+        "meaning_en": "officially approved as meeting standards",
+        "meaning_ru": "аккредитованный",
+        "example": "She earned her degree from an accredited university."
+      },
+      {
+        "word": "competent",
+        "pos": "adjective",
+        "meaning_en": "having enough skill to do something well",
+        "meaning_ru": "компетентный, умелый",
+        "example": "We need a competent mechanic to fix the brakes."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-009",
@@ -186,7 +426,37 @@
       "B": "\"Abandons\" suggests deserting someone, which makes no sense for inspecting a canvas; the inspection discloses the uncertainty instead.",
       "C": "Nothing in the text suggests that inspection lessens the painter's uncertainty; it brings that uncertainty to light.",
       "D": "Correct. Close inspection exposes the painter's hidden uncertainty, as the evidence of repeated repainting shows."
-    }
+    },
+    "vocab": [
+      {
+        "word": "reveals",
+        "pos": "verb",
+        "meaning_en": "makes known something that was hidden",
+        "meaning_ru": "раскрывает, выдаёт, обнаруживает",
+        "example": "A closer look reveals tiny cracks in the glaze."
+      },
+      {
+        "word": "deceives",
+        "pos": "verb",
+        "meaning_en": "makes someone believe something false",
+        "meaning_ru": "обманывает, вводит в заблуждение",
+        "example": "The ad deceives buyers about the phone's battery life."
+      },
+      {
+        "word": "abandons",
+        "pos": "verb",
+        "meaning_en": "leaves behind or gives up completely",
+        "meaning_ru": "бросает, покидает, оставляет",
+        "example": "The crew abandons the ship only as a last resort."
+      },
+      {
+        "word": "weakens",
+        "pos": "verb",
+        "meaning_en": "makes less strong",
+        "meaning_ru": "ослабляет",
+        "example": "Constant stress weakens the immune system."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-010",
@@ -207,7 +477,37 @@
       "B": "\"Rose\" fits a person standing up from a seat, but a bakery doesn't get up.",
       "C": "\"Tolerated\" fits \"couldn't stand the noise,\" not a building at a corner.",
       "D": "\"Represented\" fits \"stood for,\" which doesn't describe a building's location."
-    }
+    },
+    "vocab": [
+      {
+        "word": "remained",
+        "pos": "verb",
+        "meaning_en": "stayed in the same place or condition",
+        "meaning_ru": "оставался, сохранялся",
+        "example": "The old oak remained standing after the storm."
+      },
+      {
+        "word": "rose",
+        "pos": "verb",
+        "meaning_en": "went up; got up",
+        "meaning_ru": "поднялся, встал",
+        "example": "The sun rose over the hills at six."
+      },
+      {
+        "word": "tolerated",
+        "pos": "verb",
+        "meaning_en": "allowed or put up with something unpleasant",
+        "meaning_ru": "терпел, мирился (с чем-либо)",
+        "example": "The teacher tolerated the noise for only a few minutes."
+      },
+      {
+        "word": "represented",
+        "pos": "verb",
+        "meaning_en": "stood for or acted on behalf of",
+        "meaning_ru": "представлял, символизировал",
+        "example": "The dove represented peace in the poster."
+      }
+    ]
   },
   {
     "id": "rw-llm-wic-rs-011",

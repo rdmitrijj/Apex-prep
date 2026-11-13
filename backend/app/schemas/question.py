@@ -204,6 +204,9 @@ class Feedback(BaseModel):
     answer: str  # MC letter, or an accepted SPR entry
     explanation: list[str]
     rationales: dict[str, str]
+    trap: str | None = None  # wrong answers: the named trap of the choice picked
+    miss_reason: str | None = None  # pre-filled "why did you miss it?" tag (drill sets)
+    vocab: list[dict[str, Any]] = Field(default_factory=list)  # words-in-context entries, for the Anki export
 
 
 class NextIn(BaseModel):

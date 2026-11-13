@@ -6,7 +6,7 @@ from app.generators import REGISTRY
 from app.generators.spr import is_valid_entry
 from app.models import Question, QuestionReport, Response, Skill
 from app.schemas.question import AnswerIn, Feedback, NextIn, QuestionOut, ReportIn, SkillNode
-from app.services import imported
+from app.services import imported, pt5
 from app.services import questions as qs
 
 router = APIRouter(tags=["drill"])
@@ -81,6 +81,10 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
             422, "Enter a number, fraction (like 7/2), or decimal; at most 5 characters (6 if negative)"
         )
     correct, key = qs.grade(q, body.answer)
+    given = body.answer.strip().upper()
+    trap = None if correct else (q.content.get("traps") or {}).get(given)
+    if not correct and trap is None and q.format == "mc":  # math: the rationale names the error
+        trap = ((q.content.get("rationales") or {}).get(given) or "").split(". ")[0] or None
     r = Response(
         user_id=user.id,
         question_id=q.id,
@@ -88,10 +92,12 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
         answer=body.answer.strip(),
         correct=correct,
         time_ms=body.time_ms,
+        miss_reason=None if correct else pt5.default_reason(q),
     )
     db.add(r)
     await qs.record_review(db, user.id, q.skill_id, correct)
     await imported.on_answer(db, user.id, q, correct)
+    await pt5.on_answer(db, user.id, q, correct)
     await db.commit()
     return Feedback(
         response_id=r.id,
@@ -99,6 +105,9 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
         answer=key,
         explanation=q.content["explanation"],
         rationales=q.content.get("rationales") or {},
+        trap=trap,
+        miss_reason=r.miss_reason,
+        vocab=q.content.get("vocab") or [],
     )
 
 

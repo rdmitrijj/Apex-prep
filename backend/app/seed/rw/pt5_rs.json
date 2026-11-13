@@ -1,0 +1,643 @@
+[
+  {
+    "id": "pt5-rw-rs-001",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "topic": "city noise and bird song pitch",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "In 2023, biologist Ilka Varenne studied how city noise affects the songs of great tits.",
+      "She recorded birds in 12 parks next to busy roads and in 12 quiet parks.",
+      "Birds near busy roads sang about 400 hertz higher than birds in quiet parks.",
+      "Varenne suggested that higher songs are easier to hear over low traffic noise."
+    ],
+    "stem": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Biologist Ilka Varenne recorded great tits in 12 parks next to busy roads and in 12 quiet parks in 2023 to learn how city noise affects the songs they sing.",
+      "In a 2023 study of great tits in 24 parks, Ilka Varenne found that birds near busy roads sang about 400 hertz higher than birds in quiet parks.",
+      "Great tits near busy roads sing at a higher pitch, perhaps because high songs are easier to hear over low traffic noise.",
+      "Ilka Varenne suggested that higher songs are easier for birds to hear over low traffic noise."
+    ],
+    "answer": "B",
+    "explanation": "The goal has two parts: the study and its findings. Only B names the study (2023, great tits in 24 parks) and states the result (about 400 hertz higher).",
+    "steps": [
+      "Split the goal: (1) the study, (2) its findings.",
+      "Find the finding in the notes: about 400 hertz higher near busy roads.",
+      "A has the study but no result. C and D have a result or an idea but no study.",
+      "Only B has both parts."
+    ],
+    "strategy_tip": "Write the goal as a checklist (study? findings?) and tick both boxes before you choose.",
+    "rationales": {
+      "A": "Study only, no findings: It describes who was recorded and why, but never says what Varenne found.",
+      "B": "Correct. It presents the study (Varenne, 2023, great tits in 24 parks) and the finding (about 400 hertz higher near busy roads).",
+      "C": "Findings only: It gives the result and an explanation but doesn't present the study or the researcher.",
+      "D": "Conclusion only: It gives Varenne's suggestion but neither the study nor the measured finding."
+    },
+    "traps": {
+      "A": "Study only, no findings",
+      "C": "Findings only",
+      "D": "Conclusion only"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-002",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "topic": "two carved string instruments",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The kelvra is a string instrument from the island of Tosk.",
+      "It has seven strings and is played with a bow.",
+      "The marrin is a string instrument from the Vell Valley.",
+      "It has four strings and is plucked with the fingers.",
+      "Both instruments are carved from a single block of pear wood."
+    ],
+    "stem": "The student wants to emphasize a similarity between the kelvra and the marrin. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The kelvra, from the island of Tosk, has seven strings, while the marrin, from the Vell Valley, has only four.",
+      "The kelvra is played with a bow, but the marrin is plucked with the fingers.",
+      "The kelvra, a seven-string instrument from the island of Tosk, is carved from a single block of pear wood.",
+      "Like the marrin, the kelvra is carved from a single block of pear wood."
+    ],
+    "answer": "D",
+    "explanation": "The goal is a similarity between two instruments. Only D names both instruments and something they share: the single block of pear wood.",
+    "steps": [
+      "Goal: (1) both instruments, (2) something they share.",
+      "Shared fact in the notes: both are carved from one block of pear wood.",
+      "A and B compare both instruments, but they show differences.",
+      "C has the shared fact but mentions only the kelvra. D has both parts."
+    ],
+    "strategy_tip": "For a similarity goal, the right answer names BOTH things and a feature they share; words like 'Like' or 'both' are a good sign.",
+    "rationales": {
+      "A": "Difference, not similarity: It compares the two instruments, but only to show they have different numbers of strings.",
+      "B": "Difference, not similarity: It contrasts how the instruments are played.",
+      "C": "Only one instrument: The pear wood is the shared feature, but this choice never mentions the marrin, so no similarity is shown.",
+      "D": "Correct. It names both instruments and the feature they share: each is carved from a single block of pear wood."
+    },
+    "traps": {
+      "A": "Difference, not similarity",
+      "B": "Difference, not similarity",
+      "C": "Only one instrument"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-003",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "topic": "fog nets for village water",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Fog nets are large sheets of fine mesh stretched between two poles.",
+      "When fog blows through a net, tiny drops of water stick to the mesh.",
+      "The drops run down into a gutter and then into a tank.",
+      "In the village of Ostra Lume, 40 fog nets collect about 6,000 liters of water a day.",
+      "Engineer Pava Sorrel put up the village's first nets in 2015."
+    ],
+    "stem": "The student wants to introduce fog nets to an audience unfamiliar with them. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Fog nets, large sheets of fine mesh stretched between poles, collect water from fog: drops stick to the mesh and run into a tank.",
+      "In the village of Ostra Lume, 40 fog nets collect about 6,000 liters of water a day.",
+      "Engineer Pava Sorrel put up the first fog nets in the village of Ostra Lume in 2015.",
+      "In Ostra Lume, the water that collects on the nets runs down into a gutter and then into a tank."
+    ],
+    "answer": "A",
+    "explanation": "A reader who has never heard of fog nets needs to know what they are and what they do. Only A says both: mesh between poles that catches water from fog.",
+    "steps": [
+      "Goal: (1) say what a fog net is, (2) say what it does, for a new reader.",
+      "B, C, and D are true, but each assumes the reader already knows what a fog net is.",
+      "A explains the object (fine mesh between poles) and how it works.",
+      "Choose A."
+    ],
+    "strategy_tip": "'Audience unfamiliar with X' means the answer must explain what X is; a choice that only uses the name fails.",
+    "rationales": {
+      "A": "Correct. It explains what fog nets are (fine mesh stretched between poles) and how they work (drops stick and run into a tank).",
+      "B": "Assumes the reader knows: It gives an impressive number but never says what a fog net is.",
+      "C": "Assumes the reader knows: It gives history (who and when) but doesn't explain what a fog net is.",
+      "D": "Assumes the reader knows: It describes one step of the process but never says what 'the nets' are."
+    },
+    "traps": {
+      "B": "Assumes the reader knows",
+      "C": "Assumes the reader knows",
+      "D": "Assumes the reader knows"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-004",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "medium",
+    "topic": "two libraries and late fees",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Harrow Library in Denton lends books for three weeks.",
+      "It charges no late fees.",
+      "The Quill Street Library in Marsh Bay also lends books for three weeks.",
+      "It charges 10 cents per day for each late book.",
+      "Both libraries opened in 1962."
+    ],
+    "stem": "The student wants to emphasize a difference between the two libraries. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Harrow Library in Denton and the Quill Street Library in Marsh Bay both lend books for three weeks.",
+      "The Harrow Library and the Quill Street Library both opened in 1962.",
+      "The Quill Street Library charges 10 cents per day for each late book, but the Harrow Library charges no late fees.",
+      "The Quill Street Library in Marsh Bay, which opened in 1962, charges 10 cents per day for each late book."
+    ],
+    "answer": "C",
+    "explanation": "The goal is a difference between two libraries. Only C names both libraries and the one thing that differs: late fees.",
+    "steps": [
+      "Goal: (1) both libraries, (2) something that differs.",
+      "The only difference in the notes: late fees (10 cents a day vs. none).",
+      "A and B show things the libraries share.",
+      "D has the fee but only one library, so nothing is compared. C has both."
+    ],
+    "strategy_tip": "A difference needs two sides; check that the choice names both things AND how they differ.",
+    "rationales": {
+      "A": "Similarity, not difference: Both libraries lend books for three weeks, so this shows what they share.",
+      "B": "Similarity, not difference: The opening year is the same for both libraries.",
+      "C": "Correct. It names both libraries and contrasts them on late fees with 'but'.",
+      "D": "Only one library: It gives the Quill Street fee but never mentions the Harrow Library, so no difference is shown."
+    },
+    "traps": {
+      "A": "Similarity, not difference",
+      "B": "Similarity, not difference",
+      "D": "Only one library"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-005",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "mapmaker of a dangerous estuary",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Mapmaker Ottilie Brannagh (1891-1960) made the first detailed maps of the tidal channels in the Greywater Estuary.",
+      "Before her maps, ships often ran aground in the estuary.",
+      "In 1934, harbor master Edwin Coyle wrote that her maps \"turned a graveyard of ships into a working port.\"",
+      "River pilots used Brannagh's maps until 1972."
+    ],
+    "stem": "The student wants to use a quotation to support a claim about Brannagh's contribution. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Brannagh's maps of the Greywater Estuary's tidal channels were so useful that river pilots relied on them until 1972.",
+      "In 1934, harbor master Edwin Coyle wrote about the Greywater Estuary, which had been \"a graveyard of ships.\"",
+      "Ottilie Brannagh's maps made the Greywater Estuary safe for ships: in 1934, harbor master Edwin Coyle wrote that they \"turned a graveyard of ships into a working port.\"",
+      "Before mapmaker Ottilie Brannagh charted its tidal channels, ships often ran aground in the Greywater Estuary."
+    ],
+    "answer": "C",
+    "explanation": "The goal has two parts: a claim about Brannagh's contribution AND a quotation that supports it. Only C makes the claim (her maps made the estuary safe) and backs it with Coyle's words.",
+    "steps": [
+      "Split the goal: (1) a claim about her contribution, (2) a quotation as support.",
+      "Find the quotation in the notes: Coyle's words in quotation marks.",
+      "A and D make good points about her work but have no quotation.",
+      "B quotes Coyle but never says what Brannagh did. C has both."
+    ],
+    "strategy_tip": "If the goal says 'quotation', look for quotation marks first; then check that the quote supports a claim about the right person.",
+    "rationales": {
+      "A": "No quotation: It makes a true claim about her contribution, but supports it with a date, not with a quotation.",
+      "B": "Quotation without the claim: It quotes Coyle but never mentions Brannagh or what she contributed.",
+      "C": "Correct. It claims her maps made the estuary safe and supports the claim with Coyle's quotation.",
+      "D": "No quotation: It shows the problem her maps solved, but it has no quotation and doesn't even say she solved it."
+    },
+    "traps": {
+      "A": "No quotation",
+      "B": "Quotation without the claim",
+      "D": "No quotation"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-006",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "drought-tolerant millet variety",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "In 1988, agronomist Teodora Valsh developed Ash-7, a millet variety that needs about half as much water as older types.",
+      "By 2000, Ash-7 grew on 60% of the millet fields in the Karo Plain.",
+      "Valsh often said that a seed \"should be judged by the stomachs it fills, not by the prizes it wins.\"",
+      "In 2005, farm leader Jonah Arkwel said Ash-7 \"kept our villages fed through four dry years.\""
+    ],
+    "stem": "The student wants to use a quotation to support a claim about Valsh's contribution to farming in the Karo Plain. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Teodora Valsh's millet Ash-7 helped the Karo Plain survive drought; as farm leader Jonah Arkwel said, it \"kept our villages fed through four dry years.\"",
+      "Agronomist Teodora Valsh believed that a seed \"should be judged by the stomachs it fills, not by the prizes it wins.\"",
+      "By 2000, Ash-7, a millet that agronomist Teodora Valsh developed in 1988 and that needs about half as much water as older types, grew on 60% of the Karo Plain's millet fields.",
+      "In 1988, agronomist Teodora Valsh developed Ash-7, a millet variety that needs about half as much water as older types."
+    ],
+    "answer": "A",
+    "explanation": "The notes have two quotations. Only Arkwel's quotation shows what Valsh's work did for the Karo Plain, and only A uses it to support a claim about her contribution.",
+    "steps": [
+      "Split the goal: (1) a claim about her contribution to Karo Plain farming, (2) a supporting quotation.",
+      "There are two quotations. Valsh's own words state her belief; Arkwel's words show the effect of her millet.",
+      "B quotes her belief, which isn't evidence of a contribution.",
+      "C and D describe her contribution well but have no quotation. A has both parts."
+    ],
+    "strategy_tip": "When the notes hold two quotations, ask which one is evidence for the claim; a quote about someone's opinions doesn't prove what they achieved.",
+    "rationales": {
+      "A": "Correct. It claims Ash-7 helped the Karo Plain survive drought and supports that claim with Arkwel's quotation.",
+      "B": "Quotation without the claim: It quotes Valsh's opinion about seeds, which says nothing about what she contributed to the Karo Plain.",
+      "C": "No quotation: It gives strong facts about her contribution (60% of fields) but uses no quotation.",
+      "D": "No quotation: It describes what she developed but includes no quotation and nothing about the Karo Plain."
+    },
+    "traps": {
+      "B": "Quotation without the claim",
+      "C": "No quotation",
+      "D": "No quotation"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-007",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "early screen-reader program",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "In 1983, software engineer Mirela Dunst wrote the first screen-reader program for the Pellar computer.",
+      "The program read the text on the screen aloud.",
+      "Before it existed, blind users of the Pellar needed a sighted helper to read the screen.",
+      "Dunst called the program \"a small tool built in a large hurry.\"",
+      "Arlo Fenn, a blind programmer, said the program \"gave me back my job.\""
+    ],
+    "stem": "The student wants to use a quotation to support a claim about Dunst's contribution. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Dunst once described her screen-reader program as \"a small tool built in a large hurry.\"",
+      "In 1983, Mirela Dunst wrote a program that read the Pellar's screen aloud, so blind users no longer needed a sighted helper.",
+      "Before 1983, blind users of the Pellar computer needed a sighted helper to read the text on the screen to them.",
+      "Mirela Dunst's screen reader opened the Pellar to blind workers: programmer Arlo Fenn said it \"gave me back my job.\""
+    ],
+    "answer": "D",
+    "explanation": "Only D makes a claim about Dunst's contribution (her program opened the computer to blind workers) and supports it with a quotation that shows that effect.",
+    "steps": [
+      "Split the goal: (1) a claim about her contribution, (2) a quotation as support.",
+      "Two quotations: Dunst's modest words about her tool, and Fenn's words about its effect.",
+      "A quotes Dunst, but her words play the program down; they don't support a claim about its value.",
+      "B and C have no quotation. D has the claim and the right quotation."
+    ],
+    "strategy_tip": "Check that the quotation actually supports the claim; a modest quote from the person herself rarely proves her contribution.",
+    "rationales": {
+      "A": "Quotation without the claim: It quotes Dunst, but the quote calls the program small and makes no claim about what it achieved.",
+      "B": "No quotation: It explains her contribution accurately but gives no quotation to support it.",
+      "C": "No quotation: It gives background only, with no quotation and no mention of Dunst.",
+      "D": "Correct. It claims her program opened the Pellar to blind workers and supports that with Fenn's quotation."
+    },
+    "traps": {
+      "A": "Quotation without the claim",
+      "B": "No quotation",
+      "C": "No quotation"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-008",
+    "modeled_on": "bb-pt5-rw-b-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "museum letter categories",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Halvard Museum sorts the letters in its archive into three categories.",
+      "Personal letters were written by one private person to another.",
+      "Official letters were written by a government office.",
+      "Commercial letters were written by a business to a customer or supplier.",
+      "Letter 214 was written in 1871 by the Brennick Shipping Company to a timber supplier."
+    ],
+    "stem": "The student wants to indicate which category Letter 214 belongs to. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Letter 214 was sent in 1871 to a timber supplier by the Brennick Shipping Company.",
+      "Letter 214 is a commercial letter, since a business wrote it to a supplier.",
+      "The Halvard Museum sorts the letters in its archive into three categories: personal, official, and commercial.",
+      "The Halvard Museum classifies a letter written by a business to a customer or supplier as a commercial letter."
+    ],
+    "answer": "B",
+    "explanation": "The goal asks for the category of Letter 214. Only B names that category (commercial) and links it to Letter 214.",
+    "steps": [
+      "Goal: (1) Letter 214, (2) the name of its category.",
+      "Apply the rule: a business wrote to a supplier, so the letter is commercial.",
+      "A gives the facts but doesn't say the word 'commercial'. C and D give the rules but never mention Letter 214.",
+      "Only B states 'Letter 214 is a commercial letter'."
+    ],
+    "strategy_tip": "For a category goal, the answer must say the category's name AND connect it to the item; facts that let you work it out are not enough.",
+    "rationales": {
+      "A": "Doesn't name the category: It gives the facts that make the letter commercial but never says which category it belongs to.",
+      "B": "Correct. It names the category (commercial) and gives the reason (a business wrote it to a supplier).",
+      "C": "Doesn't place Letter 214: It lists the three categories but never says which one Letter 214 belongs to.",
+      "D": "Rule without the item: It states the rule for commercial letters but never applies it to Letter 214."
+    },
+    "traps": {
+      "A": "Doesn't name the category",
+      "C": "Doesn't place Letter 214",
+      "D": "Rule without the item"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-009",
+    "modeled_on": "bb-pt5-rw-b-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "classifying a seasonal creek",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Hydrologists classify streams by how often they carry water.",
+      "A perennial stream flows all year.",
+      "An intermittent stream flows for weeks or months each year, usually in the wet season.",
+      "An ephemeral stream flows only for hours or days after heavy rain.",
+      "Pell Creek in the Oruna Hills flows from December to April and is dry the rest of the year."
+    ],
+    "stem": "The student wants to indicate which category Pell Creek belongs to. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Pell Creek, in the Oruna Hills, carries water from December to April but is dry for the rest of the year.",
+      "Unlike an ephemeral stream, which flows only after heavy rain, a perennial stream flows all year.",
+      "Since it flows for about five months each year, Pell Creek is an intermittent stream.",
+      "Pell Creek is not a perennial stream, since it is dry from May to November."
+    ],
+    "answer": "C",
+    "explanation": "Pell Creek flows for months in the wet season, which matches the rule for intermittent streams. Only C names that category.",
+    "steps": [
+      "Goal: (1) Pell Creek, (2) the name of its category.",
+      "Apply the rules: December to April is months, not hours or days, and not all year, so it is intermittent.",
+      "A gives the facts but no category. B gives rules but no Pell Creek.",
+      "D names a category the creek is NOT; it never says which one it IS. C does."
+    ],
+    "strategy_tip": "'Which category X belongs to' needs the positive answer ('X is a ___'); ruling out one category is not the same.",
+    "rationales": {
+      "A": "Doesn't name the category: It describes when the creek flows but never says it is intermittent.",
+      "B": "Doesn't mention Pell Creek: It compares two of the rules and says nothing about the creek.",
+      "C": "Correct. It names the category (intermittent) and gives the reason (it flows for about five months a year).",
+      "D": "Names only what it is not: It rules out 'perennial' but doesn't say which category the creek belongs to."
+    },
+    "traps": {
+      "A": "Doesn't name the category",
+      "B": "Doesn't mention Pell Creek",
+      "D": "Names only what it is not"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-010",
+    "modeled_on": "bb-pt5-rw-b-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "arts fund grant types",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Amberly Arts Fund gives three types of grants.",
+      "Seed grants are for artists who have never shown their work in public.",
+      "Growth grants are for artists who have shown work but have never had a solo exhibition.",
+      "Legacy grants are for artists who have had at least one solo exhibition.",
+      "Sculptor Ines Morrow has shown her work in four group exhibitions but has never had a solo exhibition."
+    ],
+    "stem": "The student wants to indicate which type of Amberly Arts Fund grant Ines Morrow qualifies for. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Sculptor Ines Morrow has shown her work in four group exhibitions, though never in a solo exhibition of her own.",
+      "The Amberly Arts Fund gives seed, growth, and legacy grants to artists at different stages of their careers.",
+      "Because Ines Morrow has already shown her work in public, she can't receive a seed grant from the Amberly Arts Fund.",
+      "Ines Morrow qualifies for a growth grant: she has shown work but never had a solo exhibition."
+    ],
+    "answer": "D",
+    "explanation": "Morrow has shown work but has had no solo exhibition, which is the rule for growth grants. Only D names the growth grant.",
+    "steps": [
+      "Goal: (1) Ines Morrow, (2) the name of the grant type.",
+      "Apply the rules: shown work + no solo exhibition = growth grant.",
+      "A gives her facts but no grant name. B lists the grants but not Morrow.",
+      "C only rules out the seed grant. D names the growth grant."
+    ],
+    "strategy_tip": "Say the answer to the classification in your own words first ('growth grant'), then find the only choice that uses that word.",
+    "rationales": {
+      "A": "Doesn't name the category: It gives the facts about Morrow but never says which grant she qualifies for.",
+      "B": "Doesn't mention Morrow: It lists the grant types but doesn't connect any of them to her.",
+      "C": "Names only what it is not: It rules out a seed grant but leaves open whether she gets a growth or a legacy grant.",
+      "D": "Correct. It names the grant (growth) and gives the reason from the rules."
+    },
+    "traps": {
+      "A": "Doesn't name the category",
+      "B": "Doesn't mention Morrow",
+      "C": "Names only what it is not"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-011",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "background music and word recall",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "In 2024, psychologist Hanne Ludvik studied whether background music affects memory.",
+      "She asked 90 adults to memorize a list of 30 words.",
+      "One group heard music with lyrics, one heard music without lyrics, and one worked in silence.",
+      "On average, the silence group recalled 19 words, the no-lyrics group 18, and the lyrics group 12.",
+      "Ludvik concluded that lyrics, not music itself, harm memory."
+    ],
+    "stem": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "In her 2024 study, Hanne Ludvik had 90 adults memorize 30 words while hearing music with lyrics, music without lyrics, or silence.",
+      "People recall far fewer words while hearing music with lyrics than in silence, while music without lyrics barely matters.",
+      "When Hanne Ludvik had 90 adults memorize 30 words, those hearing lyrics recalled 12 on average, versus 18 with lyric-free music and 19 in silence.",
+      "Psychologist Hanne Ludvik wanted to know whether background music affects how well people remember lists of words."
+    ],
+    "answer": "C",
+    "explanation": "Only C presents the study (Ludvik, 90 adults, 30 words) and its findings (12, 18, and 19 words recalled).",
+    "steps": [
+      "Split the goal: (1) the study, (2) its findings.",
+      "A is a full description of the study, but it stops before the results.",
+      "B states the results but not who studied what, or how.",
+      "D gives only the question. C has the study and the numbers."
+    ],
+    "strategy_tip": "A detailed method is not a finding; look for the result (numbers, 'found that') as well as the study.",
+    "rationales": {
+      "A": "Study only, no findings: It describes the method in detail but never says what happened.",
+      "B": "Findings only: It states the results but doesn't present the study or the researcher.",
+      "C": "Correct. It presents the study (Ludvik, 90 adults, 30 words) and its findings (12 vs. 18 vs. 19 words).",
+      "D": "Aim only: It gives the research question, with no method and no findings."
+    },
+    "traps": {
+      "A": "Study only, no findings",
+      "B": "Findings only",
+      "D": "Aim only"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-012",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "brick and glass clock towers",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Aldwin Tower and the Linden Tower are clock towers in the city of Ravel.",
+      "Both towers are 42 meters tall.",
+      "The Aldwin Tower was built of red brick in 1804.",
+      "The Linden Tower was built of steel and glass in 1998.",
+      "The clocks in both towers are still wound by hand every Sunday."
+    ],
+    "stem": "The student wants to emphasize a difference between the materials used to build the two towers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Although the Aldwin Tower was built in 1804 and the Linden Tower in 1998, the two towers are both 42 meters tall.",
+      "The Aldwin Tower is made of red brick, whereas the Linden Tower is made of steel and glass.",
+      "The Aldwin Tower was built in 1804, nearly two centuries before the Linden Tower.",
+      "Ravel's Aldwin Tower and Linden Tower are both 42 meters tall, and both of their clocks are still wound by hand every Sunday."
+    ],
+    "answer": "B",
+    "explanation": "The goal needs a difference AND it must be about building materials. Only B contrasts the materials: red brick vs. steel and glass.",
+    "steps": [
+      "Split the goal: (1) a difference, (2) about the materials.",
+      "Materials in the notes: red brick vs. steel and glass.",
+      "C is a real difference, but in age, not materials. A starts with 'Although' but stresses the shared height.",
+      "D shows only similarities. B is the only choice about materials."
+    ],
+    "strategy_tip": "When the goal names a topic ('the materials'), a difference about anything else is wrong.",
+    "rationales": {
+      "A": "Similarity, not difference: Despite 'Although', the main point is that both towers are the same height.",
+      "B": "Correct. It contrasts the two towers' materials: red brick vs. steel and glass.",
+      "C": "Wrong difference: It contrasts the towers' ages, not the materials used to build them.",
+      "D": "Similarity, not difference: It lists two things the towers share."
+    },
+    "traps": {
+      "A": "Similarity, not difference",
+      "C": "Wrong difference",
+      "D": "Similarity, not difference"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-013",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "two novels set in winter harbors",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "Kasia Wren's 1979 novel The Salt Year follows a fisherman's daughter.",
+      "Tomas Ebbe's 2011 novel Low Lanterns follows a retired train driver.",
+      "Both novels are set in a small harbor town during a long winter.",
+      "The Salt Year is 180 pages long; Low Lanterns is 620 pages long."
+    ],
+    "stem": "The student wants to emphasize a similarity between the two novels. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Though written decades apart, Kasia Wren's The Salt Year and Tomas Ebbe's Low Lanterns share a setting: a small harbor town in a long winter.",
+      "Kasia Wren's The Salt Year follows a fisherman's daughter, while Tomas Ebbe's Low Lanterns follows a retired train driver.",
+      "At 620 pages, Tomas Ebbe's Low Lanterns is more than three times as long as Kasia Wren's The Salt Year.",
+      "Tomas Ebbe's 2011 novel Low Lanterns is set in a small harbor town during a long winter."
+    ],
+    "answer": "A",
+    "explanation": "Only A names both novels and the feature they share, the setting. Its opening 'Though written decades apart' is a contrast, but the main point is the similarity.",
+    "steps": [
+      "Goal: (1) both novels, (2) something they share.",
+      "Shared fact in the notes: the same kind of setting.",
+      "B and C compare both novels, but they show differences.",
+      "D has the setting but only one novel. A has both, even though it starts with 'Though'."
+    ],
+    "strategy_tip": "Judge a choice by its main clause, not its first word; 'Though X, both share Y' still emphasizes a similarity.",
+    "rationales": {
+      "A": "Correct. It names both novels and stresses what they share: a small harbor town in a long winter.",
+      "B": "Difference, not similarity: It contrasts the main characters.",
+      "C": "Difference, not similarity: It contrasts the books' lengths.",
+      "D": "Only one novel: It gives the shared setting but mentions only Low Lanterns, so no similarity is shown."
+    },
+    "traps": {
+      "B": "Difference, not similarity",
+      "C": "Difference, not similarity",
+      "D": "Only one novel"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-014",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "green roofs and street flooding",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "A green roof is a roof covered with soil and low plants.",
+      "Green roofs cost about twice as much to build as ordinary roofs.",
+      "In Varn City, green roofs kept top-floor offices about 4 degrees Celsius cooler in summer.",
+      "Green roofs absorb rainwater, which reduces flooding in the streets below.",
+      "Green roofs must be weeded twice a year."
+    ],
+    "stem": "The student wants to explain an advantage of green roofs to an audience unfamiliar with them. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Green roofs, which are roofs covered with soil and low plants, cost about twice as much to build as ordinary roofs.",
+      "In Varn City, green roofs kept top-floor offices about 4 degrees Celsius cooler in summer.",
+      "A green roof is a roof that is covered with soil and low plants and that must be weeded twice a year.",
+      "A green roof, one covered with soil and low plants, absorbs rainwater and so reduces flooding in the streets."
+    ],
+    "answer": "D",
+    "explanation": "The goal has two parts: explain what a green roof is (the audience doesn't know) AND give an advantage. Only D does both.",
+    "steps": [
+      "Split the goal: (1) say what a green roof is, (2) give an advantage.",
+      "Advantages in the notes: cooler offices, less street flooding. Drawbacks: cost, weeding.",
+      "A and C explain the term but add only drawbacks.",
+      "B gives an advantage but never says what a green roof is. D has both."
+    ],
+    "strategy_tip": "'Unfamiliar audience' is a second requirement: the answer must define the term as well as meet the main goal.",
+    "rationales": {
+      "A": "A drawback, not an advantage: It explains the term but gives the higher building cost.",
+      "B": "Assumes the reader knows: It gives a real advantage but never explains what a green roof is.",
+      "C": "No advantage: It defines a green roof but adds only the weeding, which is a drawback.",
+      "D": "Correct. It explains what a green roof is and gives an advantage: less street flooding."
+    },
+    "traps": {
+      "A": "A drawback, not an advantage",
+      "B": "Assumes the reader knows",
+      "C": "No advantage"
+    }
+  },
+  {
+    "id": "pt5-rw-rs-015",
+    "modeled_on": "bb-pt5-rw-a-q27",
+    "skill": "RW.EOI.RS.GOAL",
+    "difficulty": "hard",
+    "topic": "two glacier research projects",
+    "fictional": true,
+    "passage": "While researching a topic, a student has taken the following notes:",
+    "notes": [
+      "The Orrin Project and the Selby Project both study the Merrow Glacier.",
+      "The Orrin Project began in 2012 and uses drones.",
+      "Its aim is to measure how fast the glacier is shrinking.",
+      "The Selby Project began in 2019 and drills ice cores.",
+      "Its aim is to learn what the climate was like 10,000 years ago."
+    ],
+    "stem": "The student wants to contrast the aims of the two projects. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Orrin Project studies the Merrow Glacier with drones, while the Selby Project drills ice cores.",
+      "The Orrin Project aims to measure how fast the Merrow Glacier is shrinking; the Selby Project, by contrast, seeks to learn about the climate 10,000 years ago.",
+      "Both projects study the Merrow Glacier, the Orrin Project since 2012 and the Selby Project since 2019.",
+      "The Selby Project, which began in 2019, drills ice cores in the Merrow Glacier to learn what the climate was like 10,000 years ago."
+    ],
+    "answer": "B",
+    "explanation": "The goal needs a contrast AND it must be about aims. Only B puts the two aims side by side: measuring shrinking vs. learning about past climate.",
+    "steps": [
+      "Split the goal: (1) a contrast between both projects, (2) about their aims.",
+      "Aims in the notes: how fast the glacier shrinks vs. the climate 10,000 years ago.",
+      "A contrasts methods, and C contrasts start dates: wrong topic.",
+      "D gives one aim but only one project. B contrasts both aims."
+    ],
+    "strategy_tip": "Circle the noun in the goal ('aims'); a contrast of methods or dates doesn't match it.",
+    "rationales": {
+      "A": "Wrong contrast: It contrasts the projects' methods (drones vs. ice cores), not their aims.",
+      "B": "Correct. It states both aims and contrasts them with 'by contrast'.",
+      "C": "Wrong contrast: It contrasts start dates, and it doesn't mention either aim.",
+      "D": "Only one project: It gives the Selby Project's aim but says nothing about the Orrin Project's aim."
+    },
+    "traps": {
+      "A": "Wrong contrast",
+      "C": "Wrong contrast",
+      "D": "Only one project"
+    }
+  }
+]

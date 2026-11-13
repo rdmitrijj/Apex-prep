@@ -1,0 +1,355 @@
+[
+  {
+    "id": "pt5-rw-tsp-001",
+    "modeled_on": "bb-pt5-rw-b-q6",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "medium",
+    "topic": "farmhand who never asks twice loses a promised cottage",
+    "fictional": true,
+    "passage": "The following text is from Lidia Varga's novel The Orchard Road. Tomas has worked for the same landowner for twenty years. <u>He had never in his life asked for anything twice, and when a request was refused, he simply nodded and went back to work.</u> So when the landowner's son told him that the cottage he had been promised was now needed for a new manager, Tomas said nothing, and by spring he and his wife were living in a rented room above the mill.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It describes a change in Tomas's character that takes place after he loses the cottage.",
+      "It explains why Tomas loses the promised cottage without any struggle.",
+      "It suggests that the landowner's son deeply admires Tomas's loyalty and hard work.",
+      "It presents Tomas's hope that he will one day own a cottage of his own."
+    ],
+    "answer": "B",
+    "explanation": "The underlined sentence describes a habit (never asking twice). The next sentence begins with 'So' and shows the result: Tomas accepts losing the cottage.",
+    "steps": [
+      "Underlined: Tomas never asks twice; he just nods and goes back to work.",
+      "Next sentence starts with 'So': a result follows.",
+      "Result: he says nothing and loses the cottage.",
+      "So the underlined habit explains WHY that outcome happened."
+    ],
+    "strategy_tip": "If the sentence after the underlined part starts with 'So' or describes an outcome, the underlined part is often the reason for it.",
+    "rationales": {
+      "A": "Wrong time: 'Had never in his life' describes a lifelong habit from before the loss, not a later change.",
+      "B": "Correct. Because he never asks twice, Tomas accepts the refusal in silence, which is why he loses the cottage.",
+      "C": "Not in the text: Nothing shows how the son feels about Tomas; he simply takes the cottage.",
+      "D": "Not in the text: The underlined sentence is about how he reacts to refusals, not about a hope."
+    },
+    "traps": {
+      "A": "Wrong time",
+      "C": "Not in the text",
+      "D": "Not in the text"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-002",
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "medium",
+    "topic": "desert snails climbing shrubs to escape heat",
+    "fictional": true,
+    "passage": "For decades, biologists assumed that the desert snail Dunevia sicca survives the summer heat simply by sealing itself inside its shell and staying still. In 2022, however, zoologist Petra Halloran found that the snails also climb onto the stems of shrubs during the hottest hours, where the air is several degrees cooler than at ground level. Halloran cautions that she observed snails in only one valley, so it is not yet clear whether the behavior is common across the species' range.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a behavior, explains how it was first discovered, and then lists the places where it has been seen.",
+      "It presents a finding, notes that other researchers rejected it, and then defends it with new data.",
+      "It compares two species of snail and then explains why one of them survives heat better than the other.",
+      "It presents a long-held assumption, describes a finding that shows it is incomplete, and then notes a limit of that finding."
+    ],
+    "answer": "D",
+    "explanation": "Sentence 1 is the old assumption, sentence 2 ('however') is the new finding, and sentence 3 ('cautions') is a limit of the study.",
+    "steps": [
+      "Label each sentence. S1: 'biologists assumed' = old assumption.",
+      "S2: 'however ... found' = a finding that adds a second behavior.",
+      "S3: 'cautions ... only one valley' = a limitation.",
+      "Find the choice with the same three steps in the same order."
+    ],
+    "strategy_tip": "For structure questions, give each sentence a one-word label first, then match the labels to a choice.",
+    "rationales": {
+      "A": "Contradicts the text: The behavior was seen in only one valley, so there is no list of places.",
+      "B": "Not in the text: No researchers reject Halloran's finding.",
+      "C": "Misreads the focus: The text is about one species, Dunevia sicca.",
+      "D": "Correct. Assumption ('simply by sealing'), finding that adds to it (climbing shrubs), limitation (only one valley)."
+    },
+    "traps": {
+      "A": "Contradicts the text",
+      "B": "Not in the text",
+      "C": "Misreads the focus"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-003",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "medium",
+    "topic": "dust on glaciers speeds melting",
+    "fictional": true,
+    "passage": "Glaciologist Henrik Sauer studies why some glaciers in the Kaldor Range are shrinking faster than others at the same height. <u>Glaciers on the range's eastern slopes are covered with a thin layer of dark dust blown from nearby dry plains.</u> Because dark surfaces absorb more sunlight than clean ice does, these glaciers melt more each summer, and Sauer's measurements show that they have lost nearly twice as much ice since 1990 as glaciers on the western slopes.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It identifies a feature of some glaciers that the text then uses to explain why they shrink faster.",
+      "It describes the method that Sauer used to measure how much ice the glaciers have lost.",
+      "It presents a hypothesis about the glaciers that Sauer's later measurements disproved.",
+      "It explains why dust from the dry plains is blown mainly onto the western slopes of the Kaldor Range."
+    ],
+    "answer": "A",
+    "explanation": "The text asks why some glaciers shrink faster. The underlined sentence names the dust, and the next sentence explains how the dust causes more melting.",
+    "steps": [
+      "S1 asks a question: why do some glaciers shrink faster?",
+      "Underlined: eastern glaciers have dark dust on them.",
+      "S3: dark surfaces absorb more sunlight, so those glaciers melt more.",
+      "The underlined fact is the cause the text uses to answer the question."
+    ],
+    "strategy_tip": "Read the sentence after the underlined part: if it starts with 'Because' or 'so', the underlined part usually sets up a cause.",
+    "rationales": {
+      "A": "Correct. The dust is the feature; the text then explains that it absorbs sunlight and speeds melting.",
+      "B": "Misreads the role: The underlined sentence describes the glaciers, not how Sauer measured them.",
+      "C": "Contradicts the text: The measurements support the dust explanation; they don't disprove it.",
+      "D": "Wrong detail: The dust covers the eastern slopes, and the sentence doesn't explain where it goes."
+    },
+    "traps": {
+      "B": "Misreads the role",
+      "C": "Contradicts the text",
+      "D": "Wrong detail"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-004",
+    "modeled_on": "bb-pt5-rw-b-q6",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "topic": "trusting wool seller cheated at the scale",
+    "fictional": true,
+    "passage": "The following text is from Ruth Calloway-Bern's novel The Weighing House. Each autumn, Anton sells his wool at the market in Drossel. <u>Anton believed that a man who doubts another's word insults him, and he would sooner lose a coin than ask to see the scale.</u> The wool buyer Krenzler had learned this long ago. Each year he set his thumb lightly on the edge of the scale while Anton looked politely away, and each year Anton rode home with less money than his wool was worth, never knowing why.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It shows that Anton suspects Krenzler of cheating but is too afraid to accuse him openly.",
+      "It introduces a rule of the Drossel market that Krenzler breaks each year.",
+      "It explains why Krenzler treats Anton with more respect than he shows other sellers.",
+      "It reveals the trait in Anton that allows Krenzler to cheat him year after year."
+    ],
+    "answer": "D",
+    "explanation": "Anton never checks the scale because he thinks doubt is an insult. Krenzler 'had learned this' and uses it to cheat him, so the trait explains the cheating.",
+    "steps": [
+      "Underlined: Anton thinks doubting someone is an insult, so he never checks the scale.",
+      "Next: Krenzler 'had learned this' and presses the scale while Anton looks away.",
+      "Outcome: Anton is cheated every year 'never knowing why'.",
+      "So the underlined trait explains HOW and WHY the cheating works."
+    ],
+    "strategy_tip": "When a passage describes a habit and then a bad outcome, ask whether the habit made the outcome possible.",
+    "rationales": {
+      "A": "Contradicts the text: Anton is 'never knowing why' he gets less money, so he doesn't suspect anything.",
+      "B": "Misreads the role: This is Anton's personal belief, not a rule of the market.",
+      "C": "Not in the text: Krenzler uses Anton's trust to cheat him; nothing suggests special respect.",
+      "D": "Correct. Anton's refusal to doubt anyone, or check the scale, is what Krenzler uses to cheat him each year."
+    },
+    "traps": {
+      "A": "Contradicts the text",
+      "B": "Misreads the role",
+      "C": "Not in the text"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-005",
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "topic": "three house colors in a harbor town",
+    "fictional": true,
+    "passage": "Visitors to the coastal town of Merrow often notice that its oldest houses are painted in only three colors: gray, blue, and dark green. Some local guides say that an early town law limited the colors residents could use, but historian Ines Porto searched the town's records and found no such law. Instead, Porto points to the shipyard's account books, which show that these three paints were left over from painting ships and were sold cheaply to residents.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a town law, explains why the law was passed, and then notes how residents reacted to it.",
+      "It notes a pattern, explains why one account of it is doubtful, and then presents a better-supported account.",
+      "It presents two competing explanations of a pattern and then argues that both of them are partly correct.",
+      "It describes a historian's research methods and then lists the sources that she found most useful."
+    ],
+    "answer": "B",
+    "explanation": "The text notes a pattern (three colors), says a popular explanation (a law) has no evidence, and then gives an explanation backed by records.",
+    "steps": [
+      "S1: a pattern (only three colors).",
+      "S2: one explanation (a town law), but Porto found no such law.",
+      "S3: 'Instead': another explanation, supported by account books.",
+      "The text rejects the first explanation; it doesn't combine the two."
+    ],
+    "strategy_tip": "Words like 'but ... found no' and 'Instead' signal that the text rejects one idea and replaces it.",
+    "rationales": {
+      "A": "Contradicts the text: Porto found no such law, so the text cannot explain why it was passed.",
+      "B": "Correct. Pattern (three colors), doubtful account (no law in the records), better-supported account (shipyard paint).",
+      "C": "Misreads the relationship: The law explanation is rejected, not called partly correct.",
+      "D": "Misreads the focus: Porto's sources are mentioned only as evidence for her explanation of the colors."
+    },
+    "traps": {
+      "A": "Contradicts the text",
+      "C": "Misreads the relationship",
+      "D": "Misreads the focus"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-006",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "topic": "bridge coating applied in fog fails early",
+    "fictional": true,
+    "passage": "In 2019, a new bridge in the city of Halvik was painted with a coating meant to protect its steel from rust for thirty years. Within five years, however, rust spots had appeared on the bridge's lower beams. Engineer Dana Ruiz-Hollis inspected the bridge and found that <u>the coating had been applied during a week of heavy fog, when moisture was already trapped on the steel.</u> Coatings applied over damp steel bond poorly, she notes, so water can slowly creep beneath them.",
+    "stem": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "choices": [
+      "It describes a test that Ruiz-Hollis ran to compare the strength of different coatings.",
+      "It suggests that the coating was the wrong product for a bridge in a foggy city.",
+      "It identifies the condition that explains why the coating failed so early.",
+      "It presents evidence that the rust was caused by salt spread on nearby roads."
+    ],
+    "answer": "C",
+    "explanation": "The text presents a puzzle (rust after five years instead of thirty). The underlined portion gives the cause: the coating went onto damp steel, which the last sentence says makes it bond poorly.",
+    "steps": [
+      "Outcome: a 30-year coating failed in 5 years.",
+      "Underlined: it was applied in fog, on damp steel.",
+      "Last sentence: coatings on damp steel bond poorly, so water gets under them.",
+      "The underlined portion explains WHY the outcome happened. The problem is when it was applied, not which product."
+    ],
+    "strategy_tip": "Name exactly what the cause is: 'applied on a foggy week' is about timing, not about the product being wrong.",
+    "rationales": {
+      "A": "Misreads the role: No test comparing coatings is described.",
+      "B": "Wrong cause: The problem was applying it over damp steel, not the product itself.",
+      "C": "Correct. Applying the coating in fog left moisture under it, which explains why rust appeared within five years.",
+      "D": "Not in the text: Salt is never mentioned; the cause given is trapped moisture."
+    },
+    "traps": {
+      "A": "Misreads the role",
+      "B": "Wrong cause",
+      "D": "Not in the text"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-007",
+    "modeled_on": "bb-pt5-rw-b-q6",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "topic": "inn cook who tastes every dish three times",
+    "fictional": true,
+    "passage": "The following text is from Marguerite Asante-Lowe's novel The Copper Kettle. Every evening, the inn's cook, Beatrix, tasted each dish three times before she let it leave the kitchen. <u>As a girl she had served in a wealthy house, and she still remembered being sent to bed hungry because a sauce had come out too thin.</u> The new kitchen boys laughed at her slowness, but none of them ever saw a plate returned from the dining room.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It describes the moment when Beatrix decided to leave domestic service and become a cook.",
+      "It suggests a reason for the great care Beatrix takes with every dish.",
+      "It explains why the new kitchen boys laugh at Beatrix for being slow.",
+      "It shows that Beatrix's cooking has become worse since she was a girl."
+    ],
+    "answer": "B",
+    "explanation": "The text first describes Beatrix's careful habit. The underlined memory of being punished for a thin sauce suggests why she checks every dish so carefully.",
+    "steps": [
+      "Before the underlined sentence: Beatrix tastes each dish three times (a habit).",
+      "Underlined: as a girl she was punished for a bad sauce.",
+      "Link: that memory is the likely reason for her careful habit.",
+      "The boys laugh because she is slow; the memory explains her care, not their laughter."
+    ],
+    "strategy_tip": "When a past memory follows a habit, it usually explains the habit. Check which outcome it really explains.",
+    "rationales": {
+      "A": "Not in the text: The passage never says when or why she left service.",
+      "B": "Correct. Being sent to bed hungry over a thin sauce explains why she now tastes every dish three times.",
+      "C": "Wrong link: The memory explains her careful slowness, not why the boys laugh at it.",
+      "D": "Contradicts the text: No plate is ever returned, so her cooking is excellent."
+    },
+    "traps": {
+      "A": "Not in the text",
+      "C": "Wrong link",
+      "D": "Contradicts the text"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-008",
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "topic": "snow-track counts overestimate wolves",
+    "fictional": true,
+    "passage": "Ecologists often estimate how many wolves live in a forest by counting the tracks they leave in fresh snow. In a 2023 study in the Varn Highlands, however, biologist Owen Takahara-Bell compared track counts with data from GPS collars and found that the track method overcounted wolves by about 30 percent, because packs often split up to hunt and leave several separate trails. Takahara-Bell suggests that researchers reduce track-based estimates by that amount until a better method is developed.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a common way of estimating a number, presents evidence that the method is biased, and then proposes an adjustment.",
+      "It describes a common way of estimating a number, explains why it is popular, and then recommends replacing it with GPS collars.",
+      "It presents a claim about wolf numbers, challenges it with new counts, and then explains why the wolf population fell.",
+      "It compares two ways of studying wolves and then concludes that both of them undercount wolves in winter."
+    ],
+    "answer": "A",
+    "explanation": "S1 gives the usual method, S2 shows it overcounts by 30 percent, and S3 suggests reducing estimates to correct for this.",
+    "steps": [
+      "S1: a common method (counting tracks).",
+      "S2: 'however': GPS data show it overcounts, which is a bias.",
+      "S3: a fix: reduce the estimates 'until a better method is developed'.",
+      "He adjusts the old method for now; he does not replace it with collars."
+    ],
+    "strategy_tip": "Two choices can share the same start; decide using the last step, and check its exact verb (adjust vs. replace).",
+    "rationales": {
+      "A": "Correct. Common method (tracks), evidence of bias (30 percent overcount), adjustment (reduce the estimates).",
+      "B": "Partly right: It starts correctly, but the text never says why the method is popular, and he adjusts it instead of replacing it.",
+      "C": "Not in the text: No change in the wolf population is described.",
+      "D": "Reverses the finding: The track method overcounts wolves; it does not undercount them."
+    },
+    "traps": {
+      "B": "Partly right",
+      "C": "Not in the text",
+      "D": "Reverses the finding"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-009",
+    "skill": "RW.CAS.TSP.FUNCTION",
+    "difficulty": "hard",
+    "topic": "fruit bats smelling hidden figs",
+    "fictional": true,
+    "passage": "Most bats find food in the dark by echolocation: they make calls and listen for the echoes. Biologist Sana Wirtanen found that the fruit bat Pteronia veldtensis also uses smell to find ripe figs, since bats in her trials found figs hidden inside cloth bags that blocked echoes. <u>Her trials took place in a flight cage, however, where the bats had to search only a few square meters.</u> Whether the bats rely on smell when they search a whole forest is still unknown.",
+    "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains why the bats were able to find the figs hidden inside the cloth bags.",
+      "It provides evidence that the bats depend more on echolocation than on smell.",
+      "It describes a flaw that shows that Wirtanen's results were incorrect.",
+      "It points out a condition of the study that limits how far its finding can be applied."
+    ],
+    "answer": "D",
+    "explanation": "The underlined sentence says the test area was small. The last sentence draws the result: we don't know if the finding holds in a whole forest. So it is a limitation.",
+    "steps": [
+      "Before: the finding (bats use smell to find hidden figs).",
+      "Underlined: 'however', the trials were in a small cage.",
+      "After: it is unknown whether this is true in a forest.",
+      "So the sentence limits the finding; it doesn't explain it or disprove it."
+    ],
+    "strategy_tip": "Not every underlined sentence explains a cause; 'however' after a finding often signals a limitation.",
+    "rationales": {
+      "A": "Wrong link: The bags blocked echoes, so smell explains how the bats found the figs; the cage size doesn't explain it.",
+      "B": "Not in the text: Nothing compares how much the bats depend on each sense.",
+      "C": "Overstates: A small test area limits the finding; it doesn't show the result was wrong.",
+      "D": "Correct. The small cage is a condition of the study, and the text says the finding may not apply to a whole forest."
+    },
+    "traps": {
+      "A": "Wrong link",
+      "B": "Not in the text",
+      "C": "Overstates"
+    }
+  },
+  {
+    "id": "pt5-rw-tsp-010",
+    "skill": "RW.CAS.TSP.STRUCTURE",
+    "difficulty": "hard",
+    "topic": "traveler expecting painted islands meets a rainy quay",
+    "fictional": true,
+    "passage": "The following text is from Halina Brask's novel The Winter Ferry. Before the journey, Ilse had pictured the northern islands as she had seen them in her father's paintings: green hills, white houses, and a harbor full of bright boats. The ferry arrived instead at a gray quay in heavy rain, where a single truck waited beside a row of closed sheds. Ilse stood on the deck for a long moment. Then she laughed, pulled her hood over her hair, and was the first passenger down the ramp.",
+    "stem": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a place in detail and then explains why Ilse's father chose to paint that place.",
+      "It presents Ilse's memory of a painting and then describes how she later learned to paint the same scene herself.",
+      "It describes what a character expected, shows how the reality was different, and then presents her response.",
+      "It describes a character's disappointment and then explains how she decided to return home at once."
+    ],
+    "answer": "C",
+    "explanation": "The text moves from Ilse's picture of the islands, to the gray, rainy reality ('instead'), to her reaction: she laughs and goes ashore first.",
+    "steps": [
+      "S1: expectation (her father's paintings).",
+      "S2: 'instead': the real place is gray and rainy.",
+      "S3-S4: her response: a pause, a laugh, and she leaves the ferry first.",
+      "She goes ashore; she doesn't go home."
+    ],
+    "strategy_tip": "Check the last step of a structure choice carefully; a wrong ending ('returns home') makes the whole choice wrong.",
+    "rationales": {
+      "A": "Not in the text: The text never explains why her father painted the islands.",
+      "B": "Not in the text: Ilse doesn't paint anything in the passage.",
+      "C": "Correct. Expectation (paintings), different reality (gray quay in rain), response (she laughs and goes ashore first).",
+      "D": "Contradicts the text: She is the first passenger down the ramp, so she doesn't return home."
+    },
+    "traps": {
+      "A": "Not in the text",
+      "B": "Not in the text",
+      "D": "Contradicts the text"
+    }
+  }
+]

@@ -5,6 +5,8 @@ Digital SAT prep app (FastAPI + React + PostgreSQL), open registration. Each use
 ## Status
 Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback is used). Anthropic key lives only in the gitignored root `.env`; the R&W pipeline reads it from env and the app works on the seed bank without it. All milestones M1–M7 are done (see PLAN.md). Seed bank: 440 R&W items (every passage 25–150 words) and 54 hand-written math twins in `seed/math/`, all with stable `id`s; math otherwise comes from the generators. The owner's Bluebook PT4 misses (paraphrases only, never official text) live in `seed/imports/` and are loaded per user, not by the seed. The Anthropic credit balance ran out on 2026-10-04; top it up before generating more.
 
+**PT5 Weakness Drill** (`/pt5`, `api/pt5.py`, `services/pt5.py`, `engine/weakset.py`): 21 mini-sets defined in `seed/pt5/sets.json`; an item belongs to a set by id prefix (`pt5-<set>-NNN`, files `seed/rw|math/pt5_*.json`), rule cards are `seed/pt5/rules/<set>.md`. Mastered = 7 of the last 8 right on 2+ days, then `set_reviews` (1/3/7). Mini Mock = Triage modes `mockrw`/`mockmath` over the fixed forms in `seed/pt5/forms.json`; `pt5-mock-*` items are mock-only and `qs.pick` never serves them elsewhere. The 5-day plan card (`seed/pt5/plan.json`, `plan_checks`) shows only to users with `bb-pt5-*` imports. New R&W items need a blind re-solve recorded in `seed/blind_solve.json` (choice text by id) from a solver that never saw the key.
+
 ## Key docs
 - `docs/SAT_SPEC.md`: verified test spec (structure, ordering, SPR rules, tools, scoring). Official source wins over the brief.
 - `docs/TAXONOMY.md` mirrors `backend/app/seed/taxonomy.json` (**source of truth**). IDs: `SECTION.DOMAIN.SKILL.SUBSKILL`. Questions, responses, and mastery reference leaf IDs only.
@@ -27,7 +29,8 @@ Plan approved (app name: Apex Prep; no Desmos key yet, so the math.js fallback i
 
 ## Commands
 - DB: `docker compose up -d db` (tests create/wipe `apex_test` themselves)
-- Import official-test mistakes for a user: `uv run python -m app.import_mistakes --email <email>` (idempotent; default file `app/seed/imports/bluebook_pt4.json`).
+- Import official-test mistakes for a user: `uv run python -m app.import_mistakes --email <email> [--file app/seed/imports/bluebook_pt5.json]` (idempotent; default file `app/seed/imports/bluebook_pt4.json`).
+- Vocab CSV for Anki: `uv run python -m app.export_vocab` (writes `exports/wic_vocab.csv`).
 - Backend: `cd backend && uv run pytest -q` (`GEN_SEEDS=20` speeds up the generator suite; CI runs the default 200), `uv run ruff check . && uv run ruff format --check .`, `uv run mypy`
 - New migration: `uv run alembic revision --autogenerate -m <slug>`, then rename the file to `NNNN_<slug>.py` and set `revision = "NNNN"`.
 - Frontend: `cd frontend && yarn lint && yarn typecheck && yarn test`

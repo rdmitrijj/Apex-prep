@@ -25,17 +25,22 @@ from typing import Any
 import sympy
 from sympy.core.relational import Relational
 
+from app.engine.weakset import set_of
 from app.generators import DIFFICULTIES, REGISTRY, generate
 from app.generators.core import MULTI_ANSWER
 from app.generators.spr import canonical_entry, is_correct, is_valid_entry
 from app.schemas.question import MathItem, RWItem, RWSeedItem
 from app.services.questions import SEED_DIR, load_taxonomy
 
-IMPORTS = SEED_DIR / "imports" / "bluebook_pt4.json"
+IMPORTS = sorted((SEED_DIR / "imports").glob("bluebook_*.json"))
+PT5 = SEED_DIR / "pt5"
 REFERENCES = SEED_DIR / "imports" / "reference_examples.json"
 # Blind re-solves of the Triage bank: item id -> the choice TEXT a solver picked without the key.
 BLIND = SEED_DIR / "blind_solve.json"
-TRIAGE = "rw-tri-"  # Triage-bank ids; the stricter study-field checks apply to these
+# Triage-bank and PT5 weakness-drill ids; the stricter study-field checks apply to these.
+TRIAGE = ("rw-tri-", "pt5-")
+FORM_SIZES = {"rw": 27, "math": 22}
+FORM_FRESH = {"rw": 6, "math": 4}  # mock-only items per form and module
 MAX_SIMILARITY = 0.75
 MAX_TOPIC_REPEATS = 3
 MAX_KEY_LONGEST = 0.40
@@ -156,6 +161,15 @@ def changed_words(choices: list[str], punctuation: bool) -> int:
     return max(len(t) - pre - suf for t in toks)
 
 
+def bank_group(eid: str, skill: str) -> str:
+    """Key-balance group: a PT5 set ("pt5 rw-trans", "pt5 mock rw"), else the skill."""
+    if eid.startswith("pt5-mock-"):
+        return f"pt5 mock {eid.split('-')[3]}"
+    if eid.startswith("pt5-"):
+        return "pt5 " + "-".join(eid.split("-")[1:3])
+    return skill_of(skill)
+
+
 def check_bank(items: list[RWSeedItem]) -> list[Failure]:
     """Checks across items: near-duplicate passages, topic repeats, and (Triage bank) answer-key
     balance, the key-is-longest bias, and the recorded blind re-solve."""
@@ -183,7 +197,7 @@ def check_bank(items: list[RWSeedItem]) -> list[Failure]:
     by_skill: dict[str, list[RWSeedItem]] = defaultdict(list)
     for i in items:
         if (i.id or "").startswith(TRIAGE):
-            by_skill[skill_of(i.skill)].append(i)
+            by_skill[bank_group(i.id or "", i.skill)].append(i)
             key = i.choices["ABCD".index(i.answer)]
             if i.id not in blind:
                 out.append(("rw", i.id or "", "no blind re-solve recorded"))
@@ -193,10 +207,13 @@ def check_bank(items: list[RWSeedItem]) -> list[Failure]:
         n, letters = len(group), Counter(i.answer for i in group)
         if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
             out.append(("rw", skill, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
-        if skill.startswith("RW.SEC."):  # choices differ by a mark or a word; length is no cue
-            continue
+        # Conventions choices differ by a mark or a word; length is no cue there.
+        group = [i for i in group if not i.skill.startswith("RW.SEC.")]
+        n = len(group)
         # A key that is usually the longest (or, after padding distractors, the shortest) gives itself away.
         for name, pick in (("longest", max), ("shortest", min)):
+            if n < 4:
+                break
             k = sum(len(i.choices["ABCD".index(i.answer)]) == pick(map(len, i.choices)) for i in group)
             if k > MAX_KEY_LONGEST * n:
                 out.append(("rw", skill, f"key is the {name} choice in {k}/{n} items"))
@@ -215,6 +232,8 @@ def _val(s: str) -> Any:
 def same(a: Any, b: Any) -> bool:
     """Mathematically equal: expressions, points, and equations/inequalities up to a constant factor."""
     a, b = (sympy.Tuple(*t) if isinstance(t, tuple) else t for t in (a, b))
+    if a == b:  # also covers oo, where simplify(oo - oo) is nan
+        return True
     if isinstance(a, sympy.Tuple) or isinstance(b, sympy.Tuple):
         return (
             isinstance(a, sympy.Tuple)
@@ -339,10 +358,8 @@ def check_generators(seeds: int) -> tuple[list[Failure], int]:
 
 
 def check_imports(known: set[str], leaves: set[str]) -> tuple[list[Failure], int]:
-    if not IMPORTS.exists():
-        return [], 0
     out: list[Failure] = []
-    rows = json.loads(IMPORTS.read_text())["mistakes"]
+    rows = [r for f in IMPORTS for r in json.loads(f.read_text())["mistakes"]]
     for row in rows:
         eid = row["external_id"]
         if row["skill"] not in leaves:
@@ -363,6 +380,7 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
     texts: dict[str, str] = {}
     per_skill: Counter[str] = Counter()
     rw: list[RWSeedItem] = []
+    math: list[MathItem] = []
     for folder, model, check in (("rw", RWSeedItem, check_rw), ("math", MathItem, check_math)):
         for path in sorted((SEED_DIR / folder).glob("*.json")):
             for i, raw in enumerate(json.loads(path.read_text())):
@@ -376,6 +394,8 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
                 ids[eid] += 1
                 if isinstance(item, RWSeedItem):
                     rw.append(item)
+                else:
+                    math.append(item)  # type: ignore[arg-type]
                 per_skill[f"{item.skill}|{item.difficulty}"] += 1
                 out += [(folder, eid, e) for e in check(item, leaves)]  # type: ignore[arg-type]
                 body = norm(
@@ -388,7 +408,66 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
                 texts.setdefault(body, eid)
     out += [("seed", e, "duplicate id") for e, c in ids.items() if c > 1]
     out += check_bank(rw)
+    groups: dict[str, list[str]] = defaultdict(list)  # PT5 math sets: multiple-choice key balance
+    for m in math:
+        if m.id.startswith("pt5-") and m.answer:
+            groups[bank_group(m.id, m.skill)].append(m.answer)
+    for g, keys in groups.items():
+        n, letters = len(keys), Counter(keys)
+        if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
+            out.append(("math", g, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
+    out += check_pt5({i.id or "": i for i in rw} | {m.id: m for m in math})
     return out, set(ids), per_skill
+
+
+def check_pt5(items: dict[str, RWSeedItem | MathItem]) -> list[Failure]:
+    """PT5 drill sets (count, rule card) and Mini Mock forms (size, no repeats, mix)."""
+    if not (PT5 / "sets.json").exists():
+        return []
+    out: list[Failure] = []
+    sets = json.loads((PT5 / "sets.json").read_text())["sets"]
+    have = Counter(set_of(e) for e in items)
+    for s in sets:
+        if have[s["id"]] != s["count"]:
+            out.append(("pt5", s["id"], f"{have[s['id']]} items, set needs {s['count']}"))
+        if not (PT5 / "rules" / f"{s['id']}.md").exists():
+            out.append(("pt5", s["id"], "no rule card"))
+    known = {s["id"] for s in sets}
+    out += [("pt5", e, "id names an unknown set") for e in items if set_of(e) not in (None, *known)]
+    if not (PT5 / "forms.json").exists():
+        return out
+    forms: dict[str, dict[str, list[str]]] = json.loads((PT5 / "forms.json").read_text())
+    used: Counter[str] = Counter()
+    for name, form in forms.items():
+        for sec, size in FORM_SIZES.items():
+            ids = form[sec]
+            used.update(ids)
+            where = f"form {name} {sec}"
+            if len(ids) != size or len(set(ids)) != size:
+                out.append(("pt5", where, f"{len(set(ids))} distinct items, needs {size}"))
+            missing = [e for e in ids if e not in items]
+            if missing:
+                out.append(("pt5", where, f"unknown items {missing}"))
+                continue
+            fresh = [e for e in ids if e.startswith(f"pt5-mock-{name.lower()}-")]
+            if len(fresh) != FORM_FRESH[sec]:
+                out.append(("pt5", where, f"{len(fresh)} mock-only items, needs {FORM_FRESH[sec]}"))
+            if any(set_of(e) is None and e not in fresh for e in ids):
+                out.append(("pt5", where, "uses an item that is neither in a set nor this form's own"))
+            want = "RW." if sec == "rw" else "MATH."
+            if any(not items[e].skill.startswith(want) for e in ids):
+                out.append(("pt5", where, "item from the wrong section"))
+            hard = sum(items[e].difficulty == "hard" for e in ids) / size
+            if not 0.6 <= hard <= 0.8:
+                out.append(("pt5", where, f"{hard:.0%} hard (needs about 70%)"))
+            if sec == "math":
+                spr = sum(getattr(items[e], "format", "mc") == "spr" for e in ids) / size
+                if not 0.2 <= spr <= 0.35:
+                    out.append(("pt5", where, f"{spr:.0%} SPR (needs about 25%)"))
+    out += [("pt5", e, f"used in {n} forms") for e, n in used.items() if n > 1]
+    mock = [e for e in items if e.startswith("pt5-mock-")]
+    out += [("pt5", e, "mock-only item in no form") for e in mock if e not in used]
+    return out
 
 
 async def check_db(fix: bool, leaves: set[str]) -> tuple[list[Failure], int]:
@@ -492,8 +571,12 @@ def main() -> None:
     leaves = {n["id"] for n in load_taxonomy() if n["level"] == "subskill"}
     failures, ids, per_skill = check_seed_files(leaves)
     counts = {
-        "rw": sum(1 for i in ids if i.startswith("rw-")),
-        "math": sum(1 for i in ids if i.startswith("m-")),
+        "rw": sum(
+            1 for i in ids if i.startswith(("rw-", "pt5-rw-")) or i.startswith("pt5-mock-") and "-rw-" in i
+        ),
+        "math": sum(
+            1 for i in ids if i.startswith(("m-", "pt5-m-")) or i.startswith("pt5-mock-") and "-m-" in i
+        ),
     }
     f, counts["import"] = check_imports(ids, leaves)
     failures += f

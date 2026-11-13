@@ -1,0 +1,979 @@
+[
+  {
+    "id": "pt5-rw-wic-016",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "a council's limited backing for bike lanes",
+    "fictional": true,
+    "passage": "The city council's response to planner Imani Osei's bike-lane proposal was far from enthusiastic. Members praised its goals but approved only a short trial route, and they asked for a full traffic study before any expansion. Osei described the vote as ______ support, which she hoped to turn into firm backing once the study's results were in.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "qualified",
+      "unconditional",
+      "wholehearted",
+      "lasting"
+    ],
+    "answer": "A",
+    "explanation": "The council supported the plan only partly and with conditions. 'Qualified' support means limited support with reservations.",
+    "steps": [
+      "Find the clue: 'far from enthusiastic', 'only a short trial route', and a study required first.",
+      "Predict a word: the support was limited or partial.",
+      "'Qualified' has a secondary meaning: limited, with conditions, as in 'qualified praise'.",
+      "'Unconditional' and 'wholehearted' are the opposite; 'lasting' is not supported."
+    ],
+    "strategy_tip": "When a text lists conditions or limits, look for a word that means 'partial', even if it looks like a common word.",
+    "rationales": {
+      "A": "Correct. 'Qualified' here means limited or given with conditions; the council approved only a trial and demanded a study first.",
+      "B": "Opposite of the clue: The council attached conditions (a trial route and a study), so its support was not unconditional.",
+      "C": "Opposite of the clue: The response was 'far from enthusiastic', so the support was not wholehearted.",
+      "D": "Not supported: Osei hoped to turn this support into firm backing later, so the text does not show it was lasting."
+    },
+    "traps": {
+      "B": "Opposite of the clue",
+      "C": "Opposite of the clue",
+      "D": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "qualified",
+        "pos": "adjective",
+        "meaning_en": "limited; given with conditions or reservations",
+        "meaning_ru": "ограниченный, с оговорками",
+        "example": "The coach gave the new training plan only qualified approval until she saw the first results."
+      },
+      {
+        "word": "unconditional",
+        "pos": "adjective",
+        "meaning_en": "complete and without any conditions",
+        "meaning_ru": "безоговорочный, безусловный",
+        "example": "The charity received an unconditional gift that it could spend on anything."
+      },
+      {
+        "word": "wholehearted",
+        "pos": "adjective",
+        "meaning_en": "completely sincere and enthusiastic",
+        "meaning_ru": "искренний, безоговорочный, от всей души",
+        "example": "The students gave the new library hours their wholehearted support."
+      },
+      {
+        "word": "lasting",
+        "pos": "adjective",
+        "meaning_en": "continuing for a long time",
+        "meaning_ru": "длительный, прочный",
+        "example": "The festival left a lasting impression on the small town."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-017",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "firebreaks in a grassland reserve",
+    "fictional": true,
+    "passage": "Before each dry season, rangers in the Morrow Hills Reserve clear wide strips of land through the grassland. These firebreaks contain no dry grass, so a fire that reaches one usually burns out at its edge. In this way, the strips help ______ the spread of wildfires across the reserve.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "monitor",
+      "predict",
+      "check",
+      "fuel"
+    ],
+    "answer": "C",
+    "explanation": "A fire that reaches a strip burns out, so the strips stop or hold back the spread. 'Check' means restrain.",
+    "steps": [
+      "Read the cause: a fire that reaches a firebreak 'usually burns out at its edge'.",
+      "Predict a word: the strips 'stop' or 'limit' the spread.",
+      "'Check' has a secondary meaning, to restrain, as in 'keep something in check'.",
+      "'Monitor' and 'predict' only watch or guess; 'fuel' is the opposite."
+    ],
+    "strategy_tip": "Predict your own word from the sentence before the blank, then match it to a choice.",
+    "rationales": {
+      "A": "Fits the topic but not the logic: Monitoring would only watch the spread, but the strips actually stop fires.",
+      "B": "Fits the topic but not the logic: Cleared land does not predict where fire goes; it makes fire burn out.",
+      "C": "Correct. 'Check' here means restrain or hold back; fires burn out when they reach the strips.",
+      "D": "Opposite of the clue: The strips contain no dry grass, so they do not feed fire; they stop it."
+    },
+    "traps": {
+      "A": "Fits the topic but not the logic",
+      "B": "Fits the topic but not the logic",
+      "D": "Opposite of the clue"
+    },
+    "vocab": [
+      {
+        "word": "monitor",
+        "pos": "verb",
+        "meaning_en": "to watch something carefully over time",
+        "meaning_ru": "отслеживать, наблюдать",
+        "example": "Nurses monitor the patient's heart rate every hour."
+      },
+      {
+        "word": "predict",
+        "pos": "verb",
+        "meaning_en": "to say what will happen in the future",
+        "meaning_ru": "предсказывать, прогнозировать",
+        "example": "The app predicts how long the bus will take to arrive."
+      },
+      {
+        "word": "check",
+        "pos": "verb",
+        "meaning_en": "to restrain something or stop it from growing",
+        "meaning_ru": "сдерживать, останавливать",
+        "example": "A new law helped check the rapid rise in housing prices."
+      },
+      {
+        "word": "fuel",
+        "pos": "verb",
+        "meaning_en": "to make something stronger or more intense",
+        "meaning_ru": "подпитывать, усиливать",
+        "example": "Rumors on social media fueled the students' worries about the exam."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-018",
+    "modeled_on": "bb-pt5-rw-a-q2",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "a school cooled by rising warm air",
+    "fictional": true,
+    "passage": "Warm air rises, a simple tendency that architect Lucia Brandt ______ in her design for a school in a hot, dry region. Tall towers above the classrooms draw warm air up and out, which pulls cooler air in through low windows. As a result, the rooms stay comfortable without electric fans or air conditioning.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "resisted",
+      "exploited",
+      "overlooked",
+      "questioned"
+    ],
+    "answer": "B",
+    "explanation": "Brandt's towers use the fact that warm air rises to cool the rooms. 'Exploited' here means made productive use of.",
+    "steps": [
+      "Read what the towers do: they use rising warm air to pull in cool air.",
+      "Predict a word: she 'used' or 'took advantage of' the tendency.",
+      "'Exploit' often means 'use unfairly', but its neutral meaning is 'make productive use of'.",
+      "She worked with the tendency, so 'resisted', 'overlooked', and 'questioned' do not fit."
+    ],
+    "strategy_tip": "'Exploit' is not always negative: with a natural force or a resource, it usually means 'use well'.",
+    "rationales": {
+      "A": "Opposite of the clue: The design works with rising air, not against it.",
+      "B": "Correct. 'Exploited' here means made productive use of; the towers depend on warm air rising.",
+      "C": "Opposite of the clue: The whole design is built on this tendency, so she did not ignore it.",
+      "D": "Not supported: Nothing suggests she doubted that warm air rises; her design relies on it."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "C": "Opposite of the clue",
+      "D": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "resisted",
+        "pos": "verb",
+        "meaning_en": "worked against something or tried to stop it",
+        "meaning_ru": "сопротивлялся, противостоял",
+        "example": "The old bridge resisted the strong river current for a century."
+      },
+      {
+        "word": "exploited",
+        "pos": "verb",
+        "meaning_en": "made productive use of something",
+        "meaning_ru": "использовал (с выгодой), задействовал",
+        "example": "The farmers exploited the steep hillside by building terraces for rice."
+      },
+      {
+        "word": "overlooked",
+        "pos": "verb",
+        "meaning_en": "failed to notice or consider something",
+        "meaning_ru": "упустил из виду, не заметил",
+        "example": "The editor overlooked a spelling mistake in the headline."
+      },
+      {
+        "word": "questioned",
+        "pos": "verb",
+        "meaning_en": "expressed doubt about something",
+        "meaning_ru": "ставил под сомнение",
+        "example": "Several scientists questioned the accuracy of the new survey."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-019",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "eye drops that halt vision loss",
+    "fictional": true,
+    "passage": "Doctors at the Halden Eye Clinic tested a new eye drop in patients whose vision was slowly getting worse because of a retinal disease. Rather than restoring vision that patients had already lost, the drops appeared to ______ the disease: in most patients, eyesight stayed exactly the same for the full two years of the study.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "undo",
+      "monitor",
+      "accelerate",
+      "arrest"
+    ],
+    "answer": "D",
+    "explanation": "Eyesight stopped getting worse but did not improve, so the drops stopped the disease. 'Arrest' means stop or halt.",
+    "steps": [
+      "Use the contrast: 'Rather than restoring vision' tells you the drops did not reverse the damage.",
+      "Use the colon: eyesight 'stayed exactly the same', so the decline stopped.",
+      "Predict 'stop' or 'halt'. 'Arrest' has this secondary meaning, as in 'arrest the decline'.",
+      "'Undo' is the reversal the text rules out; 'accelerate' is the opposite."
+    ],
+    "strategy_tip": "After 'rather than X', the answer is a different idea from X, so cross out choices that mean X.",
+    "rationales": {
+      "A": "Contradicts 'rather than': Undoing the disease would bring lost vision back, which the text says did not happen.",
+      "B": "Fits the topic but not the logic: The drops are a treatment, and the result was that the decline stopped, not that it was watched.",
+      "C": "Opposite of the clue: Eyesight stayed the same, so the disease did not speed up.",
+      "D": "Correct. 'Arrest' here means stop; the patients' eyesight stopped getting worse."
+    },
+    "traps": {
+      "A": "Contradicts 'rather than'",
+      "B": "Fits the topic but not the logic",
+      "C": "Opposite of the clue"
+    },
+    "vocab": [
+      {
+        "word": "undo",
+        "pos": "verb",
+        "meaning_en": "to reverse the effect of something",
+        "meaning_ru": "отменять, сводить на нет, обращать вспять",
+        "example": "One rainy week undid all the work we had done on the garden path."
+      },
+      {
+        "word": "monitor",
+        "pos": "verb",
+        "meaning_en": "to watch something carefully over time",
+        "meaning_ru": "отслеживать, наблюдать",
+        "example": "Engineers monitor the dam for small cracks."
+      },
+      {
+        "word": "accelerate",
+        "pos": "verb",
+        "meaning_en": "to make something happen faster",
+        "meaning_ru": "ускорять",
+        "example": "Extra sunlight accelerated the growth of the tomato plants."
+      },
+      {
+        "word": "arrest",
+        "pos": "verb",
+        "meaning_en": "to stop a process or make it stop developing",
+        "meaning_ru": "останавливать, приостанавливать (процесс)",
+        "example": "Regular painting arrested the rust on the old iron gate."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-020",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "medium",
+    "topic": "a rent forecast later confirmed",
+    "fictional": true,
+    "passage": "When economist Paolo Ferri first predicted that rents would rise in towns near new rail stations, critics dismissed his argument because his data came from a single town. But after other researchers found the same pattern in forty more towns, most reviewers agreed that Ferri's reasoning had been ______ all along.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "tentative",
+      "sound",
+      "original",
+      "weak"
+    ],
+    "answer": "B",
+    "explanation": "New data from forty towns confirmed Ferri's prediction, so his reasoning was reliable. 'Sound' means reliable and well founded.",
+    "steps": [
+      "Follow the contrast: critics doubted him at first, 'But' new data showed the same pattern.",
+      "Predict a word: his reasoning was 'correct' or 'reliable'.",
+      "'Sound' has a secondary meaning: reliable, as in 'a sound argument'.",
+      "'Weak' is what the critics thought; 'tentative' and 'original' are not about being confirmed."
+    ],
+    "strategy_tip": "When later evidence confirms an idea, look for a word meaning 'reliable' or 'correct'.",
+    "rationales": {
+      "A": "Not supported: The text says nothing about Ferri being unsure; the point is that his reasoning was confirmed.",
+      "B": "Correct. 'Sound' here means reliable and well founded; data from forty more towns confirmed it.",
+      "C": "Fits the topic but not the logic: The new data show his reasoning was right, not that it was new or unusual.",
+      "D": "Opposite of the clue: 'But' signals a change from the critics' view; the new data showed his reasoning was strong."
+    },
+    "traps": {
+      "A": "Not supported",
+      "C": "Fits the topic but not the logic",
+      "D": "Opposite of the clue"
+    },
+    "vocab": [
+      {
+        "word": "tentative",
+        "pos": "adjective",
+        "meaning_en": "not certain or final; done as a trial",
+        "meaning_ru": "предварительный, неуверенный",
+        "example": "We made a tentative plan to meet on Friday, but it may change."
+      },
+      {
+        "word": "sound",
+        "pos": "adjective",
+        "meaning_en": "reliable, sensible, and based on good reasons",
+        "meaning_ru": "обоснованный, здравый, надёжный",
+        "example": "Saving part of every paycheck is sound financial advice."
+      },
+      {
+        "word": "original",
+        "pos": "adjective",
+        "meaning_en": "new and different from what came before",
+        "meaning_ru": "оригинальный, новаторский",
+        "example": "The student's essay offered an original reading of the old poem."
+      },
+      {
+        "word": "weak",
+        "pos": "adjective",
+        "meaning_en": "not convincing; easy to argue against",
+        "meaning_ru": "слабый, неубедительный",
+        "example": "The lawyer's case was weak because she had no witnesses."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-021",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a rowing league penalizing light boats",
+    "fictional": true,
+    "passage": "The Halvard Rowing League had long warned teams that every boat must meet a minimum weight, but officials rarely acted when a boat came in light. This season, the league decided to ______ teams that broke the rule: any crew whose boat weighed in under the limit lost its race result and paid a fine.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "exempt",
+      "acknowledge",
+      "caution",
+      "sanction"
+    ],
+    "answer": "D",
+    "explanation": "Crews that broke the rule lost their results and paid fines, so the league now punishes them. 'Sanction' here means penalize.",
+    "steps": [
+      "Note the change: before, officials warned teams but 'rarely acted'.",
+      "Use the colon: rule-breakers lose their result and pay a fine.",
+      "Predict 'punish' or 'penalize'. 'Sanction' can mean this (it can also mean 'approve', so let the context decide).",
+      "'Caution' is the old policy of warning; 'exempt' and 'acknowledge' do not involve a penalty."
+    ],
+    "strategy_tip": "Some words have two opposite meanings (sanction = approve or punish); the clue sentence decides which one is meant.",
+    "rationales": {
+      "A": "Opposite of the clue: Exempting teams would free them from the rule, but the crews lost results and paid fines.",
+      "B": "Fits the topic but not the logic: Simply recognizing rule-breakers does not explain the lost results and fines.",
+      "C": "Too weak: The league had already been warning teams; the new policy adds real penalties, not just warnings.",
+      "D": "Correct. 'Sanction' here means penalize; rule-breaking crews lost their results and paid a fine."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "B": "Fits the topic but not the logic",
+      "C": "Too weak"
+    },
+    "vocab": [
+      {
+        "word": "exempt",
+        "pos": "verb",
+        "meaning_en": "to free someone from a rule or duty that others must follow",
+        "meaning_ru": "освобождать (от правила, обязанности)",
+        "example": "The school exempts students with doctor's notes from the swimming test."
+      },
+      {
+        "word": "acknowledge",
+        "pos": "verb",
+        "meaning_en": "to recognize or publicly notice someone or something",
+        "meaning_ru": "признавать, отмечать",
+        "example": "The mayor acknowledged the volunteers at the end of her speech."
+      },
+      {
+        "word": "caution",
+        "pos": "verb",
+        "meaning_en": "to warn someone about a possible problem",
+        "meaning_ru": "предупреждать, предостерегать",
+        "example": "The guide cautioned hikers about the slippery rocks near the waterfall."
+      },
+      {
+        "word": "sanction",
+        "pos": "verb",
+        "meaning_en": "to punish someone officially for breaking a rule",
+        "meaning_ru": "наказывать, применять санкции",
+        "example": "The referee's association sanctioned two coaches for arguing with officials."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-022",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a ceramicist's tiles rising in price",
+    "fictional": true,
+    "passage": "Collectors largely ignored the ceramic tiles of designer Rena Ostrow during her lifetime, and many sold for less than the cost of their materials. Since a major exhibition of her work in 2015, however, the tiles have ______ sharply: a set that sold for 40 dollars in 1990 recently fetched more than 9,000 dollars.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "depreciated",
+      "deteriorated",
+      "appreciated",
+      "circulated"
+    ],
+    "answer": "C",
+    "explanation": "The colon shows a huge rise in price. 'Appreciated' here means rose in value.",
+    "steps": [
+      "Use 'however': the tiles' situation changed from being ignored and cheap.",
+      "Use the colon: a 40-dollar set now sells for over 9,000 dollars.",
+      "Predict 'rose in value'. 'Appreciate' has this financial meaning, not only 'be thankful'.",
+      "'Depreciated' is the opposite; 'deteriorated' and 'circulated' are not about price."
+    ],
+    "strategy_tip": "Read the example after a colon: it shows exactly what the blank word must mean.",
+    "rationales": {
+      "A": "Opposite of the clue: Depreciating means losing value, but the price went from 40 to over 9,000 dollars.",
+      "B": "Fits the topic but not the logic: The text is about price, not about the tiles' physical condition getting worse.",
+      "C": "Correct. 'Appreciated' here means rose in value; the price grew from 40 to more than 9,000 dollars.",
+      "D": "Fits the topic but not the logic: The colon gives a price change, not evidence that the tiles moved between owners."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "B": "Fits the topic but not the logic",
+      "D": "Fits the topic but not the logic"
+    },
+    "vocab": [
+      {
+        "word": "depreciated",
+        "pos": "verb",
+        "meaning_en": "lost value over time",
+        "meaning_ru": "обесценился, подешевел",
+        "example": "The new car depreciated quickly in its first two years."
+      },
+      {
+        "word": "deteriorated",
+        "pos": "verb",
+        "meaning_en": "became worse in condition or quality",
+        "meaning_ru": "ухудшился, пришёл в упадок",
+        "example": "The old road deteriorated after years of heavy trucks."
+      },
+      {
+        "word": "appreciated",
+        "pos": "verb",
+        "meaning_en": "rose in value or price",
+        "meaning_ru": "подорожал, вырос в цене",
+        "example": "Land near the new station appreciated faster than land elsewhere in the city."
+      },
+      {
+        "word": "circulated",
+        "pos": "verb",
+        "meaning_en": "passed from person to person or place to place",
+        "meaning_ru": "циркулировал, переходил из рук в руки",
+        "example": "Copies of the letter circulated among the villagers."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-023",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "light tracking collars for young foxes",
+    "fictional": true,
+    "passage": "Wildlife biologist Tomas Reyes wanted to fit tracking collars on young foxes, but he worried that the extra weight might ______ the animals' ability to hunt. A heavy collar could slow a fox enough that it would miss its prey, so Reyes designed a collar that weighs less than 2 percent of a young fox's body mass.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "compromise",
+      "demonstrate",
+      "enhance",
+      "reveal"
+    ],
+    "answer": "A",
+    "explanation": "Reyes feared the weight would harm the foxes' hunting. 'Compromise' here means weaken or put at risk.",
+    "steps": [
+      "Read the worry: a heavy collar could slow a fox so that it misses prey.",
+      "Predict a word: the weight might 'weaken' or 'harm' the ability to hunt.",
+      "'Compromise' usually means 'an agreement', but as a verb it can mean 'weaken' or 'endanger'.",
+      "'Enhance' is the opposite; 'demonstrate' and 'reveal' would show the ability, not harm it."
+    ],
+    "strategy_tip": "If the most common meaning of a word makes no sense in the sentence, test its secondary meaning before you reject it.",
+    "rationales": {
+      "A": "Correct. 'Compromise' here means weaken or put at risk; extra weight could make a fox miss its prey.",
+      "B": "Fits the topic but not the logic: Reyes was worried about harm, and a collar's weight would not show how well a fox hunts.",
+      "C": "Opposite of the clue: Extra weight that slows a fox would make hunting harder, not better.",
+      "D": "Fits the topic but not the logic: The worry is that the weight would damage hunting, not make it visible."
+    },
+    "traps": {
+      "B": "Fits the topic but not the logic",
+      "C": "Opposite of the clue",
+      "D": "Fits the topic but not the logic"
+    },
+    "vocab": [
+      {
+        "word": "compromise",
+        "pos": "verb",
+        "meaning_en": "to weaken something or put it at risk",
+        "meaning_ru": "ставить под угрозу, ослаблять",
+        "example": "Skipping sleep before a match can compromise a player's reaction time."
+      },
+      {
+        "word": "demonstrate",
+        "pos": "verb",
+        "meaning_en": "to show something clearly",
+        "meaning_ru": "демонстрировать, показывать",
+        "example": "The final game demonstrated how much the team had improved."
+      },
+      {
+        "word": "enhance",
+        "pos": "verb",
+        "meaning_en": "to improve something or make it stronger",
+        "meaning_ru": "улучшать, усиливать",
+        "example": "Good lighting can enhance the colors in a photograph."
+      },
+      {
+        "word": "reveal",
+        "pos": "verb",
+        "meaning_en": "to make something known or visible",
+        "meaning_ru": "раскрывать, обнаруживать",
+        "example": "The X-ray revealed a small crack in the bone."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-024",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a quiet new museum director",
+    "fictional": true,
+    "passage": "Unlike her outspoken predecessor, the new director of the Varna Art Museum, Hana Lindqvist, is known for her ______ manner: she rarely gives interviews, speaks only briefly at public events, and keeps her opinions about rival museums to herself.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "candid",
+      "exuberant",
+      "eccentric",
+      "reserved"
+    ],
+    "answer": "D",
+    "explanation": "Lindqvist holds back her words and opinions, unlike the outspoken director before her. 'Reserved' means holding back feelings and opinions.",
+    "steps": [
+      "Use 'Unlike her outspoken predecessor': she is the opposite of outspoken.",
+      "Use the colon: few interviews, brief speeches, opinions kept to herself.",
+      "Predict 'quiet' or 'holding back'. 'Reserved' has this meaning, not only 'booked in advance'.",
+      "'Candid' and 'exuberant' describe an open, outspoken person; 'eccentric' means strange, which the examples do not show."
+    ],
+    "strategy_tip": "'Unlike X' tells you the blank means the opposite of X; predict that opposite first.",
+    "rationales": {
+      "A": "Opposite of the clue: A candid person says openly what she thinks, but Lindqvist keeps her opinions to herself.",
+      "B": "Opposite of the clue: An exuberant person is lively and full of energy, unlike someone who speaks only briefly.",
+      "C": "Not supported: The examples show quietness, not unusual or strange behavior.",
+      "D": "Correct. 'Reserved' here means holding back feelings and opinions; she rarely speaks in public."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "B": "Opposite of the clue",
+      "C": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "candid",
+        "pos": "adjective",
+        "meaning_en": "open and honest in saying what one thinks",
+        "meaning_ru": "откровенный, прямой",
+        "example": "In a candid interview, the singer admitted she was nervous on stage."
+      },
+      {
+        "word": "exuberant",
+        "pos": "adjective",
+        "meaning_en": "full of energy, excitement, and happiness",
+        "meaning_ru": "жизнерадостный, полный энергии",
+        "example": "The exuberant fans sang all the way home after the win."
+      },
+      {
+        "word": "eccentric",
+        "pos": "adjective",
+        "meaning_en": "strange or unusual in behavior",
+        "meaning_ru": "эксцентричный, чудаковатый",
+        "example": "The eccentric inventor wore two different shoes every day."
+      },
+      {
+        "word": "reserved",
+        "pos": "adjective",
+        "meaning_en": "slow to show feelings or share opinions; restrained",
+        "meaning_ru": "сдержанный, замкнутый",
+        "example": "My reserved cousin listened quietly while everyone else told stories."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-025",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a card player's tapping fingers",
+    "fictional": true,
+    "passage": "Card player Ilya Marsh trained for months to keep a calm face during games. Yet a camera study of his matches found that his hands still ______ his excitement: whenever he held strong cards, his fingers tapped the table slightly faster than usual, a signal that careful opponents could learn to read.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "concealed",
+      "betrayed",
+      "exaggerated",
+      "soothed"
+    ],
+    "answer": "B",
+    "explanation": "Despite his training, his fingers showed his excitement without his wanting it. 'Betrayed' here means revealed unintentionally.",
+    "steps": [
+      "Use 'Yet': his training to hide his feelings did not fully work.",
+      "Use the colon: his tapping was a signal opponents could read.",
+      "Predict 'revealed by accident'. 'Betray' has this meaning, not only 'be disloyal'.",
+      "'Concealed' is what he wanted, not what happened; 'exaggerated' is too strong for 'slightly faster'."
+    ],
+    "strategy_tip": "'Yet' after a goal often means the goal failed; pick the word that shows the failure.",
+    "rationales": {
+      "A": "Contradicts 'yet': Hiding his excitement was his goal; 'Yet' and the readable signal show his hands did the opposite.",
+      "B": "Correct. 'Betrayed' here means revealed without meaning to; his tapping showed opponents he was excited.",
+      "C": "Too strong: His fingers tapped only 'slightly faster', which reveals excitement but does not make it look bigger.",
+      "D": "Not supported: Nothing says the tapping calmed his excitement; it only made it visible."
+    },
+    "traps": {
+      "A": "Contradicts 'yet'",
+      "C": "Too strong",
+      "D": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "concealed",
+        "pos": "verb",
+        "meaning_en": "hid something so that others could not see or know it",
+        "meaning_ru": "скрывал, прятал",
+        "example": "She concealed the birthday present under her desk."
+      },
+      {
+        "word": "betrayed",
+        "pos": "verb",
+        "meaning_en": "revealed something without meaning to",
+        "meaning_ru": "выдал (невольно)",
+        "example": "His shaking voice betrayed how nervous he was before the speech."
+      },
+      {
+        "word": "exaggerated",
+        "pos": "verb",
+        "meaning_en": "made something seem larger or stronger than it really was",
+        "meaning_ru": "преувеличивал",
+        "example": "The advertisement exaggerated how fast the new phone could charge."
+      },
+      {
+        "word": "soothed",
+        "pos": "verb",
+        "meaning_en": "made a feeling calmer or less intense",
+        "meaning_ru": "успокаивал, унимал",
+        "example": "Soft music soothed the crying baby."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-026",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a once-ignored landscape painter's prices",
+    "fictional": true,
+    "passage": "Although painter Joaquín Vela sold almost nothing during his lifetime, his landscapes now ______ some of the highest prices paid for the work of any artist from his region, and major museums compete to borrow them for exhibitions.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "order",
+      "reduce",
+      "command",
+      "estimate"
+    ],
+    "answer": "C",
+    "explanation": "Vela's paintings now sell for very high prices. To 'command' a price means to receive it because the thing is so valued.",
+    "steps": [
+      "Use 'Although': once he sold almost nothing; now his work is very valuable.",
+      "Predict 'receive' or 'bring in' high prices.",
+      "'Command' usually means 'give orders', but 'command a price' or 'command respect' means 'deserve and receive'.",
+      "Paintings cannot 'order' or 'estimate' anything, and 'reduce' contradicts 'highest prices'."
+    ],
+    "strategy_tip": "Check who does the action: paintings cannot give orders or make estimates, so a choice that needs a human subject is wrong.",
+    "rationales": {
+      "A": "First-meaning trap: 'Order' is a synonym of the common meaning of 'command', but paintings cannot request or give orders for prices.",
+      "B": "Opposite of the clue: The text says the prices are among the highest, so the paintings do not lower them.",
+      "C": "Correct. 'Command' here means receive or deserve; the landscapes now bring some of the highest prices.",
+      "D": "Fits the topic but not the logic: Experts estimate prices; the paintings themselves cannot estimate anything."
+    },
+    "traps": {
+      "A": "First-meaning trap",
+      "B": "Opposite of the clue",
+      "D": "Fits the topic but not the logic"
+    },
+    "vocab": [
+      {
+        "word": "order",
+        "pos": "verb",
+        "meaning_en": "to tell someone to do something, or to ask for something to be supplied",
+        "meaning_ru": "приказывать; заказывать",
+        "example": "We ordered two pizzas for the study group."
+      },
+      {
+        "word": "reduce",
+        "pos": "verb",
+        "meaning_en": "to make something smaller or lower",
+        "meaning_ru": "снижать, уменьшать",
+        "example": "The shop reduced its prices after the holiday season."
+      },
+      {
+        "word": "command",
+        "pos": "verb",
+        "meaning_en": "to deserve and receive something, such as a high price or respect",
+        "meaning_ru": "заслуживать, получать (высокую цену, уважение)",
+        "example": "Fresh fish from the northern coast commands high prices in city markets."
+      },
+      {
+        "word": "estimate",
+        "pos": "verb",
+        "meaning_en": "to guess the size, cost, or value of something",
+        "meaning_ru": "оценивать (приблизительно)",
+        "example": "The builder estimated that the repairs would take three weeks."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-027",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "pottery hinting at ancient island trade",
+    "fictional": true,
+    "passage": "For decades, historians dismissed the idea that the ancient port of Velmar traded directly with distant islands, since no written records mention such trade. The recent discovery of island-made pottery in Velmar's oldest harbor layers has led even skeptical scholars to ______ the possibility, although most say they need more evidence before they will accept it.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "reject",
+      "confirm",
+      "overlook",
+      "entertain"
+    ],
+    "answer": "D",
+    "explanation": "Scholars now take the idea seriously but have not accepted it yet. 'Entertain' here means consider.",
+    "steps": [
+      "Note the change: historians once dismissed the idea, but new pottery changed their view.",
+      "Note the limit: 'although most say they need more evidence before they will accept it'.",
+      "Predict a middle word: 'consider' (more than dismiss, less than accept).",
+      "'Entertain' an idea means consider it seriously. 'Confirm' is too strong; 'reject' and 'overlook' are the old view."
+    ],
+    "strategy_tip": "When a text gives a limit ('though they have not accepted it'), choose a middle-strength word, not the strongest one.",
+    "rationales": {
+      "A": "Opposite of the clue: The discovery moved skeptics away from dismissing the idea, so they did not reject it.",
+      "B": "Too strong: Most scholars say they need more evidence before they accept the idea, so they have not confirmed it.",
+      "C": "Opposite of the clue: The new pottery made scholars pay attention to the idea, not ignore it.",
+      "D": "Correct. 'Entertain' here means consider seriously; scholars now consider the idea but have not accepted it."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "B": "Too strong",
+      "C": "Opposite of the clue"
+    },
+    "vocab": [
+      {
+        "word": "reject",
+        "pos": "verb",
+        "meaning_en": "to refuse to accept or believe something",
+        "meaning_ru": "отвергать, отклонять",
+        "example": "The committee rejected the plan because it cost too much."
+      },
+      {
+        "word": "confirm",
+        "pos": "verb",
+        "meaning_en": "to show or state that something is definitely true",
+        "meaning_ru": "подтверждать",
+        "example": "A blood test confirmed that the patient had the flu."
+      },
+      {
+        "word": "overlook",
+        "pos": "verb",
+        "meaning_en": "to fail to notice or consider something",
+        "meaning_ru": "упускать из виду, не замечать",
+        "example": "It is easy to overlook small costs like bank fees."
+      },
+      {
+        "word": "entertain",
+        "pos": "verb",
+        "meaning_en": "to consider an idea or possibility seriously",
+        "meaning_ru": "допускать, рассматривать (идею, возможность)",
+        "example": "The manager refused to entertain the idea of a four-day work week."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-028",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "energy fading at a twelve-hour dance",
+    "fictional": true,
+    "passage": "During the first hour of the town of Brennholt's twelve-hour charity dance, nearly every dancer moved with energy. By the eighth hour, however, the dancers' enthusiasm had begun to ______, so organizers brought in a live band to lift their spirits for the final stretch.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "spread",
+      "flag",
+      "peak",
+      "return"
+    ],
+    "answer": "B",
+    "explanation": "The dancers lost energy, so organizers needed a band to lift their spirits. 'Flag' here means become weaker or tired.",
+    "steps": [
+      "Use 'however': the eighth hour is different from the energetic first hour.",
+      "Use the result: organizers had to 'lift their spirits', so enthusiasm was dropping.",
+      "Predict 'weaken' or 'fade'. As a verb, 'flag' means lose energy, not only 'a piece of cloth'.",
+      "'Peak' and 'spread' mean more enthusiasm; 'return' needs it to have disappeared first."
+    ],
+    "strategy_tip": "Look at what happens after the blank: a fix (a band to lift spirits) tells you the blank is a problem.",
+    "rationales": {
+      "A": "Opposite of the clue: If enthusiasm were spreading, organizers would not need a band to lift spirits.",
+      "B": "Correct. 'Flag' here means become weaker; the dancers were tired and needed their spirits lifted.",
+      "C": "Opposite of the clue: Organizers needed to lift the dancers' spirits, so enthusiasm was falling, not reaching its highest point.",
+      "D": "Not supported: Enthusiasm was high in the first hour, so nothing had left that could come back."
+    },
+    "traps": {
+      "A": "Opposite of the clue",
+      "C": "Opposite of the clue",
+      "D": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "spread",
+        "pos": "verb",
+        "meaning_en": "to reach more people or a larger area",
+        "meaning_ru": "распространяться",
+        "example": "News of the free concert spread quickly across campus."
+      },
+      {
+        "word": "flag",
+        "pos": "verb",
+        "meaning_en": "to become tired, weaker, or less interested",
+        "meaning_ru": "ослабевать, угасать (об энергии, интересе)",
+        "example": "The hikers' energy began to flag on the last steep hill."
+      },
+      {
+        "word": "peak",
+        "pos": "verb",
+        "meaning_en": "to reach the highest point",
+        "meaning_ru": "достигать пика",
+        "example": "Traffic usually peaks at about eight in the morning."
+      },
+      {
+        "word": "return",
+        "pos": "verb",
+        "meaning_en": "to come back after being gone",
+        "meaning_ru": "возвращаться",
+        "example": "After the storm, the birds returned to the garden."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-029",
+    "modeled_on": "bb-pt5-rw-b-q5",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "farm diaries and weather folklore",
+    "fictional": true,
+    "passage": "Recently discovered diaries undermine the long-held claim that nineteenth-century farmers in the Ostra Valley rarely ______ weather folklore. The diaries show that the farmers wrote down local sayings about cloud shapes and bird behavior and timed their planting to match them, suggesting that such sayings played a serious role in farm life.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "doubted",
+      "invented",
+      "credited",
+      "ridiculed"
+    ],
+    "answer": "C",
+    "explanation": "The diaries show the farmers believed folklore, and that evidence undermines the old claim. So the old claim was that they rarely believed it: 'credited'.",
+    "steps": [
+      "Find what the evidence shows: the farmers believed and used weather sayings.",
+      "The evidence 'undermines' the claim, so the claim must say the opposite: the farmers did NOT believe folklore.",
+      "The claim already has 'rarely', so the blank must mean 'believed'. 'Credit' can mean believe, not only 'praise' or 'money'.",
+      "'Rarely doubted' and 'rarely ridiculed' both mean the farmers trusted folklore, which the diaries support, not undermine."
+    ],
+    "strategy_tip": "With 'undermined the claim that ___', write the claim as the OPPOSITE of the evidence, and watch for extra negatives like 'rarely'.",
+    "rationales": {
+      "A": "Double negative: 'Rarely doubted' means the farmers trusted folklore, so the diaries would support this claim, not undermine it.",
+      "B": "Not supported: The diaries show the farmers used local sayings, not whether they made them up.",
+      "C": "Correct. 'Credited' here means believed; the diaries undermine the claim that farmers rarely believed folklore by showing they planted by it.",
+      "D": "Double negative: 'Rarely ridiculed' means the farmers respected folklore, which matches the diaries instead of undermining the claim."
+    },
+    "traps": {
+      "A": "Double negative",
+      "B": "Not supported",
+      "D": "Double negative"
+    },
+    "vocab": [
+      {
+        "word": "doubted",
+        "pos": "verb",
+        "meaning_en": "felt unsure whether something was true",
+        "meaning_ru": "сомневался",
+        "example": "At first, the coach doubted the new player's story about his injury."
+      },
+      {
+        "word": "invented",
+        "pos": "verb",
+        "meaning_en": "created something new, such as a story or a tool",
+        "meaning_ru": "придумал, изобрёл",
+        "example": "The children invented a game with a ball and three buckets."
+      },
+      {
+        "word": "credited",
+        "pos": "verb",
+        "meaning_en": "believed that something was true",
+        "meaning_ru": "верил, принимал на веру",
+        "example": "Few sailors credited the rumor that the island had sunk."
+      },
+      {
+        "word": "ridiculed",
+        "pos": "verb",
+        "meaning_en": "laughed at something as silly or worthless",
+        "meaning_ru": "высмеивал",
+        "example": "Some reviewers ridiculed the film's strange ending."
+      }
+    ]
+  },
+  {
+    "id": "pt5-rw-wic-030",
+    "skill": "RW.CAS.WIC.FILL",
+    "difficulty": "hard",
+    "topic": "a poet's plain new style",
+    "fictional": true,
+    "passage": "Readers who expect the elaborate imagery of poet Lena Marovic's earlier collections may be surprised by her new book. Far from ornate, its style is ______: most poems are under ten lines long, use plain everyday words, and contain almost no adjectives.",
+    "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "spare",
+      "intricate",
+      "rich",
+      "playful"
+    ],
+    "answer": "A",
+    "explanation": "The poems are short, plain, and almost without adjectives. 'Spare' here means plain and without extra decoration.",
+    "steps": [
+      "Use 'Far from ornate': the style is the opposite of decorated.",
+      "Use the colon: short poems, plain words, almost no adjectives.",
+      "Predict 'plain' or 'simple'. 'Spare' has this meaning, not only 'extra', as in 'a spare key'.",
+      "'Intricate' and 'rich' mean the ornate style the text rules out; 'playful' is not supported."
+    ],
+    "strategy_tip": "With 'far from X', predict the opposite of X before you look at the choices.",
+    "rationales": {
+      "A": "Correct. 'Spare' here means plain and without decoration; the poems are short and use almost no adjectives.",
+      "B": "Opposite of the clue: An intricate style is complex and detailed, close to the 'ornate' style the text rules out.",
+      "C": "Opposite of the clue: A rich style is full of imagery, but the new poems use plain words and few adjectives.",
+      "D": "Not supported: The text describes the poems as short and plain, not as funny or light."
+    },
+    "traps": {
+      "B": "Opposite of the clue",
+      "C": "Opposite of the clue",
+      "D": "Not supported"
+    },
+    "vocab": [
+      {
+        "word": "spare",
+        "pos": "adjective",
+        "meaning_en": "plain and simple, without extra decoration or detail",
+        "meaning_ru": "скупой, лаконичный, без излишеств",
+        "example": "The kitchen has a spare design: white walls, one table, and two chairs."
+      },
+      {
+        "word": "intricate",
+        "pos": "adjective",
+        "meaning_en": "having many small, complex parts or details",
+        "meaning_ru": "замысловатый, сложный",
+        "example": "The carpet has an intricate pattern of tiny flowers."
+      },
+      {
+        "word": "rich",
+        "pos": "adjective",
+        "meaning_en": "full of interesting details, images, or ideas",
+        "meaning_ru": "насыщенный, богатый (деталями, образами)",
+        "example": "The novel paints a rich picture of life in a fishing village."
+      },
+      {
+        "word": "playful",
+        "pos": "adjective",
+        "meaning_en": "light and funny, not serious",
+        "meaning_ru": "игривый, шутливый",
+        "example": "The children's book is written in a playful tone."
+      }
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+ {
+  "id": "pt5-m-circ-001",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $(h, k)$, where $h$ and $k$ are constants. The point $(h + 2, k + \\sqrt{45})$ lies on the circle. What is the radius of the circle?",
+  "choices": [
+   "$\\sqrt{47}$",
+   "$7$",
+   "$2 + \\sqrt{45}$",
+   "$49$"
+  ],
+  "values": [
+   "sqrt(47)",
+   "7",
+   "2 + sqrt(45)",
+   "49"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Forgot to square the 2: $2 + 45 = 47$. The horizontal distance is 2, so it adds $2^2 = 4$.",
+   "B": "Correct. $r^2 = 2^2 + (\\sqrt{45})^2 = 4 + 45 = 49$, so $r = 7$.",
+   "C": "Added the two distances. The radius is the hypotenuse, so you need $\\sqrt{2^2 + 45}$.",
+   "D": "That's $r^2$. The question asks for $r$, so take the square root: $7$."
+  },
+  "check": "sqrt(2**2 + sqrt(45)**2)",
+  "explanation": [
+   "The radius is the distance from the center $(h, k)$ to the point.",
+   "Horizontal distance: $2$. Vertical distance: $\\sqrt{45}$.",
+   "Pythagoras: $r^2 = 2^2 + (\\sqrt{45})^2 = 4 + 45 = 49$.",
+   "So $r = 7$. The letters $h$ and $k$ cancel out; you never need their values."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-002",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "In the $xy$-plane, a circle has the equation $(x - 3)^2 + (y + 1)^2 = 50$ and center $C$. Points $A$ and $B$ lie on the circle, and angle $ACB$ is a right angle. What is the length of $\\overline{AB}$?",
+  "check": "sqrt(2*50)",
+  "spr_answers": [
+   "10"
+  ],
+  "spr_entries": [
+   "10"
+  ],
+  "explanation": [
+   "The equation gives $r^2 = 50$, so $CA = CB = \\sqrt{50}$.",
+   "Triangle $ACB$ has a right angle at $C$, and both legs are radii.",
+   "$AB^2 = r^2 + r^2 = 50 + 50 = 100$.",
+   "$AB = 10$. Short rule: a chord under a right central angle is $r\\sqrt{2}$."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-003",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $C(h, k)$, where $h$ and $k$ are constants. Point $A(h + 3, k + \\sqrt{71})$ and point $B$ lie on the circle, and angle $ACB$ is a right angle. What is the length of $\\overline{AB}$?",
+  "choices": [
+   "$\\sqrt{80}$",
+   "$2\\sqrt{71}$",
+   "$\\sqrt{142}$",
+   "$4\\sqrt{10}$"
+  ],
+  "values": [
+   "sqrt(80)",
+   "2*sqrt(71)",
+   "sqrt(142)",
+   "4*sqrt(10)"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "That's the radius $CA$. $\\overline{AB}$ is the hypotenuse of a right triangle with two radii as legs.",
+   "B": "Doubled the vertical distance as if $A$ and $B$ were at opposite ends of a diameter. A right angle at $C$ is not a straight line.",
+   "C": "Used only the vertical distance as the radius. The radius also includes the horizontal distance 3: $r^2 = 9 + 71$.",
+   "D": "Correct. $r^2 = 3^2 + 71 = 80$, and $AB = r\\sqrt{2} = \\sqrt{160} = 4\\sqrt{10}$."
+  },
+  "check": "sqrt(2*(3**2 + 71))",
+  "explanation": [
+   "Find $r^2$ from $C$ to $A$: $r^2 = 3^2 + (\\sqrt{71})^2 = 9 + 71 = 80$.",
+   "Angle $ACB$ is right, and $CA = CB = r$, so triangle $ACB$ is a right isosceles triangle.",
+   "$AB^2 = r^2 + r^2 = 160$.",
+   "$AB = \\sqrt{160} = 4\\sqrt{10}$. Check: $AB$ must be longer than $r = \\sqrt{80}$ and shorter than the diameter."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-004",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the $xy$-plane, the graph of $x^2 + y^2 - 7x + y = \\frac{11}{2}$ is a circle with center $C$. Points $P$ and $R$ lie on the circle, and angle $PCR$ measures $90^\\circ$. What is the length of $\\overline{PR}$?",
+  "check": "sqrt(2*(Rational(7, 2)**2 + Rational(1, 2)**2 + Rational(11, 2)))",
+  "spr_answers": [
+   "6"
+  ],
+  "spr_entries": [
+   "6"
+  ],
+  "explanation": [
+   "Complete the square: half of $-7$ is $-\\frac{7}{2}$, half of $1$ is $\\frac{1}{2}$. Add $\\frac{49}{4}$ and $\\frac{1}{4}$ to both sides.",
+   "$(x - \\frac{7}{2})^2 + (y + \\frac{1}{2})^2 = \\frac{11}{2} + \\frac{49}{4} + \\frac{1}{4} = \\frac{22 + 49 + 1}{4} = 18$.",
+   "So $r^2 = 18$. The right angle at $C$ gives $PR^2 = r^2 + r^2 = 36$.",
+   "$PR = 6$.",
+   "Desmos way: graph the equation, click the leftmost and rightmost points; they are about $8.49 = 6\\sqrt{2}$ apart, so $r = 3\\sqrt{2}$ and $PR = r\\sqrt{2} = 6$."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-005",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $(h, k)$, where $h$ and $k$ are positive constants. The point $(h - 4, k + \\sqrt{20})$ lies on the circle. Which equation represents the circle?",
+  "choices": [
+   "$(x - h)^2 + (y - k)^2 = 36$",
+   "$(x + h)^2 + (y + k)^2 = 36$",
+   "$(x - h)^2 + (y - k)^2 = 6$",
+   "$(x - h)^2 + (y - k)^2 = 24$"
+  ],
+  "values": [
+   "Eq((x - h)**2 + (y - k)**2, 36)",
+   "Eq((x + h)**2 + (y + k)**2, 36)",
+   "Eq((x - h)**2 + (y - k)**2, 6)",
+   "Eq((x - h)**2 + (y - k)**2, 24)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $r^2 = (-4)^2 + (\\sqrt{20})^2 = 16 + 20 = 36$, and the center $(h, k)$ appears as $(x - h)$ and $(y - k)$.",
+   "B": "Sign error: a center $(h, k)$ gives $(x - h)$ and $(y - k)$, not $(x + h)$ and $(y + k)$.",
+   "C": "The right side must be $r^2 = 36$, not $r = 6$.",
+   "D": "Forgot to square the $-4$: $4 + 20 = 24$. The horizontal part adds $(-4)^2 = 16$."
+  },
+  "check": "Eq((x - h)**2 + (y - k)**2, (-4)**2 + sqrt(20)**2)",
+  "explanation": [
+   "A circle with center $(h, k)$ is $(x - h)^2 + (y - k)^2 = r^2$.",
+   "From the center to the point: horizontal change $-4$, vertical change $\\sqrt{20}$.",
+   "$r^2 = (-4)^2 + (\\sqrt{20})^2 = 16 + 20 = 36$.",
+   "The equation is $(x - h)^2 + (y - k)^2 = 36$. The minus sign in $h - 4$ disappears when you square it."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-006",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.RTT.PYTH",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $C(h, k)$, where $h$ and $k$ are constants. Point $A(h + 5, k + t)$, where $t > 0$, and point $B$ lie on the circle. Angle $ACB$ is a right angle, and $AB = 13\\sqrt{2}$. What is the value of $t$?",
+  "choices": [
+   "$8$",
+   "$\\sqrt{313}$",
+   "$12$",
+   "$\\sqrt{194}$"
+  ],
+  "values": [
+   "8",
+   "sqrt(313)",
+   "12",
+   "sqrt(194)"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Subtracted lengths: $13 - 5 = 8$. Pythagoras subtracts squares: $169 - 25$.",
+   "B": "Used $AB = 13\\sqrt{2}$ as the radius. The radius is $AB / \\sqrt{2} = 13$.",
+   "C": "Correct. $r = AB / \\sqrt{2} = 13$, and $5^2 + t^2 = 13^2$ gives $t^2 = 144$, so $t = 12$.",
+   "D": "Added the squares: $169 + 25 = 194$. $r$ is the hypotenuse, so $t^2 = r^2 - 5^2$."
+  },
+  "check": "sqrt((13*sqrt(2)/sqrt(2))**2 - 5**2)",
+  "explanation": [
+   "Angle $ACB$ is right and $CA = CB = r$, so $AB = r\\sqrt{2}$.",
+   "$r\\sqrt{2} = 13\\sqrt{2}$, so $r = 13$.",
+   "From $C$ to $A$: legs $5$ and $t$, hypotenuse $13$. $5^2 + t^2 = 169$.",
+   "$t^2 = 144$, and $t > 0$, so $t = 12$."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-007",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.EQN",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, the graph of the equation $x^2 + y^2 + x - 3y = \\frac{3}{2}$ is a circle. Which choice gives the center and the radius of the circle?",
+  "choices": [
+   "Center $(\\frac{1}{2}, -\\frac{3}{2})$, radius $2$",
+   "Center $(-\\frac{1}{2}, \\frac{3}{2})$, radius $2$",
+   "Center $(-\\frac{1}{2}, \\frac{3}{2})$, radius $\\sqrt{\\frac{3}{2}}$",
+   "Center $(-1, 3)$, radius $\\sqrt{\\frac{23}{2}}$"
+  ],
+  "values": [
+   "(1/2, -3/2, 2)",
+   "(-1/2, 3/2, 2)",
+   "(-1/2, 3/2, sqrt(3/2))",
+   "(-1, 3, sqrt(23/2))"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Sign error: $(x + \\frac{1}{2})^2$ means $x = -\\frac{1}{2}$, and $(y - \\frac{3}{2})^2$ means $y = \\frac{3}{2}$.",
+   "B": "Correct. $(x + \\frac{1}{2})^2 + (y - \\frac{3}{2})^2 = \\frac{3}{2} + \\frac{1}{4} + \\frac{9}{4} = 4$, so $r = 2$.",
+   "C": "Used the right side as $r^2$ before completing the square. You must add $\\frac{1}{4}$ and $\\frac{9}{4}$ to it first.",
+   "D": "Did not halve the coefficients: the center uses half of $1$ and half of $-3$, and you add their squares, $\\frac{1}{4}$ and $\\frac{9}{4}$."
+  },
+  "check": "(-Rational(1, 2), Rational(3, 2), sqrt(Rational(3, 2) + Rational(1, 4) + Rational(9, 4)))",
+  "explanation": [
+   "Group: $(x^2 + x) + (y^2 - 3y) = \\frac{3}{2}$.",
+   "Half of $1$ is $\\frac{1}{2}$, square $\\frac{1}{4}$. Half of $-3$ is $-\\frac{3}{2}$, square $\\frac{9}{4}$. Add both to each side.",
+   "$(x + \\frac{1}{2})^2 + (y - \\frac{3}{2})^2 = \\frac{6}{4} + \\frac{1}{4} + \\frac{9}{4} = 4$.",
+   "Center $(-\\frac{1}{2}, \\frac{3}{2})$, radius $\\sqrt{4} = 2$.",
+   "Desmos way: graph the equation; the top point is $(-0.5, 3.5)$ and the bottom point is $(-0.5, -0.5)$, so the diameter is 4."
+  ]
+ },
+ {
+  "id": "pt5-m-circ-008",
+  "modeled_on": "bb-pt5-m-q20",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the $xy$-plane, a circle has center $C(h, k)$, where $h$ and $k$ are constants. Point $A(h - \\sqrt{7}, k + 3)$ and point $B$ lie on the circle, and angle $ACB$ is a right angle. What is the area of triangle $ACB$?",
+  "choices": [
+   "$16$",
+   "$4\\sqrt{2}$",
+   "$\\frac{3\\sqrt{7}}{2}$",
+   "$8$"
+  ],
+  "values": [
+   "16",
+   "4*sqrt(2)",
+   "3*sqrt(7)/2",
+   "8"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Forgot the $\\frac{1}{2}$: $r \\cdot r = 16$ is a square, not a triangle.",
+   "B": "That's the length of $\\overline{AB}$, $r\\sqrt{2}$, not an area.",
+   "C": "Used the offsets $\\sqrt{7}$ and $3$ as the legs. That's a different triangle; the legs of $ACB$ are both radii.",
+   "D": "Correct. $r^2 = 7 + 9 = 16$, and the legs $CA$ and $CB$ are both $r = 4$, so the area is $\\frac{1}{2}(4)(4) = 8$."
+  },
+  "check": "Rational(1, 2)*(sqrt(7)**2 + 3**2)",
+  "explanation": [
+   "$r^2 = (-\\sqrt{7})^2 + 3^2 = 7 + 9 = 16$, so $r = 4$.",
+   "The right angle is at $C$, so the legs are $CA$ and $CB$. Both are radii.",
+   "Area $= \\frac{1}{2} \\cdot CA \\cdot CB = \\frac{1}{2}(4)(4) = 8$."
+  ]
+ }
+]

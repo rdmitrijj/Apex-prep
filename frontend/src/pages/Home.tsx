@@ -6,6 +6,7 @@ import { SECTION_NAME, fmtDate, useExams, useOfficialScores, usePlan, useToday, 
 import { MasteryHeatmap } from "../components/MasteryHeatmap";
 import { ScoreTrend, type TrendPoint } from "../components/ScoreTrend";
 import { Shell } from "../components/Shell";
+import { StudyPlanCard } from "../components/StudyPlanCard";
 import { TaskItem } from "./PlanPage";
 import { WeaknessList } from "../components/WeaknessList";
 
@@ -51,6 +52,7 @@ export function Home() {
   return (
     <Shell>
       <div className="space-y-6">
+        <StudyPlanCard />
         <div className="grid gap-4 md:grid-cols-3">
           <section className={card}>
             <p className="text-sm uppercase tracking-wide text-slate-500">Test day · {fmtDate(testDay)}</p>

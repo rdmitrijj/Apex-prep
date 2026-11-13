@@ -115,7 +115,9 @@ async def compute(db: AsyncSession, user: User) -> list[tuple[Weakness, Skill]]:
             )
         )
     # Misses imported from official practice tests count as exam misses on the test day.
-    for m in await db.scalars(select(ImportedMistake).where(ImportedMistake.user_id == user_id)):
+    for m in await db.scalars(
+        select(ImportedMistake).where(ImportedMistake.user_id == user_id, ImportedMistake.result != "guessed")
+    ):
         taken = datetime.combine(m.taken_on, time(), tzinfo=UTC)
         by_skill.setdefault(m.skill_id, []).append(
             Attempt(

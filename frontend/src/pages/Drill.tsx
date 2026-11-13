@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { nextQuestion, submitAnswer, useSkills, type Difficulty, type Feedback, type Question, type SkillNode } from "../api/drill";
+import { download, missedVocabCsv } from "../api/triage";
 import { MissReason } from "../components/MissReason";
 import { QuestionView } from "../components/QuestionView";
 import { Shell } from "../components/Shell";
@@ -126,11 +127,13 @@ export function Session({
   fetchNext,
   mode,
   onDone,
+  doneLabel,
 }: {
   count: number;
   fetchNext: (exclude: number[]) => Promise<Next>;
   mode: "drill" | "training";
   onDone: () => void;
+  doneLabel?: string;
 }) {
   const qc = useQueryClient();
   const [reasons, setReasons] = useState<string[]>([]);
@@ -139,6 +142,7 @@ export function Session({
   const [fb, setFb] = useState<Feedback | null>(null);
   const [score, setScore] = useState(0);
   const seen = useRef<number[]>([]);
+  const [results, setResults] = useState<{ correct: boolean; vocab: NonNullable<Feedback["vocab"]> }[]>([]);
   const shownAt = useRef(0);
 
   const next = useMutation({
@@ -155,6 +159,7 @@ export function Session({
     mutationFn: (a: string) => submitAnswer({ question_id: q!.id, answer: a, time_ms: Math.round(performance.now() - shownAt.current), mode }),
     onSuccess: (f) => {
       setFb(f);
+      setResults((r) => [...r, { correct: f.correct, vocab: f.vocab ?? [] }]);
       if (f.correct) setScore((s) => s + 1);
       qc.invalidateQueries({ queryKey: ["skills"] });
       qc.invalidateQueries({ queryKey: ["weaknesses"] });
@@ -183,7 +188,12 @@ export function Session({
         {next.isError && <p role="alert" className="text-red-700">{errMsg(next.error)}</p>}
         {next.isPending && <p className="text-slate-500">Loading question…</p>}
         {q && !next.isPending && <QuestionView key={q.id} q={q} feedback={fb} busy={answer.isPending} error={errMsg(answer.error)} onSubmit={(a) => answer.mutate(a)} />}
-        {fb && !fb.correct && fb.response_id && <div className="mt-4 border-t border-slate-100 pt-3"><MissReason key={fb.response_id} responseId={fb.response_id} /></div>}
+        {fb && !fb.correct && fb.response_id && (
+          <div className="mt-4 space-y-2 border-t border-slate-100 pt-3">
+            {fb.trap && <p className="text-sm text-red-800">Trap: <strong>{fb.trap}</strong></p>}
+            <MissReason key={fb.response_id} responseId={fb.response_id} initial={fb.miss_reason ?? null} />
+          </div>
+        )}
       </div>
       <div className="flex justify-between">
         <button onClick={onDone} className="text-sm text-slate-600 hover:underline">{mode === "drill" ? "End drill" : "End session"}</button>
@@ -203,7 +213,12 @@ export function Session({
         {finished && (
           <div className="flex items-center gap-4">
             <span className="font-semibold">Done: {score} of {count} correct.</span>
-            <button autoFocus onClick={onDone} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">{mode === "drill" ? "Back to skills" : "Back to weaknesses"}</button>
+            {missedVocabCsv(results) && (
+              <button type="button" onClick={() => download(missedVocabCsv(results)!, "missed_vocab.csv")} className="text-sm underline">
+                Export missed words (CSV for Anki)
+              </button>
+            )}
+            <button autoFocus onClick={onDone} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">{doneLabel ?? (mode === "drill" ? "Back to skills" : "Back to weaknesses")}</button>
           </div>
         )}
       </div>

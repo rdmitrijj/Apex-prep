@@ -1,0 +1,301 @@
+[
+ {
+  "id": "pt5-m-sysp-001",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "$$3a + 5b = 8$$ $$pa + 10b = 11$$ In the system of equations above, $p$ is a constant. For what value of $p$ does the system have no solution?",
+  "choices": [
+   "$3$",
+   "$\\frac{33}{8}$",
+   "$6$",
+   "$10$"
+  ],
+  "values": [
+   "3",
+   "33/8",
+   "6",
+   "10"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Copied the coefficient: the $b$-coefficient doubled ($5$ to $10$), so the $a$-coefficient must double too: $2 \\cdot 3 = 6$.",
+   "B": "Scaled by the constants: $\\frac{11}{8}$ is the ratio of the constants. No solution needs the coefficients in the same ratio and the constants NOT in that ratio.",
+   "C": "Correct. The $b$-coefficient doubles, so $p = 6$. Then $6a + 10b = 16$ would be the same line, but the constant is $11$, so the lines are parallel.",
+   "D": "Used the wrong coefficient: $10$ is the $b$-coefficient of the second equation, not the matching $a$-coefficient."
+  },
+  "check": "solve(linear_eq_to_matrix([3*a + 5*b - 8, p*a + 10*b - 11], [a, b])[0].det(), p)[0]",
+  "explanation": [
+   "No solution: the two lines are parallel. The coefficients are in the same ratio, but the constants are not.",
+   "The $b$-coefficient goes from $5$ to $10$, a factor of $2$.",
+   "So $p = 2 \\cdot 3 = 6$.",
+   "Check the constants: $2 \\cdot 8 = 16 \\ne 11$, so the lines are parallel and distinct."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-002",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "$$2m - 7n = 4$$ $$6m + kn = 12$$ In the system of equations above, $k$ is a constant. If the system has infinitely many solutions, what is the value of $k$?",
+  "check": "solve(linear_eq_to_matrix([2*m - 7*n - 4, 6*m + k*n - 12], [m, n])[0].det(), k)[0]",
+  "spr_answers": [
+   "-21"
+  ],
+  "spr_entries": [
+   "-21"
+  ],
+  "explanation": [
+   "Infinitely many solutions: the second equation is a multiple of the first.",
+   "The $m$-coefficient goes from $2$ to $6$, a factor of $3$. The constants agree: $3 \\cdot 4 = 12$.",
+   "So $k = 3 \\cdot (-7) = -21$. Keep the negative sign."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-003",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "$$8x - 2y = 18$$ $$y = cx + 2$$ In the system of equations above, $c$ is a constant. For what value of $c$ does the system have no solution?",
+  "choices": [
+   "$-4$",
+   "$4$",
+   "$8$",
+   "$9$"
+  ],
+  "values": [
+   "-4",
+   "4",
+   "8",
+   "9"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Sign slip: $-2y = -8x + 18$ gives $y = 4x - 9$. The slope is $+4$, not $-4$.",
+   "B": "Correct. The first line is $y = 4x - 9$. A parallel line needs the same slope, so $c = 4$; the intercepts ($-9$ and $2$) differ.",
+   "C": "Didn't solve for y: $8$ is the $x$-coefficient before dividing by $-2$. The slope is $\\frac{8}{2} = 4$.",
+   "D": "Used the constant: $9$ is (minus) the $y$-intercept of the first line, not its slope."
+  },
+  "check": "solve(linear_eq_to_matrix([8*x - 2*y - 18, y - c*x - 2], [x, y])[0].det(), c)[0]",
+  "explanation": [
+   "Solve the first equation for $y$: $-2y = -8x + 18$, so $y = 4x - 9$.",
+   "No solution means parallel lines: same slope, different $y$-intercepts.",
+   "So $c = 4$. The intercepts are $-9$ and $2$, which differ.",
+   "Desmos way: graph $8x - 2y = 18$ and $y = cx + 2$ with a slider for $c$. At $c = 4$ the lines never meet."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-004",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$qv - 9 = 4t$$ $$4t + 2v = 13 - 4v$$ In the system of equations above, $q$ is a constant. For what value of $q$ does the system have no solution?",
+  "choices": [
+   "$-6$",
+   "$-2$",
+   "$6$",
+   "$13$"
+  ],
+  "values": [
+   "-6",
+   "-2",
+   "6",
+   "13"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Both equations give $4t$: $4t = qv - 9$ and $4t = -6v + 13$. If $q = -6$, then $-6v - 9 = -6v + 13$, which is never true.",
+   "B": "Sign slip: moving $2v$ to the right side gives $-2v$, so the right side is $13 - 4v - 2v = 13 - 6v$, not $13 - 2v$.",
+   "C": "Dropped the negative sign: the $v$-coefficient is $-4 - 2 = -6$, not $6$.",
+   "D": "Equated constants instead of coefficients: $13$ is a constant. No solution depends on the $v$-coefficients matching."
+  },
+  "check": "solve(linear_eq_to_matrix([q*v - 9 - 4*t, 4*t + 2*v - (13 - 4*v)], [t, v])[0].det(), q)[0]",
+  "explanation": [
+   "Isolate the same expression, $4t$, in both equations.",
+   "First: $4t = qv - 9$. Second: $4t = 13 - 4v - 2v = -6v + 13$.",
+   "Set them equal: $qv - 9 = -6v + 13$. If $q = -6$, the $v$ terms cancel and $-9 = 13$ is false.",
+   "So the system has no solution exactly when $q = -6$."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-005",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$\\frac{2}{3}g = 5 + \\frac{1}{4}h$$ $$3h + 60 = kg$$ In the system of equations above, $k$ is a constant. If the system has infinitely many solutions, what is the value of $k$?",
+  "check": "solve(linear_eq_to_matrix([Rational(2, 3)*g - 5 - Rational(1, 4)*h, 3*h + 60 - k*g], [g, h])[0].det(), k)[0]",
+  "spr_answers": [
+   "8"
+  ],
+  "spr_entries": [
+   "8"
+  ],
+  "explanation": [
+   "Put both in standard form: $\\frac{2}{3}g - \\frac{1}{4}h = 5$ and $kg - 3h = 60$.",
+   "The $h$-coefficient goes from $-\\frac{1}{4}$ to $-3$, a factor of $12$. The constants agree: $12 \\cdot 5 = 60$.",
+   "So $k = 12 \\cdot \\frac{2}{3} = 8$."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-006",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$3y = 12 - ax$$ $$5x - b = 2y$$ In the system of equations above, $a$ and $b$ are constants. If the system has infinitely many solutions, what is the value of $a + b$?",
+  "check": "sum(solve([Matrix([[a, 3], [5, -2]]).det(), Matrix([[3, 12], [-2, b]]).det()], [a, b]).values())",
+  "spr_answers": [
+   "-31/2"
+  ],
+  "spr_entries": [
+   "-31/2",
+   "-15.5"
+  ],
+  "explanation": [
+   "Rewrite: $ax + 3y = 12$ and $5x - 2y = b$.",
+   "Infinitely many solutions: the second equation is a multiple of the first. The $y$-coefficient goes from $3$ to $-2$, a factor of $-\\frac{2}{3}$.",
+   "So $5 = -\\frac{2}{3}a$, which gives $a = -\\frac{15}{2}$, and $b = -\\frac{2}{3} \\cdot 12 = -8$.",
+   "$a + b = -\\frac{15}{2} - 8 = -\\frac{31}{2}$."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-007",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$\\frac{d}{2} = \\frac{3c}{4} + 1$$ $$kc - 6d = 5$$ In the system of equations above, $k$ is a constant. For what value of $k$ does the system have no solution?",
+  "choices": [
+   "$-9$",
+   "$3$",
+   "$\\frac{9}{2}$",
+   "$9$"
+  ],
+  "values": [
+   "-9",
+   "3",
+   "9/2",
+   "9"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Sign slip: moving $\\frac{3c}{4}$ to the left side gives $\\frac{3}{4}c - \\frac{1}{2}d = -1$; the $c$-coefficient stays positive.",
+   "B": "Didn't scale: after clearing fractions ($3c - 2d = -4$), the $d$-coefficient must go from $-2$ to $-6$, so $k = 3 \\cdot 3 = 9$, not $3$.",
+   "C": "Wrong scale factor: this multiplies $\\frac{3}{4}$ by $6$. The factor is $\\frac{-6}{-1/2} = 12$, so $k = 12 \\cdot \\frac{3}{4} = 9$.",
+   "D": "Correct. Multiply the first equation by 4: $3c - 2d = -4$. Times 3: $9c - 6d = -12$. With $k = 9$ the second equation is $9c - 6d = 5$, a parallel line."
+  },
+  "check": "solve(linear_eq_to_matrix([d/2 - 3*c/4 - 1, k*c - 6*d - 5], [c, d])[0].det(), k)[0]",
+  "explanation": [
+   "Clear the fractions in the first equation (multiply by 4): $2d = 3c + 4$, so $3c - 2d = -4$.",
+   "The $d$-coefficient goes from $-2$ to $-6$, a factor of $3$.",
+   "Parallel lines need $k = 3 \\cdot 3 = 9$.",
+   "Check the constants: $3 \\cdot (-4) = -12 \\ne 5$, so there is no solution (not infinitely many)."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-008",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$4m = 6u - 10$$ $$6m - c = 9u$$ In the system of equations above, $c$ is a constant. For what value of $c$ does the system have infinitely many solutions?",
+  "choices": [
+   "$-15$",
+   "$\\frac{20}{3}$",
+   "$10$",
+   "$15$"
+  ],
+  "values": [
+   "-15",
+   "20/3",
+   "10",
+   "15"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The first equation is $6u - 4m = 10$; times $\\frac{3}{2}$ it is $9u - 6m = 15$. The second is $9u - 6m = -c$, so $-c = 15$ and $c = -15$.",
+   "B": "Inverted the scale factor: the coefficients grow from $6$ to $9$, a factor of $\\frac{3}{2}$, not $\\frac{2}{3}$.",
+   "C": "Copied the constant: the constant must be scaled by the same factor as the coefficients, $\\frac{3}{2} \\cdot 10 = 15$.",
+   "D": "Sign slip: $6m - c = 9u$ rearranges to $9u - 6m = -c$, so $-c = 15$ and $c = -15$."
+  },
+  "check": "solve(Matrix.hstack(linear_eq_to_matrix([4*m - 6*u + 10, 6*m - c - 9*u], [m, u])[0][:, 0], linear_eq_to_matrix([4*m - 6*u + 10, 6*m - c - 9*u], [m, u])[1]).det(), c)[0]",
+  "explanation": [
+   "Write both equations the same way: $6u - 4m = 10$ and $9u - 6m = -c$.",
+   "The coefficients go from $6$ to $9$ and from $-4$ to $-6$: a factor of $\\frac{3}{2}$.",
+   "Infinitely many solutions: the constant also scales. $-c = \\frac{3}{2} \\cdot 10 = 15$.",
+   "So $c = -15$. Watch the sign of $c$ when you move it."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-009",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$4y = 7 - kx$$ $$ky = 5 - 9x$$ In the system of equations above, $k$ is a positive constant. If the system has no solution, what is the value of $k$?",
+  "choices": [
+   "$4$",
+   "$6$",
+   "$9$",
+   "$36$"
+  ],
+  "values": [
+   "4",
+   "6",
+   "9",
+   "36"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Used the wrong coefficient: $4$ is the $y$-coefficient of the first equation. The ratios $\\frac{k}{9}$ and $\\frac{4}{k}$ must be equal.",
+   "B": "Correct. Rewrite as $kx + 4y = 7$ and $9x + ky = 5$. Parallel lines need $\\frac{k}{9} = \\frac{4}{k}$, so $k^2 = 36$ and $k = 6$. Then $\\frac{7}{5} \\ne \\frac{4}{6}$, so the lines are distinct.",
+   "C": "Used the wrong coefficient: $9$ is the $x$-coefficient of the second equation. Setting $k = 9$ makes the ratios $1$ and $\\frac{4}{9}$, which differ.",
+   "D": "Forgot the square root: $k^2 = 36$ gives $k = 6$, not $36$."
+  },
+  "check": "Max(*solve(linear_eq_to_matrix([4*y - 7 + k*x, k*y - 5 + 9*x], [x, y])[0].det(), k))",
+  "explanation": [
+   "Rewrite: $kx + 4y = 7$ and $9x + ky = 5$.",
+   "No solution: the coefficient ratios match, $\\frac{k}{9} = \\frac{4}{k}$, so $k^2 = 36$.",
+   "$k$ is positive, so $k = 6$.",
+   "Check: $6x + 4y = 7$ times $\\frac{3}{2}$ is $9x + 6y = 10.5$, but the second equation has $5$. Parallel, distinct lines: no solution."
+  ]
+ },
+ {
+  "id": "pt5-m-sysp-010",
+  "modeled_on": "bb-pt5-m-q15",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$1.5h = 2 - 0.4p$$ $$2p = 10 - dh$$ In the system of equations above, $d$ is a constant. For what value of $d$ does the system have infinitely many solutions?",
+  "choices": [
+   "$-7.5$",
+   "$0.3$",
+   "$5$",
+   "$7.5$"
+  ],
+  "values": [
+   "-15/2",
+   "3/10",
+   "5",
+   "15/2"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Sign slip: $2p = 10 - dh$ rearranges to $2p + dh = 10$, so $d$ is positive.",
+   "B": "Divided by the scale factor: the second equation is $5$ times the first, so $d = 5 \\cdot 1.5$, not $1.5 \\div 5$.",
+   "C": "Answered the scale factor: $5$ is the factor between the equations, not the value of $d$.",
+   "D": "Correct. Rewrite as $0.4p + 1.5h = 2$ and $2p + dh = 10$. The second is $5$ times the first ($0.4 \\cdot 5 = 2$, $2 \\cdot 5 = 10$), so $d = 5 \\cdot 1.5 = 7.5$."
+  },
+  "check": "solve(linear_eq_to_matrix([Rational(3, 2)*h - 2 + Rational(2, 5)*p, 2*p - 10 + d*h], [p, h])[0].det(), d)[0]",
+  "explanation": [
+   "Rewrite: $0.4p + 1.5h = 2$ and $2p + dh = 10$.",
+   "The $p$-coefficient goes from $0.4$ to $2$, a factor of $5$. The constants agree: $5 \\cdot 2 = 10$.",
+   "Infinitely many solutions: $d = 5 \\cdot 1.5 = 7.5$."
+  ]
+ }
+]

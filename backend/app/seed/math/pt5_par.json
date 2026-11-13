@@ -1,0 +1,423 @@
+[
+ {
+  "id": "pt5-m-par-001",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "In the figure, line $\\ell$ is parallel to line $m$, and both lines are intersected by line $t$. What is the value of $x$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "L1a": [
+     0,
+     0
+    ],
+    "L1b": [
+     12,
+     0
+    ],
+    "L2a": [
+     0,
+     4
+    ],
+    "L2b": [
+     12,
+     4
+    ],
+    "T1": [
+     2.71,
+     -1.5
+    ],
+    "T2": [
+     4.07,
+     5.5
+    ]
+   },
+   "segments": [
+    [
+     "L1a",
+     "L1b"
+    ],
+    [
+     "L2a",
+     "L2b"
+    ],
+    [
+     "T1",
+     "T2"
+    ]
+   ],
+   "labels": [
+    {
+     "at": [
+      8,
+      0.35
+     ],
+     "text": "ℓ"
+    },
+    {
+     "at": [
+      8,
+      4.35
+     ],
+     "text": "m"
+    },
+    {
+     "at": [
+      4.07,
+      5.5
+     ],
+     "text": "t"
+    },
+    {
+     "at": [
+      4.69,
+      0.45
+     ],
+     "text": "(3x + 16)°"
+    },
+    {
+     "at": [
+      5.35,
+      3.46
+     ],
+     "text": "(5x − 4)°"
+    }
+   ],
+   "hide_points": true
+  },
+  "choices": [
+   "$10$",
+   "$9.75$",
+   "$21$",
+   "$79$"
+  ],
+  "values": [
+   "10",
+   "39/4",
+   "21",
+   "79"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Equal-angle trap: these are same-side interior angles. They add to $180°$; they are not equal.",
+   "B": "Wrong total: same-side interior angles add to $180°$, not $90°$.",
+   "C": "Correct. $(3x + 16) + (5x - 4) = 180$, so $8x = 168$ and $x = 21$.",
+   "D": "That is the measure of one angle, $3(21) + 16$, not $x$."
+  },
+  "check": "solve(Eq((3*x + 16) + (5*x - 4), 180), x)[0]",
+  "explanation": [
+   "Both angles are between the parallel lines and on the same side of $t$: same-side interior angles.",
+   "Same-side interior angles add to $180°$: $(3x + 16) + (5x - 4) = 180$.",
+   "$8x + 12 = 180$, so $x = 21$.",
+   "Check: $79° + 101° = 180°$."
+  ]
+ },
+ {
+  "id": "pt5-m-par-002",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "Two parallel lines are intersected by a transversal. Two same-side interior angles formed by these lines have measures $(2x + 30)°$ and $(4x - 12)°$. What is the value of $x$?",
+  "check": "solve(Eq((2*x + 30) + (4*x - 12), 180), x)[0]",
+  "spr_answers": [
+   "27"
+  ],
+  "spr_entries": [
+   "27"
+  ],
+  "explanation": [
+   "Same-side interior angles add to $180°$.",
+   "$(2x + 30) + (4x - 12) = 180$, so $6x + 18 = 180$.",
+   "$6x = 162$, so $x = 27$.",
+   "Trap: setting them equal gives $x = 21$, but then the angles would add to $144°$."
+  ]
+ },
+ {
+  "id": "pt5-m-par-003",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the figure, line $\\ell$ is parallel to line $m$, and both lines are intersected by line $t$. What is the value of $y$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "L1a": [
+     0,
+     0
+    ],
+    "L1b": [
+     12,
+     0
+    ],
+    "L2a": [
+     0,
+     4
+    ],
+    "L2b": [
+     12,
+     4
+    ],
+    "T1": [
+     2.54,
+     -1.5
+    ],
+    "T2": [
+     4.68,
+     5.5
+    ]
+   },
+   "segments": [
+    [
+     "L1a",
+     "L1b"
+    ],
+    [
+     "L2a",
+     "L2b"
+    ],
+    [
+     "T1",
+     "T2"
+    ]
+   ],
+   "labels": [
+    {
+     "at": [
+      8,
+      0.35
+     ],
+     "text": "ℓ"
+    },
+    {
+     "at": [
+      8,
+      4.35
+     ],
+     "text": "m"
+    },
+    {
+     "at": [
+      4.68,
+      5.5
+     ],
+     "text": "t"
+    },
+    {
+     "at": [
+      4.72,
+      0.42
+     ],
+     "text": "(7x − 18)°"
+    },
+    {
+     "at": [
+      2.5,
+      3.58
+     ],
+     "text": "(4x + 21)°"
+    },
+    {
+     "at": [
+      5.76,
+      3.44
+     ],
+     "text": "y°"
+    }
+   ],
+   "hide_points": true
+  },
+  "choices": [
+   "$107$",
+   "$73$",
+   "$13$",
+   "$167$"
+  ],
+  "values": [
+   "107",
+   "73",
+   "13",
+   "167"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $7x - 18 = 4x + 21$ gives $x = 13$, so that angle is $73°$ and $y = 180 - 73 = 107$.",
+   "B": "Equal-angle trap: $y°$ and $(7x - 18)°$ are same-side interior angles, so they add to $180°$.",
+   "C": "That is the value of $x$, not $y$.",
+   "D": "You subtracted $x$ from $180$. Subtract the angle measure, $73°$."
+  },
+  "check": "180 - (7*solve(Eq(7*x - 18, 4*x + 21), x)[0] - 18)",
+  "explanation": [
+   "$(7x - 18)°$ and $(4x + 21)°$ are alternate interior angles, so they are equal.",
+   "$7x - 18 = 4x + 21$, so $3x = 39$ and $x = 13$; each angle is $73°$.",
+   "$y°$ and $(7x - 18)°$ are same-side interior angles, so $y = 180 - 73 = 107$."
+  ]
+ },
+ {
+  "id": "pt5-m-par-004",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Lines $p$ and $q$ are parallel and are intersected by line $r$. Two same-side interior angles formed by these lines have measures $(5x + 14)°$ and $(9x - 2)°$. What is the measure, in degrees, of the larger of these two angles?",
+  "choices": [
+   "$74$",
+   "$34$",
+   "$12$",
+   "$106$"
+  ],
+  "values": [
+   "74",
+   "34",
+   "12",
+   "106"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "That is the smaller angle, $5(12) + 14$.",
+   "B": "Equal-angle trap: setting $5x + 14 = 9x - 2$ gives $x = 4$ and two $34°$ angles. Same-side interior angles add to $180°$.",
+   "C": "That is the value of $x$, not an angle measure.",
+   "D": "Correct. $14x + 12 = 180$ gives $x = 12$; the angles are $74°$ and $106°$."
+  },
+  "check": "Max(5*solve(Eq((5*x + 14) + (9*x - 2), 180), x)[0] + 14, 9*solve(Eq((5*x + 14) + (9*x - 2), 180), x)[0] - 2)",
+  "explanation": [
+   "Same-side interior angles add to $180°$.",
+   "$(5x + 14) + (9x - 2) = 180$, so $14x = 168$ and $x = 12$.",
+   "The angles are $5(12) + 14 = 74°$ and $9(12) - 2 = 106°$.",
+   "The larger one is $106°$. Check: $74 + 106 = 180$."
+  ]
+ },
+ {
+  "id": "pt5-m-par-005",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the figure, parallel lines $\\ell$ and $m$ are cut by line $t$. Based on the angle measures shown, what is the value of $x$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "L1a": [
+     0,
+     0
+    ],
+    "L1b": [
+     12,
+     0
+    ],
+    "L2a": [
+     0,
+     4
+    ],
+    "L2b": [
+     12,
+     4
+    ],
+    "T1": [
+     3.29,
+     -1.5
+    ],
+    "T2": [
+     1.93,
+     5.5
+    ]
+   },
+   "segments": [
+    [
+     "L1a",
+     "L1b"
+    ],
+    [
+     "L2a",
+     "L2b"
+    ],
+    [
+     "T1",
+     "T2"
+    ]
+   ],
+   "labels": [
+    {
+     "at": [
+      8,
+      0.35
+     ],
+     "text": "ℓ"
+    },
+    {
+     "at": [
+      8,
+      4.35
+     ],
+     "text": "m"
+    },
+    {
+     "at": [
+      1.93,
+      5.5
+     ],
+     "text": "t"
+    },
+    {
+     "at": [
+      1.31,
+      0.45
+     ],
+     "text": "(3x − 5)°"
+    },
+    {
+     "at": [
+      0.53,
+      4.45
+     ],
+     "text": "(2x + 23)°"
+    }
+   ],
+   "hide_points": true
+  },
+  "choices": [
+   "$32.4$",
+   "$28$",
+   "$79$",
+   "$101$"
+  ],
+  "values": [
+   "162/5",
+   "28",
+   "79",
+   "101"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Sum trap: these are corresponding angles (same position at each intersection), so they are equal, not supplementary.",
+   "B": "Correct. Corresponding angles are equal: $3x - 5 = 2x + 23$, so $x = 28$.",
+   "C": "That is the angle measure, $3(28) - 5$, not $x$.",
+   "D": "That is the supplement of the angle, $180 - 79$, not $x$."
+  },
+  "check": "solve(Eq(3*x - 5, 2*x + 23), x)[0]",
+  "explanation": [
+   "Both angles are above their line and to the left of $t$: they are corresponding angles.",
+   "Corresponding angles are equal: $3x - 5 = 2x + 23$.",
+   "$x = 28$. Check: both angles are $79°$."
+  ]
+ },
+ {
+  "id": "pt5-m-par-006",
+  "skill": "MATH.GEO.LAT.ANGLES",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "Parallel lines $\\ell$ and $m$ are intersected by line $t$. Angles 1 and 2 are alternate interior angles, and angles 2 and 3 are same-side interior angles. The measure of angle 1 is $(6x - 14)°$ and the measure of angle 3 is $(2x + 34)°$. What is the measure, in degrees, of angle 2?",
+  "check": "6*solve(Eq((6*x - 14) + (2*x + 34), 180), x)[0] - 14",
+  "spr_answers": [
+   "106"
+  ],
+  "spr_entries": [
+   "106"
+  ],
+  "explanation": [
+   "Alternate interior angles are equal, so angle 2 = angle 1.",
+   "Angles 2 and 3 are same-side interior, so they add to $180°$. Then angle 1 + angle 3 = $180°$ too.",
+   "$(6x - 14) + (2x + 34) = 180$, so $8x = 160$ and $x = 20$.",
+   "Angle 2 = angle 1 = $6(20) - 14 = 106°$.",
+   "Trap: setting angle 1 equal to angle 3 gives $x = 12$ and $58°$."
+  ]
+ }
+]

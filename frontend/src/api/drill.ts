@@ -55,7 +55,17 @@ export type Question = {
   figure?: FigureSpec | null;
 };
 
-export type Feedback = { response_id?: number; correct: boolean; answer: string; explanation: string[]; rationales: Record<string, string> };
+export type VocabEntry = { word: string; pos: string; meaning_en: string; meaning_ru: string; example: string };
+export type Feedback = {
+  response_id?: number;
+  correct: boolean;
+  answer: string;
+  explanation: string[];
+  rationales: Record<string, string>;
+  trap?: string | null; // wrong answers: the named trap of the choice picked
+  miss_reason?: string | null; // pre-filled "why did you miss it?" tag
+  vocab?: VocabEntry[];
+};
 
 export function useSkills() {
   return useQuery({ queryKey: ["skills"], queryFn: () => api<SkillNode[]>("/skills") });

@@ -18,7 +18,37 @@
    "B": "The colon explains that standing water harms the plants, so they don't need it; 'do not require' misses the harm.",
    "C": "Attracting water isn't the point; the text is about harm from too much water.",
    "D": "Correct. 'Tolerate' means to survive or put up with; the roots rot in standing water."
-  }
+  },
+  "vocab": [
+   {
+    "word": "produce",
+    "pos": "verb",
+    "meaning_en": "to make or create something",
+    "meaning_ru": "производить, давать",
+    "example": "This farm produces most of the region's apples."
+   },
+   {
+    "word": "require",
+    "pos": "verb",
+    "meaning_en": "to need something",
+    "meaning_ru": "требовать, нуждаться в",
+    "example": "Most houseplants require bright, indirect light."
+   },
+   {
+    "word": "attract",
+    "pos": "verb",
+    "meaning_en": "to draw something or someone toward itself",
+    "meaning_ru": "привлекать",
+    "example": "The bright flowers attract bees."
+   },
+   {
+    "word": "tolerate",
+    "pos": "verb",
+    "meaning_en": "to be able to withstand something without harm",
+    "meaning_ru": "переносить, выдерживать",
+    "example": "Cacti tolerate long periods without water."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-002",
@@ -39,7 +69,37 @@
    "B": "Avoiding eye contact suggests shyness, not confidence.",
    "C": "Correct. 'Reserved' means quiet and slow to share feelings, the opposite of 'outgoing.'",
    "D": "One-word answers aren't talkative; this ignores 'unlike.'"
-  }
+  },
+  "vocab": [
+   {
+    "word": "careless",
+    "pos": "adjective",
+    "meaning_en": "not paying enough attention, so mistakes happen",
+    "meaning_ru": "небрежный, неосторожный",
+    "example": "A careless driver ran the red light."
+   },
+   {
+    "word": "confident",
+    "pos": "adjective",
+    "meaning_en": "sure of oneself and one's abilities",
+    "meaning_ru": "уверенный в себе",
+    "example": "She gave a confident answer to every question."
+   },
+   {
+    "word": "reserved",
+    "pos": "adjective",
+    "meaning_en": "quiet and slow to share feelings or opinions",
+    "meaning_ru": "сдержанный, замкнутый",
+    "example": "My reserved neighbor rarely says more than hello."
+   },
+   {
+    "word": "talkative",
+    "pos": "adjective",
+    "meaning_en": "liking to talk a lot",
+    "meaning_ru": "разговорчивый",
+    "example": "The talkative taxi driver told us his life story."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-003",
@@ -60,7 +120,37 @@
    "B": "Correct. The planners were surprised that commutes got longer, so the bridge was meant to lessen traffic.",
    "C": "'Ignore traffic' doesn't describe the purpose of a bridge.",
    "D": "No one designs a bridge to add traffic, and 'however' signals the result went against the goal."
-  }
+  },
+  "vocab": [
+   {
+    "word": "measure",
+    "pos": "verb",
+    "meaning_en": "to find the exact size, amount, or degree of something",
+    "meaning_ru": "измерять",
+    "example": "Sensors measure the air temperature every hour."
+   },
+   {
+    "word": "reduce",
+    "pos": "verb",
+    "meaning_en": "to make something smaller or less",
+    "meaning_ru": "сокращать, уменьшать",
+    "example": "Turning off lights reduces energy use."
+   },
+   {
+    "word": "ignore",
+    "pos": "verb",
+    "meaning_en": "to pay no attention to something",
+    "meaning_ru": "игнорировать, не обращать внимания",
+    "example": "She ignored the noise and kept reading."
+   },
+   {
+    "word": "increase",
+    "pos": "verb",
+    "meaning_en": "to make something bigger or more",
+    "meaning_ru": "увеличивать",
+    "example": "The store increased its prices in January."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-004",
@@ -81,7 +171,37 @@
    "B": "Nothing suggests the sounds were taken from other composers.",
    "C": "This repeats the early critics' view; 'but later listeners' signals the opposite.",
    "D": "'Fleeting' (brief) has nothing to do with planning."
-  }
+  },
+  "vocab": [
+   {
+    "word": "deliberate",
+    "pos": "adjective",
+    "meaning_en": "done on purpose and carefully planned",
+    "meaning_ru": "намеренный, продуманный",
+    "example": "The typo in the ad was a deliberate joke."
+   },
+   {
+    "word": "borrowed",
+    "pos": "adjective",
+    "meaning_en": "taken from someone or something else",
+    "meaning_ru": "заимствованный",
+    "example": "The song uses a borrowed melody from an old folk tune."
+   },
+   {
+    "word": "accidental",
+    "pos": "adjective",
+    "meaning_en": "happening by chance, not planned",
+    "meaning_ru": "случайный",
+    "example": "The discovery of penicillin was partly accidental."
+   },
+   {
+    "word": "fleeting",
+    "pos": "adjective",
+    "meaning_en": "lasting only a very short time",
+    "meaning_ru": "мимолётный",
+    "example": "She caught a fleeting glimpse of the deer."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-005",
@@ -102,7 +222,37 @@
    "B": "Nothing suggests emotional or nostalgic writing.",
    "C": "'Partisan' means favoring one side, the opposite of what's described.",
    "D": "Correct. 'Evenhanded' means fair to all sides, exactly what the colon describes."
-  }
+  },
+  "vocab": [
+   {
+    "word": "exhaustive",
+    "pos": "adjective",
+    "meaning_en": "complete and covering every detail",
+    "meaning_ru": "исчерпывающий",
+    "example": "The report includes an exhaustive list of sources."
+   },
+   {
+    "word": "sentimental",
+    "pos": "adjective",
+    "meaning_en": "showing strong, often excessive, tender feelings",
+    "meaning_ru": "сентиментальный",
+    "example": "The film's ending was too sentimental for some critics."
+   },
+   {
+    "word": "partisan",
+    "pos": "adjective",
+    "meaning_en": "strongly supporting one side or party",
+    "meaning_ru": "пристрастный, предвзятый",
+    "example": "The debate quickly became partisan."
+   },
+   {
+    "word": "evenhanded",
+    "pos": "adjective",
+    "meaning_en": "fair and treating all sides equally",
+    "meaning_ru": "беспристрастный, объективный",
+    "example": "The referee was praised for his evenhanded decisions."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-006",
@@ -123,7 +273,37 @@
    "B": "Warning against 'restricting its effects to humans' makes no sense.",
    "C": "Correct. 'Extrapolate' means to extend findings beyond the cases studied, here from mice to humans.",
    "D": "Hiding the results isn't the concern; the concern is overgeneralizing."
-  }
+  },
+  "vocab": [
+   {
+    "word": "celebrating",
+    "pos": "verb",
+    "meaning_en": "marking a happy event with an activity",
+    "meaning_ru": "празднование, чествование",
+    "example": "The town spent the weekend celebrating its 200th birthday."
+   },
+   {
+    "word": "restricting",
+    "pos": "verb",
+    "meaning_en": "limiting something",
+    "meaning_ru": "ограничение",
+    "example": "The law focuses on restricting smoking in parks."
+   },
+   {
+    "word": "extrapolating",
+    "pos": "verb",
+    "meaning_en": "applying known results to a new, unknown situation",
+    "meaning_ru": "экстраполяция, перенос (выводов на другие случаи)",
+    "example": "Extrapolating from one small town to the whole country is risky."
+   },
+   {
+    "word": "concealing",
+    "pos": "verb",
+    "meaning_en": "hiding something",
+    "meaning_ru": "сокрытие, утаивание",
+    "example": "He was accused of concealing important evidence."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-007",
@@ -144,7 +324,37 @@
    "B": "Wells that run low aren't abundant.",
    "C": "The age of the supply isn't the point of the colon.",
    "D": "The text is about quantity, not pollution."
-  }
+  },
+  "vocab": [
+   {
+    "word": "precarious",
+    "pos": "adjective",
+    "meaning_en": "uncertain and likely to fail or become dangerous",
+    "meaning_ru": "ненадёжный, шаткий",
+    "example": "After losing his job, his finances were precarious."
+   },
+   {
+    "word": "abundant",
+    "pos": "adjective",
+    "meaning_en": "existing in large amounts; plentiful",
+    "meaning_ru": "обильный, изобильный",
+    "example": "Fish are abundant in these cold waters."
+   },
+   {
+    "word": "ancient",
+    "pos": "adjective",
+    "meaning_en": "very old; from a long time ago",
+    "meaning_ru": "древний",
+    "example": "The ancient wall still surrounds the old town."
+   },
+   {
+    "word": "contaminated",
+    "pos": "adjective",
+    "meaning_en": "made dirty or harmful by a dangerous substance",
+    "meaning_ru": "загрязнённый, заражённый",
+    "example": "Officials closed the beach because the water was contaminated."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-008",
@@ -165,7 +375,37 @@
    "B": "Acknowledging the concerns is what she did; 'rather than' needs the opposite.",
    "C": "Making the concerns public isn't the contrast being drawn.",
    "D": "Predicting the concerns in advance doesn't contrast with answering them."
-  }
+  },
+  "vocab": [
+   {
+    "word": "dismissing",
+    "pos": "verb",
+    "meaning_en": "deciding that something is not worth considering",
+    "meaning_ru": "отмахивание, пренебрежение",
+    "example": "Dismissing customer complaints can hurt a business."
+   },
+   {
+    "word": "acknowledging",
+    "pos": "verb",
+    "meaning_en": "admitting that something exists or is true",
+    "meaning_ru": "признание",
+    "example": "Acknowledging a mistake is the first step to fixing it."
+   },
+   {
+    "word": "publishing",
+    "pos": "verb",
+    "meaning_en": "making something available to the public in print or online",
+    "meaning_ru": "публикация",
+    "example": "The magazine is known for publishing new writers."
+   },
+   {
+    "word": "anticipating",
+    "pos": "verb",
+    "meaning_en": "expecting something and preparing for it",
+    "meaning_ru": "предвидение, ожидание",
+    "example": "Good chess players are always anticipating their opponent's next move."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-009",
@@ -186,7 +426,37 @@
    "B": "Only some reefs recovered quickly; the point is the unevenness.",
    "C": "'Gradual' describes steady slow change everywhere, not the contrast between reefs.",
    "D": "Some reefs showed almost no growth, so recovery wasn't complete."
-  }
+  },
+  "vocab": [
+   {
+    "word": "patchy",
+    "pos": "adjective",
+    "meaning_en": "uneven; existing in some places but not others",
+    "meaning_ru": "неравномерный, местами",
+    "example": "Fog was patchy along the coast this morning."
+   },
+   {
+    "word": "rapid",
+    "pos": "adjective",
+    "meaning_en": "happening very quickly",
+    "meaning_ru": "быстрый, стремительный",
+    "example": "The city saw rapid growth in the 1990s."
+   },
+   {
+    "word": "gradual",
+    "pos": "adjective",
+    "meaning_en": "happening slowly, in small steps",
+    "meaning_ru": "постепенный",
+    "example": "There has been a gradual rise in prices."
+   },
+   {
+    "word": "complete",
+    "pos": "adjective",
+    "meaning_en": "with nothing missing; total",
+    "meaning_ru": "полный, завершённый",
+    "example": "The renovation is now complete."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-010",
@@ -207,7 +477,37 @@
    "B": "Correct. 'Deceptive' means misleading: the plain surface hides complexity.",
    "C": "Discovering layers of irony isn't boring.",
    "D": "It fits a positive tone, but 'yet' and the hidden irony point to plainness that misleads."
-  }
+  },
+  "vocab": [
+   {
+    "word": "accidental",
+    "pos": "adjective",
+    "meaning_en": "happening by chance, not planned",
+    "meaning_ru": "случайный",
+    "example": "The fire was ruled accidental."
+   },
+   {
+    "word": "deceptive",
+    "pos": "adjective",
+    "meaning_en": "giving a false impression",
+    "meaning_ru": "обманчивый",
+    "example": "The calm surface of the river is deceptive; the current is strong."
+   },
+   {
+    "word": "tedious",
+    "pos": "adjective",
+    "meaning_en": "long, slow, and boring",
+    "meaning_ru": "утомительный, нудный",
+    "example": "Filling out the forms was a tedious task."
+   },
+   {
+    "word": "refreshing",
+    "pos": "adjective",
+    "meaning_en": "pleasantly new or different",
+    "meaning_ru": "освежающий, приятно новый",
+    "example": "Her honesty was refreshing after so many vague answers."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-011",
@@ -228,7 +528,37 @@
    "B": "Correct. 'Spur' means to encourage or speed up; the expected boost didn't happen.",
    "C": "'Gauge' means to measure; a tax cut doesn't measure spending.",
    "D": "'Curb' means to limit; economists wouldn't expect a tax cut to reduce spending, and 'but' needs a contrast with unchanged sales."
-  }
+  },
+  "vocab": [
+   {
+    "word": "mask",
+    "pos": "verb",
+    "meaning_en": "to hide or cover something",
+    "meaning_ru": "маскировать, скрывать",
+    "example": "The spices masked the taste of the old meat."
+   },
+   {
+    "word": "spur",
+    "pos": "verb",
+    "meaning_en": "to encourage or cause something to increase or happen",
+    "meaning_ru": "стимулировать, подстёгивать",
+    "example": "Lower interest rates may spur home buying."
+   },
+   {
+    "word": "gauge",
+    "pos": "verb",
+    "meaning_en": "to measure or judge something",
+    "meaning_ru": "оценивать, измерять",
+    "example": "It is hard to gauge public opinion from a few letters."
+   },
+   {
+    "word": "curb",
+    "pos": "verb",
+    "meaning_en": "to control or limit something",
+    "meaning_ru": "сдерживать, ограничивать",
+    "example": "The city introduced fines to curb littering."
+   }
+  ]
  },
  {
   "id": "rw-x-wic-012",
@@ -249,7 +579,37 @@
    "B": "Nothing suggests the letters copy the poems.",
    "C": "Correct. 'Mere supplements' means minor additions, which 'useful only for dating them' describes.",
    "D": "Rivals would be equal in importance, the view Lin Wei holds, not 'some scholars.'"
-  }
+  },
+  "vocab": [
+   {
+    "word": "rebuttals",
+    "pos": "noun",
+    "meaning_en": "arguments that show something is false",
+    "meaning_ru": "опровержения",
+    "example": "The senator issued rebuttals to each of the charges."
+   },
+   {
+    "word": "imitations",
+    "pos": "noun",
+    "meaning_en": "copies made to look like the original",
+    "meaning_ru": "подражания, имитации",
+    "example": "The market sells cheap imitations of designer bags."
+   },
+   {
+    "word": "supplements",
+    "pos": "noun",
+    "meaning_en": "things added to complete or support something else",
+    "meaning_ru": "дополнения, приложения",
+    "example": "The textbook comes with online supplements for practice."
+   },
+   {
+    "word": "rivals",
+    "pos": "noun",
+    "meaning_en": "people or things competing with each other",
+    "meaning_ru": "соперники, конкуренты",
+    "example": "The two companies have been rivals for decades."
+   }
+  ]
  },
  {
   "id": "rw-x-inf-001",

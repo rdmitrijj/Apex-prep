@@ -1,0 +1,629 @@
+{
+ "source": "Bluebook SAT Practice Test 5, 2026-11-11",
+ "taken_on": "2026-11-11",
+ "label": "Bluebook Practice Test 5",
+ "scores": {
+  "rw": 560,
+  "math": 690
+ },
+ "domain_bars": {
+  "RW.INI": 5,
+  "RW.CAS": 5,
+  "RW.EOI": 4,
+  "RW.SEC": 6,
+  "MATH.ALG": 6,
+  "MATH.ADV": 7,
+  "MATH.PSD": 6,
+  "MATH.GEO": 6
+ },
+ "note": "Paraphrases only: never store official question text, passages, or answer choices here. Math module numbers weren't recorded (0). result 'guessed' = answered right by guessing (a reference example, not a miss). Difficulty isn't on the score report; all are 'medium'. linked_practice_ids are filled from the seed items' modeled_on.",
+ "mistakes": [
+  {
+   "external_id": "bb-pt5-rw-a-q14",
+   "section": "RW",
+   "module": 1,
+   "question_number": 14,
+   "skill": "RW.INI.INF.COMPLETE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "A",
+   "summary": "Spiders reared in the field vs. in the lab responded differently to diets and flowers; which conclusion do the researchers draw?",
+   "lesson": "The conclusion must be about the factor that differs between the groups (where the spiders were reared). I chose a narrower claim the data don't support.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-inf-001",
+    "pt5-rw-inf-004",
+    "pt5-rw-inf-005"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q14"
+  },
+  {
+   "external_id": "bb-pt5-rw-a-q17",
+   "section": "RW",
+   "module": 1,
+   "question_number": 17,
+   "skill": "RW.SEC.BND.SUPP",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "no punctuation",
+   "correct_answer": "comma",
+   "summary": "An appositive after a book title was opened with a comma; the blank closed it.",
+   "lesson": "A supplementary element opened with a comma must close with a comma.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-bnd-001",
+    "pt5-rw-bnd-005",
+    "pt5-rw-bnd-006"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q17"
+  },
+  {
+   "external_id": "bb-pt5-rw-a-q19",
+   "section": "RW",
+   "module": 1,
+   "question_number": 19,
+   "skill": "RW.SEC.FSS.MOD",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "D",
+   "correct_answer": "A",
+   "summary": "An opening modifier about being woven from recycled yarn must be followed by the woven thing (the tapestries), not the artist.",
+   "lesson": "Dangling modifier (second time this month): the noun right after the comma is the doer or the thing described.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-fss-001",
+    "pt5-rw-fss-004",
+    "pt5-rw-fss-005"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q19"
+  },
+  {
+   "external_id": "bb-pt5-rw-a-q23",
+   "section": "RW",
+   "module": 1,
+   "question_number": 23,
+   "skill": "RW.EOI.TRN.CONT",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "Regardless",
+   "correct_answer": "Specifically",
+   "summary": "Sentence 1: an inventor improved the light bulb. Sentence 2: the exact improvement.",
+   "lesson": "General claim followed by the specific detail = Specifically / In particular.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-trans-006",
+    "pt5-rw-trans-008",
+    "pt5-rw-trans-010"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q23"
+  },
+  {
+   "external_id": "bb-pt5-rw-a-q27",
+   "section": "RW",
+   "module": 1,
+   "question_number": 27,
+   "skill": "RW.EOI.RS.GOAL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "C",
+   "summary": "Goal: use a quotation to support a claim about her contribution. I chose an option with no quotation.",
+   "lesson": "Check every requirement in the goal (here: a quotation AND a claim about the contribution).",
+   "miss_reason": "misread",
+   "linked_practice_ids": [
+    "pt5-rw-rs-001",
+    "pt5-rw-rs-002",
+    "pt5-rw-rs-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q27"
+  },
+  {
+   "external_id": "bb-pt5-rw-a-q2",
+   "section": "RW",
+   "module": 1,
+   "question_number": 2,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "redefined",
+   "correct_answer": "exploited",
+   "summary": "Engineers made productive use of a known physical tendency to inspect buried pipes.",
+   "lesson": "exploit = make productive use of (not only 'abuse').",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-wic-001",
+    "pt5-rw-wic-018"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 1 Q2"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q3",
+   "section": "RW",
+   "module": 2,
+   "question_number": 3,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "rationalize",
+   "correct_answer": "ameliorate",
+   "summary": "Research relied on unrepresentative subject pools; recruiting diverse subjects would ___ this situation.",
+   "lesson": "ameliorate = make a bad situation better; rationalize = justify.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-wic-002"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q3"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q5",
+   "section": "RW",
+   "module": 2,
+   "question_number": 5,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "controversial among",
+   "correct_answer": "inconsequential to",
+   "summary": "Recent scholarship undermined claims that a philosopher's works were ___ other philosophers (he was far from the center of thought).",
+   "lesson": "A double negative: 'undermined claims that X was unimportant' means X mattered. Predict the meaning from the logic.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-wic-005",
+    "pt5-rw-wic-029"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q5"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q6",
+   "section": "RW",
+   "module": 2,
+   "question_number": 6,
+   "skill": "RW.CAS.TSP.FUNCTION",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "D",
+   "correct_answer": "B",
+   "summary": "Function of an underlined description of a character's habitual meekness, in a passage about him being cheated of his land.",
+   "lesson": "The function is to explain WHY the outcome happened (his mildness made him easy to cheat).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-tsp-001",
+    "pt5-rw-tsp-004",
+    "pt5-rw-tsp-007"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q6"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q8",
+   "section": "RW",
+   "module": 2,
+   "question_number": 8,
+   "skill": "RW.CAS.CTC.RESPONSE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "C",
+   "correct_answer": "A",
+   "summary": "Text 1: automated classification of art styles has hit its limit. Text 2: a new layered-model approach reached high accuracy.",
+   "lesson": "Text 2's author would answer that advances are still being made. Reject options neither text discusses.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-ctc-001",
+    "pt5-rw-ctc-002",
+    "pt5-rw-ctc-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q8"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q9",
+   "section": "RW",
+   "module": 2,
+   "question_number": 9,
+   "skill": "RW.INI.CID.DETAIL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "C",
+   "summary": "The microbe community's composition did not change, which let researchers attribute faster nutrient cycling to temperature. Why was that finding important?",
+   "lesson": "It ruled out an alternative explanation.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-inf-002",
+    "pt5-rw-inf-009",
+    "pt5-rw-inf-010"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q9"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q11",
+   "section": "RW",
+   "module": 2,
+   "question_number": 11,
+   "skill": "RW.INI.COEQ.BAR",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "C",
+   "summary": "Bar graph of attention scores for no leave, short leave, and long leave at three test times. Claim: longer leave gives no greater benefit than shorter leave.",
+   "lesson": "Use only the data comparing the claim's groups (short vs. long leave) AFTER the leave. Pre-leave data and the no-leave group are irrelevant.",
+   "miss_reason": "misread",
+   "linked_practice_ids": [
+    "pt5-rw-coeq-001",
+    "pt5-rw-coeq-003",
+    "pt5-rw-coeq-004"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q11"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q12",
+   "section": "RW",
+   "module": 2,
+   "question_number": 12,
+   "skill": "RW.INI.COEQ.BAR",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "C",
+   "correct_answer": "B",
+   "summary": "Graph of lizard species by percent of maximum speed while escaping and pursuing. Claim: animals don't always use full speed, even when escaping.",
+   "lesson": "Pick the data that supports the claim (several species escape below 90%), not the most eye-catching true fact.",
+   "miss_reason": "misread",
+   "linked_practice_ids": [
+    "pt5-rw-coeq-002",
+    "pt5-rw-coeq-006",
+    "pt5-rw-coeq-009"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q12"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q13",
+   "section": "RW",
+   "module": 2,
+   "question_number": 13,
+   "skill": "RW.INI.COET.QUOTE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "D",
+   "summary": "A poem quotation had to show ambivalence (both merit and displeasure).",
+   "lesson": "The quotation must show BOTH sides; one-sided quotations are wrong.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-coet-001",
+    "pt5-rw-coet-003",
+    "pt5-rw-coet-004"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q13"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q19",
+   "section": "RW",
+   "module": 2,
+   "question_number": 19,
+   "skill": "RW.SEC.FSS.SVA",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "underlies",
+   "correct_answer": "underlie",
+   "summary": "A plural subject ('frameworks') is separated from its verb by a relative clause and parentheses, with singular nouns nearby.",
+   "lesson": "Cross out everything between the subject and the verb, then check agreement.",
+   "miss_reason": "careless",
+   "linked_practice_ids": [
+    "pt5-rw-fss-002",
+    "pt5-rw-fss-011",
+    "pt5-rw-fss-012"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q19"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q21",
+   "section": "RW",
+   "module": 2,
+   "question_number": 21,
+   "skill": "RW.SEC.BND.COLON",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "comma",
+   "correct_answer": "colon",
+   "summary": "Two independent clauses; the second explains the first (an animal eats indiscriminately: it devours everything).",
+   "lesson": "A comma alone between two sentences is a comma splice. Use a colon before an explanation.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-bnd-002",
+    "pt5-rw-bnd-003",
+    "pt5-rw-bnd-010"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q21"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q23",
+   "section": "RW",
+   "module": 2,
+   "question_number": 23,
+   "skill": "RW.EOI.TRN.CONTRAST",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "For instance",
+   "correct_answer": "Conversely",
+   "summary": "Two contrasting cases (two-party vs. multi-party systems).",
+   "lesson": "An opposite case = Conversely / In contrast.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-trans-002",
+    "pt5-rw-trans-011"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q23"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q24",
+   "section": "RW",
+   "module": 2,
+   "question_number": 24,
+   "skill": "RW.EOI.TRN.CAUSE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "However",
+   "correct_answer": "Hence",
+   "summary": "The shell looks external, so people wrongly assume it's an exoskeleton.",
+   "lesson": "Result, not contrast: 'incorrectly assumed' follows FROM sentence 1.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-trans-005",
+    "pt5-rw-trans-009",
+    "pt5-rw-trans-021"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q24"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q25",
+   "section": "RW",
+   "module": 2,
+   "question_number": 25,
+   "skill": "RW.EOI.TRN.CAUSE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "For example",
+   "correct_answer": "Accordingly",
+   "summary": "A lesson was learned, so the research changed direction.",
+   "lesson": "Consequence = Accordingly / Hence / Therefore.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-rw-trans-001",
+    "pt5-rw-trans-020",
+    "pt5-rw-trans-007"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q25"
+  },
+  {
+   "external_id": "bb-pt5-rw-b-q27",
+   "section": "RW",
+   "module": 2,
+   "question_number": 27,
+   "skill": "RW.EOI.RS.GOAL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "A",
+   "correct_answer": "C",
+   "summary": "Goal: state which category routine diplomatic correspondence belongs to, based on the classification rules in the notes.",
+   "lesson": "The correct option must explicitly name the category.",
+   "miss_reason": "misread",
+   "linked_practice_ids": [
+    "pt5-rw-rs-008",
+    "pt5-rw-rs-009",
+    "pt5-rw-rs-010"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Reading and Writing Module 2 Q27"
+  },
+  {
+   "external_id": "bb-pt5-m-q11",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 11,
+   "skill": "MATH.ALG.LIN1.NSOL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "Zero",
+   "correct_answer": "Exactly one",
+   "summary": "A linear equation with brackets on both sides simplifies to x = 0.",
+   "lesson": "x = 0 is ONE solution. Zero solutions means a false statement like 0 = 5.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-m-nsol-001",
+    "pt5-m-nsol-002",
+    "pt5-m-nsol-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q11"
+  },
+  {
+   "external_id": "bb-pt5-m-q15",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 15,
+   "skill": "MATH.ALG.SYS.NSOL",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "6",
+   "correct_answer": "10",
+   "summary": "A two-equation system in r and w with a parameter p (one equation 6 + 7r = pw); find p for no solution.",
+   "lesson": "Isolate the same expression (7r) in both equations; equal w-coefficients and different constants give no solution (p = 10).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-m-sysp-001",
+    "pt5-m-sysp-002",
+    "pt5-m-sysp-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q15"
+  },
+  {
+   "external_id": "bb-pt5-m-q17",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 17,
+   "skill": "MATH.ALG.LINF.SLOPE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "B",
+   "correct_answer": "A",
+   "summary": "The graph of y = f(x) + 19 has y-intercept 3 and negative slope; with positive constants c and d, which equation could define f?",
+   "lesson": "f's intercept = 3 - 19 = -16 (negative) and the slope is negative, so f(x) = -d - cx.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-m-lintr-001",
+    "pt5-m-lintr-002",
+    "pt5-m-lintr-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q17"
+  },
+  {
+   "external_id": "bb-pt5-m-q19",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 19,
+   "skill": "MATH.PSD.PCT.BASIC",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "15",
+   "correct_answer": "12",
+   "summary": "Increasing x by 400% gives 60.",
+   "lesson": "'Increase BY 400%' means multiply by 5, not by 4.",
+   "miss_reason": "misread",
+   "linked_practice_ids": [
+    "pt5-m-pct-001",
+    "pt5-m-pct-002",
+    "pt5-m-pct-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q19"
+  },
+  {
+   "external_id": "bb-pt5-m-q20",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 20,
+   "skill": "MATH.GEO.CIR.EQN",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "2*sqrt(102)",
+   "correct_answer": "sqrt(206)",
+   "summary": "Circle with center (h, k); point A = (h + 1, k + sqrt(102)) is on it; angle ACB is a right angle; find AB.",
+   "lesson": "r = sqrt(1 + 102) = sqrt(103); a central right angle gives chord AB = r*sqrt(2) = sqrt(206).",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-m-circ-001",
+    "pt5-m-circ-002",
+    "pt5-m-circ-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q20"
+  },
+  {
+   "external_id": "bb-pt5-m-q21",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 21,
+   "skill": "MATH.GEO.AV.SCALE",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "41760",
+   "correct_answer": "4176",
+   "summary": "Two adjacent squares with sides in ratio 3 : 1; flux is proportional to area; total flux 4640; find the flux through the larger square.",
+   "lesson": "Areas are 9 : 1, so the larger square gets 9/10 of the total. I multiplied by 9 instead of 9/10.",
+   "miss_reason": "careless",
+   "linked_practice_ids": [
+    "pt5-m-scale-001",
+    "pt5-m-scale-002",
+    "pt5-m-scale-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q21"
+  },
+  {
+   "external_id": "bb-pt5-m-q22",
+   "section": "MATH",
+   "module": 0,
+   "question_number": 22,
+   "skill": "MATH.PSD.TWOVAR.FIT",
+   "difficulty": "medium",
+   "result": "incorrect",
+   "my_answer": "D",
+   "correct_answer": "A",
+   "summary": "Line of best fit for data set E (intercept about 12, slope about 1.5); data set F multiplies every y-value by 3.9.",
+   "lesson": "A vertical scale multiplies BOTH the intercept and the slope by 3.9. Choice D was E's own line.",
+   "miss_reason": "concept",
+   "linked_practice_ids": [
+    "pt5-m-scat-001",
+    "pt5-m-scat-002",
+    "pt5-m-scat-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 → Math Q22"
+  },
+  {
+   "external_id": "bb-pt5-ref-impending",
+   "section": "RW",
+   "module": 0,
+   "question_number": 0,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "guessed",
+   "my_answer": "impending",
+   "correct_answer": "impending",
+   "summary": "Words in Context: the key was 'impending' (distractors: antecedent, innocuous, perpetual). Answered right by guessing.",
+   "lesson": "impending = about to happen (usually something bad). antecedent = coming before; innocuous = harmless; perpetual = never ending.",
+   "miss_reason": "guess",
+   "linked_practice_ids": [
+    "pt5-rw-wic-003"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 (Reading and Writing)"
+  },
+  {
+   "external_id": "bb-pt5-ref-overtly",
+   "section": "RW",
+   "module": 0,
+   "question_number": 0,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "guessed",
+   "my_answer": "overtly",
+   "correct_answer": "overtly",
+   "summary": "Words in Context: the key was 'overtly' (distractors: prudently, cordially, inadvertently). Answered right by guessing.",
+   "lesson": "overtly = openly, not hidden. prudently = carefully, wisely; cordially = in a warm, friendly way; inadvertently = by accident.",
+   "miss_reason": "guess",
+   "linked_practice_ids": [
+    "pt5-rw-wic-004"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 (Reading and Writing)"
+  },
+  {
+   "external_id": "bb-pt5-ref-exactitude",
+   "section": "RW",
+   "module": 0,
+   "question_number": 0,
+   "skill": "RW.CAS.WIC.FILL",
+   "difficulty": "medium",
+   "result": "guessed",
+   "my_answer": "exactitude",
+   "correct_answer": "exactitude",
+   "summary": "Words in Context: the key was 'exactitude' (distractors: precariousness, resilience, inconspicuousness). Answered right by guessing.",
+   "lesson": "exactitude = great precision. precariousness = being unstable or unsafe; resilience = ability to recover; inconspicuousness = being hard to notice.",
+   "miss_reason": "guess",
+   "linked_practice_ids": [
+    "pt5-rw-wic-009"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 (Reading and Writing)"
+  },
+  {
+   "external_id": "bb-pt5-ref-insodoing",
+   "section": "RW",
+   "module": 0,
+   "question_number": 0,
+   "skill": "RW.EOI.TRN.CONT",
+   "difficulty": "medium",
+   "result": "guessed",
+   "my_answer": "In so doing",
+   "correct_answer": "In so doing",
+   "summary": "Transition: the key was 'In so doing' (distractors: Conversely, For instance, In particular). Answered right by guessing.",
+   "lesson": "'In so doing' = by doing that: sentence 2 states what an action in sentence 1 achieved (method -> result).",
+   "miss_reason": "guess",
+   "linked_practice_ids": [
+    "pt5-rw-trans-030"
+   ],
+   "where_to_review": "Bluebook → My Practice → Practice Test 5 (Reading and Writing)"
+  }
+ ]
+}

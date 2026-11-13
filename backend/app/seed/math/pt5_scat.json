@@ -1,0 +1,247 @@
+[
+ {
+  "id": "pt5-m-scat-001",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A scatterplot shows data set $E$. The line of best fit for data set $E$ is $y = 2x + 5$. Data set $F$ is made by multiplying the $y$-coordinate of each point in data set $E$ by 3. The $x$-coordinates do not change. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = 2x + 15$",
+   "$y = 6x + 5$",
+   "$y = 6x + 15$",
+   "$y = 2x + 5$"
+  ],
+  "values": [
+   "2*x + 15",
+   "6*x + 5",
+   "6*x + 15",
+   "2*x + 5"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Multiplied only the intercept. Every $y$-value is tripled, so the slope triples too.",
+   "B": "Multiplied only the slope. The intercept is a $y$-value as well, so it triples too.",
+   "C": "Correct. Every $y$ becomes $3y$, so the whole line becomes $y = 3(2x + 5) = 6x + 15$.",
+   "D": "That's the line for data set $E$. Changing every $y$-value changes the line."
+  },
+  "check": "3*(2*x + 5)",
+  "explanation": [
+   "Each new point is $(x, 3y)$, so the new line is $3$ times the old one.",
+   "$y = 3(2x + 5) = 6x + 15$.",
+   "Both the slope and the intercept are multiplied by 3.",
+   "Desmos way: graph $y = 2x + 5$ and $y = 3(2x + 5)$; the second one is the stretched line."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-002",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The line of best fit for data set $E$ is $y = \\frac{3}{4}x + 10$. Data set $F$ is made by adding 6 to the $y$-coordinate of each point in data set $E$. The $x$-coordinates do not change. Based on the line of best fit for data set $F$, what is the predicted $y$-value when $x = 8$?",
+  "check": "Rational(3, 4)*8 + 10 + 6",
+  "spr_answers": [
+   "22"
+  ],
+  "spr_entries": [
+   "22"
+  ],
+  "explanation": [
+   "Adding 6 to every $y$ moves the line up by 6. The slope stays the same.",
+   "Line for $F$: $y = \\frac{3}{4}x + 16$.",
+   "At $x = 8$: $\\frac{3}{4}(8) + 16 = 6 + 16 = 22$."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-003",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set $E$ is $y = 1.5x + 12$. Data set $F$ is made by multiplying the $y$-coordinate of each point in data set $E$ by $3.9$. The $x$-coordinates do not change. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = 5.85x + 46.8$",
+   "$y = 1.5x + 46.8$",
+   "$y = 5.85x + 12$",
+   "$y = 1.5x + 12$"
+  ],
+  "values": [
+   "117/20*x + 234/5",
+   "3/2*x + 234/5",
+   "117/20*x + 12",
+   "3/2*x + 12"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $3.9(1.5x + 12) = 5.85x + 46.8$: both the slope and the intercept are multiplied by $3.9$.",
+   "B": "Multiplied only the intercept. A vertical stretch also makes the line $3.9$ times as steep.",
+   "C": "Multiplied only the slope. The intercept is the $y$-value at $x = 0$, so it is multiplied too.",
+   "D": "That's the line for data set $E$, unchanged."
+  },
+  "check": "39/10*(3/2*x + 12)",
+  "explanation": [
+   "Each point $(x, y)$ becomes $(x, 3.9y)$.",
+   "So the new line is $y = 3.9(1.5x + 12)$.",
+   "$3.9 \\cdot 1.5 = 5.85$ and $3.9 \\cdot 12 = 46.8$.",
+   "Desmos way: type $y = 3.9(1.5x + 12)$ and compare its slope and intercept with each choice."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-004",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set $E$ is $y = -0.4x + 30$. Data set $F$ is made by multiplying the $x$-coordinate of each point in data set $E$ by 4. The $y$-coordinates do not change. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = -1.6x + 30$",
+   "$y = -1.6x + 120$",
+   "$y = -0.4x + 30$",
+   "$y = -0.1x + 30$"
+  ],
+  "values": [
+   "-8/5*x + 30",
+   "-8/5*x + 120",
+   "-2/5*x + 30",
+   "-1/10*x + 30"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Multiplied the slope by 4. Stretching sideways makes the line less steep, so the slope is divided by 4.",
+   "B": "Treated it like a vertical stretch. Only $x$ changes, so the intercept 30 stays and the slope is divided by 4.",
+   "C": "That's the line for data set $E$. Moving every point sideways changes the slope.",
+   "D": "Correct. Replace $x$ with $\\frac{x}{4}$: $y = -0.4 \\cdot \\frac{x}{4} + 30 = -0.1x + 30$."
+  },
+  "check": "-2/5*(x/4) + 30",
+  "explanation": [
+   "Each point $(x, y)$ becomes $(4x, y)$: the same rise over 4 times the run.",
+   "So the new line is $y = -0.4\\left(\\frac{x}{4}\\right) + 30$.",
+   "Slope $-0.4 / 4 = -0.1$. The point at $x = 0$ stays at $x = 0$, so the intercept stays 30.",
+   "Desmos way: graph $y = -0.4(x/4) + 30$; it crosses the $y$-axis at 30 and is flatter."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-005",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The line of best fit for data set $E$ is $y = \\frac{5}{2}x + 8$. Data set $F$ is made by multiplying the $y$-coordinate of each point in data set $E$ by $\\frac{6}{5}$. The $x$-coordinates do not change. Based on the line of best fit for data set $F$, what is the predicted $y$-value when $x = 4$?",
+  "check": "Rational(6, 5)*(Rational(5, 2)*4 + 8)",
+  "spr_answers": [
+   "108/5"
+  ],
+  "spr_entries": [
+   "108/5",
+   "21.6"
+  ],
+  "explanation": [
+   "Line for $F$: $y = \\frac{6}{5}\\left(\\frac{5}{2}x + 8\\right) = 3x + \\frac{48}{5}$.",
+   "At $x = 4$: $3(4) + \\frac{48}{5} = 12 + 9.6 = 21.6$.",
+   "Faster: E predicts $\\frac{5}{2}(4) + 8 = 18$, and F's value is $\\frac{6}{5} \\cdot 18 = 21.6$.",
+   "Trap: multiplying only the slope gives $3(4) + 8 = 20$."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-006",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set $E$ is $y = 1.4x + 3.5$. Data set $F$ is made from data set $E$ in two steps: first the $y$-coordinate of each point is multiplied by 2, and then 5 is added to it. The $x$-coordinates do not change. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = 2.8x + 17$",
+   "$y = 2.8x + 12$",
+   "$y = 2.8x + 7$",
+   "$y = 1.4x + 3.5$"
+  ],
+  "values": [
+   "14/5*x + 17",
+   "14/5*x + 12",
+   "14/5*x + 7",
+   "7/5*x + 7/2"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Wrong order: $2(3.5 + 5) = 17$ adds 5 before doubling. Here the doubling comes first.",
+   "B": "Correct. $2(1.4x + 3.5) + 5 = 2.8x + 7 + 5 = 2.8x + 12$.",
+   "C": "Did only the first step. Adding 5 to every $y$ raises the intercept by 5.",
+   "D": "That's the line for data set $E$, before either step."
+  },
+  "check": "2*(7/5*x + 7/2) + 5",
+  "explanation": [
+   "Step 1: doubling every $y$ gives $y = 2(1.4x + 3.5) = 2.8x + 7$.",
+   "Step 2: adding 5 to every $y$ moves the line up: $y = 2.8x + 12$.",
+   "The slope is changed only by the multiplication; the added 5 changes only the intercept.",
+   "Desmos way: graph $y = 2(1.4x + 3.5) + 5$ and read the intercept 12."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-007",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set $E$ is $y = \\frac{4}{3}x + 5$. Data set $F$ is made by multiplying the $x$-coordinate of each point in data set $E$ by 2 and the $y$-coordinate of each point by 3. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = 2x + 15$",
+   "$y = 8x + 15$",
+   "$y = 4x + 15$",
+   "$y = \\frac{4}{3}x + 5$"
+  ],
+  "values": [
+   "2*x + 15",
+   "8*x + 15",
+   "4*x + 15",
+   "4/3*x + 5"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $y = 3\\left(\\frac{4}{3} \\cdot \\frac{x}{2} + 5\\right) = 2x + 15$: the slope is multiplied by 3 and divided by 2.",
+   "B": "Multiplied the slope by both 2 and 3. Stretching $x$ divides the slope by 2.",
+   "C": "Ignored the change in $x$. Multiplying every $x$ by 2 halves the slope: $4 / 2 = 2$.",
+   "D": "That's the line for data set $E$, unchanged."
+  },
+  "check": "3*(4/3*(x/2) + 5)",
+  "explanation": [
+   "A point $(x, y)$ becomes $(2x, 3y)$.",
+   "The $y$ change multiplies the slope and the intercept by 3: $4x + 15$.",
+   "The $x$ change divides the slope by 2 and leaves the intercept: $2x + 15$.",
+   "Desmos way: graph $y = 3\\left(\\frac{4}{3} \\cdot \\frac{x}{2} + 5\\right)$; it passes through $(0, 15)$ and $(1, 17)$."
+  ]
+ },
+ {
+  "id": "pt5-m-scat-008",
+  "modeled_on": "bb-pt5-m-q22",
+  "skill": "MATH.PSD.TWOVAR.FIT",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The line of best fit for data set $E$ is $y = 0.6x + 2.5$. Data set $F$ is made by adding $1.75$ to the $y$-coordinate of each point in data set $E$. The $x$-coordinates do not change. Which equation best represents the line of best fit for data set $F$?",
+  "choices": [
+   "$y = 2.35x + 4.25$",
+   "$y = 1.05x + 4.375$",
+   "$y = 0.6x + 4.25$",
+   "$y = 0.6x + 2.5$"
+  ],
+  "values": [
+   "47/20*x + 17/4",
+   "21/20*x + 35/8",
+   "3/5*x + 17/4",
+   "3/5*x + 5/2"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Added $1.75$ to the slope too. Moving every point up by the same amount keeps the steepness.",
+   "B": "Multiplied by $1.75$ instead of adding $1.75$. Only multiplication changes the slope.",
+   "C": "Correct. Every point moves up $1.75$, so the line moves up $1.75$: $y = 0.6x + 4.25$.",
+   "D": "That's the line for data set $E$. Every $y$-value is now $1.75$ larger."
+  },
+  "check": "3/5*x + 5/2 + 7/4",
+  "explanation": [
+   "Each point $(x, y)$ becomes $(x, y + 1.75)$: a shift up.",
+   "A shift up changes only the intercept: $2.5 + 1.75 = 4.25$.",
+   "The slope stays $0.6$, so $y = 0.6x + 4.25$."
+  ]
+ }
+]

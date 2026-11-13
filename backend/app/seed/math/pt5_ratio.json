@@ -1,0 +1,351 @@
+[
+ {
+  "id": "pt5-m-ratio-001",
+  "skill": "MATH.PSD.RAT.PROP",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A bag contains only red and blue marbles. The ratio of red marbles to blue marbles is $3$ to $5$. If there are $80$ marbles in the bag, how many are red?",
+  "choices": [
+   "$48$",
+   "$30$",
+   "$50$",
+   "$10$"
+  ],
+  "values": [
+   "48",
+   "30",
+   "50",
+   "10"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Part-to-part trap: $\\frac{3}{5}$ compares red to blue. Red is $\\frac{3}{8}$ of all marbles.",
+   "B": "Correct. There are $3 + 5 = 8$ parts, so red is $\\frac{3}{8} \\cdot 80 = 30$.",
+   "C": "That is the number of blue marbles, $\\frac{5}{8} \\cdot 80$.",
+   "D": "That is one part, $80 \\div 8$. Red is 3 parts."
+  },
+  "check": "Rational(3, 3 + 5)*80",
+  "explanation": [
+   "'3 to 5' compares red to blue. Total parts: $3 + 5 = 8$.",
+   "One part: $80 \\div 8 = 10$ marbles.",
+   "Red is 3 parts: $3 \\cdot 10 = 30$."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-002",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The table shows how many students in two grades play a musical instrument. If a student who plays an instrument is selected at random, what is the probability that the student is in 11th grade?",
+  "figure": {
+   "kind": "table",
+   "title": "Students who play an instrument",
+   "header": [
+    "Grade",
+    "Plays",
+    "Does not play",
+    "Total"
+   ],
+   "rows": [
+    [
+     "10th",
+     "18",
+     "32",
+     "50"
+    ],
+    [
+     "11th",
+     "27",
+     "23",
+     "50"
+    ],
+    [
+     "Total",
+     "45",
+     "55",
+     "100"
+    ]
+   ]
+  },
+  "check": "Rational(27, 45)",
+  "spr_answers": [
+   "3/5"
+  ],
+  "spr_entries": [
+   "3/5",
+   ".6",
+   "0.6"
+  ],
+  "explanation": [
+   "'Who plays an instrument' sets the group: the denominator is the 'Plays' total, $45$.",
+   "11th graders who play: $27$.",
+   "Probability: $\\frac{27}{45} = \\frac{3}{5}$.",
+   "Trap: $\\frac{27}{50}$ uses the 11th-grade total, and $\\frac{27}{100}$ uses everyone."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-003",
+  "skill": "MATH.PSD.RAT.PROP",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A garden has only tulips and daffodils. The ratio of tulips to daffodils is $3$ to $5$, and there are $96$ flowers in total. How many more daffodils than tulips are in the garden?",
+  "check": "96/(3 + 5)*(5 - 3)",
+  "spr_answers": [
+   "24"
+  ],
+  "spr_entries": [
+   "24"
+  ],
+  "explanation": [
+   "Total parts: $3 + 5 = 8$, so one part is $96 \\div 8 = 12$ flowers.",
+   "Tulips: $3 \\cdot 12 = 36$. Daffodils: $5 \\cdot 12 = 60$.",
+   "Difference: $60 - 36 = 24$.",
+   "Trap: '3 to 5' does not mean tulips are $\\frac{3}{5}$ of $96$."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-004",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The table shows the preferred session of the participants at a workshop, by age group. A participant is selected at random from those who prefer the morning session. What is the probability that this participant is 40 or over?",
+  "figure": {
+   "kind": "table",
+   "title": "Preferred workshop session",
+   "header": [
+    "Age group",
+    "Morning",
+    "Evening",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Under 40",
+     "24",
+     "56",
+     "80"
+    ],
+    [
+     "40 and over",
+     "36",
+     "34",
+     "70"
+    ],
+    [
+     "Total",
+     "60",
+     "90",
+     "150"
+    ]
+   ]
+  },
+  "choices": [
+   "$\\frac{18}{35}$",
+   "$\\frac{6}{25}$",
+   "$\\frac{2}{5}$",
+   "$\\frac{3}{5}$"
+  ],
+  "values": [
+   "18/35",
+   "6/25",
+   "2/5",
+   "3/5"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Wrong denominator: $\\frac{36}{70}$ uses the '40 and over' total. The group is the morning participants.",
+   "B": "Wrong denominator: $\\frac{36}{150}$ uses all participants. The group is only the morning participants.",
+   "C": "Wrong cell: $\\frac{24}{60}$ is the probability of being under 40.",
+   "D": "Correct. Of the $60$ morning participants, $36$ are 40 or over: $\\frac{36}{60} = \\frac{3}{5}$."
+  },
+  "check": "Rational(36, 60)",
+  "explanation": [
+   "'From those who prefer the morning' sets the denominator: the Morning total, $60$.",
+   "Morning and 40 or over: $36$.",
+   "Probability: $\\frac{36}{60} = \\frac{3}{5}$."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-005",
+  "skill": "MATH.PSD.RAT.PROP",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A cleaning solution is made by mixing concentrate and water in a ratio of $2$ to $9$ by volume. How many milliliters of concentrate are in $1{,}980$ milliliters of this solution?",
+  "choices": [
+   "$360$",
+   "$440$",
+   "$1{,}620$",
+   "$180$"
+  ],
+  "values": [
+   "360",
+   "440",
+   "1620",
+   "180"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. There are $2 + 9 = 11$ parts; concentrate is $\\frac{2}{11} \\cdot 1{,}980 = 360$ mL.",
+   "B": "Part-to-part trap: $\\frac{2}{9}$ compares concentrate to water. Concentrate is $\\frac{2}{11}$ of the solution.",
+   "C": "That is the water, $\\frac{9}{11} \\cdot 1{,}980$.",
+   "D": "That is one part, $1{,}980 \\div 11$. Concentrate is 2 parts."
+  },
+  "check": "Rational(2, 2 + 9)*1980",
+  "explanation": [
+   "Total parts: $2 + 9 = 11$.",
+   "One part: $1{,}980 \\div 11 = 180$ mL.",
+   "Concentrate is 2 parts: $2 \\cdot 180 = 360$ mL."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-006",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The table shows how the employees of a company travel to work, by office. If an employee who does not travel by car is selected at random, what is the probability that the employee works at the South office?",
+  "figure": {
+   "kind": "table",
+   "title": "How employees travel to work",
+   "header": [
+    "Office",
+    "Bus",
+    "Bicycle",
+    "Car",
+    "Total"
+   ],
+   "rows": [
+    [
+     "North",
+     "30",
+     "18",
+     "42",
+     "90"
+    ],
+    [
+     "South",
+     "45",
+     "12",
+     "53",
+     "110"
+    ],
+    [
+     "Total",
+     "75",
+     "30",
+     "95",
+     "200"
+    ]
+   ]
+  },
+  "check": "Rational(45 + 12, 75 + 30)",
+  "spr_answers": [
+   "19/35"
+  ],
+  "spr_entries": [
+   "19/35",
+   ".5428",
+   ".5429"
+  ],
+  "explanation": [
+   "'Does not travel by car' sets the group: Bus + Bicycle $= 75 + 30 = 105$ employees.",
+   "South employees in that group: $45 + 12 = 57$.",
+   "Probability: $\\frac{57}{105} = \\frac{19}{35}$.",
+   "Trap: dividing by the South total ($110$) or by everyone ($200$) answers a different question."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-007",
+  "skill": "MATH.PSD.RAT.PROP",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "On a sports team, the ratio of boys to girls is $4$ to $7$. There are $15$ more girls than boys on the team. How many players are on the team?",
+  "choices": [
+   "$35$",
+   "$165$",
+   "$55$",
+   "$105$"
+  ],
+  "values": [
+   "35",
+   "165",
+   "55",
+   "105"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That is the number of girls, $7 \\cdot 5$, not the whole team.",
+   "B": "One-part trap: $15$ is the difference, which is $7 - 4 = 3$ parts, not one part.",
+   "C": "Correct. The difference is $3$ parts $= 15$, so one part is $5$ and the team is $11 \\cdot 5 = 55$.",
+   "D": "You multiplied $15$ by $7$. The $15$ is 3 parts, so one part is $5$."
+  },
+  "check": "15/(7 - 4)*(4 + 7)",
+  "explanation": [
+   "Girls minus boys is $7 - 4 = 3$ parts, and that is $15$ players.",
+   "One part: $15 \\div 3 = 5$.",
+   "Whole team: $4 + 7 = 11$ parts, so $11 \\cdot 5 = 55$."
+  ]
+ },
+ {
+  "id": "pt5-m-ratio-008",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The table shows the results of a screening test for 200 people. Given that a person tested positive, what is the probability that the person does not have the condition?",
+  "figure": {
+   "kind": "table",
+   "title": "Results of a screening test",
+   "header": [
+    "Group",
+    "Positive",
+    "Negative",
+    "Total"
+   ],
+   "rows": [
+    [
+     "Has the condition",
+     "46",
+     "4",
+     "50"
+    ],
+    [
+     "Does not have the condition",
+     "19",
+     "131",
+     "150"
+    ],
+    [
+     "Total",
+     "65",
+     "135",
+     "200"
+    ]
+   ]
+  },
+  "choices": [
+   "$\\frac{19}{150}$",
+   "$\\frac{19}{65}$",
+   "$\\frac{19}{200}$",
+   "$\\frac{46}{65}$"
+  ],
+  "values": [
+   "19/150",
+   "19/65",
+   "19/200",
+   "46/65"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Reversed condition: $\\frac{19}{150}$ is the probability of a positive test given no condition.",
+   "B": "Correct. Of the $65$ positive tests, $19$ are people without the condition: $\\frac{19}{65}$.",
+   "C": "Wrong denominator: $\\frac{19}{200}$ uses all 200 people. 'Given positive' limits the group to $65$.",
+   "D": "Wrong cell: $\\frac{46}{65}$ is the probability that a positive person has the condition."
+  },
+  "check": "Rational(19, 65)",
+  "explanation": [
+   "'Given that a person tested positive' sets the denominator: the Positive total, $65$.",
+   "Positive and no condition: $19$.",
+   "Probability: $\\frac{19}{65}$.",
+   "Check the direction: 'given A, probability of B' divides by A's total."
+  ]
+ }
+]

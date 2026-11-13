@@ -1,0 +1,404 @@
+[
+  {
+    "id": "pt5-rw-trans-001",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "medium",
+    "topic": "drone wings: flapping to fixed",
+    "fictional": true,
+    "passage": "For years, engineers at the Tarvik Institute tried to build drones with flapping wings like a bird's, but every prototype crashed in gusty wind. In 2019, the team finally concluded that rigid wings handle sudden gusts far better than flapping ones. ______ the institute shifted its research toward fixed-wing gliders, and its next three designs all used stiff carbon-fiber wings.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "Consequently,", "For example,", "Regardless,"],
+    "answer": "B",
+    "explanation": "The team learned that rigid wings work better, so it changed its research. The new direction is a result of the lesson, which 'Consequently' signals.",
+    "steps": [
+      "Sentence before: the team concluded that rigid wings handle gusts better.",
+      "Sentence after: the institute moved to fixed-wing designs.",
+      "Ask: did the change happen because of the conclusion? Yes, so the relationship is result.",
+      "Only 'Consequently' signals a result."
+    ],
+    "strategy_tip": "If you can put 'because of this' in the blank, choose a result word: Consequently, Hence, Accordingly, Thus.",
+    "rationales": {
+      "A": "Signals contrast: The move to fixed wings agrees with the team's conclusion; it does not go against it.",
+      "B": "Correct. The change of research direction is a result of the lesson the team learned.",
+      "C": "Signals an example: The new research direction is not one example of the conclusion; it is what the team did because of it.",
+      "D": "Signals disregard: 'Regardless' means the action ignored the previous point, but the institute changed direction because of the conclusion."
+    },
+    "traps": {"A": "signals contrast", "C": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-002",
+    "modeled_on": "bb-pt5-rw-b-q23",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "medium",
+    "topic": "stone houses vs. raised wooden houses",
+    "fictional": true,
+    "passage": "In the mountain villages of the Oren Valley, families traditionally build houses from thick stone, which keeps rooms cool in summer and warm in winter. ______ families on the valley's coastal plain build light wooden houses raised on posts, so that sea breezes can flow underneath and floodwater can pass without causing damage.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["For instance,", "Similarly,", "In contrast,", "Therefore,"],
+    "answer": "C",
+    "explanation": "The text compares two places with opposite building styles: heavy stone in the mountains and light wood on the coast. 'In contrast' signals this opposite case.",
+    "steps": [
+      "Case 1: mountain families build with thick stone.",
+      "Case 2: coastal families build with light wood on posts.",
+      "Two different groups doing opposite things = contrast between two cases.",
+      "Choose 'In contrast.'"
+    ],
+    "strategy_tip": "When sentence 2 describes a different group that does the opposite, use In contrast or Conversely, not an example word.",
+    "rationales": {
+      "A": "Signals an example: Coastal wooden houses are not an example of mountain stone houses; they are a different, opposite case.",
+      "B": "Signals similarity: Light wooden houses on posts are the opposite of thick stone houses, not similar to them.",
+      "C": "Correct. The coastal houses are set against the mountain houses as an opposite case.",
+      "D": "Signals a result: Stone houses in the mountains do not cause people on the coast to build with wood."
+    },
+    "traps": {"A": "signals an example", "B": "signals similarity", "D": "signals a result"}
+  },
+  {
+    "id": "pt5-rw-trans-003",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "medium",
+    "topic": "a desert vine with a water-storing root",
+    "fictional": true,
+    "passage": "Many desert plants survive long dry periods by storing water in unusual parts of their bodies. ______ the Kessa vine of the Ralu Desert keeps most of its water in a swollen underground root that can weigh more than ten kilograms.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["For instance,", "In other words,", "Thus,", "In contrast,"],
+    "answer": "A",
+    "explanation": "Sentence 1 makes a general claim about many plants. Sentence 2 describes one plant that fits the claim, so it is an example.",
+    "steps": [
+      "Sentence 1: a general claim about MANY desert plants.",
+      "Sentence 2: ONE plant that stores water in its root.",
+      "One case of a general group = example.",
+      "Choose 'For instance.'"
+    ],
+    "strategy_tip": "General claim about many things, then one named case: use For instance or For example.",
+    "rationales": {
+      "A": "Correct. The Kessa vine is one example of a desert plant that stores water in an unusual place.",
+      "B": "Signals a restatement: Sentence 2 does not say the first idea again in other words; it describes one specific plant.",
+      "C": "Signals a result: The vine's root is not caused by the fact that many plants store water.",
+      "D": "Signals contrast: The vine fits the general claim; it does not go against it."
+    },
+    "traps": {"B": "signals a restatement", "C": "signals a result", "D": "signals contrast"}
+  },
+  {
+    "id": "pt5-rw-trans-004",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "medium",
+    "topic": "a market that loses money in winter",
+    "fictional": true,
+    "passage": "The Brindle Street Market loses money every winter, when cold weather keeps most shoppers at home and several vendors close their stalls. ______ the city council voted to keep funding the market all year, arguing that its summer profits more than cover the winter losses.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Therefore,", "For example,", "In other words,", "Nevertheless,"],
+    "answer": "D",
+    "explanation": "Winter losses are a reason to stop funding, but the council kept funding anyway. 'Nevertheless' signals an action taken despite the previous fact.",
+    "steps": [
+      "Sentence 1: the market loses money in winter (a reason to stop).",
+      "Sentence 2: the council keeps funding it.",
+      "The council acts despite the losses = concession.",
+      "Choose 'Nevertheless.'"
+    ],
+    "strategy_tip": "If you can put 'despite this' in the blank, choose Nevertheless, Still, or Even so.",
+    "rationales": {
+      "A": "Signals a result: Losing money would be a reason to stop funding the market, not a reason to keep funding it.",
+      "B": "Signals an example: The council's vote is not an example of the market losing money.",
+      "C": "Signals a restatement: The vote does not repeat the idea of winter losses; it is a new event.",
+      "D": "Correct. The council kept funding the market despite the winter losses."
+    },
+    "traps": {"A": "signals a result", "B": "signals an example", "C": "signals a restatement"}
+  },
+  {
+    "id": "pt5-rw-trans-005",
+    "modeled_on": "bb-pt5-rw-b-q24",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "peeling pine bark mistaken for disease",
+    "fictional": true,
+    "passage": "The bark of the Hollis pine peels away in long, papery strips each spring, and the strips often hang from the trunk for weeks. To a passing hiker, the tree looks as though it is dying. ______ many visitors to Carrow National Park wrongly report these healthy pines to rangers as diseased, even though shedding bark is a normal part of the tree's growth.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Hence,", "However,", "For example,", "Regardless,"],
+    "answer": "A",
+    "explanation": "The tree looks like it is dying, so visitors report it as sick. Their mistake is a result of how the tree looks, which 'Hence' signals.",
+    "steps": [
+      "Sentence before: the tree LOOKS like it is dying.",
+      "Sentence after: visitors wrongly report it as diseased.",
+      "Why do they report it? Because of how it looks. That is a result.",
+      "'Wrongly' describes the visitors' mistake; it is not a contrast with sentence 2.",
+      "Choose 'Hence.'"
+    ],
+    "strategy_tip": "'People wrongly think X' after 'it looks like X' is a result, not a contrast: use Hence or Thus.",
+    "rationales": {
+      "A": "Correct. The false reports are a result of the tree's dying appearance.",
+      "B": "Signals contrast: The reports agree with how the tree looks; 'wrongly' shows the visitors' mistake, not a contrast with the previous sentence.",
+      "C": "Signals an example: The reports are not an example of the tree looking sick; they are a consequence of it.",
+      "D": "Signals disregard: Visitors report the pines because they look sick, not without considering how they look."
+    },
+    "traps": {"B": "signals contrast", "C": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-006",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a clockmaker's glass pendulum rod",
+    "fictional": true,
+    "passage": "In 1874, the clockmaker Ilka Brann of Velsby made one change to the pendulum clock that greatly improved its accuracy. ______ she replaced the clock's brass pendulum rod with one made of glass, a material that barely expands or shrinks as the temperature of a room changes.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "For example,", "Specifically,", "Regardless,"],
+    "answer": "C",
+    "explanation": "Sentence 1 mentions 'one change' without saying what it was. Sentence 2 states exactly what the change was, so it gives the specific detail.",
+    "steps": [
+      "Sentence 1: Brann made ONE change (general, no detail).",
+      "Sentence 2: the exact change, a glass rod instead of brass.",
+      "There is only one change, so sentence 2 is not an example from a list; it is the detail itself.",
+      "Choose 'Specifically.'"
+    ],
+    "strategy_tip": "Vague claim, then the exact detail of that same claim: use Specifically or In particular.",
+    "rationales": {
+      "A": "Signals contrast: The glass rod does not go against the claim about an improvement; it describes that improvement.",
+      "B": "Signals an example: Sentence 1 mentions only one change, so sentence 2 is not one example among several; it states exactly what that change was.",
+      "C": "Correct. Sentence 2 gives the exact detail of the 'one change' named in sentence 1.",
+      "D": "Signals disregard: Sentence 2 does not ignore sentence 1; it explains it in detail."
+    },
+    "traps": {"A": "signals contrast", "B": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-007",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "faded paper fans and museum lighting",
+    "fictional": true,
+    "passage": "When the Pellam Museum first displayed its collection of nineteenth-century paper fans, curators used the same bright lights as in the rest of the building. Within two years, the painted colors on several fans had visibly faded, teaching the staff that delicate paper needs far less light than stone or metal does. ______ the museum now shows each fan for only three months at a time, in a room kept at one-tenth of the usual light level.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "For example,", "Regardless,", "Accordingly,"],
+    "answer": "D",
+    "explanation": "The staff learned that paper needs less light, so the museum changed how it shows the fans. The new rule is a consequence of the lesson, which 'Accordingly' signals.",
+    "steps": [
+      "Sentence before: the staff learned a lesson (paper needs less light).",
+      "Sentence after: the museum changed its display rules.",
+      "The change happened because of the lesson = result.",
+      "Choose 'Accordingly.'"
+    ],
+    "strategy_tip": "Lesson learned, then a change in behavior: that is a consequence, so use Accordingly, Hence, or Therefore.",
+    "rationales": {
+      "A": "Signals contrast: Dimmer, shorter displays follow from the lesson about light; they do not go against it.",
+      "B": "Signals an example: The new display rule is not an example of the lesson; it is the action the museum took because of the lesson.",
+      "C": "Signals disregard: The museum changed its rules because of what it learned, not without considering it.",
+      "D": "Correct. The new display rule is a consequence of the lesson the staff learned."
+    },
+    "traps": {"A": "signals contrast", "B": "signals an example", "C": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-008",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "critics single out a novel's harbor scenes",
+    "fictional": true,
+    "passage": "Reviewers of Teodor Malek's novel about a fishing town on a cold northern coast praised its realistic setting. ______ several critics singled out the book's descriptions of the harbor at dawn, which they said captured the smell of tar and the sound of the boats more vividly than any photograph could.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["On the other hand,", "In particular,", "Thus,", "Similarly,"],
+    "answer": "B",
+    "explanation": "Sentence 1 gives general praise for the setting. Sentence 2 focuses on one part of that same praise, the harbor scenes, which 'In particular' signals.",
+    "steps": [
+      "Sentence 1: reviewers praised the setting (general).",
+      "Sentence 2: critics singled out one part of the setting, the harbor at dawn.",
+      "Same praise, narrowed to one detail = elaboration.",
+      "Choose 'In particular.'"
+    ],
+    "strategy_tip": "'Singled out' or 'especially' after a general statement points to In particular.",
+    "rationales": {
+      "A": "Signals contrast: The praise for the harbor scenes agrees with the praise for the setting; there is no opposing view.",
+      "B": "Correct. Sentence 2 narrows the general praise to one part of the setting.",
+      "C": "Signals a result: Praise for the harbor scenes is not caused by praise for the setting; it is part of that praise.",
+      "D": "Signals similarity: The harbor praise is not a separate, similar case; it is a closer look at the same praise."
+    },
+    "traps": {"A": "signals contrast", "C": "signals a result", "D": "signals similarity"}
+  },
+  {
+    "id": "pt5-rw-trans-009",
+    "modeled_on": "bb-pt5-rw-b-q24",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a blind cave beetle misclassified",
+    "fictional": true,
+    "passage": "The Ferrow cave beetle has no working eyes, yet it moves through total darkness with ease, sensing walls through long hairs on its legs. Because its movements look so confident, early cave explorers believed that it could see. ______ the beetle was wrongly grouped with sighted ground beetles for nearly forty years, until a study in 1962 showed that its eyes had no nerve connections.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["However,", "For example,", "Thus,", "Regardless,"],
+    "answer": "C",
+    "explanation": "The explorers believed the beetle could see, so they grouped it with sighted beetles. The wrong grouping is a result of that belief, which 'Thus' signals.",
+    "steps": [
+      "Sentence before: explorers believed the beetle could see.",
+      "Sentence after: it was grouped with sighted beetles.",
+      "The grouping came from the belief = result.",
+      "'Wrongly' sounds negative, but it describes a mistake that the belief caused.",
+      "Choose 'Thus.'"
+    ],
+    "strategy_tip": "Do not choose 'However' just because sentence 2 sounds negative; ask whether sentence 2 happened because of sentence 1.",
+    "rationales": {
+      "A": "Signals contrast: The wrong grouping follows from the explorers' belief; it does not go against it.",
+      "B": "Signals an example: The grouping is not an example of the explorers' belief; it is a consequence of it.",
+      "C": "Correct. The beetle was grouped with sighted beetles as a result of the belief that it could see.",
+      "D": "Signals disregard: The beetle was grouped this way because of the belief, not without considering it."
+    },
+    "traps": {"A": "signals contrast", "B": "signals an example", "D": "signals disregard"}
+  },
+  {
+    "id": "pt5-rw-trans-010",
+    "modeled_on": "bb-pt5-rw-a-q23",
+    "skill": "RW.EOI.TRN.CONT",
+    "difficulty": "hard",
+    "topic": "a swim team moves practice to afternoons",
+    "fictional": true,
+    "passage": "Coach Rhea Idowu says that her swim team's faster times this season came from a single change to its training schedule. ______ the swimmers stopped holding practices at 5:30 a.m. and moved every session to the late afternoon, so that they could sleep a full eight hours each night.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Specifically,", "However,", "Regardless,", "For example,"],
+    "answer": "A",
+    "explanation": "Sentence 1 mentions 'a single change' without naming it. Sentence 2 says exactly what that change was, so it gives the specific detail.",
+    "steps": [
+      "Sentence 1: ONE change to the schedule (no detail yet).",
+      "Sentence 2: the exact change, morning practice moved to the afternoon.",
+      "Only one change exists, so sentence 2 is not an example from a list.",
+      "Choose 'Specifically.'"
+    ],
+    "strategy_tip": "If sentence 1 says 'one change' or 'a single factor,' sentence 2 names it: use Specifically, not For example.",
+    "rationales": {
+      "A": "Correct. Sentence 2 names the exact change that sentence 1 mentions.",
+      "B": "Signals contrast: Moving practice to the afternoon does not go against the claim; it is the change the claim describes.",
+      "C": "Signals disregard: Sentence 2 does not ignore sentence 1; it explains it.",
+      "D": "Signals an example: There is only a single change, so sentence 2 is not one example among several."
+    },
+    "traps": {"B": "signals contrast", "C": "signals disregard", "D": "signals an example"}
+  },
+  {
+    "id": "pt5-rw-trans-011",
+    "modeled_on": "bb-pt5-rw-b-q23",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "hard",
+    "topic": "flat bus fares vs. distance fares",
+    "fictional": true,
+    "passage": "Economist Lena Varro studied how two kinds of bus fares affect riders. In cities with a single flat fare, she found, riders take many long trips, since crossing the whole city costs no more than going a few stops. ______ in cities that charge by distance, riders take mostly short trips, and many people drive when they need to cross town.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["For instance,", "Conversely,", "Hence,", "Specifically,"],
+    "answer": "B",
+    "explanation": "The text compares two fare systems with opposite effects: long trips under flat fares, short trips under distance fares. 'Conversely' signals the opposite case.",
+    "steps": [
+      "Case 1: flat fare, so riders take long trips.",
+      "Case 2: distance fare, so riders take short trips.",
+      "Two different systems with opposite results = contrast between two cases.",
+      "Choose 'Conversely.'"
+    ],
+    "strategy_tip": "When the text sets up 'two kinds' of something, the second one usually needs Conversely or In contrast.",
+    "rationales": {
+      "A": "Signals an example: Distance-fare cities are not an example of flat-fare cities; they are the opposite case with the opposite result.",
+      "B": "Correct. Distance-fare cities are the opposite case to flat-fare cities, with the opposite riding pattern.",
+      "C": "Signals a result: Riders in flat-fare cities do not cause riders elsewhere to take short trips.",
+      "D": "Signals a specific detail: Sentence 2 does not give more detail about flat-fare cities; it moves to a different system."
+    },
+    "traps": {"A": "signals an example", "C": "signals a result", "D": "signals a specific detail"}
+  },
+  {
+    "id": "pt5-rw-trans-012",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "hard",
+    "topic": "a cheap water filter that clogs",
+    "fictional": true,
+    "passage": "A new water filter designed by engineer Sabine Okafor removes over 99 percent of bacteria from river water and costs very little to produce, and early field tests in three villages were very successful. ______ the filter's cloth layer clogs after about two weeks of use, so families must replace it far more often than Okafor had hoped.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["In addition,", "Thus,", "For instance,", "That said,"],
+    "answer": "D",
+    "explanation": "Sentence 1 praises the filter. Sentence 2 adds a weakness that limits that praise. 'That said' introduces a limitation.",
+    "steps": [
+      "Sentence 1: strengths (cheap, effective, successful tests).",
+      "Sentence 2: a weakness (it clogs quickly).",
+      "Praise, then a limit on the praise = concession or limitation.",
+      "Choose 'That said.'"
+    ],
+    "strategy_tip": "Good news followed by a 'but there is a problem' sentence needs That said, Still, or Even so.",
+    "rationales": {
+      "A": "Signals addition: 'In addition' would add another strength, but the clogging is a weakness that limits the praise.",
+      "B": "Signals a result: The filter does not clog because the field tests were successful.",
+      "C": "Signals an example: The clogging is not an example of the filter's success.",
+      "D": "Correct. Sentence 2 introduces a limitation after the praise in sentence 1."
+    },
+    "traps": {"A": "signals addition", "B": "signals a result", "C": "signals an example"}
+  },
+  {
+    "id": "pt5-rw-trans-013",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "hard",
+    "topic": "a small port as the center of the wool trade",
+    "fictional": true,
+    "passage": "Historian Pavel Strand argues that the small port of Lisk, not the larger city of Doran, was the true center of the region's medieval wool trade. ______ Doran had more merchants and far more warehouses than Lisk did. But tax records show that most of the wool shipped abroad left through Lisk's harbor, suggesting that the trade itself flowed through the smaller town.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Granted,", "Moreover,", "Hence,", "Specifically,"],
+    "answer": "A",
+    "explanation": "Strand admits a fact against his claim (Doran was bigger) before answering it with 'But.' 'Granted' introduces this concession.",
+    "steps": [
+      "Sentence 1: Strand's claim (Lisk was the center).",
+      "Sentence 2: a fact that seems to support the other side (Doran was bigger).",
+      "Sentence 3: 'But' answers that fact.",
+      "Admit a point, then answer it = concession. Choose 'Granted.'"
+    ],
+    "strategy_tip": "If the sentence after the blank's sentence starts with 'But,' the blank is often a concession: Granted, Admittedly, True.",
+    "rationales": {
+      "A": "Correct. Strand admits a point against his view before answering it with 'But.'",
+      "B": "Signals addition: 'Moreover' would add support for Strand's claim, but Doran's size works against it.",
+      "C": "Signals a result: Doran's many merchants are not caused by Strand's argument.",
+      "D": "Signals a specific detail: Sentence 2 does not give a detail of Strand's claim; it gives a fact that seems to oppose it."
+    },
+    "traps": {"B": "signals addition", "C": "signals a result", "D": "signals a specific detail"}
+  },
+  {
+    "id": "pt5-rw-trans-014",
+    "skill": "RW.EOI.TRN.CONTRAST",
+    "difficulty": "hard",
+    "topic": "a low reservoir and a cautious mayor",
+    "fictional": true,
+    "passage": "After a dry spring, the Marrow Creek reservoir is lower than usual for June. Officials estimate that it holds enough water to supply the town of Aldis until the autumn rains, even if residents change nothing. ______ the mayor has asked residents to cut their indoor water use by a quarter, saying that the town should not count on the rains arriving on time.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Thus,", "For example,", "Still,", "Likewise,"],
+    "answer": "C",
+    "explanation": "Officials say there is enough water, but the mayor asks for cuts anyway. 'Still' signals an action taken despite the reassuring estimate.",
+    "steps": [
+      "Sentence before: there is enough water even with no changes (reassuring).",
+      "Sentence after: the mayor asks people to use less water.",
+      "She acts despite the estimate = concession.",
+      "Choose 'Still.'"
+    ],
+    "strategy_tip": "Compare the blank's sentence with the sentence right before it: if it goes against that sentence's reassurance, use Still or Nevertheless.",
+    "rationales": {
+      "A": "Signals a result: Having enough water would not cause the mayor to ask for cuts; she asks despite it.",
+      "B": "Signals an example: The mayor's request is not an example of the officials' estimate.",
+      "C": "Correct. The mayor asks for cuts despite the estimate that the water will last.",
+      "D": "Signals similarity: The request for cuts is not similar to the estimate; it goes against its message."
+    },
+    "traps": {"A": "signals a result", "B": "signals an example", "D": "signals similarity"}
+  },
+  {
+    "id": "pt5-rw-trans-015",
+    "modeled_on": "bb-pt5-rw-b-q25",
+    "skill": "RW.EOI.TRN.CAUSE",
+    "difficulty": "hard",
+    "topic": "a verb ending that marks firsthand knowledge",
+    "fictional": true,
+    "passage": "Linguist Orla Penhale noticed that speakers of the Tavi language used a special verb ending when describing events they had seen with their own eyes. When she reviewed older recordings, she found that the ending never appeared in stories the speakers had only heard from others. ______ she concluded that the ending marks firsthand knowledge rather than, as earlier scholars had claimed, the past tense.",
+    "stem": "Which choice completes the text with the most logical transition?",
+    "choices": ["Nevertheless,", "Therefore,", "For instance,", "Likewise,"],
+    "answer": "B",
+    "explanation": "Penhale's evidence (the ending appears only for events seen firsthand) leads to her conclusion. 'Therefore' signals a conclusion drawn from evidence.",
+    "steps": [
+      "Sentences before: evidence (the ending is used only for things the speaker saw).",
+      "Sentence after: Penhale's conclusion about what the ending means.",
+      "Evidence, then the conclusion it supports = result.",
+      "Choose 'Therefore.'"
+    ],
+    "strategy_tip": "Evidence first, then 'she concluded': the transition is a result word such as Therefore, Thus, or Hence.",
+    "rationales": {
+      "A": "Signals concession: The conclusion follows from the evidence; Penhale does not reach it despite the evidence.",
+      "B": "Correct. Penhale's conclusion is a result of the evidence in the recordings.",
+      "C": "Signals an example: The conclusion is not an example of the evidence; it is what the evidence leads to.",
+      "D": "Signals similarity: The conclusion is not another similar observation; it explains the observations."
+    },
+    "traps": {"A": "signals concession", "C": "signals an example", "D": "signals similarity"}
+  }
+]

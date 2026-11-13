@@ -1,0 +1,362 @@
+[
+  {
+    "id": "pt5-rw-coet-001",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "medium",
+    "topic": "village bridge admired and resented (poem)",
+    "fictional": true,
+    "passage": "\"The Iron Bridge\" is a 1998 poem by Maren Ostlund. In the poem, the speaker is ambivalent about the steel bridge that was built across her village's river: she admires its strength, yet she resents the change it has brought to village life.",
+    "stem": "Which quotation from \"The Iron Bridge\" most effectively illustrates the claim?",
+    "choices": [
+      "\"I praise the way it carries every load, / and hate the way it carried off our quiet.\"",
+      "\"No storm has moved it and no flood; / it stands as steady as the hills.\"",
+      "\"Since the bridge came, trucks roar past at dawn, / and no one hears the river anymore.\"",
+      "\"My grandfather crossed by ferry, slow and wet, / and talked the whole way to the boatman.\""
+    ],
+    "answer": "A",
+    "explanation": "Ambivalence means two feelings at once. Only one quotation shows both admiration for the bridge's strength and displeasure at the change it brought.",
+    "steps": [
+      "Write the claim as a checklist: (1) admires its strength, (2) resents the change.",
+      "The 'storm and flood' lines tick only box 1.",
+      "The 'trucks roar' lines tick only box 2.",
+      "Only 'praise ... and hate ...' ticks both boxes."
+    ],
+    "strategy_tip": "When the claim says 'ambivalent' or 'mixed feelings', the right quotation must show BOTH feelings, not just one.",
+    "rationales": {
+      "A": "Correct. 'I praise the way it carries every load' is admiration of its strength; 'hate the way it carried off our quiet' is resentment of the change.",
+      "B": "Shows only one side: The bridge's steadiness is admired, but there is no displeasure.",
+      "C": "Shows only one side: The noise is a bad change, but there is no admiration of the bridge.",
+      "D": "Off the claim: These lines describe life before the bridge and show neither feeling about it."
+    },
+    "traps": {
+      "B": "Shows only one side",
+      "C": "Shows only one side",
+      "D": "Off the claim"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-002",
+    "skill": "RW.INI.COET.SUPPORT",
+    "difficulty": "medium",
+    "topic": "city blackbirds singing higher over traffic",
+    "fictional": true,
+    "passage": "Urban ecologist Ilona Varsh notes that blackbirds in the city of Kesselmoor sing, on average, about 300 hertz higher than blackbirds in nearby forests. She claims that the city birds sing higher because high-pitched songs are easier to hear over the low rumble of traffic noise.",
+    "stem": "Which finding, if true, would most directly support Varsh's claim?",
+    "choices": [
+      "Forest blackbirds in the region sing more often in the early morning than at any other time of day.",
+      "City blackbirds in Kesselmoor are, on average, slightly larger than the blackbirds living in the forests.",
+      "City blackbirds living beside quiet parks sing at about the same pitch as forest birds, while those beside busy roads sing highest.",
+      "City blackbirds raise their pitch by the same amount on quiet holiday mornings as on busy weekday mornings, when the roads are full of traffic."
+    ],
+    "answer": "C",
+    "explanation": "If traffic noise causes the higher songs, pitch should rise where the noise is louder. Only one finding links pitch to the amount of traffic.",
+    "steps": [
+      "Claim: traffic noise is the cause of the higher songs.",
+      "Support = pitch goes up when noise goes up, and down when noise goes down.",
+      "Quiet parks: normal pitch; busy roads: highest pitch. That is the link.",
+      "The holiday-morning finding shows no link to noise, so it weakens the claim."
+    ],
+    "strategy_tip": "To support a cause, look for a finding where the effect changes together with the cause.",
+    "rationales": {
+      "A": "True but irrelevant: When forest birds sing says nothing about why city birds sing higher.",
+      "B": "True but irrelevant: Body size is not part of the claim, which is about noise.",
+      "C": "Correct. Within the city, the birds sing higher only where traffic is heavy, so the pitch follows the noise.",
+      "D": "Weakens instead: If the pitch is the same with and without traffic, noise is probably not the cause."
+    },
+    "traps": {
+      "A": "True but irrelevant",
+      "B": "True but irrelevant",
+      "D": "Weakens instead"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-003",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "medium",
+    "topic": "baker's daughter changes her view of the bakery (novel)",
+    "fictional": true,
+    "passage": "In Anselm Grieve's novel The Salt Ledger, Hanne grows up working in her family's bakery. Over the course of the novel, her view of the bakery changes: at first she sees it as a trap that keeps her from the wider world, but later she values it as a place where she truly belongs.",
+    "stem": "Which quotation from The Salt Ledger most effectively illustrates the claim?",
+    "choices": [
+      "\"Hanne counted the trays each morning and dreamed of the ships that left the harbor without her, bound for cities she had only read about.\"",
+      "\"The ovens she had once called her cage were, she now saw, the warmest room she would ever know.\"",
+      "\"Hanne loved the smell of the bread, and she loved it on every single day of her life.\"",
+      "\"When the bakery finally closed, the whole street came out to say goodbye to Hanne's father.\""
+    ],
+    "answer": "B",
+    "explanation": "A change needs a 'before' and an 'after'. Only one quotation shows the old view (a cage) and the new view (the warmest room) together.",
+    "steps": [
+      "Claim: before = the bakery is a trap; after = the bakery is where she belongs.",
+      "The 'ships' quotation shows only the before.",
+      "The 'smell of bread' quotation shows one feeling that never changes.",
+      "'Once called her cage ... now saw ... warmest room' shows both, with the time words 'once' and 'now'."
+    ],
+    "strategy_tip": "For a change over time, look for time words such as 'once', 'at first', 'now', or 'later' that put both states in one quotation.",
+    "rationales": {
+      "A": "Shows only one side: This is the early view (wanting to escape), but there is no later view.",
+      "B": "Correct. 'Once called her cage' is the early view; 'now saw ... the warmest room' is the later view of belonging.",
+      "C": "No change shown: Her love is the same 'on every single day', so nothing changes.",
+      "D": "Off the claim: This is about the bakery closing and her father, not Hanne's changing view."
+    },
+    "traps": {
+      "A": "Shows only one side",
+      "C": "No change shown",
+      "D": "Off the claim"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-004",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "hard",
+    "topic": "touring singer and her absent children (poem)",
+    "fictional": true,
+    "passage": "In the 2011 poem \"Encore\" by Senna Lark, the speaker is a famous singer. The poem shows that she is ambivalent about her fame: she takes real pleasure in the audience's praise, yet she is troubled that her career keeps her far from her family.",
+    "stem": "Which quotation from \"Encore\" most effectively illustrates the claim?",
+    "choices": [
+      "\"Each night a thousand hands rise up for me, / and I bow low and drink the sound like wine.\"",
+      "\"My daughter's drawings reach me in hotel rooms; / I tape them to the mirrors, one by one.\"",
+      "\"I envied the old soprano's easy grace, / and hated the cold hall where she sang.\"",
+      "\"The cheering fills me as a lamp is filled; / still, I burn three hundred miles from my children's beds.\""
+    ],
+    "answer": "D",
+    "explanation": "The claim has two parts, pleasure in praise and trouble about distance from family. Only one quotation joins both, with the word 'still' marking the turn.",
+    "steps": [
+      "Checklist: (1) pleasure in the audience's praise, (2) unhappy about being far from family.",
+      "The 'thousand hands' lines: only (1).",
+      "The 'drawings' lines: distance from family, but no praise and no clear displeasure.",
+      "The 'old soprano' lines show two feelings, but about another singer and a hall, not fame and family.",
+      "'Cheering fills me ... still ... three hundred miles from my children' shows both parts."
+    ],
+    "strategy_tip": "A quotation with two feelings can still be wrong: check that the two feelings are about the things the claim names.",
+    "rationales": {
+      "A": "Shows only one side: She enjoys the applause, but nothing shows she is troubled.",
+      "B": "Shows only one side: Her family is far away, but there is no praise from an audience.",
+      "C": "Wrong pair: It shows envy and dislike, but about another singer and a concert hall, not her own fame and her family.",
+      "D": "Correct. 'The cheering fills me' is pleasure in praise; 'still, I burn three hundred miles from my children's beds' is the trouble of being far from family."
+    },
+    "traps": {
+      "A": "Shows only one side",
+      "B": "Shows only one side",
+      "C": "Wrong pair"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-005",
+    "skill": "RW.INI.COET.WEAKEN",
+    "difficulty": "hard",
+    "topic": "thinner ancient pots and the potter's wheel",
+    "fictional": true,
+    "passage": "Archaeologist Pavel Morenko found that clay pots from the ancient settlement of Ternavka have much thinner walls in layers dated after 400 BCE than in earlier layers. He claims that this change happened because Ternavka's potters began to use a fast potter's wheel, which makes thinner walls possible than shaping pots by hand.",
+    "stem": "Which finding, if true, would most directly weaken Morenko's claim?",
+    "choices": [
+      "The thin-walled pots from after 400 BCE show the uneven coil marks left by hand-building, not the spiral lines a wheel leaves.",
+      "Pots from after 400 BCE are more often decorated with painted bands than pots from the earlier layers.",
+      "A fragment of a potter's wheel dated to about 420 BCE was found in the area of Ternavka's workshops.",
+      "Thin-walled pots also became common in several other settlements in the region during the same period, including some far from Ternavka."
+    ],
+    "answer": "A",
+    "explanation": "Morenko says the wheel made the thin walls. Marks of hand-building on those same thin pots show they were not made on a wheel.",
+    "steps": [
+      "Claim: the wheel CAUSED the thinner walls.",
+      "To weaken it, show the thin pots were made without a wheel.",
+      "Coil marks = hand-built, not wheel-made. That attacks the cause directly.",
+      "The wheel fragment from 420 BCE supports the claim; decoration is unrelated."
+    ],
+    "strategy_tip": "To weaken a cause-and-effect claim, find evidence that the effect happened without the cause.",
+    "rationales": {
+      "A": "Correct. If the thin pots were built by hand, the wheel cannot explain their thin walls.",
+      "B": "True but irrelevant: Decoration says nothing about how the walls were made.",
+      "C": "Supports instead: A wheel in Ternavka just before 400 BCE fits Morenko's claim.",
+      "D": "Too indirect: Other settlements may also have started using wheels, so this neither shows nor rules out the cause."
+    },
+    "traps": {
+      "B": "True but irrelevant",
+      "C": "Supports instead",
+      "D": "Too indirect"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-006",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "hard",
+    "topic": "shame turning to pride in work-worn hands (poem)",
+    "fictional": true,
+    "passage": "\"Inventory\" is a 2004 poem by Corin Abelard. In the poem, the speaker's feeling about her rough, work-worn hands changes over time: she was once ashamed of how they looked, but she has come to feel proud of the work they have done.",
+    "stem": "Which quotation from \"Inventory\" most effectively illustrates the claim?",
+    "choices": [
+      "\"I hid them in my pockets at the wedding, / these cracked and spotted things, so like my mother's.\"",
+      "\"Once I was proud of these quick hands; / now I hide them, slow and swollen, in my lap.\"",
+      "\"The hands I used to hide beneath the table / I lay on it today, and count the barns they raised.\"",
+      "\"My hands have planted forty springs of beans, / and every one came up and fed us well.\""
+    ],
+    "answer": "C",
+    "explanation": "The claim needs a change from shame (before) to pride in her work (after). One quotation shows both in the right order.",
+    "steps": [
+      "Before = ashamed of how her hands look. After = proud of what they did.",
+      "The 'wedding' lines show only the shame.",
+      "The 'quick hands' lines show a change, but in the opposite direction: pride, then shame.",
+      "The 'forty springs' lines show pride but no earlier shame.",
+      "'Used to hide ... lay on it today, and count the barns' shows shame, then pride."
+    ],
+    "strategy_tip": "For a change over time, check the direction: from X to Y is not the same as from Y to X.",
+    "rationales": {
+      "A": "Shows only one side: This is the early shame, with no later pride.",
+      "B": "Reversed change: It moves from pride to shame, the opposite of the claim.",
+      "C": "Correct. 'Used to hide' is the earlier shame; laying them on the table and counting 'the barns they raised' is pride in her work.",
+      "D": "Shows only one side: This is pride in her work, but nothing shows she was ever ashamed."
+    },
+    "traps": {
+      "A": "Shows only one side",
+      "B": "Reversed change",
+      "D": "Shows only one side"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-007",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "hard",
+    "topic": "brother's mixed feelings about a stubborn sister (novel)",
+    "fictional": true,
+    "passage": "Ottilie Farrant's novel The Clockmaker's Year follows Bruno and his older sister Ludmila, who run their late father's clock shop together. Throughout the novel, Bruno regards his sister's stubbornness with both admiration and annoyance.",
+    "stem": "Which quotation from The Clockmaker's Year most effectively illustrates the claim?",
+    "choices": [
+      "\"Ludmila would argue with a wall until the wall gave in, and Bruno could never decide whether to cheer or slam the door.\"",
+      "\"Bruno admired how Ludmila could repair any clock in the shop, even the ones their father had given up on.\"",
+      "\"When Ludmila refused to sell the shop, Bruno spent the evening complaining to anyone who would listen.\"",
+      "\"Ludmila was stubborn, the neighbors said, as stubborn as their grandmother had been at her age.\""
+    ],
+    "answer": "A",
+    "explanation": "The claim needs Bruno's two reactions to one trait, her stubbornness. 'Cheer' is admiration and 'slam the door' is annoyance.",
+    "steps": [
+      "Checklist: (1) the trait is stubbornness, (2) Bruno admires it, (3) Bruno is annoyed by it.",
+      "The 'repair any clock' quotation: admiration, but of her skill, not her stubbornness.",
+      "The 'refused to sell' quotation: annoyance only.",
+      "The 'neighbors' quotation: stubbornness, but no reaction from Bruno.",
+      "'Argue with a wall ... cheer or slam the door' has all three."
+    ],
+    "strategy_tip": "Check WHO feels the feelings and WHAT they are about; the neighbors' opinion is not Bruno's.",
+    "rationales": {
+      "A": "Correct. Arguing 'until the wall gave in' is her stubbornness; wanting to 'cheer' is admiration and wanting to 'slam the door' is annoyance.",
+      "B": "Wrong pair: Bruno admires her skill, not her stubbornness, and he shows no annoyance.",
+      "C": "Shows only one side: Bruno is annoyed, but there is no admiration.",
+      "D": "Off the claim: The neighbors describe her stubbornness; Bruno's feelings are not shown."
+    },
+    "traps": {
+      "B": "Wrong pair",
+      "C": "Shows only one side",
+      "D": "Off the claim"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-008",
+    "skill": "RW.INI.COET.SUPPORT",
+    "difficulty": "hard",
+    "topic": "bilingual parents and toddler vocabulary",
+    "fictional": true,
+    "passage": "In bilingual families, some parents each speak one language to their child, while others both switch freely between the two languages. Linguist Amara Delacroix-Moen hypothesizes that two-year-olds learn new words faster when both parents use both languages than when each parent uses only one.",
+    "stem": "Which finding, if true, would most directly support Delacroix-Moen's hypothesis?",
+    "choices": [
+      "Two-year-olds in both kinds of bilingual families learned new words faster than two-year-olds in families that spoke one language.",
+      "Among families with similar amounts of daily talk, children whose parents both used both languages learned new words faster.",
+      "Parents who each spoke only one language to their child said that this arrangement was easier to keep up every day.",
+      "Children whose parents both used both languages learned new words faster, but these families also talked far more each day."
+    ],
+    "answer": "B",
+    "explanation": "The hypothesis compares two kinds of bilingual family. The best support shows the difference while another possible cause (amount of talk) is kept the same.",
+    "steps": [
+      "The two groups in the claim: 'both parents use both' vs 'each parent uses one'.",
+      "The first finding compares bilingual with one-language families, which are the wrong groups.",
+      "The last finding has the right result, but more daily talk could explain it.",
+      "Only the finding with 'similar amounts of daily talk' isolates the language pattern."
+    ],
+    "strategy_tip": "The strongest support compares exactly the claim's groups and rules out the other likely explanation.",
+    "rationales": {
+      "A": "Doesn't compare the claim's groups: It puts both bilingual patterns together and compares them with one-language families.",
+      "B": "Correct. With daily talk kept similar, the faster learning can be linked to both parents using both languages.",
+      "C": "True but irrelevant: How easy the arrangement is for parents says nothing about how fast children learn words.",
+      "D": "Leaves another explanation open: The faster learning could come from the extra talk, not from the language pattern."
+    },
+    "traps": {
+      "A": "Doesn't compare the claim's groups",
+      "C": "True but irrelevant",
+      "D": "Leaves another explanation open"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-009",
+    "skill": "RW.INI.COET.WEAKEN",
+    "difficulty": "hard",
+    "topic": "library four-day week and borrowing",
+    "fictional": true,
+    "passage": "In 2021, the public library in the town of Oberlund moved its staff to a four-day work week, and the number of books borrowed there rose by 18 percent that year. Economist Ravi Lindqvist argues that the new schedule caused the rise, because staff who were less tired gave visitors better help in finding books.",
+    "stem": "Which finding, if true, would most directly weaken Lindqvist's argument?",
+    "choices": [
+      "Library staff in Oberlund reported feeling much less tired after the four-day work week began.",
+      "Some visitors complained in 2021 that the Oberlund library was now closed on Fridays and that they had to change their weekly routines.",
+      "Borrowing rose by about 18 percent in 2021 at nearby libraries that had kept a five-day work week.",
+      "As in earlier years, most of the books borrowed from the Oberlund library in 2021 were novels."
+    ],
+    "answer": "C",
+    "explanation": "If libraries without the new schedule had the same rise, something else probably caused it, not the four-day week.",
+    "steps": [
+      "Argument: the four-day week CAUSED the 18 percent rise.",
+      "To weaken it, show the rise happened without the four-day week.",
+      "Nearby five-day libraries rose by the same amount, so the schedule isn't needed to explain it.",
+      "Less tired staff is part of Lindqvist's reasoning, so it supports him."
+    ],
+    "strategy_tip": "A comparison group that got the same result without the cause is the strongest way to weaken a cause.",
+    "rationales": {
+      "A": "Supports instead: Less tired staff is exactly the step Lindqvist's argument needs.",
+      "B": "Off the claim: Complaints about Friday closing don't explain why borrowing rose.",
+      "C": "Correct. The same rise happened at libraries without a four-day week, so the schedule probably did not cause it.",
+      "D": "True but irrelevant: The type of books borrowed says nothing about why the number rose."
+    },
+    "traps": {
+      "A": "Supports instead",
+      "B": "Off the claim",
+      "D": "True but irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coet-010",
+    "modeled_on": "bb-pt5-rw-b-q13",
+    "skill": "RW.INI.COET.QUOTE",
+    "difficulty": "hard",
+    "topic": "distrusted neighbor becomes closest friend (novel)",
+    "fictional": true,
+    "passage": "Desmond Okafor-Hale's novel The Long Field follows Mirela, a farmer, across forty years in a mountain valley. Over that time, her feelings toward her neighbor Stefan change from distrust to a deep friendship.",
+    "stem": "Which quotation from The Long Field most effectively illustrates the claim?",
+    "choices": [
+      "\"Mirela locked her gate whenever Stefan's cart came up the road, and she watched him from the window until he was gone.\"",
+      "\"Stefan and Mirela shared their harvest every autumn, and no one in the valley could remember a year when they had not.\"",
+      "\"At first Mirela found the valley far too quiet, but after a few winters she could not picture living anywhere else.\"",
+      "\"She had once locked her gate when Stefan's cart passed; years later, his was the name she gave when the doctor asked whom to call.\""
+    ],
+    "answer": "D",
+    "explanation": "The claim is a change in Mirela's feelings toward Stefan. Only one quotation shows the early distrust and the later closeness, both about Stefan.",
+    "steps": [
+      "Before = distrust of Stefan. After = deep friendship with Stefan.",
+      "The 'watched him from the window' quotation: only distrust.",
+      "The 'shared their harvest' quotation: friendship that 'no one could remember' being different, so no change.",
+      "The 'valley too quiet' quotation: a change, but about the valley, not Stefan.",
+      "'Had once locked her gate ... years later, his was the name she gave' shows both, about Stefan."
+    ],
+    "strategy_tip": "A quotation that shows a change can still be wrong if it is a change in something the claim does not name.",
+    "rationales": {
+      "A": "Shows only one side: This is the early distrust, with no later friendship.",
+      "B": "No change shown: The friendship seems to have always been there.",
+      "C": "Wrong pair: It shows a before and after, but about the valley, not about Stefan.",
+      "D": "Correct. Locking her gate is the early distrust; naming Stefan as the person to call is the later deep friendship."
+    },
+    "traps": {
+      "A": "Shows only one side",
+      "B": "No change shown",
+      "C": "Wrong pair"
+    }
+  }
+]

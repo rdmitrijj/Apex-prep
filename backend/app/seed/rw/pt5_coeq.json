@@ -1,0 +1,800 @@
+[
+  {
+    "id": "pt5-rw-coeq-001",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "medium",
+    "topic": "tutoring session length and reading scores",
+    "fictional": true,
+    "passage": "Education researcher Ilona Varsk placed students who were behind in reading into three groups: no tutoring, 20-minute tutoring sessions, and 40-minute tutoring sessions. She tested all students before the program and again after 6 and 12 weeks. Varsk claims that the 40-minute sessions gave no greater benefit than the 20-minute sessions.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average reading score by group",
+      "labels": ["Before program", "After 6 weeks", "After 12 weeks"],
+      "series": [
+        {"name": "No tutoring", "values": [52, 53, 54]},
+        {"name": "20-minute sessions", "values": [51, 61, 64]},
+        {"name": "40-minute sessions", "values": [52, 60, 63]}
+      ],
+      "xlabel": "",
+      "ylabel": "Average score"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Varsk's claim?",
+    "choices": [
+      "Before the program began, the three groups of students had nearly identical average reading scores.",
+      "After 12 weeks, both tutoring groups had higher average scores than the group with no tutoring.",
+      "After 6 weeks and after 12 weeks, the 40-minute group scored no higher than the 20-minute group.",
+      "Students with no tutoring improved by only 2 points from before the program to after 12 weeks."
+    ],
+    "answer": "C",
+    "explanation": "The claim compares the two tutoring lengths after tutoring. Only C compares the 40-minute and 20-minute groups at the test times after the program started.",
+    "steps": [
+      "Name the claim's groups: 40-minute vs 20-minute sessions.",
+      "Name the right time: AFTER tutoring (6 and 12 weeks), not before.",
+      "Check: 60 < 61 and 63 < 64, so the longer sessions were never better.",
+      "Reject choices about the no-tutoring group or about the start of the program."
+    ],
+    "strategy_tip": "Write down the two groups and the time the claim is about, then cross out every choice that uses a different group or time.",
+    "rationales": {
+      "A": "Wrong time point: True, but it describes the groups before any tutoring, so it says nothing about the benefit of either session length.",
+      "B": "Wrong comparison: True, but it compares tutoring with no tutoring. The claim compares two kinds of tutoring.",
+      "C": "Correct. At both test times after tutoring began, the 40-minute group (60, 63) scored no higher than the 20-minute group (61, 64).",
+      "D": "Wrong groups: True (54 - 52 = 2), but the no-tutoring group is not part of the claim."
+    },
+    "traps": {
+      "A": "wrong time point",
+      "B": "wrong comparison",
+      "D": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "supports",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-002",
+    "modeled_on": "bb-pt5-rw-b-q12",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "medium",
+    "topic": "shorebird running speed when fleeing",
+    "fictional": true,
+    "passage": "Biologist Marit Olander filmed three species of shorebirds on a beach and measured how fast each bird ran, as a percentage of its species' maximum running speed. She recorded runs when birds were chasing prey and when they were fleeing a predator. Olander claims that shorebirds do not always run at full speed, even when they are fleeing a predator.",
+    "figure": {
+      "kind": "bars",
+      "title": "Running speed as a percentage of maximum speed",
+      "labels": ["Least sandpiper", "Sanderling", "Dunlin"],
+      "series": [
+        {"name": "Fleeing a predator", "values": [97, 84, 79]},
+        {"name": "Chasing prey", "values": [71, 88, 65]}
+      ],
+      "xlabel": "Species",
+      "ylabel": "Percentage of maximum speed"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Olander's claim?",
+    "choices": [
+      "When fleeing a predator, sanderlings and dunlins ran at only 84 and 79 percent of their maximum speeds.",
+      "Least sandpipers ran at a higher percentage of their maximum speed when fleeing a predator than when chasing prey.",
+      "Sanderlings were the only species that ran faster, relative to their maximum, when chasing prey than when fleeing.",
+      "Least sandpipers fled predators at 97 percent of their maximum speed, the highest value shown in the graph."
+    ],
+    "answer": "A",
+    "explanation": "The claim says birds do not always use full speed, even when fleeing. A shows two species fleeing well below their maximum speed.",
+    "steps": [
+      "The claim: even when FLEEING, birds are not always at full speed.",
+      "So you need fleeing data that is clearly below 100%.",
+      "Sanderling 84% and dunlin 79% are well below full speed.",
+      "The biggest number (97%) is close to full speed, so it does not help the claim."
+    ],
+    "strategy_tip": "Ask what data would prove the claim; the most eye-catching number in the graph is often not that data.",
+    "rationales": {
+      "A": "Correct. Two species fled at only 84% and 79% of their maximum speed, so they were not using full speed even while fleeing.",
+      "B": "Wrong comparison: True (97 vs 71), but it compares fleeing with chasing. It does not show that fleeing birds stay below full speed.",
+      "C": "Wrong comparison: True (88 vs 84), but it compares the two activities for one species instead of showing speed below the maximum.",
+      "D": "Eye-catching but unhelpful: True, but 97% is close to full speed, so this fact works against the claim rather than for it."
+    },
+    "traps": {
+      "B": "wrong comparison",
+      "C": "wrong comparison",
+      "D": "eye-catching but unhelpful"
+    },
+    "quant": {
+      "A": "supports",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-003",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "medium",
+    "topic": "home internet access by district type",
+    "fictional": true,
+    "passage": "In 2010, the province of Talvenmark began paying for new internet cables in rural areas. Economist Jonas Reiter compared the percentage of households with home internet in urban, suburban, and rural districts in 2010, 2015, and 2020. Reiter claims that over this period, the gap in internet access between urban and rural households narrowed considerably.",
+    "figure": {
+      "kind": "table",
+      "title": "Households with home internet in Talvenmark (%)",
+      "header": ["District type", "2010", "2015", "2020"],
+      "rows": [
+        ["Urban", "78", "86", "93"],
+        ["Suburban", "70", "81", "90"],
+        ["Rural", "41", "60", "79"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to support Reiter's claim?",
+    "choices": [
+      "Suburban districts had a higher rate of home internet than rural districts in every year shown.",
+      "In 2020, urban districts had the highest rate of home internet of the three district types.",
+      "The rate of home internet in suburban districts rose by 20 percentage points from 2010 to 2020.",
+      "The difference between urban and rural households fell from 37 percentage points in 2010 to 14 in 2020."
+    ],
+    "answer": "D",
+    "explanation": "A gap that narrows must be shown as the urban-rural difference at an early time and at a later time. Only D gives both differences.",
+    "steps": [
+      "The claim is about a GAP between urban and rural, over TIME.",
+      "Compute the gap: 2010: 78 - 41 = 37. 2020: 93 - 79 = 14.",
+      "The gap got smaller, so the claim is supported.",
+      "One year alone, or the suburban group, cannot show a narrowing gap."
+    ],
+    "strategy_tip": "For a 'gap narrowed' claim, the answer must give the gap between the same two groups at two different times.",
+    "rationales": {
+      "A": "Wrong groups: True, but it compares suburban with rural districts, and it does not show any change in a gap.",
+      "B": "Wrong time point: True (93%), but it gives only one year, so it cannot show the gap getting smaller.",
+      "C": "Wrong groups: True (90 - 70 = 20), but the claim is about urban and rural households, not suburban ones.",
+      "D": "Correct. The urban-rural gap was 37 points in 2010 and only 14 points in 2020, so it narrowed a lot."
+    },
+    "traps": {
+      "A": "wrong groups",
+      "B": "wrong time point",
+      "C": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "supports"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-004",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "medium",
+    "topic": "second fertilizer dose on pepper plants",
+    "fictional": true,
+    "passage": "Agronomist Kofi Antwi-Lund grew pepper plants for two seasons. Some plants received no fertilizer, some received one dose, and some received two doses. He then weighed the peppers each plant produced. Antwi-Lund concludes that a second dose of fertilizer gives no greater benefit to pepper yield than a single dose, pointing out that ______.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average pepper yield per plant",
+      "labels": ["Season 1", "Season 2"],
+      "series": [
+        {"name": "No fertilizer", "values": [3.1, 2.9]},
+        {"name": "One dose", "values": [4.6, 4.8]},
+        {"name": "Two doses", "values": [4.5, 4.8]}
+      ],
+      "xlabel": "",
+      "ylabel": "Kilograms of peppers"
+    },
+    "stem": "Which choice most effectively uses data from the graph to complete the statement?",
+    "choices": [
+      "plants given no fertilizer produced fewer peppers in Season 2 than in Season 1",
+      "in each season, plants given two doses produced no more peppers than plants given one dose",
+      "in Season 1, plants given one dose produced 1.5 kilograms more per plant than plants given no fertilizer",
+      "plants given two doses produced more peppers in Season 2 than they did in Season 1"
+    ],
+    "answer": "B",
+    "explanation": "The conclusion compares two doses with one dose. B shows that in both seasons, two doses never produced more than one dose.",
+    "steps": [
+      "The claim's groups: two doses vs one dose.",
+      "Season 1: 4.5 vs 4.6. Season 2: 4.8 vs 4.8.",
+      "Two doses never beat one dose, so the second dose adds no benefit.",
+      "Reject choices about no fertilizer or about change between seasons."
+    ],
+    "strategy_tip": "For 'X gives no greater benefit than Y', the answer must put X and Y side by side and show X is not higher.",
+    "rationales": {
+      "A": "Wrong groups: True (2.9 < 3.1), but the claim is not about plants without fertilizer.",
+      "B": "Correct. Two doses gave 4.5 and 4.8 kilograms, while one dose gave 4.6 and 4.8, so the second dose added nothing.",
+      "C": "Wrong comparison: True (4.6 - 3.1 = 1.5), but it compares one dose with no fertilizer, not with two doses.",
+      "D": "Wrong comparison: True (4.8 > 4.5), but it compares two seasons for one group, not two doses with one dose."
+    },
+    "traps": {
+      "A": "wrong groups",
+      "C": "wrong comparison",
+      "D": "wrong comparison"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "supports",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-005",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "nap length and afternoon alertness",
+    "fictional": true,
+    "passage": "Sleep scientist Raúl Benavente gave office workers an alertness test just before an afternoon break. During the break, one group stayed awake, one group took a 20-minute nap, and one group took a 60-minute nap. All workers repeated the test 1 hour and 4 hours after the break. Benavente argues that a longer nap gives no greater boost to alertness than a shorter one.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average alertness score",
+      "labels": ["Before nap", "1 hour after", "4 hours after"],
+      "series": [
+        {"name": "No nap", "values": [64, 60, 57]},
+        {"name": "20-minute nap", "values": [63, 74, 71]},
+        {"name": "60-minute nap", "values": [65, 70, 71]}
+      ],
+      "xlabel": "Test time",
+      "ylabel": "Alertness score"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Benavente's argument?",
+    "choices": [
+      "Before the nap, the 60-minute group had a slightly higher average score than the 20-minute group did.",
+      "At both test times after the break, the 60-minute group scored no higher than the 20-minute group.",
+      "Four hours after the break, both nap groups scored 14 points higher than the group that stayed awake.",
+      "The no-nap group's score fell at each test time, ending 7 points below its score before the break."
+    ],
+    "answer": "B",
+    "explanation": "The argument compares the long nap with the short nap after napping. B makes that comparison at both later test times.",
+    "steps": [
+      "Groups in the claim: 60-minute nap vs 20-minute nap.",
+      "Time in the claim: after the nap (1 hour and 4 hours).",
+      "1 hour: 70 < 74. 4 hours: 71 = 71. The long nap was never better.",
+      "The 'before nap' scores use the right groups but the wrong time."
+    ],
+    "strategy_tip": "A choice can name exactly the right groups and still be wrong if it uses a time before the treatment started.",
+    "rationales": {
+      "A": "Wrong time point: True (65 vs 63), but this is before anyone napped, so it shows nothing about the benefit of either nap.",
+      "B": "Correct. After the break, the 60-minute group scored 70 and 71, while the 20-minute group scored 74 and 71, so the longer nap was never better.",
+      "C": "Wrong comparison: True (71 - 57 = 14), but it compares napping with staying awake, not a long nap with a short nap.",
+      "D": "Wrong groups: True (64 - 57 = 7), but the claim does not mention the workers who stayed awake."
+    },
+    "traps": {
+      "A": "wrong time point",
+      "C": "wrong comparison",
+      "D": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "supports",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-006",
+    "modeled_on": "bb-pt5-rw-b-q12",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "hard",
+    "topic": "wetland restoration and breeding pairs",
+    "fictional": true,
+    "passage": "In 2017, three wetland sites near the town of Ostravel were restored. Ecologist Sunniva Hald counted breeding pairs of marsh birds at each site in 2018, 2020, and 2022. Hald claims that restoration does not always lead to steady growth in bird numbers: at some restored sites, numbers drop for a time before they recover.",
+    "figure": {
+      "kind": "table",
+      "title": "Breeding pairs of marsh birds at three restored sites",
+      "header": ["Site", "2018", "2020", "2022"],
+      "rows": [
+        ["North", "40", "58", "71"],
+        ["Central", "36", "29", "47"],
+        ["South", "52", "61", "66"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to support Hald's claim?",
+    "choices": [
+      "At the Central site, the number of breeding pairs fell from 36 in 2018 to 29 in 2020 and then rose to 47 in 2022.",
+      "In 2018, the South site had more breeding pairs than either the North site or the Central site.",
+      "From 2018 to 2022, the North site gained 31 breeding pairs, more than either of the other two sites gained.",
+      "All three sites had more breeding pairs in 2022 than they had in 2018."
+    ],
+    "answer": "A",
+    "explanation": "The claim needs a site where numbers went down and then back up. Only the Central site shows that pattern, and only A describes it.",
+    "steps": [
+      "The claim has two parts: numbers DROP for a time, then RECOVER.",
+      "Look for a row that goes down, then up.",
+      "Central: 36, then 29 (drop), then 47 (recovery).",
+      "Overall growth (North +31, all sites up) does not show a drop."
+    ],
+    "strategy_tip": "For a 'not always' claim, look for the exception in the data, not the general trend.",
+    "rationales": {
+      "A": "Correct. The Central site dropped from 36 to 29 and then recovered to 47, which is exactly the pattern Hald describes.",
+      "B": "Wrong time point: True (52 is the largest 2018 value), but one year cannot show numbers dropping and recovering.",
+      "C": "Eye-catching but unhelpful: True (71 - 40 = 31), but it shows the strongest growth, not a drop followed by recovery.",
+      "D": "Fits the topic but not the claim: True, but it hides the drop at the Central site, so it suggests growth with no exceptions."
+    },
+    "traps": {
+      "B": "wrong time point",
+      "C": "eye-catching but unhelpful",
+      "D": "fits the topic but not the claim"
+    },
+    "quant": {
+      "A": "supports",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-007",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "budget versus premium solar panel efficiency",
+    "fictional": true,
+    "passage": "Engineer Anouk Verbeek tested the efficiency of solar panels sold in three price ranges in 2012, 2018, and 2024. Efficiency is the percentage of sunlight that a panel turns into electricity. Verbeek claims that the efficiency gap between budget panels and premium panels narrowed over this period.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average solar panel efficiency by price range",
+      "labels": ["Budget", "Mid-range", "Premium"],
+      "series": [
+        {"name": "2012", "values": [14, 17, 21]},
+        {"name": "2018", "values": [17, 19, 22]},
+        {"name": "2024", "values": [20, 21, 23]}
+      ],
+      "xlabel": "Price range",
+      "ylabel": "Efficiency (%)"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Verbeek's claim?",
+    "choices": [
+      "Premium panels were more efficient than budget panels in every one of the three years tested.",
+      "The efficiency of mid-range panels rose by 4 percentage points from 2012 to 2024.",
+      "Premium panels were 7 percentage points more efficient than budget panels in 2012 but only 3 points more in 2024.",
+      "Budget panels improved by 6 percentage points from 2012 to 2024, the same amount that mid-range panels improved."
+    ],
+    "answer": "C",
+    "explanation": "A narrowing gap means the difference between budget and premium got smaller. C gives that difference at the start and at the end.",
+    "steps": [
+      "The claim: the budget-premium GAP got smaller over time.",
+      "2012 gap: 21 - 14 = 7. 2024 gap: 23 - 20 = 3.",
+      "'Premium was always better' is true, but it does not show the gap changing.",
+      "Check numbers: mid-range rose 4 points, not 6, so D is false."
+    ],
+    "strategy_tip": "'Always ahead' and 'the gap narrowed' are different claims; the second needs the size of the gap at two times.",
+    "rationales": {
+      "A": "Wrong comparison: True, but a gap can stay the same or grow while premium stays ahead. It does not show narrowing.",
+      "B": "Wrong groups: True (21 - 17 = 4), but mid-range panels are not part of the budget-premium gap.",
+      "C": "Correct. The gap was 21 - 14 = 7 points in 2012 and 23 - 20 = 3 points in 2024, so it narrowed.",
+      "D": "False: Budget panels did improve by 6 points, but mid-range panels improved by only 4 points (17 to 21)."
+    },
+    "traps": {
+      "A": "wrong comparison",
+      "B": "wrong groups",
+      "D": "false"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "supports",
+      "D": "false"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-008",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "hard",
+    "topic": "clinic versus home therapy for knee pain",
+    "fictional": true,
+    "passage": "Physiotherapist Lena Marchetti studied adults with knee pain. One group received no therapy, one group followed a home exercise program, and one group attended clinic sessions with a therapist. Patients rated their pain from 0 (none) to 10 (worst). Marchetti claims that clinic sessions give no greater benefit than the home program.",
+    "figure": {
+      "kind": "table",
+      "title": "Average knee pain rating (0-10)",
+      "header": ["Group", "Before treatment", "After 8 weeks", "After 6 months"],
+      "rows": [
+        ["No therapy", "6.8", "6.5", "6.6"],
+        ["Home program", "6.9", "4.1", "3.8"],
+        ["Clinic sessions", "6.9", "4.2", "3.8"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to support Marchetti's claim?",
+    "choices": [
+      "Before treatment, the home program group and the clinic group reported the same average pain rating.",
+      "After 6 months, the clinic group's pain rating was 2.8 points lower than the no-therapy group's rating.",
+      "The no-therapy group's pain rating changed by less than half a point across the three measurements.",
+      "After 8 weeks and after 6 months, the clinic group's pain was no lower than the home program group's."
+    ],
+    "answer": "D",
+    "explanation": "Here a lower rating means less pain. The claim compares clinic and home after treatment, and D shows the clinic group never had less pain.",
+    "steps": [
+      "Read the scale: LOWER rating = LESS pain = more benefit.",
+      "Groups: clinic vs home. Time: after treatment.",
+      "8 weeks: 4.2 vs 4.1. 6 months: 3.8 vs 3.8. Clinic was never better.",
+      "Equal 'before' ratings use the right groups but the wrong time."
+    ],
+    "strategy_tip": "Check which direction is 'better' on the scale before you compare any numbers.",
+    "rationales": {
+      "A": "Wrong time point: True (6.9 for both), but this is before treatment, so it shows nothing about which treatment helped more.",
+      "B": "Wrong comparison: True (6.6 - 3.8 = 2.8), but it compares clinic sessions with no therapy, not with the home program.",
+      "C": "Wrong groups: True (6.8, 6.5, 6.6), but the no-therapy group is not part of the claim.",
+      "D": "Correct. After treatment, the clinic group rated pain 4.2 and 3.8, and the home group rated it 4.1 and 3.8, so the clinic gave no extra benefit."
+    },
+    "traps": {
+      "A": "wrong time point",
+      "B": "wrong comparison",
+      "C": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "supports"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-009",
+    "modeled_on": "bb-pt5-rw-b-q12",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "songbird volume near busy roads",
+    "fictional": true,
+    "passage": "Many songbirds sing louder in noisy places so that other birds can hear them. Ornithologist Tomasz Wierzba recorded three species singing in a quiet park and beside a busy road, and he expressed each song's volume as a percentage of the loudest song the species can produce. Wierzba claims that, even beside loud roads, songbirds do not always sing at their maximum volume.",
+    "figure": {
+      "kind": "bars",
+      "title": "Song volume as a percentage of maximum volume",
+      "labels": ["Great tit", "Blackbird", "Robin"],
+      "series": [
+        {"name": "Quiet park", "values": [62, 58, 70]},
+        {"name": "Busy road", "values": [88, 81, 100]}
+      ],
+      "xlabel": "Species",
+      "ylabel": "Percentage of maximum volume"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Wierzba's claim?",
+    "choices": [
+      "Beside the busy road, great tits and blackbirds sang at only 88 and 81 percent of their maximum volume.",
+      "All three species sang at a higher percentage of their maximum volume beside the road than in the park.",
+      "Beside the busy road, robins sang at 100 percent of their maximum volume.",
+      "In the quiet park, blackbirds sang at a lower percentage of their maximum volume than either other species did."
+    ],
+    "answer": "A",
+    "explanation": "The claim is about birds beside loud roads. A shows two species singing well below their maximum volume in exactly that setting.",
+    "steps": [
+      "The claim: EVEN beside loud roads, birds are not always at 100%.",
+      "So you need busy-road data below 100%.",
+      "Great tit 88% and blackbird 81% are below the maximum.",
+      "Quiet-park data is the wrong condition; the robin's 100% points the other way."
+    ],
+    "strategy_tip": "When a claim says 'even when X', the supporting data must come from condition X.",
+    "rationales": {
+      "A": "Correct. Beside the road, great tits (88%) and blackbirds (81%) did not sing at full volume, so birds do not always use their maximum even there.",
+      "B": "Fits the topic but not the claim: True, but it shows birds getting louder near roads, not staying below their maximum.",
+      "C": "Eye-catching but unhelpful: True, but a robin at full volume is the opposite of what the claim needs.",
+      "D": "Wrong condition: True (58 is the lowest park value), but the claim is about birds beside loud roads, not in a quiet park."
+    },
+    "traps": {
+      "B": "fits the topic but not the claim",
+      "C": "eye-catching but unhelpful",
+      "D": "wrong condition"
+    },
+    "quant": {
+      "A": "supports",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-010",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.LINE",
+    "difficulty": "hard",
+    "topic": "print versus e-book library loans",
+    "fictional": true,
+    "passage": "The public libraries of Harlow County lend print books, e-books, and audiobooks. Librarian Odile Fanshaw tracked yearly loans of each format from 2016 to 2024. Fanshaw claims that the gap between print loans and e-book loans narrowed dramatically during this period but had not fully closed by 2024.",
+    "figure": {
+      "kind": "line",
+      "title": "Yearly loans in Harlow County libraries",
+      "x": [2016, 2018, 2020, 2022, 2024],
+      "series": [
+        {"name": "Print books", "values": [410, 380, 300, 290, 270]},
+        {"name": "E-books", "values": [60, 110, 230, 250, 265]},
+        {"name": "Audiobooks", "values": [20, 35, 70, 90, 110]}
+      ],
+      "xlabel": "Year",
+      "ylabel": "Loans (thousands)"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Fanshaw's claim?",
+    "choices": [
+      "Audiobook loans more than quintupled from 2016 to 2024.",
+      "E-book loans grew more between 2018 and 2020 than in any other two-year period shown in the graph.",
+      "Print loans exceeded e-book loans by 350 thousand in 2016 but by only 5 thousand in 2024.",
+      "In 2024, e-book loans overtook print loans for the first time in the period shown."
+    ],
+    "answer": "C",
+    "explanation": "The claim has two parts: the print-e-book gap got much smaller, and print was still ahead in 2024. C shows both.",
+    "steps": [
+      "Claim part 1: the print-e-book gap narrowed a lot.",
+      "Claim part 2: print was still ahead in 2024.",
+      "2016: 410 - 60 = 350. 2024: 270 - 265 = 5. Both parts are true.",
+      "Check D against the graph: 265 < 270, so e-books did not overtake print."
+    ],
+    "strategy_tip": "When a claim has two parts, the answer must support both of them.",
+    "rationales": {
+      "A": "Wrong groups: True (20 to 110 is 5.5 times), but audiobooks are not part of the print-e-book gap.",
+      "B": "Covers only part of the claim: True (a rise of 120 thousand), but e-book growth alone does not show the gap or that print stayed ahead.",
+      "C": "Correct. The gap shrank from 350 thousand to 5 thousand, and print was still ahead in 2024, which matches both parts of the claim.",
+      "D": "False: In 2024, e-books had 265 thousand loans and print had 270 thousand, so print was still ahead."
+    },
+    "traps": {
+      "A": "wrong groups",
+      "B": "covers only part of the claim",
+      "D": "false"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "supports",
+      "D": "false"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-011",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "daily versus twice-weekly orchard irrigation",
+    "fictional": true,
+    "passage": "Farm researcher Petra Lindqvist measured apple yields in three sets of orchards for one year before drip irrigation was installed and for two years after. One set relied on rain only, one set was watered twice a week, and one set was watered daily. Lindqvist concludes that daily watering gives no greater benefit to apple yield than watering twice a week.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average apple yield",
+      "labels": ["Rain only", "Watered twice a week", "Watered daily"],
+      "series": [
+        {"name": "Before irrigation", "values": [21, 20, 22]},
+        {"name": "First year", "values": [20, 27, 27]},
+        {"name": "Second year", "values": [22, 29, 28]}
+      ],
+      "xlabel": "Orchard group",
+      "ylabel": "Tons per hectare"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Lindqvist's conclusion?",
+    "choices": [
+      "Before irrigation began, orchards later watered daily had a higher yield than orchards later watered twice a week.",
+      "In both years with irrigation, orchards watered daily yielded no more apples than orchards watered twice a week.",
+      "In the second year, orchards watered twice a week yielded 7 tons per hectare more than rain-only orchards.",
+      "Yields in rain-only orchards stayed within 2 tons per hectare of their starting level in both later years."
+    ],
+    "answer": "B",
+    "explanation": "The conclusion compares daily and twice-weekly watering once irrigation started. B compares exactly these groups in both irrigated years.",
+    "steps": [
+      "Groups: watered daily vs watered twice a week.",
+      "Time: the two years WITH irrigation.",
+      "First year: 27 vs 27. Second year: 28 vs 29. Daily was never higher.",
+      "The 'before irrigation' bars show the right groups at the wrong time."
+    ],
+    "strategy_tip": "In grouped bars, find the bars for the claim's two groups in each 'after' series and compare only those.",
+    "rationales": {
+      "A": "Wrong time point: True (22 vs 20), but this is before any watering, so it says nothing about the benefit of watering daily.",
+      "B": "Correct. Daily watering gave 27 and 28 tons per hectare, while twice-weekly watering gave 27 and 29, so daily watering added nothing.",
+      "C": "Wrong comparison: True (29 - 22 = 7), but it compares irrigation with rain only, not daily with twice-weekly watering.",
+      "D": "Wrong groups: True (20 and 22 vs a start of 21), but rain-only orchards are not part of the conclusion."
+    },
+    "traps": {
+      "A": "wrong time point",
+      "C": "wrong comparison",
+      "D": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "supports",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-012",
+    "modeled_on": "bb-pt5-rw-b-q12",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "hard",
+    "topic": "weekday and weekend sleep by age group",
+    "fictional": true,
+    "passage": "It is widely believed that people use weekends to catch up on sleep. Sleep researcher Maren Szabo gave sleep trackers to teenagers, adults, and seniors and recorded how long they slept on weekday and weekend nights. Szabo argues that people do not always sleep longer on weekends than on weekdays, noting that ______.",
+    "figure": {
+      "kind": "table",
+      "title": "Average hours of sleep per night",
+      "header": ["Age group", "Weekday nights", "Weekend nights"],
+      "rows": [
+        ["Teenagers", "7.1", "8.9"],
+        ["Adults", "6.8", "7.4"],
+        ["Seniors", "7.3", "7.0"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "teenagers slept 1.8 hours longer on weekend nights than on weekday nights, the largest difference in the table",
+      "on weekday nights, adults slept less than either teenagers or seniors did",
+      "both teenagers and adults slept longer on weekend nights than they did on weekday nights",
+      "seniors slept an average of 7.3 hours on weekday nights but only 7.0 hours on weekend nights"
+    ],
+    "answer": "D",
+    "explanation": "To show that people do 'not always' sleep longer on weekends, you need one group that slept less on weekends. Only seniors did.",
+    "steps": [
+      "'Not always' = find at least one exception.",
+      "An exception here is a group with LESS weekend sleep.",
+      "Seniors: 7.3 on weekdays, 7.0 on weekends. That is the exception.",
+      "Teen and adult data show the usual pattern, so they work against the claim."
+    ],
+    "strategy_tip": "For 'not always' claims, the answer is the counterexample, not the biggest or most typical number.",
+    "rationales": {
+      "A": "Eye-catching but unhelpful: True (8.9 - 7.1 = 1.8), but it shows the usual pattern of more weekend sleep, the opposite of an exception.",
+      "B": "Wrong comparison: True (6.8 is the lowest weekday value), but it compares age groups instead of weekdays with weekends.",
+      "C": "Fits the topic but not the claim: True, but it shows people sleeping longer on weekends, which does not support 'not always'.",
+      "D": "Correct. Seniors slept less on weekends (7.0) than on weekdays (7.3), so people do not always sleep longer on weekends."
+    },
+    "traps": {
+      "A": "eye-catching but unhelpful",
+      "B": "wrong comparison",
+      "C": "fits the topic but not the claim"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "supports"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-013",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "bike lanes and the commuting gap between city zones",
+    "fictional": true,
+    "passage": "In 2016, the city of Brennholm built new bike lanes in its inner ring, the zone around the city center. Planner Rasmus Holt compared the share of workers who commute by bike in the center, the inner ring, and the outer ring. Holt claims that the gap in bike commuting between the center and the inner ring narrowed after the lanes were built.",
+    "figure": {
+      "kind": "bars",
+      "title": "Workers who commute by bike (%)",
+      "labels": ["2015", "2019", "2023"],
+      "series": [
+        {"name": "Center", "values": [18, 22, 25]},
+        {"name": "Inner ring", "values": [9, 15, 20]},
+        {"name": "Outer ring", "values": [3, 5, 6]}
+      ],
+      "xlabel": "Year",
+      "ylabel": "Share of workers (%)"
+    },
+    "stem": "Which choice most effectively uses data from the graph to support Holt's claim?",
+    "choices": [
+      "The outer ring had the lowest share of bike commuters of the three zones in every year shown.",
+      "The share of workers who commute by bike rose in all three zones from 2015 to 2023.",
+      "The center's share was 9 percentage points higher than the inner ring's in 2015 but only 5 points higher in 2023.",
+      "The gap between the center and the outer ring grew from 15 to 19 percentage points between 2015 and 2023."
+    ],
+    "answer": "C",
+    "explanation": "The claim is about the gap between the center and the inner ring. C shows that gap at the start (9 points) and at the end (5 points).",
+    "steps": [
+      "Groups: center vs INNER ring. Change: the gap got smaller.",
+      "2015: 18 - 9 = 9. 2023: 25 - 20 = 5. The gap narrowed.",
+      "A gap statement about the OUTER ring uses the wrong pair of groups.",
+      "Rising shares everywhere do not show a gap changing."
+    ],
+    "strategy_tip": "If a choice talks about a gap, check that it is the gap between the claim's two groups.",
+    "rationales": {
+      "A": "Wrong groups: True (3, 5, and 6 are the lowest values), but the outer ring is not part of the claim.",
+      "B": "Wrong comparison: True, but every zone can rise while a gap stays the same, so it does not show narrowing.",
+      "C": "Correct. The center-inner ring gap fell from 18 - 9 = 9 points to 25 - 20 = 5 points, so it narrowed.",
+      "D": "Wrong groups: True (18 - 3 = 15 and 25 - 6 = 19), but it is the gap with the outer ring, and that gap grew."
+    },
+    "traps": {
+      "A": "wrong groups",
+      "B": "wrong comparison",
+      "D": "wrong groups"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "true_but_irrelevant",
+      "C": "supports",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-014",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.TABLE",
+    "difficulty": "hard",
+    "topic": "hand-hygiene reminders on hospital wards",
+    "fictional": true,
+    "passage": "At Ravensby General Hospital, nurse researcher Abena Kwarteng tested ways to remind staff to wash their hands. Some wards got no reminders, some got posters, and some got posters plus weekly emails. She measured hand-washing compliance in the month before the program and in months 3 and 6. Kwarteng claims that adding emails to posters gives no greater benefit than posters alone.",
+    "figure": {
+      "kind": "table",
+      "title": "Hand-washing compliance on hospital wards (%)",
+      "header": ["Reminder type", "Month before", "Month 3", "Month 6"],
+      "rows": [
+        ["No reminders", "61", "62", "60"],
+        ["Posters", "60", "74", "77"],
+        ["Posters plus emails", "63", "73", "77"]
+      ]
+    },
+    "stem": "Which choice most effectively uses data from the table to support Kwarteng's claim?",
+    "choices": [
+      "In months 3 and 6, compliance on wards with posters plus emails was no higher than on wards with posters alone.",
+      "In the month before the program, wards that later got posters plus emails had the highest compliance of the three groups.",
+      "By month 6, compliance on wards with posters alone was 17 percentage points higher than on wards with no reminders.",
+      "Compliance on wards with posters plus emails rose by 14 percentage points from the month before the program to month 6."
+    ],
+    "answer": "A",
+    "explanation": "The claim compares posters plus emails with posters alone during the program. A makes that comparison in both program months.",
+    "steps": [
+      "Groups: posters plus emails vs posters alone.",
+      "Time: during the program (months 3 and 6).",
+      "Month 3: 73 vs 74. Month 6: 77 vs 77. Emails added nothing.",
+      "A gain for one group alone does not compare it with the other group."
+    ],
+    "strategy_tip": "One group's improvement is not enough; the claim needs both of its groups compared at the same time.",
+    "rationales": {
+      "A": "Correct. With emails, compliance was 73% and 77%; with posters alone, it was 74% and 77%, so the emails gave no extra benefit.",
+      "B": "Wrong time point: True (63 is the highest 'month before' value), but this is before any reminders, so it shows no benefit.",
+      "C": "Wrong comparison: True (77 - 60 = 17), but it compares posters with no reminders, not with posters plus emails.",
+      "D": "Covers only part of the claim: True (77 - 63 = 14), but it describes one group only and does not compare it with posters alone."
+    },
+    "traps": {
+      "B": "wrong time point",
+      "C": "wrong comparison",
+      "D": "covers only part of the claim"
+    },
+    "quant": {
+      "A": "supports",
+      "B": "true_but_irrelevant",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  },
+  {
+    "id": "pt5-rw-coeq-015",
+    "modeled_on": "bb-pt5-rw-b-q11",
+    "skill": "RW.INI.COEQ.BAR",
+    "difficulty": "hard",
+    "topic": "memory game versus puzzle books for older adults",
+    "fictional": true,
+    "passage": "Psychologist Hana Okafor gave older adults a memory test before an eight-week training program, right after it, and one year later. One group did no training, one played a memory game on a tablet, and one solved puzzle books. Okafor found that the memory game produced larger short-term gains than puzzle books did, but that this advantage did not last: ______.",
+    "figure": {
+      "kind": "bars",
+      "title": "Average memory test score",
+      "labels": ["Before training", "Right after training", "One year later"],
+      "series": [
+        {"name": "No training", "values": [50, 50, 48]},
+        {"name": "Memory game", "values": [49, 61, 52]},
+        {"name": "Puzzle books", "values": [50, 56, 54]}
+      ],
+      "xlabel": "Test time",
+      "ylabel": "Average score"
+    },
+    "stem": "Which choice most effectively uses data from the graph to complete the statement?",
+    "choices": [
+      "right after training, the memory game group scored 5 points higher than the puzzle book group",
+      "one year later, the memory game group scored lower than the puzzle book group, 52 compared with 54",
+      "one year later, the no-training group scored 2 points lower than it had scored before training",
+      "before training, all three groups had average scores within 1 point of one another"
+    ],
+    "answer": "B",
+    "explanation": "The blank must show that the memory game's advantage disappeared later. B shows that one year later, the puzzle book group was ahead.",
+    "steps": [
+      "The blank follows 'this advantage did not last'.",
+      "So you need a LATER time where the memory game is no longer ahead of puzzle books.",
+      "One year later: memory game 52, puzzle books 54. The advantage is gone.",
+      "The 'right after' gap is the advantage itself, which the sentence already stated."
+    ],
+    "strategy_tip": "Read the words just before the blank; the data must prove exactly that part of the sentence.",
+    "rationales": {
+      "A": "Wrong time point: True (61 - 56 = 5), but it shows the short-term advantage, not that the advantage disappeared.",
+      "B": "Correct. One year later the memory game group (52) was behind the puzzle book group (54), so its advantage did not last.",
+      "C": "Wrong groups: True (50 - 48 = 2), but the no-training group is not part of the comparison in the statement.",
+      "D": "Wrong time point: True (49, 50, 50), but it describes the groups before training, not what happened later."
+    },
+    "traps": {
+      "A": "wrong time point",
+      "C": "wrong groups",
+      "D": "wrong time point"
+    },
+    "quant": {
+      "A": "true_but_irrelevant",
+      "B": "supports",
+      "C": "true_but_irrelevant",
+      "D": "true_but_irrelevant"
+    }
+  }
+]

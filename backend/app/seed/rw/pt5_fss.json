@@ -1,0 +1,534 @@
+[
+  {
+    "id": "pt5-rw-fss-001",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "medium",
+    "topic": "tapestries woven from fishing nets",
+    "fictional": true,
+    "passage": "Textile artist Ilona Ferreira collects old fishing nets from the beaches near her studio in the coastal town of Marlow Bay. Woven from these nets and dyed with a paste made from seaweed, ______ in the town library for the whole summer.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "her six new tapestries will hang",
+      "Ferreira will display her six new tapestries",
+      "visitors will be able to see her six new tapestries",
+      "the library will show Ferreira's six new tapestries"
+    ],
+    "answer": "A",
+    "explanation": "The opening phrase 'Woven from these nets...' describes the tapestries, so 'tapestries' must be the first noun after the comma.",
+    "steps": [
+      "Ask: what was woven from the nets? The tapestries.",
+      "Look at the first noun after the comma in each choice.",
+      "Only A starts with the tapestries ('her six new tapestries')."
+    ],
+    "strategy_tip": "Ask who or what does the action in the opening phrase; that noun must come right after the comma.",
+    "rationales": {
+      "A": "Correct. The tapestries were woven from the nets, and 'her six new tapestries' comes right after the comma.",
+      "B": "Dangling modifier: This says Ferreira herself was woven from nets. The person is not the thing described.",
+      "C": "Dangling modifier: This says the visitors were woven from nets.",
+      "D": "Dangling modifier: This says the library was woven from nets. 'Tapestries' comes too late in the clause."
+    },
+    "traps": {
+      "B": "dangling modifier",
+      "C": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-002",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "medium",
+    "topic": "tide pools surveyed by one biologist",
+    "fictional": true,
+    "passage": "Few places on the coast of Vessa Point are as rich in life as its rocky shore. The tide pools along the shore, which a single marine biologist, Odile Marchetti, has surveyed every spring since 2009, ______ home to more than forty species of sea snail.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "is",
+      "are",
+      "has been",
+      "was"
+    ],
+    "answer": "B",
+    "explanation": "The subject is 'The tide pools' (plural). The 'which...' clause is an interrupter, so the verb is 'are.'",
+    "steps": [
+      "Find the subject: 'The tide pools.'",
+      "Cross out the interrupter: 'which a single marine biologist, Odile Marchetti, has surveyed every spring since 2009.'",
+      "Read 'The tide pools ______ home to...': plural subject, so 'are.'"
+    ],
+    "strategy_tip": "Cross out every word between the subject and the blank, then match the verb to the subject.",
+    "rationales": {
+      "A": "Agrees with the nearby noun: 'Is' matches 'biologist' or 'Marchetti,' which sit inside the interrupter. The subject 'tide pools' is plural.",
+      "B": "Correct. The plural subject 'tide pools' needs the plural verb 'are.'",
+      "C": "Agrees with the nearby noun: 'Has been' is singular. It matches 'biologist,' not the plural subject 'tide pools.'",
+      "D": "Agrees with the nearby noun: 'Was' is singular, and the past tense also does not fit a fact that is still true."
+    },
+    "traps": {
+      "A": "agrees with the nearby noun",
+      "C": "agrees with the nearby noun",
+      "D": "agrees with the nearby noun"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-003",
+    "skill": "RW.SEC.FSS.FINITE",
+    "difficulty": "medium",
+    "topic": "a maritime society's ship models",
+    "fictional": true,
+    "passage": "Founded in 1974 by a group of retired sailors, the Harwick Maritime Society ______ more than three hundred ship models, many of them built by its own members from old drawings found in local harbors.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "owning",
+      "to own",
+      "owns",
+      "having owned"
+    ],
+    "answer": "C",
+    "explanation": "The subject 'the Harwick Maritime Society' has no verb yet. The blank must be a main (finite) verb: 'owns.'",
+    "steps": [
+      "Skip the opening phrase 'Founded in 1974 by... sailors.'",
+      "Find the subject: 'the Harwick Maritime Society.'",
+      "Ask: does the sentence have a main verb? No, so the blank needs one.",
+      "Only 'owns' can be a main verb."
+    ],
+    "strategy_tip": "If the subject has no verb yet, the blank needs a finite verb (owns, owned), not an -ing form or 'to' form.",
+    "rationales": {
+      "A": "No main verb: 'Owning' is an -ing form. It cannot be the main verb, so the sentence is incomplete.",
+      "B": "No main verb: 'To own' is an infinitive. It cannot be the main verb of a sentence.",
+      "C": "Correct. 'Owns' is a finite verb, so it gives the subject 'the Harwick Maritime Society' a main verb.",
+      "D": "No main verb: 'Having owned' is a participle. The sentence still has no main verb."
+    },
+    "traps": {
+      "A": "no main verb",
+      "B": "no main verb",
+      "D": "no main verb"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-004",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "medium",
+    "topic": "surveying abandoned mills for housing",
+    "fictional": true,
+    "passage": "Many towns in the Dravna Valley have dozens of empty textile mills that closed in the 1980s. Having surveyed more than two hundred of these buildings over three years, ______ that most of them could be turned into low-cost housing.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the conclusion of architect Tomas Lindqvist was",
+      "a report by architect Tomas Lindqvist argued",
+      "architect Tomas Lindqvist's report concluded",
+      "architect Tomas Lindqvist concluded"
+    ],
+    "answer": "D",
+    "explanation": "A person surveyed the buildings, so the person, Tomas Lindqvist, must come right after the comma.",
+    "steps": [
+      "Ask: who surveyed the buildings? A person, the architect.",
+      "Check the first noun after the comma in each choice.",
+      "A, B, and C start with a conclusion or a report. A report cannot survey buildings.",
+      "Only D starts with the architect."
+    ],
+    "strategy_tip": "With a 'Having + past participle' opener, the subject must be the person who did the action.",
+    "rationales": {
+      "A": "Dangling modifier: This says the conclusion surveyed the buildings. A conclusion cannot survey anything.",
+      "B": "Dangling modifier: This says the report surveyed the buildings. The architect did the survey.",
+      "C": "Dangling modifier: In 'Lindqvist's report,' the main noun is 'report,' not Lindqvist. A possessive does not make the person the subject.",
+      "D": "Correct. Lindqvist did the surveying, and his name comes right after the comma."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "B": "dangling modifier",
+      "C": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-005",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "a timber footbridge over a gorge",
+    "fictional": true,
+    "passage": "Engineer Margit Solberg designed the footbridge over the Tavra Gorge using only local pine and no steel bolts, a choice that other engineers at the time called reckless. Built in 1931 and repaired only twice since then, ______ more than a thousand hikers every summer weekend.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Solberg created a design that still carries",
+      "the footbridge still carries",
+      "the gorge is crossed by",
+      "there is a footbridge that carries"
+    ],
+    "answer": "B",
+    "explanation": "The footbridge was built in 1931, so 'the footbridge' must be the first noun after the comma.",
+    "steps": [
+      "Ask: what was built in 1931 and repaired twice? The footbridge.",
+      "Look at the first noun after the comma in each choice.",
+      "A starts with Solberg, C with the gorge, and D with 'there.'",
+      "Only B starts with the footbridge."
+    ],
+    "strategy_tip": "An opening phrase about a thing ('Built in...') needs that thing right after the comma, not its maker.",
+    "rationales": {
+      "A": "Dangling modifier: This says Solberg was built in 1931. The person is not the thing described.",
+      "B": "Correct. The footbridge was built and repaired, and 'the footbridge' comes right after the comma.",
+      "C": "Dangling modifier: The passive voice puts 'the gorge' first, so this says the gorge was built in 1931.",
+      "D": "Dangling modifier: 'There' cannot be built. The opening phrase needs a real noun, the footbridge, right after the comma."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "C": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-006",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "recording village work songs",
+    "fictional": true,
+    "passage": "In the hill villages of Liria, the songs that farmers sang while harvesting were rarely written down, and many were close to being lost. Having spent eleven years recording these songs with the oldest people in each village, ______ the first complete collection of the region's work songs.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "ethnomusicologist Petra Halloran's new book is",
+      "the result for ethnomusicologist Petra Halloran is",
+      "a new book by ethnomusicologist Petra Halloran offers",
+      "ethnomusicologist Petra Halloran has published"
+    ],
+    "answer": "D",
+    "explanation": "A person spent eleven years recording, so the person, Petra Halloran, must be the subject right after the comma.",
+    "steps": [
+      "Ask: who spent eleven years recording songs? Petra Halloran.",
+      "Find the main noun after the comma in each choice.",
+      "In A the main noun is 'book' (Halloran's is only a possessive). B starts with 'result,' C with 'book.'",
+      "Only D makes Halloran the subject."
+    ],
+    "strategy_tip": "A possessive ('Halloran's book') makes the book the subject, not the person; it does not fix a modifier about a person.",
+    "rationales": {
+      "A": "Dangling modifier: In 'Halloran's new book,' the subject is 'book.' This says the book spent eleven years recording songs.",
+      "B": "Dangling modifier: This says the result spent eleven years recording songs.",
+      "C": "Dangling modifier: This says a book did the recording. Halloran comes too late in the clause.",
+      "D": "Correct. Halloran did the recording, and she is the subject right after the comma."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "B": "dangling modifier",
+      "C": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-007",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "a basalt statue found near a riverbed",
+    "fictional": true,
+    "passage": "The statue is less than a meter tall and shows a seated woman holding a bowl of grain. Carved from a single block of black basalt about three thousand years ago, ______ near a dry riverbed outside the ancient city of Ost Keral in 2016.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the statue was found by a team of archaeologists",
+      "a team of archaeologists found the statue",
+      "the team's discovery of the statue took place",
+      "archaeologists were surprised to find the statue"
+    ],
+    "answer": "A",
+    "explanation": "The statue was carved from basalt, so 'the statue' must come right after the comma. Here the passive voice is what puts it first.",
+    "steps": [
+      "Ask: what was carved from basalt? The statue.",
+      "Look at the first noun after the comma in each choice.",
+      "B and D start with archaeologists; C starts with 'discovery.'",
+      "Only A, in the passive voice, starts with the statue."
+    ],
+    "strategy_tip": "The active voice is not always better: if the opening phrase describes the object, the passive voice can put that object first.",
+    "rationales": {
+      "A": "Correct. The statue was carved, and the passive 'the statue was found by...' puts it right after the comma.",
+      "B": "Dangling modifier: The active voice puts the archaeologists first, so this says the team was carved from basalt.",
+      "C": "Dangling modifier: The main noun is 'discovery,' so this says the discovery was carved from basalt.",
+      "D": "Dangling modifier: This says the archaeologists were carved from basalt."
+    },
+    "traps": {
+      "B": "dangling modifier",
+      "C": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-008",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "a novel written during a winter storm",
+    "fictional": true,
+    "passage": "Novelist Rosa Imbert has said that she could not leave her farmhouse for most of the winter of 1986 because of the snow. Written in only six weeks during that long storm, ______ for fiction two years later.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Rosa Imbert won the Halden Prize",
+      "the Halden Prize went to Rosa Imbert",
+      "Rosa Imbert's first novel won the Halden Prize",
+      "the judges gave Rosa Imbert the Halden Prize"
+    ],
+    "answer": "C",
+    "explanation": "The novel was written in six weeks, so the novel must be the subject. In 'Rosa Imbert's first novel,' the main noun is 'novel.'",
+    "steps": [
+      "Ask: what was written in six weeks? The novel.",
+      "Find the main noun after the comma in each choice.",
+      "A starts with Imbert, B with the prize, and D with the judges.",
+      "In C, 'Imbert's' is a possessive; the main noun is 'novel,' so C is right."
+    ],
+    "strategy_tip": "Find the head noun: in 'X's novel' the subject is the novel, which is correct when the opening phrase describes the novel.",
+    "rationales": {
+      "A": "Dangling modifier: This says Rosa Imbert herself was written in six weeks. The person is not the thing described.",
+      "B": "Dangling modifier: This says the prize was written in six weeks.",
+      "C": "Correct. The main noun is 'novel,' and the novel is what was written in six weeks.",
+      "D": "Dangling modifier: This says the judges were written in six weeks."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "B": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-009",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "a painter who mixes her own pigments",
+    "fictional": true,
+    "passage": "The deep reds and greens in Noor Haddad's landscapes do not come from paint bought in a shop. Trained as a pharmacist before she turned to painting, ______ from crushed minerals that she gathers in the hills near her home.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Haddad's paints are mixed",
+      "Haddad mixes her paints",
+      "the paints that Haddad uses are mixed",
+      "mixing her paints is done by Haddad"
+    ],
+    "answer": "B",
+    "explanation": "Haddad was trained as a pharmacist, so 'Haddad' must be the subject right after the comma.",
+    "steps": [
+      "Ask: who was trained as a pharmacist? Haddad, a person.",
+      "Find the main noun after the comma in each choice.",
+      "A and C have 'paints' as the main noun. D has 'mixing.'",
+      "Only B makes Haddad the subject."
+    ],
+    "strategy_tip": "If the opening phrase describes a person, choose the active clause that starts with that person.",
+    "rationales": {
+      "A": "Dangling modifier: In 'Haddad's paints,' the subject is 'paints.' This says the paints were trained as a pharmacist.",
+      "B": "Correct. Haddad was trained as a pharmacist, and she is the subject right after the comma.",
+      "C": "Dangling modifier: The main noun is 'paints,' so this says the paints were trained as a pharmacist.",
+      "D": "Dangling modifier: The subject is 'mixing,' an action. An action cannot be trained as a pharmacist."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "C": "dangling modifier",
+      "D": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-010",
+    "modeled_on": "bb-pt5-rw-a-q19",
+    "skill": "RW.SEC.FSS.MOD",
+    "difficulty": "hard",
+    "topic": "an abandoned island village on film",
+    "fictional": true,
+    "passage": "The only village on the island of Kell once had a school, a bakery, and more than two hundred residents. Abandoned by its last families in 1961 and now covered in moss and ivy, ______ in his new documentary.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "filmmaker Aran Doyle explores the village on Kell",
+      "the story of the village on Kell is told by filmmaker Aran Doyle",
+      "viewers can explore the village on Kell with filmmaker Aran Doyle",
+      "the village on Kell is explored by filmmaker Aran Doyle"
+    ],
+    "answer": "D",
+    "explanation": "The village was abandoned and is covered in moss, so 'the village' must be the first noun after the comma. The passive voice puts it there.",
+    "steps": [
+      "Ask: what was abandoned and is covered in moss? The village.",
+      "Find the main noun after the comma in each choice.",
+      "A starts with Doyle, B with 'story,' and C with 'viewers.'",
+      "Only D starts with the village."
+    ],
+    "strategy_tip": "Don't reject a passive clause by reflex; check which noun comes first after the comma.",
+    "rationales": {
+      "A": "Dangling modifier: This says filmmaker Aran Doyle was abandoned in 1961 and is covered in moss.",
+      "B": "Dangling modifier: The main noun is 'story,' so this says the story is covered in moss and ivy.",
+      "C": "Dangling modifier: This says the viewers were abandoned in 1961.",
+      "D": "Correct. The village was abandoned, and the passive 'the village on Kell is explored...' puts it right after the comma."
+    },
+    "traps": {
+      "A": "dangling modifier",
+      "B": "dangling modifier",
+      "C": "dangling modifier"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-011",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "hard",
+    "topic": "planning councils approve tram routes",
+    "fictional": true,
+    "passage": "For years, residents of Amberline's northern districts complained about slow, crowded buses. The decision by the city's planning councils (five elected boards that oversee building in the districts) to approve three new tram routes ______ how seriously officials now take those complaints.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "reflects",
+      "reflect",
+      "have reflected",
+      "are reflecting"
+    ],
+    "answer": "A",
+    "explanation": "The subject is 'The decision' (singular). Everything from 'by the city's planning councils' to 'routes' is an interrupter, so the verb is 'reflects.'",
+    "steps": [
+      "Find the subject: 'The decision.'",
+      "Cross out 'by the city's planning councils,' the parentheses, and 'to approve three new tram routes.'",
+      "Read 'The decision ______ how seriously...': singular subject, so 'reflects.'"
+    ],
+    "strategy_tip": "Plural nouns right before the blank ('routes') are bait; the verb agrees with the first main noun.",
+    "rationales": {
+      "A": "Correct. The singular subject 'decision' needs the singular verb 'reflects.'",
+      "B": "Agrees with the nearby noun: 'Reflect' matches 'routes' or 'councils.' The subject 'decision' is singular.",
+      "C": "Agrees with the nearby noun: 'Have reflected' is plural. It matches 'boards' or 'routes,' not 'decision.'",
+      "D": "Agrees with the nearby noun: 'Are reflecting' is plural, so it does not match the singular subject 'decision.'"
+    },
+    "traps": {
+      "B": "agrees with the nearby noun",
+      "C": "agrees with the nearby noun",
+      "D": "agrees with the nearby noun"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-012",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "hard",
+    "topic": "survey methods for a mountain dialect",
+    "fictional": true,
+    "passage": "Linguist Jonah Petrak worked in the Orvane valley for only two summers. Yet the survey methods that he designed for his study of a single mountain dialect (the speech of one village, used today by fewer than a thousand people) ______ the basis of nearly every later study of the region.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "remains",
+      "has remained",
+      "remain",
+      "is remaining"
+    ],
+    "answer": "C",
+    "explanation": "The subject is 'the survey methods' (plural). The 'that...' clause and the parentheses are interrupters, so the verb is 'remain.'",
+    "steps": [
+      "Find the subject: 'the survey methods.'",
+      "Cross out 'that he designed for his study of a single mountain dialect' and the parentheses.",
+      "Read 'the survey methods ______ the basis...': plural subject, so 'remain.'"
+    ],
+    "strategy_tip": "Skip relative clauses and parentheses completely; they never contain the subject.",
+    "rationales": {
+      "A": "Agrees with the nearby noun: 'Remains' matches 'dialect' or 'village,' but the subject 'methods' is plural.",
+      "B": "Agrees with the nearby noun: 'Has remained' is singular. It matches 'study' or 'speech,' not 'methods.'",
+      "C": "Correct. The plural subject 'methods' needs the plural verb 'remain.'",
+      "D": "Agrees with the nearby noun: 'Is remaining' is singular, and 'remain' is not normally used in the -ing form here."
+    },
+    "traps": {
+      "A": "agrees with the nearby noun",
+      "B": "agrees with the nearby noun",
+      "D": "agrees with the nearby noun"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-013",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "hard",
+    "topic": "microplastics in harbor seawater",
+    "fictional": true,
+    "passage": "Researchers at the Velden Institute have tested harbor water every year since 2010. Their latest analysis of the seawater samples, which they collected from twelve harbors (most of them along the Tessaly coast) in both summer and winter, ______ that microplastic levels doubled over the decade.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "suggest",
+      "have suggested",
+      "are suggesting",
+      "suggests"
+    ],
+    "answer": "D",
+    "explanation": "The subject is 'Their latest analysis' (singular). 'Of the seawater samples' and the 'which...' clause are interrupters, so the verb is 'suggests.'",
+    "steps": [
+      "Find the subject: 'Their latest analysis.'",
+      "Cross out 'of the seawater samples, which they collected... in both summer and winter.'",
+      "Read 'Their latest analysis ______ that...': singular subject, so 'suggests.'"
+    ],
+    "strategy_tip": "In 'the analysis of the samples,' the subject is the noun before 'of.'",
+    "rationales": {
+      "A": "Agrees with the nearby noun: 'Suggest' matches 'samples' or 'harbors.' The subject 'analysis' is singular.",
+      "B": "Agrees with the nearby noun: 'Have suggested' is plural. It matches 'samples,' not 'analysis.'",
+      "C": "Agrees with the nearby noun: 'Are suggesting' is plural, so it does not match the singular subject 'analysis.'",
+      "D": "Correct. The singular subject 'analysis' needs the singular verb 'suggests.'"
+    },
+    "traps": {
+      "A": "agrees with the nearby noun",
+      "B": "agrees with the nearby noun",
+      "C": "agrees with the nearby noun"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-014",
+    "modeled_on": "bb-pt5-rw-b-q19",
+    "skill": "RW.SEC.FSS.SVA",
+    "difficulty": "hard",
+    "topic": "murals in a former railway station",
+    "fictional": true,
+    "passage": "Painter Delia Moreau spent four years on a single public commission. The murals that she completed for the old railway station in Brask (a building that the city has since turned into a public library) ______ scenes from the daily life of the station's workers.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "depicts",
+      "depict",
+      "has depicted",
+      "is depicting"
+    ],
+    "answer": "B",
+    "explanation": "The subject is 'The murals' (plural). The 'that...' clause and the parentheses are interrupters, so the verb is 'depict.'",
+    "steps": [
+      "Find the subject: 'The murals.'",
+      "Cross out 'that she completed for the old railway station in Brask' and the parentheses.",
+      "Read 'The murals ______ scenes...': plural subject, so 'depict.'"
+    ],
+    "strategy_tip": "The noun just before the blank ('library') is almost never the subject in these questions.",
+    "rationales": {
+      "A": "Agrees with the nearby noun: 'Depicts' matches 'library,' 'building,' or 'station.' The subject 'murals' is plural.",
+      "B": "Correct. The plural subject 'murals' needs the plural verb 'depict.'",
+      "C": "Agrees with the nearby noun: 'Has depicted' is singular. It matches 'city' or 'library,' not 'murals.'",
+      "D": "Agrees with the nearby noun: 'Is depicting' is singular, so it does not match the plural subject 'murals.'"
+    },
+    "traps": {
+      "A": "agrees with the nearby noun",
+      "C": "agrees with the nearby noun",
+      "D": "agrees with the nearby noun"
+    }
+  },
+  {
+    "id": "pt5-rw-fss-015",
+    "skill": "RW.SEC.FSS.FINITE",
+    "difficulty": "hard",
+    "topic": "hand-built fishing boats in a museum",
+    "fictional": true,
+    "passage": "Until the 1950s, fishers on the Ulmar coast built their own boats. The small wooden boats that these fishers made by hand, each one shaped by eye without any written plans and painted in the colors of its owner's family, ______ now on display at the regional museum in Fenholt.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "being",
+      "having been",
+      "to be"
+    ],
+    "answer": "A",
+    "explanation": "The subject 'The small wooden boats' has no main verb yet; 'made,' 'shaped,' and 'painted' are inside modifiers. The blank needs the finite verb 'are.'",
+    "steps": [
+      "Find the subject: 'The small wooden boats.'",
+      "Cross out 'that these fishers made by hand' and the 'each one shaped... family' phrase.",
+      "Ask: does the subject have a main verb? No, so the blank needs one.",
+      "Only 'are' is a finite verb."
+    ],
+    "strategy_tip": "Verbs inside 'that...' clauses and descriptive phrases don't count; check that the subject itself has a main verb.",
+    "rationales": {
+      "A": "Correct. 'Are' is a finite verb, so it gives the plural subject 'boats' a main verb.",
+      "B": "No main verb: 'Being' is an -ing form. It cannot be the main verb, so the sentence stays incomplete.",
+      "C": "No main verb: 'Having been' is a participle. The subject 'boats' still has no main verb.",
+      "D": "No main verb: 'To be' is an infinitive. It cannot be the main verb of a sentence."
+    },
+    "traps": {
+      "B": "no main verb",
+      "C": "no main verb",
+      "D": "no main verb"
+    }
+  }
+]

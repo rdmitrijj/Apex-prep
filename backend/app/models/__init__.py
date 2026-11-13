@@ -229,7 +229,8 @@ class ImportedMistake(Base):
     __tablename__ = "imported_mistakes"
     __table_args__ = (
         UniqueConstraint("user_id", "external_id"),
-        CheckConstraint("result IN ('incorrect','omitted')", name="result"),
+        # 'guessed': answered right by guessing (a reference example; reviewed, but not a miss)
+        CheckConstraint("result IN ('incorrect','omitted','guessed')", name="result"),
     )
     id: Mapped[int] = mapped_column(primary_key=True)
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
@@ -261,7 +262,7 @@ class TriageSession(Base):
     __tablename__ = "triage_sessions"
     id: Mapped[int] = mapped_column(primary_key=True)
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
-    mode: Mapped[str] = mapped_column(String(8))
+    mode: Mapped[str] = mapped_column(String(16))  # Mini Mock: "mockrw-A", "mockmath-B"
     limit_s: Mapped[int] = mapped_column(Integer)
     elapsed_ms: Mapped[int] = mapped_column(Integer)
     total: Mapped[int] = mapped_column(SmallInteger)
@@ -270,3 +271,23 @@ class TriageSession(Base):
     avg_seconds: Mapped[float] = mapped_column(Float)
     items: Mapped[list[dict[str, Any]]] = mapped_column(Json)
     created_at: Mapped[datetime] = _now()
+
+
+class SetReview(Base):
+    """PT5 Weakness Drill: a set's review schedule, created when the set is first mastered."""
+
+    __tablename__ = "set_reviews"
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), primary_key=True)
+    set_id: Mapped[str] = mapped_column(String(32), primary_key=True)
+    mastered_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    interval_days: Mapped[int] = mapped_column(SmallInteger)
+    due_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+
+
+class PlanCheck(Base):
+    """A ticked item of a fixed study-plan checklist (seed/pt5/plan.json)."""
+
+    __tablename__ = "plan_checks"
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), primary_key=True)
+    item_key: Mapped[str] = mapped_column(String(64), primary_key=True)
+    done_at: Mapped[datetime] = _now()

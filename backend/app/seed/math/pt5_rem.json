@@ -1,0 +1,227 @@
+[
+ {
+  "id": "pt5-m-rem-001",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "What is the remainder when $p(x) = 2x^3 - 5x^2 + 4x - 7$ is divided by $x + 2$?",
+  "choices": [
+   "$-3$",
+   "$-35$",
+   "$-51$",
+   "$-7$"
+  ],
+  "values": [
+   "-3",
+   "-35",
+   "-51",
+   "-7"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Sign error: that is $p(2)$. Dividing by $x + 2$ means you use $x = -2$.",
+   "B": "Arithmetic slip: $4(-2) = -8$, not $+8$.",
+   "C": "Correct. The remainder is $p(-2) = -16 - 20 - 8 - 7 = -51$.",
+   "D": "That is only the constant term, $p(0)$. You must use $x = -2$."
+  },
+  "check": "2*(-2)**3 - 5*(-2)**2 + 4*(-2) - 7",
+  "explanation": [
+   "Remainder theorem: the remainder of $p(x) \\div (x + a)$ is $p(-a)$.",
+   "Here $x + 2 = 0$ gives $x = -2$.",
+   "$p(-2) = 2(-8) - 5(4) + 4(-2) - 7 = -16 - 20 - 8 - 7 = -51$.",
+   "Desmos way: type $p(x) = 2x^3 - 5x^2 + 4x - 7$, then $p(-2)$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-002",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The equation $(3x + 4)(2x - 5) = ax^2 + bx + c$ is true for all values of $x$, where $a$, $b$, and $c$ are constants. What is the value of $b$?",
+  "choices": [
+   "$-7$",
+   "$2$",
+   "$23$",
+   "$-20$"
+  ],
+  "values": [
+   "-7",
+   "2",
+   "23",
+   "-20"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The $x$-terms are $3x(-5) + 4(2x) = -15x + 8x = -7x$.",
+   "B": "Same-bracket error: you multiplied $3x \\cdot 4$ and $2x \\cdot (-5)$ inside each bracket. Multiply each term of one bracket by each term of the other.",
+   "C": "Sign error: $3x \\cdot (-5) = -15x$, not $+15x$.",
+   "D": "That is $c$, the constant term $4 \\cdot (-5)$, not $b$."
+  },
+  "check": "Poly(expand((3*x + 4)*(2*x - 5)), x).coeff_monomial(x)",
+  "explanation": [
+   "Multiply every term of the first bracket by every term of the second (FOIL).",
+   "$3x \\cdot 2x = 6x^2$, $3x \\cdot (-5) = -15x$, $4 \\cdot 2x = 8x$, $4 \\cdot (-5) = -20$.",
+   "Add the $x$-terms: $-15x + 8x = -7x$, so $b = -7$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-003",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the polynomial $p(x) = 2x^3 - kx^2 + x + 15$, $k$ is a constant. If $x + 3$ is a factor of $p(x)$, what is the value of $k$?",
+  "check": "solve(Eq(2*(-3)**3 - k*(-3)**2 + (-3) + 15, 0), k)[0]",
+  "spr_answers": [
+   "-14/3"
+  ],
+  "spr_entries": [
+   "-14/3",
+   "-4.666",
+   "-4.667"
+  ],
+  "explanation": [
+   "If $x + 3$ is a factor, then $p(-3) = 0$.",
+   "$p(-3) = 2(-27) - k(9) + (-3) + 15 = -42 - 9k$.",
+   "$-42 - 9k = 0$, so $k = -\\frac{14}{3}$.",
+   "Trap: using $p(3) = 0$ gives a different $k$. The factor $x + 3$ means $x = -3$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-004",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "For the polynomial $p(x) = x^3 - 2x^2 + kx + 5$, where $k$ is a constant, the remainder when $p(x)$ is divided by $x - 1$ is $9$. What is the remainder when $p(x)$ is divided by $x + 2$?",
+  "choices": [
+   "$15$",
+   "$3$",
+   "$5$",
+   "$-21$"
+  ],
+  "values": [
+   "15",
+   "3",
+   "5",
+   "-21"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Sign error: that is $p(2)$. The remainder for $x + 2$ is $p(-2)$.",
+   "B": "You used $p(-1) = 9$ for the first divisor, so $k = -7$. The divisor $x - 1$ means $p(1)$.",
+   "C": "That is the value of $k$, not the remainder.",
+   "D": "Correct. $p(1) = 4 + k = 9$, so $k = 5$; then $p(-2) = -8 - 8 - 10 + 5 = -21$."
+  },
+  "check": "(x**3 - 2*x**2 + solve(Eq(1 - 2 + k + 5, 9), k)[0]*x + 5).subs(x, -2)",
+  "explanation": [
+   "Remainder for $x - 1$ is $p(1)$: $1 - 2 + k + 5 = 9$, so $k = 5$.",
+   "Now $p(x) = x^3 - 2x^2 + 5x + 5$.",
+   "Remainder for $x + 2$ is $p(-2) = -8 - 8 - 10 + 5 = -21$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-005",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "When $p(x) = 6x^3 - x^2 + kx + 4$, where $k$ is a constant, is divided by $2x + 1$, the remainder is $7$. What is the value of $k$?",
+  "check": "solve(Eq(6*Rational(-1, 2)**3 - Rational(-1, 2)**2 + k*Rational(-1, 2) + 4, 7), k)[0]",
+  "spr_answers": [
+   "-8"
+  ],
+  "spr_entries": [
+   "-8"
+  ],
+  "explanation": [
+   "The remainder for $2x + 1$ is $p$ at the zero of $2x + 1$, so use $x = -\\frac{1}{2}$.",
+   "$p(-\\frac{1}{2}) = 6(-\\frac{1}{8}) - \\frac{1}{4} - \\frac{k}{2} + 4 = 3 - \\frac{k}{2}$.",
+   "$3 - \\frac{k}{2} = 7$, so $\\frac{k}{2} = -4$ and $k = -8$.",
+   "Trap: $x = -1$ is the zero of $x + 1$, not of $2x + 1$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-006",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "In the polynomial $p(x) = x^3 + 3x^2 + kx - 10$, $k$ is a constant. If $x + 5$ is a factor of $p(x)$, what is the value of $k$?",
+  "choices": [
+   "$38$",
+   "$-12$",
+   "$12$",
+   "$-38$"
+  ],
+  "values": [
+   "38",
+   "-12",
+   "12",
+   "-38"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Power sign error: $(-5)^3 = -125$, not $125$.",
+   "B": "Correct. $p(-5) = -125 + 75 - 5k - 10 = -60 - 5k = 0$, so $k = -12$.",
+   "C": "Solving error: $-60 - 5k = 0$ gives $-5k = 60$, so $k = -12$, not $12$.",
+   "D": "Sign error: you used $p(5) = 0$. The factor $x + 5$ means $x = -5$."
+  },
+  "check": "solve(Eq((-5)**3 + 3*(-5)**2 + k*(-5) - 10, 0), k)[0]",
+  "explanation": [
+   "$x + 5$ is a factor exactly when $p(-5) = 0$.",
+   "$p(-5) = -125 + 75 - 5k - 10 = -60 - 5k$.",
+   "$-60 - 5k = 0$, so $k = -12$.",
+   "Desmos way: type $p(x) = x^3 + 3x^2 + kx - 10$ with a slider for $k$, then $p(-5)$; move $k$ until it is $0$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-007",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The equation $(ax + 5)(2x + b) = 6x^2 + cx - 20$ is true for all values of $x$, where $a$, $b$, and $c$ are constants. What is the value of $c$?",
+  "choices": [
+   "$7$",
+   "$22$",
+   "$-2$",
+   "$-12$"
+  ],
+  "values": [
+   "7",
+   "22",
+   "-2",
+   "-12"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Same-bracket error: $a \\cdot 5 + 2 \\cdot b = 15 - 8$ multiplies terms inside each bracket. The $x$-terms come from $ax \\cdot b$ and $5 \\cdot 2x$.",
+   "B": "Sign error: $ab = 3(-4) = -12$, so $c = -12 + 10$, not $12 + 10$.",
+   "C": "Correct. $2a = 6$ gives $a = 3$; $5b = -20$ gives $b = -4$; $c = ab + 10 = -12 + 10 = -2$.",
+   "D": "Missing term: $ab = -12$ is only the outer product. Add the inner product $5 \\cdot 2x = 10x$."
+  },
+  "check": "solve(Eq(2*a, 6), a)[0]*solve(Eq(5*b, -20), b)[0] + 5*2",
+  "explanation": [
+   "Match the $x^2$ terms: $2a = 6$, so $a = 3$.",
+   "Match the constants: $5b = -20$, so $b = -4$.",
+   "The $x$-terms: $ax \\cdot b + 5 \\cdot 2x = (ab + 10)x$.",
+   "$c = 3(-4) + 10 = -2$."
+  ]
+ },
+ {
+  "id": "pt5-m-rem-008",
+  "skill": "MATH.ADV.EQX.POLY",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The equation $(3x + c)(x - 4) = 3x^2 - 7x + d$ is true for all values of $x$, where $c$ and $d$ are constants. What is the value of $d$?",
+  "check": "-4*solve(Eq(3*(-4) + c, -7), c)[0]",
+  "spr_answers": [
+   "-20"
+  ],
+  "spr_entries": [
+   "-20"
+  ],
+  "explanation": [
+   "Expand: $(3x + c)(x - 4) = 3x^2 - 12x + cx - 4c$.",
+   "Match the $x$-terms: $-12 + c = -7$, so $c = 5$.",
+   "Match the constants: $d = -4c = -20$.",
+   "Trap: $3x \\cdot c$ is a same-bracket product. It is never part of the expansion."
+  ]
+ }
+]

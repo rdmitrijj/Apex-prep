@@ -1,0 +1,34 @@
+{
+  "title": "5-day plan to the weekend mock",
+  "days": [
+    {"date": "2026-11-13", "title": "Fri 13", "items": [
+      {"key": "d1-trans", "text": "Transitions set", "link": "/pt5?set=rw-trans"},
+      {"key": "d1-wic", "text": "Words in Context set", "link": "/pt5?set=rw-wic"},
+      {"key": "d1-bnd", "text": "Boundaries set", "link": "/pt5?set=rw-bnd"},
+      {"key": "d1-mock-rw-a", "text": "Mini Mock R&W, form A", "link": "/triage?mock=rw&form=A"}
+    ]},
+    {"date": "2026-11-14", "title": "Sat 14", "items": [
+      {"key": "d2-inf", "text": "Inferences set", "link": "/pt5?set=rw-inf"},
+      {"key": "d2-coeq", "text": "Quantitative evidence set", "link": "/pt5?set=rw-coeq"},
+      {"key": "d2-coet", "text": "Textual evidence set", "link": "/pt5?set=rw-coet"},
+      {"key": "d2-ctc", "text": "Cross-text set", "link": "/pt5?set=rw-ctc"},
+      {"key": "d2-fss", "text": "Form, Structure, and Sense set", "link": "/pt5?set=rw-fss"},
+      {"key": "d2-pct", "text": "Math: Percentages set", "link": "/pt5?set=m-pct"},
+      {"key": "d2-sysp", "text": "Math: Systems with a parameter set", "link": "/pt5?set=m-sysp"},
+      {"key": "d2-lintr", "text": "Math: Linear functions and transformations set", "link": "/pt5?set=m-lintr"},
+      {"key": "d2-mock-m-a", "text": "Mini Mock Math, form A", "link": "/triage?mock=math&form=A"}
+    ]},
+    {"date": "2026-11-15", "title": "Sun 15", "items": [
+      {"key": "d3-warmup", "text": "Warm-up 15 min: rule cards only", "link": "/pt5?cards=1"},
+      {"key": "d3-bluebook", "text": "Full Bluebook practice test", "link": null}
+    ]},
+    {"date": "2026-11-16", "title": "Mon 16", "items": [
+      {"key": "d4-review", "text": "Review the Bluebook mistakes", "link": "/mistakes"},
+      {"key": "d4-mock-b", "text": "Mini Mock form B (R&W + Math)", "link": "/triage?mock=both&form=B"},
+      {"key": "d4-mock-c", "text": "Mini Mock form C (R&W + Math)", "link": "/triage?mock=both&form=C"}
+    ]},
+    {"date": "2026-11-17", "title": "Tue 17", "items": [
+      {"key": "d5-retake", "text": "Re-take every set that isn't mastered", "link": "/pt5"}
+    ]}
+  ]
+}

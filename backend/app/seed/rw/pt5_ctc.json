@@ -1,0 +1,371 @@
+[
+  {
+    "id": "pt5-rw-ctc-001",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "topic": "computers identifying the authors of short letters",
+    "fictional": true,
+    "passage": "Text 1: For decades, linguists have used computers to find the unknown authors of old letters by counting how often each writer uses common words such as \"and\" and \"of.\" Linguist Hana Verlov argues that this approach has reached its limit: it works on long texts but fails on letters shorter than 500 words, and she expects no further gains.",
+    "passage2": "Text 2: A team led by Teodor Amsel trained a program to compare short phrases and punctuation habits, not just single words. Tested on 300 letters of 200 to 400 words each, the program named the correct author 91 percent of the time.",
+    "stem": "Based on the texts, how would Amsel's team (Text 2) most likely respond to Verlov's claim (Text 1)?",
+    "choices": [
+      "By noting that a new approach is making progress on the short letters Verlov considers out of reach",
+      "By agreeing that computer methods are unlikely to give better results on short letters",
+      "By arguing that letters longer than 500 words are harder to identify than short ones",
+      "By claiming that their program can now identify the author of any letter, whatever its length or age"
+    ],
+    "answer": "A",
+    "explanation": "Text 1 says the field has hit its limit on short letters. Text 2 reports a new method that works well on short letters, so progress is still being made.",
+    "steps": [
+      "Text 1's claim: computer methods fail on letters under 500 words, and no gains are coming.",
+      "Text 2's news: a new program got 91% right on letters of 200 to 400 words.",
+      "So Text 2 answers: advances are still being made on exactly that problem.",
+      "Check each choice against Text 2's data, not against your own ideas."
+    ],
+    "strategy_tip": "When Text 1 says a field has reached its limit and Text 2 reports a new result, the answer is usually 'progress is still possible'.",
+    "rationales": {
+      "A": "Correct. Verlov says short letters can't be handled; Amsel's program handled letters of 200 to 400 words with 91% accuracy.",
+      "B": "Agrees with Text 1: Text 2's result goes against Verlov's view, so the team would not agree.",
+      "C": "Not discussed: Text 2 tested only short letters and says nothing about long letters being harder.",
+      "D": "Too strong: the program was right 91% of the time on one group of letters, not on 'any letter'."
+    },
+    "traps": {
+      "B": "Agrees with Text 1",
+      "C": "Not discussed",
+      "D": "Too strong"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-002",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "topic": "why city pigeons avoid nesting near busy roads",
+    "fictional": true,
+    "passage": "Text 1: Biologist Ruta Kandel noticed that pigeons in the city of Moravel rarely nest near busy roads. She claims that traffic noise drives the birds away, since pigeons depend on hearing each other's calls to find mates.",
+    "passage2": "Text 2: Ornithologist Felix Odar played recorded traffic noise at quiet nesting sites in Moravel for a full breeding season, and pigeons kept nesting there at the same rate as before. Odar also found that the city's busy roads have few of the flat ledges that pigeons need for nests, while quiet streets have many.",
+    "stem": "Based on the texts, how would Odar (Text 2) most likely respond to Kandel's claim (Text 1)?",
+    "choices": [
+      "By agreeing that traffic noise keeps pigeons from hearing the calls they rely on to find possible mates",
+      "By arguing that pigeons in Moravel no longer use calls to find mates",
+      "By noting that noise alone did not change nesting and that a lack of ledges may explain the pattern",
+      "By claiming that traffic noise actually draws pigeons to nest at a site"
+    ],
+    "answer": "C",
+    "explanation": "Odar's test shows noise did not change nesting, and he offers another cause: busy roads lack ledges. So he would reject Kandel's explanation.",
+    "steps": [
+      "Text 1: pigeons avoid busy roads because of noise.",
+      "Text 2: added noise did not change nesting; busy roads lack ledges.",
+      "So Text 2 refutes the noise idea with new evidence and gives another cause.",
+      "Pick the choice that uses BOTH parts of Text 2."
+    ],
+    "strategy_tip": "If Text 2 tests Text 1's cause and finds no effect, the author of Text 2 will reject that cause.",
+    "rationales": {
+      "A": "Agrees with Text 1: Odar's experiment shows noise did not change nesting, so he would not agree.",
+      "B": "Not discussed: neither text says pigeons stopped using calls.",
+      "C": "Correct. Added noise did not change the nesting rate, and busy roads lack the ledges pigeons need.",
+      "D": "Too strong: pigeons nested 'at the same rate as before', not more often."
+    },
+    "traps": {
+      "A": "Agrees with Text 1",
+      "B": "Not discussed",
+      "D": "Too strong"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-003",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "medium",
+    "topic": "four-day workweeks and output per worker",
+    "fictional": true,
+    "passage": "Text 1: Economist Lena Paskova argues that shortening the workweek from five days to four makes employees more productive. In her survey of 40 software firms in Delvar that made the change, output per worker rose by an average of 12 percent.",
+    "passage2": "Text 2: Researcher Amir Holloway studied four-day weeks in other industries. At design studios, output per worker also rose. But in hospitals and factories, where work depends on staff being present for fixed shifts, output fell, because the same tasks had to be covered with fewer hours of work.",
+    "stem": "Based on the texts, how would Holloway (Text 2) most likely respond to Paskova's argument (Text 1)?",
+    "choices": [
+      "By rejecting it outright, since a four-day week lowered output per worker in every industry he studied",
+      "By saying that it may hold for some kinds of work but not for jobs that need staff on fixed shifts",
+      "By claiming that the software firms in Delvar actually saw their output fall",
+      "By agreeing that a four-day week would also raise output in hospitals and factories"
+    ],
+    "answer": "B",
+    "explanation": "Holloway found the same gain at design studios but a loss in shift-based work. So he would say Paskova's claim is true only for some jobs.",
+    "steps": [
+      "Text 1: a four-day week raises output (data from software firms).",
+      "Text 2: output rose at design studios but fell in hospitals and factories.",
+      "So Text 2 qualifies Text 1: true for some work, false for fixed-shift work."
+    ],
+    "strategy_tip": "If Text 2 finds the effect in some cases but not others, look for a 'true only when ...' answer.",
+    "rationales": {
+      "A": "Too strong: output rose at design studios, so it did not fall 'in every industry'.",
+      "B": "Correct. Output rose at design studios but fell where staff must cover fixed shifts.",
+      "C": "Not discussed: Holloway did not study the software firms, and nothing says their output fell.",
+      "D": "Agrees with Text 1: Holloway found that output fell in hospitals and factories."
+    },
+    "traps": {
+      "A": "Too strong",
+      "C": "Not discussed",
+      "D": "Agrees with Text 1"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-004",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "ground telescopes detecting small planets",
+    "fictional": true,
+    "passage": "Text 1: Astronomers find planets around distant stars by watching for the tiny dip in a star's light when a planet passes in front of it. Astronomer Ilsa Moreau argues that this technique has gone as far as it can with ground-based telescopes: they cannot detect the dip from a planet as small as Earth, because our atmosphere blurs starlight too much.",
+    "passage2": "Text 2: At the Varga Ridge Observatory, a team led by Desmond Quill paired a ground telescope with a system that measures atmospheric blurring a thousand times per second and removes it. In trials, the team detected dips that match planets only slightly larger than Earth.",
+    "stem": "Based on the texts, how would Quill's team (Text 2) most likely respond to Moreau's claim (Text 1)?",
+    "choices": [
+      "By agreeing that atmospheric blurring makes ground telescopes useless for finding planets",
+      "By arguing that space telescopes detect these dips less accurately than ground telescopes",
+      "By stating that the team has found several planets exactly the size of Earth from the ground",
+      "By suggesting that a new method has brought ground telescopes close to that goal, so progress continues"
+    ],
+    "answer": "D",
+    "explanation": "Text 1 says ground telescopes have reached their limit. Text 2's new method found planets only slightly larger than Earth, so it is close to the goal and progress is still being made.",
+    "steps": [
+      "Text 1: ground telescopes can't see Earth-sized planets, and the technique has gone as far as it can.",
+      "Text 2: a new blur-removal system detected planets only slightly larger than Earth.",
+      "Text 2 doesn't say Earth-sized planets were found, only that the team got close.",
+      "So the response is 'progress is still being made', not 'the problem is solved'."
+    ],
+    "strategy_tip": "Match the strength of Text 2's result: 'close to' is not 'achieved'.",
+    "rationales": {
+      "A": "Agrees with Text 1: the team found planet signals from the ground, so they would not call ground telescopes useless.",
+      "B": "Not discussed: neither text compares space telescopes with ground telescopes.",
+      "C": "Too strong: the signals matched planets 'slightly larger than Earth', not exactly Earth-sized ones.",
+      "D": "Correct. The new system detected planets only slightly larger than Earth, so the claimed limit is already being pushed back."
+    },
+    "traps": {
+      "A": "Agrees with Text 1",
+      "B": "Not discussed",
+      "C": "Too strong"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-005",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "grinding stones and early farming at an ancient settlement",
+    "fictional": true,
+    "passage": "Text 1: Archaeologist Corin Valdane studied grinding stones found at Teshar, a settlement occupied about 9,000 years ago. Because the stones resemble those that later cultures used to grind wheat, Valdane concludes that Teshar's residents were early farmers who grew grain.",
+    "passage2": "Text 2: Archaeobotanist Mira Elsholt examined tiny plant remains trapped in the surfaces of the Teshar stones. She found starch from wild acorns and roots but no trace of wheat or any other grain. All the seeds found at the site also came from wild plants.",
+    "stem": "Based on the texts, how would Elsholt (Text 2) most likely respond to Valdane's conclusion (Text 1)?",
+    "choices": [
+      "By agreeing that the stones show that Teshar's residents grew wheat",
+      "By arguing that the stones' shape is weak evidence, since the remains on them point to wild plants",
+      "By claiming that Teshar was occupied much more recently than 9,000 years ago",
+      "By noting that Valdane himself found starch from wild acorns on the stones but left it out of his report"
+    ],
+    "answer": "B",
+    "explanation": "Valdane's evidence is the stones' shape. Elsholt's new evidence, the remains on the stones, shows they were used for wild plants, not grain.",
+    "steps": [
+      "Text 1's evidence: the stones LOOK like later wheat-grinding stones.",
+      "Text 2's evidence: what was actually ground on them was wild acorns and roots.",
+      "So Text 2 refutes the conclusion with new, more direct evidence.",
+      "Check who did what: Elsholt, not Valdane, found the starch."
+    ],
+    "strategy_tip": "Ask which researcher found each fact; a choice that gives Text 2's finding to Text 1's author is a trap.",
+    "rationales": {
+      "A": "Agrees with Text 1: Elsholt found no trace of wheat, so she would not agree.",
+      "B": "Correct. Valdane relies on the shape; the remains show wild acorns and roots, not grain.",
+      "C": "Not discussed: Text 2 does not question the date of the settlement.",
+      "D": "Reverses who says what: Elsholt found the acorn starch; nothing says Valdane did."
+    },
+    "traps": {
+      "A": "Agrees with Text 1",
+      "C": "Not discussed",
+      "D": "Reverses who says what"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-006",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "handwriting versus typing for learning new words",
+    "fictional": true,
+    "passage": "Text 1: Psychologist Noor Fendley argues that people remember new vocabulary better when they write words by hand than when they type them. In her study, students who copied 40 unfamiliar words by hand recalled more of them a week later than students who typed the same words.",
+    "passage2": "Text 2: Researcher Pavel Stroud repeated Fendley's study with one change: some typists had to type each word's meaning in their own words, not just copy the word. These students recalled as many words as the handwriting group. Stroud suggests that handwriting helps because it slows people down and makes them think about each word.",
+    "stem": "Based on the texts, how would Stroud (Text 2) most likely respond to Fendley's argument (Text 1)?",
+    "choices": [
+      "By suggesting that the benefit comes mainly from thinking about each word, not from the pen itself",
+      "By agreeing that typing is a poor way to learn words, however the typing is done",
+      "By arguing that students who type new words recall more of them than students who write them by hand",
+      "By claiming that Fendley's students forgot most of the words within a week"
+    ],
+    "answer": "A",
+    "explanation": "Stroud accepts that handwriting helped in Fendley's study, but his results show the real cause is careful thinking about each word, which typing can also produce.",
+    "steps": [
+      "Text 1: handwriting beats typing for remembering words.",
+      "Text 2: typists who wrote each meaning in their own words did as well as hand-writers.",
+      "Stroud's explanation: the benefit comes from thinking about the word.",
+      "So he qualifies Text 1: handwriting helps only because of what it makes people do."
+    ],
+    "strategy_tip": "'As many as' means equal; reject any choice that turns Text 2's 'equal' into 'more'.",
+    "rationales": {
+      "A": "Correct. Typists who had to think about each meaning did as well as hand-writers, so thinking, not the pen, is the key.",
+      "B": "Agrees with Text 1: Stroud shows that one kind of typing worked as well as handwriting.",
+      "C": "Too strong: the typists recalled 'as many' words, not more.",
+      "D": "Not discussed: neither text says how many words were forgotten in total."
+    },
+    "traps": {
+      "B": "Agrees with Text 1",
+      "C": "Too strong",
+      "D": "Not discussed"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-007",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "long-range sea-ice forecasts for ships",
+    "fictional": true,
+    "passage": "Text 1: Sea-ice forecasts tell ships where ice will form weeks ahead. Climate scientist Jonas Wehrle argues that such forecasts have reached a ceiling: since 2010 their accuracy beyond 30 days has not improved, and he concludes that ice forms too chaotically for any model to do better.",
+    "passage2": "Text 2: Oceanographer Kalinda Rourke added a new kind of data to a standard forecast model: measurements of the warm water layer about 100 meters below the ice. Tested on the past eight winters, her model's 45-day forecasts were correct about 20 percent more often than the standard model's.",
+    "stem": "Based on the texts, how would Rourke (Text 2) most likely respond to Wehrle's conclusion (Text 1)?",
+    "choices": [
+      "By agreeing that sea ice forms too chaotically to be forecast more than 30 days ahead",
+      "By arguing that forecasts for fewer than 30 days ahead have actually become less accurate since 2010",
+      "By suggesting that the limit may come from missing data rather than from the nature of sea ice",
+      "By claiming that her model can now predict where sea ice will form with complete accuracy"
+    ],
+    "answer": "C",
+    "explanation": "Wehrle blames the limit on chaos in the ice itself. Rourke improved long-range forecasts just by adding new data, so the old limit was about the data, not the ice.",
+    "steps": [
+      "Text 1's claim: no progress since 2010, BECAUSE ice is too chaotic.",
+      "Text 2: adding data about deep warm water made 45-day forecasts better.",
+      "If new data helps, the old limit came from what models were missing.",
+      "So Rourke would say progress is still possible and the cause of the limit is different."
+    ],
+    "strategy_tip": "When Text 1 gives a reason for a limit, check whether Text 2's advance shows that reason is wrong.",
+    "rationales": {
+      "A": "Agrees with Text 1: Rourke's model improved forecasts beyond 30 days, so she would not agree.",
+      "B": "Not discussed: neither text discusses forecasts for fewer than 30 days.",
+      "C": "Correct. Adding new data improved 45-day forecasts, so the ceiling reflected the data, not chaos in the ice.",
+      "D": "Too strong: her forecasts were right 20% more often, which is not complete accuracy."
+    },
+    "traps": {
+      "A": "Agrees with Text 1",
+      "B": "Not discussed",
+      "D": "Too strong"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-008",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "the decline of a lake's wolf population",
+    "fictional": true,
+    "passage": "Text 1: The wolf population around Garnet Lake fell by half between 2015 and 2020. Wildlife biologist Tomas Reyhill attributes the decline to a shortage of deer, the wolves' main prey, after two harsh winters.",
+    "passage2": "Text 2: Ecologist Siri Avendano counted the deer at Garnet Lake every spring over the same period and found that their numbers stayed steady. Blood samples from the wolves, however, showed that a virus spread through the packs in 2017, and most of the deaths happened in the next two years.",
+    "stem": "Based on the texts, how would Avendano (Text 2) most likely respond to Reyhill's explanation (Text 1)?",
+    "choices": [
+      "By arguing that her counts do not show a prey shortage and that disease is a more likely cause",
+      "By agreeing that harsh winters reduced the deer, which in turn caused the wolves to die",
+      "By noting that Reyhill's blood samples showed a virus that he chose to overlook",
+      "By asserting that disease is the main cause of every decline in wolf numbers"
+    ],
+    "answer": "A",
+    "explanation": "Reyhill's cause needs fewer deer, but Avendano found steady deer numbers. Her blood samples point to a virus instead.",
+    "steps": [
+      "Text 1's cause: fewer deer after harsh winters.",
+      "Text 2: deer numbers were steady, so there was no shortage.",
+      "Text 2 also gives new evidence: a virus in 2017, then most deaths.",
+      "So Avendano refutes the prey explanation and offers disease."
+    ],
+    "strategy_tip": "Find the fact Text 1's explanation needs, then see if Text 2 shows that fact is false.",
+    "rationales": {
+      "A": "Correct. Steady deer numbers rule out a prey shortage, and the blood samples show a virus before most deaths.",
+      "B": "Agrees with Text 1: Avendano found the deer numbers stayed steady.",
+      "C": "Reverses who says what: Avendano, not Reyhill, took the blood samples.",
+      "D": "Too strong: Text 2 is about one lake, not every wolf population."
+    },
+    "traps": {
+      "B": "Agrees with Text 1",
+      "C": "Reverses who says what",
+      "D": "Too strong"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-009",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "bike lanes and downtown car traffic",
+    "fictional": true,
+    "passage": "Text 1: Urban planner Odile Marchetti argues that adding bike lanes reduces car traffic. In the city of Brennick, car trips downtown fell by 15 percent in the three years after the city built a network of protected bike lanes.",
+    "passage2": "Text 2: Transport researcher Haruto Lindqvist compared 12 cities that built bike lanes. Car traffic fell only in cities where the lanes formed a connected network linking homes to workplaces. In cities that built short, separate lanes, car traffic did not change, even though some residents began cycling for exercise.",
+    "stem": "Based on the texts, how would Lindqvist (Text 2) most likely respond to Marchetti's argument (Text 1)?",
+    "choices": [
+      "By rejecting it, since bike lanes failed to reduce car traffic in all of the cities he studied",
+      "By agreeing that any new bike lane, however short, will reduce car traffic",
+      "By claiming that Brennick's car traffic fell mainly because of rising fuel prices",
+      "By adding that it likely holds only when lanes form a connected network, as in Brennick"
+    ],
+    "answer": "D",
+    "explanation": "Lindqvist found that bike lanes cut car traffic only when they formed a connected network. Brennick built a network, so its result fits, but the general claim needs that condition.",
+    "steps": [
+      "Text 1: bike lanes reduce car traffic (Brennick built a NETWORK).",
+      "Text 2: traffic fell only with connected networks, not with short, separate lanes.",
+      "So Text 2 doesn't reject Text 1; it adds a condition.",
+      "Notice the clue in Text 1: 'a network of protected bike lanes'."
+    ],
+    "strategy_tip": "If Text 2 says an effect appears 'only' in some cases, the answer adds that condition to Text 1's claim.",
+    "rationales": {
+      "A": "Too strong: car traffic did fall in the cities with connected networks.",
+      "B": "Agrees with Text 1: Lindqvist found that short, separate lanes did not change car traffic.",
+      "C": "Not discussed: neither text mentions fuel prices.",
+      "D": "Correct. Traffic fell only where lanes formed a connected network, and Brennick built a network."
+    },
+    "traps": {
+      "A": "Too strong",
+      "B": "Agrees with Text 1",
+      "C": "Not discussed"
+    }
+  },
+  {
+    "id": "pt5-rw-ctc-010",
+    "modeled_on": "bb-pt5-rw-b-q8",
+    "skill": "RW.CAS.CTC.RESPONSE",
+    "difficulty": "hard",
+    "topic": "removing old varnish from paintings",
+    "fictional": true,
+    "passage": "Text 1: Restorers clean old paintings by removing yellowed varnish with solvents. Conservator Agathe Brühl argues that cleaning methods have advanced as far as they can: any solvent strong enough to dissolve old varnish also dissolves some of the paint beneath it, so restorers must always accept that risk.",
+    "passage2": "Text 2: Chemist Rafael Ostberg's team developed a gel that holds a solvent in tiny pores and releases it only where the gel touches the surface. In tests on 20 old paintings, the gel removed varnish one thin layer at a time, and microscope scans found no paint loss.",
+    "stem": "Based on the texts, how would Ostberg's team (Text 2) most likely respond to Brühl's claim (Text 1)?",
+    "choices": [
+      "By agreeing that removing old varnish will always cost some of the paint underneath",
+      "By reporting that a new technique removed varnish without harming paint, so methods can still improve",
+      "By arguing that old varnish should be left in place because it protects the paint",
+      "By noting that Brühl's own microscope scans found no paint loss in her tests"
+    ],
+    "answer": "B",
+    "explanation": "Brühl says cleaning methods can't improve because solvents always harm paint. Ostberg's gel removed varnish with no paint loss, so progress is still being made.",
+    "steps": [
+      "Text 1: cleaning methods have reached their limit; paint loss can't be avoided.",
+      "Text 2: a new gel removed varnish with no paint loss in 20 tests.",
+      "So the team would answer that the field is still advancing.",
+      "Check who did the scans: Ostberg's team, not Brühl."
+    ],
+    "strategy_tip": "Text 1 says 'as far as they can'; Text 2 reports something new that works: pick 'progress is still being made'.",
+    "rationales": {
+      "A": "Agrees with Text 1: the gel removed varnish with no paint loss, so the team would not agree.",
+      "B": "Correct. Brühl says paint loss is unavoidable; the gel removed varnish and scans showed no paint loss.",
+      "C": "Not discussed: neither text suggests leaving the varnish in place.",
+      "D": "Reverses who says what: the scans were from Ostberg's tests; nothing says Brühl ran any."
+    },
+    "traps": {
+      "A": "Agrees with Text 1",
+      "C": "Not discussed",
+      "D": "Reverses who says what"
+    }
+  }
+]

@@ -1,12 +1,16 @@
 import { useQueryClient } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { ApiError } from "../api/client";
 import { fmtClock, fmtDate, type ExamItem, type ItemState } from "../api/exam";
 import {
+  download,
   isFirstPass,
   missedVocabCsv,
+  DRILL_MODES,
   MODE_INFO,
+  modeName,
+  type MockForm,
   startTriage,
   submitTriage,
   timerColor,
@@ -24,11 +28,12 @@ import { ReferenceSheet } from "../components/ReferenceSheet";
 import { Shell } from "../components/Shell";
 import { Grid, QuestionPane } from "./ExamRunner";
 
-const MODES = Object.keys(MODE_INFO) as TriageMode[];
+const MODES = DRILL_MODES;
+type Mock = { sections: TriageMode[]; form: MockForm };
 const TIMER_TONE = { normal: "text-slate-600", amber: "text-amber-700", red: "font-semibold text-red-700" };
 const pct = ([c, n]: [number, number]) => (n ? `${Math.round((100 * c) / n)}% (${c}/${n})` : "none");
 
-function Picker({ busy, err, onStart }: { busy: boolean; err: string | null; onStart: (m: TriageMode) => void }) {
+function Picker({ busy, err, onStart, onMock }: { busy: boolean; err: string | null; onStart: (m: TriageMode) => void; onMock: (m: Mock) => void }) {
   const history = useTriageHistory();
   const recent = [...(history.data ?? [])].reverse().slice(0, 8);
   return (
@@ -52,6 +57,20 @@ function Picker({ busy, err, onStart }: { busy: boolean; err: string | null; onS
           </div>
         ))}
       </div>
+      <section className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
+        <h2 className="text-lg font-semibold">Mini Mock</h2>
+        <p className="mb-3 text-sm text-slate-600">Exam-like modules built from your PT5 weakness sets: R&W 27 questions in 32 minutes, Math 22 in 35. Three forms with no repeated questions; take one per day.</p>
+        <div className="flex flex-wrap gap-4">
+          {(["A", "B", "C"] as const).map((form) => (
+            <div key={form} className="flex flex-wrap items-center gap-2">
+              <span className="font-medium">Form {form}:</span>
+              <button type="button" disabled={busy} onClick={() => onMock({ sections: ["mockrw"], form })} className="rounded-md border border-brand-700 px-3 py-1 text-sm text-brand-700 disabled:opacity-50">R&W</button>
+              <button type="button" disabled={busy} onClick={() => onMock({ sections: ["mockmath"], form })} className="rounded-md border border-brand-700 px-3 py-1 text-sm text-brand-700 disabled:opacity-50">Math</button>
+              <button type="button" disabled={busy} onClick={() => onMock({ sections: ["mockrw", "mockmath"], form })} className="rounded-md border border-brand-700 px-3 py-1 text-sm text-brand-700 disabled:opacity-50">Both</button>
+            </div>
+          ))}
+        </div>
+      </section>
       {recent.length > 0 && (
         <section className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200">
           <h2 className="mb-2 font-semibold">Recent sessions</h2>
@@ -59,7 +78,7 @@ function Picker({ busy, err, onStart }: { busy: boolean; err: string | null; onS
             {recent.map((s) => (
               <li key={s.id} className="flex flex-wrap gap-x-4 py-2">
                 <span className="w-28 text-slate-500">{fmtDate(s.created_at)}</span>
-                <span className="w-40 font-medium">{MODE_INFO[s.mode]?.name ?? s.mode}</span>
+                <span className="w-40 font-medium">{modeName(s.mode)}</span>
                 <span className="w-16 tabular-nums">{s.correct}/{s.total}</span>
                 <span className={`w-20 ${s.blanks ? "text-red-700" : "text-slate-600"}`}>{s.blanks} blank</span>
                 <span className="tabular-nums text-slate-600">{Math.round(s.avg_seconds)} s avg</span>
@@ -118,6 +137,7 @@ function Run({ started, onDone }: { started: Started; onDone: (r: ResultsData) =
       onDone(
         await submitTriage({
           mode: started.mode,
+          form: started.form,
           elapsed_ms: Math.round(Math.min(performance.now() - t0, started.limit_seconds * 1000)),
           items: items.map(({ id }) => {
             const s = final[id];
@@ -147,13 +167,13 @@ function Run({ started, onDone }: { started: Started; onDone: (r: ResultsData) =
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div>
-          <p className="font-semibold">{MODE_INFO[started.mode].name} · Question {idx + 1} of {items.length}</p>
+          <p className="font-semibold">{modeName(started.mode + (started.form ? `-${started.form}` : ""))} · Question {idx + 1} of {items.length}</p>
           <p className={`text-sm tabular-nums ${TIMER_TONE[color]}`} aria-live={color === "normal" ? "off" : "polite"}>
             {Math.floor(onThis)} s on this one (target {target} s){color === "red" && ": guess, mark it, move on"}
           </p>
         </div>
         <div className="flex items-center gap-3">
-          {started.mode === "math" && (
+          {(started.mode === "math" || started.mode === "mockmath") && (
             <>
               <button type="button" aria-pressed={tool === "calc"} onClick={() => setTool((t) => (t === "calc" ? null : "calc"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Calculator</button>
               <button type="button" aria-pressed={tool === "ref"} onClick={() => setTool((t) => (t === "ref" ? null : "ref"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Reference</button>
@@ -162,6 +182,9 @@ function Run({ started, onDone }: { started: Started; onDone: (r: ResultsData) =
           <p role="timer" aria-label="Time remaining" className={`font-mono text-xl font-bold ${left < 2 * 60_000 ? "text-red-700" : ""}`}>{fmtClock(left)}</p>
         </div>
       </div>
+      {left <= 5 * 60_000 && left > 0 && (
+        <p role="alert" className="rounded-md bg-amber-100 px-4 py-2 text-sm font-medium text-amber-900">5 minutes left. Guess every blank — no penalty.</p>
+      )}
       {tool === "calc" && <Calculator onClose={() => setTool(null)} />}
       {tool === "ref" && <ReferenceSheet onClose={() => setTool(null)} />}
       <nav aria-label="Questions"><Grid items={items} states={states} current={idx} onPick={go} /></nav>
@@ -243,19 +266,11 @@ function ItemRow({ item, n }: { item: ItemResult; n: number }) {
   );
 }
 
-function download(csv: string, name: string) {
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
-  a.download = name;
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-
 function Results({ r, onAgain, onPick }: { r: ResultsData; onAgain: () => void; onPick: () => void }) {
   const csv = missedVocabCsv(r.items);
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">{MODE_INFO[r.mode].name} results</h1>
+      <h1 className="text-2xl font-bold">{modeName(r.mode)} results</h1>
       <div className="grid gap-4 sm:grid-cols-4">
         <div className="rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200"><p className="text-sm text-slate-500">Correct</p><p className="text-4xl font-bold text-brand-700">{r.correct}/{r.total}</p></div>
         <div className={`rounded-xl p-5 shadow-sm ring-1 ${r.blanks ? "bg-red-50 ring-red-200" : "bg-emerald-50 ring-emerald-200"}`}>
@@ -289,22 +304,46 @@ function Results({ r, onAgain, onPick }: { r: ResultsData; onAgain: () => void; 
       <div className="flex flex-wrap items-center gap-4">
         <button type="button" onClick={onAgain} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">Same drill again</button>
         <button type="button" onClick={onPick} className="rounded-md border border-brand-700 px-5 py-2 text-brand-700">Pick another drill</button>
-        {csv && <button type="button" onClick={() => download(csv, "missed_vocab.csv")} className="text-sm underline">Download missed words (Anki CSV)</button>}
+        {csv && <button type="button" onClick={() => download(csv, "missed_vocab.csv")} className="text-sm underline">Export missed words (CSV for Anki)</button>}
         <Link to="/mistakes" className="text-sm underline">Mistake Notebook</Link>
       </div>
     </div>
   );
 }
 
+function Break({ onResume }: { onResume: () => void }) {
+  const [t0] = useState(() => Date.now());
+  const [now, setNow] = useState(t0);
+  useEffect(() => {
+    const t = window.setInterval(() => setNow(Date.now()), 1000);
+    return () => window.clearInterval(t);
+  }, []);
+  const left = 10 * 60_000 - (now - t0);
+  useEffect(() => {
+    if (left <= 0) window.setTimeout(onResume);
+  });
+  return (
+    <div className="mx-auto max-w-md space-y-4 rounded-xl bg-white p-8 text-center shadow-sm ring-1 ring-slate-200">
+      <h1 className="text-2xl font-bold">Break</h1>
+      <p className="font-mono text-4xl font-bold" role="timer" aria-label="Break time remaining">{fmtClock(Math.max(0, left))}</p>
+      <p className="text-slate-600">Math starts when the break ends. Stand up, drink water.</p>
+      <button type="button" onClick={onResume} className="rounded-md bg-brand-700 px-5 py-2 font-medium text-white hover:bg-brand-600">Resume now</button>
+    </div>
+  );
+}
+
 export function Triage() {
   const qc = useQueryClient();
-  const [phase, setPhase] = useState<{ k: "pick" } | { k: "run"; started: Started } | { k: "done"; r: ResultsData }>({ k: "pick" });
+  const [params] = useSearchParams();
+  const [phase, setPhase] = useState<{ k: "pick" } | { k: "run"; started: Started } | { k: "break" } | { k: "done"; rs: ResultsData[] }>({ k: "pick" });
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
-  const start = (m: TriageMode) => {
+  const queue = useRef<{ modes: TriageMode[]; form?: MockForm; rs: ResultsData[] }>({ modes: [], rs: [] });
+  const launch = () => {
+    const { modes, form } = queue.current;
     setBusy(true);
     setErr(null);
-    startTriage(m)
+    startTriage(modes[0], form)
       .then((started) => setPhase({ k: "run", started }))
       .catch((e) => {
         setErr(e instanceof ApiError ? e.message : "Couldn't load questions.");
@@ -312,16 +351,40 @@ export function Triage() {
       })
       .finally(() => setBusy(false));
   };
+  const start = (m: TriageMode, form?: MockForm, rest: TriageMode[] = []) => {
+    queue.current = { modes: [m, ...rest], form, rs: [] };
+    launch();
+  };
+  const again = (mode: string) => {
+    const [base, form] = mode.split("-");
+    start(base as TriageMode, (form as MockForm) || undefined);
+  };
+  const auto = useRef(false);
+  useEffect(() => {
+    const mock = params.get("mock");
+    const form = params.get("form");
+    if (auto.current || !mock || !(form === "A" || form === "B" || form === "C")) return;
+    auto.current = true;
+    window.setTimeout(() => (mock === "rw" ? start("mockrw", form) : mock === "math" ? start("mockmath", form) : start("mockrw", form, ["mockmath"])));
+  });
   const done = (r: ResultsData) => {
     void qc.invalidateQueries({ queryKey: ["triage-history"] });
-    setPhase({ k: "done", r });
+    void qc.invalidateQueries({ queryKey: ["pt5-sets"] });
+    queue.current.rs.push(r);
+    queue.current.modes.shift();
+    setPhase(queue.current.modes.length ? { k: "break" } : { k: "done", rs: queue.current.rs });
     window.scrollTo(0, 0);
   };
   return (
     <Shell>
-      {phase.k === "pick" && <Picker busy={busy} err={err} onStart={start} />}
-      {phase.k === "run" && <Run started={phase.started} onDone={done} />}
-      {phase.k === "done" && <Results r={phase.r} onAgain={() => start(phase.r.mode)} onPick={() => setPhase({ k: "pick" })} />}
+      {phase.k === "pick" && <Picker busy={busy} err={err} onStart={(m) => start(m)} onMock={({ sections, form }) => start(sections[0], form, sections.slice(1))} />}
+      {phase.k === "run" && <Run key={phase.started.mode} started={phase.started} onDone={done} />}
+      {phase.k === "break" && <Break onResume={launch} />}
+      {phase.k === "done" && (
+        <div className="space-y-12">
+          {phase.rs.map((r) => <Results key={r.id} r={r} onAgain={() => again(r.mode)} onPick={() => setPhase({ k: "pick" })} />)}
+        </div>
+      )}
     </Shell>
   );
 }

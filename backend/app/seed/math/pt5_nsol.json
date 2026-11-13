@@ -1,0 +1,248 @@
+[
+ {
+  "id": "pt5-m-nsol-001",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "How many solutions does the equation $7(x - 2) = -2(x + 7)$ have?",
+  "choices": [
+   "Zero",
+   "Exactly one",
+   "Exactly two",
+   "Infinitely many"
+  ],
+  "values": [
+   "0",
+   "1",
+   "2",
+   "oo"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Read x = 0 as 'zero solutions': the equation simplifies to $x = 0$, and $0$ is a real value of $x$ that works. That is one solution.",
+   "B": "Correct. $7x - 14 = -2x - 14$ gives $9x = 0$, so $x = 0$. One value works, so there is exactly one solution.",
+   "C": "Exactly two: a linear equation can never have exactly two solutions. Its graph is a line, and two lines meet in 0, 1, or infinitely many points.",
+   "D": "Thought the constants cancel everything: the $-14$ terms cancel, but the $x$ terms do not ($7x$ and $-2x$), so only one value works."
+  },
+  "check": "Piecewise((1, Ne(diff((7*(x - 2)) - (-2*(x + 7)), x), 0)), (oo, Eq(expand((7*(x - 2)) - (-2*(x + 7))), 0)), (0, True))",
+  "explanation": [
+   "Distribute: $7x - 14 = -2x - 14$.",
+   "Add $2x$ and add $14$ to both sides: $9x = 0$, so $x = 0$.",
+   "$x = 0$ is a real solution. 'Zero solutions' means a false statement like $0 = 5$.",
+   "Desmos way: graph $y = 7(x - 2)$ and $y = -2(x + 7)$. The lines cross once, at $(0, -14)$."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-002",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "$$6(2x - 5) + kx = 4x - 30$$ In the equation above, $k$ is a constant. If the equation has infinitely many solutions, what is the value of $k$?",
+  "check": "solve(diff(6*(2*x - 5) + k*x - (4*x - 30), x), k)[0]",
+  "spr_answers": [
+   "-8"
+  ],
+  "spr_entries": [
+   "-8"
+  ],
+  "explanation": [
+   "Distribute: $12x - 30 + kx = 4x - 30$, so $(12 + k)x - 30 = 4x - 30$.",
+   "Infinitely many solutions means both sides are identical: same $x$-coefficient and same constant.",
+   "The constants already match ($-30$ and $-30$). Set the coefficients equal: $12 + k = 4$, so $k = -8$."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-003",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "How many solutions does the equation $-3(4 - 2x) + 9 = 2(3x + 1) - 4$ have?",
+  "choices": [
+   "Zero",
+   "Exactly one",
+   "Exactly two",
+   "Infinitely many"
+  ],
+  "values": [
+   "0",
+   "1",
+   "2",
+   "oo"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The left side is $6x - 3$ and the right side is $6x - 2$. Subtracting $6x$ gives $-3 = -2$, which is false, so no value works.",
+   "B": "Stopped after seeing an x: the $6x$ terms cancel completely, so no single value of $x$ comes out.",
+   "C": "Exactly two: a linear equation can never have exactly two solutions. Its graph is a line, and two lines meet in 0, 1, or infinitely many points.",
+   "D": "Sign slip: $-3(4 - 2x) = -12 + 6x$, so the left side is $6x - 3$, not $6x - 2$. The sides differ by a constant, so they are never equal."
+  },
+  "check": "Piecewise((1, Ne(diff((-3*(4 - 2*x) + 9) - (2*(3*x + 1) - 4), x), 0)), (oo, Eq(expand((-3*(4 - 2*x) + 9) - (2*(3*x + 1) - 4)), 0)), (0, True))",
+  "explanation": [
+   "Left side: $-3(4 - 2x) + 9 = -12 + 6x + 9 = 6x - 3$.",
+   "Right side: $2(3x + 1) - 4 = 6x + 2 - 4 = 6x - 2$.",
+   "Subtract $6x$: $-3 = -2$. This is false for every $x$, so there are zero solutions.",
+   "Desmos way: graph both sides. You get two parallel lines (slope 6), which never meet."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-004",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "How many solutions does the equation $\\frac{3}{4}(8x - 12) = -\\frac{1}{2}(6x + 18)$ have?",
+  "choices": [
+   "Zero",
+   "Exactly one",
+   "Exactly two",
+   "Infinitely many"
+  ],
+  "values": [
+   "0",
+   "1",
+   "2",
+   "oo"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Read x = 0 as 'zero solutions': the equation becomes $9x = 0$, so $x = 0$. The number $0$ is a solution, so there is one solution.",
+   "B": "Correct. $6x - 9 = -3x - 9$ gives $9x = 0$, so $x = 0$: exactly one solution.",
+   "C": "Exactly two: a linear equation can never have exactly two solutions. Its graph is a line, and two lines meet in 0, 1, or infinitely many points.",
+   "D": "Saw matching constants: both sides end in $-9$, but the $x$-coefficients ($6$ and $-3$) differ, so the sides are not identical."
+  },
+  "check": "Piecewise((1, Ne(diff((Rational(3, 4)*(8*x - 12)) - (-Rational(1, 2)*(6*x + 18)), x), 0)), (oo, Eq(expand((Rational(3, 4)*(8*x - 12)) - (-Rational(1, 2)*(6*x + 18))), 0)), (0, True))",
+  "explanation": [
+   "Left side: $\\frac{3}{4}(8x - 12) = 6x - 9$.",
+   "Right side: $-\\frac{1}{2}(6x + 18) = -3x - 9$.",
+   "$6x - 9 = -3x - 9$ gives $9x = 0$, so $x = 0$: one solution.",
+   "Desmos way: graph both sides. The lines cross once, at $(0, -9)$."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-005",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Which of the following equations has exactly one solution?",
+  "choices": [
+   "$3(x + 4) = 3x + 12$",
+   "$2(5x - 1) = 10x + 2$",
+   "$4(x + 3) = -2(x - 6)$",
+   "$-(5 - 6x) = 6x + 5$"
+  ],
+  "values": [
+   "Piecewise((1, Ne(diff((3*(x + 4)) - (3*x + 12), x), 0)), (oo, Eq(expand((3*(x + 4)) - (3*x + 12)), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((2*(5*x - 1)) - (10*x + 2), x), 0)), (oo, Eq(expand((2*(5*x - 1)) - (10*x + 2)), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((4*(x + 3)) - (-2*(x - 6)), x), 0)), (oo, Eq(expand((4*(x + 3)) - (-2*(x - 6))), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((-(5 - 6*x)) - (6*x + 5), x), 0)), (oo, Eq(expand((-(5 - 6*x)) - (6*x + 5)), 0)), (0, True))"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Identity: $3(x + 4) = 3x + 12$ simplifies to $0 = 0$, so every $x$ works (infinitely many solutions).",
+   "B": "False statement: $10x - 2 = 10x + 2$ simplifies to $-2 = 2$, so it has no solution.",
+   "C": "Correct. $4x + 12 = -2x + 12$ gives $6x = 0$, so $x = 0$. That is one solution, even though the value is zero.",
+   "D": "False statement: $-(5 - 6x) = 6x - 5$, so the equation becomes $-5 = 5$, which has no solution."
+  },
+  "check": "1",
+  "explanation": [
+   "Simplify each equation until it has the form $ax = b$ or a statement without $x$.",
+   "A: $0 = 0$ (infinitely many). B: $-2 = 2$ (none). D: $-5 = 5$ (none).",
+   "C: $4x + 12 = -2x + 12$ gives $6x = 0$, so $x = 0$: exactly one solution.",
+   "Do not reject C because the answer is $0$. A solution of $0$ is still a solution."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-006",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "Which of the following equations has no solution?",
+  "choices": [
+   "$5(x - 2) = -5(x + 2)$",
+   "$2(4x + 3) = 8x + 6$",
+   "$3x + 7 = 7x + 3$",
+   "$4(2x - 1) - 2x = 6(x + 1)$"
+  ],
+  "values": [
+   "Piecewise((1, Ne(diff((5*(x - 2)) - (-5*(x + 2)), x), 0)), (oo, Eq(expand((5*(x - 2)) - (-5*(x + 2))), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((2*(4*x + 3)) - (8*x + 6), x), 0)), (oo, Eq(expand((2*(4*x + 3)) - (8*x + 6)), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((3*x + 7) - (7*x + 3), x), 0)), (oo, Eq(expand((3*x + 7) - (7*x + 3)), 0)), (0, True))",
+   "Piecewise((1, Ne(diff((4*(2*x - 1) - 2*x) - (6*(x + 1)), x), 0)), (oo, Eq(expand((4*(2*x - 1) - 2*x) - (6*(x + 1))), 0)), (0, True))"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Read x = 0 as 'no solution': $5x - 10 = -5x - 10$ gives $10x = 0$, so $x = 0$. That is one solution.",
+   "B": "Identity: both sides are $8x + 6$, so every $x$ works (infinitely many solutions).",
+   "C": "Has a solution: $4 = 4x$ gives $x = 1$, so it has exactly one solution.",
+   "D": "Correct. The left side is $8x - 4 - 2x = 6x - 4$ and the right side is $6x + 6$. Then $-4 = 6$ is false, so no value works."
+  },
+  "check": "0",
+  "explanation": [
+   "No solution means the $x$ terms cancel and leave a false statement like $-4 = 6$.",
+   "A: $10x = 0$, so $x = 0$ (one solution). B: $0 = 0$ (infinitely many). C: $x = 1$ (one solution).",
+   "D: $6x - 4 = 6x + 6$ gives $-4 = 6$, which is false: no solution.",
+   "Desmos way: graph both sides of each choice. Only D gives two parallel lines that never meet."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-007",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "$$4(3x - k) + 5 = 2(6x + 7) - 3k$$ In the equation above, $k$ is a constant. If the equation has infinitely many solutions, what is the value of $k$?",
+  "choices": [
+   "$-9$",
+   "$-\\frac{9}{7}$",
+   "$\\frac{9}{2}$",
+   "$9$"
+  ],
+  "values": [
+   "-9",
+   "-9/7",
+   "9/2",
+   "9"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Both sides have $12x$. The constants must also match: $-4k + 5 = 14 - 3k$, so $-k = 9$ and $k = -9$.",
+   "B": "Sign slip: this uses $14 + 3k$ on the right instead of $14 - 3k$, which gives $-7k = 9$.",
+   "C": "Didn't distribute the 4: this uses $-k$ instead of $-4k$ on the left, which gives $2k = 9$.",
+   "D": "Sign slip at the last step: $-k = 9$ means $k = -9$, not $9$."
+  },
+  "check": "solve((4*(3*x - k) + 5 - (2*(6*x + 7) - 3*k)).subs(x, 0), k)[0]",
+  "explanation": [
+   "Distribute: $12x - 4k + 5 = 12x + 14 - 3k$.",
+   "The $x$-coefficients already match ($12$ and $12$).",
+   "Infinitely many solutions needs equal constants too: $-4k + 5 = 14 - 3k$.",
+   "So $-k = 9$ and $k = -9$. Check: both sides become $12x + 41$."
+  ]
+ },
+ {
+  "id": "pt5-m-nsol-008",
+  "modeled_on": "bb-pt5-m-q11",
+  "skill": "MATH.ALG.LIN1.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$\\frac{2}{3}(ax - 9) = 4x + 1 - x$$ In the equation above, $a$ is a constant. If the equation has no solution, what is the value of $a$?",
+  "check": "solve(diff(Rational(2, 3)*(a*x - 9) - (4*x + 1 - x), x), a)[0]",
+  "spr_answers": [
+   "9/2"
+  ],
+  "spr_entries": [
+   "9/2",
+   "4.5"
+  ],
+  "explanation": [
+   "Left side: $\\frac{2}{3}ax - 6$. Right side: $3x + 1$.",
+   "No solution means the $x$ terms cancel but the constants differ.",
+   "The constants already differ ($-6$ and $1$). Set the coefficients equal: $\\frac{2}{3}a = 3$, so $a = \\frac{9}{2}$.",
+   "Check: with $a = \\frac{9}{2}$ the equation becomes $3x - 6 = 3x + 1$, so $-6 = 1$: false, no solution."
+  ]
+ }
+]

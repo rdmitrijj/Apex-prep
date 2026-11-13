@@ -1,0 +1,539 @@
+[
+  {
+    "id": "pt5-rw-bnd-001",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "medium",
+    "topic": "a prize-winning novel about a ferry captain",
+    "fictional": true,
+    "passage": "Readers in the coastal town of Halden have long admired the local author Marta Velez. Her novel The Salt Orchard, a story about a ferry captain and her ______ won the regional fiction prize in 2021 and is now taught in several schools.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "grandson,",
+      "grandson",
+      "grandson;",
+      "grandson—"
+    ],
+    "answer": "A",
+    "explanation": "The appositive 'a story about a ferry captain and her grandson' opens with a comma after the title, so it must close with a comma before the verb 'won'.",
+    "steps": [
+      "Find the main sentence: 'Her novel The Salt Orchard ... won the regional fiction prize.'",
+      "The words 'a story about a ferry captain and her grandson' are extra information about the novel.",
+      "The extra information opens with a comma after the title.",
+      "So it must close with a comma too: 'grandson,'."
+    ],
+    "strategy_tip": "When a comma opens extra information, look for the end of that information and close it with a comma.",
+    "rationales": {
+      "A": "Correct. The comma closes the appositive that the comma after 'The Salt Orchard' opened, so the subject 'Her novel' connects cleanly to the verb 'won'.",
+      "B": "Unclosed supplement: The appositive opens with a comma after the title, so it must also close with a comma before 'won'.",
+      "C": "Semicolon before a fragment: A semicolon needs a complete sentence on each side, but 'Her novel The Salt Orchard, a story about a ferry captain and her grandson' has no verb.",
+      "D": "Mixed marks: The appositive opens with a comma, so it can't close with a dash. Use the same mark on both sides."
+    },
+    "traps": {
+      "B": "unclosed supplement",
+      "C": "semicolon before a fragment",
+      "D": "mixed marks"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-002",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.COLON",
+    "difficulty": "medium",
+    "topic": "dark roofs that melt snow",
+    "fictional": true,
+    "passage": "The mountain village of Torvik has an unusual rule for new houses. Every roof must be painted dark ______ the dark color absorbs sunlight and helps melt the heavy snow that collects on the roofs each winter.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "gray,",
+      "gray:",
+      "gray",
+      "gray; because"
+    ],
+    "answer": "B",
+    "explanation": "Both sides of the blank are complete sentences, and the second one explains the rule in the first. A colon can join them.",
+    "steps": [
+      "Before the blank: 'Every roof must be painted dark gray.' Complete sentence.",
+      "After the blank: 'the dark color absorbs sunlight and helps melt the heavy snow...' Complete sentence.",
+      "The second sentence explains why the rule exists.",
+      "A colon joins two complete sentences when the second explains the first."
+    ],
+    "strategy_tip": "If the second complete sentence explains the first, a colon is a safe choice; a comma alone is never enough.",
+    "rationales": {
+      "A": "Comma splice: A comma alone can't join two complete sentences.",
+      "B": "Correct. The colon joins two complete sentences, and the second explains why the roofs must be dark gray.",
+      "C": "Run-on sentence: Two complete sentences run together with no punctuation between them.",
+      "D": "Semicolon before a fragment: 'because the dark color absorbs sunlight...' can't stand alone, so a semicolon can't come before it."
+    },
+    "traps": {
+      "A": "comma splice",
+      "C": "run-on sentence",
+      "D": "semicolon before a fragment"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-003",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.LINK",
+    "difficulty": "medium",
+    "topic": "a fern that grows in old wells",
+    "fictional": true,
+    "passage": "Botanist Ilka Moreau studies a rare fern that grows only on the inner walls of old stone wells in the valley of Serrand. The fern needs constant shade and ______ it dries out within weeks if a well is left uncovered.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "moisture,",
+      "moisture",
+      "moisture;",
+      "moisture, which"
+    ],
+    "answer": "C",
+    "explanation": "Both parts are complete sentences. A semicolon can join two complete sentences.",
+    "steps": [
+      "Before the blank: 'The fern needs constant shade and moisture.' Complete sentence.",
+      "After the blank: 'it dries out within weeks if a well is left uncovered.' Complete sentence.",
+      "Two complete sentences need a period, a semicolon, or a comma plus 'and/but/so'.",
+      "Only the semicolon is offered, so choose 'moisture;'."
+    ],
+    "strategy_tip": "Put your finger on the blank and test each side: two complete sentences need a semicolon or a period, not a comma.",
+    "rationales": {
+      "A": "Comma splice: A comma alone can't join two complete sentences.",
+      "B": "Run-on sentence: Two complete sentences run together with no punctuation between them.",
+      "C": "Correct. The semicolon joins two complete sentences about the fern.",
+      "D": "Broken relative clause: 'which' needs to replace a noun in its clause, but 'which it dries out...' already has the subject 'it', so the clause doesn't work."
+    },
+    "traps": {
+      "A": "comma splice",
+      "B": "run-on sentence",
+      "D": "broken relative clause"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-004",
+    "skill": "RW.SEC.BND.UNNEC",
+    "difficulty": "medium",
+    "topic": "a hiking badge for a mountain trail",
+    "fictional": true,
+    "passage": "The Kessling Trail crosses three high mountain passes and takes most walkers about six weeks. Hikers who complete the full route in a single ______ a small bronze badge from the Kessling Walking Club.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "summer, receive",
+      "summer; receive",
+      "summer—receive",
+      "summer receive"
+    ],
+    "answer": "D",
+    "explanation": "The subject is 'Hikers who complete the full route in a single summer' and the verb is 'receive'. No punctuation goes between a subject and its verb.",
+    "steps": [
+      "Find the verb: 'receive'.",
+      "Ask who receives: 'Hikers who complete the full route in a single summer'. That whole phrase is the subject.",
+      "A subject and its verb are never separated by a single comma, semicolon, or dash.",
+      "Choose the option with no punctuation."
+    ],
+    "strategy_tip": "A long subject still needs no punctuation before its verb; find the verb and check that nothing cuts it off.",
+    "rationales": {
+      "A": "Splits subject and verb: A single comma can't come between the subject 'Hikers who complete...' and the verb 'receive'.",
+      "B": "Semicolon before a fragment: A semicolon needs a complete sentence on each side, and neither side is one here.",
+      "C": "Splits subject and verb: A single dash can't come between the subject and the verb 'receive'.",
+      "D": "Correct. No punctuation is needed between the long subject and its verb 'receive'."
+    },
+    "traps": {
+      "A": "splits subject and verb",
+      "B": "semicolon before a fragment",
+      "C": "splits subject and verb"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-005",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "a timber beam in a sports hall roof",
+    "fictional": true,
+    "passage": "Architect Petra Lindqvist designed the roof of the Hallam Sports Hall to carry heavy snow. Its central beam—the long curved part that carries the greatest share of the snow's ______ was made from layered timber rather than steel, because timber bends slightly under pressure instead of cracking.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "weight—",
+      "weight,",
+      "weight",
+      "weight;"
+    ],
+    "answer": "A",
+    "explanation": "The extra information 'the long curved part that carries the greatest share of the snow's weight' opens with a dash, so it must close with a dash before 'was made'.",
+    "steps": [
+      "Find the main sentence: 'Its central beam ... was made from layered timber.'",
+      "The words between 'beam' and 'was' are extra information about the beam.",
+      "Look back: the extra information opens with a dash after 'beam'.",
+      "Close it with the same mark: 'weight—'."
+    ],
+    "strategy_tip": "Before you choose, look back for the mark that opened the extra information; the closing mark must match it.",
+    "rationales": {
+      "A": "Correct. The dash closes the extra information that the dash after 'beam' opened, so 'Its central beam' connects to 'was made'.",
+      "B": "Mixed marks: The extra information opens with a dash, so it can't close with a comma.",
+      "C": "Unclosed supplement: Without a closing dash, the sentence reads as if 'the snow's weight was made from layered timber'.",
+      "D": "Semicolon before a fragment: 'Its central beam—the long curved part...' has no verb, so it can't come before a semicolon."
+    },
+    "traps": {
+      "B": "mixed marks",
+      "C": "unclosed supplement",
+      "D": "semicolon before a fragment"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-006",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "a film about a family of lamp-makers",
+    "fictional": true,
+    "passage": "Director Anouk Delsaux had never made a feature film before she turned fifty. Her film Lanterns at Low Tide, a drama about a family of lamp-makers in the river town of ______ took six years to complete and won the jury prize at the Corvel Film Festival.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Vellmar",
+      "Vellmar,",
+      "Vellmar—",
+      "Vellmar;"
+    ],
+    "answer": "B",
+    "explanation": "The appositive after the film's title opens with a comma, so it must close with a comma before the verb 'took'.",
+    "steps": [
+      "Find the main sentence: 'Her film Lanterns at Low Tide ... took six years to complete.'",
+      "'a drama about a family of lamp-makers in the river town of Vellmar' describes the film; it is extra information.",
+      "It opens with a comma after the title, even though the blank comes many words later.",
+      "Close it with a comma: 'Vellmar,'."
+    ],
+    "strategy_tip": "A long appositive after a title still needs a closing comma; find where the description ends and the verb begins.",
+    "rationales": {
+      "A": "Unclosed supplement: The appositive opens with a comma after the title, so it must close with a comma before 'took'.",
+      "B": "Correct. The comma closes the appositive, so the subject 'Her film' connects to the verb 'took'.",
+      "C": "Mixed marks: The appositive opens with a comma, so it can't close with a dash.",
+      "D": "Semicolon before a fragment: 'Her film Lanterns at Low Tide, a drama about...' has no verb, so it can't stand before a semicolon."
+    },
+    "traps": {
+      "A": "unclosed supplement",
+      "C": "mixed marks",
+      "D": "semicolon before a fragment"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-007",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "an old sea turtle tagged decades ago",
+    "fictional": true,
+    "passage": "Marine biologist Dara Okonjo tracks a group of sea turtles near the island of Pell. The oldest turtle in the group, a female that researchers first tagged in 1987 when she was already an ______ to the same beach every three years to lay her eggs.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "adult—returns",
+      "adult; returns",
+      "adult, returns",
+      "adult returns"
+    ],
+    "answer": "C",
+    "explanation": "The phrase 'a female that researchers first tagged in 1987 when she was already an adult' opens with a comma, so it must close with a comma before the verb 'returns'.",
+    "steps": [
+      "Find the main sentence: 'The oldest turtle in the group ... returns to the same beach.'",
+      "The words from 'a female' to 'adult' describe the turtle; they are extra information.",
+      "The extra information opens with a comma after 'group'.",
+      "Close it with a comma before the verb: 'adult, returns'."
+    ],
+    "strategy_tip": "Cross out the extra information; if the sentence still works, you found it, and its two marks must match.",
+    "rationales": {
+      "A": "Mixed marks: The extra information opens with a comma, so it can't close with a dash.",
+      "B": "Semicolon before a fragment: 'The oldest turtle in the group, a female that...' has no main verb, so it can't stand before a semicolon.",
+      "C": "Correct. The comma closes the extra information that the comma after 'group' opened, so 'The oldest turtle' connects to 'returns'.",
+      "D": "Unclosed supplement: Without a closing comma, the sentence reads as if 'she was already an adult returns to the same beach'."
+    },
+    "traps": {
+      "A": "mixed marks",
+      "B": "semicolon before a fragment",
+      "D": "unclosed supplement"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-008",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "a debut novel about a young clockmaker",
+    "fictional": true,
+    "passage": "Few first novels receive much attention from the critic Jonah Prell. Yet in his yearly review, Prell called Glass Harbor, Ines Barlow's novel about a young clockmaker who leaves her village to study in the ______ the most ambitious debut of the decade.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "capital",
+      "capital;",
+      "capital—",
+      "capital,"
+    ],
+    "answer": "D",
+    "explanation": "The appositive 'Ines Barlow's novel about a young clockmaker who leaves her village to study in the capital' opens with a comma after the title, so it must close with a comma.",
+    "steps": [
+      "Find the main sentence: 'Prell called Glass Harbor the most ambitious debut of the decade.'",
+      "The words from 'Ines Barlow's novel' to 'capital' describe the book; they are extra information.",
+      "The extra information opens with a comma after the title 'Glass Harbor'.",
+      "Close it with a comma: 'capital,'."
+    ],
+    "strategy_tip": "A 'who' clause inside an appositive doesn't end the appositive; close the whole description with the mark that opened it.",
+    "rationales": {
+      "A": "Unclosed supplement: The appositive opens with a comma after 'Glass Harbor', so it must also close with a comma.",
+      "B": "Semicolon before a fragment: 'the most ambitious debut of the decade' has no verb, so it can't stand after a semicolon.",
+      "C": "Mixed marks: The appositive opens with a comma, so it can't close with a dash.",
+      "D": "Correct. The comma closes the appositive about the book, and the sentence continues 'Prell called Glass Harbor ... the most ambitious debut'."
+    },
+    "traps": {
+      "A": "unclosed supplement",
+      "B": "semicolon before a fragment",
+      "C": "mixed marks"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-009",
+    "modeled_on": "bb-pt5-rw-a-q17",
+    "skill": "RW.SEC.BND.SUPP",
+    "difficulty": "hard",
+    "topic": "sailors' letters found in an archive wall",
+    "fictional": true,
+    "passage": "The Selmer Archive was founded in 1880 to collect records from the port of Selmer. The archive's oldest ______ a bundle of letters written by sailors in the 1790s—was found hidden inside a wall during repairs to the building in 2015.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "holding—",
+      "holding,",
+      "holding:",
+      "holding"
+    ],
+    "answer": "A",
+    "explanation": "The extra information 'a bundle of letters written by sailors in the 1790s' closes with a dash, so it must open with a dash after 'holding'.",
+    "steps": [
+      "Find the main sentence: 'The archive's oldest holding ... was found hidden inside a wall.'",
+      "'a bundle of letters written by sailors in the 1790s' describes the holding; it is extra information.",
+      "Look ahead: the extra information closes with a dash after '1790s'.",
+      "Open it with the same mark: 'holding—'."
+    ],
+    "strategy_tip": "The matching mark can come after the blank; read to the end of the sentence before you choose.",
+    "rationales": {
+      "A": "Correct. The dash opens the extra information, and the dash after '1790s' closes it.",
+      "B": "Mixed marks: The extra information closes with a dash, so it can't open with a comma.",
+      "C": "Colon after a fragment: A colon needs a complete sentence before it, but 'The archive's oldest holding' has no verb.",
+      "D": "Unopened supplement: Without an opening dash, the closing dash after '1790s' has no partner, and 'holding a bundle of letters' reads as one phrase."
+    },
+    "traps": {
+      "B": "mixed marks",
+      "C": "colon after a fragment",
+      "D": "unopened supplement"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-010",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.COLON",
+    "difficulty": "hard",
+    "topic": "benches facing away from a fountain",
+    "fictional": true,
+    "passage": "While preparing a plan to redesign public spaces, urban planner Sela Marquand noticed something odd about the busiest square in the city of ______ every bench had been placed so that it faced away from the large fountain in the middle.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Redfall,",
+      "Redfall:",
+      "Redfall",
+      "Redfall, which"
+    ],
+    "answer": "B",
+    "explanation": "The first sentence says Marquand noticed 'something odd', and the second sentence names it. A colon introduces an explanation of the first complete sentence.",
+    "steps": [
+      "Before the blank: 'While preparing a plan..., urban planner Sela Marquand noticed something odd about the busiest square in the city of Redfall.' Complete sentence (the 'While' phrase is only an opening).",
+      "After the blank: 'every bench had been placed so that it faced away from the large fountain...' Complete sentence.",
+      "The second sentence tells us what the 'something odd' was.",
+      "A colon joins them: 'Redfall:'."
+    ],
+    "strategy_tip": "Words like 'something', 'one change', or 'a problem' in the first clause often point to a colon before the explanation.",
+    "rationales": {
+      "A": "Comma splice: The comma after the 'While' phrase doesn't change the rule; a comma alone still can't join two complete sentences.",
+      "B": "Correct. The colon joins two complete sentences, and the second explains the 'something odd' that the first mentions.",
+      "C": "Run-on sentence: Two complete sentences run together with no punctuation between them.",
+      "D": "Broken relative clause: 'which' must stand for a noun inside its own clause, but the words after it already form a complete sentence, so the result is ungrammatical."
+    },
+    "traps": {
+      "A": "comma splice",
+      "C": "run-on sentence",
+      "D": "broken relative clause"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-011",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.COLON",
+    "difficulty": "hard",
+    "topic": "a strait with reversing currents",
+    "fictional": true,
+    "passage": "For centuries, sailors who traded wool and salt in the northern islands refused to cross the narrow strait between the islands of Harrow and ______ its currents reverse direction four times a day, often with no warning at all.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Lune; because",
+      "Lune,",
+      "Lune:",
+      "Lune"
+    ],
+    "answer": "C",
+    "explanation": "The first complete sentence says sailors refused to cross the strait, and the second complete sentence explains why. A colon fits before an explanation.",
+    "steps": [
+      "Before the blank: 'For centuries, sailors ... refused to cross the narrow strait between the islands of Harrow and Lune.' Complete sentence.",
+      "After the blank: 'its currents reverse direction four times a day...' Complete sentence.",
+      "The second sentence gives the reason for the first.",
+      "A colon joins two complete sentences when the second explains the first: 'Lune:'."
+    ],
+    "strategy_tip": "Don't let a long first clause fool you; if both sides could end with a period and the second explains the first, use a colon.",
+    "rationales": {
+      "A": "Semicolon before a fragment: 'because its currents reverse direction...' can't stand alone, so a semicolon can't come before it.",
+      "B": "Comma splice: A comma alone can't join two complete sentences.",
+      "C": "Correct. The colon joins two complete sentences, and the second explains why sailors refused to cross.",
+      "D": "Run-on sentence: Two complete sentences run together with no punctuation, so 'Lune its currents' reads as one phrase."
+    },
+    "traps": {
+      "A": "semicolon before a fragment",
+      "B": "comma splice",
+      "D": "run-on sentence"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-012",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.COLON",
+    "difficulty": "hard",
+    "topic": "a museum director's single change",
+    "fictional": true,
+    "passage": "When Nadia Ferreol became director of the Ostrand Museum, visitors expected her to rebuild the whole collection. Instead, she made only one change to the main ______ she moved the museum's oldest painting from the entrance to the final room.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "hall:",
+      "hall,",
+      "hall, which",
+      "hall"
+    ],
+    "answer": "A",
+    "explanation": "The first complete sentence mentions 'only one change', and the second complete sentence says what the change was. A colon introduces that explanation.",
+    "steps": [
+      "Before the blank: 'Instead, she made only one change to the main hall.' Complete sentence.",
+      "After the blank: 'she moved the museum's oldest painting from the entrance to the final room.' Complete sentence.",
+      "The second sentence names the 'one change'.",
+      "Use a colon: 'hall:'."
+    ],
+    "strategy_tip": "When the first clause promises something ('one change') and the second delivers it, a colon goes between them.",
+    "rationales": {
+      "A": "Correct. The colon joins two complete sentences, and the second names the one change that the first mentions.",
+      "B": "Comma splice: A comma alone can't join two complete sentences.",
+      "C": "Broken relative clause: 'which' must stand for a noun inside its own clause, but the words after it already form a complete sentence, so the result is ungrammatical.",
+      "D": "Run-on sentence: Two complete sentences run together with no punctuation between them."
+    },
+    "traps": {
+      "B": "comma splice",
+      "C": "broken relative clause",
+      "D": "run-on sentence"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-013",
+    "modeled_on": "bb-pt5-rw-b-q21",
+    "skill": "RW.SEC.BND.LINK",
+    "difficulty": "hard",
+    "topic": "a glaze that did not crack",
+    "fictional": true,
+    "passage": "Chemist Lio Arendt mixed a new glaze for ceramic tiles using ash from burned seaweed. He expected the glaze to crack in the kiln at very high ______ the tiles came out smooth and unbroken after every one of his twelve tests.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "temperatures, instead,",
+      "temperatures. Instead,",
+      "temperatures instead",
+      "temperatures instead,"
+    ],
+    "answer": "B",
+    "explanation": "'He expected the glaze to crack...' and 'the tiles came out smooth...' are two complete sentences. A period must separate them, and 'Instead,' begins the second one.",
+    "steps": [
+      "Before the blank: 'He expected the glaze to crack in the kiln at very high temperatures.' Complete sentence.",
+      "After the blank: 'the tiles came out smooth and unbroken...' Complete sentence.",
+      "'Instead' tells us the second sentence is the opposite of what he expected, so it belongs to the second sentence.",
+      "Put a period before 'Instead' and a comma after it."
+    ],
+    "strategy_tip": "Words like 'instead' and 'however' are not joining words; you still need a period or semicolon between the two sentences.",
+    "rationales": {
+      "A": "Comma splice: 'instead' is not a joining word like 'and' or 'but', so commas around it can't join two complete sentences.",
+      "B": "Correct. The period ends the first sentence, and 'Instead,' opens the second sentence.",
+      "C": "Run-on sentence: Two complete sentences run together with no punctuation between them.",
+      "D": "Comma splice: The comma after 'instead' joins two complete sentences, and 'instead' wrongly attaches to the first sentence."
+    },
+    "traps": {
+      "A": "comma splice",
+      "C": "run-on sentence",
+      "D": "comma splice"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-014",
+    "skill": "RW.SEC.BND.LINK",
+    "difficulty": "hard",
+    "topic": "a mill left in ruins after a flood",
+    "fictional": true,
+    "passage": "After the flood of 1952, most of the homes in the village of Brede were rebuilt within two years. The old grain ______ was left in ruins for another forty years, until a local history society bought it and restored its water wheel.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "mill, however",
+      "mill; however,",
+      "mill, however,",
+      "mill. However,"
+    ],
+    "answer": "C",
+    "explanation": "'The old grain mill was left in ruins...' is one sentence, and 'however' interrupts it between the subject and the verb. An interrupting word needs a comma on both sides.",
+    "steps": [
+      "Read the second sentence without 'however': 'The old grain mill was left in ruins...' It is one sentence.",
+      "So 'however' is not joining two sentences; it interrupts one sentence.",
+      "An interrupting word takes a comma before it and a comma after it.",
+      "Choose 'mill, however,'."
+    ],
+    "strategy_tip": "Before you put a semicolon or period before 'however', check that both sides are complete sentences; if not, use a comma on each side.",
+    "rationales": {
+      "A": "Unclosed supplement: 'however' interrupts the sentence, so it needs a comma after it as well as before it.",
+      "B": "Semicolon before a fragment: 'The old grain mill' has no verb, so it can't stand before a semicolon.",
+      "C": "Correct. The two commas set off 'however', which interrupts the sentence between 'The old grain mill' and 'was left'.",
+      "D": "Period after a fragment: 'The old grain mill.' has no verb, so it can't be a sentence."
+    },
+    "traps": {
+      "A": "unclosed supplement",
+      "B": "semicolon before a fragment",
+      "D": "period after a fragment"
+    }
+  },
+  {
+    "id": "pt5-rw-bnd-015",
+    "skill": "RW.SEC.BND.UNNEC",
+    "difficulty": "hard",
+    "topic": "bakery sales after a station opened",
+    "fictional": true,
+    "passage": "Economist Harriet Vosk studied how a new train station changed business in the town of Mellin. In her 2022 report, Vosk ______ small bakeries near the station had doubled their sales within a year of its opening.",
+    "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "found: that",
+      "found, that",
+      "found that,",
+      "found that"
+    ],
+    "answer": "D",
+    "explanation": "The object of 'found' is the clause 'that small bakeries near the station had doubled their sales'. No punctuation goes between a verb and its object or inside the 'that' clause.",
+    "steps": [
+      "Find the verb: 'found'.",
+      "Ask what she found: 'that small bakeries near the station had doubled their sales...' That clause is the object.",
+      "A verb and its object are not separated by punctuation, and 'that' is not followed by a comma here.",
+      "Choose 'found that' with no punctuation."
+    ],
+    "strategy_tip": "After verbs like 'found', 'showed', or 'argued', a 'that' clause follows directly with no comma or colon.",
+    "rationales": {
+      "A": "Splits verb and object: A colon can't come between the verb 'found' and its object, and 'Vosk found' leads straight into what she found.",
+      "B": "Splits verb and object: A comma can't come between the verb 'found' and the 'that' clause that is its object.",
+      "C": "Splits the that-clause: A comma after 'that' cuts the word off from the subject 'small bakeries' of its own clause.",
+      "D": "Correct. The verb 'found' leads directly into its object, 'that small bakeries ... had doubled their sales', with no punctuation."
+    },
+    "traps": {
+      "A": "splits verb and object",
+      "B": "splits verb and object",
+      "C": "splits the that-clause"
+    }
+  }
+]

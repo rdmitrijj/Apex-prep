@@ -1,0 +1,336 @@
+[
+ {
+  "id": "pt5-m-lintr-001",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x) - 6$ is a line with a positive slope and a $y$-intercept of $(0, 2)$. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "choices": [
+   "$f(x) = cx - d$",
+   "$f(x) = -cx + d$",
+   "$f(x) = cx + d$",
+   "$f(x) = -cx - d$"
+  ],
+  "values": [
+   "(1, -1)",
+   "(-1, 1)",
+   "(1, 1)",
+   "(-1, -1)"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Wrong direction: you computed $2 - 6 = -4$. To undo $-6$, add 6: the intercept of $f$ is $8$.",
+   "B": "Slope sign flipped: the slope is positive, so the $x$-term must be $+cx$.",
+   "C": "Correct. $f(0) - 6 = 2$, so $f(0) = 8 > 0$, and the slope is positive: $f(x) = cx + d$.",
+   "D": "Both signs wrong: the slope is positive and the intercept of $f$ is $2 + 6 = 8$."
+  },
+  "check": "(sign(1), sign(2 + 6))",
+  "explanation": [
+   "Shifting down by 6 does not change the slope, so $f$ also has a positive slope.",
+   "At $x = 0$: $f(0) - 6 = 2$, so $f(0) = 8$.",
+   "Positive slope and positive intercept: $f(x) = cx + d$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-002",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The graph of $y = f(x) + 5$ is shown, where $f$ is a linear function. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "figure": {
+   "kind": "plot",
+   "x": [
+    -3,
+    7
+   ],
+   "y": [
+    -9,
+    7
+   ],
+   "curves": [
+    [
+     [
+      -3,
+      6.5
+     ],
+     [
+      7,
+      -8.5
+     ]
+    ]
+   ],
+   "points": [
+    [
+     0,
+     2,
+     "(0, 2)"
+    ],
+    [
+     4,
+     -4,
+     "(4, -4)"
+    ]
+   ],
+   "xlabel": "x",
+   "ylabel": "y"
+  },
+  "choices": [
+   "$f(x) = -d - cx$",
+   "$f(x) = d - cx$",
+   "$f(x) = -d + cx$",
+   "$f(x) = d + cx$"
+  ],
+  "values": [
+   "(-1, -1)",
+   "(-1, 1)",
+   "(1, -1)",
+   "(1, 1)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $f(0) + 5 = 2$, so $f(0) = -3 < 0$, and the line falls: $f(x) = -d - cx$.",
+   "B": "Wrong direction: $2 + 5 = 7$ is the shift done backwards. To undo $+5$, subtract 5: $f(0) = -3$.",
+   "C": "Slope sign flipped: the line goes down from left to right, so the slope is negative.",
+   "D": "Both signs wrong: the slope is negative and $f(0) = 2 - 5 = -3$."
+  },
+  "check": "(sign((-4 - 2)/(4 - 0)), sign(2 - 5))",
+  "explanation": [
+   "The line goes down from left to right, so the slope is negative. A vertical shift keeps the slope.",
+   "The graph crosses the $y$-axis at $(0, 2)$, so $f(0) + 5 = 2$ and $f(0) = -3$.",
+   "Negative slope and negative intercept: $f(x) = -d - cx$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-003",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ALG.LINF.NOTATION",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The function $f$ is linear, and its slope is $-2$. In the $xy$-plane, the graph of $y = f(x) - 7$ passes through the point $(0, 4)$. What is the value of $f(3)$?",
+  "check": "(4 + 7) + (-2)*3",
+  "spr_answers": [
+   "5"
+  ],
+  "spr_entries": [
+   "5"
+  ],
+  "explanation": [
+   "At $x = 0$: $f(0) - 7 = 4$, so $f(0) = 11$ (add 7, do not subtract it).",
+   "So $f(x) = -2x + 11$.",
+   "$f(3) = -6 + 11 = 5$. (Using $f(0) = 4 - 7 = -3$ gives the wrong answer $-9$.)"
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-004",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x + 3)$ is a line with slope $2$ and a $y$-intercept of $(0, 4)$. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "choices": [
+   "$f(x) = cx + d$",
+   "$f(x) = -cx - d$",
+   "$f(x) = -cx + d$",
+   "$f(x) = cx - d$"
+  ],
+  "values": [
+   "(1, 1)",
+   "(-1, -1)",
+   "(-1, 1)",
+   "(1, -1)"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Ignored the shift: $f(x + 3)$ at $x = 0$ is $f(3)$, not $f(0)$. So $4$ is not the intercept of $f$.",
+   "B": "Slope sign flipped: a horizontal shift keeps the slope, and the slope is $2 > 0$.",
+   "C": "Both signs wrong: the slope stays $2$, and $f(0) = 4 - 2 \\cdot 3 = -2$.",
+   "D": "Correct. $f(x) = 2x + b$, so $f(x + 3) = 2x + 6 + b$. Then $6 + b = 4$, so $b = -2 < 0$."
+  },
+  "check": "(sign(2), sign(4 - 3*2))",
+  "explanation": [
+   "Write $f(x) = 2x + b$. A horizontal shift keeps the slope.",
+   "$f(x + 3) = 2(x + 3) + b = 2x + 6 + b$, so its $y$-intercept is $6 + b$.",
+   "$6 + b = 4$, so $b = -2$: positive slope, negative intercept, $f(x) = cx - d$.",
+   "Desmos way: type $y = 2(x + 3) + b$, add a slider for $b$, and move it until the line crosses $(0, 4)$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-005",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ALG.LINF.SLOPE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x) + 10$ passes through the points $(2, 9)$ and $(6, 1)$. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "choices": [
+   "$f(x) = -cx - d$",
+   "$f(x) = -cx + d$",
+   "$f(x) = cx + d$",
+   "$f(x) = cx - d$"
+  ],
+  "values": [
+   "(-1, -1)",
+   "(-1, 1)",
+   "(1, 1)",
+   "(1, -1)"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Used $(2, 9)$ as the $y$-intercept: $9 - 10 = -1$. The point $(2, 9)$ is not on the $y$-axis.",
+   "B": "Correct. The slope is $\\frac{1 - 9}{6 - 2} = -2$, the line has intercept $13$, and $f(0) = 13 - 10 = 3 > 0$.",
+   "C": "Slope sign flipped: $y$ goes from 9 down to 1 as $x$ goes up, so the slope is negative.",
+   "D": "Both signs wrong: the slope is $-2$ and $f(0) = 13 - 10 = 3$."
+  },
+  "check": "(sign((1 - 9)/(6 - 2)), sign(9 - (1 - 9)/(6 - 2)*2 - 10))",
+  "explanation": [
+   "Slope of the shifted line: $\\frac{1 - 9}{6 - 2} = -2$. The shift keeps the slope.",
+   "Its $y$-intercept: $9 = -2(2) + b$, so $b = 13$.",
+   "$f(0) + 10 = 13$, so $f(0) = 3$: negative slope, positive intercept, $f(x) = -cx + d$.",
+   "Desmos way: plot $(2, 9)$ and $(6, 1)$, type $y_1 \\sim m x_1 + b$, and read $b = 13$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-006",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ALG.LINF.SLOPE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x) - 8$ has an $x$-intercept of $(4, 0)$ and a $y$-intercept of $(0, -6)$. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "choices": [
+   "$f(x) = d + cx$",
+   "$f(x) = -d + cx$",
+   "$f(x) = d - cx$",
+   "$f(x) = -d - cx$"
+  ],
+  "values": [
+   "(1, 1)",
+   "(1, -1)",
+   "(-1, 1)",
+   "(-1, -1)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. The slope is $\\frac{0 - (-6)}{4 - 0} = \\frac{3}{2} > 0$, and $f(0) = -6 + 8 = 2 > 0$.",
+   "B": "Wrong direction: $-6 - 8 = -14$. To undo $-8$, add 8: $f(0) = 2$.",
+   "C": "Slope sign flipped: from $(0, -6)$ to $(4, 0)$ the line goes up, so the slope is positive.",
+   "D": "Both signs wrong: the slope is $\\frac{3}{2}$ and $f(0) = 2$."
+  },
+  "check": "(sign((0 - (-6))/(4 - 0)), sign(-6 + 8))",
+  "explanation": [
+   "Slope: $\\frac{0 - (-6)}{4 - 0} = \\frac{3}{2}$, positive. The vertical shift keeps it.",
+   "At $x = 0$: $f(0) - 8 = -6$, so $f(0) = 2$.",
+   "Positive slope and positive intercept: $f(x) = d + cx$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-007",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x - 4)$ is a line with slope $-3$ and a $y$-intercept of $(0, 5)$. Which equation could define $f$, where $c$ and $d$ are positive constants?",
+  "choices": [
+   "$f(x) = d - cx$",
+   "$f(x) = cx - d$",
+   "$f(x) = -cx - d$",
+   "$f(x) = cx + d$"
+  ],
+  "values": [
+   "(-1, 1)",
+   "(1, -1)",
+   "(-1, -1)",
+   "(1, 1)"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Ignored the shift: at $x = 0$, $f(x - 4)$ gives $f(-4)$, not $f(0)$. So $5$ is not the intercept of $f$.",
+   "B": "Slope sign flipped: a horizontal shift keeps the slope, and the slope is $-3$.",
+   "C": "Correct. $f(x - 4) = -3(x - 4) + b = -3x + 12 + b$. Then $12 + b = 5$, so $b = -7 < 0$.",
+   "D": "Both signs wrong: the slope stays $-3$, and $f(0) = 5 - 12 = -7$."
+  },
+  "check": "(sign(-3), sign(5 - (-3)*(-4)))",
+  "explanation": [
+   "Write $f(x) = -3x + b$. A horizontal shift keeps the slope.",
+   "$f(x - 4) = -3(x - 4) + b = -3x + 12 + b$, so its $y$-intercept is $12 + b$.",
+   "$12 + b = 5$, so $b = -7$: negative slope, negative intercept, $f(x) = -cx - d$.",
+   "Desmos way: type $y = -3(x - 4) + b$ with a slider for $b$; the line crosses $(0, 5)$ at $b = -7$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-008",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ADV.NLF.TRANSF",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The linear function $f$ has $f(1) = 4$ and $f(5) = 16$. The function $g$ is defined by $g(x) = f(x + 2) - 9$. What is the $y$-coordinate of the $y$-intercept of the graph of $y = g(x)$ in the $xy$-plane?",
+  "choices": [
+   "$-8$",
+   "$-2$",
+   "$-14$",
+   "$16$"
+  ],
+  "values": [
+   "-8",
+   "-2",
+   "-14",
+   "16"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Ignored the shift: you used $f(0) - 9 = 1 - 9$. But $g(0) = f(0 + 2) - 9 = f(2) - 9$.",
+   "B": "Correct. $f(x) = 3x + 1$, so $g(0) = f(2) - 9 = 7 - 9 = -2$.",
+   "C": "Wrong direction: you used $f(-2) - 9 = -5 - 9$. At $x = 0$, $x + 2 = 2$, so use $f(2)$.",
+   "D": "Sign of the shift: $g$ subtracts 9, so $g(0) = 7 - 9$, not $7 + 9$."
+  },
+  "check": "(16 - 4)/(5 - 1)*(0 + 2) + (4 - (16 - 4)/(5 - 1)*1) - 9",
+  "explanation": [
+   "Slope of $f$: $\\frac{16 - 4}{5 - 1} = 3$. Then $4 = 3(1) + b$, so $f(x) = 3x + 1$.",
+   "The $y$-intercept of $g$ is $g(0) = f(0 + 2) - 9 = f(2) - 9$.",
+   "$f(2) = 7$, so $g(0) = 7 - 9 = -2$.",
+   "Desmos way: type $f(x) = 3x + 1$ and $g(x) = f(x + 2) - 9$, then evaluate $g(0)$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-009",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ALG.LINF.SLOPE",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The function $f$ is linear. In the $xy$-plane, the graph of $y = f(x) + 6$ passes through the points $(-2, 13)$ and $(3, -2)$. What is the value of $f(5)$?",
+  "check": "(-2 - 13)/(3 - (-2))*5 + (13 - (-2 - 13)/(3 - (-2))*(-2)) - 6",
+  "spr_answers": [
+   "-14"
+  ],
+  "spr_entries": [
+   "-14"
+  ],
+  "explanation": [
+   "Slope: $\\frac{-2 - 13}{3 - (-2)} = -3$. Then $13 = -3(-2) + b$, so the shifted line is $y = -3x + 7$.",
+   "$f(x) + 6 = -3x + 7$, so $f(x) = -3x + 1$.",
+   "$f(5) = -15 + 1 = -14$. (Forgetting to subtract 6 gives $-8$.)",
+   "Desmos way: plot both points, fit $y_1 \\sim m x_1 + b$, then type $mx + b - 6$ at $x = 5$."
+  ]
+ },
+ {
+  "id": "pt5-m-lintr-010",
+  "modeled_on": "bb-pt5-m-q17",
+  "skill": "MATH.ALG.LINF.NOTATION",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The linear function $h$ has slope $4$. In the $xy$-plane, the graph of $y = h(x - 5)$ has a $y$-intercept of $(0, 3)$. What is the value of $h(2)$?",
+  "check": "3 - 4*(-5) + 4*2",
+  "spr_answers": [
+   "31"
+  ],
+  "spr_entries": [
+   "31"
+  ],
+  "explanation": [
+   "At $x = 0$, $y = h(0 - 5) = h(-5)$, so $h(-5) = 3$.",
+   "From $x = -5$ to $x = 2$ is $7$ steps, and each step adds $4$: $h(2) = 3 + 4 \\cdot 7 = 31$.",
+   "Check: $h(x) = 4x + 23$, and $h(-5) = -20 + 23 = 3$.",
+   "Trap: reading $h(0) = 3$ ignores the shift and gives $h(2) = 11$."
+  ]
+ }
+]

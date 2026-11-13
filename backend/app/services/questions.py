@@ -22,6 +22,8 @@ from app.models import Question, Response, ReviewSchedule, Skill
 from app.schemas.question import MathItem, QuestionOut, RWItem, RWSeedItem
 
 SEED_DIR = Path(__file__).resolve().parents[1] / "seed"
+# Mini Mock items are kept out of every other mode, so a mock never repeats practice.
+NOT_MOCK = Question.external_id.is_(None) | Question.external_id.not_like("pt5-mock-%")
 PUBLIC_KEYS = ("passage", "passage2", "notes", "figure")
 
 
@@ -199,6 +201,7 @@ async def pick(
                     Question.skill_id == leaf,
                     Question.source == "seed",
                     Question.status == "active",
+                    NOT_MOCK,
                     Question.difficulty == diff,
                     Question.id.not_in(exclude or [0]),
                     ~seen,
@@ -215,7 +218,12 @@ async def pick(
             return await db.get(Question, qid)
         q = await db.scalar(
             select(Question)
-            .where(Question.skill_id == leaf, Question.status == "active", Question.id.not_in(exclude or [0]))
+            .where(
+                Question.skill_id == leaf,
+                Question.status == "active",
+                NOT_MOCK,
+                Question.id.not_in(exclude or [0]),
+            )
             .order_by(seen, Question.difficulty != diff, func.random())
             .limit(1)
         )
