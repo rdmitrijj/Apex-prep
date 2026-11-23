@@ -180,6 +180,7 @@ export function Session({
         <span>
           Question {n + 1} of {count}
           {q && <> · {q.skill_name} · <span className="capitalize">{q.difficulty}</span></>}
+          {q?.label && <span className="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs text-slate-600">{q.label}</span>}
           {reasons.length > 0 && <span className="text-amber-700"> · {reasons.join(", ")}</span>}
         </span>
         <span>Score {score}/{n + (fb ? 1 : 0)}</span>
@@ -188,6 +189,12 @@ export function Session({
         {next.isError && <p role="alert" className="text-red-700">{errMsg(next.error)}</p>}
         {next.isPending && <p className="text-slate-500">Loading question…</p>}
         {q && !next.isPending && <QuestionView key={q.id} q={q} feedback={fb} busy={answer.isPending} error={errMsg(answer.error)} onSubmit={(a) => answer.mutate(a)} />}
+        {fb?.lesson && (
+          <div className="mt-4 space-y-2 border-t border-slate-100 pt-3 text-sm">
+            {fb.same_trap && <p role="alert" className="rounded-md bg-red-50 p-3 text-red-900"><strong>Same trap as PT6:</strong> {fb.same_trap}</p>}
+            <p className="rounded-md bg-amber-50 p-3 text-amber-950"><span className="font-semibold">PT6 lesson: </span>{fb.lesson}</p>
+          </div>
+        )}
         {fb && !fb.correct && fb.response_id && (
           <div className="mt-4 space-y-2 border-t border-slate-100 pt-3">
             {fb.trap && <p className="text-sm text-red-800">Trap: <strong>{fb.trap}</strong></p>}

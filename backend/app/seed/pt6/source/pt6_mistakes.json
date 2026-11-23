@@ -1,0 +1,413 @@
+{
+  "version": 1,
+  "source": "Bluebook SAT Practice Test 6, taken 2026-11-22",
+  "note": "Paraphrases only. Do not add official passages, sentences or answer choices to the repo. Every twin must be original text written for Apex Prep.",
+  "totals": {
+    "rw_wrong": 20,
+    "rw_omitted": 2,
+    "rw_correct_but_unsure": 3,
+    "math_wrong": 6,
+    "math_omitted": 4
+  },
+  "mistakes": [
+    {
+      "external_id": "pt6-rw-m1-q01",
+      "section": "rw", "module": 1, "number": 1, "status": "correct_unsure",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "D", "correct_answer": "D",
+      "paraphrase": "An artist's small and large works all come from her own experience (childhood memories, current surroundings). Blank = she is ___ direct experience. Answer: 'inspired by'.",
+      "trap": "Look-alike distractor 'complimented by' (compliment vs complement).",
+      "lesson": "Find the clue sentence ('drawing from memories…') and predict your own word before reading the options.",
+      "twin_blueprint": "Original passage about a fictional craftsperson whose work draws on a specific source. Correct: 'inspired by'. Distractors: 'complimented by', 'uncertain about', 'indifferent to'. Correct letter D."
+    },
+    {
+      "external_id": "pt6-rw-m1-q02",
+      "section": "rw", "module": 1, "number": 2, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "A", "correct_answer": "D",
+      "paraphrase": "A museum's Native American painters work in many different styles (traditional, modernist, blended). This disproves the misconception that Native art is ___. Answer: 'homogeneous' (all the same). I chose 'uncontroversial'.",
+      "trap": "The misconception must be the OPPOSITE of the evidence. Evidence = variety, so the misconception = 'all the same'. 'Uncontroversial' has nothing to do with variety.",
+      "lesson": "'Disproving the misconception that X is ___' + evidence of variety → the blank means 'uniform / homogeneous'. Predict the antonym of the evidence.",
+      "vocab": ["homogeneous", "uncontroversial", "individualistic", "theoretical"],
+      "twin_blueprint": "Fictional collection/survey shows wide variety (of methods, dialects, recipes…). 'Contrary to the assumption that ___ …'. Correct: 'homogeneous'. Distractors: 'uncontroversial', 'individualistic', 'theoretical'. Correct letter D. Second twin: same logic with 'uniform' / 'monolithic'."
+    },
+    {
+      "external_id": "pt6-rw-m1-q03",
+      "section": "rw", "module": 1, "number": 3, "status": "correct_unsure",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "D", "correct_answer": "D",
+      "paraphrase": "A physics measurement was notable not only because it differed from predictions but because of the ___ of the difference (it was many standard deviations off). Answer: 'scale'.",
+      "trap": "'not only … but (also) the ___ of that difference' — the second part must add the SIZE, given by the colon explanation.",
+      "lesson": "The part after the colon defines the blank. 'Seven standard deviations higher' = size → scale/magnitude.",
+      "twin_blueprint": "Fictional measurement in astronomy or chemistry, 'not only … but for the ___ of …' + colon explanation of size. Correct: 'magnitude'. Distractors: 'cause', 'existence', 'implication'."
+    },
+    {
+      "external_id": "pt6-rw-m1-q04",
+      "section": "rw", "module": 1, "number": 4, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "A", "correct_answer": "B",
+      "paraphrase": "Birds in dense vegetation sing at lower frequencies, because dense vegetation tends to ___ the distance that high-frequency sounds travel. Answer: 'diminish'. I chose 'exceed'.",
+      "trap": "Cause→effect logic: if vegetation helped high sounds, birds would use them. They avoid high sounds, so vegetation must REDUCE their distance. 'Exceed' also doesn't fit grammatically with 'the distance' (nothing can exceed a distance here).",
+      "lesson": "In 'since X tends to ___ Y' check the direction: does the result make sense if the word means increase or decrease?",
+      "vocab": ["diminish", "exceed", "encompass", "conceal"],
+      "twin_blueprint": "Fictional animal-communication or engineering context where an obstacle reduces the reach of a signal, so the organism/device uses another signal. Correct: 'diminish'. Distractors: 'exceed', 'encompass', 'conceal'. Correct letter B. Second twin: correct 'curtail'."
+    },
+    {
+      "external_id": "pt6-rw-m1-q05",
+      "section": "rw", "module": 1, "number": 5, "status": "correct_unsure",
+      "domain": "Craft and Structure", "skill": "Text Structure and Purpose",
+      "my_answer": "C", "correct_answer": "C",
+      "paraphrase": "Literary excerpt: a girl plans to read every library book in alphabetical order, one a day, without skipping dull ones. Main purpose: to show her determination to meet a goal.",
+      "trap": "Distractors focus on one detail (an unusual topic, a single book) instead of the whole passage.",
+      "lesson": "Main purpose = what EVERY sentence serves. Repeated detail (a plan, keeps going even when hard) = determination.",
+      "twin_blueprint": "Original literary excerpt (fictional novel, invented author) about a character pursuing a self-set challenge despite boredom. Correct: portray determination to meet a goal. Distractors: enjoyment of one topic; preference over other activities; admiration for one object."
+    },
+    {
+      "external_id": "pt6-rw-m1-q07",
+      "section": "rw", "module": 1, "number": 7, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Text Structure and Purpose",
+      "my_answer": "D", "correct_answer": "B",
+      "paraphrase": "A famous pianist looks relaxed and spontaneous on stage, but this ease comes from enormous preparation: she studies every piece as if for the first time. Main purpose: to assert that her performances look effortless BECAUSE of how she prepares. I chose 'to describe the UNIQUE way she approaches new music'.",
+      "trap": "D adds 'unique' (not stated) and 'music she hasn't performed before' (the text says she treats ALL music as new). It covers only the last sentence, not the 'however' turn.",
+      "lesson": "Main purpose usually sits on the 'however' turn: appearance (effortless) vs reality (preparation). Reject options with words the text never supports (unique, first, only, most).",
+      "twin_blueprint": "Fictional chess player / chef / athlete who looks spontaneous but prepares obsessively. Correct: assert that the apparent ease results from preparation. Distractors: details of how they choose pieces; kinds of tasks they find comfortable; 'the unique way they approach new X'. Correct letter B."
+    },
+    {
+      "external_id": "pt6-rw-m1-q08",
+      "section": "rw", "module": 1, "number": 8, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Cross-Text Connections",
+      "my_answer": "A", "correct_answer": "B",
+      "paraphrase": "Text 1: very old stone 'tools' in a cave prove humans arrived in North America long before the Clovis people. Text 2: it's premature to call the stones tools; they may be natural fractures, and no other human traces were found. Author 2's response to Text 1's claim: the claim rests on an unsupported assumption about the stones (that they are tools). I chose 'plausible connection but needs confirmation'.",
+      "trap": "A is too friendly: Text 2 does not call the claim plausible. Text 2 attacks the PREMISE (stones = tools), not the conclusion.",
+      "lesson": "Cross-text: find exactly what Text 2 doubts. If it questions the evidence itself → 'rests on an assumption that isn't supported'. Match the strength of the attitude (skeptical ≠ 'plausible').",
+      "twin_blueprint": "Text 1 (fictional archaeology/paleontology find) draws a big conclusion from objects of uncertain origin; Text 2 says the objects might be natural and lack other supporting evidence. Correct: claim rests on an insufficiently supported assumption. Distractors: plausible but needs confirmation; will likely be proved correct; ignores evidence about another group."
+    },
+    {
+      "external_id": "pt6-rw-m1-q11",
+      "section": "rw", "module": 1, "number": 11, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Command of Evidence (Textual)",
+      "my_answer": "A", "correct_answer": "C",
+      "paraphrase": "Claim: in a 19th-century story, the narrator has MIXED feelings about her room. Correct quotation: she is growing fond of the room except for the horrid wallpaper (positive + negative). I chose a purely negative quotation about the wallpaper.",
+      "trap": "Same trap as PT5: a one-sided quotation can't show MIXED feelings. You need both a positive and a negative element in ONE quotation.",
+      "lesson": "Claim says 'mixed / ambivalent / both'? → the quote must contain two opposite attitudes, usually joined by 'but / all but / yet / although'.",
+      "twin_blueprint": "Invented 19th-century-style story (fictional author). Claim: character has mixed feelings about a place/person. 4 invented quotations: two purely negative, one neutral description, one 'I've come to love X, all but Y' (correct). Correct letter C."
+    },
+    {
+      "external_id": "pt6-rw-m1-q14",
+      "section": "rw", "module": 1, "number": 14, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Inferences",
+      "my_answer": "B", "correct_answer": "A",
+      "paraphrase": "Scottish English strongly pronounces 'r' after vowels; Upland South dialects do the same; the Upland South was settled mostly by people of Scottish descent. Conclusion: Upland South dialects got this feature from Scottish dialects. I chose 'the feature will spread to other dialects in the future'.",
+      "trap": "B predicts the future — the text is only about the past origin. Classic 'beyond the text' distractor.",
+      "lesson": "Inference = the smallest step that connects ALL the facts given (similarity + settlement history → origin). Reject future predictions and reversed causation.",
+      "twin_blueprint": "Fictional island community with a cooking/music/dialect feature shared with a homeland that supplied most of its settlers. Correct: the community acquired the feature from the homeland. Distractors: will spread elsewhere; homeland was influenced by the community (reversed); settlers abandoned the feature."
+    },
+    {
+      "external_id": "pt6-rw-m2-q02",
+      "section": "rw", "module": 2, "number": 2, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "C", "correct_answer": "B",
+      "paraphrase": "A 19th-century designer rejected industrialization; historians say this rejection is ___ his press's handmade books with medieval ornament. Answer: 'manifest in' (visible/shown in). I chose 'scrutinized by'.",
+      "trap": "'Scrutinized by' = examined by; books can't examine an attitude. The handmade books SHOW the attitude.",
+      "lesson": "Test each option by rewriting: 'His rejection of X is shown in the books' ✓. 'His rejection is examined by the books' ✗.",
+      "vocab": ["manifest in", "scrutinized by", "insensible to", "complicated by"],
+      "twin_blueprint": "Fictional architect who rejected mass production; her belief is ___ her buildings' hand-carved details. Correct: 'manifest in'. Distractors: 'insensible to', 'scrutinized by', 'complicated by'. Correct letter B."
+    },
+    {
+      "external_id": "pt6-rw-m2-q03",
+      "section": "rw", "module": 2, "number": 3, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "A", "correct_answer": "B",
+      "paraphrase": "___ the long-standing trend of overemphasizing young people in social-media research, scholars now include seniors. Answer: 'Redressing' (correcting an imbalance). I chose 'Exacerbating' (making worse).",
+      "trap": "Exacerbating = making a problem WORSE. Adding seniors makes the imbalance BETTER → redressing.",
+      "lesson": "Decide first: does the action fix or worsen the problem in the sentence? Fix → redress/remedy/rectify; worsen → exacerbate/aggravate.",
+      "vocab": ["redress", "exacerbate", "epitomize", "preclude"],
+      "twin_blueprint": "Fictional field (e.g., medical trials over-focused on one age group) now includes a neglected group. Correct: 'Redressing'. Distractors: 'Exacerbating', 'Epitomizing', 'Precluding'. Correct letter B. Second twin uses 'Rectifying'."
+    },
+    {
+      "external_id": "pt6-rw-m2-q04",
+      "section": "rw", "module": 2, "number": 4, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Words in Context",
+      "my_answer": "C", "correct_answer": "D",
+      "paraphrase": "Mid-century novel: a taxi moves slowly through a market street; the crowd with carts and baskets is 'disputing, every inch, our passage'. Meaning: providing resistance to (blocking). I chose 'asserting possession of'.",
+      "trap": "Secondary meaning. People physically get in the way of the taxi; they don't claim to own the road.",
+      "lesson": "For 'as used in the text', replace the word with each option and imagine the scene. Crowd + carts in front of a car = resisting/blocking.",
+      "vocab": ["dispute (resist, oppose)", "assert possession", "disapprove"],
+      "twin_blueprint": "Original literary excerpt (invented novel): a cyclist pushes through a crowded festival; the crowd is 'contesting every yard of our way'. Question: 'contesting' most nearly means. Correct: 'resisting'. Distractors: 'arguing about', 'competing in', 'claiming ownership of'."
+    },
+    {
+      "external_id": "pt6-rw-m2-q06",
+      "section": "rw", "module": 2, "number": 6, "status": "wrong",
+      "domain": "Craft and Structure", "skill": "Text Structure and Purpose",
+      "my_answer": "A", "correct_answer": "C",
+      "paraphrase": "Underlined: scholars of a 1960s–70s civil-rights movement focus on its most militant figures, making it look uniformly radical. Then a geographer shows that local, low-profile institutions reveal many political views. Function of the underlined part: describes a common research approach that hides the participants' ideological diversity. I chose 'a trend the text says HAS BEEN reevaluated by researchers'.",
+      "trap": "A overstates: the text shows ONE geographer's work, not that the field has reevaluated the trend.",
+      "lesson": "Function questions: describe what the sentence does (sets up the common view that is then challenged). Reject options that claim more than the text says happened.",
+      "twin_blueprint": "Fictional history of a labor/art movement: studies focus on famous leaders, making it seem unified; a fictional scholar shows local groups held varied views. Underlined = the common approach. Correct: describes a common approach that obscures diversity. Distractors: 'trend has been reevaluated by researchers'; 'overemphasized because of scholars' own politics'; 'misleading impression of effectiveness'."
+    },
+    {
+      "external_id": "pt6-rw-m2-q09",
+      "section": "rw", "module": 2, "number": 9, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Inferences",
+      "my_answer": "B", "correct_answer": "C",
+      "paraphrase": "Ammonia was proposed as a sign of life on other planets. Researchers found: on rocky planets it can't reach detectable levels without life; on mini-Neptunes it can form without life (high pressure/temperature). They would agree: treat ammonia as a biosignature on rocky planets but not on mini-Neptunes. I chose 'its absence on a non-mini-Neptune means no life'.",
+      "trap": "B reverses the logic: 'presence suggests life' does NOT mean 'absence means no life'.",
+      "lesson": "If X → (probably) Y, you cannot conclude not-X → not-Y. Pick the option that keeps BOTH conditions (rocky vs mini-Neptune).",
+      "twin_blueprint": "Fictional chemical marker (e.g., a gas in lake sediments as a sign of a microbe); in one environment it only forms biologically, in another it forms by heat alone. Correct: treat as a sign of life only in the first environment. Distractors: absence implies no life (reversed); presence more likely means environment 2; never reliable anywhere."
+    },
+    {
+      "external_id": "pt6-rw-m2-q11",
+      "section": "rw", "module": 2, "number": 11, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Command of Evidence (Quantitative)",
+      "my_answer": "C", "correct_answer": "D",
+      "paraphrase": "Bar graph: tree growth with/without nitrogen under current, moderate and extreme climate. Conclusion: nitrogen can MORE THAN OFFSET climate damage if change is moderate, but not if extreme. Correct data: growth WITH nitrogen under moderate change > growth WITHOUT nitrogen under CURRENT climate, but growth with nitrogen under extreme change < that. I chose a comparison inside the moderate scenario (with vs without).",
+      "trap": "C is true but compares the wrong baseline. 'Offset the effect of climate change' means compare to today's growth (current climate, no added nitrogen).",
+      "lesson": "Translate the claim into an exact comparison first: future-with-help vs present-without-help. Then find the option that makes THAT comparison for both cases (moderate ✓, extreme ✗).",
+      "twin_blueprint": "Original bar graph (data JSON): crop yield with/without irrigation under current, moderate drought, severe drought. Claim: irrigation can more than offset drought losses only if drought is moderate. Correct option compares irrigated-moderate to non-irrigated-current, and irrigated-severe to the same. Distractors: true statements with wrong baselines."
+    },
+    {
+      "external_id": "pt6-rw-m2-q12",
+      "section": "rw", "module": 2, "number": 12, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Command of Evidence (Textual)",
+      "my_answer": "C", "correct_answer": "D",
+      "paraphrase": "High pressure compresses water and breaks hydrogen bonds; deep-sea animals have more of a compound (TMAO) the deeper they live. Hypothesis: TMAO reduces water's compressibility. Strongest support: under high pressure, water's hydrogen bonds are more stable WITH TMAO than without. I chose a correlation between TMAO concentration and the RATE at which water compresses.",
+      "trap": "C is a positive correlation in the wrong direction: more TMAO ↔ FASTER compression would WEAKEN the hypothesis. It only looks supportive because it says 'positive correlation'.",
+      "lesson": "Restate the hypothesis as cause → effect (TMAO → water resists compression). The support must show that effect directly, in the right direction, with/without comparison.",
+      "twin_blueprint": "Fictional desert plant compound hypothesized to reduce water loss in leaves. Correct: leaves lose water more slowly with the compound than without under the same heat. Distractors: compound keeps its own shape under heat; positive correlation between compound and RATE of water loss (wrong direction); water unaffected by compound."
+    },
+    {
+      "external_id": "pt6-rw-m2-q13",
+      "section": "rw", "module": 2, "number": 13, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Command of Evidence (Quantitative)",
+      "my_answer": "C", "correct_answer": "B",
+      "paraphrase": "Table: simulated % change in aquifer input and irrigation use if rain becomes concentrated, for regions where rain is currently somewhat concentrated vs evenly distributed. Conclusion: irrigation will increase, but the size of the increase depends strongly on the current baseline. Correct: small irrigation increase for the 'somewhat concentrated' baseline vs much larger for the 'evenly distributed' baseline. I chose an option about one baseline only.",
+      "trap": "C stays inside one row — it can't show 'sensitive to the baseline'. Sensitivity needs a comparison ACROSS the two baselines, about IRRIGATION (not aquifer input).",
+      "lesson": "Key words: 'sensitive to / depends on X' → the answer must compare two values of X. Also match the variable (irrigation ≠ aquifer).",
+      "twin_blueprint": "Original table (data JSON): % change in heating and cooling energy use if winters warm, for cities with mild vs harsh baseline winters. Claim: heating savings depend strongly on the baseline. Correct: compares heating change across the two baselines. Distractors: one-row statements, wrong variable, wrong sign."
+    },
+    {
+      "external_id": "pt6-rw-m2-q14",
+      "section": "rw", "module": 2, "number": 14, "status": "wrong",
+      "domain": "Information and Ideas", "skill": "Inferences",
+      "my_answer": "C", "correct_answer": "A",
+      "paraphrase": "Researchers compared wild and captive lions, knowing that regular feeding in captivity reduces mental engagement and can cause NEW purposeless repetitive behaviors. So they weren't surprised that captive lions kept gnawing bones after the nutrients were gone, while wild lions didn't. I chose captive lions repeating hunting-like behaviors with puzzle feeders.",
+      "trap": "C describes a cognitively DEMANDING situation and behavior shared with wild lions — it isn't a new purposeless behavior caused by low engagement.",
+      "lesson": "Completion questions: check each option against ALL conditions in the setup (captive only + new + purposeless + low engagement). Only one option meets every condition.",
+      "twin_blueprint": "Fictional study of zoo vs wild parrots; prior work: predictable feeding causes new repetitive behaviors. Correct: zoo parrots keep shredding empty seed husks, wild ones don't. Distractors: aggression differences by sex; repeated behavior with puzzle feeders similar to wild foraging; both groups pace before feeding."
+    },
+    {
+      "external_id": "pt6-rw-m2-q16",
+      "section": "rw", "module": 2, "number": 16, "status": "wrong",
+      "domain": "Standard English Conventions", "skill": "Boundaries",
+      "my_answer": "C", "correct_answer": "B",
+      "paraphrase": "'A ray diagram reveals how this ___ the hole's small size restricts light…, all light … arrives at a single destination.' Correct: 'works. Because' (period, new sentence beginning with a dependent clause + main clause). I chose 'works, it's because' (comma splice).",
+      "trap": "'It's because…' is a full independent clause; joining it to 'A ray diagram reveals how this works' with only a comma = comma splice.",
+      "lesson": "Count independent clauses. Two complete sentences need a period/semicolon/comma+FANBOYS. A sentence CAN start with 'Because…, main clause.'",
+      "twin_blueprint": "Original science explanation (e.g., how a siphon works). Options: 'works because' / 'works. Because' / 'works, it's because' / 'works: it's because'. Correct letter B."
+    },
+    {
+      "external_id": "pt6-rw-m2-q17",
+      "section": "rw", "module": 2, "number": 17, "status": "wrong",
+      "domain": "Standard English Conventions", "skill": "Boundaries",
+      "my_answer": "C", "correct_answer": "B",
+      "paraphrase": "'…was actually the work of little-known French portrait ___ Marie-Denise Villers.' Correct: 'artist' with NO punctuation (title/descriptor directly before a name). I chose 'artist:'.",
+      "trap": "A descriptive title before a proper noun ('portrait artist Jane Doe') is restrictive — no comma, colon or dash.",
+      "lesson": "Title + name = no punctuation ('physicist Lise Meitner'). A comma is used only if the name comes after 'the/a' + a unique identifier ('his wife, Anna,').",
+      "twin_blueprint": "Fictional rediscovered composer: '…was in fact composed by obscure Austrian church ___ Johanna Feld (1801–1860).' Options: 'organist—', 'organist', 'organist:', 'organist,'. Correct letter B."
+    },
+    {
+      "external_id": "pt6-rw-m2-q19",
+      "section": "rw", "module": 2, "number": 19, "status": "wrong",
+      "domain": "Standard English Conventions", "skill": "Form, Structure, and Sense",
+      "my_answer": "D", "correct_answer": "C",
+      "paraphrase": "'American artist Richard ___ his installations to make passersby aware of their movement, assembles steel plates into huge sculptures.' Correct: 'Serra, intending' (participle phrase between commas). I chose 'Serra intends' (a second main verb).",
+      "trap": "The sentence already has a main verb ('assembles') after the second comma. The blank must be a non-finite supplementary phrase: ', intending …,'.",
+      "lesson": "Find the main verb first. If one exists later in the sentence, the blank can't be another finite verb → use -ing / -ed phrase inside commas.",
+      "twin_blueprint": "Fictional sculptor/architect: 'Danish architect Ida ___ her bridges to slow pedestrians down, curves every walkway into a gentle S.' Options: 'Lund is intending', 'Lund, intends', 'Lund, intending', 'Lund intends'. Correct letter C."
+    },
+    {
+      "external_id": "pt6-rw-m2-q21",
+      "section": "rw", "module": 2, "number": 21, "status": "wrong",
+      "domain": "Expression of Ideas", "skill": "Transitions",
+      "my_answer": "A", "correct_answer": "D",
+      "paraphrase": "Historians agree a jazz pianist exaggerated when he claimed he invented jazz. 'No one can deny, ___, that his compositions helped shape early jazz.' Correct: 'though' (concession). I chose 'therefore'.",
+      "trap": "The second sentence is TRUE DESPITE the first (he exaggerated, but he was still important) → concession, not result.",
+      "lesson": "Ask: does sentence 2 follow FROM sentence 1 (therefore) or hold IN SPITE OF it (though / still / nevertheless)? Mid-sentence 'though' = 'however' in a softer position.",
+      "twin_blueprint": "Fictional inventor who overstated being the first to build a device; second sentence: 'Few would dispute, ___, that her prototypes advanced the field.' Options: therefore, in the second place, in other words, though. Correct letter D."
+    },
+    {
+      "external_id": "pt6-rw-m2-q24",
+      "section": "rw", "module": 2, "number": 24, "status": "wrong",
+      "domain": "Expression of Ideas", "skill": "Transitions",
+      "my_answer": "A", "correct_answer": "B",
+      "paraphrase": "Researchers studied whether cows are diurnal, nocturnal or crepuscular. Next sentence restates it in plain words (day, night, dawn/dusk). Correct: 'In other words'. I chose 'Afterward'.",
+      "trap": "The second sentence doesn't describe a later event; it explains the technical terms of the first → restatement.",
+      "lesson": "If sentence 2 repeats sentence 1 in simpler words (often defining jargon) → 'In other words / That is'.",
+      "twin_blueprint": "Fictional study: whether a fish species is 'benthic, pelagic, or demersal'; next sentence explains: bottom, open water, near the bottom. Options: Afterward, In other words, Additionally, However. Correct letter B."
+    },
+    {
+      "external_id": "pt6-rw-m2-q26",
+      "section": "rw", "module": 2, "number": 26, "status": "omitted",
+      "domain": "Expression of Ideas", "skill": "Rhetorical Synthesis",
+      "my_answer": null, "correct_answer": "D",
+      "paraphrase": "Notes: a federal agency lists at-risk species as endangered (danger of extinction) or threatened (likely to soon become endangered); a frog species is likely to soon become endangered. Goal: state the frog's classification category. Correct: 'Likely to soon become endangered, the frog is classified as threatened.'",
+      "trap": "Not answered (time). Traps: an option that says 'endangered' (factually wrong), options that mention the list but never give the category.",
+      "lesson": "Rhetorical synthesis takes ~40 s: read ONLY the goal, then pick the option that does exactly that. Never leave it blank — these are the fastest points at the end of a module.",
+      "twin_blueprint": "Notes on a fictional conservation agency with categories 'critical' vs 'vulnerable' and a fictional bird matching 'vulnerable'. Goal: indicate the bird's category. Correct letter D."
+    },
+    {
+      "external_id": "pt6-rw-m2-q27",
+      "section": "rw", "module": 2, "number": 27, "status": "omitted",
+      "domain": "Expression of Ideas", "skill": "Rhetorical Synthesis",
+      "my_answer": null, "correct_answer": "C",
+      "paraphrase": "Notes about a traditional sailing boat and modern replicas built in Oman with mostly traditional and some modern materials. Goal: make a GENERALIZATION about the materials used in replicas. Correct: 'Although most materials in replicas are traditional, some modern materials are used.'",
+      "trap": "Not answered (time). Traps: a specific example (one material) instead of a generalization; a definition of the boat.",
+      "lesson": "'Generalization' = a statement about most/all, not one example. Find words like 'most', 'generally', 'typically'.",
+      "twin_blueprint": "Notes on a fictional traditional instrument (e.g., a drum) and modern copies made with mostly traditional and some synthetic materials. Goal: generalization about materials in the copies. Correct letter C."
+    },
+    {
+      "external_id": "pt6-math-m1-q05",
+      "section": "math", "module": 1, "number": 5, "status": "wrong",
+      "domain": "Problem-Solving and Data Analysis", "skill": "Sample proportion → population estimate",
+      "my_answer": "A (4)", "correct_answer": "B (320)",
+      "paraphrase": "20 of 400 employees sampled at random; 16 of the sample take exactly three courses. Best estimate for the whole company: 16/20 × 400 = 320. I chose 4 (= 20 − 16, the sample members who DON'T).",
+      "trap": "Careless reading: subtracted inside the sample instead of scaling the proportion to the population.",
+      "lesson": "Estimate for population = (sample proportion) × (population size). Ask: 'Is my answer about the sample or the whole company?'",
+      "mirror_twin": {
+        "stem": "Lena selected 25 households at random from all 600 households in a town. She found that 15 of the households in this sample own exactly two cars. Based on Lena's findings, which of the following is the best estimate of the number of households in the town that own exactly two cars?",
+        "options": ["10", "360", "575", "585"], "correct": "B",
+        "distractor_logic": {"A": "25 − 15 (sample households that don't)", "C": "households not sampled", "D": "600 − 15"}
+      }
+    },
+    {
+      "external_id": "pt6-math-m1-q14",
+      "section": "math", "module": 1, "number": 14, "status": "wrong",
+      "domain": "Problem-Solving and Data Analysis", "skill": "Box plots: range",
+      "my_answer": "5", "correct_answer": "4",
+      "paraphrase": "Two box plots of books read: Class A min 0, max 5 (range 5); Class B min 1, max 10 (range 9). Positive difference of the ranges = 4. I answered 5 (probably used box values / IQR or misread a whisker end).",
+      "trap": "Range uses the WHISKER ENDS (min, max), not the box (Q1, Q3). Misreading a whisker that starts at 0.",
+      "lesson": "Box plot reading: write the 5 numbers (min, Q1, median, Q3, max) for each plot before calculating. Range = max − min; IQR = Q3 − Q1.",
+      "mirror_twin": {
+        "stem": "The two box plots show the distribution of the number of goals scored per game by two teams. What is the positive difference between the ranges of the two distributions?",
+        "data": {"Team X": {"min": 0, "q1": 2, "median": 3, "q3": 5, "max": 7}, "Team Y": {"min": 2, "q1": 4, "median": 6, "q3": 10, "max": 11}},
+        "answer": "2", "type": "spr",
+        "trap_values": {"IQR difference": 3, "median difference": 3, "max difference": 4}
+      }
+    },
+    {
+      "external_id": "pt6-math-m1-q19",
+      "section": "math", "module": 1, "number": 19, "status": "wrong",
+      "domain": "Geometry and Trigonometry", "skill": "Similar triangles (bow-tie / vertical angles)",
+      "my_answer": "73.5", "correct_answer": "54",
+      "paraphrase": "Two segments cross at Q forming triangles WQX and YQZ; angles at W and Y are equal (a°), vertical angles at Q equal → similar. YQ = 63, WQ = 70, WX = 60 (XQ = 120 is extra). YZ/WX = YQ/WQ → YZ = 60·63/70 = 54. I answered 73.5 = 63·70/60 (ratio flipped / wrong sides matched).",
+      "trap": "Matching sides by position in the picture instead of by equal angles. Extra given length (XQ) as a distractor.",
+      "lesson": "Write the correspondence from the angles: W↔Y, Q↔Q, X↔Z. Then sides: WQ↔YQ, WX↔YZ, QX↔QZ. Sanity check: the triangle with the smaller known side must have the smaller unknown side.",
+      "mirror_twin": {
+        "stem": "In the figure, segments RU and ST intersect at point M. Angle R and angle T each measure b°. TM = 56, RM = 70, RS = 60, and SM = 100. What is the length of segment TU?",
+        "figure": "Bow-tie: R top-left, S bottom-left, T top-right, U bottom-right; RU and ST cross at M; triangle RMS on the left, triangle TMU on the right; angle mark b° at R and at T; 'Figure not drawn to scale.'",
+        "answer": "48", "type": "spr",
+        "trap_values": {"flipped ratio 60·70/56": 75}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q15",
+      "section": "math", "module": 2, "number": 15, "status": "wrong",
+      "domain": "Advanced Math", "skill": "Zeros of a polynomial with a shifted input",
+      "my_answer": "12", "correct_answer": "25",
+      "paraphrase": "g(x) = x(x − 2)(x + 6)². g(7 − w) = 0. Zeros of g: x = 0, 2, −6 → 7 − w = 0, 2, −6 → w = 7, 5, 13 → sum 25. I answered 12 = 7 + 5 (forgot the squared factor's root, w = 13).",
+      "trap": "Ignoring the root from the squared factor (x + 6)², and/or the sign when solving 7 − w = −6.",
+      "lesson": "List EVERY distinct zero of g (a squared factor still gives one zero), then solve 'inside = zero' for each. Check: the number of w-values = the number of distinct zeros.",
+      "mirror_twin": {
+        "stem": "The function h is defined by h(x) = x(x + 3)(x − 5)^2. The value of h(4 − k) is 0, where k is a constant. What is the sum of all possible values of k?",
+        "answer": "10", "type": "spr",
+        "trap_values": {"forgot squared factor root (k = −1)": 11, "sum of zeros of h": 2}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q16",
+      "section": "math", "module": 2, "number": 16, "status": "wrong",
+      "domain": "Problem-Solving and Data Analysis", "skill": "Conditional probability (word problem, no table)",
+      "my_answer": "B (3/10)", "correct_answer": "C (15/31)",
+      "paraphrase": "6 rows of birch (each 8 tall, 6 short), 5 rows of maple (each 9 tall, 7 short). P(maple | tall) = 45 / (48 + 45) = 15/31. I chose 3/10 (wrong denominator).",
+      "trap": "'Given that the tree is tall' → the denominator is ALL TALL trees (93), not all trees and not one row.",
+      "lesson": "Build the 2×2 table first (type × height, totals). 'Given X' = only the X row/column is the denominator.",
+      "mirror_twin": {
+        "stem": "An orchard has 7 rows of apple trees and 4 rows of pear trees. Each row of apple trees has 10 trees taller than 15 feet and 4 trees 15 feet or shorter. Each row of pear trees has 12 trees taller than 15 feet and 6 trees 15 feet or shorter. A tree from one of these rows will be selected at random. What is the probability of selecting a pear tree, given that the tree is taller than 15 feet?",
+        "options": ["6/85", "24/85", "24/59", "2/3"], "correct": "C",
+        "distractor_logic": {"A": "one pear row's tall trees / all trees", "B": "tall pears / all trees", "D": "P(tall | pear) — reversed condition"}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q17",
+      "section": "math", "module": 2, "number": 17, "status": "omitted",
+      "domain": "Geometry and Trigonometry", "skill": "Rectangle inscribed in a circle + 30-60-90",
+      "my_answer": null, "correct_answer": "66",
+      "paraphrase": "Rectangle inscribed in a circle; its diagonal is twice its shortest side; area = 1089√3. Diagonal = diameter. Sides s and s√3 (30-60-90), area s²√3 = 1089√3 → s = 33 → diameter = 2s = 66.",
+      "trap": "Not answered (time). Key facts: inscribed rectangle's diagonal = diameter; 'hypotenuse = 2 × short leg' = 30-60-90 triangle.",
+      "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3.",
+      "mirror_twin": {
+        "stem": "A rectangle is inscribed in a circle, so each vertex of the rectangle lies on the circle. The diagonal of the rectangle is twice the length of the shortest side of the rectangle. The area of the rectangle is 196√3 square units. What is the length, in units, of the diameter of the circle?",
+        "answer": "28", "type": "spr",
+        "trap_values": {"short side": 14, "radius": 14}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q19",
+      "section": "math", "module": 2, "number": 19, "status": "omitted",
+      "domain": "Algebra", "skill": "System with no solution (fraction coefficients, parameter)",
+      "my_answer": null, "correct_answer": "7/2 (3.5)",
+      "paraphrase": "System with fractions: (7/8)y − (5/8)x = 4/7 − (7/8)y and (5/4)x + 7/4 = py + 15/4; no solution → find p. Rewrite both in Ax + By = C, scale so x-coefficients match (5x − 14y = −32/7 and 5x − 4py = 8) → −4p = −14 → p = 7/2.",
+      "trap": "Not answered (time). Same idea as PT5 Q15 (mastered!) but hidden behind fractions and y on both sides.",
+      "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel.",
+      "mirror_twin": {
+        "stem": "(5/6)y − (2/3)x = 1/5 − (5/6)y and (4/3)x + 2/9 = py + 7/9. In the given system of equations, p is a constant. If the system has no solution, what is the value of p?",
+        "answer": "10/3", "accepted_forms": ["10/3", "3.333"], "type": "spr",
+        "work": "First: (5/3)y − (2/3)x = 1/5 → 2x − 5y = −3/5. Second: (4/3)x − py = 5/9 → 2x − (3p/2)y = 5/6. Parallel: 3p/2 = 5 → p = 10/3; constants −3/5 ≠ 5/6 → no solution."
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q20",
+      "section": "math", "module": 2, "number": 20, "status": "wrong",
+      "domain": "Advanced Math", "skill": "Rational function built from a linear function (table)",
+      "my_answer": "B (0, 12)", "correct_answer": "A (0, 36)",
+      "paraphrase": "Table of g(x) = f(x)/(x + 3) with f linear: (−27, 3), (−9, 0), (21, 5). f(x) = g(x)(x + 3): f(−27) = −72, f(−9) = 0 → slope 4 → f(x) = 4x + 36 → y-intercept (0, 36). I chose (0, 12), which is the y-intercept of g, not f.",
+      "trap": "Answered for the wrong function (g instead of f). The table gives g; the question asks about f.",
+      "lesson": "Before computing, underline WHICH function the question asks about. Convert the table: f(x) = g(x)·(x + 3) for each row, then find the line.",
+      "mirror_twin": {
+        "stem": "The table shows three values of x and their corresponding values of g(x), where g(x) = f(x)/(x + 4) and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+        "table": [[-10, 1], [-8, 0], [2, 5]],
+        "options": ["(0, 24)", "(0, 6)", "(0, 3)", "(0, −8)"], "correct": "A",
+        "distractor_logic": {"B": "y-intercept of g", "C": "slope of f", "D": "x-intercept of f"}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q21",
+      "section": "math", "module": 2, "number": 21, "status": "omitted",
+      "domain": "Geometry and Trigonometry", "skill": "Tangent segments + Pythagorean theorem",
+      "my_answer": null, "correct_answer": "D (1,768)",
+      "paraphrase": "Circle center G, radius 168; tangents MH and NH from external point H; perimeter of GMHN = 3856. GM = GN = 168, MH = NH = x → 336 + 2x = 3856 → x = 1760. Tangent ⟂ radius → GH = √(1760² + 168²) = 1768.",
+      "trap": "Not answered (time). Two facts needed: two tangents from one point are equal; tangent ⟂ radius at the point of tangency.",
+      "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers.",
+      "mirror_twin": {
+        "stem": "A circle has center O, and points P and R lie on the circle. Segments PT and RT are tangent to the circle at points P and R, respectively. If the radius of the circle is 33 millimeters and the perimeter of quadrilateral OPTR is 178 millimeters, what is the distance, in millimeters, between points O and T?",
+        "options": ["33", "56", "65", "89"], "correct": "C",
+        "distractor_logic": {"A": "radius", "B": "tangent length", "D": "radius + tangent"}
+      }
+    },
+    {
+      "external_id": "pt6-math-m2-q22",
+      "section": "math", "module": 2, "number": 22, "status": "omitted",
+      "domain": "Advanced Math", "skill": "Quadratic from zeros with an integer parameter",
+      "my_answer": null, "correct_answer": "A (−6)",
+      "paraphrase": "f(x) = ax² + bx + c passes through (7, 0) and (−3, 0); a is an integer > 1; which could be a + b? f(x) = a(x − 7)(x + 3) = a(x² − 4x − 21) → b = −4a → a + b = −3a, a ≥ 2 → a multiple of 3 that is ≤ −6 → −6.",
+      "trap": "Not answered (time). Trap option −3 corresponds to a = 1 (not allowed).",
+      "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a.",
+      "mirror_twin": {
+        "stem": "The function f is defined by f(x) = ax^2 + bx + c, where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (5, 0) and (−2, 0). If a is an integer greater than 1, which of the following could be the value of a + b?",
+        "options": ["−3", "−2", "6", "−8"], "correct": "D",
+        "work": "f = a(x − 5)(x + 2) = a(x² − 3x − 10) → b = −3a → a + b = −2a; a ≥ 2 → even and ≤ −4 → only −8 (a = 4).",
+        "distractor_logic": {"A": "odd, impossible", "B": "a = 1, not allowed", "C": "needs a = −3"}
+      }
+    }
+  ]
+}

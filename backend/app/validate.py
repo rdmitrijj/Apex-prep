@@ -38,7 +38,10 @@ REFERENCES = SEED_DIR / "imports" / "reference_examples.json"
 # Blind re-solves of the Triage bank: item id -> the choice TEXT a solver picked without the key.
 BLIND = SEED_DIR / "blind_solve.json"
 # Triage-bank and PT5 weakness-drill ids; the stricter study-field checks apply to these.
-TRIAGE = ("rw-tri-", "pt5-")
+TRIAGE = ("rw-tri-", "pt5-", "pt6-")
+PT6_SOURCE = SEED_DIR / "pt6" / "source" / "pt6_mistakes.json"
+PT6_IMPORT = SEED_DIR / "imports" / "bluebook_pt6.json"
+ORIGINAL_RUN = 8  # a PT6 item may not share this many consecutive words with a paraphrase
 FORM_SIZES = {"rw": 27, "math": 22}
 FORM_FRESH = {"rw": 6, "math": 4}  # mock-only items per form and module
 MAX_SIMILARITY = 0.75
@@ -103,7 +106,7 @@ def numbers(text: str) -> set[Fraction]:
 def derivable(fig: dict[str, Any]) -> set[Fraction]:
     """Figure values, plus every pairwise difference, sum, and ratio (rounded as a choice would cite
     it) and percent change: the numbers a correct quantitative choice may state."""
-    vals = numbers(json.dumps(fig))
+    vals = numbers(json.dumps(fig, ensure_ascii=False))
     out = set(vals)
     for a, b in itertools.permutations(vals, 2):
         out |= {abs(a - b), a + b}
@@ -155,7 +158,7 @@ def check_study_fields(item: RWSeedItem) -> list[str]:
 
 def changed_words(choices: list[str], punctuation: bool) -> int:
     """Most words any choice has outside the prefix and suffix that all choices share."""
-    toks = [c.split() if punctuation else re.sub(r"[^a-z0-9]+", " ", c.lower()).split() for c in choices]
+    toks = [c.split() if punctuation else re.sub(r"[^a-z0-9']+", " ", c.lower()).split() for c in choices]
     pre = len(os.path.commonprefix(toks))
     suf = len(os.path.commonprefix([t[pre:][::-1] for t in toks]))
     return max(len(t) - pre - suf for t in toks)
@@ -167,6 +170,8 @@ def bank_group(eid: str, skill: str) -> str:
         return f"pt5 mock {eid.split('-')[3]}"
     if eid.startswith("pt5-"):
         return "pt5 " + "-".join(eid.split("-")[1:3])
+    if eid.startswith("pt6-replay-"):
+        return "pt6 replay"  # keys fixed by the original test: no balance check
     return skill_of(skill)
 
 
@@ -205,7 +210,7 @@ def check_bank(items: list[RWSeedItem]) -> list[Failure]:
                 out.append(("rw", i.id or "", f"blind re-solve picked {blind[i.id]!r}, key is {key!r}"))
     for skill, group in by_skill.items():
         n, letters = len(group), Counter(i.answer for i in group)
-        if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
+        if skill != "pt6 replay" and any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
             out.append(("rw", skill, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
         # Conventions choices differ by a mark or a word; length is no cue there.
         group = [i for i in group if not i.skill.startswith("RW.SEC.")]
@@ -416,7 +421,9 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
         n, letters = len(keys), Counter(keys)
         if any(not n // 4 <= letters[L] <= -(-n // 4) for L in "ABCD"):
             out.append(("math", g, f"unbalanced key {dict(sorted(letters.items()))} over {n} items"))
-    out += check_pt5({i.id or "": i for i in rw} | {m.id: m for m in math})
+    everything = {i.id or "": i for i in rw} | {m.id: m for m in math}
+    out += check_pt5(everything)
+    out += check_pt6(everything)
     return out, set(ids), per_skill
 
 
@@ -467,6 +474,113 @@ def check_pt5(items: dict[str, RWSeedItem | MathItem]) -> list[Failure]:
     out += [("pt5", e, f"used in {n} forms") for e, n in used.items() if n > 1]
     mock = [e for e in items if e.startswith("pt5-mock-")]
     out += [("pt5", e, "mock-only item in no form") for e in mock if e not in used]
+    return out
+
+
+def shingles(text: str, n: int = ORIGINAL_RUN) -> set[tuple[str, ...]]:
+    w = norm(text).split()
+    return {tuple(w[i : i + n]) for i in range(len(w) - n + 1)}
+
+
+def item_text(item: RWSeedItem | MathItem) -> str:
+    parts = [getattr(item, "passage", "") or "", getattr(item, "passage2", "") or ""]
+    return " ".join([*parts, *(getattr(item, "notes", None) or []), item.stem, *(item.choices or [])])
+
+
+def check_boxplot(item: MathItem, key: Any) -> list[str]:
+    """Five-number summaries in order; a 'ranges' question's key recomputed from the plotted data."""
+    fig = item.figure or {}
+    if fig.get("kind") != "boxplot":
+        return []
+    plots = fig.get("plots") or []
+    order = ("min", "q1", "median", "q3", "max")
+    errs = [
+        f"box plot {p.get('name')} is not min <= q1 <= median <= q3 <= max"
+        for p in plots
+        if [p[k] for k in order] != sorted(p[k] for k in order)
+    ]
+    if "ranges" in item.stem and len(plots) == 2 and not errs:
+        a, b = (p["max"] - p["min"] for p in plots)
+        if not same(key, abs(a - b)):
+            errs.append(f"key {key} isn't the difference of the plotted ranges ({abs(a - b)})")
+    return errs
+
+
+def mirror_letter(row: dict[str, Any], field: str) -> str | None:
+    """'D' or 'B (320)' -> the letter; SPR answers and blanks -> None."""
+    v = row.get(field)
+    m = re.match(r"^([ABCD])(?: \(|$)", v or "")
+    return m[1] if m else None
+
+
+def check_pt6(items: dict[str, RWSeedItem | MathItem]) -> list[Failure]:
+    """PT6 Replay mirrors its record (skill, key letter, trap letter, label, trap, lesson); no PT6 item
+    echoes a paraphrase of an official question; box plots are consistent."""
+    if not PT6_SOURCE.exists():
+        return []
+    out: list[Failure] = []
+    src = json.loads(PT6_SOURCE.read_text())["mistakes"]
+    skills = {
+        r["external_id"].removeprefix("bb-"): r["skill"]
+        for r in json.loads(PT6_IMPORT.read_text())["mistakes"]
+    }
+    for r in src:
+        rid = r["external_id"]
+        tid = "pt6-replay-" + rid.removeprefix("pt6-")
+        t = items.get(tid)
+        if t is None:
+            out.append(("pt6", tid, "missing replay twin"))
+            continue
+        errs = []
+        if t.modeled_on != "bb-" + rid:
+            errs.append(f"modeled_on is {t.modeled_on}, needs bb-{rid}")
+        if t.skill != skills.get(rid):
+            errs.append(f"skill {t.skill}, the record's is {skills.get(rid)}")
+        rp = t.replay
+        if rp is None:
+            out += [("pt6", tid, e) for e in [*errs, "no replay block"]]
+            continue
+        sec = "R&W" if r["section"] == "rw" else "Math"
+        if rp.label != f"PT6 · {sec} M{r['module']} · Q{r['number']}":
+            errs.append(f"label {rp.label!r} doesn't match the record")
+        if (rp.trap, rp.lesson) != (r["trap"], r["lesson"]):
+            errs.append("trap/lesson differ from the record")
+        mirror = r.get("mirror_twin") or {}
+        key = mirror.get("correct") or mirror_letter(r, "correct_answer")
+        answer = getattr(t, "answer", None)
+        if key and answer != key:
+            errs.append(f"key {answer}, the record's letter is {key}")
+        if not key and getattr(t, "format", "mc") != "spr":
+            errs.append("the record is grid-in, the twin isn't")
+        if (
+            mirror.get("answer")
+            and t.spr_answers
+            and Fraction(t.spr_answers[0]) != Fraction(mirror["answer"])
+        ):  # type: ignore[union-attr]
+            errs.append(f"SPR key {t.spr_answers[0]} differs from the mirror twin's {mirror['answer']}")  # type: ignore[union-attr]
+        if r["status"] != "wrong":
+            if rp.trap_answer is not None:
+                errs.append("blank/guessed records have no trap answer")
+        elif (trap := mirror_letter(r, "my_answer")) is not None:
+            if rp.trap_answer != trap:
+                errs.append(f"trap answer {rp.trap_answer}, but the PT6 pick was {trap}")
+        elif not (isinstance(t, MathItem) and rp.trap_answer in (t.spr_traps or {})):
+            errs.append("SPR trap answer must be one of spr_traps")
+        out += [("pt6", tid, e) for e in errs]
+    para = {s for r in src for s in shingles(r["paraphrase"])}
+    for eid, item in items.items():
+        if not eid.startswith("pt6-"):
+            continue
+        echo = shingles(item_text(item)) & para
+        if echo:
+            out.append(
+                ("pt6", eid, f"repeats {ORIGINAL_RUN}+ words of a paraphrase: {' '.join(sorted(echo)[0])!r}")
+            )
+        if isinstance(item, MathItem):
+            try:
+                out += [("pt6", eid, e) for e in check_boxplot(item, _val(item.check))]
+            except Exception as e:  # noqa: BLE001
+                out.append(("pt6", eid, f"check doesn't evaluate: {e}"))
     return out
 
 
@@ -572,10 +686,18 @@ def main() -> None:
     failures, ids, per_skill = check_seed_files(leaves)
     counts = {
         "rw": sum(
-            1 for i in ids if i.startswith(("rw-", "pt5-rw-")) or i.startswith("pt5-mock-") and "-rw-" in i
+            1
+            for i in ids
+            if i.startswith(("rw-", "pt5-rw-")) or i.startswith(("pt5-mock-", "pt6-")) and "-rw-" in i
         ),
         "math": sum(
-            1 for i in ids if i.startswith(("m-", "pt5-m-")) or i.startswith("pt5-mock-") and "-m-" in i
+            1
+            for i in ids
+            if i.startswith(("m-", "pt5-m-"))
+            or i.startswith("pt5-mock-")
+            and "-m-" in i
+            or i.startswith("pt6-")
+            and "-math-" in i
         ),
     }
     f, counts["import"] = check_imports(ids, leaves)

@@ -124,6 +124,16 @@ class Vocab(BaseModel):
     example: str = Field(min_length=10)
 
 
+class Replay(BaseModel):
+    """A twin of one official-test mistake, replayed in the original order (seed/pt6)."""
+
+    model_config = ConfigDict(extra="forbid")
+    label: str = Field(min_length=3, max_length=40)  # "PT6 · R&W M2 · Q12"
+    trap_answer: str | None = None  # the choice (or SPR value) that repeats the original mistake
+    trap: str = Field(min_length=10)
+    lesson: str = Field(min_length=10)
+
+
 # How a quantitative-evidence choice relates to the figure and the claim (app.validate checks it).
 QuantRole = Literal["supports", "true_but_irrelevant", "false", "misread"]
 
@@ -139,6 +149,7 @@ class RWSeedItem(RWItem):
     vocab: list[Vocab] | None = None
     fictional: bool | None = None  # true: people, studies, and works in the passage are invented
     quant: dict[Letter, QuantRole] | None = None
+    replay: Replay | None = None
 
 
 class MathItem(BaseModel):
@@ -163,7 +174,9 @@ class MathItem(BaseModel):
     accepts: str | None = None
     spr_answers: list[str] | None = None  # exact keys, e.g. "59/9"
     spr_entries: list[str] | None = None  # sample entries that must be graded correct ("6.555", ".9333")
+    spr_traps: dict[str, str] | None = None  # SPR: wrong value -> the mistake that gives it
     explanation: list[str] = Field(min_length=1)
+    replay: Replay | None = None
 
     @model_validator(mode="after")
     def _shape(self) -> "MathItem":
@@ -189,6 +202,7 @@ class QuestionOut(BaseModel):
     passage2: str | None = None
     notes: list[str] | None = None
     figure: dict[str, Any] | None = None
+    label: str | None = None  # replay twins: where the original sat in the official test
 
 
 class AnswerIn(BaseModel):
@@ -205,6 +219,8 @@ class Feedback(BaseModel):
     explanation: list[str]
     rationales: dict[str, str]
     trap: str | None = None  # wrong answers: the named trap of the choice picked
+    same_trap: str | None = None  # replay twins: the answer repeats the original test mistake
+    lesson: str | None = None  # replay twins: the lesson from the original mistake
     miss_reason: str | None = None  # pre-filled "why did you miss it?" tag (drill sets)
     vocab: list[dict[str, Any]] = Field(default_factory=list)  # words-in-context entries, for the Anki export
 

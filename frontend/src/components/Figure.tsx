@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { FigureSpec } from "../api/drill";
 import { MathText } from "./MathText";
 
@@ -72,7 +73,24 @@ function Svg({ label, children }: { label: string; children: React.ReactNode }) 
   );
 }
 
+// Optional figures (the original question had none) wait behind a button; "not drawn to scale" notes show below.
 export function Figure({ spec }: { spec: FigureSpec }) {
+  const [shown, setShown] = useState(false);
+  if ("hidden" in spec && spec.hidden && !shown)
+    return (
+      <button type="button" onClick={() => setShown(true)} className="my-2 rounded-md border border-slate-300 px-3 py-1 text-sm hover:border-brand-500">
+        Show figure
+      </button>
+    );
+  return (
+    <>
+      <FigureBody spec={spec} />
+      {"note" in spec && spec.note && <p className="-mt-2 mb-3 text-center text-xs italic text-slate-600">{spec.note}</p>}
+    </>
+  );
+}
+
+function FigureBody({ spec }: { spec: FigureSpec }) {
   const title = "title" in spec && spec.title ? <p className="mb-1 text-center text-sm font-medium">{spec.title}</p> : null;
   switch (spec.kind) {
     case "table":
@@ -165,7 +183,44 @@ export function Figure({ spec }: { spec: FigureSpec }) {
     }
     case "shape":
       return <Shape spec={spec} />;
+    case "boxplot":
+      return <BoxPlots spec={spec} title={title} />;
   }
+}
+
+function BoxPlots({ spec, title }: { spec: Extract<FigureSpec, { kind: "boxplot" }>; title: React.ReactNode }) {
+  const row = 70;
+  const h = M.t + row * spec.plots.length + M.b;
+  const X = (v: number) => lerp(v, spec.axis, [M.l + 40, W - M.r]);
+  const label = spec.plots.map((p) => `${p.name}: minimum ${p.min}, first quartile ${p.q1}, median ${p.median}, third quartile ${p.q3}, maximum ${p.max}`).join("; ");
+  return (
+    <figure className="my-3">
+      {title}
+      <svg viewBox={`0 0 ${W} ${h}`} role="img" aria-label={`Box plots. ${label}`} className="mx-auto w-full max-w-[440px]">
+        {spec.plots.map((p, i) => {
+          const y = M.t + row * i + row / 2;
+          return (
+            <g key={p.name}>
+              <text x={M.l + 32} y={y + 4} textAnchor="end" className="fill-slate-800 text-xs">{p.name}</text>
+              <line x1={X(p.min)} x2={X(p.q1)} y1={y} y2={y} className="stroke-slate-800" />
+              <line x1={X(p.q3)} x2={X(p.max)} y1={y} y2={y} className="stroke-slate-800" />
+              {[p.min, p.max].map((v, j) => <line key={j} x1={X(v)} x2={X(v)} y1={y - 8} y2={y + 8} className="stroke-slate-800" />)}
+              <rect x={X(p.q1)} y={y - 16} width={X(p.q3) - X(p.q1)} height={32} className="fill-white stroke-slate-800" />
+              <line x1={X(p.median)} x2={X(p.median)} y1={y - 16} y2={y + 16} className="stroke-slate-800" strokeWidth={2} />
+            </g>
+          );
+        })}
+        <line x1={X(spec.axis[0])} x2={X(spec.axis[1])} y1={h - M.b + 4} y2={h - M.b + 4} className="stroke-slate-700" />
+        {Array.from({ length: spec.axis[1] - spec.axis[0] + 1 }, (_, k) => spec.axis[0] + k).map((v) => (
+          <g key={v} className="text-[11px]">
+            <line x1={X(v)} x2={X(v)} y1={h - M.b} y2={h - M.b + 8} className="stroke-slate-700" />
+            <text x={X(v)} y={h - M.b + 20} textAnchor="middle" className="fill-slate-600">{v}</text>
+          </g>
+        ))}
+        {spec.xlabel && <text x={(M.l + 40 + W - M.r) / 2} y={h - 6} textAnchor="middle" className="fill-slate-800 text-xs">{spec.xlabel}</text>}
+      </svg>
+    </figure>
+  );
 }
 
 function Shape({ spec }: { spec: Extract<FigureSpec, { kind: "shape" }> }) {

@@ -1,0 +1,1330 @@
+[
+ {
+  "id": "pt6-replay-rw-m1-q01",
+  "modeled_on": "bb-pt6-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "basket weaver drawing on her surroundings",
+  "fictional": true,
+  "passage": "Basket weaver Tove Lindqvist rarely invents a pattern from nothing. The zigzag rims of her largest baskets echo the wooden fences of the farm where she grew up, and the blue-gray reeds she prefers match the lake outside her studio window. Even her smallest pieces, she says, are ______ things she has seen and handled herself.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "complimented by",
+   "uncertain about",
+   "indifferent to",
+   "inspired by"
+  ],
+  "answer": "D",
+  "vocab": [
+   {
+    "word": "complimented by",
+    "pos": "phrase",
+    "meaning_en": "praised by someone",
+    "meaning_ru": "получивший похвалу от",
+    "example": "The chef was complimented by every guest at the table."
+   },
+   {
+    "word": "uncertain about",
+    "pos": "phrase",
+    "meaning_en": "not sure about something",
+    "meaning_ru": "не уверенный в",
+    "example": "She was uncertain about the date of the meeting."
+   },
+   {
+    "word": "indifferent to",
+    "pos": "phrase",
+    "meaning_en": "not interested in; not caring about",
+    "meaning_ru": "равнодушный к",
+    "example": "The cat seemed indifferent to the new toy."
+   },
+   {
+    "word": "inspired by",
+    "pos": "phrase",
+    "meaning_en": "getting the idea for something from a source",
+    "meaning_ru": "вдохновлённый (чем-то)",
+    "example": "The song was inspired by a trip to the mountains."
+   }
+  ],
+  "explanation": "Her rims come from the farm fences and her colors from the lake, so her pieces are inspired by things she has seen.",
+  "steps": [
+   "Find the clue: the rims echo the farm fences; the reeds match the lake.",
+   "Predict a phrase: her pieces 'come from' or 'are based on' what she has seen.",
+   "'Inspired by' means exactly that.",
+   "'Complimented by' only looks similar: it means 'praised by'."
+  ],
+  "strategy_tip": "Cover the choices, predict a simple phrase from the clue, then find its match.",
+  "rationales": {
+   "A": "Look-alike word: 'Complimented by' means praised by. Fences and reeds cannot praise her baskets.",
+   "B": "Not supported: Nothing in the text shows doubt. She builds her work from these things.",
+   "C": "Opposite of the clue: She uses what she has seen in every piece, so she is not indifferent to it.",
+   "D": "Correct. Her rims come from the farm fences and her colors from the lake, so her pieces are inspired by things she has seen."
+  },
+  "traps": {
+   "A": "look-alike word",
+   "B": "not supported",
+   "C": "opposite of the clue"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q1",
+   "trap_answer": null,
+   "trap": "Look-alike distractor 'complimented by' (compliment vs complement).",
+   "lesson": "Find the clue sentence ('drawing from memories…') and predict your own word before reading the options."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q02",
+  "modeled_on": "bb-pt6-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "many ways of cooking a national fish stew",
+  "fictional": true,
+  "passage": "A survey of 140 home kitchens across the island nation of Peralta found that families prepare the national dish, a fish stew called tamba, in strikingly different ways. Some cooks add coconut milk, others use only tomatoes, and many coastal families grill the fish before it goes into the pot. These findings challenge the common assumption that Peraltan home cooking is ______.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "uncontroversial",
+   "individualistic",
+   "theoretical",
+   "homogeneous"
+  ],
+  "answer": "D",
+  "vocab": [
+   {
+    "word": "uncontroversial",
+    "pos": "adjective",
+    "meaning_en": "not causing any disagreement",
+    "meaning_ru": "бесспорный, не вызывающий споров",
+    "example": "The new library hours were uncontroversial; everyone agreed."
+   },
+   {
+    "word": "individualistic",
+    "pos": "adjective",
+    "meaning_en": "doing things in one's own personal way",
+    "meaning_ru": "индивидуалистичный",
+    "example": "Her individualistic style made her paintings easy to recognize."
+   },
+   {
+    "word": "theoretical",
+    "pos": "adjective",
+    "meaning_en": "based on ideas rather than practice",
+    "meaning_ru": "теоретический",
+    "example": "The plan is still theoretical; no one has tested it."
+   },
+   {
+    "word": "homogeneous",
+    "pos": "adjective",
+    "meaning_en": "made of parts that are all the same kind",
+    "meaning_ru": "однородный",
+    "example": "The class was homogeneous: every student was the same age."
+   }
+  ],
+  "explanation": "The survey shows many different ways to make the stew, so it challenges the idea that the cooking is homogeneous (all the same).",
+  "steps": [
+   "The evidence: many different ways to cook the same dish (variety).",
+   "A finding 'challenges' an assumption that says the opposite of the evidence.",
+   "Opposite of variety: 'all the same' = homogeneous.",
+   "'Uncontroversial' sounds academic but has nothing to do with variety."
+  ],
+  "strategy_tip": "'Challenges the assumption that X is ___' + evidence: put the OPPOSITE of the evidence in the blank.",
+  "rationales": {
+   "A": "Unrelated quality: 'Uncontroversial' means that nobody argues about it. The survey shows variety, not arguments.",
+   "B": "Agrees with the evidence: 'Individualistic' (each family its own way) describes what the survey FOUND, so the survey cannot challenge it.",
+   "C": "Wrong meaning: 'Theoretical' means based on ideas, not practice. The survey is about real kitchens, not theory.",
+   "D": "Correct. The survey shows many different ways to make the stew, so it challenges the idea that the cooking is homogeneous (all the same)."
+  },
+  "traps": {
+   "A": "unrelated quality",
+   "B": "agrees with the evidence",
+   "C": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q2",
+   "trap_answer": "A",
+   "trap": "The misconception must be the OPPOSITE of the evidence. Evidence = variety, so the misconception = 'all the same'. 'Uncontroversial' has nothing to do with variety.",
+   "lesson": "'Disproving the misconception that X is ___' + evidence of variety → the blank means 'uniform / homogeneous'. Predict the antonym of the evidence."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q03",
+  "modeled_on": "bb-pt6-rw-m1-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "a gas cloud moving faster than the model predicts",
+  "fictional": true,
+  "passage": "In 2024, astronomer Ines Valdor measured how fast a distant cloud of gas is moving away from Earth. Colleagues paid attention to her result not only because it disagreed with the standard model of the region but also because of the ______ of that disagreement: the cloud is moving almost twice as fast as the model predicts.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "cause",
+   "existence",
+   "implication",
+   "magnitude"
+  ],
+  "answer": "D",
+  "vocab": [
+   {
+    "word": "cause",
+    "pos": "noun",
+    "meaning_en": "the reason something happens",
+    "meaning_ru": "причина",
+    "example": "Heavy rain was the cause of the flood."
+   },
+   {
+    "word": "existence",
+    "pos": "noun",
+    "meaning_en": "the fact of being real or present",
+    "meaning_ru": "существование",
+    "example": "Few people knew about the existence of the old tunnel."
+   },
+   {
+    "word": "implication",
+    "pos": "noun",
+    "meaning_en": "a possible result or meaning of something",
+    "meaning_ru": "следствие, скрытый смысл",
+    "example": "The study has implications for how schools teach reading."
+   },
+   {
+    "word": "magnitude",
+    "pos": "noun",
+    "meaning_en": "great size or importance",
+    "meaning_ru": "величина, масштаб",
+    "example": "Nobody expected the magnitude of the storm."
+   }
+  ],
+  "explanation": "'Almost twice as fast' describes how big the disagreement is, so 'magnitude' (size) fits.",
+  "steps": [
+   "Read the colon: the part after it explains the blank.",
+   "After the colon: almost twice as fast as predicted. That is a SIZE.",
+   "Size of a difference = magnitude (or scale)."
+  ],
+  "strategy_tip": "'Not only X but also the ___ of X:' always look after the colon for the meaning of the blank.",
+  "rationales": {
+   "A": "Not supported: The text after the colon gives the size of the gap (twice as fast). It never explains why the gap exists.",
+   "B": "Repeats the first part: That a disagreement exists is the 'not only' part. The 'but also' part must add something new.",
+   "C": "Not supported: The text does not say what the disagreement means for anything else.",
+   "D": "Correct. 'Almost twice as fast' describes how big the disagreement is, so 'magnitude' (size) fits."
+  },
+  "traps": {
+   "A": "not supported",
+   "B": "repeats the first part",
+   "C": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q3",
+   "trap_answer": null,
+   "trap": "'not only … but (also) the ___ of that difference' — the second part must add the SIZE, given by the colon explanation.",
+   "lesson": "The part after the colon defines the blank. 'Seven standard deviations higher' = size → scale/magnitude."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q04",
+  "modeled_on": "bb-pt6-rw-m1-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "radio tags for tracking deer in pine forests",
+  "fictional": true,
+  "passage": "Engineers who design radio tags for tracking deer in the thick pine forests of northern Valmora chose a low-frequency signal, even though high-frequency tags are smaller and cheaper. The reason is that dense, wet branches tend to ______ the range of high-frequency signals, so a high-frequency tag deep in the forest may never reach a receiver at all.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "exceed",
+   "diminish",
+   "encompass",
+   "conceal"
+  ],
+  "answer": "B",
+  "vocab": [
+   {
+    "word": "exceed",
+    "pos": "verb",
+    "meaning_en": "to be more than or go beyond",
+    "meaning_ru": "превышать",
+    "example": "The cost of the trip exceeded our budget."
+   },
+   {
+    "word": "diminish",
+    "pos": "verb",
+    "meaning_en": "to make or become smaller",
+    "meaning_ru": "уменьшать(ся)",
+    "example": "The noise diminished as the train moved away."
+   },
+   {
+    "word": "encompass",
+    "pos": "verb",
+    "meaning_en": "to include or surround completely",
+    "meaning_ru": "охватывать, включать",
+    "example": "The park encompasses two lakes and a forest."
+   },
+   {
+    "word": "conceal",
+    "pos": "verb",
+    "meaning_en": "to hide something",
+    "meaning_ru": "скрывать",
+    "example": "He concealed the gift behind his back."
+   }
+  ],
+  "explanation": "The tag 'may never reach a receiver', so the branches make the range smaller: they diminish it.",
+  "steps": [
+   "Find the result: the engineers chose LOW frequency, and a high-frequency tag 'may never reach a receiver'.",
+   "Ask the direction: do the branches increase or decrease the range? Decrease.",
+   "Decrease = diminish.",
+   "'Exceed' goes the wrong way, and 'exceed the range' makes no sense here."
+  ],
+  "strategy_tip": "In 'X tends to ___ Y, so...', test increase vs decrease against the result after 'so'.",
+  "rationales": {
+   "A": "Wrong direction: 'Exceed' means go beyond. If branches helped high-frequency signals, the engineers would use them. They avoid them, so the branches must REDUCE the range.",
+   "B": "Correct. The tag 'may never reach a receiver', so the branches make the range smaller: they diminish it.",
+   "C": "Wrong meaning: 'Encompass' means include or surround. It says nothing about the range getting smaller.",
+   "D": "Wrong meaning: 'Conceal' means hide. You can hide a tag, but you cannot hide a range."
+  },
+  "traps": {
+   "A": "wrong direction",
+   "C": "wrong meaning",
+   "D": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q4",
+   "trap_answer": "A",
+   "trap": "Cause→effect logic: if vegetation helped high sounds, birds would use them. They avoid high sounds, so vegetation must REDUCE their distance. 'Exceed' also doesn't fit grammatically with 'the distance' (nothing can exceed a distance here).",
+   "lesson": "In 'since X tends to ___ Y' check the direction: does the result make sense if the word means increase or decrease?"
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q05",
+  "modeled_on": "bb-pt6-rw-m1-q05",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "a girl cooking every recipe in a cookbook",
+  "fictional": true,
+  "passage": "The following text is adapted from Maren Oduya's 1987 novel The Long Shelf. Twelve-year-old Pia has decided to cook every recipe in her grandmother's cookbook, in order, one each evening.\nOn the ninth evening she reached a section of boiled cabbage dishes, eleven of them, each duller than the last. Her brother begged her to skip ahead to the cakes. Pia only sharpened her pencil, made a small tick beside \"Cabbage, Plain,\" and filled the pot with water.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To show that Pia has come to enjoy cabbage dishes more than any of the other recipes in the book",
+   "To suggest that Pia would rather cook than spend her evenings with her brother",
+   "To portray Pia's determination to complete a goal she has set for herself",
+   "To describe Pia's admiration for her grandmother's old cookbook"
+  ],
+  "answer": "C",
+  "explanation": "She cooks every recipe in order and keeps going even through eleven dull dishes. Every sentence shows her determination.",
+  "steps": [
+   "Read every sentence: a plan (every recipe, in order), a boring part, a chance to skip, and she refuses.",
+   "What do all of them show? She will not give up her goal.",
+   "So the purpose is her determination.",
+   "Reject choices built on one detail: the cabbage or the book."
+  ],
+  "strategy_tip": "Main purpose = what EVERY sentence serves. Cross out choices that fit only one sentence.",
+  "rationales": {
+   "A": "One detail only: The cabbage dishes are called dull. She cooks them because of her plan, not because she likes them.",
+   "B": "Not supported: Her brother asks her to skip ahead, but nothing shows she prefers cooking to his company.",
+   "C": "Correct. She cooks every recipe in order and keeps going even through eleven dull dishes. Every sentence shows her determination.",
+   "D": "One detail only: The cookbook is the setting, but the text never shows her feelings about the book itself."
+  },
+  "traps": {
+   "A": "one detail only",
+   "B": "not supported",
+   "D": "one detail only"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q5",
+   "trap_answer": null,
+   "trap": "Distractors focus on one detail (an unusual topic, a single book) instead of the whole passage.",
+   "lesson": "Main purpose = what EVERY sentence serves. Repeated detail (a plan, keeps going even when hard) = determination."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q07",
+  "modeled_on": "bb-pt6-rw-m1-q07",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "a chess player whose ease comes from preparation",
+  "fictional": true,
+  "passage": "Watching chess player Arvo Teller at a tournament, spectators often assume he is improvising: he moves quickly, chats with officials between games, and seems to enjoy himself. That ease, however, is built on months of work. Before each event, Teller replays hundreds of games by his likely opponents, and he studies even the openings he has used for decades as though he were seeing them for the first time.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To describe how Teller selects which opponents' games he will study before a tournament",
+   "To argue that Teller's relaxed manner during play is the result of careful preparation",
+   "To identify the kinds of tournament situations in which Teller feels most comfortable",
+   "To explain the unique method Teller uses when he plays an opening that he has never tried before"
+  ],
+  "answer": "B",
+  "explanation": "The text turns on 'however': his ease looks like improvising but is built on months of work.",
+  "steps": [
+   "Find the turn: 'That ease, however, is built on months of work.'",
+   "Before the turn: how he looks (easy, improvising). After: the reality (preparation).",
+   "Purpose: to show that the ease comes FROM the preparation.",
+   "Cross out words the text never says: 'unique', 'never tried before'."
+  ],
+  "strategy_tip": "The main purpose usually sits on the 'however' turn: appearance vs reality.",
+  "rationales": {
+   "A": "Detail, not purpose: The text says he replays opponents' games, but it never explains how he chooses them.",
+   "B": "Correct. The text turns on 'however': his ease looks like improvising but is built on months of work.",
+   "C": "Not supported: The text does not compare different tournament situations.",
+   "D": "Overstated: The text never calls his method unique, and he studies ALL openings, even old ones, as if they were new."
+  },
+  "traps": {
+   "A": "detail, not purpose",
+   "C": "not supported",
+   "D": "overstated (unique)"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q7",
+   "trap_answer": "D",
+   "trap": "D adds 'unique' (not stated) and 'music she hasn't performed before' (the text says she treats ALL music as new). It covers only the last sentence, not the 'however' turn.",
+   "lesson": "Main purpose usually sits on the 'however' turn: appearance (effortless) vs reality (preparation). Reject options with words the text never supports (unique, first, only, most)."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q08",
+  "modeled_on": "bb-pt6-rw-m1-q08",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "medium",
+  "topic": "sharp stones in an island cave",
+  "fictional": true,
+  "passage": "Text 1\nIn a cave on the island of Saria, archaeologist Leni Dorsch found dozens of flat stones with sharp edges in a layer of soil about 60,000 years old. Dorsch argues that the stones are cutting tools, which would mean that people reached Saria some 40,000 years earlier than is currently believed.",
+  "passage2": "Text 2\nGeologist Omar Fennick is not convinced. The walls of the Saria cave are a brittle slate that splits naturally into sharp-edged flakes, he notes, and the 60,000-year-old layer holds no hearths, no bones with cut marks, and no other traces of people. Until such traces appear, calling the stones tools is premature.",
+  "stem": "Based on the texts, how would Fennick (Text 2) most likely respond to Dorsch's conclusion (Text 1)?",
+  "choices": [
+   "By saying that her conclusion is plausible but should be confirmed by dating the stones again",
+   "By arguing that her conclusion depends on an idea about the stones that has not been established",
+   "By predicting that further digging in the cave will eventually show that her conclusion is correct",
+   "By claiming that she ignored evidence that a different group of people once lived in the cave"
+  ],
+  "answer": "B",
+  "explanation": "Dorsch's conclusion needs the stones to be tools. Fennick says they may be natural flakes, so that idea is not established.",
+  "steps": [
+   "Text 1's chain: stones are tools → people came 40,000 years earlier.",
+   "Find exactly what Text 2 doubts: the first link (the stones may be natural flakes).",
+   "So Text 2 says the conclusion rests on an unproven idea.",
+   "Match the attitude: Fennick is skeptical, so 'plausible' is too positive."
+  ],
+  "strategy_tip": "Cross-text: find the exact link in Text 1 that Text 2 attacks, and match the strength of the attitude.",
+  "rationales": {
+   "A": "Too friendly: Fennick never calls the conclusion plausible, and he doubts that the stones are tools at all, not their age.",
+   "B": "Correct. Dorsch's conclusion needs the stones to be tools. Fennick says they may be natural flakes, so that idea is not established.",
+   "C": "Overstated: Fennick says nothing about what future digging will prove.",
+   "D": "Not supported: Text 2 mentions no other group of people."
+  },
+  "traps": {
+   "A": "too friendly",
+   "C": "overstated",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q8",
+   "trap_answer": "A",
+   "trap": "A is too friendly: Text 2 does not call the claim plausible. Text 2 attacks the PREMISE (stones = tools), not the conclusion.",
+   "lesson": "Cross-text: find exactly what Text 2 doubts. If it questions the evidence itself → 'rests on an assumption that isn't supported'. Match the strength of the attitude (skeptical ≠ 'plausible')."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q11",
+  "modeled_on": "bb-pt6-rw-m1-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "topic": "a governess and her attic bedroom",
+  "fictional": true,
+  "passage": "\"The Lantern Room\" is an 1884 short story by Harriet Ashby. In the story, the narrator, a young governess, describes the attic bedroom she has been given in a large country house. Over the course of the story, the narrator develops mixed feelings about the room.",
+  "stem": "Which quotation from \"The Lantern Room\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The curtains are a sickly mustard color, and the stale smell of their dust follows me even into my dreams.\"",
+   "\"The room is at the very top of the house, up three flights of narrow stairs and under a sloping roof.\"",
+   "\"Day by day I grow fonder of this little room, all but its dreadful curtains, which I would gladly burn.\"",
+   "\"The window rattles in every wind, and the fire smokes so badly that I must sit in my coat.\""
+  ],
+  "answer": "C",
+  "explanation": "'Grow fonder of this little room' is positive; 'all but its dreadful curtains' is negative. Both in one quotation.",
+  "steps": [
+   "Claim: MIXED feelings = positive + negative.",
+   "Check each quotation for both parts.",
+   "Only one has a positive part ('grow fonder') joined to a negative part ('all but ... dreadful curtains')."
+  ],
+  "strategy_tip": "'Mixed', 'ambivalent', 'both': the quotation must contain two opposite attitudes, often joined by 'but', 'all but', or 'yet'.",
+  "rationales": {
+   "A": "One-sided: Only negative feelings (about the curtains). Mixed feelings need a positive part too.",
+   "B": "No feeling: It only describes where the room is.",
+   "C": "Correct. 'Grow fonder of this little room' is positive; 'all but its dreadful curtains' is negative. Both in one quotation.",
+   "D": "One-sided: Only complaints (window and fire), no positive feeling."
+  },
+  "traps": {
+   "A": "one-sided (negative only)",
+   "B": "no feeling",
+   "D": "one-sided (negative only)"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q11",
+   "trap_answer": "A",
+   "trap": "Same trap as PT5: a one-sided quotation can't show MIXED feelings. You need both a positive and a negative element in ONE quotation.",
+   "lesson": "Claim says 'mixed / ambivalent / both'? → the quote must contain two opposite attitudes, usually joined by 'but / all but / yet / although'."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m1-q14",
+  "modeled_on": "bb-pt6-rw-m1-q14",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "an unusual fiddle tuning shared by an island and its homeland",
+  "fictional": true,
+  "passage": "Fiddlers on remote Corra Island tune their instruments in an unusual way, lowering the two highest strings. Fiddlers in Velmark, a coastal region far to the east, use the same tuning, and historical records show that most of Corra's first settlers came from Velmark in the 1700s. These facts suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "Corra's fiddlers most likely inherited their unusual way of tuning from musicians in Velmark.",
+   "the unusual tuning will probably spread from Corra to other islands in the region.",
+   "Velmark's fiddlers learned the unusual tuning from musicians who lived on Corra.",
+   "the settlers who came to Corra soon stopped using the tuning they had known in Velmark."
+  ],
+  "answer": "A",
+  "explanation": "Same unusual tuning + most settlers came from Velmark → the smallest step is that Corra got the tuning from Velmark.",
+  "steps": [
+   "Fact 1: Corra and Velmark share an unusual tuning.",
+   "Fact 2: most of Corra's settlers came from Velmark.",
+   "Smallest step that joins both facts: the settlers brought the tuning from Velmark.",
+   "Reject future predictions and reversed directions."
+  ],
+  "strategy_tip": "Inference = the smallest step that connects ALL the facts. Never pick a prediction about the future when the text is about origins.",
+  "rationales": {
+   "A": "Correct. Same unusual tuning + most settlers came from Velmark → the smallest step is that Corra got the tuning from Velmark.",
+   "B": "Beyond the text: The text is about where the tuning came from in the past, not where it will go in the future.",
+   "C": "Reversed: The settlers moved from Velmark to Corra, so the tuning most likely moved in that direction too.",
+   "D": "Contradicts the text: Corra's fiddlers still use the tuning today."
+  },
+  "traps": {
+   "B": "beyond the text (future)",
+   "C": "reversed direction",
+   "D": "contradicts the text"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q14",
+   "trap_answer": "B",
+   "trap": "B predicts the future — the text is only about the past origin. Classic 'beyond the text' distractor.",
+   "lesson": "Inference = the smallest step that connects ALL the facts given (similarity + settlement history → origin). Reject future predictions and reversed causation."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q02",
+  "modeled_on": "bb-pt6-rw-m2-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "an architect who rejected factory-made materials",
+  "fictional": true,
+  "passage": "Architect Signe Varholm (1871–1939) distrusted the factory-made bricks and window frames that were becoming common in her lifetime, believing that mass production robbed buildings of their character. Historians argue that this distrust is ______ her surviving houses, whose doors, beams, and staircases were all carved by hand by local woodworkers.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "insensible to",
+   "manifest in",
+   "scrutinized by",
+   "complicated by"
+  ],
+  "answer": "B",
+  "vocab": [
+   {
+    "word": "insensible to",
+    "pos": "phrase",
+    "meaning_en": "not aware of or not affected by",
+    "meaning_ru": "не замечающий, нечувствительный к",
+    "example": "He seemed insensible to the cold wind."
+   },
+   {
+    "word": "manifest in",
+    "pos": "phrase",
+    "meaning_en": "clearly shown or visible in",
+    "meaning_ru": "проявляющийся в",
+    "example": "Her love of nature is manifest in all her paintings."
+   },
+   {
+    "word": "scrutinized by",
+    "pos": "phrase",
+    "meaning_en": "examined very closely by",
+    "meaning_ru": "тщательно изученный (кем-то)",
+    "example": "The report was scrutinized by three experts."
+   },
+   {
+    "word": "complicated by",
+    "pos": "phrase",
+    "meaning_en": "made more difficult or confusing by",
+    "meaning_ru": "осложнённый (чем-то)",
+    "example": "The rescue was complicated by heavy fog."
+   }
+  ],
+  "explanation": "The hand-carved doors and beams show her distrust of factory-made parts. Her distrust is manifest in (visible in) the houses.",
+  "steps": [
+   "Her belief: factory parts are bad. Her houses: everything carved by hand.",
+   "Relationship: the houses SHOW the belief.",
+   "Rewrite each choice: 'Her distrust is shown in the houses' ✓. 'Her distrust is examined by the houses' ✗."
+  ],
+  "strategy_tip": "Test each phrase by rewriting the sentence in plain words. Only one rewrite makes sense.",
+  "rationales": {
+   "A": "Wrong meaning: 'Insensible to' means not aware of. A belief cannot be unaware of houses.",
+   "B": "Correct. The hand-carved doors and beams show her distrust of factory-made parts. Her distrust is manifest in (visible in) the houses.",
+   "C": "Wrong relationship: 'Scrutinized by' means examined closely by. Houses cannot examine a belief; they show it.",
+   "D": "Wrong logic: The hand-carved details match her belief. Nothing in the houses makes her distrust more complicated."
+  },
+  "traps": {
+   "A": "wrong meaning",
+   "C": "wrong relationship",
+   "D": "wrong logic"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q2",
+   "trap_answer": "C",
+   "trap": "'Scrutinized by' = examined by; books can't examine an attitude. The handmade books SHOW the attitude.",
+   "lesson": "Test each option by rewriting: 'His rejection of X is shown in the books' ✓. 'His rejection is examined by the books' ✗."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q03",
+  "modeled_on": "bb-pt6-rw-m2-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "heart-medicine trials that left out older women",
+  "fictional": true,
+  "passage": "For decades, clinical trials of new heart medicines enrolled mostly middle-aged men, even though many of the patients who take these drugs are women over seventy. ______ this long-standing imbalance, a research group in the city of Lindau now requires that at least a third of the volunteers in each of its trials be women older than sixty-five.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "Exacerbating",
+   "Redressing",
+   "Epitomizing",
+   "Precluding"
+  ],
+  "answer": "B",
+  "vocab": [
+   {
+    "word": "exacerbating",
+    "pos": "verb",
+    "meaning_en": "making a bad situation worse",
+    "meaning_ru": "усугубляя",
+    "example": "Shouting at him is only exacerbating the problem."
+   },
+   {
+    "word": "redressing",
+    "pos": "verb",
+    "meaning_en": "correcting something that is unfair or wrong",
+    "meaning_ru": "исправляя (несправедливость)",
+    "example": "The new law aims at redressing old injustices."
+   },
+   {
+    "word": "epitomizing",
+    "pos": "verb",
+    "meaning_en": "being a perfect example of something",
+    "meaning_ru": "олицетворяя",
+    "example": "The old bridge stands as the town's symbol, epitomizing its history."
+   },
+   {
+    "word": "precluding",
+    "pos": "verb",
+    "meaning_en": "preventing something from happening in advance",
+    "meaning_ru": "исключая, предотвращая",
+    "example": "The rain is precluding any chance of a picnic."
+   }
+  ],
+  "explanation": "The new rule adds the group that was left out, so it corrects the imbalance: it is redressing it.",
+  "steps": [
+   "The problem: trials left out older women.",
+   "The action: now at least a third must be older women. Does this fix or worsen the problem? Fix.",
+   "Fix an imbalance = redress (remedy, rectify).",
+   "Exacerbate = worsen, the opposite."
+  ],
+  "strategy_tip": "Decide 'fix or worsen?' before you read the choices. Fix: redress, remedy, rectify. Worsen: exacerbate, aggravate.",
+  "rationales": {
+   "A": "Wrong direction: 'Exacerbating' means making worse. Adding older women makes the imbalance smaller, not worse.",
+   "B": "Correct. The new rule adds the group that was left out, so it corrects the imbalance: it is redressing it.",
+   "C": "Wrong meaning: 'Epitomizing' means being a perfect example of. The new rule works against the imbalance; it is not an example of it.",
+   "D": "Wrong meaning: 'Precluding' means preventing in advance. The imbalance already exists, so it can only be corrected, not prevented."
+  },
+  "traps": {
+   "A": "wrong direction",
+   "C": "wrong meaning",
+   "D": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q3",
+   "trap_answer": "A",
+   "trap": "Exacerbating = making a problem WORSE. Adding seniors makes the imbalance BETTER → redressing.",
+   "lesson": "Decide first: does the action fix or worsen the problem in the sentence? Fix → redress/remedy/rectify; worsen → exacerbate/aggravate."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q04",
+  "modeled_on": "bb-pt6-rw-m2-q04",
+  "skill": "RW.CAS.WIC.MEANING",
+  "difficulty": "hard",
+  "topic": "cyclists pushing through a market crowd (novel)",
+  "fictional": true,
+  "passage": "The following text is from Tomas Ekwall's 1958 novel The Harbor Road. The narrator and her cousin are cycling through a village on market day.\nThe square was packed. Farmers with handcarts, women balancing baskets of eggs, and children chasing a loose goat closed in around our bicycles, contesting every yard of our way, until at last we had to climb down and push.",
+  "stem": "As used in the text, what does the word \"contesting\" most nearly mean?",
+  "choices": [
+   "arguing about",
+   "competing in",
+   "claiming ownership of",
+   "resisting"
+  ],
+  "answer": "D",
+  "vocab": [
+   {
+    "word": "arguing about",
+    "pos": "phrase",
+    "meaning_en": "disagreeing in words about something",
+    "meaning_ru": "спорить о",
+    "example": "They were arguing about whose turn it was."
+   },
+   {
+    "word": "competing in",
+    "pos": "phrase",
+    "meaning_en": "taking part in a contest or race",
+    "meaning_ru": "соревноваться в",
+    "example": "She is competing in the city marathon."
+   },
+   {
+    "word": "claiming ownership of",
+    "pos": "phrase",
+    "meaning_en": "saying that something belongs to you",
+    "meaning_ru": "заявлять права на",
+    "example": "Two families are claiming ownership of the field."
+   },
+   {
+    "word": "resisting",
+    "pos": "phrase",
+    "meaning_en": "working against something; blocking it",
+    "meaning_ru": "сопротивляться, препятствовать",
+    "example": "The door kept resisting every push."
+   }
+  ],
+  "explanation": "The crowd closes in around the bicycles so that the cyclists must climb down: the crowd resists (blocks) every yard of their way.",
+  "steps": [
+   "Picture the scene: a packed square, carts and baskets around the bicycles.",
+   "Result: the cyclists must climb down and push.",
+   "So the crowd blocks their way: 'contesting' = resisting.",
+   "The usual meanings (argue, compete, claim) do not fit a crowd in the road."
+  ],
+  "strategy_tip": "For 'as used in the text', put each choice into the sentence and imagine the scene.",
+  "rationales": {
+   "A": "Wrong meaning here: 'Contest' can mean argue, but the crowd is not talking about the road; it is in the way.",
+   "B": "Wrong meaning here: Nobody is racing. The people are simply blocking the bicycles.",
+   "C": "Wrong meaning here: The crowd does not claim to own the road. People and carts physically block it.",
+   "D": "Correct. The crowd closes in around the bicycles so that the cyclists must climb down: the crowd resists (blocks) every yard of their way."
+  },
+  "traps": {
+   "A": "common meaning, wrong here",
+   "B": "common meaning, wrong here",
+   "C": "common meaning, wrong here"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q4",
+   "trap_answer": "C",
+   "trap": "Secondary meaning. People physically get in the way of the taxi; they don't claim to own the road.",
+   "lesson": "For 'as used in the text', replace the word with each option and imagine the scene. Crowd + carts in front of a car = resisting/blocking."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q06",
+  "modeled_on": "bb-pt6-rw-m2-q06",
+  "skill": "RW.CAS.TSP.FUNCTION",
+  "difficulty": "hard",
+  "topic": "the hidden range of views in a dockworkers' movement",
+  "fictional": true,
+  "passage": "<u>Histories of the 1920s dockworkers' movement in the port city of Halvor have mostly followed its best-known strike leaders, whose fiery speeches make the movement appear to have spoken with a single, radical voice.</u> Labor historian Petra Ilves took a different route. Studying the minutes of small neighborhood unions and church relief committees, she found members who wanted a revolution, members who wanted only shorter hours, and many who simply wanted safer cranes.",
+  "stem": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+   "It presents a research trend that, according to the text, most historians of the movement have since reevaluated.",
+   "It suggests that historians have overemphasized the strike leaders because of their own political beliefs.",
+   "It describes a common way of studying the movement that hides the wide range of political views its members held.",
+   "It explains why the strike leaders' speeches gave a misleading impression of how effective the movement was."
+  ],
+  "answer": "C",
+  "explanation": "The sentence sets up the usual approach (follow the famous leaders), which makes the movement look uniform; Ilves then shows many different views.",
+  "steps": [
+   "Underlined: most histories follow the famous leaders → the movement looks like one radical voice.",
+   "Next: 'Ilves took a different route' and found many different views.",
+   "So the underlined sentence sets up the common view that the rest of the text challenges.",
+   "Reject choices that claim more than the text says happened."
+  ],
+  "strategy_tip": "Function questions: say what the sentence DOES (sets up a view, gives an example, challenges) before reading the choices.",
+  "rationales": {
+   "A": "Overstated: The text describes ONE historian's different approach. It never says most historians have changed their view.",
+   "B": "Not supported: The text gives no reason for the historians' focus, and nothing about their politics.",
+   "C": "Correct. The sentence sets up the usual approach (follow the famous leaders), which makes the movement look uniform; Ilves then shows many different views.",
+   "D": "Wrong focus: The issue is the range of members' views, not how effective the movement was."
+  },
+  "traps": {
+   "A": "overstated",
+   "B": "not supported",
+   "D": "wrong focus"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q6",
+   "trap_answer": "A",
+   "trap": "A overstates: the text shows ONE geographer's work, not that the field has reevaluated the trend.",
+   "lesson": "Function questions: describe what the sentence does (sets up the common view that is then challenged). Reject options that claim more than the text says happened."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q09",
+  "modeled_on": "bb-pt6-rw-m2-q09",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a lake-mud compound as a sign of microbes",
+  "fictional": true,
+  "passage": "The compound trivanol in lake mud has been proposed as a sign that a certain group of microbes is living there. Geochemist Rana Okafor's team tested this idea. In cold, shallow lakes, they found, trivanol cannot build up to measurable amounts unless the microbes produce it. But in lakes fed by hot springs, heat alone can turn ordinary minerals in the mud into trivanol. The team would therefore most likely agree that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "trivanol in lake mud is not a reliable sign of the microbes in any kind of lake.",
+   "if no trivanol is found in a cold, shallow lake, the microbes cannot be living there.",
+   "trivanol may be treated as a sign of the microbes in cold, shallow lakes but not in lakes fed by hot springs.",
+   "trivanol found in lake mud more likely comes from hot springs than from the microbes."
+  ],
+  "answer": "C",
+  "explanation": "In cold lakes only the microbes make trivanol; in hot-spring lakes heat can make it too. So it is a sign only in cold lakes.",
+  "steps": [
+   "Condition 1: cold lakes → trivanol only from microbes → a good sign.",
+   "Condition 2: hot-spring lakes → heat can make it → not a good sign.",
+   "Pick the choice that keeps BOTH conditions.",
+   "Remember: 'X suggests Y' does not mean 'no X means no Y'."
+  ],
+  "strategy_tip": "When a text gives two conditions, the answer usually keeps both. Watch for reversed 'if not X, then not Y' traps.",
+  "rationales": {
+   "A": "Too strong: In cold, shallow lakes trivanol appears only with the microbes, so there it IS a reliable sign.",
+   "B": "Reversed logic: 'trivanol suggests microbes' does not mean 'no trivanol means no microbes'. The microbes may live there without making enough of it.",
+   "C": "Correct. In cold lakes only the microbes make trivanol; in hot-spring lakes heat can make it too. So it is a sign only in cold lakes.",
+   "D": "Not supported: The text never compares how often each source produces it."
+  },
+  "traps": {
+   "A": "too strong",
+   "B": "reversed logic",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q9",
+   "trap_answer": "B",
+   "trap": "B reverses the logic: 'presence suggests life' does NOT mean 'absence means no life'.",
+   "lesson": "If X → (probably) Y, you cannot conclude not-X → not-Y. Pick the option that keeps BOTH conditions (rocky vs mini-Neptune)."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q11",
+  "modeled_on": "bb-pt6-rw-m2-q11",
+  "skill": "RW.INI.COEQ.BAR",
+  "difficulty": "hard",
+  "topic": "irrigation and wheat yields under drought",
+  "fictional": true,
+  "passage": "Agronomist Wen Talbot used a crop model to estimate wheat yields on farms in the Orsa Valley, with and without irrigation, under the current climate and under moderate and severe drought. Talbot concludes that irrigation could more than offset the yield losses caused by drought if the drought is moderate, but not if it is severe.",
+  "figure": {
+   "kind": "bars",
+   "title": "Estimated wheat yield in the Orsa Valley",
+   "labels": [
+    "Current climate",
+    "Moderate drought",
+    "Severe drought"
+   ],
+   "series": [
+    {
+     "name": "Without irrigation",
+     "values": [
+      6.0,
+      4.5,
+      3.0
+     ]
+    },
+    {
+     "name": "With irrigation",
+     "values": [
+      7.0,
+      6.4,
+      5.2
+     ]
+    }
+   ],
+   "xlabel": "",
+   "ylabel": "Yield (tons per hectare)"
+  },
+  "stem": "Which choice best describes data from the graph that support Talbot's conclusion?",
+  "choices": [
+   "Under severe drought, yields with irrigation would be about 2.2 tons per hectare higher than yields without irrigation under the same drought.",
+   "Under the current climate, yields with irrigation are about 1 ton per hectare higher than yields without irrigation.",
+   "Under moderate drought, yields with irrigation would be higher than yields without irrigation under moderate drought.",
+   "Yields with irrigation would be higher under moderate drought, but lower under severe drought, than current yields without irrigation."
+  ],
+  "answer": "D",
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "true_but_irrelevant",
+   "C": "true_but_irrelevant",
+   "D": "supports"
+  },
+  "explanation": "6.4 (irrigated, moderate) > 6.0 (current, no irrigation), but 5.2 (irrigated, severe) < 6.0. Moderate: losses more than offset; severe: not.",
+  "steps": [
+   "Translate the claim: 'more than offset the losses' = future yield WITH irrigation is higher than TODAY's yield WITHOUT it.",
+   "Today's baseline: 6.0 (current climate, no irrigation).",
+   "Moderate drought with irrigation: 6.4 > 6.0 ✓. Severe drought with irrigation: 5.2 < 6.0 ✓.",
+   "Only one choice makes both comparisons with the 6.0 baseline."
+  ],
+  "strategy_tip": "Write the claim as one exact comparison (which bar vs which bar) before you read the choices.",
+  "rationales": {
+   "A": "Wrong baseline: True (5.2 − 3.0), but it compares inside the severe-drought group. 'Offset' means comparing with today's yield.",
+   "B": "Wrong scenario: True, but it says nothing about drought.",
+   "C": "Wrong baseline: True (6.4 > 4.5), but 'more than offset the losses' means beating TODAY's yield without irrigation (6.0), not the drought yield.",
+   "D": "Correct. 6.4 (irrigated, moderate) > 6.0 (current, no irrigation), but 5.2 (irrigated, severe) < 6.0. Moderate: losses more than offset; severe: not."
+  },
+  "traps": {
+   "A": "wrong baseline",
+   "B": "wrong scenario",
+   "C": "wrong baseline"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q11",
+   "trap_answer": "C",
+   "trap": "C is true but compares the wrong baseline. 'Offset the effect of climate change' means compare to today's growth (current climate, no added nitrogen).",
+   "lesson": "Translate the claim into an exact comparison first: future-with-help vs present-without-help. Then find the option that makes THAT comparison for both cases (moderate ✓, extreme ✗)."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q12",
+  "modeled_on": "bb-pt6-rw-m2-q12",
+  "skill": "RW.INI.COET.SUPPORT",
+  "difficulty": "hard",
+  "topic": "a desert shrub compound and water loss",
+  "fictional": true,
+  "passage": "In hot, dry air, water escapes from plant leaves quickly, and plants that lose too much water wilt. Botanist Lucia Marenko noticed that leaves of the desert shrub Velia crispa contain more of a sugar-like compound called dravose in the hottest parts of the shrub's range. She hypothesizes that dravose slows the loss of water from the shrub's leaves.",
+  "stem": "Which finding, if true, would most strongly support Marenko's hypothesis?",
+  "choices": [
+   "When it is heated in a laboratory, dravose keeps its chemical structure at temperatures far above any found in the desert.",
+   "Water placed in a dish containing dravose evaporates at the same rate as water placed in a dish without it.",
+   "Among Velia crispa leaves, there is a positive correlation between the amount of dravose and the rate at which the leaves lose water.",
+   "At the same high temperature, Velia crispa leaves with dravose lose water more slowly than leaves from which dravose has been removed."
+  ],
+  "answer": "D",
+  "explanation": "Same heat, only dravose differs, and leaves with it lose water more slowly. That shows the effect directly.",
+  "steps": [
+   "Write the hypothesis as cause → effect: dravose → SLOWER water loss.",
+   "Support must show that effect: with dravose, water loss is slower.",
+   "Best design: same conditions, with vs without dravose.",
+   "Check direction: 'more dravose, faster loss' is the opposite."
+  ],
+  "strategy_tip": "Restate the hypothesis as cause → effect, then look for the choice that shows that effect in the right direction.",
+  "rationales": {
+   "A": "Wrong subject: It is about dravose itself staying stable, not about the leaves keeping their water.",
+   "B": "Weakens, if anything: If dravose doesn't change how fast water escapes, it is less likely to slow water loss.",
+   "C": "Wrong direction: More dravose with FASTER water loss would go against the hypothesis. 'Positive correlation' only sounds supportive.",
+   "D": "Correct. Same heat, only dravose differs, and leaves with it lose water more slowly. That shows the effect directly."
+  },
+  "traps": {
+   "A": "wrong subject",
+   "B": "weakens",
+   "C": "correlation in the wrong direction"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q12",
+   "trap_answer": "C",
+   "trap": "C is a positive correlation in the wrong direction: more TMAO ↔ FASTER compression would WEAKEN the hypothesis. It only looks supportive because it says 'positive correlation'.",
+   "lesson": "Restate the hypothesis as cause → effect (TMAO → water resists compression). The support must show that effect directly, in the right direction, with/without comparison."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q13",
+  "modeled_on": "bb-pt6-rw-m2-q13",
+  "skill": "RW.INI.COEQ.TABLE",
+  "difficulty": "hard",
+  "topic": "warmer winters and household heating energy",
+  "fictional": true,
+  "passage": "Energy analyst Bruno Haldane simulated how household energy use in the country of Ostrel would change if winters there became 2°C warmer. He ran the simulation for two groups of cities: those whose winters are currently mild and those whose winters are currently harsh. Haldane concludes that warmer winters would reduce heating energy use, but that the size of the reduction depends strongly on how harsh a city's winters currently are.",
+  "figure": {
+   "kind": "table",
+   "title": "Simulated change in household energy use with 2°C warmer winters",
+   "header": [
+    "Current winters",
+    "Heating energy use (% change)",
+    "Cooling energy use (% change)"
+   ],
+   "rows": [
+    [
+     "Mild",
+     "−4",
+     "+9"
+    ],
+    [
+     "Harsh",
+     "−21",
+     "+2"
+    ]
+   ]
+  },
+  "stem": "Which choice most effectively uses data from the table to support Haldane's conclusion?",
+  "choices": [
+   "Cooling energy use would increase by 2% in cities with harsh winters but by 9% in cities with mild winters.",
+   "Heating energy use would fall by only 4% in cities with mild winters but by 21% in cities with harsh winters.",
+   "In cities with harsh winters, heating energy use would fall by 21%, while cooling energy use would rise by just 2%.",
+   "In cities with mild winters, cooling energy use would rise by 9%, which is more than heating energy use would fall."
+  ],
+  "answer": "B",
+  "quant": {
+   "A": "true_but_irrelevant",
+   "B": "supports",
+   "C": "true_but_irrelevant",
+   "D": "true_but_irrelevant"
+  },
+  "explanation": "It compares the heating change across the two baselines: −4% (mild) vs −21% (harsh). The size depends strongly on the baseline.",
+  "steps": [
+   "Key words: 'depends strongly on how harsh' → compare the two kinds of cities.",
+   "Variable: heating energy, not cooling.",
+   "Heating: −4% (mild) vs −21% (harsh). A big difference.",
+   "Only one choice compares heating ACROSS the two rows."
+  ],
+  "strategy_tip": "'Depends on / sensitive to X' → the answer must compare two values of X, using the claim's variable.",
+  "rationales": {
+   "A": "Wrong variable: True, and it compares the two kinds of cities, but the claim is about HEATING, not cooling.",
+   "B": "Correct. It compares the heating change across the two baselines: −4% (mild) vs −21% (harsh). The size depends strongly on the baseline.",
+   "C": "One row only: True, but it describes only harsh-winter cities. 'Depends on how harsh' needs both kinds of cities.",
+   "D": "One row only: True, but it stays with mild-winter cities and mixes in cooling."
+  },
+  "traps": {
+   "A": "wrong variable",
+   "C": "one row only",
+   "D": "one row only"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q13",
+   "trap_answer": "C",
+   "trap": "C stays inside one row — it can't show 'sensitive to the baseline'. Sensitivity needs a comparison ACROSS the two baselines, about IRRIGATION (not aquifer input).",
+   "lesson": "Key words: 'sensitive to / depends on X' → the answer must compare two values of X. Also match the variable (irrigation ≠ aquifer)."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q14",
+  "modeled_on": "bb-pt6-rw-m2-q14",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "repetitive behavior in zoo parrots",
+  "fictional": true,
+  "passage": "Ethologist Mira Castellan compared gray parrots living in zoos with gray parrots living in the wild. Earlier studies had shown that when captive animals are fed on a fixed, predictable schedule, they have little to think about and often develop new repetitive behaviors that serve no purpose. Castellan was therefore not surprised to find that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "zoo parrots kept shredding seed husks long after the seeds inside had been eaten, while wild parrots did not.",
+   "male parrots in zoos were more aggressive toward one another than female parrots in zoos were.",
+   "zoo parrots given puzzle feeders worked again and again to pry them open, much as wild parrots pry open hard fruits and nuts.",
+   "both zoo parrots and wild parrots paced along branches in the minutes before they began to feed."
+  ],
+  "answer": "A",
+  "explanation": "Shredding empty husks is new, repetitive, and has no purpose, and only the zoo parrots do it. It meets every condition.",
+  "steps": [
+   "List the conditions: captive only, NEW behavior, repetitive, NO purpose, from low mental engagement.",
+   "Check each choice against all of them.",
+   "Shredding empty husks: captive only ✓, repetitive ✓, no purpose ✓.",
+   "Puzzle feeders: they have a purpose and make the birds think ✗."
+  ],
+  "strategy_tip": "Completion questions: list every condition in the setup, then pick the only choice that meets all of them.",
+  "rationales": {
+   "A": "Correct. Shredding empty husks is new, repetitive, and has no purpose, and only the zoo parrots do it. It meets every condition.",
+   "B": "Off topic: Differences between males and females have nothing to do with feeding schedules.",
+   "C": "Fails the conditions: Puzzle feeders make the parrots think, and prying them open has a purpose (food), just like wild behavior.",
+   "D": "Fails the conditions: Both groups do it, so it cannot come from captivity."
+  },
+  "traps": {
+   "B": "off topic",
+   "C": "fails a condition",
+   "D": "fails a condition"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q14",
+   "trap_answer": "C",
+   "trap": "C describes a cognitively DEMANDING situation and behavior shared with wild lions — it isn't a new purposeless behavior caused by low engagement.",
+   "lesson": "Completion questions: check each option against ALL conditions in the setup (captive only + new + purposeless + low engagement). Only one option meets every condition."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q16",
+  "modeled_on": "bb-pt6-rw-m2-q16",
+  "skill": "RW.SEC.BND.LINK",
+  "difficulty": "hard",
+  "topic": "how a siphon moves water",
+  "fictional": true,
+  "passage": "A siphon can move water out of a tank and over its rim without a pump. A simple diagram shows how this ______ the tube is completely full of water, the heavier column of water in the long outer arm pulls water up through the shorter arm inside the tank.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "works because",
+   "works. Because",
+   "works, it's because",
+   "works: it's because"
+  ],
+  "answer": "B",
+  "explanation": "The period ends the first sentence. The new sentence starts with 'Because ..., ' and then its main clause: 'the heavier column ... pulls water up.'",
+  "steps": [
+   "Count the main clauses: 'A diagram shows how this works' and 'the heavier column ... pulls water up'.",
+   "'Because the tube is completely full of water,' is a dependent clause; it belongs to the second main clause.",
+   "End the first sentence with a period, then begin 'Because ..., main clause.'",
+   "'it's because' adds another main clause, so a comma alone makes a comma splice."
+  ],
+  "strategy_tip": "Count independent clauses. A sentence CAN start with 'Because ..., ' as long as a main clause follows the comma.",
+  "rationales": {
+   "A": "Run-on: 'Because the tube is full of water' must join its own main clause ('the heavier column ... pulls'). Here it hangs onto the first sentence, which leaves two main clauses joined by only a comma.",
+   "B": "Correct. The period ends the first sentence. The new sentence starts with 'Because ..., ' and then its main clause: 'the heavier column ... pulls water up.'",
+   "C": "Comma splice: 'it's because ...' is a full independent clause. Two full sentences cannot be joined with only a comma.",
+   "D": "Comma splice inside: after the colon, 'it's because the tube is full, the heavier column pulls' still joins two main clauses with a comma."
+  },
+  "traps": {
+   "A": "run-on",
+   "C": "comma splice",
+   "D": "comma splice"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q16",
+   "trap_answer": "C",
+   "trap": "'It's because…' is a full independent clause; joining it to 'A ray diagram reveals how this works' with only a comma = comma splice.",
+   "lesson": "Count independent clauses. Two complete sentences need a period/semicolon/comma+FANBOYS. A sentence CAN start with 'Because…, main clause.'"
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q17",
+  "modeled_on": "bb-pt6-rw-m2-q17",
+  "skill": "RW.SEC.BND.UNNEC",
+  "difficulty": "hard",
+  "topic": "a hymn credited to the wrong composer",
+  "fictional": true,
+  "passage": "For more than a century, the hymn \"Morning on the Traun\" was credited to a famous Viennese composer. In 2019, however, a music librarian studying a handwritten score showed that the hymn was in fact composed by obscure Austrian church ______ Johanna Feld (1801–1860).",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "organist—",
+   "organist",
+   "organist:",
+   "organist,"
+  ],
+  "answer": "B",
+  "explanation": "A descriptive title directly before a name ('church organist Johanna Feld') takes no punctuation.",
+  "steps": [
+   "Look at the words around the blank: 'church organist' + 'Johanna Feld'.",
+   "A title or job description right before a name is restrictive: it works with the name.",
+   "So no comma, colon, or dash: 'church organist Johanna Feld'."
+  ],
+  "strategy_tip": "Title + name ('physicist Ada Lind') = no punctuation. A comma comes only with 'the/a/his' + a noun that already identifies the person.",
+  "rationales": {
+   "A": "Unnecessary dash: 'church organist Johanna Feld' is one unit (title + name). A dash would split it.",
+   "B": "Correct. A descriptive title directly before a name ('church organist Johanna Feld') takes no punctuation.",
+   "C": "Unnecessary colon: A colon must follow a complete sentence, and 'composed by obscure Austrian church organist' is not complete.",
+   "D": "Unnecessary comma: The title and name work together to identify the person; no comma goes between them."
+  },
+  "traps": {
+   "A": "unnecessary dash",
+   "C": "unnecessary colon",
+   "D": "unnecessary comma"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q17",
+   "trap_answer": "C",
+   "trap": "A descriptive title before a proper noun ('portrait artist Jane Doe') is restrictive — no comma, colon or dash.",
+   "lesson": "Title + name = no punctuation ('physicist Lise Meitner'). A comma is used only if the name comes after 'the/a' + a unique identifier ('his wife, Anna,')."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q19",
+  "modeled_on": "bb-pt6-rw-m2-q19",
+  "skill": "RW.SEC.FSS.FINITE",
+  "difficulty": "hard",
+  "topic": "an architect's S-shaped footbridges",
+  "fictional": true,
+  "passage": "Footbridges are usually built as straight as possible, since a straight path is the shortest way across. Danish architect Ida ______ her bridges to slow pedestrians down, curves every walkway into a gentle S.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+   "Lund is intending",
+   "Lund, intends",
+   "Lund, intending",
+   "Lund intends"
+  ],
+  "answer": "C",
+  "explanation": "', intending her bridges to slow pedestrians down,' is a phrase inside commas, and 'curves' is the sentence's one main verb.",
+  "steps": [
+   "Find the main verb: '..., curves every walkway into a gentle S.'",
+   "The sentence already has its main verb, so the blank cannot add another one.",
+   "The words between the commas must be a supplementary -ing phrase: ', intending ...,'."
+  ],
+  "strategy_tip": "Find the main verb first. If it comes later, the blank must be an -ing or -ed phrase, usually inside commas.",
+  "rationales": {
+   "A": "Two main verbs: 'is intending' and 'curves' would both be main verbs for 'Ida Lund' with nothing to join them.",
+   "B": "Comma between subject and verb: 'Lund, intends' puts a comma before the verb and leaves 'curves' without a connection.",
+   "C": "Correct. ', intending her bridges to slow pedestrians down,' is a phrase inside commas, and 'curves' is the sentence's one main verb.",
+   "D": "Two main verbs: The sentence already has its main verb, 'curves'. 'intends' would be a second one."
+  },
+  "traps": {
+   "A": "two main verbs",
+   "B": "comma splits subject and verb",
+   "D": "two main verbs"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q19",
+   "trap_answer": "D",
+   "trap": "The sentence already has a main verb ('assembles') after the second comma. The blank must be a non-finite supplementary phrase: ', intending …,'.",
+   "lesson": "Find the main verb first. If one exists later in the sentence, the blank can't be another finite verb → use -ing / -ed phrase inside commas."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q21",
+  "modeled_on": "bb-pt6-rw-m2-q21",
+  "skill": "RW.EOI.TRN.CONTRAST",
+  "difficulty": "hard",
+  "topic": "an engineer who overstated her invention",
+  "fictional": true,
+  "passage": "In interviews late in her life, engineer Agathe Morel claimed that she had built the first electric bread oven, a claim that historians have shown to be false: at least three earlier models existed. Few would dispute, ______ that Morel's prototypes greatly advanced the design of household ovens.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "therefore,",
+   "in the second place,",
+   "in other words,",
+   "though,"
+  ],
+  "answer": "D",
+  "explanation": "Sentence 1: her claim was false. Sentence 2: still, her work mattered. 'Though' marks this concession.",
+  "steps": [
+   "Sentence 1: a negative point (she exaggerated).",
+   "Sentence 2: a positive point that is true anyway (her prototypes mattered).",
+   "True IN SPITE OF sentence 1 = concession: though, still, nevertheless.",
+   "Mid-sentence 'though' works like 'however' in a softer position."
+  ],
+  "strategy_tip": "Ask: does sentence 2 follow FROM sentence 1 (therefore) or hold IN SPITE OF it (though / still)?",
+  "rationales": {
+   "A": "Wrong relationship: Her importance does not follow FROM her false claim. It is true in spite of it.",
+   "B": "Wrong relationship: The second sentence is not a second item in a list of points.",
+   "C": "Wrong relationship: The second sentence does not restate the first; it says something different (she was still important).",
+   "D": "Correct. Sentence 1: her claim was false. Sentence 2: still, her work mattered. 'Though' marks this concession."
+  },
+  "traps": {
+   "A": "cause instead of concession",
+   "B": "sequence instead of concession",
+   "C": "restatement instead of concession"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q21",
+   "trap_answer": "A",
+   "trap": "The second sentence is TRUE DESPITE the first (he exaggerated, but he was still important) → concession, not result.",
+   "lesson": "Ask: does sentence 2 follow FROM sentence 1 (therefore) or hold IN SPITE OF it (though / still / nevertheless)? Mid-sentence 'though' = 'however' in a softer position."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q24",
+  "modeled_on": "bb-pt6-rw-m2-q24",
+  "skill": "RW.EOI.TRN.CONT",
+  "difficulty": "hard",
+  "topic": "where young velvetfish live in the water",
+  "fictional": true,
+  "passage": "Marine biologist Kofi Asante wanted to know whether the young of the striped velvetfish are benthic, pelagic, or demersal. ______ he set out to learn whether they live on the seafloor itself, in the open water far above it, or in the water just above the bottom.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+   "Afterward,",
+   "In other words,",
+   "Additionally,",
+   "However,"
+  ],
+  "answer": "B",
+  "explanation": "Sentence 2 repeats sentence 1 in plain language: benthic = on the seafloor, pelagic = open water, demersal = just above the bottom.",
+  "steps": [
+   "Sentence 1 uses technical words: benthic, pelagic, demersal.",
+   "Sentence 2 gives the same three options in plain words.",
+   "Same idea, simpler words = restatement: 'In other words' or 'That is'."
+  ],
+  "strategy_tip": "If sentence 2 explains the jargon of sentence 1, the transition is 'In other words' / 'That is'.",
+  "rationales": {
+   "A": "Wrong relationship: The second sentence is not a later event. It explains the same question in simpler words.",
+   "B": "Correct. Sentence 2 repeats sentence 1 in plain language: benthic = on the seafloor, pelagic = open water, demersal = just above the bottom.",
+   "C": "Wrong relationship: Sentence 2 adds no new question; it is the same question again.",
+   "D": "Wrong relationship: Nothing in sentence 2 contrasts with sentence 1."
+  },
+  "traps": {
+   "A": "sequence instead of restatement",
+   "C": "addition instead of restatement",
+   "D": "contrast instead of restatement"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q24",
+   "trap_answer": "A",
+   "trap": "The second sentence doesn't describe a later event; it explains the technical terms of the first → restatement.",
+   "lesson": "If sentence 2 repeats sentence 1 in simpler words (often defining jargon) → 'In other words / That is'."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q26",
+  "modeled_on": "bb-pt6-rw-m2-q26",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "a songbird's category on a wildlife list",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The Nordmark Wildlife Office places each at-risk animal species in one of two categories.",
+   "Species listed as critical face an immediate risk of disappearing from the wild.",
+   "Species listed as vulnerable are likely to become critical in the near future.",
+   "The marsh lark, a small brown songbird, is likely to become critical in the near future."
+  ],
+  "stem": "The student wants to indicate the marsh lark's category. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The Nordmark Wildlife Office places each at-risk animal species in one of two categories: critical or vulnerable.",
+   "The marsh lark, a small brown songbird, is one of the species that appear on the Nordmark Wildlife Office's list.",
+   "Facing an immediate risk of disappearing from the wild, the marsh lark is listed as a critical species.",
+   "Likely to become critical in the near future, the marsh lark is listed as vulnerable."
+  ],
+  "answer": "D",
+  "explanation": "It gives the lark's category (vulnerable) and the reason from the notes.",
+  "steps": [
+   "Read only the goal: indicate the lark's CATEGORY.",
+   "Notes: likely to become critical in the near future = vulnerable.",
+   "Pick the choice that names that category: D."
+  ],
+  "strategy_tip": "Rhetorical synthesis: read the goal first and pick the choice that does exactly that. Target: 45 seconds.",
+  "rationales": {
+   "A": "Goal not met: It names both categories but never says which one the marsh lark is in.",
+   "B": "Goal not met: It mentions the list but not the category.",
+   "C": "Factually wrong: The notes say the lark is LIKELY to become critical, which is the definition of vulnerable.",
+   "D": "Correct. It gives the lark's category (vulnerable) and the reason from the notes."
+  },
+  "traps": {
+   "A": "goal not met",
+   "B": "goal not met",
+   "C": "contradicts the notes"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q26",
+   "trap_answer": null,
+   "trap": "Not answered (time). Traps: an option that says 'endangered' (factually wrong), options that mention the list but never give the category.",
+   "lesson": "Rhetorical synthesis takes ~40 s: read ONLY the goal, then pick the option that does exactly that. Never leave it blank — these are the fastest points at the end of a module."
+  }
+ },
+ {
+  "id": "pt6-replay-rw-m2-q27",
+  "modeled_on": "bb-pt6-rw-m2-q27",
+  "skill": "RW.EOI.RS.GOAL",
+  "difficulty": "hard",
+  "topic": "materials in modern copies of a frame drum",
+  "fictional": true,
+  "passage": "While researching a topic, a student has taken the following notes:",
+  "notes": [
+   "The kesh drum is a large frame drum first made in the villages of the Kerran Valley.",
+   "Traditional kesh drums have a frame of bent ash wood and a head of goatskin.",
+   "Today, several workshops make copies of the kesh drum for musicians and museums.",
+   "Most of the materials in these copies are traditional, such as ash frames and goatskin heads.",
+   "Some copies, however, use synthetic materials, such as plastic heads that do not stretch in damp weather."
+  ],
+  "stem": "The student wants to make a generalization about the kinds of materials found in modern copies of the kesh drum. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+   "The kesh drum, a large frame drum, was first made in the villages of the Kerran Valley.",
+   "One modern copy of the kesh drum has a plastic head that does not stretch in damp weather.",
+   "While most materials in modern copies of the kesh drum are traditional, some are synthetic.",
+   "Traditional kesh drums have a frame of bent ash wood and a head of goatskin."
+  ],
+  "answer": "C",
+  "explanation": "'Most ... are traditional, some are synthetic' is a statement about the copies in general.",
+  "steps": [
+   "Goal: a GENERALIZATION about the copies' materials.",
+   "Generalization = about most or all, not one example. Look for 'most', 'generally', 'typically'.",
+   "Only C speaks about the copies in general: mostly traditional, some synthetic."
+  ],
+  "strategy_tip": "'Generalization' → look for words like 'most', 'generally', 'often'. One example is never a generalization.",
+  "rationales": {
+   "A": "Goal not met: It defines the drum and says nothing about the copies' materials.",
+   "B": "Example, not generalization: It describes one copy, not the copies in general.",
+   "C": "Correct. 'Most ... are traditional, some are synthetic' is a statement about the copies in general.",
+   "D": "Wrong drums: It describes the traditional drums, not the modern copies."
+  },
+  "traps": {
+   "A": "goal not met",
+   "B": "example, not generalization",
+   "D": "wrong subject"
+  },
+  "replay": {
+   "label": "PT6 · R&W M2 · Q27",
+   "trap_answer": null,
+   "trap": "Not answered (time). Traps: a specific example (one material) instead of a generalization; a definition of the boat.",
+   "lesson": "'Generalization' = a statement about most/all, not one example. Find words like 'most', 'generally', 'typically'."
+  }
+ }
+]

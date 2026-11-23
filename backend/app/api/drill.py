@@ -82,9 +82,16 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
         )
     correct, key = qs.grade(q, body.answer)
     given = body.answer.strip().upper()
-    trap = None if correct else (q.content.get("traps") or {}).get(given)
+    traps: dict[str, str] = q.content.get("traps") or {}
+    if q.format == "mc":
+        trap = None if correct else traps.get(given)
+    else:  # SPR traps are keyed by value: "3" also catches "6/2"
+        trap = None if correct else next((t for v, t in traps.items() if qs.same_answer(q, given, v)), None)
     if not correct and trap is None and q.format == "mc":  # math: the rationale names the error
         trap = ((q.content.get("rationales") or {}).get(given) or "").split(". ")[0] or None
+    replay = q.content.get("replay") or {}
+    repeat = replay.get("trap_answer")
+    same_trap = replay["trap"] if not correct and repeat and qs.same_answer(q, given, repeat) else None
     r = Response(
         user_id=user.id,
         question_id=q.id,
@@ -106,6 +113,8 @@ async def answer(body: AnswerIn, db: DB, user: CurrentUser) -> Feedback:
         explanation=q.content["explanation"],
         rationales=q.content.get("rationales") or {},
         trap=trap,
+        same_trap=same_trap,
+        lesson=replay.get("lesson"),
         miss_reason=r.miss_reason,
         vocab=q.content.get("vocab") or [],
     )

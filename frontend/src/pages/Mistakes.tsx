@@ -31,11 +31,12 @@ type Imported = {
   skill_name: string;
   domain_name: string;
   difficulty: string;
-  result: "incorrect" | "omitted";
+  result: "incorrect" | "omitted" | "guessed";
   my_answer: string | null;
   correct_answer: string;
   summary: string;
   lesson: string;
+  trap: string | null;
   where_to_review: string;
   miss_reason: string | null;
   twin_ids: number[];
@@ -112,7 +113,7 @@ function ImportedRow({ m }: { m: Imported }) {
       <button type="button" aria-expanded={open} onClick={() => setOpen((o) => !o)} className="flex w-full flex-wrap items-center gap-x-3 text-left text-sm hover:bg-slate-50">
         <SourceBadge source="official" label={m.badge} />
         <span className="w-28 text-slate-600">{m.section === "RW" ? "R&W" : "Math"} M{m.module} Q{m.question_number}</span>
-        <span className="flex-1">{m.skill_name} <span className="text-slate-500">· {m.result === "omitted" ? "left blank" : "incorrect"}</span></span>
+        <span className="flex-1">{m.skill_name} <span className="text-slate-500">· {m.result === "omitted" ? "left blank" : m.result === "guessed" ? "guessed" : "incorrect"}</span></span>
         {status(m)}
       </button>
       {open && (
@@ -123,6 +124,7 @@ function ImportedRow({ m }: { m: Imported }) {
             <span className="text-slate-600">You: </span><span className="font-medium">{m.my_answer ?? "left blank"}</span>
             <span className="text-slate-600"> → Correct: </span><span className="font-medium text-emerald-800">{m.correct_answer}</span>
           </p>
+          {m.trap && <p className="text-red-800"><span className="font-semibold">Trap: </span>{m.trap}</p>}
           <p className="rounded-md bg-amber-50 p-3 text-amber-950"><span className="font-semibold">Lesson: </span>{m.lesson}</p>
           <p className="text-slate-600">Review in Bluebook: {m.where_to_review.replace(/^Bluebook → /, "")}</p>
           <MissReason responseId={m.id} initial={m.miss_reason} path={`/imported-mistakes/${m.id}/reason`} />

@@ -14,11 +14,11 @@ from app.engine import triage as tr
 from app.generators.spr import is_valid_entry
 from app.models import Question, Response, TriageSession
 from app.schemas.question import QuestionOut
-from app.services import imported, pt5
+from app.services import imported, pt5, pt6
 from app.services import questions as qs
 
 router = APIRouter(prefix="/triage", tags=["triage"])
-Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath"]
+Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath", "replayrw", "replaymath"]
 Form = Literal["A", "B", "C"]
 
 
@@ -122,6 +122,21 @@ async def weak_skills(db: DB, user: CurrentUser) -> list[str]:
 async def start(body: StartIn, db: DB, user: CurrentUser) -> StartOut:
     if body.mode.startswith("mock"):
         return await _mock(body, db)
+    if body.mode.startswith("replay"):
+        picked = await pt6.replay(db, body.mode.removeprefix("replay"))
+        if not picked:
+            raise HTTPException(409, "PT6 Replay isn't available yet")
+        names = await qs.skill_names(db)
+        return StartOut(
+            mode=body.mode,
+            limit_seconds=tr.MODES[body.mode][1],
+            questions=[
+                TriageQuestion(
+                    question=qs.public(q, names[q.skill_id]), target_seconds=tr.target_seconds(q.skill_id)
+                )
+                for q in picked
+            ],
+        )
     rng = random.Random(secrets.randbits(64))
     weak = await weak_skills(db, user) if body.mode == "weakness" else []
     picked: list[Question] = []

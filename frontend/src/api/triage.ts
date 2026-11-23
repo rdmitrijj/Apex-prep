@@ -5,7 +5,7 @@ import type { Question, VocabEntry } from "./drill";
 export type { VocabEntry };
 
 export type DrillMode = "sprint" | "module" | "weakness" | "math";
-export type TriageMode = DrillMode | "mockrw" | "mockmath";
+export type TriageMode = DrillMode | "mockrw" | "mockmath" | "replayrw" | "replaymath";
 export type MockForm = "A" | "B" | "C";
 
 export const MODE_INFO: Record<TriageMode, { name: string; blurb: string }> = {
@@ -15,6 +15,8 @@ export const MODE_INFO: Record<TriageMode, { name: string; blurb: string }> = {
   math: { name: "Math Sprint", blurb: "10 Math questions in 12 minutes, a little faster than the real pace." },
   mockrw: { name: "Mini Mock R&W", blurb: "27 questions in 32 minutes from your PT5 weakness sets, in the real test's order." },
   mockmath: { name: "Mini Mock Math", blurb: "22 questions in 35 minutes from your PT5 weakness sets, about a quarter grid-in." },
+  replayrw: { name: "PT6 Replay R&W", blurb: "Your 25 PT6 R&W twins in test order, 30 minutes." },
+  replaymath: { name: "PT6 Replay Math", blurb: "Your 10 PT6 Math twins in test order, 16 minutes." },
 };
 export const DRILL_MODES: DrillMode[] = ["sprint", "module", "weakness", "math"];
 

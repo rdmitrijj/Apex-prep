@@ -4,7 +4,7 @@ from fastapi import APIRouter, FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api import auth, drill, exam, health, mistakes, plan, pt5, scores, training, triage
+from app.api import auth, drill, exam, health, mistakes, plan, pt5, pt6, scores, training, triage
 
 app = FastAPI(title="Apex Prep", docs_url="/api/docs", openapi_url="/api/openapi.json")
 
@@ -19,6 +19,7 @@ api.include_router(mistakes.router)
 api.include_router(plan.router)
 api.include_router(triage.router)
 api.include_router(pt5.router)
+api.include_router(pt6.router)
 app.include_router(api)
 
 # Production: serve the built SPA. Unknown non-API paths fall back to index.html for client routing.

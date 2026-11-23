@@ -11,7 +11,7 @@ from typing import Literal
 
 from app.engine.exam import quotas
 
-Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath"]
+Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath", "replayrw", "replaymath"]
 
 # (questions, seconds). Module Simulation matches a real R&W module (27 in 32 minutes).
 MODES: dict[str, tuple[int, int]] = {
@@ -22,6 +22,9 @@ MODES: dict[str, tuple[int, int]] = {
     # Mini Mock: fixed forms (seed/pt5/forms.json), real module pace for R&W, 35 minutes for 22 Math.
     "mockrw": (27, 32 * 60),
     "mockmath": (22, 35 * 60),
+    # PT6 Replay: one twin per PT6 mistake in test order (R&W 25, Math 10).
+    "replayrw": (25, 30 * 60),
+    "replaymath": (10, 16 * 60),
 }
 # Share of R&W domains in Sprint and Module Simulation, weighted toward the owner's weak areas.
 DOMAIN_SHARES = {"RW.INI": 0.36, "RW.CAS": 0.31, "RW.SEC": 0.19, "RW.EOI": 0.14}
@@ -33,7 +36,7 @@ TARGET_SECONDS = {
     "RW.SEC.FSS": 40,
     "RW.EOI.TRN": 45,
     "RW.CAS.WIC": 50,
-    "RW.EOI.RS": 55,
+    "RW.EOI.RS": 45,
     "RW.CAS.TSP": 65,
     "RW.INI.CID": 75,
     "RW.INI.INF": 75,

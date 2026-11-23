@@ -112,6 +112,7 @@ class ImportedOut(BaseModel):
     correct_answer: str
     summary: str
     lesson: str
+    trap: str | None
     where_to_review: str
     miss_reason: str | None
     twin_ids: list[int]  # question ids of the practice twins, easy to hard
@@ -157,6 +158,7 @@ async def imported_mistakes(db: DB, user: CurrentUser, due: bool = False) -> lis
             correct_answer=m.correct_answer,
             summary=m.summary,
             lesson=m.lesson,
+            trap=m.trap,
             where_to_review=m.where_to_review,
             miss_reason=m.miss_reason,
             twin_ids=[q.id for q in await imported.twins(db, m)],

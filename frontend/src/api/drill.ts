@@ -39,6 +39,15 @@ export type FigureSpec =
       circles?: { c: [number, number]; r: number }[];
       right_angles?: string[];
       hide_points?: boolean;
+      note?: string; // e.g. "Note: Figure not drawn to scale."
+      hidden?: boolean; // optional figure behind a "Show figure" button
+    }
+  | {
+      kind: "boxplot";
+      title?: string;
+      xlabel?: string;
+      axis: [number, number];
+      plots: { name: string; min: number; q1: number; median: number; q3: number; max: number }[];
     };
 
 export type Question = {
@@ -53,6 +62,7 @@ export type Question = {
   passage2?: string | null;
   notes?: string[] | null;
   figure?: FigureSpec | null;
+  label?: string | null; // replay twins: "PT6 · R&W M2 · Q12"
 };
 
 export type VocabEntry = { word: string; pos: string; meaning_en: string; meaning_ru: string; example: string };
@@ -63,6 +73,8 @@ export type Feedback = {
   explanation: string[];
   rationales: Record<string, string>;
   trap?: string | null; // wrong answers: the named trap of the choice picked
+  same_trap?: string | null; // replay twins: you repeated your original test mistake
+  lesson?: string | null; // replay twins: the lesson from the original mistake
   miss_reason?: string | null; // pre-filled "why did you miss it?" tag
   vocab?: VocabEntry[];
 };

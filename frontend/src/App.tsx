@@ -13,6 +13,7 @@ const ExamResults = lazy(() => import("./pages/ExamResults").then((m) => ({ defa
 const ExamRunner = lazy(() => import("./pages/ExamRunner").then((m) => ({ default: m.ExamRunner })));
 const Mistakes = lazy(() => import("./pages/Mistakes").then((m) => ({ default: m.Mistakes })));
 const Pt5Drill = lazy(() => import("./pages/Pt5Drill").then((m) => ({ default: m.Pt5Drill })));
+const Pt6 = lazy(() => import("./pages/Pt6").then((m) => ({ default: m.Pt6 })));
 const Triage = lazy(() => import("./pages/Triage").then((m) => ({ default: m.Triage })));
 const Training = lazy(() => import("./pages/Training").then((m) => ({ default: m.Training })));
 
@@ -46,6 +47,7 @@ export function App() {
         ["/training", <Training />],
         ["/triage", <Triage />],
         ["/pt5", <Pt5Drill />],
+        ["/pt6", <Pt6 />],
         ["/mistakes", <Mistakes />],
         ["/plan", <PlanPage />],
         ["/goals", <Goals />],

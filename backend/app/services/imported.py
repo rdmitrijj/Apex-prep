@@ -39,6 +39,7 @@ async def load(db: AsyncSession, user_id: int, doc: dict[str, Any]) -> dict[str,
             "taken_on": taken_on,
             "skill_id": row["skill"],
             "linked_ids": row["linked_practice_ids"],
+            "trap": row.get("trap"),
         }
         m = existing.get(row["external_id"])
         if m is None:

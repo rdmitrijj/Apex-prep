@@ -59,6 +59,9 @@ export function Shell({ children }: { children: ReactNode }) {
           <NavLink to="/pt5" className={link}>
             PT5 Drill
           </NavLink>
+          <NavLink to="/pt6" className={link}>
+            PT6 Replay
+          </NavLink>
           <NavLink to="/triage" className={link}>
             Triage
           </NavLink>

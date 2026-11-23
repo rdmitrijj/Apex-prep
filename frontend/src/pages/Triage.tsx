@@ -167,13 +167,13 @@ function Run({ started, onDone }: { started: Started; onDone: (r: ResultsData) =
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div>
-          <p className="font-semibold">{modeName(started.mode + (started.form ? `-${started.form}` : ""))} · Question {idx + 1} of {items.length}</p>
+          <p className="font-semibold">{modeName(started.mode + (started.form ? `-${started.form}` : ""))} · Question {idx + 1} of {items.length}{cur.question.label && <span className="ml-2 rounded bg-slate-100 px-1.5 py-0.5 text-xs font-normal text-slate-600">{cur.question.label}</span>}</p>
           <p className={`text-sm tabular-nums ${TIMER_TONE[color]}`} aria-live={color === "normal" ? "off" : "polite"}>
             {Math.floor(onThis)} s on this one (target {target} s){color === "red" && ": guess, mark it, move on"}
           </p>
         </div>
         <div className="flex items-center gap-3">
-          {(started.mode === "math" || started.mode === "mockmath") && (
+          {(started.mode === "math" || started.mode === "mockmath" || started.mode === "replaymath") && (
             <>
               <button type="button" aria-pressed={tool === "calc"} onClick={() => setTool((t) => (t === "calc" ? null : "calc"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Calculator</button>
               <button type="button" aria-pressed={tool === "ref"} onClick={() => setTool((t) => (t === "ref" ? null : "ref"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Reference</button>
@@ -361,6 +361,12 @@ export function Triage() {
   };
   const auto = useRef(false);
   useEffect(() => {
+    const replay = params.get("replay");
+    if (!auto.current && (replay === "rw" || replay === "math" || replay === "both")) {
+      auto.current = true;
+      window.setTimeout(() => (replay === "math" ? start("replaymath") : start("replayrw", undefined, replay === "both" ? ["replaymath"] : [])));
+      return;
+    }
     const mock = params.get("mock");
     const form = params.get("form");
     if (auto.current || !mock || !(form === "A" || form === "B" || form === "C")) return;

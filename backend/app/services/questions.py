@@ -52,6 +52,13 @@ def math_content(item: MathItem) -> dict[str, Any]:
         "explanation": item.explanation,
         "rationales": item.rationales.model_dump() if item.rationales else {},
         "figure": item.figure,
+    } | {
+        k: v
+        for k, v in (
+            ("traps", item.spr_traps),
+            ("replay", item.replay.model_dump() if item.replay else None),
+        )
+        if v is not None
     }
 
 
@@ -261,7 +268,18 @@ def public(q: Question, skill_name: str) -> QuestionOut:
         stem=c["stem"],
         choices=c.get("choices"),
         **{k: c.get(k) for k in PUBLIC_KEYS},
+        label=(c.get("replay") or {}).get("label"),
     )
+
+
+def same_answer(q: Question, a: str, b: str) -> bool:
+    """Two answers to the same question match: MC letters, or SPR entries of the same value."""
+    if q.format == "mc":
+        return a.strip().upper() == b.strip().upper()
+    try:
+        return is_correct(a, [Fraction(b)])
+    except (ValueError, ZeroDivisionError):
+        return False
 
 
 def grade(q: Question, answer: str) -> tuple[bool, str]:

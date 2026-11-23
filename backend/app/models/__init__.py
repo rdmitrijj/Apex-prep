@@ -246,6 +246,7 @@ class ImportedMistake(Base):
     correct_answer: Mapped[str] = mapped_column(String(120))
     summary: Mapped[str] = mapped_column(Text)
     lesson: Mapped[str] = mapped_column(Text)
+    trap: Mapped[str | None] = mapped_column(Text)  # what caught the student (PT6 onward)
     where_to_review: Mapped[str] = mapped_column(String(200))
     miss_reason: Mapped[str | None] = mapped_column(String(16))
     linked_ids: Mapped[list[str]] = mapped_column(Json, server_default="[]")  # twin questions.external_id

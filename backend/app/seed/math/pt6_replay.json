@@ -1,0 +1,579 @@
+[
+ {
+  "id": "pt6-replay-math-m1-q05",
+  "modeled_on": "bb-pt6-math-m1-q05",
+  "skill": "MATH.PSD.INFER.MOE",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "Lena selected 25 households at random from all 600 households in a town. She found that 15 of the households in this sample own exactly two cars. Based on Lena's findings, which of the following is the best estimate of the number of households in the town that own exactly two cars?",
+  "choices": [
+   "$10$",
+   "$360$",
+   "$575$",
+   "$585$"
+  ],
+  "values": [
+   "10",
+   "360",
+   "575",
+   "585"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "Wrong group: $25 - 15 = 10$ counts the households in the SAMPLE that do not own two cars. The question asks about the whole town.",
+   "B": "Correct. $\\frac{15}{25} = 0.6$ of the sample own exactly two cars, and $0.6 \\times 600 = 360$.",
+   "C": "Wrong group: $600 - 25 = 575$ is the number of households that were not sampled.",
+   "D": "Mixed numbers: $600 - 15 = 585$ subtracts a sample count from the town total. You must scale the proportion instead."
+  },
+  "check": "Rational(15, 25) * 600",
+  "explanation": [
+   "Find the sample proportion: $\\frac{15}{25} = 0.6$.",
+   "Scale it to the whole town: $0.6 \\times 600 = 360$.",
+   "Check the question: it asks about the TOWN (600 households), so the answer must be far bigger than 15.",
+   "Desmos way: type 15/25*600."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q5",
+   "trap_answer": "A",
+   "trap": "Careless reading: subtracted inside the sample instead of scaling the proportion to the population.",
+   "lesson": "Estimate for population = (sample proportion) × (population size). Ask: 'Is my answer about the sample or the whole company?'"
+  }
+ },
+ {
+  "id": "pt6-replay-math-m1-q14",
+  "modeled_on": "bb-pt6-math-m1-q14",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The two box plots show the distribution of the number of goals scored per game by two teams. What is the positive difference between the ranges of the two distributions?",
+  "figure": {
+   "kind": "boxplot",
+   "xlabel": "Goals scored per game",
+   "axis": [
+    0,
+    12
+   ],
+   "plots": [
+    {
+     "name": "Team X",
+     "min": 0,
+     "q1": 2,
+     "median": 3,
+     "q3": 5,
+     "max": 7
+    },
+    {
+     "name": "Team Y",
+     "min": 2,
+     "q1": 4,
+     "median": 6,
+     "q3": 10,
+     "max": 11
+    }
+   ]
+  },
+  "check": "Abs((11 - 2) - (7 - 0))",
+  "spr_answers": [
+   "2"
+  ],
+  "spr_entries": [
+   "2"
+  ],
+  "spr_traps": {
+   "3": "You used the box (Q1 to Q3) or the medians. The range uses the whisker ends: max − min.",
+   "4": "You compared only the maximums (11 − 7). The range is max − min for each plot."
+  },
+  "explanation": [
+   "Write the five numbers for each plot. Team X: 0, 2, 3, 5, 7. Team Y: 2, 4, 6, 10, 11.",
+   "Range = max − min (the whisker ends). Team X: $7 - 0 = 7$. Team Y: $11 - 2 = 9$.",
+   "Positive difference: $9 - 7 = 2$.",
+   "Check: the box gives the IQR (Q3 − Q1), not the range."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q14",
+   "trap_answer": "3",
+   "trap": "Range uses the WHISKER ENDS (min, max), not the box (Q1, Q3). Misreading a whisker that starts at 0.",
+   "lesson": "Box plot reading: write the 5 numbers (min, Q1, median, Q3, max) for each plot before calculating. Range = max − min; IQR = Q3 − Q1."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m1-q19",
+  "modeled_on": "bb-pt6-math-m1-q19",
+  "skill": "MATH.GEO.LAT.SIMCONG",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "In the figure, segments $RU$ and $ST$ intersect at point $M$. Angle $R$ and angle $T$ each measure $b^\\circ$. $TM = 56$, $RM = 70$, $RS = 60$, and $SM = 100$. What is the length of segment $TU$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "R": [
+     -66.5,
+     21.7
+    ],
+    "S": [
+     -95.1,
+     -31.1
+    ],
+    "T": [
+     53.2,
+     17.4
+    ],
+    "U": [
+     76.0,
+     -24.8
+    ],
+    "M": [
+     0,
+     0
+    ]
+   },
+   "segments": [
+    [
+     "R",
+     "U"
+    ],
+    [
+     "S",
+     "T"
+    ],
+    [
+     "R",
+     "S"
+    ],
+    [
+     "T",
+     "U"
+    ]
+   ],
+   "labels": [
+    {
+     "at": [
+      -60.8,
+      14.9
+     ],
+     "text": "b°"
+    },
+    {
+     "at": [
+      48.7,
+      11.9
+     ],
+     "text": "b°"
+    }
+   ],
+   "note": "Note: Figure not drawn to scale."
+  },
+  "check": "Rational(60 * 56, 70)",
+  "spr_answers": [
+   "48"
+  ],
+  "spr_entries": [
+   "48"
+  ],
+  "spr_traps": {
+   "75": "Flipped ratio: $60 \\times 70 / 56$ matches the sides by their place in the picture, not by the equal angles.",
+   "80": "That is $MU$, the side that matches $SM$. The question asks for $TU$, which matches $RS$."
+  },
+  "explanation": [
+   "The angles at $R$ and $T$ are equal, and the angles at $M$ are vertical angles, so the triangles are similar.",
+   "Match the vertices by angle: $R \\leftrightarrow T$, $M \\leftrightarrow M$, $S \\leftrightarrow U$. So $RM \\leftrightarrow TM$ and $RS \\leftrightarrow TU$.",
+   "$\\frac{TU}{RS} = \\frac{TM}{RM}$, so $TU = 60 \\times \\frac{56}{70} = 48$.",
+   "Sanity check: $TM < RM$, so $TU$ must be smaller than $RS$. $SM = 100$ is extra information."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q19",
+   "trap_answer": "75",
+   "trap": "Matching sides by position in the picture instead of by equal angles. Extra given length (XQ) as a distractor.",
+   "lesson": "Write the correspondence from the angles: W↔Y, Q↔Q, X↔Z. Then sides: WQ↔YQ, WX↔YZ, QX↔QZ. Sanity check: the triangle with the smaller known side must have the smaller unknown side."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q15",
+  "modeled_on": "bb-pt6-math-m2-q15",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The function $h$ is defined by $h(x) = x(x + 3)(x - 5)^2$. The value of $h(4 - k)$ is $0$, where $k$ is a constant. What is the sum of all possible values of $k$?",
+  "check": "(4 - 0) + (4 - (-3)) + (4 - 5)",
+  "spr_answers": [
+   "10"
+  ],
+  "spr_entries": [
+   "10"
+  ],
+  "spr_traps": {
+   "11": "You forgot the zero from the squared factor $(x - 5)^2$. It still gives a zero: $x = 5$, so $k = -1$.",
+   "2": "That is the sum of the zeros of $h$ (0, −3, 5). The question asks for the values of $k$.",
+   "20": "Sign slip: $4 - k = 5$ gives $k = -1$, not $9$."
+  },
+  "explanation": [
+   "List every distinct zero of $h$: $x = 0$, $x = -3$, and $x = 5$ (the squared factor still gives one zero).",
+   "Set the input equal to each zero: $4 - k = 0$, $4 - k = -3$, $4 - k = 5$.",
+   "Solve: $k = 4$, $k = 7$, $k = -1$.",
+   "Sum: $4 + 7 + (-1) = 10$. Check: three zeros, so three values of $k$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q15",
+   "trap_answer": "11",
+   "trap": "Ignoring the root from the squared factor (x + 6)², and/or the sign when solving 7 − w = −6.",
+   "lesson": "List EVERY distinct zero of g (a squared factor still gives one zero), then solve 'inside = zero' for each. Check: the number of w-values = the number of distinct zeros."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q16",
+  "modeled_on": "bb-pt6-math-m2-q16",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "An orchard has 7 rows of apple trees and 4 rows of pear trees. Each row of apple trees has 10 trees taller than 15 feet and 4 trees 15 feet or shorter. Each row of pear trees has 12 trees taller than 15 feet and 6 trees 15 feet or shorter. A tree from one of these rows will be selected at random. What is the probability of selecting a pear tree, given that the tree is taller than 15 feet?",
+  "choices": [
+   "$\\frac{6}{85}$",
+   "$\\frac{24}{85}$",
+   "$\\frac{24}{59}$",
+   "$\\frac{2}{3}$"
+  ],
+  "values": [
+   "6/85",
+   "24/85",
+   "24/59",
+   "2/3"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Wrong numerator and denominator: one row of tall pear trees (12) over all 170 trees.",
+   "B": "Wrong denominator: 48 tall pear trees over ALL 170 trees. 'Given that the tree is taller' means divide by the tall trees only.",
+   "C": "Correct. Tall trees: $7 \\times 10 + 4 \\times 12 = 118$. Tall pear trees: 48. $\\frac{48}{118} = \\frac{24}{59}$.",
+   "D": "Reversed condition: $\\frac{48}{72}$ is the probability that a pear tree is tall, not that a tall tree is a pear tree."
+  },
+  "check": "Rational(4 * 12, 7 * 10 + 4 * 12)",
+  "explanation": [
+   "Make a quick table. Apple: $7 \\times 10 = 70$ tall, $7 \\times 4 = 28$ short. Pear: $4 \\times 12 = 48$ tall, $4 \\times 6 = 24$ short.",
+   "'Given that the tree is taller than 15 feet': the denominator is ALL tall trees, $70 + 48 = 118$.",
+   "Pear trees among them: 48. $\\frac{48}{118} = \\frac{24}{59}$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q16",
+   "trap_answer": "B",
+   "trap": "'Given that the tree is tall' → the denominator is ALL TALL trees (93), not all trees and not one row.",
+   "lesson": "Build the 2×2 table first (type × height, totals). 'Given X' = only the X row/column is the denominator."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q17",
+  "modeled_on": "bb-pt6-math-m2-q17",
+  "skill": "MATH.GEO.RTT.PYTH",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A rectangle is inscribed in a circle, so each vertex of the rectangle lies on the circle. The diagonal of the rectangle is twice the length of the shortest side of the rectangle. The area of the rectangle is $196\\sqrt{3}$ square units. What is the length, in units, of the diameter of the circle?",
+  "figure": {
+   "kind": "shape",
+   "hidden": true,
+   "points": {
+    "A": [
+     -12.12,
+     -7
+    ],
+    "B": [
+     12.12,
+     -7
+    ],
+    "C": [
+     12.12,
+     7
+    ],
+    "D": [
+     -12.12,
+     7
+    ]
+   },
+   "segments": [
+    [
+     "A",
+     "B"
+    ],
+    [
+     "B",
+     "C"
+    ],
+    [
+     "C",
+     "D"
+    ],
+    [
+     "D",
+     "A"
+    ],
+    [
+     "A",
+     "C"
+    ]
+   ],
+   "labels": [],
+   "circles": [
+    {
+     "c": [
+      0,
+      0
+     ],
+     "r": 14
+    }
+   ],
+   "hide_points": true
+  },
+  "check": "2 * sqrt(196)",
+  "spr_answers": [
+   "28"
+  ],
+  "spr_entries": [
+   "28"
+  ],
+  "spr_traps": {
+   "14": "That is the short side (and the radius). The diameter equals the diagonal: $2 \\times 14 = 28$."
+  },
+  "explanation": [
+   "A rectangle inside a circle: its diagonal is a diameter.",
+   "Diagonal = 2 × short side, so the diagonal, short side, and long side form a 30-60-90 triangle: sides $s$, $s\\sqrt{3}$, $2s$.",
+   "Area $= s \\cdot s\\sqrt{3} = s^2\\sqrt{3} = 196\\sqrt{3}$, so $s^2 = 196$ and $s = 14$.",
+   "Diameter = diagonal $= 2s = 28$.",
+   "60-second version: the $\\sqrt{3}$ in the area tells you the sides are $s$ and $s\\sqrt{3}$. Go straight to $s^2 = 196$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q17",
+   "trap_answer": null,
+   "trap": "Not answered (time). Key facts: inscribed rectangle's diagonal = diameter; 'hypotenuse = 2 × short leg' = 30-60-90 triangle.",
+   "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q19",
+  "modeled_on": "bb-pt6-math-m2-q19",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$\\frac{5}{6}y - \\frac{2}{3}x = \\frac{1}{5} - \\frac{5}{6}y$$ $$\\frac{4}{3}x + \\frac{2}{9} = py + \\frac{7}{9}$$ In the given system of equations, $p$ is a constant. If the system has no solution, what is the value of $p$?",
+  "check": "Rational(5, 3) * Rational(4, 3) / Rational(2, 3)",
+  "spr_answers": [
+   "10/3"
+  ],
+  "spr_entries": [
+   "10/3",
+   "3.333"
+  ],
+  "spr_traps": {
+   "5/3": "You forgot the $y$-term on the right side. $\\frac{5}{6}y$ appears twice, so the first equation has $\\frac{5}{3}y$.",
+   "-10/3": "Sign slip when you moved $py$ to the left side."
+  },
+  "explanation": [
+   "First equation: move $-\\frac{5}{6}y$ to the left: $\\frac{5}{3}y - \\frac{2}{3}x = \\frac{1}{5}$, so $2x - 5y = -\\frac{3}{5}$.",
+   "Second equation: $\\frac{4}{3}x - py = \\frac{5}{9}$. Multiply by $\\frac{3}{2}$: $2x - \\frac{3p}{2}y = \\frac{5}{6}$.",
+   "No solution: same $x$ and $y$ coefficients, different constants. $\\frac{3p}{2} = 5$, so $p = \\frac{10}{3}$.",
+   "Check the constants: $-\\frac{3}{5} \\neq \\frac{5}{6}$, so the lines are parallel, not the same line.",
+   "Desmos way: type both equations, add a slider for $p$, and find the value where the lines are parallel."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q19",
+   "trap_answer": null,
+   "trap": "Not answered (time). Same idea as PT5 Q15 (mastered!) but hidden behind fractions and y on both sides.",
+   "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q20",
+  "modeled_on": "bb-pt6-math-m2-q20",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x) = \\frac{f(x)}{x + 4}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$g(x)$"
+   ],
+   "rows": [
+    [
+     "$-10$",
+     "$1$"
+    ],
+    [
+     "$-8$",
+     "$0$"
+    ],
+    [
+     "$2$",
+     "$5$"
+    ]
+   ]
+  },
+  "choices": [
+   "$(0, 24)$",
+   "$(0, 6)$",
+   "$(0, 3)$",
+   "$(0, -8)$"
+  ],
+  "values": [
+   "(0, 24)",
+   "(0, 6)",
+   "(0, 3)",
+   "(0, -8)"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $f(x) = g(x)(x + 4)$: $f(-10) = -6$, $f(-8) = 0$, $f(2) = 30$. Slope $3$, so $f(x) = 3x + 24$.",
+   "B": "Wrong function: $(0, 6)$ is the $y$-intercept of $g$, since $g(0) = \\frac{24}{4} = 6$. The question asks about $f$.",
+   "C": "Wrong feature: $3$ is the slope of $f$, not its $y$-intercept.",
+   "D": "Wrong intercept: $(-8, 0)$ is the $x$-intercept of $f$; $-8$ is not its $y$-value at $x = 0$."
+  },
+  "check": "Tuple(0, 5 * (2 + 4) - 2 * (5 * (2 + 4) - 1 * (-10 + 4)) / (2 - (-10)))",
+  "explanation": [
+   "Underline the function in the question: it asks about $f$, but the table gives $g$.",
+   "Convert each row: $f(x) = g(x) \\cdot (x + 4)$. $f(-10) = 1 \\cdot (-6) = -6$, $f(-8) = 0$, $f(2) = 5 \\cdot 6 = 30$.",
+   "Slope: $\\frac{30 - 0}{2 - (-8)} = 3$. So $f(x) = 3(x + 8) = 3x + 24$.",
+   "$y$-intercept: $(0, 24)$.",
+   "Desmos way: make a table of $x$ and $g(x)\\cdot(x+4)$, then run a linear regression $y_1 \\sim mx_1 + b$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q20",
+   "trap_answer": "B",
+   "trap": "Answered for the wrong function (g instead of f). The table gives g; the question asks about f.",
+   "lesson": "Before computing, underline WHICH function the question asks about. Convert the table: f(x) = g(x)·(x + 3) for each row, then find the line."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q21",
+  "modeled_on": "bb-pt6-math-m2-q21",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A circle has center O, and points P and R lie on the circle. Segments PT and RT are tangent to the circle at points P and R, respectively. If the radius of the circle is 33 millimeters and the perimeter of quadrilateral OPTR is 178 millimeters, what is the distance, in millimeters, between points O and T?",
+  "figure": {
+   "kind": "shape",
+   "hidden": true,
+   "points": {
+    "O": [
+     0,
+     0
+    ],
+    "P": [
+     16.8,
+     28.4
+    ],
+    "R": [
+     16.8,
+     -28.4
+    ],
+    "T": [
+     65,
+     0
+    ]
+   },
+   "segments": [
+    [
+     "O",
+     "P"
+    ],
+    [
+     "O",
+     "R"
+    ],
+    [
+     "P",
+     "T"
+    ],
+    [
+     "R",
+     "T"
+    ]
+   ],
+   "labels": [],
+   "circles": [
+    {
+     "c": [
+      0,
+      0
+     ],
+     "r": 33
+    }
+   ],
+   "right_angles": [
+    "P",
+    "R"
+   ]
+  },
+  "choices": [
+   "$33$",
+   "$56$",
+   "$65$",
+   "$89$"
+  ],
+  "values": [
+   "33",
+   "56",
+   "65",
+   "89"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That is the radius, $OP$. The question asks for $OT$.",
+   "B": "That is the tangent length $PT$. $OT$ is the hypotenuse of the right triangle $OPT$.",
+   "C": "Correct. $PT = RT = \\frac{178 - 2 \\cdot 33}{2} = 56$, and $OT = \\sqrt{56^2 + 33^2} = 65$.",
+   "D": "Added the two legs: $33 + 56 = 89$. The hypotenuse is $\\sqrt{33^2 + 56^2}$, not $33 + 56$."
+  },
+  "check": "sqrt(((178 - 2 * 33) / 2) ** 2 + 33 ** 2)",
+  "explanation": [
+   "Two tangents from one point are equal: $PT = RT = t$. Radii: $OP = OR = 33$.",
+   "Perimeter: $33 + 33 + 2t = 178$, so $t = 56$.",
+   "A tangent is perpendicular to the radius, so triangle $OPT$ has a right angle at $P$.",
+   "$OT = \\sqrt{56^2 + 33^2} = \\sqrt{4225} = 65$.",
+   "60-second version: perimeter → tangent (56) → Pythagoras (65). Use the calculator for the squares."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q21",
+   "trap_answer": null,
+   "trap": "Not answered (time). Two facts needed: two tangents from one point are equal; tangent ⟂ radius at the point of tangency.",
+   "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers."
+  }
+ },
+ {
+  "id": "pt6-replay-math-m2-q22",
+  "modeled_on": "bb-pt6-math-m2-q22",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = ax^2 + bx + c$, where $a$, $b$, and $c$ are constants. The graph of $y = f(x)$ in the $xy$-plane passes through the points $(5, 0)$ and $(-2, 0)$. If $a$ is an integer greater than $1$, which of the following could be the value of $a + b$?",
+  "choices": [
+   "$-3$",
+   "$-2$",
+   "$6$",
+   "$-8$"
+  ],
+  "values": [
+   "-3",
+   "-2",
+   "6",
+   "-8"
+  ],
+  "answer": "D",
+  "accepts": "And(Eq(Mod(v, 2), 0), v <= -4)",
+  "rationales": {
+   "A": "Impossible: $a + b = -2a$ is always even, and $-3$ is odd.",
+   "B": "Needs $a = 1$, but $a$ must be greater than 1.",
+   "C": "Needs $a = -3$, but $a$ must be a positive integer greater than 1.",
+   "D": "Correct. $a + b = -2a$; with $a = 4$, $a + b = -8$."
+  },
+  "check": "-2 * 4",
+  "explanation": [
+   "Zeros 5 and −2 give the factored form $f(x) = a(x - 5)(x + 2)$.",
+   "Expand: $a(x^2 - 3x - 10)$, so $b = -3a$.",
+   "$a + b = a - 3a = -2a$. With $a \\ge 2$: $-4, -6, -8, \\dots$",
+   "Only $-8$ is on the list ($a = 4$).",
+   "60-second version: write $b$ in terms of $a$ first; then test each choice against $-2a$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q22",
+   "trap_answer": null,
+   "trap": "Not answered (time). Trap option −3 corresponds to a = 1 (not allowed).",
+   "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a."
+  }
+ }
+]
