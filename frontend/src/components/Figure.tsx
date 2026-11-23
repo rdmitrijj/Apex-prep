@@ -211,7 +211,7 @@ function BoxPlots({ spec, title }: { spec: Extract<FigureSpec, { kind: "boxplot"
           );
         })}
         <line x1={X(spec.axis[0])} x2={X(spec.axis[1])} y1={h - M.b + 4} y2={h - M.b + 4} className="stroke-slate-700" />
-        {Array.from({ length: spec.axis[1] - spec.axis[0] + 1 }, (_, k) => spec.axis[0] + k).map((v) => (
+        {ticks(spec.axis).map((v) => (
           <g key={v} className="text-[11px]">
             <line x1={X(v)} x2={X(v)} y1={h - M.b} y2={h - M.b + 8} className="stroke-slate-700" />
             <text x={X(v)} y={h - M.b + 20} textAnchor="middle" className="fill-slate-600">{v}</text>

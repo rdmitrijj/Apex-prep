@@ -8,8 +8,19 @@ import { Session } from "./Drill";
 
 const card = "rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200";
 const btn = "rounded-md border border-brand-700 px-3 py-1 text-sm text-brand-700 hover:bg-brand-50";
-type Part = "rw" | "math" | "all";
-const PARTS: Record<Part, string> = { rw: "R&W (25)", math: "Math (10)", all: "All 35" };
+// Practice sets: replay twins by section, and Twins+ (twin 2 + twin 3 side by side, or the 60-second versions).
+const PARTS = {
+  rw: { label: "R&W (25)", query: "?section=rw" },
+  math: { label: "Math (10)", query: "?section=math" },
+  all: { label: "All 35", query: "" },
+  twinsrw: { label: "R&W twins (50)", query: "?section=rw&kind=twins" },
+  twinsmath: { label: "Math twins (20)", query: "?section=math&kind=twins" },
+  speed: { label: "60-second versions (4)", query: "?kind=speed" },
+};
+type Part = keyof typeof PARTS;
+const REPLAY: Part[] = ["rw", "math", "all"];
+const TWINS: Part[] = ["twinsrw", "twinsmath", "speed"];
+const isPart = (p: string | null): p is Part => p !== null && p in PARTS;
 const TESTS = [
   { name: "PT4", date: "2026-10-01" },
   { name: "PT5", date: "2026-11-11" },
@@ -64,7 +75,7 @@ function Overview() {
         <h2 className="font-semibold">Practice</h2>
         <p className="mb-3 text-sm text-slate-600">Instant feedback after each answer. If you fall into the same trap as in PT6, you'll see it.</p>
         <div className="flex flex-wrap gap-2">
-          {(Object.keys(PARTS) as Part[]).map((p) => <Link key={p} to={`/pt6?practice=${p}`} className={btn}>{PARTS[p]}</Link>)}
+          {REPLAY.map((p) => <Link key={p} to={`/pt6?practice=${p}`} className={btn}>{PARTS[p].label}</Link>)}
         </div>
       </section>
       <section className={card}>
@@ -76,13 +87,29 @@ function Overview() {
           <Link to="/triage?replay=both" className={btn}>Both</Link>
         </div>
       </section>
+      <section className={card}>
+        <h2 className="font-semibold">Twins+</h2>
+        <p className="mb-3 text-sm text-slate-600">
+          Two more twins for every mistake: twin 2 is the same level with a new topic and a new answer letter; twin 3 is harder (longer text, an extra step). The 60-second versions show the first step of the four Math questions you left blank, to train speed.
+        </p>
+        <p className="mb-1 text-sm font-medium">Practice</p>
+        <div className="mb-3 flex flex-wrap gap-2">
+          {TWINS.map((p) => <Link key={p} to={`/pt6?practice=${p}`} className={btn}>{PARTS[p].label}</Link>)}
+        </div>
+        <p className="mb-1 text-sm font-medium">Timed</p>
+        <div className="flex flex-wrap gap-2">
+          <Link to="/triage?replay=twin2rw" className={btn}>R&W twin 2 (25 in 30 min)</Link>
+          <Link to="/triage?replay=twin3rw" className={btn}>R&W twin 3 (25 in 32 min)</Link>
+          <Link to="/triage?replay=twinsmath" className={btn}>Math (20 in 32 min)</Link>
+        </div>
+      </section>
       <p className="text-sm text-slate-600">Your 35 PT6 mistakes, with the trap and the lesson for each, are in <Link to="/mistakes" className="underline">Mistakes</Link>.</p>
     </div>
   );
 }
 
 function Practice({ part, onDone }: { part: Part; onDone: () => void }) {
-  const list = useQuery({ queryKey: ["pt6-replay", part], queryFn: () => api<Question[]>(`/pt6/replay${part === "all" ? "" : `?section=${part}`}`) });
+  const list = useQuery({ queryKey: ["pt6-replay", part], queryFn: () => api<Question[]>(`/pt6/replay${PARTS[part].query}`) });
   if (list.isPending) return <p className="text-slate-500">Loading…</p>;
   if (list.isError || !list.data.length) return <p role="alert" className="text-red-700">Couldn't load the replay questions.</p>;
   const qs = list.data;
@@ -108,7 +135,7 @@ export function Pt6() {
   };
   return (
     <Shell>
-      {part === "rw" || part === "math" || part === "all" ? <Practice key={part} part={part} onDone={back} /> : <Overview />}
+      {isPart(part) ? <Practice key={part} part={part} onDone={back} /> : <Overview />}
     </Shell>
   );
 }

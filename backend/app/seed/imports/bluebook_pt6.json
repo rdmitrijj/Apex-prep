@@ -19,7 +19,9 @@
    "lesson": "Find the clue sentence ('drawing from memories…') and predict your own word before reading the options.",
    "miss_reason": "guess",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q01"
+    "pt6-replay-rw-m1-q01",
+    "pt6-twin2-rw-m1-q01",
+    "pt6-twin3-rw-m1-q01"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 1"
   },
@@ -38,7 +40,9 @@
    "lesson": "'Disproving the misconception that X is ___' + evidence of variety → the blank means 'uniform / homogeneous'. Predict the antonym of the evidence.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q02"
+    "pt6-replay-rw-m1-q02",
+    "pt6-twin2-rw-m1-q02",
+    "pt6-twin3-rw-m1-q02"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 2"
   },
@@ -57,7 +61,9 @@
    "lesson": "The part after the colon defines the blank. 'Seven standard deviations higher' = size → scale/magnitude.",
    "miss_reason": "guess",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q03"
+    "pt6-replay-rw-m1-q03",
+    "pt6-twin2-rw-m1-q03",
+    "pt6-twin3-rw-m1-q03"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 3"
   },
@@ -76,7 +82,9 @@
    "lesson": "In 'since X tends to ___ Y' check the direction: does the result make sense if the word means increase or decrease?",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q04"
+    "pt6-replay-rw-m1-q04",
+    "pt6-twin2-rw-m1-q04",
+    "pt6-twin3-rw-m1-q04"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 4"
   },
@@ -95,7 +103,9 @@
    "lesson": "Main purpose = what EVERY sentence serves. Repeated detail (a plan, keeps going even when hard) = determination.",
    "miss_reason": "guess",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q05"
+    "pt6-replay-rw-m1-q05",
+    "pt6-twin2-rw-m1-q05",
+    "pt6-twin3-rw-m1-q05"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 5"
   },
@@ -114,7 +124,9 @@
    "lesson": "Main purpose usually sits on the 'however' turn: appearance (effortless) vs reality (preparation). Reject options with words the text never supports (unique, first, only, most).",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q07"
+    "pt6-replay-rw-m1-q07",
+    "pt6-twin2-rw-m1-q07",
+    "pt6-twin3-rw-m1-q07"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 7"
   },
@@ -133,7 +145,9 @@
    "lesson": "Cross-text: find exactly what Text 2 doubts. If it questions the evidence itself → 'rests on an assumption that isn't supported'. Match the strength of the attitude (skeptical ≠ 'plausible').",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q08"
+    "pt6-replay-rw-m1-q08",
+    "pt6-twin2-rw-m1-q08",
+    "pt6-twin3-rw-m1-q08"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 8"
   },
@@ -152,7 +166,9 @@
    "lesson": "Claim says 'mixed / ambivalent / both'? → the quote must contain two opposite attitudes, usually joined by 'but / all but / yet / although'.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q11"
+    "pt6-replay-rw-m1-q11",
+    "pt6-twin2-rw-m1-q11",
+    "pt6-twin3-rw-m1-q11"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 11"
   },
@@ -171,7 +187,9 @@
    "lesson": "Inference = the smallest step that connects ALL the facts given (similarity + settlement history → origin). Reject future predictions and reversed causation.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m1-q14"
+    "pt6-replay-rw-m1-q14",
+    "pt6-twin2-rw-m1-q14",
+    "pt6-twin3-rw-m1-q14"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 1 → Question 14"
   },
@@ -190,7 +208,9 @@
    "lesson": "Test each option by rewriting: 'His rejection of X is shown in the books' ✓. 'His rejection is examined by the books' ✗.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q02"
+    "pt6-replay-rw-m2-q02",
+    "pt6-twin2-rw-m2-q02",
+    "pt6-twin3-rw-m2-q02"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 2"
   },
@@ -209,7 +229,9 @@
    "lesson": "Decide first: does the action fix or worsen the problem in the sentence? Fix → redress/remedy/rectify; worsen → exacerbate/aggravate.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q03"
+    "pt6-replay-rw-m2-q03",
+    "pt6-twin2-rw-m2-q03",
+    "pt6-twin3-rw-m2-q03"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 3"
   },
@@ -228,7 +250,9 @@
    "lesson": "For 'as used in the text', replace the word with each option and imagine the scene. Crowd + carts in front of a car = resisting/blocking.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q04"
+    "pt6-replay-rw-m2-q04",
+    "pt6-twin2-rw-m2-q04",
+    "pt6-twin3-rw-m2-q04"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 4"
   },
@@ -247,7 +271,9 @@
    "lesson": "Function questions: describe what the sentence does (sets up the common view that is then challenged). Reject options that claim more than the text says happened.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q06"
+    "pt6-replay-rw-m2-q06",
+    "pt6-twin2-rw-m2-q06",
+    "pt6-twin3-rw-m2-q06"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 6"
   },
@@ -266,7 +292,9 @@
    "lesson": "If X → (probably) Y, you cannot conclude not-X → not-Y. Pick the option that keeps BOTH conditions (rocky vs mini-Neptune).",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q09"
+    "pt6-replay-rw-m2-q09",
+    "pt6-twin2-rw-m2-q09",
+    "pt6-twin3-rw-m2-q09"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 9"
   },
@@ -285,7 +313,9 @@
    "lesson": "Translate the claim into an exact comparison first: future-with-help vs present-without-help. Then find the option that makes THAT comparison for both cases (moderate ✓, extreme ✗).",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q11"
+    "pt6-replay-rw-m2-q11",
+    "pt6-twin2-rw-m2-q11",
+    "pt6-twin3-rw-m2-q11"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 11"
   },
@@ -304,7 +334,9 @@
    "lesson": "Restate the hypothesis as cause → effect (TMAO → water resists compression). The support must show that effect directly, in the right direction, with/without comparison.",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q12"
+    "pt6-replay-rw-m2-q12",
+    "pt6-twin2-rw-m2-q12",
+    "pt6-twin3-rw-m2-q12"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 12"
   },
@@ -323,7 +355,9 @@
    "lesson": "Key words: 'sensitive to / depends on X' → the answer must compare two values of X. Also match the variable (irrigation ≠ aquifer).",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q13"
+    "pt6-replay-rw-m2-q13",
+    "pt6-twin2-rw-m2-q13",
+    "pt6-twin3-rw-m2-q13"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 13"
   },
@@ -342,7 +376,9 @@
    "lesson": "Completion questions: check each option against ALL conditions in the setup (captive only + new + purposeless + low engagement). Only one option meets every condition.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q14"
+    "pt6-replay-rw-m2-q14",
+    "pt6-twin2-rw-m2-q14",
+    "pt6-twin3-rw-m2-q14"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 14"
   },
@@ -361,7 +397,9 @@
    "lesson": "Count independent clauses. Two complete sentences need a period/semicolon/comma+FANBOYS. A sentence CAN start with 'Because…, main clause.'",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q16"
+    "pt6-replay-rw-m2-q16",
+    "pt6-twin2-rw-m2-q16",
+    "pt6-twin3-rw-m2-q16"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 16"
   },
@@ -380,7 +418,9 @@
    "lesson": "Title + name = no punctuation ('physicist Lise Meitner'). A comma is used only if the name comes after 'the/a' + a unique identifier ('his wife, Anna,').",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q17"
+    "pt6-replay-rw-m2-q17",
+    "pt6-twin2-rw-m2-q17",
+    "pt6-twin3-rw-m2-q17"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 17"
   },
@@ -399,7 +439,9 @@
    "lesson": "Find the main verb first. If one exists later in the sentence, the blank can't be another finite verb → use -ing / -ed phrase inside commas.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q19"
+    "pt6-replay-rw-m2-q19",
+    "pt6-twin2-rw-m2-q19",
+    "pt6-twin3-rw-m2-q19"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 19"
   },
@@ -418,7 +460,9 @@
    "lesson": "Ask: does sentence 2 follow FROM sentence 1 (therefore) or hold IN SPITE OF it (though / still / nevertheless)? Mid-sentence 'though' = 'however' in a softer position.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q21"
+    "pt6-replay-rw-m2-q21",
+    "pt6-twin2-rw-m2-q21",
+    "pt6-twin3-rw-m2-q21"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 21"
   },
@@ -437,7 +481,9 @@
    "lesson": "If sentence 2 repeats sentence 1 in simpler words (often defining jargon) → 'In other words / That is'.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q24"
+    "pt6-replay-rw-m2-q24",
+    "pt6-twin2-rw-m2-q24",
+    "pt6-twin3-rw-m2-q24"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 24"
   },
@@ -456,7 +502,9 @@
    "lesson": "Rhetorical synthesis takes ~40 s: read ONLY the goal, then pick the option that does exactly that. Never leave it blank — these are the fastest points at the end of a module.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q26"
+    "pt6-replay-rw-m2-q26",
+    "pt6-twin2-rw-m2-q26",
+    "pt6-twin3-rw-m2-q26"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 26"
   },
@@ -475,7 +523,9 @@
    "lesson": "'Generalization' = a statement about most/all, not one example. Find words like 'most', 'generally', 'typically'.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-rw-m2-q27"
+    "pt6-replay-rw-m2-q27",
+    "pt6-twin2-rw-m2-q27",
+    "pt6-twin3-rw-m2-q27"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Reading and Writing Module 2 → Question 27"
   },
@@ -494,7 +544,9 @@
    "lesson": "Estimate for population = (sample proportion) × (population size). Ask: 'Is my answer about the sample or the whole company?'",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-math-m1-q05"
+    "pt6-replay-math-m1-q05",
+    "pt6-twin2-math-m1-q05",
+    "pt6-twin3-math-m1-q05"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 1 → Question 5"
   },
@@ -513,7 +565,9 @@
    "lesson": "Box plot reading: write the 5 numbers (min, Q1, median, Q3, max) for each plot before calculating. Range = max − min; IQR = Q3 − Q1.",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-math-m1-q14"
+    "pt6-replay-math-m1-q14",
+    "pt6-twin2-math-m1-q14",
+    "pt6-twin3-math-m1-q14"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 1 → Question 14"
   },
@@ -532,7 +586,9 @@
    "lesson": "Write the correspondence from the angles: W↔Y, Q↔Q, X↔Z. Then sides: WQ↔YQ, WX↔YZ, QX↔QZ. Sanity check: the triangle with the smaller known side must have the smaller unknown side.",
    "miss_reason": "concept",
    "linked_practice_ids": [
-    "pt6-replay-math-m1-q19"
+    "pt6-replay-math-m1-q19",
+    "pt6-twin2-math-m1-q19",
+    "pt6-twin3-math-m1-q19"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 1 → Question 19"
   },
@@ -551,7 +607,9 @@
    "lesson": "List EVERY distinct zero of g (a squared factor still gives one zero), then solve 'inside = zero' for each. Check: the number of w-values = the number of distinct zeros.",
    "miss_reason": "careless",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q15"
+    "pt6-replay-math-m2-q15",
+    "pt6-twin2-math-m2-q15",
+    "pt6-twin3-math-m2-q15"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 15"
   },
@@ -570,7 +628,9 @@
    "lesson": "Build the 2×2 table first (type × height, totals). 'Given X' = only the X row/column is the denominator.",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q16"
+    "pt6-replay-math-m2-q16",
+    "pt6-twin2-math-m2-q16",
+    "pt6-twin3-math-m2-q16"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 16"
   },
@@ -589,7 +649,10 @@
    "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q17"
+    "pt6-replay-math-m2-q17",
+    "pt6-twin2-math-m2-q17",
+    "pt6-twin3-math-m2-q17",
+    "pt6-speed-math-m2-q17"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 17"
   },
@@ -608,7 +671,10 @@
    "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q19"
+    "pt6-replay-math-m2-q19",
+    "pt6-twin2-math-m2-q19",
+    "pt6-twin3-math-m2-q19",
+    "pt6-speed-math-m2-q19"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 19"
   },
@@ -627,7 +693,9 @@
    "lesson": "Before computing, underline WHICH function the question asks about. Convert the table: f(x) = g(x)·(x + 3) for each row, then find the line.",
    "miss_reason": "misread",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q20"
+    "pt6-replay-math-m2-q20",
+    "pt6-twin2-math-m2-q20",
+    "pt6-twin3-math-m2-q20"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 20"
   },
@@ -646,7 +714,10 @@
    "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q21"
+    "pt6-replay-math-m2-q21",
+    "pt6-twin2-math-m2-q21",
+    "pt6-twin3-math-m2-q21",
+    "pt6-speed-math-m2-q21"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 21"
   },
@@ -665,7 +736,10 @@
    "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a.",
    "miss_reason": "slow",
    "linked_practice_ids": [
-    "pt6-replay-math-m2-q22"
+    "pt6-replay-math-m2-q22",
+    "pt6-twin2-math-m2-q22",
+    "pt6-twin3-math-m2-q22",
+    "pt6-speed-math-m2-q22"
    ],
    "where_to_review": "Bluebook → Practice Test 6 → Math Module 2 → Question 22"
   }

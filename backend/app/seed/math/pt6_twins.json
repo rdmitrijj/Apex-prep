@@ -1,0 +1,1049 @@
+[
+ {
+  "id": "pt6-twin2-math-m1-q05",
+  "modeled_on": "bb-pt6-math-m1-q05",
+  "skill": "MATH.PSD.INFER.MOE",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A librarian selected 40 books at random from the 1,200 books in a library's history section. Of the books in the sample, 26 had been borrowed at least once in the past year. Based on this sample, which of the following is the best estimate of the number of books in the history section that had been borrowed at least once in the past year?",
+  "choices": [
+   "780",
+   "14",
+   "1,160",
+   "1,174"
+  ],
+  "values": [
+   "780",
+   "14",
+   "1160",
+   "1174"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $\\frac{26}{40} = 0.65$ of the sample, and $0.65 \\times 1{,}200 = 780$.",
+   "B": "Wrong group: $40 - 26 = 14$ counts sample books that were NOT borrowed. The question asks about the whole section.",
+   "C": "Wrong group: $1{,}200 - 40$ is the number of books not in the sample.",
+   "D": "Mixed numbers: $1{,}200 - 26$ subtracts a sample count from the population. Scale the proportion instead."
+  },
+  "check": "Rational(26, 40) * 1200",
+  "explanation": [
+   "Sample proportion: $\\frac{26}{40} = 0.65$.",
+   "Scale to the population: $0.65 \\times 1{,}200 = 780$.",
+   "Check the question: it asks about ALL 1,200 books, not the 40 in the sample.",
+   "Desmos way: type 26/40*1200."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q5 · Twin 2",
+   "trap_answer": "B",
+   "trap": "Careless reading: subtracted inside the sample instead of scaling the proportion to the population.",
+   "lesson": "Estimate for population = (sample proportion) × (population size). Ask: 'Is my answer about the sample or the whole company?'"
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m1-q05",
+  "modeled_on": "bb-pt6-math-m1-q05",
+  "skill": "MATH.PSD.INFER.MOE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A school has 960 students. A random sample of 48 of these students was surveyed, and 18 students in the sample said they walk to school. All other students in the sample said they do not walk to school. Based on the survey, which of the following is the best estimate of the number of students at the school who do NOT walk to school?",
+  "choices": [
+   "20",
+   "30",
+   "360",
+   "600"
+  ],
+  "values": [
+   "20",
+   "30",
+   "360",
+   "600"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Wrong number: $960 \\div 48 = 20$ is the scale factor, not an estimate of students.",
+   "B": "Wrong group: $48 - 18 = 30$ is the number of non-walkers in the SAMPLE. Scale it to the school.",
+   "C": "Wrong category: $\\frac{18}{48} \\times 960 = 360$ estimates the students who DO walk.",
+   "D": "Correct. Non-walkers in the sample: $48 - 18 = 30$. $\\frac{30}{48} \\times 960 = 600$."
+  },
+  "check": "Rational(48 - 18, 48) * 960",
+  "explanation": [
+   "Find the group the question asks about: students who do NOT walk.",
+   "In the sample: $48 - 18 = 30$ do not walk, so the proportion is $\\frac{30}{48} = 0.625$.",
+   "Scale to the school: $0.625 \\times 960 = 600$.",
+   "Two traps here: the sample count (30) and the other group (360)."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q5 · Twin 3",
+   "trap_answer": "B",
+   "trap": "Careless reading: subtracted inside the sample instead of scaling the proportion to the population.",
+   "lesson": "Estimate for population = (sample proportion) × (population size). Ask: 'Is my answer about the sample or the whole company?'"
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m1-q14",
+  "modeled_on": "bb-pt6-math-m1-q14",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "The box plots summarize the number of minutes that students in two groups practiced piano each day. What is the positive difference between the ranges of the two distributions?",
+  "figure": {
+   "kind": "boxplot",
+   "xlabel": "Minutes of practice per day",
+   "axis": [
+    0,
+    60
+   ],
+   "plots": [
+    {
+     "name": "Group P",
+     "min": 10,
+     "q1": 20,
+     "median": 25,
+     "q3": 35,
+     "max": 50
+    },
+    {
+     "name": "Group Q",
+     "min": 0,
+     "q1": 15,
+     "median": 30,
+     "q3": 40,
+     "max": 60
+    }
+   ]
+  },
+  "check": "Abs((60 - 0) - (50 - 10))",
+  "spr_answers": [
+   "20"
+  ],
+  "spr_entries": [
+   "20"
+  ],
+  "spr_traps": {
+   "10": "You used the boxes (IQR: 15 and 25) or only the maximums (50 and 60). The range uses both whisker ends.",
+   "5": "That is the difference of the medians, not of the ranges."
+  },
+  "explanation": [
+   "Write the five numbers. Group P: 10, 20, 25, 35, 50. Group Q: 0, 15, 30, 40, 60.",
+   "Range = max − min. P: $50 - 10 = 40$. Q: $60 - 0 = 60$.",
+   "Positive difference: $60 - 40 = 20$.",
+   "Careful: Group Q's whisker starts at 0. Read the whisker end, not the box."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q14 · Twin 2",
+   "trap_answer": "10",
+   "trap": "Range uses the WHISKER ENDS (min, max), not the box (Q1, Q3). Misreading a whisker that starts at 0.",
+   "lesson": "Box plot reading: write the 5 numbers (min, Q1, median, Q3, max) for each plot before calculating. Range = max − min; IQR = Q3 − Q1."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m1-q14",
+  "modeled_on": "bb-pt6-math-m1-q14",
+  "skill": "MATH.PSD.ONEVAR.SPREAD",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The box plots summarize the daily number of customers at two stores during one month. The range of the distribution for Store 1 is how many times the interquartile range of the distribution for Store 2?",
+  "figure": {
+   "kind": "boxplot",
+   "xlabel": "Customers per day",
+   "axis": [
+    0,
+    30
+   ],
+   "plots": [
+    {
+     "name": "Store 1",
+     "min": 2,
+     "q1": 6,
+     "median": 9,
+     "q3": 12,
+     "max": 26
+    },
+    {
+     "name": "Store 2",
+     "min": 4,
+     "q1": 10,
+     "median": 13,
+     "q3": 16,
+     "max": 28
+    }
+   ]
+  },
+  "check": "Rational(26 - 2, 16 - 10)",
+  "spr_answers": [
+   "4"
+  ],
+  "spr_entries": [
+   "4"
+  ],
+  "spr_traps": {
+   "1": "You compared the same measure twice: both IQRs are 6 and both ranges are 24. The question mixes them: range of Store 1 ÷ IQR of Store 2."
+  },
+  "explanation": [
+   "Store 1 range: max − min $= 26 - 2 = 24$ (whisker ends).",
+   "Store 2 IQR: Q3 − Q1 $= 16 - 10 = 6$ (box ends).",
+   "$24 \\div 6 = 4$.",
+   "Underline which measure goes with which store before you compute."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q14 · Twin 3",
+   "trap_answer": "1",
+   "trap": "Range uses the WHISKER ENDS (min, max), not the box (Q1, Q3). Misreading a whisker that starts at 0.",
+   "lesson": "Box plot reading: write the 5 numbers (min, Q1, median, Q3, max) for each plot before calculating. Range = max − min; IQR = Q3 − Q1."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m1-q19",
+  "modeled_on": "bb-pt6-math-m1-q19",
+  "skill": "MATH.GEO.LAT.SIMCONG",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "In the figure, segments $AD$ and $BE$ intersect at point $C$. Angle $B$ and angle $D$ each measure $b^\\circ$. $BC = 24$, $DC = 18$, $AB = 32$, and $AC = 36$. What is the length of segment $DE$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "A": [
+     -31.08,
+     18.17
+    ],
+    "B": [
+     -20.72,
+     -12.11
+    ],
+    "C": [
+     0,
+     0
+    ],
+    "D": [
+     15.54,
+     -9.08
+    ],
+    "E": [
+     23.31,
+     13.62
+    ]
+   },
+   "segments": [
+    [
+     "A",
+     "D"
+    ],
+    [
+     "B",
+     "E"
+    ],
+    [
+     "A",
+     "B"
+    ],
+    [
+     "D",
+     "E"
+    ]
+   ],
+   "labels": [
+    {
+     "at": [
+      -20.31,
+      -7.51
+     ],
+     "text": "b°"
+    },
+    {
+     "at": [
+      15.23,
+      -5.63
+     ],
+     "text": "b°"
+    }
+   ],
+   "note": "Note: Figure not drawn to scale."
+  },
+  "check": "Rational(32 * 18, 24)",
+  "spr_answers": [
+   "24"
+  ],
+  "spr_entries": [
+   "24"
+  ],
+  "spr_traps": {
+   "128/3": "Flipped ratio: $32 \\times 24 / 18$. Match sides by the equal angles: $B \\leftrightarrow D$, so $BC \\leftrightarrow DC$.",
+   "27": "That is $CE$, the side that matches $CA$. $DE$ matches $AB$."
+  },
+  "explanation": [
+   "Equal angles at $B$ and $D$, vertical angles at $C$: the triangles are similar.",
+   "Correspondence by angle: $B \\leftrightarrow D$, $C \\leftrightarrow C$, $A \\leftrightarrow E$. So $AB \\leftrightarrow ED$ and $BC \\leftrightarrow DC$.",
+   "$\\frac{DE}{AB} = \\frac{DC}{BC} = \\frac{18}{24}$, so $DE = 32 \\times \\frac{18}{24} = 24$.",
+   "Here the triangles are turned differently, so matching by position fails. $AC = 36$ is extra."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q19 · Twin 2",
+   "trap_answer": "128/3",
+   "trap": "Matching sides by position in the picture instead of by equal angles. Extra given length (XQ) as a distractor.",
+   "lesson": "Write the correspondence from the angles: W↔Y, Q↔Q, X↔Z. Then sides: WQ↔YQ, WX↔YZ, QX↔QZ. Sanity check: the triangle with the smaller known side must have the smaller unknown side."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m1-q19",
+  "modeled_on": "bb-pt6-math-m1-q19",
+  "skill": "MATH.GEO.LAT.SIMCONG",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "In the figure, segments $PS$ and $QR$ intersect at point $T$, and segment $PQ$ is parallel to segment $RS$. $PT = 12$, $TS = 20$, and $QR = 40$. What is the length of segment $QT$?",
+  "figure": {
+   "kind": "shape",
+   "points": {
+    "P": [
+     -3,
+     4
+    ],
+    "Q": [
+     -3,
+     -3
+    ],
+    "T": [
+     0,
+     0
+    ],
+    "R": [
+     5,
+     5
+    ],
+    "S": [
+     5,
+     -6.67
+    ]
+   },
+   "segments": [
+    [
+     "P",
+     "S"
+    ],
+    [
+     "Q",
+     "R"
+    ],
+    [
+     "P",
+     "Q"
+    ],
+    [
+     "R",
+     "S"
+    ]
+   ],
+   "labels": [],
+   "note": "Note: Figure not drawn to scale."
+  },
+  "check": "Rational(40 * 12, 12 + 20)",
+  "spr_answers": [
+   "15"
+  ],
+  "spr_entries": [
+   "15"
+  ],
+  "spr_traps": {
+   "25": "Flipped ratio: you matched $PT$ with $TR$. Parallel lines make $P \\leftrightarrow S$ and $Q \\leftrightarrow R$, so $QT \\leftrightarrow RT$ goes with $PT \\leftrightarrow ST$.",
+   "24": "You used $QR = 40$ as if it were $TR$. $QR$ is the whole segment: $QT + TR = 40$."
+  },
+  "explanation": [
+   "$PQ \\parallel RS$, so alternate angles are equal: $\\angle P = \\angle S$ and $\\angle Q = \\angle R$. Triangles $PQT$ and $SRT$ are similar.",
+   "Ratio: $\\frac{QT}{RT} = \\frac{PT}{ST} = \\frac{12}{20} = \\frac{3}{5}$.",
+   "$QR = QT + RT = 40$ is split $3 : 5$, so $QT = \\frac{3}{8} \\times 40 = 15$.",
+   "The extra step: $QR$ is the whole segment, not one side of a triangle."
+  ],
+  "replay": {
+   "label": "PT6 · Math M1 · Q19 · Twin 3",
+   "trap_answer": "25",
+   "trap": "Matching sides by position in the picture instead of by equal angles. Extra given length (XQ) as a distractor.",
+   "lesson": "Write the correspondence from the angles: W↔Y, Q↔Q, X↔Z. Then sides: WQ↔YQ, WX↔YZ, QX↔QZ. Sanity check: the triangle with the smaller known side must have the smaller unknown side."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q15",
+  "modeled_on": "bb-pt6-math-m2-q15",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The function $g$ is defined by $g(x) = (x - 2)^2(x + 7)(x - 1)$. If $g(3 - w) = 0$, where $w$ is a constant, what is the sum of all possible values of $w$?",
+  "check": "(3 - 2) + (3 - (-7)) + (3 - 1)",
+  "spr_answers": [
+   "13"
+  ],
+  "spr_entries": [
+   "13"
+  ],
+  "spr_traps": {
+   "12": "You forgot the zero from the squared factor $(x - 2)^2$: $3 - w = 2$ gives $w = 1$.",
+   "-4": "That is the sum of the zeros of $g$ (2, −7, 1). The question asks for the values of $w$.",
+   "-1": "Sign slip: $3 - w = -7$ gives $w = 10$, not $-4$."
+  },
+  "explanation": [
+   "Distinct zeros of $g$: $x = 2$ (squared factor, still one zero), $x = -7$, $x = 1$.",
+   "Set the input equal to each: $3 - w = 2$, $3 - w = -7$, $3 - w = 1$.",
+   "Solve: $w = 1$, $w = 10$, $w = 2$.",
+   "Sum: $1 + 10 + 2 = 13$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q15 · Twin 2",
+   "trap_answer": "12",
+   "trap": "Ignoring the root from the squared factor (x + 6)², and/or the sign when solving 7 − w = −6.",
+   "lesson": "List EVERY distinct zero of g (a squared factor still gives one zero), then solve 'inside = zero' for each. Check: the number of w-values = the number of distinct zeros."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q15",
+  "modeled_on": "bb-pt6-math-m2-q15",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "The function $p$ is defined by $p(x) = (2x - 3)(x + 4)^2(x - 6)$. If $p(2k + 1) = 0$, where $k$ is a constant, what is the sum of all possible values of $k$?",
+  "check": "(Rational(3, 2) - 1) / 2 + (-4 - 1) / Integer(2) + (6 - 1) / Integer(2)",
+  "spr_answers": [
+   "1/4"
+  ],
+  "spr_entries": [
+   "1/4",
+   ".25"
+  ],
+  "spr_traps": {
+   "11/4": "You forgot the zero from the squared factor $(x + 4)^2$: $2k + 1 = -4$ gives $k = -\\frac{5}{2}$.",
+   "1/2": "You subtracted 1 but forgot to divide by 2 when solving $2k + 1 = r$.",
+   "7/2": "That is the sum of the zeros of $p$, not the values of $k$."
+  },
+  "explanation": [
+   "Distinct zeros of $p$: $2x - 3 = 0 \\Rightarrow x = \\frac{3}{2}$; $x = -4$ (squared); $x = 6$.",
+   "Set $2k + 1$ equal to each zero and solve $k = \\frac{r - 1}{2}$.",
+   "$k = \\frac{1}{4}$, $k = -\\frac{5}{2}$, $k = \\frac{5}{2}$.",
+   "Sum: $\\frac{1}{4} - \\frac{5}{2} + \\frac{5}{2} = \\frac{1}{4}$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q15 · Twin 3",
+   "trap_answer": "11/4",
+   "trap": "Ignoring the root from the squared factor (x + 6)², and/or the sign when solving 7 − w = −6.",
+   "lesson": "List EVERY distinct zero of g (a squared factor still gives one zero), then solve 'inside = zero' for each. Check: the number of w-values = the number of distinct zeros."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q16",
+  "modeled_on": "bb-pt6-math-m2-q16",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A bookstore has 5 shelves of novels and 4 shelves of biographies. Each shelf of novels holds 18 paperbacks and 6 hardcovers. Each shelf of biographies holds 10 paperbacks and 14 hardcovers. A book from these shelves will be selected at random. What is the probability of selecting a biography, given that the book is a hardcover?",
+  "choices": [
+   "$\\frac{7}{108}$",
+   "$\\frac{28}{43}$",
+   "$\\frac{7}{27}$",
+   "$\\frac{7}{12}$"
+  ],
+  "values": [
+   "7/108",
+   "28/43",
+   "7/27",
+   "7/12"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "One shelf over everything: 14 hardcovers on ONE biography shelf divided by all 216 books.",
+   "B": "Correct. Hardcovers: $5 \\times 6 + 4 \\times 14 = 86$. Hardcover biographies: 56. $\\frac{56}{86} = \\frac{28}{43}$.",
+   "C": "Wrong denominator: 56 hardcover biographies over ALL 216 books. 'Given that it is a hardcover' means divide by the hardcovers.",
+   "D": "Reversed condition: $\\frac{56}{96}$ is the probability that a biography is a hardcover."
+  },
+  "check": "Rational(4 * 14, 5 * 6 + 4 * 14)",
+  "explanation": [
+   "Table: novels $5 \\times 18 = 90$ paperback, $5 \\times 6 = 30$ hardcover; biographies $4 \\times 10 = 40$ paperback, $4 \\times 14 = 56$ hardcover.",
+   "'Given that the book is a hardcover': denominator = all hardcovers, $30 + 56 = 86$.",
+   "Biographies among them: 56. $\\frac{56}{86} = \\frac{28}{43}$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q16 · Twin 2",
+   "trap_answer": "C",
+   "trap": "'Given that the tree is tall' → the denominator is ALL TALL trees (93), not all trees and not one row.",
+   "lesson": "Build the 2×2 table first (type × height, totals). 'Given X' = only the X row/column is the denominator."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q16",
+  "modeled_on": "bb-pt6-math-m2-q16",
+  "skill": "MATH.PSD.PROB.COND",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A farm has 6 rows of apple trees, 4 rows of pear trees, and 2 rows of plum trees. Each row of apple trees has 9 trees with fruit ready to pick and 5 trees with fruit not ready. Each row of pear trees has 7 trees ready and 8 not ready. Each row of plum trees has 12 trees ready and 3 not ready. A tree from these rows will be selected at random. What is the probability that the tree is a pear tree or a plum tree, given that its fruit is not ready to pick?",
+  "choices": [
+   "$\\frac{19}{34}$",
+   "$\\frac{19}{87}$",
+   "$\\frac{19}{45}$",
+   "$\\frac{8}{17}$"
+  ],
+  "values": [
+   "19/34",
+   "19/87",
+   "19/45",
+   "8/17"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. Not ready: $30 + 32 + 6 = 68$. Pear or plum among them: $32 + 6 = 38$. $\\frac{38}{68} = \\frac{19}{34}$.",
+   "B": "Wrong denominator: 38 over ALL 174 trees. 'Given that its fruit is not ready' means divide by the 68 not-ready trees.",
+   "C": "Reversed condition: $\\frac{38}{90}$ is the probability that a pear or plum tree is not ready.",
+   "D": "Pear only: $\\frac{32}{68}$ leaves out the plum trees."
+  },
+  "check": "Rational(4 * 8 + 2 * 3, 6 * 5 + 4 * 8 + 2 * 3)",
+  "explanation": [
+   "Not ready: apple $6 \\times 5 = 30$, pear $4 \\times 8 = 32$, plum $2 \\times 3 = 6$. Total 68.",
+   "'Given that its fruit is not ready': the denominator is 68.",
+   "Pear OR plum among them: $32 + 6 = 38$. $\\frac{38}{68} = \\frac{19}{34}$.",
+   "Extra step here: three tree types and an 'or'."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q16 · Twin 3",
+   "trap_answer": "B",
+   "trap": "'Given that the tree is tall' → the denominator is ALL TALL trees (93), not all trees and not one row.",
+   "lesson": "Build the 2×2 table first (type × height, totals). 'Given X' = only the X row/column is the denominator."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q17",
+  "modeled_on": "bb-pt6-math-m2-q17",
+  "skill": "MATH.GEO.RTT.PYTH",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A rectangle is inscribed in a circle. The longer side of the rectangle is $\\sqrt{3}$ times the length of the shorter side, and the area of the rectangle is $81\\sqrt{3}$ square centimeters. What is the radius of the circle, in centimeters?",
+  "check": "sqrt(81)",
+  "spr_answers": [
+   "9"
+  ],
+  "spr_entries": [
+   "9"
+  ],
+  "spr_traps": {
+   "18": "That is the diameter (the diagonal). The radius is half of it."
+  },
+  "explanation": [
+   "Sides $s$ and $s\\sqrt{3}$: area $s^2\\sqrt{3} = 81\\sqrt{3}$, so $s = 9$.",
+   "Sides $s$ and $s\\sqrt{3}$ make a 30-60-90 triangle with the diagonal, so the diagonal is $2s = 18$.",
+   "The diagonal of an inscribed rectangle is a diameter: diameter 18, radius 9."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q17 · Twin 2",
+   "trap_answer": null,
+   "trap": "Not answered (time). Key facts: inscribed rectangle's diagonal = diameter; 'hypotenuse = 2 × short leg' = 30-60-90 triangle.",
+   "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q17",
+  "modeled_on": "bb-pt6-math-m2-q17",
+  "skill": "MATH.GEO.RTT.PYTH",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "A square is inscribed in a circle. The area of the circle is $50\\pi$ square inches. What is the perimeter of the square, in inches?",
+  "check": "4 * 2 * sqrt(50) / sqrt(2)",
+  "spr_answers": [
+   "40"
+  ],
+  "spr_entries": [
+   "40"
+  ],
+  "spr_traps": {
+   "10": "That is one side of the square. The question asks for the perimeter: $4 \\times 10 = 40$."
+  },
+  "explanation": [
+   "Circle: $\\pi r^2 = 50\\pi$, so $r^2 = 50$ and $r = 5\\sqrt{2}$. Diameter $= 10\\sqrt{2}$.",
+   "The diagonal of an inscribed square is a diameter: diagonal $= 10\\sqrt{2}$.",
+   "45-45-90: side $= \\frac{\\text{diagonal}}{\\sqrt{2}} = 10$.",
+   "Perimeter $= 4 \\times 10 = 40$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q17 · Twin 3",
+   "trap_answer": null,
+   "trap": "Not answered (time). Key facts: inscribed rectangle's diagonal = diameter; 'hypotenuse = 2 × short leg' = 30-60-90 triangle.",
+   "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3."
+  }
+ },
+ {
+  "id": "pt6-speed-math-m2-q17",
+  "modeled_on": "bb-pt6-math-m2-q17",
+  "skill": "MATH.GEO.RTT.PYTH",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "A rectangle is inscribed in a circle, and the diagonal of the rectangle is twice the length of its shortest side. The area of the rectangle is $324\\sqrt{3}$ square units. First step, done for you: the sides are $s$ and $s\\sqrt{3}$, so $s^2\\sqrt{3} = 324\\sqrt{3}$. What is the length of the diameter of the circle?",
+  "check": "2 * sqrt(324)",
+  "spr_answers": [
+   "36"
+  ],
+  "spr_entries": [
+   "36"
+  ],
+  "spr_traps": {
+   "18": "That is the short side $s$. The diameter is the diagonal: $2s = 36$."
+  },
+  "explanation": [
+   "$s^2 = 324$, so $s = 18$.",
+   "Diagonal $= 2s = 36$, and the diagonal is the diameter.",
+   "Target: under 60 seconds. Spot '$\\sqrt{3}$ in the area' → sides $s$, $s\\sqrt{3}$ → go."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q17 · 60-second",
+   "trap_answer": null,
+   "trap": "Not answered (time). Key facts: inscribed rectangle's diagonal = diameter; 'hypotenuse = 2 × short leg' = 30-60-90 triangle.",
+   "lesson": "Hypotenuse = 2 × shorter leg → sides x, x√3, 2x. √3 in the area is a hint that the sides are x and x√3."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q19",
+  "modeled_on": "bb-pt6-math-m2-q19",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$\\frac{3}{4}x + \\frac{1}{2}y = \\frac{2}{3} + \\frac{1}{4}x$$ $$\\frac{5}{2}x - py = \\frac{7}{3} + \\frac{1}{2}y$$ In the given system of equations, $p$ is a constant. If the system has no solution, what is the value of $p$?",
+  "check": "-(Rational(5, 2) * Rational(1, 2) / Rational(1, 2)) - Rational(1, 2)",
+  "spr_answers": [
+   "-3"
+  ],
+  "spr_entries": [
+   "-3"
+  ],
+  "spr_traps": {
+   "-5/2": "You forgot the $y$-term on the right side of the second equation.",
+   "-13/6": "You forgot the $x$-term on the right side of the first equation."
+  },
+  "explanation": [
+   "First equation: $\\frac{3}{4}x - \\frac{1}{4}x + \\frac{1}{2}y = \\frac{2}{3}$, so $x + y = \\frac{4}{3}$.",
+   "Second equation: $\\frac{5}{2}x - (p + \\frac{1}{2})y = \\frac{7}{3}$.",
+   "No solution: proportional coefficients. $\\frac{5/2}{1} = \\frac{-(p + 1/2)}{1}$, so $p + \\frac{1}{2} = -\\frac{5}{2}$ and $p = -3$.",
+   "Check the constants: $\\frac{5}{2} \\cdot \\frac{4}{3} = \\frac{10}{3} \\neq \\frac{7}{3}$, so no solution.",
+   "Desmos way: graph both with a slider for $p$; find where the lines are parallel."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q19 · Twin 2",
+   "trap_answer": null,
+   "trap": "Not answered (time). Same idea as PT5 Q15 (mastered!) but hidden behind fractions and y on both sides.",
+   "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q19",
+  "modeled_on": "bb-pt6-math-m2-q19",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "hard",
+  "format": "spr",
+  "stem": "$$\\frac{2}{3}x - \\frac{1}{6}y = \\frac{5}{2} - \\frac{1}{3}y$$ $$ax + \\frac{1}{2}y = b + \\frac{1}{4}y$$ In the given system of equations, $a$ and $b$ are constants. If the system has infinitely many solutions, what is the value of $a + b$?",
+  "check": "1 + Rational(15, 4)",
+  "spr_answers": [
+   "19/4"
+  ],
+  "spr_entries": [
+   "19/4",
+   "4.75"
+  ],
+  "spr_traps": {
+   "15/4": "That is $b$ alone. The question asks for $a + b$."
+  },
+  "explanation": [
+   "First equation: move $-\\frac{1}{3}y$: $\\frac{2}{3}x + \\frac{1}{6}y = \\frac{5}{2}$. Times 6: $4x + y = 15$.",
+   "Second equation: $ax + \\frac{1}{4}y = b$. Times 4: $4ax + y = 4b$.",
+   "Infinitely many solutions: the same line. $4a = 4$ and $4b = 15$, so $a = 1$, $b = \\frac{15}{4}$.",
+   "$a + b = \\frac{19}{4}$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q19 · Twin 3",
+   "trap_answer": null,
+   "trap": "Not answered (time). Same idea as PT5 Q15 (mastered!) but hidden behind fractions and y on both sides.",
+   "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel."
+  }
+ },
+ {
+  "id": "pt6-speed-math-m2-q19",
+  "modeled_on": "bb-pt6-math-m2-q19",
+  "skill": "MATH.ALG.SYS.NSOL",
+  "difficulty": "medium",
+  "format": "spr",
+  "stem": "$$\\frac{3}{5}x - \\frac{1}{2}y = \\frac{6}{5} + \\frac{3}{10}y$$ $$2x + 7 = py + 10$$ In the given system of equations, $p$ is a constant. First step, done for you: the first equation becomes $3x - 4y = 6$ and the second becomes $2x - py = 3$. If the system has no solution, what is the value of $p$?",
+  "check": "Rational(2, 3) * 4",
+  "spr_answers": [
+   "8/3"
+  ],
+  "spr_entries": [
+   "8/3",
+   "2.666",
+   "2.667"
+  ],
+  "spr_traps": {
+   "6": "You matched the coefficients the wrong way round: $\\frac{2}{3} = \\frac{p}{4}$, not $\\frac{3}{2} = \\frac{p}{4}$."
+  },
+  "explanation": [
+   "No solution: $\\frac{2}{3} = \\frac{p}{4}$ (x-ratio = y-ratio), so $p = \\frac{8}{3}$.",
+   "Constants: $6 \\cdot \\frac{2}{3} = 4 \\neq 3$, so the lines are parallel, not the same.",
+   "Target: under 60 seconds once the equations are in $Ax + By = C$ form."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q19 · 60-second",
+   "trap_answer": null,
+   "trap": "Not answered (time). Same idea as PT5 Q15 (mastered!) but hidden behind fractions and y on both sides.",
+   "lesson": "Step 1: collect y-terms on one side (y appears twice!). Step 2: clear fractions. Step 3: proportional x and y coefficients, different constants. Desmos way: type both equations with a slider p and find where lines are parallel."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q20",
+  "modeled_on": "bb-pt6-math-m2-q20",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x) = \\frac{f(x)}{x - 2}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$g(x)$"
+   ],
+   "rows": [
+    [
+     "$-4$",
+     "$1$"
+    ],
+    [
+     "$4$",
+     "$9$"
+    ],
+    [
+     "$6$",
+     "$6$"
+    ]
+   ]
+  },
+  "choices": [
+   "$(0, -3)$",
+   "$(0, -2)$",
+   "$(0, 6)$",
+   "$(0, 3)$"
+  ],
+  "values": [
+   "(0, -3)",
+   "(0, -2)",
+   "(0, 6)",
+   "(0, 3)"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "Wrong function: $(0, -3)$ is the $y$-intercept of $g$: $g(0) = \\frac{6}{-2} = -3$. The question asks about $f$.",
+   "B": "Wrong intercept: $-2$ is where $f$ crosses the $x$-axis, not its value at $x = 0$.",
+   "C": "Correct. $f(x) = g(x)(x - 2)$: $f(-4) = -6$, $f(4) = 18$, $f(6) = 24$. Slope 3, so $f(x) = 3x + 6$.",
+   "D": "Wrong feature: 3 is the slope of $f$."
+  },
+  "check": "Tuple(0, 9 * (4 - 2) - 4 * (6 * (6 - 2) - 9 * (4 - 2)) / (6 - 4))",
+  "explanation": [
+   "The table gives $g$; the question asks about $f$. Convert: $f(x) = g(x)(x - 2)$.",
+   "$f(-4) = 1 \\cdot (-6) = -6$, $f(4) = 9 \\cdot 2 = 18$, $f(6) = 6 \\cdot 4 = 24$.",
+   "Slope $\\frac{24 - 18}{6 - 4} = 3$; $f(x) = 3x + 6$.",
+   "$y$-intercept: $(0, 6)$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q20 · Twin 2",
+   "trap_answer": "A",
+   "trap": "Answered for the wrong function (g instead of f). The table gives g; the question asks about f.",
+   "lesson": "Before computing, underline WHICH function the question asks about. Convert the table: f(x) = g(x)·(x + 3) for each row, then find the line."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q20",
+  "modeled_on": "bb-pt6-math-m2-q20",
+  "skill": "MATH.ADV.NLF.RATRAD",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The table shows three values of $x$ and their corresponding values of $g(x)$, where $g(x) = \\frac{f(x)}{2x - 3}$ and $f$ is a linear function. What is the $y$-intercept of the graph of $y = f(x)$ in the $xy$-plane?",
+  "figure": {
+   "kind": "table",
+   "header": [
+    "$x$",
+    "$g(x)$"
+   ],
+   "rows": [
+    [
+     "$-6$",
+     "$0$"
+    ],
+    [
+     "$3$",
+     "$6$"
+    ],
+    [
+     "$6$",
+     "$\\frac{8}{3}$"
+    ]
+   ]
+  },
+  "choices": [
+   "$(0, -4)$",
+   "$(0, 2)$",
+   "$(0, -6)$",
+   "$(0, 12)$"
+  ],
+  "values": [
+   "(0, -4)",
+   "(0, 2)",
+   "(0, -6)",
+   "(0, 12)"
+  ],
+  "answer": "D",
+  "rationales": {
+   "A": "Wrong function: $g(0) = \\frac{12}{-3} = -4$ is the $y$-intercept of $g$, not $f$.",
+   "B": "Wrong feature: 2 is the slope of $f$.",
+   "C": "Wrong intercept: $-6$ is the $x$-intercept of $f$ (the row with $g = 0$).",
+   "D": "Correct. $f(x) = g(x)(2x - 3)$: $f(3) = 6 \\cdot 3 = 18$, $f(6) = \\frac{8}{3} \\cdot 9 = 24$. Slope 2, so $f(x) = 2x + 12$."
+  },
+  "check": "Tuple(0, 6 * (2 * 3 - 3) - 3 * (Rational(8, 3) * (2 * 6 - 3) - 6 * (2 * 3 - 3)) / (6 - 3))",
+  "explanation": [
+   "Convert each row: $f(x) = g(x) \\cdot (2x - 3)$.",
+   "$f(-6) = 0$, $f(3) = 6 \\cdot 3 = 18$, $f(6) = \\frac{8}{3} \\cdot 9 = 24$.",
+   "Slope $\\frac{24 - 18}{3} = 2$; $f(x) = 2(x + 6) = 2x + 12$.",
+   "$y$-intercept $(0, 12)$. Extra trap: the denominator is $2x - 3$, not $x - 3$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q20 · Twin 3",
+   "trap_answer": "A",
+   "trap": "Answered for the wrong function (g instead of f). The table gives g; the question asks about f.",
+   "lesson": "Before computing, underline WHICH function the question asks about. Convert the table: f(x) = g(x)·(x + 3) for each row, then find the line."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q21",
+  "modeled_on": "bb-pt6-math-m2-q21",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A circle has center $C$, and points $A$ and $B$ lie on the circle. Segments $PA$ and $PB$ are tangent to the circle at points $A$ and $B$, respectively. If the radius of the circle is 20 centimeters and the perimeter of quadrilateral $CAPB$ is 136 centimeters, what is the distance, in centimeters, between points $C$ and $P$?",
+  "choices": [
+   "$52$",
+   "$20$",
+   "$48$",
+   "$68$"
+  ],
+  "values": [
+   "52",
+   "20",
+   "48",
+   "68"
+  ],
+  "answer": "A",
+  "rationales": {
+   "A": "Correct. $PA = PB = \\frac{136 - 40}{2} = 48$, and $CP = \\sqrt{48^2 + 20^2} = 52$.",
+   "B": "That is the radius, $CA$.",
+   "C": "That is the tangent length $PA$. $CP$ is the hypotenuse.",
+   "D": "Added the legs: $20 + 48$. Use the Pythagorean theorem."
+  },
+  "check": "sqrt(((136 - 2 * 20) / 2) ** 2 + 20 ** 2)",
+  "explanation": [
+   "Equal tangents: $PA = PB = t$. Radii: 20 and 20.",
+   "Perimeter: $40 + 2t = 136$, so $t = 48$.",
+   "Radius ⟂ tangent: right angle at $A$. $CP = \\sqrt{48^2 + 20^2} = \\sqrt{2704} = 52$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q21 · Twin 2",
+   "trap_answer": null,
+   "trap": "Not answered (time). Two facts needed: two tangents from one point are equal; tangent ⟂ radius at the point of tangency.",
+   "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q21",
+  "modeled_on": "bb-pt6-math-m2-q21",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "A circle has center $O$ and radius 9. Segments $PA$ and $PB$ are tangent to the circle at points $A$ and $B$, respectively, and the measure of angle $APB$ is $60^\\circ$. What is the length of segment $OP$?",
+  "choices": [
+   "$9$",
+   "$18$",
+   "$9\\sqrt{3}$",
+   "$27$"
+  ],
+  "values": [
+   "9",
+   "18",
+   "9*sqrt(3)",
+   "27"
+  ],
+  "answer": "B",
+  "rationales": {
+   "A": "That is the radius $OA$.",
+   "B": "Correct. $OP$ bisects angle $APB$, so angle $APO = 30^\\circ$. In right triangle $OAP$, $OA$ is opposite $30^\\circ$, so $OP = 2 \\times 9 = 18$.",
+   "C": "That is the tangent length $PA$ (the side opposite $60^\\circ$).",
+   "D": "Not a side of the 30-60-90 triangle: $9 + 18$."
+  },
+  "check": "9 / sin(pi / 6)",
+  "explanation": [
+   "Radius ⟂ tangent: angle $OAP = 90^\\circ$.",
+   "Equal tangents make $OP$ bisect angle $APB$: angle $APO = 30^\\circ$.",
+   "30-60-90 triangle: the side opposite $30^\\circ$ is $OA = 9$, so the hypotenuse $OP = 18$.",
+   "Extra step: an angle instead of a perimeter."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q21 · Twin 3",
+   "trap_answer": null,
+   "trap": "Not answered (time). Two facts needed: two tangents from one point are equal; tangent ⟂ radius at the point of tangency.",
+   "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers."
+  }
+ },
+ {
+  "id": "pt6-speed-math-m2-q21",
+  "modeled_on": "bb-pt6-math-m2-q21",
+  "skill": "MATH.GEO.CIR.ANGLE",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "A circle has center $O$ and radius 12. Segments $TP$ and $TR$ are tangent to the circle at $P$ and $R$, and the perimeter of quadrilateral $OPTR$ is 94. First step, done for you: $TP = TR = \\frac{94 - 2 \\cdot 12}{2} = 35$, and angle $OPT$ is a right angle. What is the length of $OT$?",
+  "choices": [
+   "$12$",
+   "$35$",
+   "$37$",
+   "$47$"
+  ],
+  "values": [
+   "12",
+   "35",
+   "37",
+   "47"
+  ],
+  "answer": "C",
+  "rationales": {
+   "A": "That is the radius.",
+   "B": "That is the tangent length.",
+   "C": "Correct. $OT = \\sqrt{35^2 + 12^2} = \\sqrt{1369} = 37$.",
+   "D": "Added the legs: $12 + 35$."
+  },
+  "check": "sqrt(((94 - 24) / 2) ** 2 + 12 ** 2)",
+  "explanation": [
+   "Right triangle $OPT$: legs 12 and 35.",
+   "$OT = \\sqrt{35^2 + 12^2} = 37$ (calculator).",
+   "Target: under 60 seconds."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q21 · 60-second",
+   "trap_answer": null,
+   "trap": "Not answered (time). Two facts needed: two tangents from one point are equal; tangent ⟂ radius at the point of tangency.",
+   "lesson": "Circle + tangent ⇒ draw the radius to the tangent point ⇒ right angle ⇒ Pythagoras. Calculator/Desmos for big numbers."
+  }
+ },
+ {
+  "id": "pt6-twin2-math-m2-q22",
+  "modeled_on": "bb-pt6-math-m2-q22",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = ax^2 + bx + c$, where $a$, $b$, and $c$ are constants. The graph of $y = f(x)$ in the $xy$-plane passes through the points $(4, 0)$ and $(-1, 0)$. If $a$ is an integer greater than 2, which of the following could be the value of $a + b$?",
+  "choices": [
+   "$-2$",
+   "$-4$",
+   "$-6$",
+   "$3$"
+  ],
+  "values": [
+   "-2",
+   "-4",
+   "-6",
+   "3"
+  ],
+  "answer": "C",
+  "accepts": "And(Eq(Mod(v, 2), 0), v <= -6)",
+  "rationales": {
+   "A": "Needs $a = 1$; $a$ must be greater than 2.",
+   "B": "Needs $a = 2$; $a$ must be GREATER than 2.",
+   "C": "Correct. $b = -3a$, so $a + b = -2a$; with $a = 3$, $a + b = -6$.",
+   "D": "Impossible: $-2a$ is negative and even."
+  },
+  "check": "-2 * 3",
+  "explanation": [
+   "Zeros 4 and −1: $f(x) = a(x - 4)(x + 1) = a(x^2 - 3x - 4)$.",
+   "So $b = -3a$ and $a + b = -2a$.",
+   "$a \\ge 3$: $a + b = -6, -8, \\dots$ Only $-6$ is listed."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q22 · Twin 2",
+   "trap_answer": null,
+   "trap": "Not answered (time). Trap option −3 corresponds to a = 1 (not allowed).",
+   "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a."
+  }
+ },
+ {
+  "id": "pt6-twin3-math-m2-q22",
+  "modeled_on": "bb-pt6-math-m2-q22",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "hard",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = ax^2 + bx + c$, where $a$, $b$, and $c$ are constants. The graph of $y = f(x)$ in the $xy$-plane passes through the points $(3, 0)$ and $(-5, 0)$. If $a$ is a negative integer, which of the following could be the value of $c - b$?",
+  "choices": [
+   "$-17$",
+   "$34$",
+   "$15$",
+   "$-34$"
+  ],
+  "values": [
+   "-17",
+   "34",
+   "15",
+   "-34"
+  ],
+  "answer": "B",
+  "accepts": "And(Eq(Mod(v, 17), 0), v >= 17)",
+  "rationales": {
+   "A": "Wrong sign: $-17$ needs $a = 1$, but $a$ is negative.",
+   "B": "Correct. $b = 2a$, $c = -15a$, so $c - b = -17a$; with $a = -2$, $c - b = 34$.",
+   "C": "That is $-c$ when $a = 1$; it is not a multiple of 17.",
+   "D": "Needs $a = 2$, but $a$ is negative."
+  },
+  "check": "-17 * (-2)",
+  "explanation": [
+   "Zeros 3 and −5: $f(x) = a(x - 3)(x + 5) = a(x^2 + 2x - 15)$.",
+   "So $b = 2a$ and $c = -15a$. Then $c - b = -15a - 2a = -17a$.",
+   "$a \\le -1$: $c - b = 17, 34, 51, \\dots$ Only 34 is listed.",
+   "Extra steps: $c$ as well as $b$, and a negative parameter."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q22 · Twin 3",
+   "trap_answer": null,
+   "trap": "Not answered (time). Trap option −3 corresponds to a = 1 (not allowed).",
+   "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a."
+  }
+ },
+ {
+  "id": "pt6-speed-math-m2-q22",
+  "modeled_on": "bb-pt6-math-m2-q22",
+  "skill": "MATH.ADV.NLF.POLYZ",
+  "difficulty": "medium",
+  "format": "mc",
+  "stem": "The function $f$ is defined by $f(x) = ax^2 + bx + c$, and its graph passes through $(6, 0)$ and $(-2, 0)$. The constant $a$ is an integer greater than 1. First step, done for you: $f(x) = a(x - 6)(x + 2) = a(x^2 - 4x - 12)$, so $b = -4a$. Which of the following could be the value of $a + b$?",
+  "choices": [
+   "$-3$",
+   "$3$",
+   "$-4$",
+   "$-9$"
+  ],
+  "values": [
+   "-3",
+   "3",
+   "-4",
+   "-9"
+  ],
+  "answer": "D",
+  "accepts": "And(Eq(Mod(v, 3), 0), v <= -6)",
+  "rationales": {
+   "A": "Needs $a = 1$; $a$ must be greater than 1.",
+   "B": "Wrong sign: $a + b = -3a$ is negative.",
+   "C": "Not a multiple of 3.",
+   "D": "Correct. $a + b = a - 4a = -3a$; with $a = 3$, it is $-9$."
+  },
+  "check": "-3 * 3",
+  "explanation": [
+   "$a + b = a - 4a = -3a$.",
+   "$a \\ge 2$: $-6, -9, -12, \\dots$ Only $-9$ is listed.",
+   "Target: under 60 seconds once you have $b$ in terms of $a$."
+  ],
+  "replay": {
+   "label": "PT6 · Math M2 · Q22 · 60-second",
+   "trap_answer": null,
+   "trap": "Not answered (time). Trap option −3 corresponds to a = 1 (not allowed).",
+   "lesson": "Zeros given ⇒ write factored form a(x − r)(x − s), expand, express b (and c) in terms of a. Then apply the condition on a."
+  }
+ }
+]

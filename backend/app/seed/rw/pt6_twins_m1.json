@@ -1,0 +1,992 @@
+[
+ {
+  "id": "pt6-twin2-rw-m1-q01",
+  "modeled_on": "bb-pt6-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "a composer's quartets built on fishing songs",
+  "fictional": true,
+  "passage": "Composer Ilse Haraldsen's string quartets often sound strikingly modern, but many of their melodies are ______ old fishing songs that she recorded as a student on the island of Fjell, where her grandparents lived. In one quartet, an entire movement repeats a sailors' tune almost note for note.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "derived from",
+   "deprived of",
+   "opposed to",
+   "distracted by"
+  ],
+  "answer": "A",
+  "vocab": [
+   {
+    "word": "derived from",
+    "pos": "phrase",
+    "meaning_en": "coming from a source",
+    "meaning_ru": "происходящий от, заимствованный из",
+    "example": "Many English words are derived from Latin."
+   },
+   {
+    "word": "deprived of",
+    "pos": "phrase",
+    "meaning_en": "not having something you need",
+    "meaning_ru": "лишённый (чего-то)",
+    "example": "The plants were deprived of light all winter."
+   },
+   {
+    "word": "opposed to",
+    "pos": "phrase",
+    "meaning_en": "against something",
+    "meaning_ru": "выступающий против",
+    "example": "She was opposed to the new rules."
+   },
+   {
+    "word": "distracted by",
+    "pos": "phrase",
+    "meaning_en": "unable to focus because of something",
+    "meaning_ru": "отвлечённый (чем-то)",
+    "example": "He was distracted by the noise outside."
+   }
+  ],
+  "explanation": "The melodies come from the fishing songs she recorded; one movement even repeats a sailors' tune. They are derived from those songs.",
+  "steps": [
+   "Clue: one movement repeats a sailors' tune almost note for note.",
+   "Predict: the melodies 'come from' the old songs.",
+   "'Derived from' = come from. 'Deprived of' only looks similar."
+  ],
+  "strategy_tip": "Look-alike pairs (derived/deprived, compliment/complement) are favorite traps. Read each letter.",
+  "rationales": {
+   "A": "Correct. The melodies come from the fishing songs she recorded; one movement even repeats a sailors' tune. They are derived from those songs.",
+   "B": "Look-alike word: 'Deprived of' means without. The melodies are full of the old songs, not missing them.",
+   "C": "Opposite of the clue: The quartets use the old songs, so they are not opposed to them.",
+   "D": "Not supported: Nothing suggests the songs pull attention away from the melodies."
+  },
+  "traps": {
+   "B": "look-alike word",
+   "C": "opposite of the clue",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q1 · Twin 2",
+   "trap_answer": null,
+   "trap": "Look-alike distractor 'complimented by' (compliment vs complement).",
+   "lesson": "Find the clue sentence ('drawing from memories…') and predict your own word before reading the options."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q01",
+  "modeled_on": "bb-pt6-rw-m1-q01",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "a painter's murals drawn from a river-town childhood",
+  "fictional": true,
+  "passage": "Critics who first saw the murals of painter Dario Venn in 1968 described them as pure invention: crowded scenes of floating market stalls, blue cattle, and towers built from loaves of bread. Venn's letters, published only last year, tell a different story. Almost every strange image, he explains in them, came from his childhood in a river town where markets really were held on boats and cattle were dyed for festivals. The murals, in other words, were ______ memory far more than critics realized.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "deformed by",
+   "informed by",
+   "indifferent to",
+   "undermined by"
+  ],
+  "answer": "B",
+  "vocab": [
+   {
+    "word": "deformed by",
+    "pos": "phrase",
+    "meaning_en": "twisted out of shape by",
+    "meaning_ru": "искажённый, деформированный (чем-то)",
+    "example": "The metal frame was deformed by the heat."
+   },
+   {
+    "word": "informed by",
+    "pos": "phrase",
+    "meaning_en": "based on or shaped by knowledge or experience",
+    "meaning_ru": "основанный на, вдохновлённый",
+    "example": "Her novel is informed by years of work as a nurse."
+   },
+   {
+    "word": "indifferent to",
+    "pos": "phrase",
+    "meaning_en": "not interested in; not caring about",
+    "meaning_ru": "равнодушный к",
+    "example": "He seemed indifferent to the result."
+   },
+   {
+    "word": "undermined by",
+    "pos": "phrase",
+    "meaning_en": "made weaker by",
+    "meaning_ru": "подорванный (чем-то)",
+    "example": "The plan was undermined by a lack of money."
+   }
+  ],
+  "explanation": "The letters show that the strange images came from real scenes of his childhood, so the murals were informed by (based on) memory.",
+  "steps": [
+   "Critics thought: pure invention. The letters show: images came from his childhood.",
+   "'In other words' tells you the last sentence restates that idea.",
+   "So the murals were based on memory: 'informed by'.",
+   "'Deformed by' looks similar but means damaged."
+  ],
+  "strategy_tip": "'In other words' means the blank restates the sentence before it. Predict from that sentence.",
+  "rationales": {
+   "A": "Look-alike word: 'Deformed by' means twisted or damaged by. The letters show the images came from real memories, not that memory damaged them.",
+   "B": "Correct. The letters show that the strange images came from real scenes of his childhood, so the murals were informed by (based on) memory.",
+   "C": "Opposite of the clue: The images came from his memories, so the murals were not indifferent to them.",
+   "D": "Wrong meaning: 'Undermined by' means weakened by. Memory gave the murals their images; it did not weaken them."
+  },
+  "traps": {
+   "A": "look-alike word",
+   "C": "opposite of the clue",
+   "D": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q1 · Twin 3",
+   "trap_answer": null,
+   "trap": "Look-alike distractor 'complimented by' (compliment vs complement).",
+   "lesson": "Find the clue sentence ('drawing from memories…') and predict your own word before reading the options."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q02",
+  "modeled_on": "bb-pt6-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "the varied wooden houses of a mountain town",
+  "fictional": true,
+  "passage": "Many visitors assume that the wooden houses of the mountain town of Kelso all follow one traditional plan. A new architectural survey shows otherwise: some houses have steep roofs and others flat ones, some are built around courtyards, and a few have towers that later owners added. The survey's authors conclude that, contrary to popular belief, Kelso's houses are far from ______.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "influential",
+   "uniform",
+   "undisputed",
+   "fragile"
+  ],
+  "answer": "B",
+  "vocab": [
+   {
+    "word": "influential",
+    "pos": "adjective",
+    "meaning_en": "having a strong effect on others",
+    "meaning_ru": "влиятельный",
+    "example": "She was an influential teacher."
+   },
+   {
+    "word": "uniform",
+    "pos": "adjective",
+    "meaning_en": "the same in every part or case",
+    "meaning_ru": "однообразный, единообразный",
+    "example": "The houses on the street were uniform in color."
+   },
+   {
+    "word": "undisputed",
+    "pos": "adjective",
+    "meaning_en": "accepted by everyone; not argued about",
+    "meaning_ru": "бесспорный",
+    "example": "He is the undisputed champion."
+   },
+   {
+    "word": "fragile",
+    "pos": "adjective",
+    "meaning_en": "easily broken or damaged",
+    "meaning_ru": "хрупкий",
+    "example": "Pack the fragile glasses carefully."
+   }
+  ],
+  "explanation": "Visitors think the houses all follow one plan; the survey shows many different designs. So the houses are far from uniform (all alike).",
+  "steps": [
+   "The belief: all houses follow one plan. The evidence: steep and flat roofs, courtyards, towers.",
+   "'Far from ___' + evidence of variety → the blank means 'all the same'.",
+   "All the same = uniform."
+  ],
+  "strategy_tip": "When evidence shows variety, the wrong belief is 'all the same': uniform, homogeneous, monolithic.",
+  "rationales": {
+   "A": "Not supported: The survey says nothing about whether the houses influenced other buildings.",
+   "B": "Correct. Visitors think the houses all follow one plan; the survey shows many different designs. So the houses are far from uniform (all alike).",
+   "C": "Unrelated quality: 'Undisputed' means nobody argues about it. The survey is about variety, not arguments.",
+   "D": "Not supported: Nothing in the text is about the houses being weak or easy to break."
+  },
+  "traps": {
+   "A": "not supported",
+   "C": "unrelated quality",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q2 · Twin 2",
+   "trap_answer": "C",
+   "trap": "The misconception must be the OPPOSITE of the evidence. Evidence = variety, so the misconception = 'all the same'. 'Uncontroversial' has nothing to do with variety.",
+   "lesson": "'Disproving the misconception that X is ___' + evidence of variety → the blank means 'uniform / homogeneous'. Predict the antonym of the evidence."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q02",
+  "modeled_on": "bb-pt6-rw-m1-q02",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "divided craft guilds of a medieval port",
+  "fictional": true,
+  "passage": "For much of the twentieth century, historians described the craft guilds of the medieval port of Aldmar as a single bloc that spoke with one voice in city politics. Guild records rediscovered in 2015 complicate that picture. The weavers' guild, for example, repeatedly voted against the dyers' guild on taxes, and within the shipbuilders' guild, masters and apprentices often sent separate petitions to the council. Taken together, the records suggest that the guilds were never as ______ as earlier histories implied.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "uncontroversial",
+   "prosperous",
+   "monolithic",
+   "secretive"
+  ],
+  "answer": "C",
+  "vocab": [
+   {
+    "word": "uncontroversial",
+    "pos": "adjective",
+    "meaning_en": "not causing any disagreement",
+    "meaning_ru": "бесспорный, не вызывающий споров",
+    "example": "The vote was uncontroversial; everyone agreed."
+   },
+   {
+    "word": "prosperous",
+    "pos": "adjective",
+    "meaning_en": "rich and successful",
+    "meaning_ru": "процветающий",
+    "example": "It was a prosperous trading town."
+   },
+   {
+    "word": "monolithic",
+    "pos": "adjective",
+    "meaning_en": "acting as one single, united whole",
+    "meaning_ru": "монолитный, единый",
+    "example": "The party is not as monolithic as it looks."
+   },
+   {
+    "word": "secretive",
+    "pos": "adjective",
+    "meaning_en": "hiding information from others",
+    "meaning_ru": "скрытный",
+    "example": "The company was secretive about its plans."
+   }
+  ],
+  "explanation": "Historians saw 'a single bloc'; the records show guilds voting against each other and members splitting. So the guilds were never as monolithic (single and united) as claimed.",
+  "steps": [
+   "Old view: 'a single bloc that spoke with one voice'.",
+   "New evidence: guilds voted against each other; members sent separate petitions.",
+   "'Never as ___ as earlier histories implied' → the blank repeats the old view: single, united.",
+   "Single and united = monolithic."
+  ],
+  "strategy_tip": "'Never as ___ as X implied': the blank is X's view, which the evidence then contradicts.",
+  "rationales": {
+   "A": "Unrelated quality: 'Uncontroversial' means no one disagreed ABOUT the guilds. The evidence is about disagreement INSIDE them, and it describes the guilds' unity, not their reputation.",
+   "B": "Not supported: The records say nothing about how rich the guilds were.",
+   "C": "Correct. Historians saw 'a single bloc'; the records show guilds voting against each other and members splitting. So the guilds were never as monolithic (single and united) as claimed.",
+   "D": "Not supported: Nothing suggests that the guilds hid their activities."
+  },
+  "traps": {
+   "A": "unrelated quality",
+   "B": "not supported",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q2 · Twin 3",
+   "trap_answer": "A",
+   "trap": "The misconception must be the OPPOSITE of the evidence. Evidence = variety, so the misconception = 'all the same'. 'Uncontroversial' has nothing to do with variety.",
+   "lesson": "'Disproving the misconception that X is ___' + evidence of variety → the blank means 'uniform / homogeneous'. Predict the antonym of the evidence."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q03",
+  "modeled_on": "bb-pt6-rw-m1-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "the scale of a frog decline in a wetland",
+  "fictional": true,
+  "passage": "Ecologist Noor Haddad expected her 2023 survey of a coastal wetland to find fewer frogs than in earlier years, since numbers had been falling across the region. What surprised her was not the decline itself but its ______: the number of frogs in the wetland had dropped by nearly ninety percent in just four years.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "scale",
+   "location",
+   "discovery",
+   "cause"
+  ],
+  "answer": "A",
+  "vocab": [
+   {
+    "word": "scale",
+    "pos": "noun",
+    "meaning_en": "the size or level of something",
+    "meaning_ru": "масштаб",
+    "example": "Nobody understood the scale of the problem."
+   },
+   {
+    "word": "location",
+    "pos": "noun",
+    "meaning_en": "the place where something is",
+    "meaning_ru": "местоположение",
+    "example": "The location of the shop is perfect."
+   },
+   {
+    "word": "discovery",
+    "pos": "noun",
+    "meaning_en": "the act of finding something",
+    "meaning_ru": "открытие",
+    "example": "The discovery of the cave surprised everyone."
+   },
+   {
+    "word": "cause",
+    "pos": "noun",
+    "meaning_en": "the reason something happens",
+    "meaning_ru": "причина",
+    "example": "The cause of the fire is unknown."
+   }
+  ],
+  "explanation": "'Nearly ninety percent' describes how big the decline was, so 'scale' (size) fits.",
+  "steps": [
+   "'Not the decline itself but its ___:' → read after the colon.",
+   "After the colon: nearly ninety percent in four years. That is a SIZE.",
+   "Size = scale."
+  ],
+  "strategy_tip": "After 'not X but its ___:', the words after the colon tell you exactly what the blank means.",
+  "rationales": {
+   "A": "Correct. 'Nearly ninety percent' describes how big the decline was, so 'scale' (size) fits.",
+   "B": "Not supported: She expected a decline in this wetland; where it happened was no surprise.",
+   "C": "Wrong logic: She expected to find the decline, so its discovery was not the surprise.",
+   "D": "Not supported: The text after the colon gives a size, not a reason."
+  },
+  "traps": {
+   "B": "not supported",
+   "C": "wrong logic",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q3 · Twin 2",
+   "trap_answer": null,
+   "trap": "'not only … but (also) the ___ of that difference' — the second part must add the SIZE, given by the colon explanation.",
+   "lesson": "The part after the colon defines the blank. 'Seven standard deviations higher' = size → scale/magnitude."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q03",
+  "modeled_on": "bb-pt6-rw-m1-q03",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "the extent of misdated letters in a family archive",
+  "fictional": true,
+  "passage": "Archivist Teodor Brandt knew that some letters in the Hallenberg family collection had been misdated by earlier cataloguers; such errors are common in large archives. Brandt's report nonetheless alarmed the collection's owners, and not because errors existed at all. It was the ______ of the problem that worried them: of the 2,400 letters Brandt checked, more than 1,100 carried dates that were wrong by at least a decade.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "origin",
+   "novelty",
+   "extent",
+   "visibility"
+  ],
+  "answer": "C",
+  "vocab": [
+   {
+    "word": "origin",
+    "pos": "noun",
+    "meaning_en": "the place or point where something begins",
+    "meaning_ru": "происхождение",
+    "example": "The origin of the word is Greek."
+   },
+   {
+    "word": "novelty",
+    "pos": "noun",
+    "meaning_en": "the quality of being new or unusual",
+    "meaning_ru": "новизна",
+    "example": "The novelty of the game wore off quickly."
+   },
+   {
+    "word": "extent",
+    "pos": "noun",
+    "meaning_en": "how large or widespread something is",
+    "meaning_ru": "масштаб, степень",
+    "example": "We did not know the extent of the damage."
+   },
+   {
+    "word": "visibility",
+    "pos": "noun",
+    "meaning_en": "how easy something is to see",
+    "meaning_ru": "заметность, видимость",
+    "example": "Fog reduced visibility on the road."
+   }
+  ],
+  "explanation": "'More than 1,100 of 2,400' describes how widespread the problem was: its extent.",
+  "steps": [
+   "'Not because errors existed at all' → the existence of errors is NOT the answer.",
+   "After the colon: 1,100 of 2,400 letters. That is how BIG the problem was.",
+   "How big or widespread = extent."
+  ],
+  "strategy_tip": "Cross out choices the text already rules out ('not because...', 'common'), then read the colon.",
+  "rationales": {
+   "A": "Not supported: The text never says where the errors came from; the colon gives numbers, not a source.",
+   "B": "Contradicts the text: Such errors are 'common in large archives', so they were not new.",
+   "C": "Correct. 'More than 1,100 of 2,400' describes how widespread the problem was: its extent.",
+   "D": "Not supported: Nothing is said about how easy the errors were to see."
+  },
+  "traps": {
+   "A": "not supported",
+   "B": "contradicts the text",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q3 · Twin 3",
+   "trap_answer": null,
+   "trap": "'not only … but (also) the ___ of that difference' — the second part must add the SIZE, given by the colon explanation.",
+   "lesson": "The part after the colon defines the blank. 'Seven standard deviations higher' = size → scale/magnitude."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q04",
+  "modeled_on": "bb-pt6-rw-m1-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "medium",
+  "topic": "a triage nurse shortening emergency-room waits",
+  "fictional": true,
+  "passage": "Hospital planners in the city of Arden wanted to shorten the time patients spend waiting in the emergency room. Rather than hire more doctors, they placed a nurse at the entrance who sends patients with minor injuries to a separate clinic. Within a year, the change had helped ______ average waiting times by almost forty minutes.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "extend",
+   "disclose",
+   "imitate",
+   "curtail"
+  ],
+  "answer": "D",
+  "vocab": [
+   {
+    "word": "extend",
+    "pos": "verb",
+    "meaning_en": "to make longer or larger",
+    "meaning_ru": "продлевать, расширять",
+    "example": "They extended the deadline by a week."
+   },
+   {
+    "word": "disclose",
+    "pos": "verb",
+    "meaning_en": "to make information known",
+    "meaning_ru": "раскрывать",
+    "example": "He refused to disclose his salary."
+   },
+   {
+    "word": "imitate",
+    "pos": "verb",
+    "meaning_en": "to copy someone or something",
+    "meaning_ru": "подражать, имитировать",
+    "example": "Children often imitate their parents."
+   },
+   {
+    "word": "curtail",
+    "pos": "verb",
+    "meaning_en": "to reduce or cut short",
+    "meaning_ru": "сокращать, урезать",
+    "example": "The storm curtailed our holiday."
+   }
+  ],
+  "explanation": "The goal was to shorten waits, and the change worked, so it helped curtail (reduce) them.",
+  "steps": [
+   "Goal: shorten waiting time. Result: the change worked.",
+   "Direction: decrease.",
+   "Decrease = curtail (cut short)."
+  ],
+  "strategy_tip": "Find the goal or result first, then ask: increase or decrease? Cross out the wrong direction.",
+  "rationales": {
+   "A": "Wrong direction: 'Extend' means make longer. The planners wanted shorter waits, and the change worked.",
+   "B": "Wrong meaning: 'Disclose' means reveal. Nothing is being revealed.",
+   "C": "Wrong meaning: 'Imitate' means copy. You cannot copy a waiting time by forty minutes.",
+   "D": "Correct. The goal was to shorten waits, and the change worked, so it helped curtail (reduce) them."
+  },
+  "traps": {
+   "A": "wrong direction",
+   "B": "wrong meaning",
+   "C": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q4 · Twin 2",
+   "trap_answer": "A",
+   "trap": "Cause→effect logic: if vegetation helped high sounds, birds would use them. They avoid high sounds, so vegetation must REDUCE their distance. 'Exceed' also doesn't fit grammatically with 'the distance' (nothing can exceed a distance here).",
+   "lesson": "In 'since X tends to ___ Y' check the direction: does the result make sense if the word means increase or decrease?"
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q04",
+  "modeled_on": "bb-pt6-rw-m1-q04",
+  "skill": "RW.CAS.WIC.FILL",
+  "difficulty": "hard",
+  "topic": "reed beds weakening storm waves",
+  "fictional": true,
+  "passage": "Coastal engineers in the Varn delta once assumed that the reed beds along the shore did little to protect villages from storm waves. Measurements taken during the storms of 2022 suggest otherwise. Waves that crossed two hundred meters of reeds reached the seawall with less than half the height of waves that met bare mud, so the engineers now argue that healthy reed beds ______ the force of incoming storm waves.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+   "attenuate",
+   "amplify",
+   "replicate",
+   "document"
+  ],
+  "answer": "A",
+  "vocab": [
+   {
+    "word": "attenuate",
+    "pos": "verb",
+    "meaning_en": "to make weaker or smaller",
+    "meaning_ru": "ослаблять",
+    "example": "Thick walls attenuate street noise."
+   },
+   {
+    "word": "amplify",
+    "pos": "verb",
+    "meaning_en": "to make stronger or louder",
+    "meaning_ru": "усиливать",
+    "example": "The speakers amplify her voice."
+   },
+   {
+    "word": "replicate",
+    "pos": "verb",
+    "meaning_en": "to copy or repeat exactly",
+    "meaning_ru": "воспроизводить, повторять",
+    "example": "Other labs could not replicate the result."
+   },
+   {
+    "word": "document",
+    "pos": "verb",
+    "meaning_en": "to record in writing or pictures",
+    "meaning_ru": "документировать",
+    "example": "She documented every step of the process."
+   }
+  ],
+  "explanation": "Waves that crossed the reeds were less than half as high, so the reeds attenuate (weaken) the waves' force.",
+  "steps": [
+   "Evidence: after the reeds, waves were less than half as high.",
+   "Direction: the reeds make the force smaller.",
+   "Make weaker = attenuate.",
+   "'Amplify' is the opposite direction."
+  ],
+  "strategy_tip": "Hard words often come in opposite pairs (attenuate/amplify, curtail/extend). Decide the direction, then pick.",
+  "rationales": {
+   "A": "Correct. Waves that crossed the reeds were less than half as high, so the reeds attenuate (weaken) the waves' force.",
+   "B": "Wrong direction: 'Amplify' means make stronger. The waves got smaller after crossing the reeds.",
+   "C": "Wrong meaning: 'Replicate' means copy. Reeds do not copy waves.",
+   "D": "Wrong meaning: 'Document' means record. The engineers recorded the waves; the reeds did not."
+  },
+  "traps": {
+   "B": "wrong direction",
+   "C": "wrong meaning",
+   "D": "wrong meaning"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q4 · Twin 3",
+   "trap_answer": "B",
+   "trap": "Cause→effect logic: if vegetation helped high sounds, birds would use them. They avoid high sounds, so vegetation must REDUCE their distance. 'Exceed' also doesn't fit grammatically with 'the distance' (nothing can exceed a distance here).",
+   "lesson": "In 'since X tends to ___ Y' check the direction: does the result make sense if the word means increase or decrease?"
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q05",
+  "modeled_on": "bb-pt6-rw-m1-q05",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "a girl warming to her new island home (novel)",
+  "fictional": true,
+  "passage": "The following text is adapted from Ada Merrow's 1992 novel The Lighthouse Year. Rosa, who has recently moved to a small island, is walking home from school.\nIn her first weeks she had hated the wind, the gray rocks, and the long walk past the harbor. Now she found herself slowing down to watch the fishing boats come in. She knew the names of three of the fishermen, and one of them always waved. Even the wind, she admitted, smelled pleasantly of salt.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To show how Rosa's feelings about the island have gradually changed for the better",
+   "To explain why Rosa finds the walk home from school longer than she first expected",
+   "To describe the fishing boats that come into the island's harbor in the afternoon",
+   "To suggest that Rosa admires one of the fishermen more than anyone else on the island"
+  ],
+  "answer": "A",
+  "explanation": "'At first she hated' → 'now she slows down to watch', knows names, likes the smell. Every sentence shows her feelings changing.",
+  "steps": [
+   "First sentence: she hated the island. Then: 'Now...' she enjoys it.",
+   "Every later detail (boats, names, wave, wind) shows the new feeling.",
+   "Purpose: to show her feelings changing."
+  ],
+  "strategy_tip": "Words like 'at first' and 'now' often mark the main idea of a literary text: a change.",
+  "rationales": {
+   "A": "Correct. 'At first she hated' → 'now she slows down to watch', knows names, likes the smell. Every sentence shows her feelings changing.",
+   "B": "Not supported: The walk is mentioned, but nothing says it is longer than she expected.",
+   "C": "One detail only: The boats appear in one sentence; they show her new interest, not the purpose of the text.",
+   "D": "Overstated: One fisherman waves, but nothing says she admires him more than anyone."
+  },
+  "traps": {
+   "B": "not supported",
+   "C": "one detail only",
+   "D": "overstated"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q5 · Twin 2",
+   "trap_answer": null,
+   "trap": "Distractors focus on one detail (an unusual topic, a single book) instead of the whole passage.",
+   "lesson": "Main purpose = what EVERY sentence serves. Repeated detail (a plan, keeps going even when hard) = determination."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q05",
+  "modeled_on": "bb-pt6-rw-m1-q05",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "hard",
+  "topic": "a glassblower's apprentice practicing for weeks (novel)",
+  "fictional": true,
+  "passage": "The following text is adapted from Konstantin Ilyev's 1961 novel The Glass Orchard. Mila, a young apprentice, has been told by the old glassblower that she may not make anything of her own until she can blow a perfect bubble of glass.\nFor three weeks Mila blew bubbles that sagged, cracked, or came out lopsided. The other apprentices began making vases and bowls, and one even sold a small blue bird at the market. Mila watched them, said nothing, and returned each morning to the furnace before anyone else arrived. On the twenty-third day she held up a bubble so round that the old man took off his spectacles to look at it.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To contrast the vases and bowls the other apprentices make with the simple bubbles Mila produces",
+   "To suggest that Mila envies the apprentice who sold a small glass bird at the market",
+   "To describe the methods that the old glassblower uses to train his new apprentices",
+   "To portray Mila's persistence as she works toward a demanding goal set for her"
+  ],
+  "answer": "D",
+  "explanation": "Three weeks of failures, early mornings, no complaints, and finally success: the whole text shows her persistence.",
+  "steps": [
+   "The goal: a perfect bubble. The problem: three weeks of failures.",
+   "Her reaction: says nothing, comes back early every day.",
+   "The ending: she succeeds. All of this shows persistence.",
+   "Reject choices built on one detail (the vases, the blue bird)."
+  ],
+  "strategy_tip": "Long literary texts add distracting details. Ask what the beginning, middle, and end have in common.",
+  "rationales": {
+   "A": "One detail only: The other apprentices' work is background; the text follows Mila's effort, not a comparison of objects.",
+   "B": "Not supported: She 'watched them, said nothing'; the text never shows envy.",
+   "C": "Wrong focus: We learn one rule of the old man, not his training methods.",
+   "D": "Correct. Three weeks of failures, early mornings, no complaints, and finally success: the whole text shows her persistence."
+  },
+  "traps": {
+   "A": "one detail only",
+   "B": "not supported",
+   "C": "wrong focus"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q5 · Twin 3",
+   "trap_answer": null,
+   "trap": "Distractors focus on one detail (an unusual topic, a single book) instead of the whole passage.",
+   "lesson": "Main purpose = what EVERY sentence serves. Repeated detail (a plan, keeps going even when hard) = determination."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q07",
+  "modeled_on": "bb-pt6-rw-m1-q07",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "medium",
+  "topic": "a chef whose easy-looking dishes come from testing",
+  "fictional": true,
+  "passage": "Diners at chef Lena Okoro's restaurant often say that her dishes taste effortless, as if she had invented them on the spot. In fact, each item on her menu goes through months of testing. Okoro cooks a new dish dozens of times, changing one ingredient at a time, and she even re-tests old favorites every season as though they were brand new.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To identify the ingredients that Okoro most often changes when she tests a dish",
+   "To explain the unique technique Okoro uses for dishes she has never cooked before",
+   "To argue that the effortless quality of Okoro's dishes comes from careful testing",
+   "To describe the kinds of dishes that diners at Okoro's restaurant say they enjoy the most"
+  ],
+  "answer": "C",
+  "explanation": "Appearance: effortless. Reality ('In fact'): months of testing. The text links the two.",
+  "steps": [
+   "Find the turn: 'In fact, each item... goes through months of testing.'",
+   "Before: looks effortless. After: careful work.",
+   "Purpose: the ease comes from the testing.",
+   "Cross out 'unique' and 'never cooked before': the text says neither."
+  ],
+  "strategy_tip": "'In fact' and 'however' mark the turn from appearance to reality. The main purpose sits on that turn.",
+  "rationales": {
+   "A": "Detail, not purpose: The text says she changes one ingredient at a time, but never which ones.",
+   "B": "Overstated: The text never calls her method unique, and she tests OLD favorites too, not only new dishes.",
+   "C": "Correct. Appearance: effortless. Reality ('In fact'): months of testing. The text links the two.",
+   "D": "Not supported: The text does not compare kinds of dishes."
+  },
+  "traps": {
+   "A": "detail, not purpose",
+   "B": "overstated (unique)",
+   "D": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q7 · Twin 2",
+   "trap_answer": "B",
+   "trap": "D adds 'unique' (not stated) and 'music she hasn't performed before' (the text says she treats ALL music as new). It covers only the last sentence, not the 'however' turn.",
+   "lesson": "Main purpose usually sits on the 'however' turn: appearance (effortless) vs reality (preparation). Reject options with words the text never supports (unique, first, only, most)."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q07",
+  "modeled_on": "bb-pt6-rw-m1-q07",
+  "skill": "RW.CAS.TSP.PURPOSE",
+  "difficulty": "hard",
+  "topic": "a dancer whose weightless leaps come from rehearsal",
+  "fictional": true,
+  "passage": "Audiences at the National Ballet in Sorvik often describe principal dancer Tomas Lind as weightless, a performer who seems to invent his leaps as he goes. Lind himself laughs at the idea. Before each new production he films every rehearsal, studies the footage frame by frame, and repeats a single jump as many as two hundred times. He even relearns roles he has danced for years, approaching each one as if it were entirely unfamiliar. Critics who call his dancing spontaneous, he says, are seeing the result of very unspontaneous work.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+   "To explain why critics in Sorvik have recently changed their opinion of Lind's dancing",
+   "To describe the unique system Lind invented for learning roles that he has never danced before",
+   "To list the kinds of roles that Lind most prefers to perform at the National Ballet",
+   "To show that the apparent ease of Lind's dancing is the product of intense preparation"
+  ],
+  "answer": "D",
+  "explanation": "Audiences see weightless, invented leaps; the text shows the filming, repetition, and relearning behind them.",
+  "steps": [
+   "Appearance: weightless, spontaneous.",
+   "Reality: films rehearsals, repeats jumps 200 times, relearns old roles.",
+   "Last sentence states the point: the spontaneity is the result of work.",
+   "'Unique' and 'never danced' are not in the text."
+  ],
+  "strategy_tip": "If the last sentence sums up the contrast, the main purpose is usually that summary.",
+  "rationales": {
+   "A": "Not supported: Critics still call his dancing spontaneous; nothing says their opinion changed.",
+   "B": "Overstated: Nothing says the system is unique, and he relearns OLD roles as if they were new.",
+   "C": "Not supported: The text never says which roles he prefers.",
+   "D": "Correct. Audiences see weightless, invented leaps; the text shows the filming, repetition, and relearning behind them."
+  },
+  "traps": {
+   "A": "not supported",
+   "B": "overstated (unique)",
+   "C": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q7 · Twin 3",
+   "trap_answer": "B",
+   "trap": "D adds 'unique' (not stated) and 'music she hasn't performed before' (the text says she treats ALL music as new). It covers only the last sentence, not the 'however' turn.",
+   "lesson": "Main purpose usually sits on the 'however' turn: appearance (effortless) vs reality (preparation). Reject options with words the text never supports (unique, first, only, most)."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q08",
+  "modeled_on": "bb-pt6-rw-m1-q08",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "medium",
+  "topic": "dinosaur footprints on an ancient slope",
+  "fictional": true,
+  "passage": "Text 1\nPaleontologist Rhea Castor found a trail of three-toed footprints in 150-million-year-old rock in the Ostra Hills. Because the prints are spaced unusually far apart, she concludes that the animal that made them was running, and that it was one of the fastest dinosaurs of its time.",
+  "passage2": "Text 2\nGeologist Mats Ekdahl points out that the Ostra Hills rock was once soft mud on a steep slope. Animals walking downhill on such mud often slide between steps, leaving prints much farther apart than their normal stride. Without knowing the slope at the time, he argues, the spacing of the prints says little about speed.",
+  "stem": "Based on the texts, how would Ekdahl (Text 2) most likely respond to Castor's conclusion (Text 1)?",
+  "choices": [
+   "By agreeing that the animal was probably running but suggesting that more prints be found to confirm it",
+   "By predicting that further study of the Ostra Hills will show that Castor's conclusion is correct",
+   "By arguing that Castor has misidentified the kind of animal that made the footprints",
+   "By noting that her conclusion assumes the spacing reflects the animal's normal stride, which may not be true"
+  ],
+  "answer": "D",
+  "explanation": "Castor's conclusion needs wide spacing = fast running. Ekdahl says sliding on a slope can also cause wide spacing.",
+  "steps": [
+   "Text 1's chain: wide spacing → running → very fast.",
+   "Text 2 attacks the first link: sliding on mud also spreads the prints.",
+   "So Castor assumes something that may be false.",
+   "Match the attitude: Ekdahl is doubtful, not 'probably agreeing'."
+  ],
+  "strategy_tip": "Map Text 1 as a chain (evidence → conclusion). Find the exact link Text 2 breaks.",
+  "rationales": {
+   "A": "Too friendly: Ekdahl does not agree that the animal was probably running; he says the spacing tells us little.",
+   "B": "Overstated: Ekdahl predicts nothing about future study.",
+   "C": "Not supported: Text 2 never discusses what kind of animal it was.",
+   "D": "Correct. Castor's conclusion needs wide spacing = fast running. Ekdahl says sliding on a slope can also cause wide spacing."
+  },
+  "traps": {
+   "A": "too friendly",
+   "B": "overstated",
+   "C": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q8 · Twin 2",
+   "trap_answer": "A",
+   "trap": "A is too friendly: Text 2 does not call the claim plausible. Text 2 attacks the PREMISE (stones = tools), not the conclusion.",
+   "lesson": "Cross-text: find exactly what Text 2 doubts. If it questions the evidence itself → 'rests on an assumption that isn't supported'. Match the strength of the attitude (skeptical ≠ 'plausible')."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q08",
+  "modeled_on": "bb-pt6-rw-m1-q08",
+  "skill": "RW.CAS.CTC.RESPONSE",
+  "difficulty": "hard",
+  "topic": "spices in a trading town's account books",
+  "fictional": true,
+  "passage": "Text 1\nHistorian Aurelio Benz has studied 14th-century account books from the trading town of Vessa. They record large purchases of pepper and cloves, spices that came only from distant Asian ports. Benz concludes that Vessa's merchants must have traded directly with Asian ports rather than buying from middlemen, and that the town was far more important in long-distance trade than historians have believed.",
+  "passage2": "Text 2\nEconomic historian Signe Holt notes that account books of the period list what was bought but rarely from whom. The same spices reached small towns all over the region through dealers in the great markets of Brugen and Lune. Holt does not doubt that Vessa's merchants bought large amounts of spice; what the books cannot show, she argues, is where they got it.",
+  "stem": "Based on the texts, how would Holt (Text 2) most likely respond to Benz's conclusion (Text 1)?",
+  "choices": [
+   "She would argue that the account books do not establish the direct trade on which his conclusion depends.",
+   "She would agree that his conclusion is plausible but recommend comparing it with other towns' records first.",
+   "She would claim that he has overstated how much pepper and how many cloves Vessa's merchants bought.",
+   "She would suggest that Vessa was even more important in long-distance trade than he believes."
+  ],
+  "answer": "A",
+  "explanation": "Benz's conclusion needs direct trade with Asia. Holt says the books show what was bought, not from whom, so that step is not established.",
+  "steps": [
+   "Text 1's chain: big spice purchases → direct trade with Asia → Vessa was important.",
+   "Text 2 accepts the purchases but says the books can't show the SOURCE.",
+   "So the middle link (direct trade) is unproven.",
+   "Watch the trap: Holt agrees with part of Text 1 (amounts), but not with the conclusion."
+  ],
+  "strategy_tip": "Text 2 often accepts the facts but rejects the conclusion. Find which part it accepts and which it doubts.",
+  "rationales": {
+   "A": "Correct. Benz's conclusion needs direct trade with Asia. Holt says the books show what was bought, not from whom, so that step is not established.",
+   "B": "Too friendly: Holt never calls the conclusion plausible; she says the evidence cannot show the key point.",
+   "C": "Contradicts Text 2: Holt 'does not doubt' the large purchases.",
+   "D": "Wrong direction: Holt's point weakens Benz's claim about Vessa's importance; it does not strengthen it."
+  },
+  "traps": {
+   "B": "too friendly",
+   "C": "contradicts the text",
+   "D": "wrong direction"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q8 · Twin 3",
+   "trap_answer": "B",
+   "trap": "A is too friendly: Text 2 does not call the claim plausible. Text 2 attacks the PREMISE (stones = tools), not the conclusion.",
+   "lesson": "Cross-text: find exactly what Text 2 doubts. If it questions the evidence itself → 'rests on an assumption that isn't supported'. Match the strength of the attitude (skeptical ≠ 'plausible')."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q11",
+  "modeled_on": "bb-pt6-rw-m1-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "medium",
+  "topic": "a farm worker's mixed feelings about her employer",
+  "fictional": true,
+  "passage": "\"Letters from Hollin Farm\" is an 1871 story by Edith Crane. In the story, the narrator writes to her sister about the farm where she has gone to work as a dairymaid. Throughout the letters, the narrator is ambivalent about her new employer, Mrs. Hollin.",
+  "stem": "Which quotation from \"Letters from Hollin Farm\" most effectively illustrates the claim?",
+  "choices": [
+   "\"Mrs. Hollin is the kindest woman I know, yet her temper on washing days would frighten a soldier.\"",
+   "\"Mrs. Hollin has buried two husbands and keeps both of their portraits above the kitchen fireplace.\"",
+   "\"I dread the sound of Mrs. Hollin's step in the hall, for it always means some new complaint.\"",
+   "\"Mrs. Hollin rises at five, and by six the whole house is expected to be awake and at work.\""
+  ],
+  "answer": "A",
+  "explanation": "'Kindest woman I know' (positive) + 'yet her temper... would frighten a soldier' (negative) = ambivalence in one quotation.",
+  "steps": [
+   "Ambivalent = two opposite feelings.",
+   "Look for a positive part AND a negative part, often joined by 'yet' or 'but'.",
+   "Only one quotation has both: 'kindest... yet her temper...'."
+  ],
+  "strategy_tip": "'Ambivalent' or 'mixed' → look for 'but', 'yet', 'all but', 'though' inside the quotation.",
+  "rationales": {
+   "A": "Correct. 'Kindest woman I know' (positive) + 'yet her temper... would frighten a soldier' (negative) = ambivalence in one quotation.",
+   "B": "No feeling: A fact about Mrs. Hollin's past, with no attitude.",
+   "C": "One-sided: Only dread and complaints, no positive feeling.",
+   "D": "No feeling: It describes the daily schedule."
+  },
+  "traps": {
+   "B": "no feeling",
+   "C": "one-sided (negative only)",
+   "D": "no feeling"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q11 · Twin 2",
+   "trap_answer": "C",
+   "trap": "Same trap as PT5: a one-sided quotation can't show MIXED feelings. You need both a positive and a negative element in ONE quotation.",
+   "lesson": "Claim says 'mixed / ambivalent / both'? → the quote must contain two opposite attitudes, usually joined by 'but / all but / yet / although'."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q11",
+  "modeled_on": "bb-pt6-rw-m1-q11",
+  "skill": "RW.INI.COET.QUOTE",
+  "difficulty": "hard",
+  "topic": "a poet's affection and frustration with his home village",
+  "fictional": true,
+  "passage": "In the 1923 poem \"Harbor Town,\" poet Owen Vale writes about returning to the fishing village where he grew up after twenty years in the city. In the poem, the speaker walks through the village at dusk, noticing what has and has not changed. Scholars have noted that the poem expresses both affection for the village and frustration with it.",
+  "stem": "Which quotation from \"Harbor Town\" most effectively illustrates the claim?",
+  "choices": [
+   "\"The city taught me speed and noise; / it never taught me how to rest.\"",
+   "\"I love each crooked lane and tarry net, / and curse the gossip that still trails my name.\"",
+   "\"The gulls still quarrel on the chapel roof / as they did when I was nine years old.\"",
+   "\"No one here has read a book since spring; / the talk is all of herring and of rain.\""
+  ],
+  "answer": "B",
+  "explanation": "'I love each crooked lane' (affection) + 'curse the gossip' (frustration), both about the village.",
+  "steps": [
+   "Claim: affection AND frustration, about the VILLAGE.",
+   "Check three boxes: positive? negative? about the village?",
+   "The city lines are mixed but fail the third box.",
+   "Only 'I love... and curse...' ticks all three."
+  ],
+  "strategy_tip": "Turn the claim into a checklist, including WHAT the feeling is about. A mixed quote about the wrong thing is a trap.",
+  "rationales": {
+   "A": "Wrong subject: These lines are mixed, but they are about the CITY, not the village.",
+   "B": "Correct. 'I love each crooked lane' (affection) + 'curse the gossip' (frustration), both about the village.",
+   "C": "No clear feeling: An observation that the gulls haven't changed.",
+   "D": "One-sided: Only frustration with the village, no affection."
+  },
+  "traps": {
+   "A": "wrong subject",
+   "C": "no clear feeling",
+   "D": "one-sided (negative only)"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q11 · Twin 3",
+   "trap_answer": "D",
+   "trap": "Same trap as PT5: a one-sided quotation can't show MIXED feelings. You need both a positive and a negative element in ONE quotation.",
+   "lesson": "Claim says 'mixed / ambivalent / both'? → the quote must contain two opposite attitudes, usually joined by 'but / all but / yet / although'."
+  }
+ },
+ {
+  "id": "pt6-twin2-rw-m1-q14",
+  "modeled_on": "bb-pt6-rw-m1-q14",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "medium",
+  "topic": "a rare blue dye shared by two towns",
+  "fictional": true,
+  "passage": "Weavers in the mountain village of Tessaro use a rare blue dye made from the roots of a marsh plant. The same dye, made by the same method, is used in the lowland town of Brava, and church records show that Tessaro was founded in the 1600s by families who moved there from Brava. These facts suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the dye will become popular in other mountain villages over the coming decades.",
+   "Brava's weavers learned how to make the rare blue dye from the families who later founded Tessaro.",
+   "Tessaro's weavers most likely learned the method of making the dye from weavers in Brava.",
+   "the marsh plant used for the dye grows only in the mountains near Tessaro."
+  ],
+  "answer": "C",
+  "explanation": "Same dye and method + founders came from Brava → Tessaro got the method from Brava.",
+  "steps": [
+   "Fact 1: both places use the same rare dye and method.",
+   "Fact 2: Tessaro's founders came from Brava.",
+   "Smallest step: the founders brought the method with them."
+  ],
+  "strategy_tip": "Similarity + 'people moved from A to B' → B got it from A. Reject future and reversed answers.",
+  "rationales": {
+   "A": "Beyond the text: A prediction about the future; the text is about where the dye came from.",
+   "B": "Reversed: The families moved FROM Brava TO Tessaro, so the method most likely moved that way too.",
+   "C": "Correct. Same dye and method + founders came from Brava → Tessaro got the method from Brava.",
+   "D": "Contradicts the text: Brava, a lowland town, makes the same dye."
+  },
+  "traps": {
+   "A": "beyond the text (future)",
+   "B": "reversed direction",
+   "D": "contradicts the text"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q14 · Twin 2",
+   "trap_answer": "A",
+   "trap": "B predicts the future — the text is only about the past origin. Classic 'beyond the text' distractor.",
+   "lesson": "Inference = the smallest step that connects ALL the facts given (similarity + settlement history → origin). Reject future predictions and reversed causation."
+  }
+ },
+ {
+  "id": "pt6-twin3-rw-m1-q14",
+  "modeled_on": "bb-pt6-rw-m1-q14",
+  "skill": "RW.INI.INF.COMPLETE",
+  "difficulty": "hard",
+  "topic": "a songbird trill carried between islands by a storm",
+  "fictional": true,
+  "passage": "Biologists studying the songbirds of the Lorne Islands noticed that birds on the island of Kell end their songs with a distinctive three-note trill. The only other population known to sing this trill lives on Marra, an island 40 kilometers to the north. Kell had no population of the species until the 1950s; according to island records, the birds first appeared there shortly after a storm carried many birds south from Marra. Birds on the other Lorne Islands, which the storm did not reach, do not sing the trill. These observations suggest that ______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+   "the trill will eventually spread from Kell to the other Lorne Islands in the region.",
+   "birds on Marra learned the trill from birds that had settled on Kell.",
+   "the storm caused the birds on Kell to change the way they sing.",
+   "the trill sung on Kell was most likely brought there by birds from Marra."
+  ],
+  "answer": "D",
+  "explanation": "Same trill only on Kell and Marra + Kell's birds came from Marra → the trill came with them.",
+  "steps": [
+   "Fact 1: only Kell and Marra birds sing the trill.",
+   "Fact 2: Kell's birds arrived from Marra in a storm.",
+   "Fact 3: islands the storm missed don't have it.",
+   "Smallest step connecting all three: the trill came from Marra with the birds."
+  ],
+  "strategy_tip": "Use every fact. An answer that ignores one of them (or predicts the future) is a trap.",
+  "rationales": {
+   "A": "Beyond the text: A prediction about the future; the text explains where the trill came from.",
+   "B": "Reversed: The birds moved from Marra to Kell, so the trill most likely moved that way.",
+   "C": "Not supported: The storm carried birds to Kell; nothing says it changed their songs.",
+   "D": "Correct. Same trill only on Kell and Marra + Kell's birds came from Marra → the trill came with them."
+  },
+  "traps": {
+   "A": "beyond the text (future)",
+   "B": "reversed direction",
+   "C": "not supported"
+  },
+  "replay": {
+   "label": "PT6 · R&W M1 · Q14 · Twin 3",
+   "trap_answer": "A",
+   "trap": "B predicts the future — the text is only about the past origin. Classic 'beyond the text' distractor.",
+   "lesson": "Inference = the smallest step that connects ALL the facts given (similarity + settlement history → origin). Reject future predictions and reversed causation."
+  }
+ }
+]

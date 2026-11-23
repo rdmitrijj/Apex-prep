@@ -10,7 +10,9 @@ import {
   DRILL_MODES,
   MODE_INFO,
   modeName,
+  PT6_MODES,
   type MockForm,
+  type PT6Mode,
   startTriage,
   submitTriage,
   timerColor,
@@ -173,7 +175,7 @@ function Run({ started, onDone }: { started: Started; onDone: (r: ResultsData) =
           </p>
         </div>
         <div className="flex items-center gap-3">
-          {(started.mode === "math" || started.mode === "mockmath" || started.mode === "replaymath") && (
+          {["math", "mockmath", "replaymath", "twinsmath"].includes(started.mode) && (
             <>
               <button type="button" aria-pressed={tool === "calc"} onClick={() => setTool((t) => (t === "calc" ? null : "calc"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Calculator</button>
               <button type="button" aria-pressed={tool === "ref"} onClick={() => setTool((t) => (t === "ref" ? null : "ref"))} className="rounded px-2 py-1 text-sm hover:bg-slate-100">Reference</button>
@@ -361,10 +363,13 @@ export function Triage() {
   };
   const auto = useRef(false);
   useEffect(() => {
+    // PT6: ?replay=rw|math|both, or ?replay=<any PT6 mode>.
     const replay = params.get("replay");
-    if (!auto.current && (replay === "rw" || replay === "math" || replay === "both")) {
+    const modes: Record<string, PT6Mode[]> = { rw: ["replayrw"], math: ["replaymath"], both: ["replayrw", "replaymath"] };
+    const queue = replay ? (modes[replay] ?? (PT6_MODES.includes(replay as PT6Mode) ? [replay as PT6Mode] : null)) : null;
+    if (!auto.current && queue) {
       auto.current = true;
-      window.setTimeout(() => (replay === "math" ? start("replaymath") : start("replayrw", undefined, replay === "both" ? ["replaymath"] : [])));
+      window.setTimeout(() => start(queue[0], undefined, queue.slice(1)));
       return;
     }
     const mock = params.get("mock");

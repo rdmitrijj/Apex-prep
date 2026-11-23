@@ -5,7 +5,9 @@ import type { Question, VocabEntry } from "./drill";
 export type { VocabEntry };
 
 export type DrillMode = "sprint" | "module" | "weakness" | "math";
-export type TriageMode = DrillMode | "mockrw" | "mockmath" | "replayrw" | "replaymath";
+export type TriageMode = DrillMode | "mockrw" | "mockmath" | PT6Mode;
+export type PT6Mode = "replayrw" | "replaymath" | "twin2rw" | "twin3rw" | "twinsmath";
+export const PT6_MODES: PT6Mode[] = ["replayrw", "replaymath", "twin2rw", "twin3rw", "twinsmath"];
 export type MockForm = "A" | "B" | "C";
 
 export const MODE_INFO: Record<TriageMode, { name: string; blurb: string }> = {
@@ -17,6 +19,9 @@ export const MODE_INFO: Record<TriageMode, { name: string; blurb: string }> = {
   mockmath: { name: "Mini Mock Math", blurb: "22 questions in 35 minutes from your PT5 weakness sets, about a quarter grid-in." },
   replayrw: { name: "PT6 Replay R&W", blurb: "Your 25 PT6 R&W twins in test order, 30 minutes." },
   replaymath: { name: "PT6 Replay Math", blurb: "Your 10 PT6 Math twins in test order, 16 minutes." },
+  twin2rw: { name: "PT6 Twins+ R&W (twin 2)", blurb: "25 new R&W twins at the original difficulty, 30 minutes." },
+  twin3rw: { name: "PT6 Twins+ R&W (twin 3)", blurb: "25 harder, longer R&W twins, 32 minutes." },
+  twinsmath: { name: "PT6 Twins+ Math", blurb: "20 Math twins (same level and harder), 32 minutes." },
 };
 export const DRILL_MODES: DrillMode[] = ["sprint", "module", "weakness", "math"];
 

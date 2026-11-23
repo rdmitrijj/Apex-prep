@@ -11,7 +11,19 @@ from typing import Literal
 
 from app.engine.exam import quotas
 
-Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath", "replayrw", "replaymath"]
+Mode = Literal[
+    "sprint",
+    "module",
+    "weakness",
+    "math",
+    "mockrw",
+    "mockmath",
+    "replayrw",
+    "replaymath",
+    "twin2rw",
+    "twin3rw",
+    "twinsmath",
+]
 
 # (questions, seconds). Module Simulation matches a real R&W module (27 in 32 minutes).
 MODES: dict[str, tuple[int, int]] = {
@@ -25,6 +37,18 @@ MODES: dict[str, tuple[int, int]] = {
     # PT6 Replay: one twin per PT6 mistake in test order (R&W 25, Math 10).
     "replayrw": (25, 30 * 60),
     "replaymath": (10, 16 * 60),
+    # PT6 Twins+: twin 2 (same difficulty), twin 3 (harder, longer), and both math twins.
+    "twin2rw": (25, 30 * 60),
+    "twin3rw": (25, 32 * 60),
+    "twinsmath": (20, 32 * 60),
+}
+# Fixed PT6 sets behind the replay/twin modes: (twin kinds, section).
+PT6_SETS: dict[str, tuple[tuple[str, ...], str]] = {
+    "replayrw": (("replay",), "rw"),
+    "replaymath": (("replay",), "math"),
+    "twin2rw": (("twin2",), "rw"),
+    "twin3rw": (("twin3",), "rw"),
+    "twinsmath": (("twin2", "twin3"), "math"),
 }
 # Share of R&W domains in Sprint and Module Simulation, weighted toward the owner's weak areas.
 DOMAIN_SHARES = {"RW.INI": 0.36, "RW.CAS": 0.31, "RW.SEC": 0.19, "RW.EOI": 0.14}

@@ -96,17 +96,17 @@ async def test_import_keeps_trap_links_twins_and_is_due(user: AsyncClient) -> No
         assert (await imported.load(db, uid, doc))["added"] == 35
         assert (await imported.load(db, uid, doc))["added"] == 0  # idempotent
     due = (await user.get("/api/imported-mistakes?due=true")).json()
-    assert len(due) == 35 and all(m["trap"] and len(m["twin_ids"]) == 1 for m in due)
+    assert len(due) == 35 and all(m["trap"] and len(m["twin_ids"]) >= 3 for m in due)
     assert {m["miss_reason"] for m in due if m["result"] == "omitted"} == {"slow"}
     assert due[0]["badge"] == "Bluebook PT6"
 
 
 def items() -> dict[str, RWSeedItem | MathItem]:
     out: dict[str, RWSeedItem | MathItem] = {}
-    for i in json.loads((SEED_DIR / "rw" / "pt6_replay.json").read_text()):
-        out[i["id"]] = RWSeedItem.model_validate(i)
-    for i in json.loads((SEED_DIR / "math" / "pt6_replay.json").read_text()):
-        out[i["id"]] = MathItem.model_validate(i)
+    for f in sorted((SEED_DIR / "rw").glob("pt6_*.json")):
+        out |= {i["id"]: RWSeedItem.model_validate(i) for i in json.loads(f.read_text())}
+    for f in sorted((SEED_DIR / "math").glob("pt6_*.json")):
+        out |= {i["id"]: MathItem.model_validate(i) for i in json.loads(f.read_text())}
     return out
 
 
@@ -139,9 +139,35 @@ def test_mirror_originality_and_box_plot_checks() -> None:
 
 
 def test_spr_grader_accepts_every_listed_entry() -> None:
-    for i in json.loads((SEED_DIR / "math" / "pt6_replay.json").read_text()):
-        if i["format"] == "spr":
-            keys = [Fraction(a) for a in i["spr_answers"]]
-            assert all(is_correct(e, keys) for e in i["spr_entries"]), i["id"]
-            assert not any(is_correct(t, keys) for t in i["spr_traps"]), i["id"]
+    for i in items().values():
+        if isinstance(i, MathItem) and i.format == "spr":
+            keys = [Fraction(a) for a in i.spr_answers or []]
+            assert all(is_correct(e, keys) for e in i.spr_entries or []), i.id
+            assert not any(is_correct(t, keys) for t in i.spr_traps or {}), i.id
     assert is_correct("3.333", [Fraction(10, 3)]) and not is_correct("3.33", [Fraction(10, 3)])
+
+
+async def test_twins_plus_practice_and_timed_modes(user: AsyncClient) -> None:
+    twins = (await user.get("/api/pt6/replay?kind=twins")).json()
+    assert len(twins) == 70
+    assert [q["label"] for q in twins[:2]] == [f"{label(SOURCE[0])} · Twin 2", f"{label(SOURCE[0])} · Twin 3"]
+    speed = (await user.get("/api/pt6/replay?kind=speed")).json()
+    assert [q["label"].split(" · ")[2] for q in speed] == ["Q17", "Q19", "Q21", "Q22"]
+    for mode, n, limit in (("twin2rw", 25, 30 * 60), ("twin3rw", 25, 32 * 60), ("twinsmath", 20, 32 * 60)):
+        body = (await user.post("/api/triage/start", json={"mode": mode})).json()
+        assert len(body["questions"]) == n and body["limit_seconds"] == limit, mode
+
+
+def test_twin_rules() -> None:
+    good = items()
+    bad = dict(good)
+    t2 = good["pt6-twin2-rw-m2-q12"]
+    bad["pt6-twin2-rw-m2-q12"] = t2.model_copy(update={"answer": "D"})  # the record's letter
+    t3 = good["pt6-twin3-rw-m1-q01"]
+    assert isinstance(t3, RWSeedItem)
+    bad["pt6-twin3-rw-m1-q01"] = t3.model_copy(update={"passage": " ".join(t3.passage.split()[:30])})
+    del bad["pt6-speed-math-m2-q17"]
+    found = {(i, p.split()[0]) for _, i, p in check_pt6(bad)}
+    assert ("pt6-twin2-rw-m2-q12", "twin") in found  # "twin 2 must move the key off D"
+    assert ("pt6-twin3-rw-m1-q01", "twin") in found  # "twin 3 is N words, not longer..."
+    assert ("pt6-speed-math-m2-q17", "missing") in found

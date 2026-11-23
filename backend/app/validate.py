@@ -172,6 +172,8 @@ def bank_group(eid: str, skill: str) -> str:
         return "pt5 " + "-".join(eid.split("-")[1:3])
     if eid.startswith("pt6-replay-"):
         return "pt6 replay"  # keys fixed by the original test: no balance check
+    if eid.startswith("pt6-"):
+        return "pt6 twins math" if "-math-" in eid else "pt6 twins rw"
     return skill_of(skill)
 
 
@@ -415,7 +417,7 @@ def check_seed_files(leaves: set[str]) -> tuple[list[Failure], set[str], Counter
     out += check_bank(rw)
     groups: dict[str, list[str]] = defaultdict(list)  # PT5 math sets: multiple-choice key balance
     for m in math:
-        if m.id.startswith("pt5-") and m.answer:
+        if m.id.startswith(("pt5-", "pt6-")) and m.answer and not m.id.startswith("pt6-replay-"):
             groups[bank_group(m.id, m.skill)].append(m.answer)
     for g, keys in groups.items():
         n, letters = len(keys), Counter(keys)
@@ -513,9 +515,38 @@ def mirror_letter(row: dict[str, Any], field: str) -> str | None:
     return m[1] if m else None
 
 
+def mirror_common(t: RWSeedItem | MathItem, r: dict[str, Any], skill: str | None, label: str) -> list[str]:
+    """What every PT6 twin shares with its record: source, skill, label, trap and lesson, trap answer."""
+    errs = []
+    rid = r["external_id"]
+    if t.modeled_on != "bb-" + rid:
+        errs.append(f"modeled_on is {t.modeled_on}, needs bb-{rid}")
+    if t.skill != skill:
+        errs.append(f"skill {t.skill}, the record's is {skill}")
+    rp = t.replay
+    if rp is None:
+        return [*errs, "no replay block"]
+    if rp.label != label:
+        errs.append(f"label {rp.label!r}, needs {label!r}")
+    if (rp.trap, rp.lesson) != (r["trap"], r["lesson"]):
+        errs.append("trap/lesson differ from the record")
+    if r["status"] != "wrong":
+        if rp.trap_answer is not None:
+            errs.append("blank/guessed records have no trap answer")
+    elif rp.trap_answer is None:
+        errs.append("needs a trap answer (the choice that repeats the PT6 mistake)")
+    elif isinstance(t, MathItem) and t.format == "spr":
+        if rp.trap_answer not in (t.spr_traps or {}):
+            errs.append("SPR trap answer must be one of spr_traps")
+    elif rp.trap_answer == getattr(t, "answer", None):
+        errs.append("the trap answer is the key")
+    return errs
+
+
 def check_pt6(items: dict[str, RWSeedItem | MathItem]) -> list[Failure]:
-    """PT6 Replay mirrors its record (skill, key letter, trap letter, label, trap, lesson); no PT6 item
-    echoes a paraphrase of an official question; box plots are consistent."""
+    """PT6 Replay mirrors its record (skill, key letter, trap letter, label, trap, lesson). Twins+: twin 2
+    keeps the difficulty but moves the key letter, twin 3 is hard and (R&W) longer, the four math blanks
+    have a 60-second version. No PT6 item echoes a paraphrase; box plots are consistent."""
     if not PT6_SOURCE.exists():
         return []
     out: list[Failure] = []
@@ -526,47 +557,64 @@ def check_pt6(items: dict[str, RWSeedItem | MathItem]) -> list[Failure]:
     }
     for r in src:
         rid = r["external_id"]
-        tid = "pt6-replay-" + rid.removeprefix("pt6-")
-        t = items.get(tid)
-        if t is None:
-            out.append(("pt6", tid, "missing replay twin"))
-            continue
-        errs = []
-        if t.modeled_on != "bb-" + rid:
-            errs.append(f"modeled_on is {t.modeled_on}, needs bb-{rid}")
-        if t.skill != skills.get(rid):
-            errs.append(f"skill {t.skill}, the record's is {skills.get(rid)}")
-        rp = t.replay
-        if rp is None:
-            out += [("pt6", tid, e) for e in [*errs, "no replay block"]]
-            continue
-        sec = "R&W" if r["section"] == "rw" else "Math"
-        if rp.label != f"PT6 · {sec} M{r['module']} · Q{r['number']}":
-            errs.append(f"label {rp.label!r} doesn't match the record")
-        if (rp.trap, rp.lesson) != (r["trap"], r["lesson"]):
-            errs.append("trap/lesson differ from the record")
+        base = rid.removeprefix("pt6-")
+        label = f"PT6 · {'R&W' if r['section'] == 'rw' else 'Math'} M{r['module']} · Q{r['number']}"
         mirror = r.get("mirror_twin") or {}
-        key = mirror.get("correct") or mirror_letter(r, "correct_answer")
+        letter = mirror.get("correct") or mirror_letter(r, "correct_answer")
+        t = items.get(f"pt6-replay-{base}")
+        if t is None:
+            out.append(("pt6", f"pt6-replay-{base}", "missing replay twin"))
+            continue
+        errs = mirror_common(t, r, skills.get(rid), label)
         answer = getattr(t, "answer", None)
-        if key and answer != key:
-            errs.append(f"key {answer}, the record's letter is {key}")
-        if not key and getattr(t, "format", "mc") != "spr":
+        if letter and answer != letter:
+            errs.append(f"key {answer}, the record's letter is {letter}")
+        if not letter and getattr(t, "format", "mc") != "spr":
             errs.append("the record is grid-in, the twin isn't")
+        spr = getattr(t, "spr_answers", None)
+        if mirror.get("answer") and spr and Fraction(spr[0]) != Fraction(mirror["answer"]):
+            errs.append(f"SPR key {spr[0]} differs from the mirror twin's {mirror['answer']}")
         if (
-            mirror.get("answer")
-            and t.spr_answers
-            and Fraction(t.spr_answers[0]) != Fraction(mirror["answer"])
-        ):  # type: ignore[union-attr]
-            errs.append(f"SPR key {t.spr_answers[0]} differs from the mirror twin's {mirror['answer']}")  # type: ignore[union-attr]
-        if r["status"] != "wrong":
-            if rp.trap_answer is not None:
-                errs.append("blank/guessed records have no trap answer")
-        elif (trap := mirror_letter(r, "my_answer")) is not None:
-            if rp.trap_answer != trap:
-                errs.append(f"trap answer {rp.trap_answer}, but the PT6 pick was {trap}")
-        elif not (isinstance(t, MathItem) and rp.trap_answer in (t.spr_traps or {})):
-            errs.append("SPR trap answer must be one of spr_traps")
-        out += [("pt6", tid, e) for e in errs]
+            letter
+            and r["status"] == "wrong"
+            and t.replay
+            and t.replay.trap_answer != mirror_letter(r, "my_answer")
+        ):
+            errs.append(
+                f"trap answer {t.replay.trap_answer}, but the PT6 pick was {mirror_letter(r, 'my_answer')}"
+            )
+        out += [("pt6", t.id or "", e) for e in errs]
+        speed = r["section"] == "math" and r["status"] == "omitted"
+        for kind, suffix in [
+            ("twin2", "Twin 2"),
+            ("twin3", "Twin 3"),
+            *([("speed", "60-second")] if speed else []),
+        ]:
+            tid = f"pt6-{kind}-{base}"
+            tw = items.get(tid)
+            if tw is None:
+                out.append(("pt6", tid, f"missing {suffix.lower()}"))
+                continue
+            errs = mirror_common(tw, r, skills.get(rid), f"{label} · {suffix}")
+            if getattr(tw, "format", "mc") != getattr(t, "format", "mc"):
+                errs.append("format differs from the record's")
+            if kind == "twin2":
+                if tw.difficulty != t.difficulty:
+                    errs.append(f"difficulty {tw.difficulty}, the record's is {t.difficulty}")
+                if letter and getattr(tw, "answer", None) == letter:
+                    errs.append(f"twin 2 must move the key off {letter}")
+            if kind == "twin3":
+                if tw.difficulty != "hard":
+                    errs.append("twin 3 must be hard")
+                if isinstance(tw, RWSeedItem) and isinstance(t, RWSeedItem) and words(tw) <= words(t):
+                    errs.append(f"twin 3 is {words(tw)} words, not longer than the replay twin ({words(t)})")
+            out += [("pt6", tid, e) for e in errs]
+    known = {
+        f"pt6-{k}-{r['external_id'].removeprefix('pt6-')}"
+        for r in src
+        for k in ("replay", "twin2", "twin3", "speed")
+    }
+    out += [("pt6", e, "id matches no PT6 record") for e in items if e.startswith("pt6-") and e not in known]
     para = {s for r in src for s in shingles(r["paraphrase"])}
     for eid, item in items.items():
         if not eid.startswith("pt6-"):

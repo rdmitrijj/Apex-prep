@@ -18,7 +18,19 @@ from app.services import imported, pt5, pt6
 from app.services import questions as qs
 
 router = APIRouter(prefix="/triage", tags=["triage"])
-Mode = Literal["sprint", "module", "weakness", "math", "mockrw", "mockmath", "replayrw", "replaymath"]
+Mode = Literal[
+    "sprint",
+    "module",
+    "weakness",
+    "math",
+    "mockrw",
+    "mockmath",
+    "replayrw",
+    "replaymath",
+    "twin2rw",
+    "twin3rw",
+    "twinsmath",
+]
 Form = Literal["A", "B", "C"]
 
 
@@ -122,8 +134,9 @@ async def weak_skills(db: DB, user: CurrentUser) -> list[str]:
 async def start(body: StartIn, db: DB, user: CurrentUser) -> StartOut:
     if body.mode.startswith("mock"):
         return await _mock(body, db)
-    if body.mode.startswith("replay"):
-        picked = await pt6.replay(db, body.mode.removeprefix("replay"))
+    if body.mode in tr.PT6_SETS:
+        kinds, section = tr.PT6_SETS[body.mode]
+        picked = await pt6.replay(db, section, kinds)
         if not picked:
             raise HTTPException(409, "PT6 Replay isn't available yet")
         names = await qs.skill_names(db)

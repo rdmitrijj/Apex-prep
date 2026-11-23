@@ -1,4 +1,5 @@
 from datetime import timedelta
+from fractions import Fraction
 
 import pytest
 from httpx import AsyncClient
@@ -6,6 +7,7 @@ from sqlalchemy import select, update
 
 from app.core.db import SessionLocal
 from app.engine.exam import RW_DOMAIN_ORDER, domain_of
+from app.generators.spr import canonical_entry
 from app.models import ExamModule, Question, Response
 from app.services.exam import now
 from app.services.questions import seed
@@ -26,7 +28,12 @@ async def _key(qid: int) -> str:
     async with SessionLocal() as db:
         q = await db.get(Question, qid)
         assert q is not None
-        return q.content["answer"] if q.format == "mc" else q.content["spr_answers"][0]
+        # A student types the shortest valid entry (5 characters), not the exact fraction ("1089/25").
+        return (
+            q.content["answer"]
+            if q.format == "mc"
+            else canonical_entry(Fraction(q.content["spr_answers"][0]))
+        )
 
 
 async def _wrong(qid: int) -> str:
